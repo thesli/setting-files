@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Multiple Tabs Search</title>		
+	    <style type="text/css">
+	        	
+			.lableTitle
+	        {
+	            font-size:14px;
+	            font-weight:bold;
+	            margin:4px;
+	        }
+	
+			.redText
+			{
+				font-style:italic;
+				color:#AA0000;
+				margin-left:3px;
+			}
+			
+			.versionLabel
+			{
+			    color:Gray;
+			    float:right;
+			    margin-left:3px;
+			}
+			
+			.checkBox1 .checkBox2 .checkBox3
+			{
+				font-weight:normal;
+			}
+			
+			.checkBox1
+			{
+				float:left;
+				position:inherit;
+			}
+
+			.checkBox2 
+			{
+				float:right;
+			}
+
+			.checkBox3
+			{
+				display:inline;
+				float:right;
+			}
+	        
+	        #btnSearch, #btnClear
+	        {
+	            color:Black;
+	            border-radius: 5px;        
+	            display:inline;
+	        }
+	        
+	        #btnClear
+	        {
+	            background-color:White;
+	        }
+	        
+	        #btnSearch
+	        {
+		        background-color:Yellow;
+	        }
+	                
+	        textarea
+	        {
+	            font-family:"Calibri", "Verdana", "Arial";
+	            font-size:12px;
+	            border-style:groove;
+	            border-radius: 10px;
+	            border-color:Black;
+	            padding:10px;
+				margin-bottom:10px;
+	        }
+	
+			#container
+			{
+				width: 335px;
+			}
+	            
+	        body
+	        {
+   	            font-family:"Calibri", "Arial";
+            	background-color:Silver;
+				min-width:350px;
+				height:535px;
+				overflow-x: hidden;
+				font-size:13px;
+	        }
+	        
+	    </style>
+	    
+		<script src="multiple_tabs_search.js"></script>
+		
+	</head>
+	<body>
+	    <div class="lableTitle">Type (or paste) the words in the area bellow, one per line:</div>
+		<div>
+    		<textarea id="textboxWords" cols="51" rows="13"></textarea>
+		</div>
+		<div id="container">
+		    <div class="checkBox1">
+		        <input type="checkbox" value="youtube.com" name="ckRemove" id="ckYoutube" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Youtube<br />
+		        <input type="checkbox" value="soundcloud.com" name="ckRemove" id="ckSoundcloud" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove SoundCloud<br />
+		        <input type="checkbox" value="residentadvisor.net" name="ckRemove" id="ckResidentadvisor" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Resident Advisor<br />
+		        <input type="checkbox" value="facebook.com" name="ckRemove" id="ckFacebook" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Facebook<br />
+		        <input type="checkbox" value="discogs.com" name="ckRemove" id="ckdiscogs" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Discogs<br />
+		        <input type="checkbox" value="djtunes.com" name="ckRemove" id="ckDjtunes" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove DjTunes<br />
+                <input type="checkbox" value="junodownload.com" name="ckRemove" id="ckJunodownload" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove JunoDownload<br /> 
+                <input type="checkbox" value="amazon.com" name="ckRemove" id="ckAmazon" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Amazon<br />
+                <input type="checkbox" value="mrtzcmp3.net" name="ckRemove" id="ckMrtzcmp3" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Mrtzcmp3<br />                
+            </div>
+		    <div class="checkBox2">		    
+		        <input type="checkbox" value="itunes.apple.com" name="ckRemove" id="ckItunes" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove iTunes<br />
+		        <input type="checkbox" value="beatport.com" name="ckRemove" id="ckBeatport" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Beatport<br />
+		        <input type="checkbox" value="trackitdown.net" name="ckRemove" id="ckTrackitdown" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Trackitdown<br />
+		        <input type="checkbox" value="djDownload.com" name="ckRemove" id="ckDjDownload" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove DjDownload<br />
+		        <input type="checkbox" value="myspace.com" name="ckRemove" id="ckMyspace" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove MySpace<br />
+		        <input type="checkbox" value="mixcloud.com" id="ckMixcloud" name="ckRemove" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove MixCloud<br />
+		   		<input type="checkbox" value="last.fm" id="ckLastFm" name="ckRemove" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Last.fm<br />
+		   		<input type="checkbox" value="traxsource.com" name="ckRemove" id="ckTraxsource" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Traxsource<br />
+            </div>
+			<div class="checkBox1">
+            <br />
+            	<input type="checkbox" id="ckCheckAll" />&nbsp;Select all / none<br />
+            	<input type="checkbox" id="ckSurroundByQuotes"/>&nbsp;Surround by quotes<br />
+				<input type="checkbox" id="ckTrimEachLine" checked="checked"/>&nbsp;Trim each line<br />
+				<input type="checkbox" id="ckClearFormAfterSearch" checked="checked"/>&nbsp;Clear form after Search / Open<br />
+                <input type="radio" name="radioOpenSearch" id="rbSearchGoogle" value="search" checked="checked">&nbsp;Search on Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+                <input type="radio" name="radioOpenSearch" id="rbOpen" value="open">&nbsp;Open<span class="redText">*</span></input>
+                <p class="redText">* Only fully qualified urls (ex.: http://www.google.com)</p>
+            	<input type="button" id="btnSearch" value="Search" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;               
+          		<input type="button" id="btnClear" value="Clear settings" />
+          		<div class="versionLabel">v1.4 - Feb 2014</div>
+          		<br /><br />
+            </div>            
+            
+ 		</div>
+
+ 
+	</body>
+</html>

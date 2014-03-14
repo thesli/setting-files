@@ -1,0 +1,13 @@
+{
+   "description": "A CoffeeScript console within the Web Inspector.",
+   "devtools_page": "coffee.html",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8KyibhzsWCt9eEvnfwK7guTg1JUyAeuRq5dQdEzINhZcXUZqpSxuBJQNiLQsDCg5T9ojQN4gUmN+MuMRiLOUQ7O6HPu8Y2bGw5tV7/BRW/xrQn3H1htlHT+NzlqiwmLIEMR9i7YKO+qDq4FdWIxZZD6Pia2+EvT4Rid9a2xAYhwIDAQAB",
+   "minimum_chrome_version": "18",
+   "name": "CoffeeConsole",
+   "permissions": [ "tabs", "contextMenus" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.3"
+}

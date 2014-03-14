@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "No se puede bloquear esta p\u00E1gina"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Borrar las pesta\u00F1as cerradas recientemente"
+   },
+   "clickToOpen": {
+      "message": "Haz clic para abrir \"$title$\"",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Una nueva manera de navegar tus pesta\u00F1as. Accede f\u00E1cilmente a las pesta\u00F1as m\u00E1s utilizadas, a pesta\u00F1as relacionadas y a las pesta\u00F1as cerradas. Tmabi\u00E9n puedes bloquear las pesta\u00F1as."
+   },
+   "frequentlyUsedTabs": {
+      "message": "Pesta\u00F1as usadas frecuentemente"
+   },
+   "loading": {
+      "message": "Cargando..."
+   },
+   "lockPage": {
+      "message": "Bloquear esta p\u00E1gina"
+   },
+   "name": {
+      "message": "TabJump - Navegador de Pesta\u00F1as Inteligente"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "Pesta\u00F1as cerradas recientemente"
+   },
+   "relatedTabs": {
+      "message": "Pesta\u00F1as Relacionadas"
+   },
+   "sureToLeavePage": {
+      "message": "\u00BFEst\u00E1s seguro de dejar esta p\u00E1gina?"
+   },
+   "unlockPage": {
+      "message": "Desbloquear esta p\u00E1gina"
+   }
+}

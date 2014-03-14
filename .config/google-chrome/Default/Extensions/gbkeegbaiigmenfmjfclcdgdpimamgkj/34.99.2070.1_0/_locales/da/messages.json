@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Få flere oplysninger"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Hjælp os ved at rapportere problemet."
+   },
+   "app_nacl_crash_report": {
+      "message": "Rapportér et problem..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups, det burde ikke ske."
+   },
+   "app_nacl_error_msg": {
+      "message": "Der opstod et problem under indlæsning af applikationen."
+   },
+   "app_nacl_error_title": {
+      "message": "Filen kan ikke åbnes."
+   },
+   "application_description": {
+      "message": "Dokumentredigering"
+   },
+   "file_loading_spinner_label": {
+      "message": "Indlæser"
+   },
+   "file_not_found_msg": {
+      "message": "Den fil, du har anmodet om, har flyttet sig."
+   },
+   "file_not_found_title": {
+      "message": "Filen blev ikke fundet."
+   }
+}

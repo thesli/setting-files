@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "weeicon.png",
+      "default_title": "Check my links"
+   },
+   "description": "Check My Links is a link checker that crawls through your webpage and looks for broken links.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5Us7hxP81pA5Lm2/kwkTNuuOQwUlqZGgjqSF3bGRa9DQ1P2I93RQioz6JU7r21XiLUL7nCF3BNc6E1xGk7CuNMBOrAhPRKH/vKfzihgni9cTHz2c05w1eWPoDE0iOf0FOp1AmuiCC+Ym2mctA/JjtYUJwWJZafPD7atDiAEnYxQIDAQAB",
+   "manifest_version": 2,
+   "name": "Check My Links",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.4"
+}

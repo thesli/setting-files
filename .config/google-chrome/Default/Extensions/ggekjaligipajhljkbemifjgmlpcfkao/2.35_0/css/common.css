@@ -1,0 +1,23 @@
+.hide {display:none}
+.nowrap {white-space:nowrap}
+#title {text-shadow:#ccc 1px 1px 1px}
+
+.niceButton {
+	color: white;
+	cursor: pointer;
+	padding: 2px 4px;
+	font-weight: bold;
+	font-family: arial;
+	text-shadow: #C56B00 0px 1px 0px;
+	border-radius: 5px;
+	border: 1px solid #C56B00!important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F9A83A), to(#EC7712));
+	line-height: 18px;
+	text-decoration:none;
+}
+
+.niceButton:hover {
+	color: #fff;
+	text-shadow: #c56b00 0px -1px 0px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ec7712), to(#ec7712));
+}

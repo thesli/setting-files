@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "hotkey.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Ctrl + Shift + E to open extensions page",
+   "icons": {
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "64": "icon-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDyjXCOpD5OafuDcknfkWxmP32CV46xhSCJY5ko1XAWfq0Kz8qYfoAFZ1Wll6l7Tm56imQNfvCY8+n1pmGBOFw6UmfFzpsg2+TiXoJ04THMtGpPiBOcJZs9h6HLBI4Zi3bzfcf/Z7fiLzwiW81Btuw/DXhlZHYlvGOZkinnnPLMBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Extensions HotKey",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.6.1"
+}

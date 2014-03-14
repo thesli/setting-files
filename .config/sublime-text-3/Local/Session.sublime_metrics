@@ -1,0 +1,28 @@
+{
+	"licensed": false,
+	"packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"Better CoffeeScript",
+		"Git Config",
+		"Git",
+		"Gitignore",
+		"Jade",
+		"Nodejs",
+		"Package Control",
+		"Theme - Argonaut",
+		"Theme - Centurion",
+		"Theme - Minimal",
+		"Tomorrow Color Schemes"
+	],
+	"startup_sec": 0.337721,
+	"syntax":
+	{
+		"C++": 190,
+		"Makefile": 32,
+		"Objective-C++": 11,
+		"Plain text": 8
+	},
+	"time": 1392988114
+}

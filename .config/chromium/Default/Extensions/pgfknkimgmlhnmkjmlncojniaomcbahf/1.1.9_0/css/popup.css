@@ -1,0 +1,285 @@
+	body
+	{
+		margin: 0px;
+		padding: 2px;
+		width: 374px;
+		font: normal 12px sans-serif;
+	}
+
+	div#displayer
+	{
+		height: 350px;
+	}
+
+	div#supported_domain
+	{
+		display: none;
+	}
+
+
+	h2#cs_title
+	{
+		margin: 4px;
+		font: bold 15px sans-serif;
+		text-align: center;
+		color: #999999;
+	}
+
+	div#panel_statistics_view
+	{
+		height: 140px;
+	}
+
+	div#counter_statistics_view
+	{
+		height: 160px;
+	}
+
+	div#catalog_statistics_view
+	{
+		height: 40px;
+	}
+
+	table.cool
+	{
+		width: 350px;
+		margin: 0px 10px 0px 10px;
+		border-collapse: collapse;
+		color: #555555;
+	}
+
+	table.cool th
+	{
+		border: none;
+		font: bold 12px sans-serif;
+		color: #0083CF;
+		text-align: right;
+	}
+
+	table.cool td
+	{
+		padding: 2px;
+		font: normal 12px sans-serif;
+	}
+
+	table.cool td.l, table.cool th.l
+	{
+		padding-left: 8px;
+		text-align: left;
+	}
+
+	table.cool td.c, table.cool th.c
+	{
+		text-align: center;
+	}
+
+	table.cool td.r, table.cool th.r
+	{
+		padding-right: 8px;
+		text-align: right;
+	}
+
+	table.cool tr.a
+	{
+		background-color: #fff8e5;
+	}
+
+	table.cool tr.b
+	{
+		background-color: #f5f9ff;
+	}
+
+	table.cool tr.a, table.cool tr.b
+	{
+		border: 1px solid #ffebb2;
+	}
+
+	table.cool td[color="red"]
+	{
+		color: #ff0000 !important;
+	}
+
+	table.cool td[color="green"]
+	{
+		color: #008000 !important;
+	}
+
+
+	table.cool td.all_statistics
+	{
+		padding: 4px 0px;
+		font-weight: bold;
+		text-align: right;
+	}
+
+	table.cool td.all_statistics a
+	{
+		color: #3a83cb;
+	}
+
+	table.cool td#ts_demography_value
+	{
+		padding: 0px 8px 0px 0px !important;
+	}
+
+	table.cool td#ts_demography_value img
+	{
+		border: 0px;
+		margin: 0px 2px -4px 4px;
+		padding: 0px;
+	}
+
+	div.raring_back
+	{	
+		margin: 0px 8px 8px 0px;
+		height: 25px;
+		background: url('/images/rb_center.png') top left repeat-x;
+		min-width: 30px;
+		max-width: 80px;
+		float: left;
+	}
+
+	div.raring_back > div
+	{
+		height: 25px;
+		background: url('/images/rb_left.png') top left no-repeat;
+	}
+
+	div.raring_back > div > div
+	{
+		height: 25px;
+		background: url('/images/rb_right.png') top right no-repeat;
+
+		padding: 2px 8px 2px 8px;
+		font-size: 18px;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	div.raring_back[type="blog"]
+	{	
+		background-image: url('/images/rr_center.png') !important;
+	}
+
+	div.raring_back[type="blog"] > div
+	{
+		background-image: url('/images/rr_left.png') !important;
+	}
+
+	div.raring_back[type="blog"] > div > div
+	{
+		background-image: url('/images/rr_right.png') !important;
+	}
+
+	div#rating_right
+	{
+		padding: 6px;
+		color: #a3a3a3;
+		font-weight: bold;
+	}
+
+	div#rating_right > a
+	{
+		color: #3a83cb;
+	}
+
+	div#header
+	{
+		height: 84px;
+		overflow: hidden;
+	}
+
+	div#header img
+	{
+		border: none;
+	}
+
+	div#header a
+	{
+		margin: 0px 8px;
+		display: block;
+		width: 166px;
+		margin: 0 auto;
+	}
+
+	div#domain_selector
+	{
+		margin: 4px 10px 0px 10px;
+	}
+
+	div#domain_selector div
+	{
+		width: 244px;
+		border: 1px solid #ffebb2;
+		background-color: #fff8e5;
+		padding: 1px 2px 1px 4px;
+		text-align: left;
+
+		float: left;
+	}
+
+	div#domain_selector div input[type="text"]
+	{
+		border: none;
+		width: 230px;
+		color: #919191;
+		background-color: #fff8e5;
+		text-align: left;
+	}
+
+	div#domain_selector div img
+	{
+		margin-left: 2px;
+		cursor: pointer;
+	}
+
+	div#domain_selector > img
+	{
+		display: block;
+		float: right;
+		cursor: pointer;
+	}
+
+	div#unsupported_page, div#cs_info_label, div#ts_info_label, div#as_info_label
+	{
+		padding: 100px 20px 0px 20px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		color: #919191;
+	}
+
+	div#ts_info_label
+	{
+		padding-top: 20px !important;
+	}
+
+	div#cs_info_label
+	{
+		padding-top: 50px !important;
+	}
+
+	div#cs_info_label a
+	{
+		color: #3a83cb;
+	}
+
+	div#as_info_label
+	{
+		padding-top: 0px !important;
+		font-size: 12px !important;
+	}
+
+	div#as_category_info, div#as_statistics_info
+	{
+		padding-right: 10px;
+		text-align: right;
+		font-weight: bold;
+		color: #a3a3a3;
+	}
+
+	div#as_category_info > a, div#as_statistics_info > a
+	{
+		color: #3a83cb;
+	}
+

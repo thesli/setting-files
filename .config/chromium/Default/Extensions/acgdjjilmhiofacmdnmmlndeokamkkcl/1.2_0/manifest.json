@@ -1,0 +1,18 @@
+{
+   "background_page": "x.html",
+   "browser_action": {
+      "default_icon": "icon_32.png",
+      "default_title": "Instapaper"
+   },
+   "description": "Add the current page to your Instapaper List",
+   "icons": {
+      "128": "icon_128.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnB7hqXf9KW2Kv1SqoNDZTvzGRC7T9pxPxsmgyMsN/tD+2tl+1Q8i+7AZamIGJo7RXRkcX93mC3Ak/fHTqqMidz0m1SAUnw2FkXIFdOL3bVqIqLqFUa+LA9fjHqpCohPFzbATzzG/BBIY+lSMzOM7tXcL+HHi7G/sCuK06aN2KPwIDAQAB",
+   "name": "Instapaper",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}

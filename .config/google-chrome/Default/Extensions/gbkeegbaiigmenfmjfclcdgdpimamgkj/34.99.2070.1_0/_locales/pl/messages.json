@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Więcej informacji"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pomóż nam, zgłaszając problem."
+   },
+   "app_nacl_crash_report": {
+      "message": "Zgłoś problem..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Oj! Coś poszło nie tak."
+   },
+   "app_nacl_error_msg": {
+      "message": "Wystąpił problem podczas wczytywania aplikacji."
+   },
+   "app_nacl_error_title": {
+      "message": "Nie można otworzyć pliku."
+   },
+   "application_description": {
+      "message": "Edytowanie dokumentów"
+   },
+   "file_loading_spinner_label": {
+      "message": "Ładuję"
+   },
+   "file_not_found_msg": {
+      "message": "Żądany plik został przeniesiony."
+   },
+   "file_not_found_title": {
+      "message": "Nie znaleziono pliku."
+   }
+}

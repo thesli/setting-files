@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n t\u1EED con c\u1EE7a ph\u1EA7n t\u1EED \u0111\u01B0\u1EE3c n\u1ED7i b\u1EADt trong ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "Ph\u1EA7n t\u1EED con"
+   },
+   "elementToolbarHelp": {
+      "description": "V\u1EA5n tin tr\u1EE3 gi\u00FAp cho thanh c\u00F4ng c\u1EE5 ph\u1EA7n t\u1EED",
+      "message": "D\u00F9ng ch\u1EBF \u0111\u1ED9 theo d\u00F5i \u0111\u1EC3 di chuy\u1EC3n trong trang v\u00E0 l\u00E0m n\u1ED5i c\u00E1c ph\u1EA7n t\u1EED. Click m\u1ED9t ph\u1EA7n t\u1EED \u0111\u1EC3 t\u1EAFt ch\u1EBF \u0111\u1ED9 theo d\u00F5i."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n t\u1EED \u0111\u01B0\u1EE3c n\u1ED7i b\u1EADt trong ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "L\u00E0m n\u1ED5i ph\u1EA7n t\u1EED"
+   },
+   "elementToolbarNextSibling": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n t\u1EED sau ph\u1EA7n t\u1EED \u0111\u01B0\u1EE3c n\u1ED7i b\u1EADt trong ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "Ph\u1EA7n t\u1EED sau"
+   },
+   "elementToolbarParentNode": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n t\u1EED cha c\u1EE7a ph\u1EA7n t\u1EED \u0111\u01B0\u1EE3c n\u1ED7i b\u1EADt trong ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "Ph\u1EA7n t\u1EED cha"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n t\u1EED tr\u01B0\u1EDBc ph\u1EA7n t\u1EED \u0111\u01B0\u1EE3c n\u1ED7i b\u1EADt trong ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "Ph\u1EA7n t\u1EED tr\u01B0\u1EDBc"
+   },
+   "elementToolbarToggleOff": {
+      "description": "Ch\u1EEF cho tr\u1EA1ng th\u00E1i t\u1EAFt cho n\u00FAt ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "T\u1EAFt"
+   },
+   "elementToolbarToggleOn": {
+      "description": "Ch\u1EEF cho tr\u1EA1ng th\u00E1i b\u1EADt cho n\u00FAt ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "B\u1EADt"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Nh\u00E3n cho n\u00FAt ch\u1EBF \u0111\u1ED9 theo d\u00F5i",
+      "message": "Ch\u1EBF \u0111\u1ED9 thep d\u00F5i"
+   },
+   "errorLocal": {
+      "description": "Th\u00F4ng b\u00E1o l\u1ED7i hi\u1EC3n th\u1ECB khi m\u1ED9t ai \u0111\u00F3 \u0111\u1ECBnh ch\u1EA1y ti\u1EC7n \u00EDch trong trang chrome n\u1ED9i b\u1ED9",
+      "message": "C\u00E1c ti\u1EC7n \u00EDch kh\u00F4ng th\u1EC3 ch\u1EA1y trong c\u00E1c trang chrome n\u1ED9i b\u1ED9 v\u00EC l\u00FD do an ninh"
+   },
+   "errorWebStore": {
+      "description": "Th\u00F4ng b\u00E1o l\u1ED7i hi\u1EC3n th\u1ECB khi m\u1ED9t ai \u0111\u00F3 \u0111\u1ECBnh ch\u1EA1y ti\u1EC7n \u00EDch trong chrome web store",
+      "message": "C\u00E1c ti\u1EC7n \u00EDch kh\u00F4ng th\u1EC3 ch\u1EA1y trong chrome web store v\u00EC l\u00FD do an ninh"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "V\u1EBD m\u1ED9t th\u01B0\u1EDBc \u0111\u1EC3 l\u1EA5y k\u00EDch th\u01B0\u1EDBc v\u00E0 v\u1ECB tr\u00ED, v\u00E0 \u0111o ph\u1EA7n t\u1EED tr\u00EAn b\u1EA5t k\u1EF3 trang n\u00E0o."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Extension short name (maximum 12 characters)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "T\u1EF1a \u0111\u1EC1 cho trang tu\u1EF3 ch\u1EC9nh",
+      "message": "Tu\u1EF3 ch\u1EC9nh Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Tin nh\u1EAFn gi\u1EA3i th\u00EDch c\u00E1ch s\u1EED d\u1EE5ng c\u00E1c d\u1EEF li\u1EC7u th\u1ED1ng k\u00EA \u1EA9n danh",
+      "message": "Th\u00F4ng tin thu th\u1EADp kh\u00F4ng ch\u1EE9a th\u00F4ng tin ri\u00EAng t\u01B0 v\u00E0 \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng ho\u00E0n to\u00E0n cho m\u1EE5c \u0111\u00EDch c\u1EA3i thi\u1EC7n ti\u1EC7n \u00EDch n\u00E0y b\u1EB1ng c\u00E1ch xem nh\u1EEFng ph\u1EA7n n\u00E0o \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Nh\u00E3n cho checkbox g\u1EEDi \u1EA9n danh th\u1ED1ng k\u00EA s\u1EED d\u1EE5ng",
+      "message": "G\u1EEDi \u1EA9n danh th\u1ED1ng k\u00EA s\u1EED d\u1EE5ng:"
+   },
+   "toolbarBottom": {
+      "description": "Nh\u00E3n cho l\u1EC1 d\u01B0\u1EDBi \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "L\u1EC1 d\u01B0\u1EDBi"
+   },
+   "toolbarClose": {
+      "description": "Tooltip cho n\u00FAt \u0111\u00F3ng d\u00F9ng \u0111\u1EC3 \u0111\u00F3ng addon",
+      "message": "\u0110\u00F3ng"
+   },
+   "toolbarColor": {
+      "description": "Nh\u00E3n c\u00F4ng c\u1EE5 ch\u1ECDn m\u00E0u \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "M\u00E0u"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Nh\u00E3n cho n\u00FAt t\u1EAFt ch\u1EBF \u0111\u1ED9 ph\u1EA7n t\u1EED (ph\u1EA7n t\u1EED trong ph\u1EA7n t\u1EED HTML)",
+      "message": "T\u1EAFt ch\u1EBF \u0111\u1ED9 ph\u1EA9n t\u1EED"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Nh\u00E3n cho n\u00FAt k\u00EDch ho\u1EA1t ch\u1EBF \u0111\u1ED9 ph\u1EA7n t\u1EED (ph\u1EA7n t\u1EED trong ph\u1EA7n t\u1EED HTML)",
+      "message": "K\u00EDch ho\u1EA1t ch\u1EBF \u0111\u1ED9 ph\u1EA7n t\u1EED"
+   },
+   "toolbarHeight": {
+      "description": "Nh\u00E3n cho chi\u1EC1u cao \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "Cao"
+   },
+   "toolbarLeft": {
+      "description": "Nh\u00E3n cho l\u1EC1 tr\u00E1i \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "L\u1EC1 tr\u00E1i"
+   },
+   "toolbarRight": {
+      "description": "Nh\u00E3n cho l\u1EC1 ph\u1EA3i \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "L\u1EC1 ph\u1EA3i"
+   },
+   "toolbarTop": {
+      "description": "Nh\u00E3n cho l\u1EC1 tr\u00EAn \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "L\u1EC1 tr\u00EAn"
+   },
+   "toolbarWidth": {
+      "description": "Nh\u00E3n cho chi\u1EC1u r\u1ED9ng \u0111\u01B0\u1EE3c nh\u1EADp v\u00E0o \u1EDF thanh c\u00F4ng c\u1EE5",
+      "message": "R\u1ED9ng"
+   },
+   "updateCodeTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n m\u00E3 trong \u00F4 nh\u1EEFng ngu\u1EDDi \u0111\u00F3ng g\u00F3p",
+      "message": "M\u00E3"
+   },
+   "updateContributeTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho \u00F4 \u0111\u00F3ng g\u00F3p",
+      "message": "\u0110\u00F3ng g\u00F3p cho Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho \u00F4 nh\u1EEFng ngu\u1EDDi \u0111\u00F3ng g\u00F3p",
+      "message": "Nh\u1EEFng ng\u01B0\u1EDDi \u0111\u00F3ng g\u00F3p"
+   },
+   "updateHistoryTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho l\u1ECBch s\u1EED c\u1EADp nh\u1EADt",
+      "message": "C\u00F3 g\u00EC m\u1EDBi?"
+   },
+   "updateIconsTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n icon trong \u00F4 nh\u1EEFng ngu\u1EDDi \u0111\u00F3ng g\u00F3p",
+      "message": "C\u00E1c icon"
+   },
+   "updatePageHeader": {
+      "description": "T\u1EF1a \u0111\u1EC1 ch\u00EDnh cho trang ch\u1EE9a s\u1ED1 phi\u00EAn b\u1EA3n m\u1EDBi",
+      "message": "Page Ruler \u0111\u00E3 \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt l\u00EAn phi\u00EAn b\u1EA3n \u003Cspan\u003E$VERSION$\u003C/span\u003E",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC3 cho trang c\u1EADp nh\u1EADt",
+      "message": "\u0110\u00E3 c\u1EADp nh\u1EADt Page Ruler"
+   },
+   "updateTranslateDescription": {
+      "desciption": "M\u00F4 t\u1EA3 c\u00E1ch \u0111\u00F3ng g\u00F3p b\u1EA3n d\u1ECBch",
+      "message": "Mu\u1ED1n s\u1EED d\u1EE5ng Page Ruler v\u1EDBi ng\u00F4n ng\u1EEF c\u1EE7a b\u1EA1n? Gh\u00E9 th\u0103m \u003Ca href='https://github.com/wrakky/page-ruler'\u003Etrang d\u1EF1 \u00E1n GitHub\u003C/a\u003E v\u00E0 l\u00E0m theo ch\u1EC9 d\u1EABn \u0111\u1EC3 g\u1EEDi b\u1EA3n d\u1ECBch."
+   },
+   "updateTranslateTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n d\u1ECBch trong \u00F4 \u0111\u00F3ng g\u00F3p",
+      "message": "D\u1ECBch"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "T\u1EF1a \u0111\u1EC1 cho ph\u1EA7n d\u1ECBch trong \u00F4 nh\u1EEFng ngu\u1EDDi \u0111\u00F3ng g\u00F3p",
+      "message": "C\u00E1c b\u1EA3n d\u1ECBch"
+   }
+}

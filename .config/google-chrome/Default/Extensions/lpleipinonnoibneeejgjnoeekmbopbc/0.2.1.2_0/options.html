@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>Extensions manager options</title>
+<link rel="stylesheet" type="text/css" href="options.css">
+<script type="text/javascript" src="tools.js"></script>
+<script type="text/javascript" src="settings.js"></script>
+<script type="text/javascript" src="groups.js"></script>
+<script type="text/javascript" src="options.js"></script>
+</head>
+<body class="optionsBody">
+<div id="main" class="fade-in">
+<h1 class="title" id="title"></h1>
+<span id="version" class="fade"></span><br>
+<hr>
+<div class="hbox">
+        <div class="flexible margin-right">
+		 <span>Type of initial view:</span>
+			<select id="startAction" >
+						<option value="memorizedAction">Last action in a previous session</option>
+						<option value="allAction">All</option>
+						<option value="extensionAction">Extensions</option>
+						<option value="applicationsAction">Applications</option>
+						<option value="enabledAction">Enabled</option>
+						<option value="disabledAction">Disabled</option>
+			</select>
+		 <br><label>Save filter value: </label>
+				<input type="checkbox" id="saveFilter" />
+
+		 <br><label>Show Extensions view: </label>
+				<input type="checkbox" id="showExtension" />
+		 <br><label>Show Applications view: </label>
+				<input type="checkbox" id="showApp" />
+		 <br><label>Show Themes view: </label>
+				<input type="checkbox" id="showThemes" />
+		 <br><label>Show Enabled view: </label>
+				<input type="checkbox" id="showEnabledView" />
+		 <br><label>Show Disabled view: </label>
+				<input type="checkbox" id="showDisabledView" />
+		 <br><label>Show Recent view: </label>
+				<input type="checkbox" id="showRecentlyView" />
+		 <br><label>Show User Groups view: </label>
+				<input type="checkbox" id="showGroups" />
+		 <br><span>Type of entries of "Recent" view:</span>
+			<select id="recentType">
+						<option value="all">install,update,enable,disable compact</option>
+						<option value="full">install,update,enable,disable full</option>
+						<option value="install">install,update</option>
+						<option value="toggle">enable,disable</option>
+						<option value="uninstall">uninstalled (experimental)</option>
+			</select>
+		 <br><label>Chronological depth of recent (days, '0' for unlimited): </label>
+                                <input type="number" id="recentDepth" min="0" step="1" max="365" maxlength="3" size="3" value="0" />
+		 <br><label>Show action tips: </label>
+				<input type="checkbox" id="showTips" />
+		 <br><label>Show group statistics tips: </label>
+				<input type="checkbox" id="showGroupStatisticsTips" />
+		 <br><label>Show group statistics meter: </label>
+				<input type="checkbox" id="showGroupStatisticsMeter" />
+		 <br><label>Show install/uninstall notification: </label>
+				<input type="checkbox" id="showInstallNotification" />
+		 <br><label>Show version updates notification: </label>
+				<input type="checkbox" id="showUpdatesNotification" />
+		 <br><label>Show enable/disable notification: </label>
+				<input type="checkbox" id="showToggleNotification" />
+		 <br><label>Show switch operations notification: </label>
+				<input type="checkbox" id="showSwitchNotification" />
+		 <br><label>Show description inline text: </label>
+				<input type="checkbox" id="showDescribeInline" />
+
+                 <!---
+		 <br><label>Show browser update available notification: </label>
+				<input type="checkbox" id="showBrowserUpdateAvailableNotification" />
+		  ---!>
+		 <br><label>Notifications timeout (sec, '0' to unlimited): </label>
+                                <input type="number" id="notifyTimeout" min="0" step="1" max="60" maxlength="2" size="3" value="3" pattern="[0-9]{1,2}" />
+		 <br><label>Automatic disable themes (to prevent uninstallation by Chrome): </label>
+				<input type="checkbox" id="autoDisableTheme" />
+		 <br><label>Chromium adaptation:</label>
+				<input type="checkbox" id="chromium" />
+                 <!---
+		 <br><label>Use Chrome Sync for settings (except groups): </label>
+				<input type="checkbox" id="useSync" />
+		  ---!>
+		 <br><span>Type of imported config info:</span>
+			<select id="configImportType">
+						<option value="groups">Groups only</option>
+						<option value="all">Groups and interface settings</option>
+			</select>
+		 <br><label>Overwrite Groups on config import:</label>
+				<input type="checkbox" id="configImportGroupsOverwrite" />
+
+		<br><label>Popup menu width:</label><output onformchange="value=range.value"></output><span id="popupWidthText"></span> 
+                                <input type="range" id="popupWidth" name="range" min="100" step=10 max="3000" value=""  onload="initWidthSlider()" onchange="changeWidthSlider(event)"/>
+
+        </div>
+</div>
+<div>
+<hr>
+		<button id="btnSave">Save</button>
+		<button id="btnClose">Close</button>
+</div>
+<div>
+		<span id="optionsStatus" class="fade"></span><br>
+</div>
+<div>
+<input type='file' id='uploadConfig'  accept="text/plain">  
+<a href="#" id="exchangeConfig" title="Click to download config file OR DRUG button to your desktop to download.">Download config</a>  
+		<button id="btnUpload" title="Click to upload config file OR DRUG file from your desktop to this window to upload.">Upload config</button>
+</div>
+<div>
+		<span id="configStatus" class="fade"></span>
+</div>
+</body>
+</html>

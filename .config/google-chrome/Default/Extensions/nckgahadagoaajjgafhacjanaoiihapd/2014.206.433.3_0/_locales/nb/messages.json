@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Kan ikke koble til Google. Sjekk Internett-tilkoblingen din."
+   },
+   "chrome_ext_description": {
+      "message": "Med Hangouts kan du gj\u00F8re samtalene mer levende ved hjelp av bilder, emoji-tegn og til og med gruppevideosamtaler \u2013 og det koster..."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Kommentarer"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Send tilbakemelding"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "har invitert deg til en Hangouts-gruppevideosamtale"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Send tilbakemelding"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Ikke p\u00E5logget"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Behold Hangouts opp\u00E5 andre vinduer"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "inviterer deg til en videosamtale via Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Tillat bakgrunnsmodus"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Logg p\u00E5 Hangouts n\u00E5r Chrome starter"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Tilkoblet\nUbesvarte meldinger"
+   },
+   "quasar_answer_button_text": {
+      "message": "Svar"
+   },
+   "quasar_button_apply": {
+      "message": "Bruk"
+   },
+   "quasar_button_cancel": {
+      "message": "Avbryt"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 sier ...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Klikk for \u00E5 g\u00E5 til side ..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Avsl\u00E5"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Avbryt"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Plattform:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Personvernerkl\u00E6ring"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Beskrivelsen, produktinformasjonen, tilleggsopplysninger og e-postadressen din sendes til Google. Se vilk\u00E5rene for Google Feedback . N\u00E5r du sender inn dette innholdet, gir du samtidig Google tillatelse til \u00E5 bruke det i arbeidet med \u00E5 forbedre produkter og tjenester. Se personvernreglene ."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Send tilbakemelding"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Systeminformasjon"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Brukeragent"
+   },
+   "quasar_group_chat_title": {
+      "message": "Fra gruppeprat ..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 er i hangouten",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Hjelp"
+   },
+   "quasar_label_all_notification": {
+      "message": "Deaktiver varsler"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Deaktiver nettpratvarsler"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Tidsavbruddlengde (i sekunder):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Tillat at varslinger om nettprat automatisk g\u00E5r ut p\u00E5 tid"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Vis ikonet i systemstatusfeltet"
+   },
+   "quasar_legend_notifications": {
+      "message": "Varsler"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Program"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Tilbakemelding"
+   },
+   "quasar_menutext_quit": {
+      "message": "Avslutt"
+   },
+   "quasar_menutext_settings": {
+      "message": "Valg"
+   },
+   "quasar_menutext_signout": {
+      "message": "Logg av"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Ukjent"
+   },
+   "quasar_sign_in": {
+      "message": "Logg p\u00E5"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Logg p\u00E5 for \u00E5 begynne \u00E5 snakke med vennene dine"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Tilkoblet"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Kobler til"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: frakoblet"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Innlastingsfeil"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: Ikke logget p\u00E5"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: Kobler til p\u00E5 nytt"
+   },
+   "quasar_try_now": {
+      "message": "Pr\u00F8v n\u00E5"
+   },
+   "quasar_video_details": {
+      "message": "ringer deg med videonettprat"
+   },
+   "quasar_video_title": {
+      "message": "Videosamtale fra $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "ringer deg"
+   },
+   "quasar_voice_title": {
+      "message": "Taleoppringning fra $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

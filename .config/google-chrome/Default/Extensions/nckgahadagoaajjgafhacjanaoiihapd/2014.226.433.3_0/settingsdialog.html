@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="styles/dialog.css">
+    <title></title>
+    <script src="scripts/ace-settings.js"></script>
+  </head>
+
+  <body>
+
+    <div class="goog-top-links">
+      <!-- A link to quasar feedback page -->
+      <a id="feedbackLink" target="_blank"></a>
+      |
+      <!-- A link to quasar help page -->
+      <a id="helpLink" target="_blank"></a>
+    </div>
+
+    <!-- Container of general options -->
+    <div id="paneGeneral">
+      <!-- Related to application settings -->
+      <fieldset class="goog-fieldset" role="group">
+        <legend id="legendApp"></legend>
+
+        <div class="goog-field">
+          <input type="checkbox" name="fieldBrowserStartup"
+                 id="fieldBrowserStartup">
+          <label for="fieldBrowserStartup" id="labelBrowserStartup"></label>
+        </div>
+
+        <div class="goog-field">
+          <input type="checkbox" name="fieldTopMost"
+                 id="fieldTopMost">
+          <label for="fieldTopMost" id="labelTopMost"></label>
+        </div>
+
+        <!-- <div class="goog-field">
+          <input type="checkbox" name="fieldShutdown" id="fieldShutdown">
+          <label for="fieldShutdown" id="labelShutdown"></label>
+        </div> -->
+
+        <div class="goog-field">
+          <input type="checkbox" name="fieldTrayIcon" id="fieldTrayIcon">
+          <label for="fieldTrayIcon" id="labelTrayIcon"></label>
+          <div class="goog-field" id="systemIndicatorSetting">
+            <input type="checkbox" name="fieldSystemIndicator"
+                id="fieldSystemIndicator">
+            <label for="fieldSystemIndicator" id="labelSystemIndicator"></label>
+          </div>
+        </div>
+
+        <div class="goog-field" id="useNewRoster">
+          <input type="checkbox" name="fieldNewRoster"
+              id="fieldNewRoster">
+          <label for="fieldNewRoster" id="labelNewRoster"></label>
+        </div>
+
+      </fieldset>
+    </div>
+
+    <!--
+      Container of account options: This settings are enabled when user is
+      logged in.
+    -->
+    <div id="paneAccount">
+
+      <!-- Related to destination page settings -->
+      <fieldset class="goog-fieldset" id="fieldsetDestPage" role="group">
+        <legend id="legendDest"></legend>
+
+        <div class="goog-field">
+          <input type="radio" name="fieldDestPage" id="fieldDestPage0"/>
+          <label for="fieldDestPage0" id="labelDestPage0"></label>
+        </div>
+
+        <div class="goog-field">
+          <input type="radio" name="fieldDestPage" id="fieldDestPage2"/>
+          <label for="fieldDestPage2" id="labelDestPage2"></label>
+        </div>
+
+        <div class="goog-field">
+          <input type="radio" name="fieldDestPage" id="fieldDestPage1"/>
+          <span class="goog-custom-span" role="textbox">
+            <label for="fieldDestPage1" id="labelDestPage1"></label>
+            <label class="goog-warning-text" id="customDestWarning"></label>
+            <br/>
+            <input type="text" name="fieldDestUrl" id="fieldDestUrl"
+                aria-labelledby="labelDestPage1"/>
+          </span>
+        </div>
+      </fieldset>
+    </div>
+
+    <!-- Buttons to save or discard the changes -->
+    <div class="goog-tabpane-buttons">
+      <button id="buttonSave" tabindex="0">Ok</button>
+      <button id="buttonCancel" tabindex="0">Cancel</button>
+    </div>
+  </body>
+</html>

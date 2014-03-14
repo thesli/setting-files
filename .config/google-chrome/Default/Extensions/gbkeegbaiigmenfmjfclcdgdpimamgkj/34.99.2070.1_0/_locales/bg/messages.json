@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Научете повече"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Помогнете ни, като подадете сигнал за проблема."
+   },
+   "app_nacl_crash_report": {
+      "message": "Подаване на сигнал за проблем..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ами сега! Това не трябваше да се случва."
+   },
+   "app_nacl_error_msg": {
+      "message": "Възникна проблем при зареждането на приложението ."
+   },
+   "app_nacl_error_title": {
+      "message": "Файлът не може да се отвори."
+   },
+   "application_description": {
+      "message": "Редактиране на документи"
+   },
+   "file_loading_spinner_label": {
+      "message": "Зарежда се"
+   },
+   "file_not_found_msg": {
+      "message": "Заявеният от вас файл е преместен."
+   },
+   "file_not_found_title": {
+      "message": "Файлът не е намерен."
+   }
+}

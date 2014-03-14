@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "cs"
+   },
+   "qs_about_close_button": {
+      "message": "Zav\u0159\u00EDt"
+   },
+   "qs_about_copy": {
+      "message": "&copy; 2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Po kliknut\u00ED na v\u00FDsledek vyhled\u00E1v\u00E1n\u00ED na Googlu se v prav\u00E9m doln\u00EDm rohu str\u00E1nky m\u016F\u017Ee zobrazit Rychl\u00FD p\u0159esun s jednou nebo v\u00EDce \u010D\u00E1stmi textu z dan\u00E9 str\u00E1nky, kter\u00E9 jsou relevantn\u00ED pro v\u00E1\u0161 dotaz. Kliknut\u00EDm na text p\u0159ejdete na p\u0159\u00EDslu\u0161nou \u010D\u00E1st str\u00E1nky."
+   },
+   "qs_about_explanation2": {
+      "message": "Rychl\u00FD p\u0159esun se zobraz\u00ED pouze tehdy, pokud je pravd\u011Bpodobn\u00E9, \u017Ee ho vyu\u017Eijete. M\u016F\u017Eete je minimalizovat kliknut\u00EDm na p\u0159\u00EDslu\u0161n\u00E9 tla\u010D\u00EDtko v prav\u00E9m horn\u00EDm rohu."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EO spole\u010Dnosti Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EZ\u00E1sady ochrany soukrom\u00ED\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ESmluvn\u00ED podm\u00EDnky\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Jak Rychl\u00FD p\u0159esun funguje:"
+   },
+   "qs_about_installed": {
+      "message": "Rychl\u00FD p\u0159esun Google byl nainstalov\u00E1n."
+   },
+   "qs_about_introduction": {
+      "message": "Rychl\u00FD p\u0159esun Google je roz\u0161\u00ED\u0159en\u00ED prohl\u00ED\u017Ee\u010De, kter\u00E9 umo\u017E\u0148uje rychleji naj\u00EDt to, co hled\u00E1te."
+   },
+   "qs_about_only_useful": {
+      "message": "Rychl\u00FD p\u0159esun se zobraz\u00ED pouze v p\u0159\u00EDpad\u011B, \u017Ee je u\u017Eite\u010Dn\u00E9. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EDal\u0161\u00ED informace\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Mo\u017Enosti byly ulo\u017Eeny"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pomozte n\u00E1m se zlep\u0161en\u00EDm Rychl\u00E9ho p\u0159esunu Google t\u00EDm, \u017Ee povol\u00EDte automatick\u00E9 odes\u00EDl\u00E1n\u00ED statistik pou\u017Eit\u00ED do Googlu."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Mo\u017Enosti ochrany osobn\u00EDch \u00FAdaj\u016F"
+   },
+   "qs_about_step_1": {
+      "message": "Zkuste vyhled\u00E1vat na Googlu."
+   },
+   "qs_about_step_2": {
+      "message": "Klikn\u011Bte na v\u00FDsledek vyhled\u00E1v\u00E1n\u00ED."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknut\u00EDm na Rychl\u00FD p\u0159esun se dostanete na relevantn\u00ED \u010D\u00E1st str\u00E1nky."
+   },
+   "qs_about_support_instructions": {
+      "message": "Pokud m\u00E1te probl\u00E9my nebo dotazy t\u00FDkaj\u00EDc\u00ED se Rychl\u00E9ho p\u0159esunu, nav\u0161tivte pros\u00EDm na\u0161i \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Estr\u00E1nku podpory\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "D\u011Bkujeme, \u017Ee jste si nainstalovali Rychl\u00FD p\u0159esun Google."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EVyzkou\u0161ejte to!\u003C/b\u003E Vyhledejte v\u00FDraz [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] a klikn\u011Bte na v\u00FDsledek \u201Edark matter brown dwarfs\u201C."
+   },
+   "qs_about_try_queries": {
+      "message": "Vyzkou\u0161ejte tyto dotazy:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Chcete-li Rychl\u00FD p\u0159esun Google odinstalovat, p\u0159ejd\u011Bte v prohl\u00ED\u017Ee\u010Di Chrome na mo\u017Enosti N\u00E1stroje&nbsp;\u003E&nbsp;Roz\u0161\u00ED\u0159en\u00ED a klikn\u011Bte na odkaz Odinstalovat u roz\u0161\u00ED\u0159en\u00ED Rychl\u00FD p\u0159esun Google."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Odinstalovat"
+   },
+   "qs_description": {
+      "message": "Rychl\u00FD p\u0159esun umo\u017E\u0148uje p\u0159ej\u00EDt ve v\u00FDsledku vyhled\u00E1v\u00E1n\u00ED Google p\u0159\u00EDmo na relevantn\u00ED \u010D\u00E1st."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  M\u00E9n\u011B shod"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Zobrazit p\u016Fvodn\u00ED v\u00FDsledky pro dotaz"
+   },
+   "qs_gallery_description": {
+      "message": "Rychl\u00FD p\u0159esun Google je roz\u0161\u00ED\u0159en\u00ED prohl\u00ED\u017Ee\u010De, kter\u00E9 umo\u017E\u0148uje rychleji naj\u00EDt to, co hled\u00E1te.\u003Cbr/\u003E\u003Cbr/\u003EPo kliknut\u00ED na v\u00FDsledek vyhled\u00E1v\u00E1n\u00ED Google se v prav\u00E9m doln\u00EDm rohu str\u00E1nky m\u016F\u017Ee objevit symbol Rychl\u00E9ho p\u0159esunu. Kliknut\u00EDm na jednu nebo v\u00EDce ozna\u010Den\u00FDch \u010D\u00E1st\u00ED textu relevantn\u00EDch pro v\u00E1\u0161 dotaz se dostanete na p\u0159\u00EDslu\u0161nou \u010D\u00E1st str\u00E1nky.\u003Cbr/\u003E\u003Cbr/\u003ESnahou je, aby Rychl\u00FD p\u0159esun nep\u0159ek\u00E1\u017Eel a objevuje se proto pouze, pokud je pravd\u011Bpodobn\u00E9, \u017Ee ho vyu\u017Eijete."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Litujeme, Rychl\u00FD p\u0159esun nenalezl na t\u00E9to str\u00E1nce \u017E\u00E1dn\u00E9 shody pro dotaz \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003EDal\u0161\u00ED informace.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Zd\u00E1 se, \u017Ee se cel\u00E1 tato str\u00E1nka t\u00FDk\u00E1 dotazu \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Rychl\u00FD p\u0159esun se zobraz\u00ED, pokud jsou relevantn\u00ED pouze \u010D\u00E1sti str\u00E1nky. \u003Cspan class=\"goog_qs-learn-more\"\u003EDal\u0161\u00ED informace.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Rychl\u00FD p\u0159esun se nezobrazil, proto\u017Ee je pro v\u00E1\u0161 dotaz relevantn\u00ED cel\u00E1 str\u00E1nka."
+   },
+   "qs_info_on_search": {
+      "message": "Rychl\u00FD p\u0159esun se zobraz\u00ED po kliknut\u00ED na v\u00FDsledek vyhled\u00E1v\u00E1n\u00ED Google. \u003Cspan class=\"goog_qs-learn-more\"\u003EDal\u0161\u00ED informace.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Kliknut\u00EDm na tla\u010D\u00EDtko Nainstalovat vyjad\u0159ujete souhlas s t\u011Bmito smluvn\u00EDmi podm\u00EDnkami: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "V\u00EDce shod \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Zobrazit v\u00EDce v\u00FDsledk\u016F pro hledan\u00FD v\u00FDraz"
+   },
+   "qs_name": {
+      "message": "Rychl\u00FD p\u0159esun Google"
+   },
+   "qs_page_action_active": {
+      "message": "Rychl\u00FD p\u0159esun na\u0161el na t\u00E9to str\u00E1nce shody."
+   },
+   "qs_page_action_inactive": {
+      "message": "Rychl\u00FD p\u0159esun je aktivn\u00ED. Dal\u0161\u00ED informace zobraz\u00EDte kliknut\u00EDm."
+   },
+   "qs_page_action_running": {
+      "message": "Rychl\u00FD p\u0159esun \u010Dek\u00E1 na na\u010Dten\u00ED str\u00E1nky..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Otev\u0159\u00EDt str\u00E1nku s n\u00E1pov\u011Bdou a mo\u017Enostmi"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Shody na str\u00E1nce pro dotaz \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Shody na str\u00E1nce pro dotaz \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimalizovat"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Otev\u0159\u00EDt Rychl\u00FD p\u0159esun Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknut\u00EDm zobraz\u00EDte tento text na str\u00E1nce"
+   },
+   "qs_toolbar_go_label": {
+      "message": "P\u0159esko\u010Dit na text $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Nejlep\u0161\u00ED shody pro dotaz \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

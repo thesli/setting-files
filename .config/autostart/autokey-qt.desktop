@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=autokey-qt
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_HK]=autokey
+Name=autokey
+Comment[en_HK]=
+Comment=

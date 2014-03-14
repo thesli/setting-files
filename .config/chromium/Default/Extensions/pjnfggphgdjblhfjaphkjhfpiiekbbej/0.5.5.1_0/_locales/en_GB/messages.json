@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "en"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "This extension cannot make suggestions from pages like this which have secure content (e.g. http\u003Cb\u003Es\u003C/b\u003E://). See you back on the public web!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "This extension works best on homepages or the main page of most websites.\u003Cp\u003ETry the extension on a website that you already love&mdash;, test-drive it and see the page suggestions about something you know."
+   },
+   "sp_default_title": {
+      "message": "See Google Similar Pages"
+   },
+   "sp_description": {
+      "message": "Discover web pages similar to the page that you're currently browsing."
+   },
+   "sp_domain_change_message": {
+      "message": "To change your local domain to www.google.co.uk, \u003Ca id='over' href='#'\u003Eclick here\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com has been saved as your local domain for retrieving similar pages."
+   },
+   "sp_domain_message": {
+      "message": "The extension will contact $1 to retrieve the list of similar pages.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Number of pages: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EAbout Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "We'd love to hear any feedback that you have at \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Thanks!"
+   },
+   "sp_options_intro": {
+      "message": "The Google Similar Pages browser extension allows you quickly to preview and explore other pages that are similar to the one that you are browsing - on the fly!"
+   },
+   "sp_options_legal": {
+      "message": "When you click the Similar Pages button, your browser will send a search query to Google to see if there are any similar pages for the page that you are viewing.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EThe data related to the query will be handled as described in Google's \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Eprivacy policy\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPrivacy Policy\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETerms of Service\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Uninstall"
+   },
+   "sp_options_uninstall_message": {
+      "message": "To uninstall Google Similar Pages, use Chrome's Tools &gt; Extensions menu option and click the Uninstall link for the Google Similar Pages extension."
+   },
+   "sp_preview_not_available": {
+      "message": "Preview\u003Cbr\u003Enot available"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (by Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.co.uk"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "The extension is currently not available for your country/region. Please check again soon."
+   },
+   "sp_zero_results": {
+      "message": "No similar pages found."
+   }
+}

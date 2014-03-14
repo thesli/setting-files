@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon_19.png",
+      "default_popup": "popup.html",
+      "default_title": "Web Timer"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google.com https://platform.twitter.com; object-src 'self'",
+   "description": "Keep track of how you spend your time on the web.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7nPGB2tSFfVfzcyrSQqKUYnah00wC5poY67HVaeYFXcViblCRT0+b9g9/m8A974Xf4noEMuyTwq8Di0U0l4HGu7ygmwZFm56IUBzTrhXu6xT+TAB4sHBDmlhhVAGvB0s6MDNVZuMYuwlpIkg2RnzXWKebHZS5DFx+CWTRDAN4cwIDAQAB",
+   "manifest_version": 2,
+   "name": "Web Timer",
+   "options_page": "options.html",
+   "permissions": [ "idle", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.4.8"
+}

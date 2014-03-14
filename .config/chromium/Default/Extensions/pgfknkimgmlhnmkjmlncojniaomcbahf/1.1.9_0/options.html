@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/options.css" />
+		<script type="text/javascript" src="js/defaults.js"></script>
+		<script type="text/javascript" src="js/tools/tools.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+		<title>LiveInternet site statistics settings</title>
+	</head>
+	<body>
+
+		<preferences>
+			<preference id="auto_rating_pref" name="info.auto_rating" type="bool"></preference>
+			<preference id="cache_ttl_pref" name="info.cache_ttl" type="int"></preference>
+		</preferences>
+
+		<div id="header"><h1 id="page_title">LiveInterner site statistics</h1></div>
+		<div class="section-header first" id="page_title_settings">Settings</div>
+		<div id="content">
+			<input type="checkbox" id="auto_rating_check" preference="auto_rating_pref" /><label for="auto_rating_check" id="auto_rating_title">Automaticaly display site rating</label>
+			<div id="auto_rating_description">Rating can be displayed automaticaly on the button.</div>
+
+			<div id="chache_block">
+				<label id="chache_period_label">Chache site statistics for</label>&nbsp;
+				<select id="cache_period" preference="cache_ttl_pref">
+					<option value="30000">30 seconds</option>
+					<option value="60000">1 minute</option>
+					<option value="180000">3 minutes</option>
+					<option value="300000">5 minutes</option>
+					<option value="600000">10 minutes</option>
+				</select>
+			</div>
+
+		</div>
+	</body>
+</html>

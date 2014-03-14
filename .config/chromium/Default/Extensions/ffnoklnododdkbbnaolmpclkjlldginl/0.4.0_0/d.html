@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-size: 12px; 
+      }
+      input.text {
+        width: 98%;
+      }
+    </style>
+  </head>
+  <body>
+    <h4 id="title">Loading ...</h4>
+    <div>
+      <div><span>Pattern</span></div><div><input id="patternInput" type="text" class="text"></div>
+      <form><input type="checkbox" id="wildCardsCheck"><span id="wildCardsSpan">Use wild cards</span></form>
+    </div>
+    <div style="text-align: right" id="buttons">
+      <button id="saveButton" onClick="save();">Save</button><button id="cancelButton" onClick="window.close();">Cancel</button>
+    </div>
+    <script>
+      var title = document.getElementById("title");
+      var patternInput = document.getElementById("patternInput");
+      var wildCardsCheck = document.getElementById("wildCardsCheck");
+      var wildCardsSpan = document.getElementById("wildCardsSpan");
+
+      var saveButton = document.getElementById("saveButton");
+      var cancelButton = document.getElementById("cancelButton");
+
+      var save = function() {
+        var pattern = patternInput.value;
+        if (wildCardsCheck.checked) {
+          pattern = '^' + pattern.replace(/([-()\[\]{}+?.$\^|,:#<!\\])/g, '\\$1').replace(/\x08/g, '\\x08').replace(/\*/g, '.*');
+        }
+        chrome.extension.sendRequest({ action: "saveException", pattern: pattern }, function(){ window.close(); });
+      };
+
+      var init = function() {
+        wildCardsSpan.addEventListener("click", function(event) { wildCardsCheck.checked = ! wildCardsCheck.checked; }, false);
+
+        var onRequest = function(request, sender, callback) {
+          if (request.action == "onloadPopup") {
+            title.innerHTML = "New Exception";
+            wildCardsCheck.checked = true;
+            patternInput.value = request.url + "*";
+            callback();
+          }
+        };
+        chrome.extension.onRequest.addListener(onRequest);
+      };
+      init();
+    </script>
+  </body>
+</html>

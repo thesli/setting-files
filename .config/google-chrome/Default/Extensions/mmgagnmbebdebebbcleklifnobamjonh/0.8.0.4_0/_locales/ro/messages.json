@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "Corecteaz\u0103 automat problemele de paginare"
+   },
+   "CheckUpdate": {
+      "message": "Verifica actualiz\u0103rile"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "Con\u021Binutul XPath nu poate fi vid!"
+   },
+   "CreateANewRule": {
+      "message": "Dori\u021Bi s\u0103 crea\u021Bi o regul\u0103 nou\u0103 pentru acest sait cu ajutorul asistentului?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Editeaz\u0103"
+   },
+   "EnableAutoPager": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este dezactivat\u0103. Dori\u021Bi s\u0103 o activa\u021Bi?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este dezactivat\u0103 pentru acest sait. Dori\u021Bi s\u0103 o activa\u021Bi?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Ignor\u0103 verificarea versiunii"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "Leg\u0103tura XPath nu poate fi vid\u0103!"
+   },
+   "Load": {
+      "message": "Se \u00EEncarc\u0103\u00A0"
+   },
+   "No": {
+      "message": "Nu"
+   },
+   "Nomatchesfound": {
+      "message": "Nu s-au g\u0103sit potriviri"
+   },
+   "Onematchfound": {
+      "message": "S-a g\u0103sit o potrivire"
+   },
+   "Options": {
+      "message": "Op\u021Biuni"
+   },
+   "Pages": {
+      "message": "\u00A0pagini"
+   },
+   "RelatedSearches": {
+      "message": "rezultate asem\u0103n\u0103toare:"
+   },
+   "RequestHelpOnSite": {
+      "message": "Dori\u021Bi s\u0103 ob\u021Bine\u021Bi ajutor pentru acest sait?"
+   },
+   "Resultsfrom": {
+      "message": "Rezultate pentru"
+   },
+   "ShowOnNewSite": {
+      "message": "Afi\u0219eaz\u0103 pentru un sait nou"
+   },
+   "UpdateRules": {
+      "message": "Este posibil ca regulile s\u0103 fi fost actualizate iar problemele s\u0103 fi fost deja rezolvate.nDori\u021Bi s\u0103 actualiza\u021Bi regulile de paginare?"
+   },
+   "Yes": {
+      "message": "Da"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "Configura\u021Bia saitului \"%S\" a fost deja transmis\u0103 sau exist\u0103 \u00EEn arhiva online.nDori\u021Bi s\u0103 o retrimite\u021Bi?"
+   },
+   "alwaysdisableshort": {
+      "message": "DP"
+   },
+   "alwaysenableshort": {
+      "message": "AP"
+   },
+   "autopageOn": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 s-a finalizat pentru %S. Face\u021Bi dublu-clic \u00EEn pagin\u0103 pentru a dezactiva \u00EEnc\u0103rcarea automat\u0103 a paginilor."
+   },
+   "autopageOnTip": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 s-a finalizat pentru %S.nFace\u021Bi dublu-clic \u00EEn pagin\u0103 pentru a dezactiva \u00EEnc\u0103rcarea automat\u0103 a paginilor."
+   },
+   "autopagedisabled": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este dezactivat\u0103. Face\u021Bi Ctrl+dublu-clic \u00EEn pagin\u0103 pentru a o activa."
+   },
+   "autopagedisabledTip": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este dezactivat\u0103.nFace\u021Bi Ctrl+dublu-clic \u00EEn pagin\u0103 pentru a o activa."
+   },
+   "autopageenabled": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este activat\u0103. Face\u021Bi Ctrl+dublu-clic \u00EEn pagin\u0103 pentru a o dezactiva."
+   },
+   "autopageenabledTip": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este activat\u0103.nFace\u021Bi Ctrl+dublu-clic \u00EEn pagin\u0103 pentru a o dezactiva."
+   },
+   "autopager_label_value": {
+      "message": "\u00CEnc\u0103rcare automat\u0103 a paginilor urm\u0103toare"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "De\u021Bin\u0103tor al paginii"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "i"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "\u00CEncarc\u0103 imediat"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "ascuns"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10 pagini"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3 pagini"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5 pagini"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "a"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "Toate paginile"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "P"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Opre\u0219te \u00EEnc\u0103rcarea"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "vizibil"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "Confirmare paginare automat\u0103 sait"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "C"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "Dori\u021Bi s\u0103 dezactiva\u021Bi confirmarea pagin\u0103rii automate?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "Op\u021Biuni AutoPager"
+   },
+   "autopager_status_createXPath": {
+      "message": "Creeaz\u0103 o expresie XPath"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "Creeaz\u0103 o expresie XPath prin selectarea unui nod din pagin\u0103"
+   },
+   "autopager_status_disableOnSite": {
+      "message": "Dezactivat pentru acest sait"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "Stare AutoPager pentru saitul curent"
+   },
+   "autopager_status_enabled": {
+      "message": "Activat"
+   },
+   "autopager_status_enabledTip": {
+      "message": "Stare AutoPager"
+   },
+   "autopager_status_export": {
+      "message": "Export\u0103\u2026"
+   },
+   "autopager_status_exportTip": {
+      "message": "Export\u0103 configura\u021Bia AutoPager"
+   },
+   "autopager_status_exportclip": {
+      "message": "Export\u0103 \u00EEn memoria tampon"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Export\u0103 configura\u021Bia \u00EEn memoria tampon"
+   },
+   "autopager_status_exportfile": {
+      "message": "Export\u0103 \u00EEn fi\u0219ier\u2026"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Export\u0103 configura\u021Bia \u00EEntr-un fi\u0219ier"
+   },
+   "autopager_status_importclip": {
+      "message": "Import\u0103 din memoria tampon"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Import\u0103 configura\u021Bia din memoria tampon"
+   },
+   "autopager_status_importexport": {
+      "message": "Import/Export configura\u021Bie"
+   },
+   "autopager_status_importfile": {
+      "message": "Import\u0103 din fi\u0219ier\u2026"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Import\u0103 configura\u021Bia dintr-un fi\u0219ier"
+   },
+   "autopager_status_importurl": {
+      "message": "Import\u0103 de la adres\u0103\u2026"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Import\u0103 configura\u021Bia le la o adres\u0103 de internet"
+   },
+   "autopager_status_myname": {
+      "message": "Numele meu:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "Numele dumneavoastr\u0103, care va fi inserat \u00EEn configura\u021Bia creat\u0103"
+   },
+   "autopager_status_reportSite": {
+      "message": "Raporteaz\u0103 o problem\u0103"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "Raporteaz\u0103 o problem\u0103 despre sait"
+   },
+   "autopager_status_requestHelp": {
+      "message": "Solicit\u0103 ajutor"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Solicit\u0103 ajutor de pe sait"
+   },
+   "autopager_status_setting": {
+      "message": "Configurare\u2026"
+   },
+   "autopager_status_settingTip": {
+      "message": "Afi\u0219eaz\u0103 caseta de configurare AutoPager"
+   },
+   "autopager_status_showabout": {
+      "message": "Despre AutoPager\u2026"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "Afi\u0219eaz\u0103 caseta informativ\u0103 despre AutoPager"
+   },
+   "autopager_status_showoption": {
+      "message": "Op\u021Biuni pagin\u0103\u2026"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Afi\u0219eaz\u0103 bara de op\u021Biuni pentru pagina curent\u0103"
+   },
+   "autopager_status_sitewizard": {
+      "message": "Asistent configurare sait"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "Configureaz\u0103 op\u021Biunile pentru sait cu ajutorul asistentului"
+   },
+   "autopager_status_testXPath": {
+      "message": "Testeaz\u0103 o expresie XPath"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Testeaz\u0103 o expresie XPath \u00EEn pagin\u0103"
+   },
+   "autopager_status_update": {
+      "message": "Actualizeaz\u0103 op\u021Biunile"
+   },
+   "autopager_status_updateTip": {
+      "message": "Actualizeaz\u0103 op\u021Biunile din arhiva de reguli"
+   },
+   "autopager_status_xpathUtils": {
+      "message": "Instrumente XPats"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "Atelier AutoPager de configurare a saiturilor"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "Rafineaz\u0103\u2026"
+   },
+   "autopager_workshop_label_value": {
+      "message": "Cadre"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "se \u00EEnc\u0103rc\u0103 pagin\u0103 urm\u0103toare, a\u0219tepta\u021Bi\u2026"
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "Rafineaz\u0103\u2026"
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "Rafineaz\u0103\u2026"
+   },
+   "caption_results_caption2_label": {
+      "message": "Rezultate"
+   },
+   "caption_results_caption_label": {
+      "message": "Rezultate"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "For\u021Beaz\u0103 modul JavaScript"
+   },
+   "checkbox_ir_label": {
+      "message": "Include regulile recomandate"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "c"
+   },
+   "command_blinkElement_label": {
+      "message": "eviden\u021Biaz\u0103 elementul prin clipire"
+   },
+   "command_narrower_key": {
+      "message": "r"
+   },
+   "command_narrower_label": {
+      "message": "restr\u00E2nge selec\u021Bia"
+   },
+   "command_pause_key": {
+      "message": "p"
+   },
+   "command_pause_label": {
+      "message": "suspend\u0103 (pentru derularea paginii \u0219i vizualizarea efectului)"
+   },
+   "command_quit_key": {
+      "message": "x"
+   },
+   "command_quit_label": {
+      "message": "p\u0103r\u0103se\u0219te modul selec\u021Bie"
+   },
+   "command_select_key": {
+      "message": "s"
+   },
+   "command_select_label": {
+      "message": "selecteaz\u0103 elementul"
+   },
+   "command_showMenu_key": {
+      "message": "a"
+   },
+   "command_showMenu_label": {
+      "message": "afi\u0219eaz\u0103/ascunde elementul"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "n"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "vizualizeaz\u0103 sursa (\u00EEntr-o fereastr\u0103 nou\u0103)"
+   },
+   "command_viewSource_key": {
+      "message": "v"
+   },
+   "command_viewSource_label": {
+      "message": "vizualizeaz\u0103 sursa"
+   },
+   "command_wider_key": {
+      "message": "e"
+   },
+   "command_wider_label": {
+      "message": "extinde selec\u021Bia"
+   },
+   "contentxpathconfirm": {
+      "message": "Crede\u021Bi c\u0103 acest con\u021Binut XPath este corect?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Dezactiveaz\u0103 pentru toate saiturile"
+   },
+   "disableon": {
+      "message": "Dezactiveaz\u0103 pentru %S"
+   },
+   "disableshort": {
+      "message": "D"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "Activeaz\u0103 \u00EEnc\u0103rcarea automat\u0103 a paginilor pentru %S nleg\u0103tur\u0103 XPath = %Sncon\u021Binut XPath = %S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager a g\u0103sit o configura\u021Bie pentru \u201E%S\u201D de la %S.nDori\u021Bi s\u0103 activa\u021Bi \u00EEnc\u0103rcarea automat\u0103 a paginilor folosind aceast\u0103 configura\u021Bie?"
+   },
+   "enableshort": {
+      "message": "A"
+   },
+   "enableurl": {
+      "message": "Activeaz\u0103 \u00EEnc\u0103rcarea automat\u0103 a paginilor pentru %S"
+   },
+   "errorload": {
+      "message": "Eroare la \u00EEnc\u0103rcarea paginii:"
+   },
+   "esctoabort": {
+      "message": "Ap\u0103sa\u021Bi Esc pentru abandon."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "\u00CEncarc\u0103 automat \u00EEn fundal pagina urm\u0103toare. Genereaz\u0103 expresii XPath care pot fi folosite \u0219i \u00EEn alte aplica\u021Bii."
+   },
+   "globaldisabled": {
+      "message": "\u00CEnc\u0103rcarea automat\u0103 a paginilor este dezactivat\u0103. Activa\u021Bi-o pentru a permite lansarea automat\u0103 pentru saitul %S."
+   },
+   "highlightcontents": {
+      "message": "Eviden\u021Biaz\u0103 con\u021Binuturile"
+   },
+   "highlightnextlinks": {
+      "message": "Eviden\u021Biaz\u0103 leg\u0103turile urm\u0103toare"
+   },
+   "immediately_load": {
+      "message": "\u00CEncarc\u0103 imediat"
+   },
+   "importdone": {
+      "message": "Import finalizat: %S saituri noi, %S saituri actualizate, %S saituri ignorate."
+   },
+   "inputfile": {
+      "message": "Import configura\u021Bie AutoPager"
+   },
+   "inputname": {
+      "message": "Furniza\u021Bi numele dumneavoastr\u0103 pentru a fi ad\u0103ugat la configura\u021Bia creat\u0103:"
+   },
+   "inputnumber": {
+      "message": "Furniza\u021Bi un num\u0103r pozitiv:"
+   },
+   "inputurl": {
+      "message": "Furniza\u021Bi adresa pentru importul configura\u021Biei:"
+   },
+   "inputxpath": {
+      "message": "Furniza\u021Bi o expresie XPath:"
+   },
+   "label_Usages_value": {
+      "message": "Utiliz\u0103ri"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Identificatori de reguli selectate (separa\u021Bi prin ,)"
+   },
+   "label_lazyLoad": {
+      "message": "Atribut \u201Eimg src\u201D pentru \u00EEnc\u0103rc\u0103ri lente:"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "Elemente XPath monitorizate (separate prin \u201E|\u201D):"
+   },
+   "label_value": {
+      "message": "Num\u0103r:"
+   },
+   "lite_discovery": {
+      "message": "Dori\u021Bi ca AutoPager s\u0103 descopere automat dac\u0103 exist\u0103 reguli \u00EEn arhiv\u0103 pentru paginile pe care naviga\u021Bi?"
+   },
+   "loading": {
+      "message": "\u003Ci\u003Ese \u00EEnc\u0103rc\u0103 pagina urm\u0103toare\u2026\u003C/i\u003E"
+   },
+   "matchesfound": {
+      "message": "potriviri g\u0103site"
+   },
+   "modifyxpath": {
+      "message": "Modifica\u021Bi expresia XPath dac\u0103 dori\u021Bi:"
+   },
+   "more": {
+      "message": "Mai mult"
+   },
+   "moveover": {
+      "message": "Survolare %S, expresie XPath: %S"
+   },
+   "mustinput": {
+      "message": "Trebuie s\u0103 furniza\u021Bi numele dumneavoastr\u0103."
+   },
+   "myname": {
+      "message": "Numele meu: %S"
+   },
+   "navbottom": {
+      "message": "La sf\u00E2r\u0219itul ferestrei"
+   },
+   "navdown": {
+      "message": "Pagina urm\u0103toare"
+   },
+   "navtop": {
+      "message": "La \u00EEnceputul ferestrei"
+   },
+   "navup": {
+      "message": "Pagina precedent\u0103"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Nu mai afi\u0219a acest mesaj c\u00E2nd se g\u0103se\u0219te un nou sait suportat."
+   },
+   "nextpages": {
+      "message": "pentru urm\u0103toarele %S pagini"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Nu s-a g\u0103sit nici o configura\u021Bie pentru aceast\u0103 pagin\u0103."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "l"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "A: Activeaz\u0103, D: Dezactiveaz\u0103, AP: Activeaz\u0103 permanent, DP: Dezactiveaz\u0103 permanent"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Ignor\u0103 verificarea versiunii formatului XPath"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "Adaug\u0103 AutoPager la semn\u0103tura navigatorului (user-agent)"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Reafi\u0219eaz\u0103 ultima pagin\u0103 vizibil\u0103 dup\u0103 repornire"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "Mai multe\u2026"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "Configurare AutoPager"
+   },
+   "options_label_speedLabel_value": {
+      "message": "Num\u0103r de pagini pre\u00EEnc\u0103rcate:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Op\u021Biuni AutoPager"
+   },
+   "outputfile": {
+      "message": "Export configura\u021Bie AutoPager"
+   },
+   "pagebreak2": {
+      "message": "(Separator de pagin\u0103 inserat de AutoPager)"
+   },
+   "pagelink": {
+      "message": "Pagina \u003Ca href='%S'\u003E%S\u003C/a\u003E"
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "Selecta\u021Bi con\u021Binutul"
+   },
+   "selectlinkxpath": {
+      "message": "Selecta\u021Bi leg\u0103tura pentru pagina urm\u0103toare"
+   },
+   "selectsearchengine": {
+      "message": "\u003CSelecta\u021Bi un motor de c\u0103utare\u003E"
+   },
+   "setting_appname": {
+      "message": "AutoPager"
+   },
+   "setting_button_add": {
+      "message": "Adaug\u0103\u2026"
+   },
+   "setting_button_cloneToEdit": {
+      "message": "Cloneaz\u0103 pentru editare"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "Acest element provine dintr-o surs\u0103 sigur\u0103. Trebuie doar s\u0103-l edita\u021Bi dac\u0103 este necesar."
+   },
+   "setting_button_copy": {
+      "message": "Cloneaz\u0103"
+   },
+   "setting_button_down": {
+      "message": "\u00CEn jos"
+   },
+   "setting_button_edit": {
+      "message": "Editeaz\u0103\u2026"
+   },
+   "setting_button_export": {
+      "message": "Export\u0103"
+   },
+   "setting_button_exportTip": {
+      "message": "Export\u0103 elementul selectat"
+   },
+   "setting_button_import": {
+      "message": "Import\u0103"
+   },
+   "setting_button_pick": {
+      "message": "Selecteaz\u0103\u2026"
+   },
+   "setting_button_public": {
+      "message": "Public\u0103"
+   },
+   "setting_button_remove": {
+      "message": "Elimin\u0103"
+   },
+   "setting_button_reset": {
+      "message": "Ini\u021Bializeaz\u0103"
+   },
+   "setting_button_resetTip": {
+      "message": "Ref\u0103 configura\u021Bia online sau cea anterioar\u0103 (regul\u0103 local\u0103)"
+   },
+   "setting_button_up": {
+      "message": "\u00CEn sus"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "Aplic\u0103"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "Complex"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Activeaz\u0103 \u00EEntotdeauna JavaScript \u00EEn timpul \u00EEnc\u0103rc\u0103rii paginii"
+   },
+   "setting_label_btnEdit": {
+      "message": "Editeaz\u0103"
+   },
+   "setting_label_chkAjax": {
+      "message": "Nu \u00EEnc\u0103rca evenimente. Acesta este un sait AJAX"
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "Activeaz\u0103 JavaScript \u00EEn timpul \u00EEnc\u0103rc\u0103rii paginii"
+   },
+   "setting_label_chkEnabled": {
+      "message": "Activat\u0103"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "Dezactiveaz\u0103 controlul dep\u0103\u0219irii spa\u021Biului pentru pagina \u00EEnc\u0103rcat\u0103"
+   },
+   "setting_label_chkIsRegex": {
+      "message": "Expresie regulat\u0103"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "\u00CEncarc\u0103 rapid (nesigur pentru unele saituri)"
+   },
+   "setting_label_chkShift": {
+      "message": "Shift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Solicit\u0103 declan\u0219area evenimentului \u201EAp\u0103sare maus\u201D pentru leg\u0103tur\u0103"
+   },
+   "setting_label_confirmstyle": {
+      "message": "Stil caset\u0103 de op\u021Biuni pagin\u0103:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "\u00CEnt\u00E2rziere \u00EEnaintea \u00EEmbin\u0103rii paginii urm\u0103toare (ms):"
+   },
+   "setting_label_disable_by_default": {
+      "message": "Dezactiveaz\u0103 pentru noile saituri"
+   },
+   "setting_label_discoverytext": {
+      "message": "Identific\u0103"
+   },
+   "setting_label_doubleclick": {
+      "message": "+ Dublu-clic"
+   },
+   "setting_label_general": {
+      "message": "General"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "Con\u021Binut XPath:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Identificare"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "Filtru XPath (ignor\u0103 elementele din paginile noi):"
+   },
+   "setting_label_grpSmart": {
+      "message": "\u00CEnc\u0103rcare inteligent\u0103 a paginilor"
+   },
+   "setting_label_hotkeys": {
+      "message": "Activare/Dezactivare scurt\u0103turi:"
+   },
+   "setting_label_ignoresite": {
+      "message": "Saituri ignorate"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "Zon\u0103 cu bar\u0103 de defilare proprie (container XPath):"
+   },
+   "setting_label_lblDesc": {
+      "message": "Descriere:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "Leg\u0103tur\u0103 XPath:"
+   },
+   "setting_label_lblOwner": {
+      "message": "Creat\u0103 de:"
+   },
+   "setting_label_lblSetting": {
+      "message": "Surs\u0103 de configurare AutoPager"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "Tip context:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "Desc.:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "\u00CEntre\u021Binut\u0103 de:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "Tip:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "Adres\u0103:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "\u0218ablon adres\u0103:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "Actualizeaz\u0103 automat configura\u021Biile saiturilor:"
+   },
+   "setting_label_loading": {
+      "message": "Stil notificare a \u00EEnc\u0103rc\u0103rii:"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "Se \u00EEncarc\u0103 pagina urm\u0103toare c\u00E2nd spa\u021Biul este mai mic dec\u00E2t:"
+   },
+   "setting_label_marginEnd": {
+      "message": "\u00EEn\u0103l\u021Bimi ale ferestrei"
+   },
+   "setting_label_minipages": {
+      "message": "Num\u0103r minim de pagini pre\u00EEnc\u0103rcate:"
+   },
+   "setting_label_pagebreak": {
+      "message": "Stil separator de pagin\u0103:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Afi\u0219eaz\u0103 meniul contextual al AutoPager"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Afi\u0219eaz\u0103 un balon informativ la survolarea fiec\u0103rui element de control; cu clic se afi\u0219eaz\u0103 o descriere"
+   },
+   "setting_label_showPrompt": {
+      "message": "Afi\u0219eaz\u0103 un chestionar pentru fiecare sait nou"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Afi\u0219eaz\u0103 pictograma AutoPager \u00EEn bara de suplimente"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Afi\u0219eaz\u0103 pictograma AutoPager \u00EEn bara de unelte"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Afi\u0219eaz\u0103 o caset\u0103 de dialog simpl\u0103 pentru fiecare sait nou"
+   },
+   "setting_label_sites": {
+      "message": "Saituri"
+   },
+   "setting_label_smartenable": {
+      "message": "Activeaz\u0103 \u00EEnc\u0103rcarea inteligent\u0103 a paginilor"
+   },
+   "setting_label_smartlinks": {
+      "message": "Se urm\u0103re\u0219te leg\u0103tura c\u00E2nd nu exist\u0103 mai mult de:"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "leg\u0103turi \u00EEnt\u00E2lnite"
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "Leg\u0103tur\u0103 la pagina urm\u0103toare - Text|Surs\u0103 imagine|Identificator|Clas\u0103 (separate prin \u201E|\u201D):"
+   },
+   "setting_label_timeout": {
+      "message": "Timp expirare a \u00EEnc\u0103rc\u0103rii paginii (sec):"
+   },
+   "setting_label_update": {
+      "message": "Actualizare"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "Atunci c\u00E2nd \u00EEn con\u021Binutul principal al saitului exist\u0103 o zon\u0103 (container) cu bar\u0103 de defilare care dep\u0103\u0219e\u0219te pe \u00EEn\u0103l\u021Bime pagina, se va monitoriza aceast\u0103 zon\u0103 (ex.: www.cuil.pt). Nu modifica\u021Bi nimic dac\u0103 nu \u0219ti\u021Bi ce \u00EEnseamn\u0103!"
+   },
+   "setting_title": {
+      "message": "Configurare AutoPager"
+   },
+   "setting_tree_Description": {
+      "message": "Descriere"
+   },
+   "setting_tree_URLPattern": {
+      "message": "\u0218ablon adres\u0103"
+   },
+   "setting_type_autopager": {
+      "message": "autopager xml"
+   },
+   "setting_type_autopagerize": {
+      "message": "autopagerize"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "autopagerize json"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "autopager text"
+   },
+   "setting_update_bidaily": {
+      "message": "O dat\u0103 la dou\u0103 zile"
+   },
+   "setting_update_daily": {
+      "message": "\u00CEn fiecare zi"
+   },
+   "setting_update_global": {
+      "message": "Folosind op\u021Biunile globale"
+   },
+   "setting_update_monthly": {
+      "message": "\u00CEn fiecare lun\u0103"
+   },
+   "setting_update_never": {
+      "message": "Niciodat\u0103"
+   },
+   "setting_update_once": {
+      "message": "Prima dat\u0103"
+   },
+   "setting_update_startup": {
+      "message": "La fiecare pornire"
+   },
+   "setting_update_weekly": {
+      "message": "\u00CEn fiecare s\u0103pt\u0103m\u00E2n\u0103"
+   },
+   "showoptions": {
+      "message": "Afi\u0219eaz\u0103 mai multe op\u021Biuni"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "\u00CEnchide suportul de pagin\u0103 AutoPager"
+   },
+   "statusbar_label_value": {
+      "message": "Vizualizeaz\u0103 online regulile paginilor"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Ajutor"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "Depanare"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "Depaneaz\u0103 automat"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "Depaneaz\u0103 automat problemele de \u00EEnc\u0103rcare a paginilor"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "Restabile\u0219te op\u021Biunile implicite"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "Restabile\u0219te toate op\u021Biunile AutoPager la valoarea lor implicit\u0103"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "Depaneaz\u0103"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "Depaneaz\u0103 problemele de \u00EEnc\u0103rcare a paginilor"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "Elimin\u0103 tot"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "Dona\u021Bie"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Afi\u0219eaz\u0103 pagina pentru dona\u021Bii"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Afi\u0219eaz\u0103 rezultatele asem\u0103n\u0103toare"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Ajutor"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "Afi\u0219eaz\u0103 pagina de ajutor"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "Reguli"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "Afi\u0219eaz\u0103 regulile din arhiva online"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "Exemple"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "Afi\u0219eaz\u0103 pagina de \u00EEnv\u0103\u021Bare prin exemple"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "Caut\u0103 reguli online"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "Caut\u0103 reguli online"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Comut\u0103 \u00EEn modul simplificat"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "Comut\u0103 func\u021Bionarea \u00EEn modul simplificat (AutoPager Lite)"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "Comut\u0103 \u00EEn modul complex"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "Comut\u0103 func\u021Bionarea \u00EEn modul complex (AutoPager propriu-zis)"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "Dezactiveaz\u0103 \u00EEnc\u0103rcarea automat\u0103 implicit\u0103 a paginilor"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Descoper\u0103 online regulile potrivite"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Eviden\u021Biaz\u0103 cuprinsul"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Eviden\u021Biaz\u0103 cuprinsul \u00EEn document"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "Eviden\u021Biaz\u0103 urm\u0103toarea leg\u0103tur\u0103"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "Eviden\u021Biaz\u0103 urm\u0103toarea leg\u0103tur\u0103 \u00EEn document"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Op\u021Biuni generale"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Func\u021Bioneaz\u0103 \u00EEn modul simplificat"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Afi\u0219eaz\u0103 pentru noile saituri"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Afi\u0219eaz\u0103 \u00EEntotdeauna pictograma pentru descoperire"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "Op\u021Biuni generale AutoPager"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "Furniza\u021Bi o expresie XPath sau da\u021Bi dublu-clic pe una din list\u0103 pentru a observa efectul."
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Atribut surs\u0103 pentru imagini \u00EEnc\u0103rcate lent"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Se vor re\u00EEncarca paginile c\u00E2nd se face clic pe unul din elementele din list\u0103 sau dac\u0103 unul din acestea se modific\u0103"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "pentru aceast\u0103 sesiune"
+   },
+   "thissite": {
+      "message": "pentru acest sait"
+   },
+   "thistime": {
+      "message": "de aceast\u0103 dat\u0103"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "Adaug\u0103 un sait"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "Elimin\u0103 tot"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Identific\u0103"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "Deschide \u00EEntr-o fereastr\u0103 proprie"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "Deschide \u00EEn panoul lateral"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "Extrage con\u021Binutul"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "Extrage leg\u0103tura"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Testeaz\u0103 saitul"
+   },
+   "treecol_authorityCol_label": {
+      "message": "Autoritate"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "Con\u021Binut XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "Fi\u0219ier"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "Leg\u0103tur\u0103 XPath"
+   },
+   "treecol_machedCol_label": {
+      "message": "Num\u0103r potriviri"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "Dori\u021Bi s\u0103 \u00EEncerca\u021Bi din nou?"
+   },
+   "unableevaluator": {
+      "message": "Imposibil de evaluat expresia XPath: %S.n%S"
+   },
+   "unableload": {
+      "message": "Imposibil de \u00EEnc\u0103rcat adresa:"
+   },
+   "unsupport_version": {
+      "message": "S-a depistat versiunea %S a formatului pentru reguli. Versiunea maxim\u0103 suportat\u0103 este %S. Regula va fi ignorat\u0103."
+   },
+   "viewdescription": {
+      "message": "(clic pentru a afi\u0219a descrierea)"
+   },
+   "viewdescription2": {
+      "message": "(Ctrl+clic pentru pentru a afi\u0219a descrierea)"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "Ini\u021Bializeaz\u0103"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "Descriere expresie XPath"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "Expresie XPath"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Func\u021Bii logice"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "Localiz\u0103ri"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Func\u021Bii pentru grupuri noduri"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Func\u021Bii numerice"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "Func\u021Bii pentru \u0219iruri de caractere"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "Selecteaz\u0103 str\u0103mo\u0219ii nodului curent"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "Selecteaz\u0103 str\u0103mo\u0219ii nodului curent, precum \u0219i nodul curent"
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "Selecteaz\u0103 atributele nodului curent"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Returneaz\u0103 reprezentarea logic\u0103 a argumentului"
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Returneaz\u0103 \u00EEntregul mai mic cel mai apropiat de argument"
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "Selecteaz\u0103 fiii nodului curent"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "Returneaz\u0103 \u0219irul format din concatenarea argumentelor"
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "Returneaz\u0103 \u201Eadev\u0103rat\u201D dac\u0103 primul argument \u00EEl con\u021Bine pe al doilea argument"
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "Returneaz\u0103 num\u0103rul de noduri din grupul de noduri"
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "Selecteaz\u0103 urma\u0219ii nodului curent"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "Selecteaz\u0103 urma\u0219ii nodului curent precum \u0219i nodul curent"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Returneaz\u0103 valoarea logic\u0103 \u201Efals\u201D"
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Returneaz\u0103 \u00EEntregul mai mare cel mai apropiat de argument"
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "Selecteaz\u0103 totul ce urmeaz\u0103 nodului curent"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "Selecteaz\u0103 capitolul urm\u0103tor de acela\u0219i nivel cu nodul curent"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Returneaz\u0103 elementul specificat prin identificatorul s\u0103u unic"
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Returneaz\u0103 \u201Eadev\u0103rat\u201D dac\u0103 limba nodului curent este identic\u0103 cu cea specificat\u0103 de argument"
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "Returneaz\u0103 pozi\u021Bia ultimului nod din lista curent\u0103"
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Returneaz\u0103 denumirea local\u0103 a primului nod din grupul de noduri"
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Returneaz\u0103 denumirea local\u0103 a nodului curent"
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "Returneaz\u0103 denumirea primului nod din grupul de noduri"
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Returneaz\u0103 denumirea nodului curent"
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "Selecteaz\u0103 contextul namespace al nodului curent"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Returneaz\u0103 contextul namespace-uri al primului nod din grupul de noduri"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Returneaz\u0103 contextul namespace-uri al nodului curent"
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "Returneaz\u0103 un \u0219ir normalizat specificat de argument"
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Returneaz\u0103 un \u0219ir normalizat specificat de nodul curent"
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Returneaz\u0103 valoarea logic\u0103 reprezent\u00E2nd nega\u021Bia valorii argumentului"
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Returneaz\u0103 reprezentarea numeric\u0103 a argumentului"
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Returneaz\u0103 reprezentarea numeric\u0103 a nodului curent"
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "Selecteaz\u0103 p\u0103rintele nodului curent"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "Returneaz\u0103 pozi\u021Bia nodului curent"
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "Selecteaz\u0103 totul ce precede nodul curent"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "Selecteaz\u0103 capitolul precedent de acela\u0219i nivel cu nodului curent"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Returneaz\u0103 \u00EEntregul cel mai apropiat de argument"
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "Selecteaz\u0103 nodul curent"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "Returneaz\u0103 \u201Eadev\u0103rat\u201D dac\u0103 primul argument \u00EEncepe cu al doilea argument"
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "Returneaz\u0103 reprezentarea ca \u0219ir a argumentului"
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Returneaz\u0103 reprezentarea ca \u0219ir a nodului curent"
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Returneaz\u0103 lungimea \u0219irului specificat de argument"
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Returneaz\u0103 lungimea \u0219irului specificat de nodul curent"
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Returneaz\u0103 sub\u0219irul din primul argument care \u00EEncepe \u00EEn pozi\u021Bia specificat\u0103 de al doilea argument \u0219i are lungimea specificat\u0103 de al treilea argument"
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Returneaz\u0103 sub\u0219irul din primul argument care \u00EEncepe dup\u0103 prima apari\u021Bie a celui de-al doilea argument"
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Returneaz\u0103 sub\u0219irul din primul argument care se termin\u0103 \u00EEnainte de prima apari\u021Bie a celui de-al doilea argument"
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Returneaz\u0103 sub\u0219irul din primul argument care \u00EEncepe \u00EEn pozi\u021Bia specificat\u0103 de al doilea argument"
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "Returneaz\u0103 suma tuturor nodurilor din grupul de noduri"
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Returneaz\u0103 con\u021Binutul text al nodului curent"
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "\u00CEnlocuie\u0219te caracterele din \u0219irul specificat de al doilea argument cu caracterele specificate \u00EEn al treilea argument"
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Returneaz\u0103 valoarea logic\u0103 \u201Eadev\u0103rat\u201D"
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "str\u0103mo\u0219ii nodului curent"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "str\u0103mo\u0219ii nodului curent \u0219i nodul curent"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "atributele nodului curent"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "fiii nodului curent"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "urma\u0219ii nodului curent"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "urma\u0219ii nodului curent \u0219i nodul curent"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "totul ce urmeaz\u0103 nodului curent"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "capitolul urm\u0103tor de acela\u0219i nivel cu nodul curent"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "contextul namespace al nodului curent"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "p\u0103rintele nodului curent"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "totul ce precede nodului curent"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "capitolul precedent de acela\u0219i nivel cu nodul curent"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "nodul curent"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "Descriere"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "Func\u021Bie"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "Descriere scurt\u0103"
+   },
+   "xpathconfirm": {
+      "message": "Crede\u021Bi c\u0103 aceast\u0103 leg\u0103tur\u0103 XPath este corect\u0103?"
+   },
+   "xpathreturnnothing": {
+      "message": "Expresia XPath nu a returnat nimic."
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

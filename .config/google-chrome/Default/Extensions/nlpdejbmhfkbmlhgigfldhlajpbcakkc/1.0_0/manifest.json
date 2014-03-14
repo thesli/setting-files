@@ -1,0 +1,12 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "popup": "scratchpad.htm"
+   },
+   "description": "Play around with CSS.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVGuOgGnGDXoUeYZ15lSeseNrVV3dsQruE4B8NrqZWdTff4HEM92JVTt6wCvy+G26UpnkHnBung0hHVz1cjnGk97JIeaTcZVv85aqTxdQAFrkDjn3BSTSwJ295M+BmxKxpuLkEtzI77aRImY0Rm9hkUvdYYGVbRxp8ki89PraJWQIDAQAB",
+   "name": "CSS Playground",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

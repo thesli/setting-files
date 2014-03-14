@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "jquery.js", "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiNQLDDeerRlFOVEnjCaZWY8h9PcJJnc3FcM84rKrAp0dmfgzu1wgP+Blgo45x64yDsBZQd7QQiOfsnlbMWLCM9zS8dUBeGhtNDnRbu33FN01KsewykxMXBpozMgNCKFwDCyKYu69d4mxsRn3DgeQ9D7cxSVl0QE6Wx3iepr6WLwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.4.1",
+   "web_accessible_resources": [ "widget.html", "options.html" ]
+}

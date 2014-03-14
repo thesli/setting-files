@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel bloquear esta p\u00E1gina"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Clear recently closed tabs"
+   },
+   "clickToOpen": {
+      "message": "Clique para abrir \"$title$\"",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Uma nova forma de navegar pelas suas abas. Acesse facilmente suas abas mais usadas, relacionadas e fechadas. Tamb\u00E9m permite bloquear abas."
+   },
+   "frequentlyUsedTabs": {
+      "message": "Usadas frequentemente"
+   },
+   "loading": {
+      "message": "carregando..."
+   },
+   "lockPage": {
+      "message": "Bloqueie esta p\u00E1gina"
+   },
+   "name": {
+      "message": "TabJump - Navegador de abas inteligente"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "Fechadas recentemente"
+   },
+   "relatedTabs": {
+      "message": "Abas relacionadas"
+   },
+   "sureToLeavePage": {
+      "message": "Tem certeza que deseja sair desta p\u00E1gina?"
+   },
+   "unlockPage": {
+      "message": "Desbloqueie esta p\u00E1gina"
+   }
+}

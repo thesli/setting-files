@@ -1,0 +1,106 @@
+{
+   "accelerator": {
+      "description": "",
+      "message": "Accelerator"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Access ALL of the Internet! Go to blocked site -> click Hola icon -> change country flag -> ENJOY!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Hola Better Internet"
+   },
+   "back": {
+      "description": "",
+      "message": "back to"
+   },
+   "blocked": {
+      "description": "",
+      "message": "blocked?"
+   },
+   "changing": {
+      "description": "",
+      "message": "changing"
+   },
+   "conflict1": {
+      "description": "",
+      "message": "Your network proxy settings are being managed by another extension"
+   },
+   "conflict2": {
+      "description": "",
+      "message": "Disable that extension"
+   },
+   "conflict3": {
+      "description": "",
+      "message": "to continue with Hola"
+   },
+   "evenmore": {
+      "description": "",
+      "message": "even more"
+   },
+   "hola": {
+      "description": "",
+      "message": "Hola"
+   },
+   "initial": {
+      "description": "",
+      "message": "Initializing, please wait"
+   },
+   "loading": {
+      "description": "",
+      "message": "Loading..."
+   },
+   "more": {
+      "description": "",
+      "message": "more..."
+   },
+   "notworking": {
+      "description": "",
+      "message": "not working? more options..."
+   },
+   "off": {
+      "description": "",
+      "message": "OFF"
+   },
+   "old1": {
+      "description": "",
+      "message": "Very old version of Chrome"
+   },
+   "old2": {
+      "description": "",
+      "message": " Chrome to use Hola"
+   },
+   "on": {
+      "description": "",
+      "message": "ON"
+   },
+   "reload": {
+      "description": "",
+      "message": "Reload"
+   },
+   "settings": {
+      "description": "",
+      "message": "settings"
+   },
+   "sitelist": {
+      "description": "",
+      "message": "unblocker site list"
+   },
+   "start": {
+      "description": "",
+      "message": "Turn on to get started"
+   },
+   "unblocked": {
+      "description": "",
+      "message": "unblocked"
+   },
+   "unblocker": {
+      "description": "",
+      "message": "Unblocker"
+   },
+   "update": {
+      "description": "",
+      "message": "Update"
+   }
+}

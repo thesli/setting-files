@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "\u30DA\u30FC\u30B8\u30F3\u30B0\u306E\u554F\u984C\u3092\u81EA\u52D5\u4FEE\u6B63"
+   },
+   "CheckUpdate": {
+      "message": "\u66F4\u65B0\u3092\u30C1\u30A7\u30C3\u30AF"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4 XPath \u306F null \u306B\u3067\u304D\u307E\u305B\u3093!"
+   },
+   "CreateANewRule": {
+      "message": "\u30B5\u30A4\u30C8\u30A6\u30A3\u30B6\u30FC\u30C9\u3092\u7528\u3044\u3066\u3053\u306E\u30DA\u30FC\u30B8\u306E\u30EB\u30FC\u30EB\u3092\u4F5C\u6210\u3057\u307E\u3059\u304B?"
+   },
+   "Disableinsteadofremove": {
+      "message": "autopager.xml \u4EE5\u5916\u306E\u30EA\u30DD\u30B8\u30C8\u30EA\u5185\u306E\u30EB\u30FC\u30EB\u3092\u524A\u9664\u3059\u308B\u4EE3\u308F\u308A\u306B\u7121\u52B9\u306B\u3057\u307E\u3059\u3002"
+   },
+   "Edit": {
+      "message": "\u7DE8\u96C6"
+   },
+   "EnableAutoPager": {
+      "message": "AutoPager \u304C\u7121\u52B9\u3067\u3059\u3002\u4ECA\u6709\u52B9\u306B\u3057\u307E\u3059\u304B?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u3067\u306F AutoPager \u304C\u7121\u52B9\u3067\u3059\u3002\u4ECA\u6709\u52B9\u306B\u3057\u307E\u3059\u304B?"
+   },
+   "Help": {
+      "message": "\u30D8\u30EB\u30D7"
+   },
+   "IgnoreVersionCheck": {
+      "message": "\u30D0\u30FC\u30B8\u30E7\u30F3 \u30C1\u30A7\u30C3\u30AF\u3092\u7121\u8996"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "\u30EA\u30F3\u30AF XPath \u306F null \u306B\u3067\u304D\u307E\u305B\u3093!"
+   },
+   "Load": {
+      "message": "\u8AAD\u307F\u8FBC\u307F"
+   },
+   "No": {
+      "message": "\u3044\u3044\u3048"
+   },
+   "Nomatchesfound": {
+      "message": "\u4E00\u81F4\u3059\u308B\u3082\u306E\u306F\u3042\u308A\u307E\u305B\u3093"
+   },
+   "Onematchfound": {
+      "message": "1 \u3064\u306E\u4E00\u81F4\u304C\u3042\u308A\u307E\u3059"
+   },
+   "Options": {
+      "message": "\u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "Pages": {
+      "message": "\u30DA\u30FC\u30B8"
+   },
+   "RelatedSearches": {
+      "message": "\u95A2\u9023\u691C\u7D22:"
+   },
+   "RequestHelpOnSite": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u306E\u30EB\u30FC\u30EB\u3092\u8981\u671B\u3057\u307E\u3059\u304B?"
+   },
+   "Resultsfrom": {
+      "message": "\u7D50\u679C"
+   },
+   "ShowOnNewSite": {
+      "message": "\u65B0\u3057\u3044\u30B5\u30A4\u30C8\u3092\u901A\u77E5"
+   },
+   "UpdateRules": {
+      "message": "\u30EB\u30FC\u30EB\u3092\u66F4\u65B0\u3059\u308B\u3068\u3001\u554F\u984C\u304C\u89E3\u6C7A\u3059\u308B\u304B\u3082\u3057\u308C\u307E\u305B\u3093\u3002n\u30DA\u30FC\u30B8\u30F3\u30B0\u30EB\u30FC\u30EB\u3092\u66F4\u65B0\u3057\u307E\u3059\u304B?"
+   },
+   "Yes": {
+      "message": "\u306F\u3044"
+   },
+   "alertforrule": {
+      "message": "\u3053\u306E\u30EB\u30FC\u30EB\u306B\u30A2\u30E9\u30FC\u30C8\u304C\u3042\u308A\u307E\u3059"
+   },
+   "allsites": {
+      "message": "\u3059\u3079\u3066\u306E\u30B5\u30A4\u30C8"
+   },
+   "alreadpubliced": {
+      "message": "\"%S\" \u306E\u30B5\u30A4\u30C8\u8A2D\u5B9A\u306F\u65E2\u306B\u30AA\u30F3\u30E9\u30A4\u30F3\u30EA\u30DD\u30B8\u30C8\u30EA\u306B\u6295\u7A3F\u3055\u308C\u3066\u3044\u308B\u304B\u5B58\u5728\u3057\u3066\u3044\u307E\u3059\u304C\u3001\u9001\u4FE1\u3092\u7D9A\u884C\u3057\u307E\u3059\u304B?"
+   },
+   "alwaysdisableshort": {
+      "message": "AD"
+   },
+   "alwaysenableshort": {
+      "message": "AE"
+   },
+   "autopageOn": {
+      "message": "%S \u3067 Auto page \u3092\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\u7121\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3092\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopageOnTip": {
+      "message": "%S \u3067 Auto Page \u3092\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002n\u7121\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3092\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopagedisabled": {
+      "message": "Auto pager \u306F\u7121\u52B9\u3067\u3059\u3002\u6709\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3067 Ctrl+\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopagedisabledTip": {
+      "message": "Auto pager \u306F\u7121\u52B9\u3067\u3059\u3002n\u6709\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3067 Ctrl+\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopageenabled": {
+      "message": "Auto Pager \u306F\u6709\u52B9\u3067\u3059\u3002\u7121\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3067 Ctrl+\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopageenabledTip": {
+      "message": "Auto Pager \u306F\u6709\u52B9\u3067\u3059\u3002n\u7121\u52B9\u306B\u3059\u308B\u306B\u306F\u30DA\u30FC\u30B8\u3067 Ctrl+\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059\u3002"
+   },
+   "autopager_label_value": {
+      "message": "Auto Pager"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "\u30DA\u30FC\u30B8 \u30DB\u30EB\u30C0\u30FC"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "L"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "\u3059\u3050\u306B\u8AAD\u307F\u8FBC\u3080"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "\u975E\u8868\u793A"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10\u30DA\u30FC\u30B8"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3\u30DA\u30FC\u30B8"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5\u30DA\u30FC\u30B8"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "A"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "\u5168\u30DA\u30FC\u30B8"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "\u4E00\u6642\u505C\u6B62"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "\u8868\u793A\u3059\u308B"
+   },
+   "autopager_mode": {
+      "message": "\u3069\u306E\u81EA\u52D5\u30DA\u30FC\u30B8\u30F3\u30B0 \u30EC\u30DD\u30B8\u30C8\u30EA\u3092\u4F7F\u7528\u3057\u307E\u3059\u304B?"
+   },
+   "autopager_sanitizer_entry": {
+      "message": "AutoPager \u30B5\u30A4\u30C8\u78BA\u8A8D"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "AutoPager \u30B5\u30A4\u30C8\u78BA\u8A8D\u3092\u6D88\u53BB\u3057\u307E\u3059\u304B?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "AutoPager \u30B5\u30A4\u30C8\u8A2D\u5B9A\u4F5C\u696D\u5834"
+   },
+   "autopager_status_createXPath": {
+      "message": "XPath \u3092\u4F5C\u6210"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "\u30DA\u30FC\u30B8\u3067\u30CE\u30FC\u30C9\u3092\u9078\u629E\u3057\u3066 XPath \u3092\u4F5C\u6210\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_disableOnSite": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u3067\u306F\u7121\u52B9"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u3067\u306F\u7121\u52B9\u306B\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_enabled": {
+      "message": "AutoPager \u3092\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "autopager_status_enabledTip": {
+      "message": "Auto Pager \u304C\u6709\u52B9/\u7121\u52B9\u3092\u5207\u308A\u66FF\u3048\u307E\u3059\u3002"
+   },
+   "autopager_status_export": {
+      "message": "\u8A2D\u5B9A\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_exportTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_exportclip": {
+      "message": "\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_exportfile": {
+      "message": "\u30D5\u30A1\u30A4\u30EB\u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u30D5\u30A1\u30A4\u30EB\u306B\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_importclip": {
+      "message": "\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9\u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_importexport": {
+      "message": "\u30A4\u30F3\u30DD\u30FC\u30C8/\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_importfile": {
+      "message": "\u30D5\u30A1\u30A4\u30EB\u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u30D5\u30A1\u30A4\u30EB\u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_importurl": {
+      "message": "URL \u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092 URL \u304B\u3089\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_myname": {
+      "message": "\u79C1\u306E\u540D\u524D:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "\u4F5C\u6210\u3057\u305F\u8A2D\u5B9A\u306B\u8FFD\u52A0\u3055\u308C\u308B\u3042\u306A\u305F\u306E\u540D\u524D\u3067\u3059\u3002"
+   },
+   "autopager_status_reportSite": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u306E\u554F\u984C\u3092\u5831\u544A"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u306E\u554F\u984C\u3092\u5831\u544A\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_requestHelp": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u306E\u30EB\u30FC\u30EB\u3092\u8981\u671B"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u306E\u30EB\u30FC\u30EB\u3092\u8981\u671B\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_setting": {
+      "message": "\u8A2D\u5B9A\u306E\u7BA1\u7406"
+   },
+   "autopager_status_settingTip": {
+      "message": "Auto Pager \u8A2D\u5B9A\u3092\u7BA1\u7406\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_showabout": {
+      "message": "\u30D0\u30FC\u30B8\u30E7\u30F3\u60C5\u5831"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "AutoPager \u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u60C5\u5831\u3092\u8868\u793A\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_showoption": {
+      "message": "\u30DA\u30FC\u30B8 \u30AA\u30D7\u30B7\u30E7\u30F3\u3092\u8868\u793A"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u306E\u30DA\u30FC\u30B8 \u30AA\u30D7\u30B7\u30E7\u30F3\u3092\u8868\u793A\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_sitewizard": {
+      "message": "\u30B5\u30A4\u30C8 \u30A6\u30A3\u30B6\u30FC\u30C9"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "\u30A6\u30A3\u30B6\u30FC\u30C9\u3067\u30B5\u30A4\u30C8\u8A2D\u5B9A\u3092\u4F5C\u6210\u3057\u307E\u3059"
+   },
+   "autopager_status_testXPath": {
+      "message": "XPath \u3092\u30C6\u30B9\u30C8"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "\u30DA\u30FC\u30B8\u3067 XPath \u3092\u30C6\u30B9\u30C8\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_update": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3\u3067\u8A2D\u5B9A\u3092\u66F4\u65B0"
+   },
+   "autopager_status_updateTip": {
+      "message": "\u30EB\u30FC\u30EB \u30EA\u30DD\u30B8\u30C8\u30EA\u304B\u3089 Auto Pager \u8A2D\u5B9A\u3092\u66F4\u65B0\u3057\u307E\u3059\u3002"
+   },
+   "autopager_status_xpathUtils": {
+      "message": "XPath \u30E6\u30FC\u30C6\u30A3\u30EA\u30C6\u30A3"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "AutoPager \u30B5\u30A4\u30C8\u8A2D\u5B9A\u4F5C\u696D\u5834"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "..."
+   },
+   "autopager_workshop_label_value": {
+      "message": "\u30D5\u30EC\u30FC\u30E0"
+   },
+   "autopageralert": {
+      "message": "AutoPager \u30A2\u30E9\u30FC\u30C8"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager \u306F %S \u3067\u3059 (%S \u3067)\u3002"
+   },
+   "autopaging": {
+      "message": "\u6B21\u306E\u30DA\u30FC\u30B8\u3092\u8AAD\u307F\u8FBC\u307F\u4E2D\u3001\u304A\u5F85\u3061\u304F\u3060\u3055\u3044......"
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "..."
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "..."
+   },
+   "caption_results_caption2_label": {
+      "message": "\u7D50\u679C"
+   },
+   "caption_results_caption_label": {
+      "message": "\u7D50\u679C"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "JavaScript \u30E2\u30FC\u30C9\u3092\u5F37\u5236"
+   },
+   "checkbox_ir_label": {
+      "message": "\u63A8\u5968\u30EB\u30FC\u30EB\u3092\u542B\u3081\u308B"
+   },
+   "choosed_rules": {
+      "message": "\u8EFD\u91CF"
+   },
+   "clicktotrynewrules": {
+      "message": "\u65B0\u3057\u3044\u30EB\u30FC\u30EB\u3092\u8A66\u3059\u306B\u306F\u30AF\u30EA\u30C3\u30AF"
+   },
+   "command_blinkElement_key": {
+      "message": "b"
+   },
+   "command_blinkElement_label": {
+      "message": "\u8981\u7D20\u3092\u70B9\u6EC5\u3055\u305B\u308B"
+   },
+   "command_narrower_key": {
+      "message": "n"
+   },
+   "command_narrower_label": {
+      "message": "\u72ED\u3081\u308B"
+   },
+   "command_pause_key": {
+      "message": "p"
+   },
+   "command_pause_label": {
+      "message": "\u4E00\u6642\u505C\u6B62 (\u30DA\u30FC\u30B8\u3092\u30B9\u30AF\u30ED\u30FC\u30EB\u3057\u3066\u5F71\u97FF\u3092\u898B\u308B\u305F\u3081)"
+   },
+   "command_quit_key": {
+      "message": "q"
+   },
+   "command_quit_label": {
+      "message": "\u9078\u629E\u7D42\u4E86"
+   },
+   "command_select_key": {
+      "message": "s"
+   },
+   "command_select_label": {
+      "message": "\u8981\u7D20\u3092\u9078\u629E"
+   },
+   "command_showMenu_key": {
+      "message": "h"
+   },
+   "command_showMenu_label": {
+      "message": "\u30D8\u30EB\u30D7\u3092\u8868\u793A/\u975E\u8868\u793A"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "u"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "\u30BD\u30FC\u30B9\u3092\u8868\u793A (\u5225\u30A6\u30A3\u30F3\u30C9\u30A6)"
+   },
+   "command_viewSource_key": {
+      "message": "v"
+   },
+   "command_viewSource_label": {
+      "message": "\u30BD\u30FC\u30B9\u3092\u8868\u793A"
+   },
+   "command_wider_key": {
+      "message": "w"
+   },
+   "command_wider_label": {
+      "message": "\u5E83\u3052\u308B"
+   },
+   "contentxpathconfirm": {
+      "message": "\u3053\u306E\u30B3\u30F3\u30C6\u30F3\u30C4 XPath \u306F\u6B63\u3057\u3044\u3067\u3059\u304B?"
+   },
+   "disabled": {
+      "message": "\u7121\u52B9"
+   },
+   "disableeverywhere": {
+      "message": "\u3069\u3053\u3067\u3082\u7121\u52B9\u306B\u3059\u308B"
+   },
+   "disableon": {
+      "message": "%S \u3067\u7121\u52B9\u306B\u3059\u308B"
+   },
+   "disableshort": {
+      "message": "D"
+   },
+   "enabled": {
+      "message": "\u6709\u52B9"
+   },
+   "enableinfo": {
+      "message": "%S \u3067 auto pager \u3092\u6709\u52B9\u306B\u3059\u308B\u3002nlinkXPath=%SncontentXPath=%S"
+   },
+   "enableon": {
+      "message": "%S \u3067\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "enableonsite": {
+      "message": "AutoPager \u306F %S \u306E\u8A2D\u5B9A (\u4F5C\u8005 %S) \u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u3053\u306E\u30B5\u30A4\u30C8\u3067\u81EA\u52D5\u30DA\u30FC\u30B8\u30F3\u30B0\u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u304B?"
+   },
+   "enableshort": {
+      "message": "E"
+   },
+   "enableurl": {
+      "message": "%S \u3067 Auto Pager \u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u3002"
+   },
+   "errorload": {
+      "message": "\u30DA\u30FC\u30B8\u8AAD\u307F\u8FBC\u307F\u30A8\u30E9\u30FC:"
+   },
+   "esctoabort": {
+      "message": "\u4E2D\u6B62\u3059\u308B\u306B\u306F ESC \u3092\u62BC\u3057\u307E\u3059\u3002"
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager \u306F\u6B21\u306E\u30DA\u30FC\u30B8\u3092\u30D0\u30C3\u30AF\u30B0\u30E9\u30A6\u30F3\u30C9\u3067\u81EA\u52D5\u8AAD\u307F\u8FBC\u307F\u3059\u308B Firefox/Mozilla \u62E1\u5F35\u6A5F\u80FD\u3067\u3059\u3002XPath \u30B8\u30A7\u30CD\u30EC\u30FC\u30BF\u3068\u3057\u3066\u3082\u4F7F\u7528\u3067\u304D\u307E\u3059\u3002"
+   },
+   "globaldisabled": {
+      "message": "AutoPager \u306F\u73FE\u5728\u7121\u52B9\u3067\u3059\u3002%S \u3067\u81EA\u52D5\u958B\u59CB\u3059\u308B\u306B\u306F\u6709\u52B9\u306B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "highlightcontents": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u5F37\u8ABF"
+   },
+   "highlightnextlinks": {
+      "message": "\u6B21\u3078\u306E\u30EA\u30F3\u30AF\u3092\u5F37\u8ABF"
+   },
+   "immediately_load": {
+      "message": "\u3059\u3050\u306B\u8AAD\u307F\u8FBC\u3080"
+   },
+   "importdone": {
+      "message": "\u65B0\u305F\u306B %S \u30B5\u30A4\u30C8\u3092\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u3001%S \u30B5\u30A4\u30C8\u3092\u66F4\u65B0\u3057\u3001%S \u30B5\u30A4\u30C8\u3092\u7121\u8996\u3057\u307E\u3057\u305F\u3002"
+   },
+   "inputfile": {
+      "message": "auto pager \u8A2D\u5B9A\u30D5\u30A1\u30A4\u30EB\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "inputname": {
+      "message": "\u4F5C\u6210\u3057\u305F\u8A2D\u5B9A\u306B\u8FFD\u52A0\u3055\u308C\u308B\u3042\u306A\u305F\u306E\u540D\u524D\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "inputnumber": {
+      "message": "\u6B63\u306E\u6570\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+   },
+   "inputurl": {
+      "message": "\u30A4\u30F3\u30DD\u30FC\u30C8\u3059\u308B\u8A2D\u5B9A\u306E URL \u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "inputxpath": {
+      "message": "XPath \u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "label_Usages_value": {
+      "message": "\u4F7F\u7528\u65B9\u6CD5"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "\u3059\u3079\u3066\u306E\u30EB\u30FC\u30EB\u3092\u898B\u308B\u306B\u306F\u3053\u306E\u30D5\u30A3\u30EB\u30BF\u3092\u6D88\u53BB\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "label_filterLabel_value": {
+      "message": "\u30D5\u30A3\u30EB\u30BF"
+   },
+   "label_idsLabel_value": {
+      "message": "\u9078\u629E\u3057\u305F\u30EB\u30FC\u30EB\u306E ID (,\u3067\u533A\u5207\u308B)"
+   },
+   "label_lazyLoad": {
+      "message": "\u753B\u50CF\u306E src \u5C5E\u6027\u306E\u6020\u60F0\u306A\u8AAD\u307F\u8FBC\u307F"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "XPath \u30E2\u30CB\u30BF:"
+   },
+   "label_value": {
+      "message": "\u30AB\u30A6\u30F3\u30C8"
+   },
+   "lite_discovery": {
+      "message": "\u8868\u793A\u4E2D\u306E\u30DA\u30FC\u30B8\u7528\u306E\u30EB\u30FC\u30EB\u304C\u30EA\u30DD\u30B8\u30C8\u30EA\u306B\u3042\u308B\u304B\u3001AugoPager \u306B\u81EA\u52D5\u7684\u306B\u63A2\u7D22\u3055\u305B\u307E\u3059\u304B?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003E\u8AAD\u307F\u8FBC\u307F\u4E2D...\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "\u306E\u4E00\u81F4\u304C\u3042\u308A\u307E\u3059"
+   },
+   "modifyxpath": {
+      "message": "\u5FC5\u8981\u3067\u3042\u308C\u3070 XPath \u3092\u5909\u66F4\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "more": {
+      "message": "\u3082\u3063\u3068\u898B\u308B"
+   },
+   "moveover": {
+      "message": "\u30DE\u30A6\u30B9\u3092\u4E57\u305B\u305F %S \u306E XPath: %S"
+   },
+   "mustinput": {
+      "message": "\u540D\u524D\u3092\u5165\u529B\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002"
+   },
+   "myname": {
+      "message": "\u79C1\u306E\u540D\u524D: %S"
+   },
+   "navbottom": {
+      "message": "\u30A6\u30A3\u30F3\u30C9\u30A6\u306E\u4E0B\u7AEF\u306B\u79FB\u52D5"
+   },
+   "navdown": {
+      "message": "1\u30DA\u30FC\u30B8\u9032\u3080"
+   },
+   "navtop": {
+      "message": "\u30A6\u30A3\u30F3\u30C9\u30A6\u306E\u4E0A\u7AEF\u306B\u79FB\u52D5"
+   },
+   "navup": {
+      "message": "1\u30DA\u30FC\u30B8\u623B\u308B"
+   },
+   "needyourattention": {
+      "message": "\u898B\u308B\u306B\u306F\u3053\u3053\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "nevershowPrompt": {
+      "message": "\u5BFE\u5FDC\u3057\u3066\u3044\u308B\u30B5\u30A4\u30C8\u304C\u65B0\u305F\u306B\u898B\u3064\u304B\u3063\u3066\u3082\u3001\u4E8C\u5EA6\u3068\u3053\u306E\u30D7\u30ED\u30F3\u30D7\u30C8\u3092\u8868\u793A\u3057\u306A\u3044"
+   },
+   "nextpages": {
+      "message": "\u6B21\u306E %S \u30DA\u30FC\u30B8"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "\u3044\u3044\u3048"
+   },
+   "nomatchedconfig": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u306B\u4E00\u81F4\u3059\u308B\u30B5\u30A4\u30C8\u8A2D\u5B9A\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+   },
+   "normal_repositories": {
+      "message": "\u901A\u5E38"
+   },
+   "notrate": {
+      "message": "\u307E\u3060\u672A\u8A55\u4FA1\u3067\u3059\u3002\u6700\u521D\u306E\u30EC\u30D3\u30E5\u30A2\u30FC\u306B\u306A\u308B\u306B\u306F\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "S"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "E: \u6709\u52B9\u3001D: \u7121\u52B9\u3001AE: \u5E38\u306B\u6709\u52B9\u3001AD: \u5E38\u306B\u7121\u52B9"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "\u66F8\u5F0F\u306E\u30D0\u30FC\u30B8\u30E7\u30F3\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u7121\u8996"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "AutoPager \u3092 User Agent \u306B\u8FFD\u52A0"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Tweak Session\u3001\u518D\u8AAD\u307F\u8FBC\u307F\u6642\u306B\u6700\u5F8C\u306B\u8868\u793A\u3057\u3066\u3044\u305F\u30DA\u30FC\u30B8\u3092\u5FA9\u5143"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "\u305D\u306E\u4ED6"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "AutoPager \u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "options_label_speedLabel_value": {
+      "message": "\u524D\u3082\u3063\u3066\u8AAD\u307F\u8FBC\u3080\u30DA\u30FC\u30B8\u6570:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Auto Pager \u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "outputfile": {
+      "message": "\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3059\u308B\u30D5\u30A1\u30A4\u30EB\u540D\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044:"
+   },
+   "pagebreak2": {
+      "message": "AutoPager \u304C\u633F\u5165\u3057\u305F\u6539\u30DA\u30FC\u30B8\u3002"
+   },
+   "pagelink": {
+      "message": "\u30DA\u30FC\u30B8 (\u003Ca href='%S'\u003E %S \u003C/a\u003E)\u3002"
+   },
+   "rate": {
+      "message": "%s \u3092 5 \u6BB5\u968E\u3067\u8A55\u4FA1\u3057\u307E\u3059\u3002\u8A55\u4FA1\u3092\u5165\u529B\u3059\u308B\u306B\u306F\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "repositoryname": {
+      "message": "\u30EA\u30DD\u30B8\u30C8\u30EA\u540D"
+   },
+   "rulecount": {
+      "message": "\u30EB\u30FC\u30EB\u6570"
+   },
+   "rulesupdated": {
+      "message": "\u30EB\u30FC\u30EB\u3092\u66F4\u65B0\u3057\u307E\u3057\u305F"
+   },
+   "selectcontentxpath": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+   },
+   "selectlinkxpath": {
+      "message": "\u6B21\u306E\u30DA\u30FC\u30B8\u3078\u306E\u30EA\u30F3\u30AF\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "selectsearchengine": {
+      "message": "\u003C\u691C\u7D22\u30A8\u30F3\u30B8\u30F3\u3092\u9078\u629E\u003E"
+   },
+   "setting_appname": {
+      "message": "Auto Pager"
+   },
+   "setting_button_add": {
+      "message": "\u8FFD\u52A0..."
+   },
+   "setting_button_cloneToEdit": {
+      "message": "\u8907\u88FD\u3057\u3066\u7DE8\u96C6"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "\u3053\u306E\u9805\u76EE\u306F\u5143\u3005\u7528\u610F\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u5FC5\u8981\u3067\u3042\u308C\u3070\u8907\u88FD\u7248\u306E\u307F\u7DE8\u96C6\u3067\u304D\u307E\u3059\u3002"
+   },
+   "setting_button_copy": {
+      "message": "\u8907\u88FD"
+   },
+   "setting_button_down": {
+      "message": "\u4E0B\u3078"
+   },
+   "setting_button_edit": {
+      "message": "\u7DE8\u96C6..."
+   },
+   "setting_button_export": {
+      "message": "\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8"
+   },
+   "setting_button_exportTip": {
+      "message": "\u9078\u629E\u3057\u305F\u9805\u76EE\u3092\u30A8\u30AF\u30B9\u30DD\u30FC\u30C8\u3057\u307E\u3059"
+   },
+   "setting_button_import": {
+      "message": "\u30A4\u30F3\u30DD\u30FC\u30C8"
+   },
+   "setting_button_pick": {
+      "message": "\u9078\u629E..."
+   },
+   "setting_button_public": {
+      "message": "\u516C\u958B"
+   },
+   "setting_button_remove": {
+      "message": "\u524A\u9664"
+   },
+   "setting_button_reset": {
+      "message": "\u30EA\u30BB\u30C3\u30C8"
+   },
+   "setting_button_resetTip": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3\u8A2D\u5B9A\u307E\u305F\u306F\u4EE5\u524D\u306E\u8A2D\u5B9A (\u30ED\u30FC\u30AB\u30EB \u30EB\u30FC\u30EB\u306E\u5834\u5408) \u306B\u30EA\u30BB\u30C3\u30C8\u3057\u307E\u3059"
+   },
+   "setting_button_up": {
+      "message": "\u4E0A\u3078"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "\u9069\u7528"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "\u62E1\u5F35"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "\u30DA\u30FC\u30B8\u8AAD\u307F\u8FBC\u307F\u4E2D\u306F\u5E38\u306BJava Script \u3092\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "setting_label_btnEdit": {
+      "message": "\u7DE8\u96C6"
+   },
+   "setting_label_chkAjax": {
+      "message": "\u3053\u308C\u306F ajax \u30B5\u30A4\u30C8\u3067\u3059\u3002\u8AAD\u307F\u8FBC\u307F\u30A4\u30D9\u30F3\u30C8\u306F\u3042\u308A\u307E\u305B\u3093\u3002"
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "\u30DA\u30FC\u30B8\u8AAD\u307F\u8FBC\u307F\u4E2D\u306B JavaScript \u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u3002"
+   },
+   "setting_label_chkEnabled": {
+      "message": "\u6709\u52B9"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "\u8AAD\u307F\u8FBC\u3093\u3060\u30DA\u30FC\u30B8\u306E\u30AA\u30FC\u30D0\u30FC\u30D5\u30ED\u30FC\u8A2D\u5B9A\u3092\u7121\u52B9\u306B\u3057\u307E\u3059\u3002"
+   },
+   "setting_label_chkIsRegex": {
+      "message": "\u6B63\u898F\u8868\u73FE\u3067\u3059\u304B?"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "\u9AD8\u901F\u8AAD\u307F\u8FBC\u307F (\u3042\u3089\u3086\u308B\u30B5\u30A4\u30C8\u3067\u5B89\u5168\u3067\u306F\u3042\u308A\u307E\u305B\u3093)\u3002"
+   },
+   "setting_label_chkShift": {
+      "message": "Shift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "\u30EA\u30F3\u30AF\u306B\u30DE\u30A6\u30B9 \u30C0\u30A6\u30F3 \u30A4\u30D9\u30F3\u30C8\u304C\u5FC5\u8981"
+   },
+   "setting_label_confirmstyle": {
+      "message": "\u78BA\u8A8D\u306E\u30B9\u30BF\u30A4\u30EB:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "\u6B21\u306E\u30DA\u30FC\u30B8\u3092\u4F75\u5408\u3059\u308B\u524D\u306E\u9045\u5EF6 (\u30DF\u30EA\u79D2)"
+   },
+   "setting_label_disable_by_default": {
+      "message": "\u500B\u5225\u306E\u65B0\u3057\u3044\u30B5\u30A4\u30C8\u3067\u7121\u52B9"
+   },
+   "setting_label_discoverytext": {
+      "message": "\u30C7\u30A3\u30B9\u30AB\u30D0\u30EA"
+   },
+   "setting_label_doubleclick": {
+      "message": "+\u30C0\u30D6\u30EB \u30AF\u30EA\u30C3\u30AF"
+   },
+   "setting_label_general": {
+      "message": "\u5168\u822C"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4 XPath:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "\u30C7\u30A3\u30B9\u30AB\u30D0\u30EA"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "\u30D5\u30A3\u30EB\u30BF XPath (\u65B0\u3057\u3044\u30DA\u30FC\u30B8\u306E\u30A2\u30A4\u30C6\u30E0\u3092\u7121\u8996\u3057\u307E\u3059)"
+   },
+   "setting_label_grpSmart": {
+      "message": "\u30B9\u30DE\u30FC\u30C8 \u30DA\u30FC\u30B8\u30F3\u30B0"
+   },
+   "setting_label_hotkeys": {
+      "message": "\u6709\u52B9/\u7121\u52B9\u3092\u5207\u308A\u66FF\u3048\u308B\u30DB\u30C3\u30C8\u30AD\u30FC:"
+   },
+   "setting_label_ignoresite": {
+      "message": "\u7121\u8996\u3059\u308B\u30B5\u30A4\u30C8"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "\u30B3\u30F3\u30C6\u30CA XPath"
+   },
+   "setting_label_lblDesc": {
+      "message": "\u8AAC\u660E:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "\u30EA\u30F3\u30AF XPath:"
+   },
+   "setting_label_lblOwner": {
+      "message": "\u4F5C\u6210\u8005:"
+   },
+   "setting_label_lblSetting": {
+      "message": "AutoPager \u8A2D\u5B9A\u306E\u30BD\u30FC\u30B9"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8\u306E\u7A2E\u985E:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "\u8AAC\u660E:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "\u8A2D\u5B9A\u8005:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "\u7A2E\u985E:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "URL \u30D1\u30BF\u30FC\u30F3:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "\u30B5\u30A4\u30C8\u8A2D\u5B9A\u3092\u81EA\u52D5\u66F4\u65B0:"
+   },
+   "setting_label_loading": {
+      "message": "\u8AAD\u307F\u8FBC\u307F\u901A\u77E5\u306E\u30B9\u30BF\u30A4\u30EB:"
+   },
+   "setting_label_localrules": {
+      "message": "\u30ED\u30FC\u30AB\u30EB \u30EB\u30FC\u30EB"
+   },
+   "setting_label_margin": {
+      "message": "\u7A7A\u767D\u304C\u30A6\u30A3\u30F3\u30C9\u30A6\u9AD8\u3055"
+   },
+   "setting_label_marginEnd": {
+      "message": "\u672A\u6E80\u306B\u306A\u3063\u305F\u3089\u30DA\u30FC\u30B8\u30F3\u30B0"
+   },
+   "setting_label_minipages": {
+      "message": "\u524D\u3082\u3063\u3066\u8AAD\u307F\u8FBC\u3080\u6700\u5C0F\u30DA\u30FC\u30B8\u6570"
+   },
+   "setting_label_pagebreak": {
+      "message": "\u6539\u30DA\u30FC\u30B8\u306E\u30B9\u30BF\u30A4\u30EB:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "AutoPager \u306E\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30E1\u30CB\u30E5\u30FC\u3092\u8868\u793A"
+   },
+   "setting_label_showHelpTips": {
+      "message": "\u305D\u308C\u305E\u308C\u306E\u8A2D\u5B9A\u306B\u30A2\u30A4\u30B3\u30F3\u3092\u8868\u793A\u3057\u3001\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u306E\u8AAC\u660E\u304C\u898B\u308C\u308B\u3088\u3046\u306B\u3059\u308B\u3002"
+   },
+   "setting_label_showPrompt": {
+      "message": "\u500B\u5225\u306E\u65B0\u3057\u3044\u30B5\u30A4\u30C8\u3067\u30D7\u30ED\u30F3\u30D7\u30C8\u3092\u8868\u793A"
+   },
+   "setting_label_showStatusBar": {
+      "message": "\u30B9\u30C6\u30FC\u30BF\u30B9 \u30D0\u30FC\u306B autopager \u30A2\u30A4\u30B3\u30F3\u3092\u8868\u793A"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "\u30C4\u30FC\u30EB\u30D0\u30FC\u306B autopager \u30A2\u30A4\u30B3\u30F3\u3092\u8868\u793A"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "\u500B\u5225\u306E\u65B0\u3057\u3044\u30B5\u30A4\u30C8\u3067\u7C21\u5358\u306A\u30D7\u30ED\u30F3\u30D7\u30C8\u3092\u8868\u793A"
+   },
+   "setting_label_sites": {
+      "message": "\u30B5\u30A4\u30C8"
+   },
+   "setting_label_smartenable": {
+      "message": "\u30B9\u30DE\u30FC\u30C8 \u30DA\u30FC\u30B8\u30F3\u30B0\u3092\u6709\u52B9\u306B\u3059\u308B"
+   },
+   "setting_label_smartlinks": {
+      "message": "\u30EA\u30F3\u30AF\u304C"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "\u4EE5\u4E0A\u306A\u3044\u5834\u5408\u306B\u30EA\u30F3\u30AF\u3092\u8FFD\u3046\u3002"
+   },
+   "setting_label_smartmatch": {
+      "message": "\u5B8C\u5168\u4E00\u81F4\u306E\u307F"
+   },
+   "setting_label_smarttext": {
+      "message": "\u6B21\u306E\u30EA\u30F3\u30AF\u3092\u63A2\u3059\u30C6\u30AD\u30B9\u30C8/\u753B\u50CF\u306E src/ID/class ('|' \u3067\u5206\u5272):"
+   },
+   "setting_label_timeout": {
+      "message": "\u30DA\u30FC\u30B8\u8AAD\u307F\u8FBC\u307F\u306E\u30BF\u30A4\u30E0\u30A2\u30A6\u30C8 (\u79D2):"
+   },
+   "setting_label_update": {
+      "message": "\u66F4\u65B0"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "Don&apos;t change it if you don&apos;t know it.\nThis will help if the main content of the site have a container with overflow-y and scrollbar. Take www.cuil.com as an example."
+   },
+   "setting_title": {
+      "message": "Auto Pager \u8A2D\u5B9A"
+   },
+   "setting_tree_Description": {
+      "message": "\u8AAC\u660E"
+   },
+   "setting_tree_URLPattern": {
+      "message": "URL \u30D1\u30BF\u30FC\u30F3"
+   },
+   "setting_type_autopager": {
+      "message": "autopager xml"
+   },
+   "setting_type_autopagerize": {
+      "message": "autopagerize"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "autopagerize josn"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "autopager text"
+   },
+   "setting_update_bidaily": {
+      "message": "\u4E00\u65E5\u304A\u304D\u306B"
+   },
+   "setting_update_daily": {
+      "message": "\u6BCE\u65E5"
+   },
+   "setting_update_global": {
+      "message": "\u5168\u4F53\u306E\u8A2D\u5B9A\u3092\u4F7F\u7528"
+   },
+   "setting_update_monthly": {
+      "message": "\u6BCE\u6708"
+   },
+   "setting_update_never": {
+      "message": "\u3057\u306A\u3044"
+   },
+   "setting_update_once": {
+      "message": "\u521D\u56DE\u8D77\u52D5\u6642"
+   },
+   "setting_update_startup": {
+      "message": "\u8D77\u52D5\u6BCE"
+   },
+   "setting_update_weekly": {
+      "message": "\u6BCE\u9031"
+   },
+   "showoptions": {
+      "message": "\u305D\u306E\u4ED6\u306E\u30AA\u30D7\u30B7\u30E7\u30F3\u3092\u8868\u793A"
+   },
+   "smartpaging": {
+      "message": "\u30B9\u30DE\u30FC\u30C8 \u30DA\u30FC\u30B8\u30F3\u30B0"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "AutoPager \u30DA\u30FC\u30B8 \u30DB\u30EB\u30C0\u30FC\u3092\u9589\u3058\u308B"
+   },
+   "statusbar_label_value": {
+      "message": "\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u30AA\u30F3\u30E9\u30A4\u30F3\u306E\u30DA\u30FC\u30B8\u30F3\u30B0 \u30EB\u30FC\u30EB\u3092\u8868\u793A"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "\u30D8\u30EB\u30D7"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "\u554F\u984C\u3092\u4FEE\u6B63"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "\u81EA\u52D5\u4FEE\u6B63"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "\u554F\u984C\u3092\u81EA\u52D5\u4FEE\u6B63\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "\u3059\u3079\u3066\u306E\u8A2D\u5B9A\u3092\u30EA\u30BB\u30C3\u30C8"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "\u3059\u3079\u3066\u306E AutoPager \u8A2D\u5B9A\u3092\u30EA\u30BB\u30C3\u30C8\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "\u30C8\u30E9\u30D6\u30EB \u30B7\u30E5\u30FC\u30C6\u30A3\u30F3\u30B0"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "\u30C8\u30E9\u30D6\u30EB \u30B7\u30E5\u30FC\u30C6\u30A3\u30F3\u30B0\u3092\u884C\u3044\u307E\u3059"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "\u3059\u3079\u3066\u30AF\u30EA\u30A2"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "\u5BC4\u4ED8"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "\u5BC4\u4ED8\u30DA\u30FC\u30B8\u3092\u8868\u793A\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "\u95A2\u9023\u691C\u7D22\u3092\u8868\u793A"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "\u30D8\u30EB\u30D7"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "\u30D8\u30EB\u30D7 \u30DA\u30FC\u30B8\u3092\u8868\u793A\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "\u30EB\u30FC\u30EB"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3 \u30EA\u30DD\u30B8\u30C8\u30EA\u5185\u306E\u30EB\u30FC\u30EB\u3092\u8868\u793A\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB \u30DA\u30FC\u30B8\u3092\u8868\u793A\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3\u306E\u30EB\u30FC\u30EB\u3092\u691C\u7D22"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3\u306E\u30EB\u30FC\u30EB\u3092\u691C\u7D22\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Lite \u30E2\u30FC\u30C9\u306B\u5207\u308A\u66FF\u3048"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "AutoPager \u3092 Lite Mode\u306B\u5207\u308A\u66FF\u3048\u307E\u3059"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "\u901A\u5E38\u30E2\u30FC\u30C9\u306B\u5207\u308A\u66FF\u3048"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "AutoPager \u3092\u901A\u5E38\u30E2\u30FC\u30C9\u306B\u5207\u308A\u66FF\u3048\u307E\u3059"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "\u65E2\u5B9A\u3067\u30DA\u30FC\u30B8\u30F3\u30B0\u3092\u7121\u52B9\u306B\u3059\u308B"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "\u30AA\u30F3\u30E9\u30A4\u30F3\u3067\u4E00\u81F4\u3059\u308B\u30EB\u30FC\u30EB\u3092\u63A2\u7D22"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u5F37\u8ABF"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\u5185\u306E\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u5F37\u8ABF\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "\u6B21\u3078\u306E\u30EA\u30F3\u30AF\u3092\u5F37\u8ABF"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\u5185\u306E\u6B21\u3078\u306E\u30EA\u30F3\u30AF\u3092\u5F37\u8ABF\u3057\u307E\u3059"
+   },
+   "statusbar_menuitem_label": {
+      "message": "\u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "lite \u30E2\u30C7\u30EB\u3067\u52D5\u4F5C\u3055\u305B\u308B"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "\u65B0\u3057\u3044\u30B5\u30A4\u30C8\u3067\u306F\u3053\u308C\u3092\u8868\u793A"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "\u5E38\u306B\u63A2\u7D22\u30A2\u30A4\u30B3\u30F3\u3092\u8868\u793A"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "AutoPager \u30B3\u30A2 \u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "\u52B9\u679C\u3092\u78BA\u8A8D\u3059\u308B\u305F\u3081\u306B 1 \u3064\u307E\u305F\u306F 2 \u3064\u306E XPath \u3092\u4E00\u89A7\u306B\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "\u753B\u50CF\u306E\u6020\u60F0\u306A\u8AAD\u307F\u8FBC\u307F\u5C5E\u6027"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Clean Loaded Pages when elements by following xpath clicked/changed"
+   },
+   "thereisalert": {
+      "message": "\u30A2\u30E9\u30FC\u30C8\u304C\u3042\u308A\u307E\u3059"
+   },
+   "thissession": {
+      "message": "\u3053\u306E\u30BB\u30C3\u30B7\u30E7\u30F3"
+   },
+   "thissite": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8"
+   },
+   "thistime": {
+      "message": "\u4ECA\u56DE"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "\u30B5\u30A4\u30C8\u3092\u8FFD\u52A0\u3057\u307E\u3059"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "\u3059\u3079\u3066\u6D88\u53BB\u3057\u307E\u3059"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "\u30C7\u30A3\u30B9\u30AB\u30D0\u30EA"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "\u5225\u306E\u30A6\u30A3\u30F3\u30C9\u30A6\u3067\u8868\u793A\u3057\u307E\u3059"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "\u30B5\u30A4\u30C9\u30D0\u30FC\u306B\u8868\u793A\u3057\u307E\u3059"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u53CE\u96C6\u3057\u307E\u3059"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "\u30EA\u30F3\u30AF\u3092\u53CE\u96C6\u3057\u307E\u3059"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "\u30B5\u30A4\u30C8\u3092\u30C6\u30B9\u30C8"
+   },
+   "treecol_authorityCol_label": {
+      "message": "\u6A29\u5A01"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "\u30B3\u30F3\u30C6\u30F3\u30C4 XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "\u30D5\u30A1\u30A4\u30EB"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "\u30EA\u30F3\u30AF XPath"
+   },
+   "treecol_machedCol_label": {
+      "message": "\u4E00\u81F4\u3057\u305F\u6570"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "\u518D\u8A66\u884C\u3057\u307E\u3059\u304B?"
+   },
+   "unableevaluator": {
+      "message": "XPath: %S \u3092\u8A55\u4FA1\u3067\u304D\u307E\u305B\u3093\u3002n%S"
+   },
+   "unableload": {
+      "message": "URL \u3092\u8AAD\u307F\u8FBC\u3081\u307E\u305B\u3093:"
+   },
+   "unsupport_version": {
+      "message": "\u672A\u5BFE\u5FDC\u306E\u30EB\u30FC\u30EB\u66F8\u5F0F\u30D0\u30FC\u30B8\u30E7\u30F3 %S \u3092\u898B\u3064\u3051\u307E\u3057\u305F\u3002\u73FE\u5728\u5BFE\u5FDC\u3057\u3066\u3044\u308B\u30D0\u30FC\u30B8\u30E7\u30F3\u306F %S \u307E\u3067\u3067\u3059\u3002\u3053\u306E\u30EB\u30FC\u30EB\u3092\u7121\u8996\u3057\u307E\u3059\u3002"
+   },
+   "viewdescription": {
+      "message": "\u8AAC\u660E\u3092\u8868\u793A\u3059\u308B\u306B\u306F\u30AF\u30EA\u30C3\u30AF"
+   },
+   "viewdescription2": {
+      "message": "Ctrl+\u30AF\u30EA\u30C3\u30AF\u3067\u8AAC\u660E\u3092\u8868\u793A"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "\u30EA\u30BB\u30C3\u30C8"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "XPath \u8868\u73FE\u306E\u8AAC\u660E"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "XPath \u8868\u73FE"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Boolean \u95A2\u6570"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "\u30ED\u30B1\u30FC\u30B7\u30E7\u30F3"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Node-Set \u95A2\u6570"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Number \u95A2\u6570"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "String \u95A2\u6570"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u7956\u5148\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u7956\u5148\u3068\u81EA\u5206\u81EA\u8EAB\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5C5E\u6027\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u5F15\u6570\u306E boolean \u8868\u73FE\u3092\u8FD4\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "\u5F15\u6570\u3088\u308A\u5927\u304D\u3044\u6700\u5C0F\u306E\u6574\u6570\u5024\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u4F9B\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "\u305D\u306E\u5F15\u6570\u3092\u9023\u7D50\u3057\u3066\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "\u7B2C 1 \u5F15\u6570\u304C\u7B2C 2 \u5F15\u6570\u306E\u6587\u5B57\u5217\u3092\u542B\u3093\u3067\u3044\u308C\u3070 true \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "\u30CE\u30FC\u30C9\u30BB\u30C3\u30C8\u306E\u30CE\u30FC\u30C9\u306E\u6570\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u5B6B\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u5B6B\u3068\u81EA\u5206\u81EA\u8EAB\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "false \u5024\u3092\u6301\u3064 boolean \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "\u5F15\u6570\u3092\u8D85\u3048\u306A\u3044\u6700\u5927\u306E\u6574\u6570\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5F8C\u65B9\u30CE\u30FC\u30C9\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5F8C\u65B9\u306E\u5144\u5F1F\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "\u30E6\u30CB\u30FC\u30AF\u306A id \u3067\u6307\u5B9A\u3055\u308C\u305F\u8981\u7D20\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u8A00\u8A9E\u304C\u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u8A00\u8A9E\u3068\u540C\u3058\u5834\u5408\u306Btrue\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30EA\u30B9\u30C8\u306E\u6700\u5F8C\u306E\u30CE\u30FC\u30C9\u306E\u4F4D\u7F6E\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "\u30CE\u30FC\u30C9\u30BB\u30C3\u30C8\u306E\u6700\u521D\u306E\u30CE\u30FC\u30C9\u306E\u30ED\u30FC\u30AB\u30EB\u540D\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u30ED\u30FC\u30AB\u30EB\u540D\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "\u30CE\u30FC\u30C9\u30BB\u30C3\u30C8\u306E\u6700\u521D\u306E\u30CE\u30FC\u30C9\u306E\u540D\u524D\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u540D\u524D\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u540D\u524D\u7A7A\u9593\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "\u30CE\u30FC\u30C9\u30BB\u30C3\u30C8\u306E\u6700\u521D\u306E\u30CE\u30FC\u30C9\u306E\u540D\u524D\u7A7A\u9593 URI \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u540D\u524D\u7A7A\u9593 URI \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "\u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u6587\u5B57\u5217\u306E\u7A7A\u767D\u3092\u6B63\u898F\u5316\u3057\u3066\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u3067\u6307\u5B9A\u3055\u308C\u305F\u6587\u5B57\u5217\u306E\u7A7A\u767D\u3092\u6B63\u898F\u5316\u3057\u3066\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "\u5F15\u6570\u306E\u5024\u3092\u53CD\u8EE2\u3057\u305F boolean \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u5F15\u6570\u304C\u8868\u3059\u6570\u5024\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u304C\u8868\u3059\u6570\u5024\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u89AA\u3092\u8FD4\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "\u73FE\u5728\u306E\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u4F4D\u7F6E\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u524D\u65B9\u30CE\u30FC\u30C9\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u524D\u65B9\u306E\u5144\u5F1F\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "\u5F15\u6570\u306B\u6700\u3082\u8FD1\u3044\u6574\u6570\u5024\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u3092\u9078\u629E\u3057\u307E\u3059"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "\u7B2C 1 \u5F15\u6570\u306E\u6587\u5B57\u5217\u304C\u7B2C 2 \u5F15\u6570\u306E\u6587\u5B57\u5217\u3067\u59CB\u307E\u3063\u3066\u3044\u308C\u3070 true \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u5F15\u6570\u304C\u8868\u3059\u6587\u5B57\u5217\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u304C\u8868\u3059\u6587\u5B57\u5217\u5024\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "\u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u6587\u5B57\u5217\u306E\u9577\u3055\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u3067\u6307\u5B9A\u3055\u308C\u305F\u6587\u5B57\u5217\u306E\u9577\u3055\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "\u7B2C 1 \u5F15\u6570\u306E\u6587\u5B57\u5217\u306E\u3001\u7B2C 2 \u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u4F4D\u7F6E\u304B\u3089\u7B2C 3 \u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u9577\u3055\u306E\u90E8\u5206\u6587\u5B57\u5217\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "\u7B2C 2 \u5F15\u6570\u304C\u7B2C 1 \u5F15\u6570\u306E\u6587\u5B57\u5217\u5185\u3067\u6700\u521D\u306B\u73FE\u308C\u305F\u4F4D\u7F6E\u4EE5\u964D\u306E\u90E8\u5206\u6587\u5B57\u5217\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "\u7B2C 2 \u5F15\u6570\u304C\u7B2C 1 \u5F15\u6570\u306E\u6587\u5B57\u5217\u5185\u3067\u6700\u521D\u306B\u73FE\u308C\u305F\u4F4D\u7F6E\u3088\u308A\u524D\u306E\u90E8\u5206\u6587\u5B57\u5217\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "\u7B2C 1 \u5F15\u6570\u306E\u3001\u7B2C 2 \u5F15\u6570\u3067\u6307\u5B9A\u3055\u308C\u305F\u4F4D\u7F6E\u4EE5\u964D\u306E\u90E8\u5206\u6587\u5B57\u5217\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "\u30CE\u30FC\u30C9\u30BB\u30C3\u30C8\u306E\u5168\u30CE\u30FC\u30C9\u306E\u5408\u8A08\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u30C6\u30AD\u30B9\u30C8 \u30B3\u30F3\u30C6\u30F3\u30C4\u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "\u7B2C 2 \u5F15\u6570\u3067\u6307\u5B9A\u3057\u305F\u6587\u5B57\u5217\u3092\u7B2C 3 \u5F15\u6570\u3067\u6307\u5B9A\u3057\u305F\u6587\u5B57\u5217\u306B\u7F6E\u63DB\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "true \u306E\u5024\u3092\u6301\u3064 boolean \u3092\u8FD4\u3057\u307E\u3059\u3002"
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u7956\u5148"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u7956\u5148\u3068\u81EA\u5206\u81EA\u8EAB"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5C5E\u6027"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u4F9B"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u5B6B"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5B50\u5B6B\u3068\u81EA\u5206\u81EA\u8EAB"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5F8C\u65B9\u306E\u30CE\u30FC\u30C9"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u5F8C\u65B9\u306E\u5144\u5F1F"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u540D\u524D\u7A7A\u9593"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u89AA"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u524D\u65B9\u306E\u30CE\u30FC\u30C9"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9\u306E\u524D\u65B9\u306E\u5144\u5F1F"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "\u30B3\u30F3\u30C6\u30AD\u30B9\u30C8 \u30CE\u30FC\u30C9"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "\u8AAC\u660E"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "\u95A2\u6570"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "\u7C21\u5358\u306A\u8AAC\u660E"
+   },
+   "xpathconfirm": {
+      "message": "\u3053\u306E\u6B21\u3078\u306E\u30EA\u30F3\u30AF\u306E XPath \u306F\u6B63\u3057\u3044\u3067\u3059\u304B?"
+   },
+   "xpathreturnnothing": {
+      "message": "XPath \u306F\u4F55\u3082\u8FD4\u3057\u307E\u305B\u3093"
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

@@ -1,0 +1,13 @@
+{
+  "program": {
+    "x86-64": {
+      "url": "lib64/hangoutseffectsplugin.nexe"
+    },
+    "arm": {
+      "url": "no-arm.nexe"
+    },
+    "x86-32": {
+      "url": "lib32/hangoutseffectsplugin.nexe"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+
+
+<script>
+
+	var clearBetweenSelect = 'true' === localStorage["clearBetweenSelect"];
+	var highlightOnSelect = 'true' === localStorage["highlightOnSelect"];
+	var singleWordSearch = 'true' === localStorage["singleWordSearch"];
+	var highlightColor = localStorage["highlightColor"];
+	var textColor = localStorage["textColor"];
+	
+	var messages = [];
+	
+	if (highlightColor == undefined)
+	{
+		highlightColor = "ff0";
+	}
+
+	if (textColor == undefined)
+	{
+		textColor = "000000";
+	}
+	
+	if (localStorage["clearBetweenSelect"] == undefined)
+	{
+		clearBetweenSelect = true;
+		localStorage["clearBetweenSelect"] = 'true';
+	}
+	
+	//Highlight all occurances of selection in current tab
+	function highlight()
+	{
+		messages.push({command:"highlight"});
+		getCurrentTabAndSendMessages();
+	}
+	
+	//Clear all highlights in current tab
+	function clear()
+	{
+		messages.push({command:"clearHighlights"});
+		getCurrentTabAndSendMessages();
+	}
+	
+	//Toggle highlight on selection
+	function toggleAutoHighlight(info, tab)
+	{
+		value = info.checked;
+		highlightOnSelect = value;
+		localStorage["highlightOnSelect"] = value + '';
+		sendContextBooleans();
+	}
+	
+	//Toggle clearing highlights on new selection
+	function clearBetweenSelectionClicked(info, tab)
+	{	
+		value = info.checked;
+		clearBetweenSelect = value;
+		localStorage["clearBetweenSelect"] = value + '';
+		sendContextBooleans();
+	}
+	
+	//Toggle single word searching
+	function singleWordSearchClicked(info, tab)
+	{
+		value = info.checked;
+		singleWordSearch = value;
+		localStorage["singleWordSearch"] = value + '';
+		sendContextBooleans();
+	}
+	
+	//Send settings to current tab
+	function sendContextBooleans()
+	{
+		messages.push({command:"updateBooleans",value:[clearBetweenSelect, highlightOnSelect, singleWordSearch]});
+		getCurrentTabAndSendMessages();
+	}
+  
+    function getCurrentTabAndSendMessages()
+    {
+    	chrome.tabs.getSelected(null, sendMessagesToTab)
+    }
+  
+  	function sendMessagesToTab(tab)
+  	{
+  		for (i in messages)
+  		{
+  			chrome.tabs.sendRequest(tab.id, messages[i], null)
+  		}
+  		
+  		messages = [];
+  	}
+  	
+	// Process an incoming request
+	function processRequest(request, sender, sendResponse) 
+	{
+		var obj = {checked:request.value}
+	
+		switch(request.command)
+		{
+			case("clear"):
+				clear();
+				break;
+				
+			case("highlightOnSelect"):
+				toggleAutoHighlight(obj);
+				chrome.contextMenus.update(highlightOnSelectId, obj);
+				break;
+			
+			case("clearBetweenSelect"):
+				
+				clearBetweenSelectionClicked(obj);
+				chrome.contextMenus.update(clearBetweenSelectId, obj);
+				break;
+			
+			case("singleWordSearch"):
+				singleWordSearchClicked(obj);
+				chrome.contextMenus.update(singleWordSearchId, obj);
+				break;
+				
+			case("highlightColor"):
+				highlightColor = request.value;
+				localStorage["highlightColor"] = request.value;
+				break;
+				
+			case("textColor"):
+				textColor = request.value;
+				localStorage["textColor"];
+				break;
+			
+			case("highlightSelection"):
+				highlight();
+				break;
+						
+			case("getSettings"):
+				sendResponse({clearBetweenSelect:clearBetweenSelect,
+								highlightOnSelect:highlightOnSelect,
+								singleWordSearch:singleWordSearch,
+								highlightColor:highlightColor,
+								textColor:textColor});
+				return;
+								
+		}
+		
+		sendResponse({});		
+
+	}
+	
+	function openOptions()
+	{
+		chrome.tabs.create({url:"chrome-extension://fgnkddoolcfhpoccklnhlpdellmpjbnm/htm/options.htm"});
+	}
+
+	//Setup context menus
+	chrome.contextMenus.create({"title": "Highlight Selection", "contexts":["selection"], "onclick": highlight});
+	
+	var allContextsButSelection = ["all"];
+	
+	chrome.contextMenus.create({"title": "Clear highlights", "contexts":allContextsButSelection, "onclick": clear});
+	chrome.contextMenus.create({"type":"separator", "contexts":allContextsButSelection })
+	
+	highlightOnSelectId = chrome.contextMenus.create({"title": "Auto highlight selection", "contexts":allContextsButSelection, "type": "checkbox", "checked":highlightOnSelect, "onclick": toggleAutoHighlight});
+	clearBetweenSelectId = chrome.contextMenus.create({"title": "Clear between selections", "contexts":allContextsButSelection, "type":"checkbox", "checked":clearBetweenSelect, "onclick":clearBetweenSelectionClicked});
+	singleWordSearchId = chrome.contextMenus.create({"title": "Split selection into words", "contexts":allContextsButSelection, "type":"checkbox", "checked":singleWordSearch, "onclick":singleWordSearchClicked});
+
+	
+	//Event listeners
+	chrome.extension.onRequest.addListener(processRequest);
+	
+	// Context menu booleans, when changed, are only sent to the visible tab
+	// To avoid making requests for every highlight event, tabs are automaticlly updated when they come into view
+	chrome.tabs.onSelectionChanged.addListener(sendContextBooleans);
+	
+</script>

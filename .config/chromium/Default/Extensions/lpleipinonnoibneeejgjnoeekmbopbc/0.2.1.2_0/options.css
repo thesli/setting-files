@@ -1,0 +1,133 @@
+﻿body, td 
+{
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	-webkit-user-select: none;
+	-webkit-user-select: none;
+}
+
+
+#main {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 700px;
+}
+
+
+.hbox {
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: stretch;
+ 
+        display: box;
+        box-orient: horizontal;
+        box-align: stretch;
+}
+ 
+.hbox> * {
+        -webkit-box-flex: 0;
+        -moz-box-flex: 0;
+        box-flex: 0;
+        display: block;
+}
+ 
+.vbox {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-align: stretch;
+ 
+        display: box;
+        box-orient: vertical;
+        box-align: stretch;
+}
+ 
+.vbox> * {
+        -webkit-box-flex: 0;
+        box-flex: 0;
+        display: block;
+        height: 1.2em;
+}
+
+
+.flexible {
+	-webkit-box-flex: 1.0 !importnat;
+	box-flex: 1.0;
+}
+.flexible-half {
+	-webkit-box-flex: 0.5 !importnat;
+	 box-flex: 0.5;
+}
+
+
+.margin-left {
+    text-align: left;
+}
+
+.margin-right {
+    text-align: right;
+}
+
+.fade {
+  -webkit-transition:opacity 0.5s  ease-out; 
+  opacity: 0.0;
+}
+
+.fade-in {
+  -webkit-transition:opacity 1.5s ease-out; 
+  --opacity: 0.3;
+}
+
+
+
+details {
+ background: #ccddee;
+}
+
+details  summary {
+ text-align: left;
+}
+
+
+
+#group-prototype {
+   --display: none;
+}
+
+[draggable=true] {
+    -webkit-user-drag: element;
+}
+
+#configDropZone {
+ background-color: #3d71b0;
+ background-image: -webkit-linear-gradient(top,#3f76b7 0,#3d71b0 100%);
+ border: dotted #fff;
+ --border-bottom: 1px solid #37607D;
+ --border-right: 2px solid #37607D;
+ color: #fff;
+}
+
+#exchangeConfig {
+ -webkit-appearance: push-button;
+ --color: #fff;
+ -webkit-writing-mode: horizontal-tb;
+ -webkit-appearance: button;
+-webkit-box-align: center; 
+text-align: center; 
+cursor: default; 
+color: ButtonText; 
+padding: 1px 6px 1px 6px; 
+border: 2px outset ButtonFace; 
+background-color: ButtonFace; box-sizing: border-box;
+margin: 1px 1px; 
+font: -webkit-small-control; 
+text-decoration: none;
+
+}
+
+.hidden { display: none; visibility: hidden; }
+#uploadConfig {
+ display: none; visibility: hidden;
+}
+
+

@@ -1,0 +1,372 @@
+<html>
+	<head>
+		<title>Multiple Tabs Search</title>
+		
+	    <style type="text/css">
+	        .lableTitle
+	        {
+	            font-size:14px;
+	            font-weight:bold;
+	            margin:4px;
+	        }
+	
+			.redText
+			{
+				font-style:italic;
+				color:#AA0000;
+				margin-left:3px;	
+			}
+			
+	        .checkBox1
+	        {
+	            font-size:13px;
+	            font-weight:normal;
+	            float:left;
+	            position:inherit;
+	        }
+	        
+	        .checkBox2 
+	        {
+	            font-size:13px;
+	            font-weight:normal;
+	            float:right;
+	        }
+	        
+	        .checkBox3
+	        {	            
+	            display:inline;
+	            font-size:13px;
+	            font-weight:normal;
+	            float:right;
+	        }
+	        
+	        .buttonStyle,
+			.buttonStgsStyle
+	        {
+	            background-color:Yellow;
+	            color:Black;
+	            border-radius: 5px;           
+	            display:inline;
+	        }
+			
+			.buttonStgsStyle
+			{
+				background-color:White;
+			}
+	        
+	        .textAreaStyle
+	        {
+	            font-family:"Calibri", "Verdana", "Arial";
+	            font-size:12px;
+	            border-style:groove;
+	            border-radius: 10px;
+	            border-color:Black;
+	            padding:10px;
+				margin-bottom:10px;
+	        }
+	
+			.container
+			{
+				width: 335px;
+			}
+	                
+	        .bodyStyle
+	        {
+   	            font-family:"Calibri", "Arial";
+            	background-color:Silver;
+				width:350px;
+				height:550px;
+	        }
+	        
+	    </style>
+	    
+		<script language="javascript" type="text/javascript">
+			var logging = false;
+			var allSelected = stringToBool(getValueFromSession("allSelected", false));
+
+			var defaultKeyValues = new Array();
+			defaultKeyValues["youtube.com"] = false;
+			defaultKeyValues["soundcloud.com"] = true;
+			defaultKeyValues["residentadvisor.net"] = true;
+			defaultKeyValues["facebook.com"] = true;
+			defaultKeyValues["discogs.com"] = true;
+			defaultKeyValues["djtunes.com"] = true;
+			defaultKeyValues["itunes.apple.com"] = true;
+			defaultKeyValues["beatport.com"] = true;
+			defaultKeyValues["trackitdown.net"] = true;
+			defaultKeyValues["djDownload.com"] = true;
+			defaultKeyValues["myspace.com"] = true;
+			defaultKeyValues["last.fm"] = true;
+			defaultKeyValues["junodownload.com"] = true;
+			defaultKeyValues["mixcloud.com"] = false;
+			
+			String.prototype.trim = function() { return this.replace(/^[\s\n\t\r]+|[\s\n\t\r]+$/g, ''); }
+			
+			function stringToBool(value) 
+			{ 
+				if (value == "true" || value == true)
+					return true;
+				
+				return false; 
+			}
+
+
+		    function getChecksRemove() {
+		        return document.getElementsByName("ckRemove");
+		    }
+			
+			function isOpen()
+			{
+				return document.getElementById("rbOpen").checked;
+			}
+			
+			function setIsOpen(value)
+			{
+				if (value)
+					document.getElementById("rbOpen").checked = true;
+				else
+					document.getElementById("rbSearchGoogle").checked = true;
+					
+			}
+			
+			function setSurroundByQuotes(selected)
+			{
+				document.getElementById("ckSurroundByQuotes").checked = selected;
+			}
+			
+			function getSurroundByQuotes()
+			{
+				return stringToBool(document.getElementById("ckSurroundByQuotes").checked);
+			}
+			
+			function getTrimEachLine()
+			{
+				return stringToBool(document.getElementById("ckTrimEachLine").checked);
+			}			
+			
+			function openTabs()
+			{
+				var txtObj = document.getElementById("textboxWords");
+				var open = isOpen();
+
+				var allWords = txtObj.value;
+				if (allWords.length == 0)
+					return;
+
+				var wordsList = allWords.split("\n");
+
+				var checksRemove = getChecksRemove();
+				var trim = getTrimEachLine();
+				var removeQuery = "";
+
+				if (!open)
+				{
+					for (c=0; c<checksRemove.length;c++)
+					{
+						if (checksRemove[c].checked)
+							removeQuery += encodeURIComponent(" -" + checksRemove[c].value);
+					}
+				}
+
+				var surroundByQuotes = getSurroundByQuotes();				
+				
+				for (i=0; i<wordsList.length;i++)
+				{
+				    var searchWord = wordsList[i];
+
+					if (trim)
+						searchWord = searchWord.trim();
+					
+				    if (surroundByQuotes)
+				        searchWord = '"' + searchWord + '"';
+
+				    var url = searchWord;
+					
+					var tmp = url.trim();
+					if (tmp.length <= 0)
+						continue;
+					
+					if (!open)
+					{
+						url = 'http://www.google.com.br/search?ie=UTF-8&q=' + encodeURIComponent(url);
+						url += removeQuery;
+					}				
+				    
+				    chrome.tabs.create({ 'url': url });
+				}
+			}
+
+			function selectAll() {
+			    if (allSelected) {
+			        allSelected = false;
+			        checkAll(false);
+			    }
+			    else {
+			        allSelected = true;
+			        checkAll(true);
+			    }
+				
+				setItem("allSelected", allSelected);
+			}
+
+			function checkAll(check) 
+			{
+				var bCheck = stringToBool(check);
+			    var checksRemove = getChecksRemove();				
+			    for (c in checksRemove)
+			    {
+				    checksRemove[c].checked = bCheck;				
+					storeElementValueSession(checksRemove[c]);
+                }
+			}
+			
+			function goPageGo()
+			{
+				var textArea = document.getElementById("textboxWords");
+				
+				if (textArea != null)
+					textArea.focus();
+					
+				var checksRemove = getChecksRemove();
+				for (c=0;c<checksRemove.length;c++) 
+				{
+					var check = getElementIsCheckedFromSession(checksRemove[c], defaultKeyValues[checksRemove[c].value]);
+					checksRemove[c].checked = stringToBool(check);
+				}
+				
+				//allSelected = stringToBool(getItem("allSelected"));
+				document.getElementById("ckCheckAll").checked = stringToBool(allSelected);
+			}
+			
+			function storeElementValueSession(element)
+			{
+				var key = element.value;
+				var isChecked = element.checked;
+				
+				setItem(key, stringToBool(isChecked));
+			}
+			
+			function getElementIsCheckedFromSession(element, defaultValue)
+			{
+				var key = element.value;
+				
+				return stringToBool(getValueFromSession(key, defaultValue));			
+			}
+			
+			function getValueFromSession(key, defaultValue)
+			{				
+				var ret = getItem(key);	
+				
+				if (ret == null)
+					return defaultValue;
+				
+				return ret;			
+			}
+			
+			function clearSettings()
+			{
+				allSelected = false;
+				setItem("allSelected", allSelected);
+				
+				setSurroundByQuotes(false);
+				setIsOpen(false);
+				
+				clearStrg();
+				goPageGo();
+			}
+			
+			//sets the item in the localstorage
+			function setItem(key, value) 
+			{
+				try {
+				  log("Inside setItem:" + key + ":" + value);
+				  window.localStorage.removeItem(key);
+				  window.localStorage.setItem(key, value);
+					
+					var v = window.localStorage.getItem(key);		
+				log("Inside setItem: KEY TEST / " + v);
+				}catch(e) {
+				  log("Error inside setItem");
+				  log(e);
+				}
+				log("Return from setItem" + key + ":" +  value);
+			}
+	
+			//Gets the item from local storage with the specified
+			//key
+			function getItem(key) 
+			{
+				var value;
+				log('Get Item:' + key);
+				try {
+				  value = window.localStorage.getItem(key);
+				  
+				}catch(e) {
+				  log("Error inside getItem() for key:" + key);
+				  log(e);
+				  value = null;
+				}
+	
+				log("Returning value: " + value);
+				return value;
+			}
+	
+			//Clears all the key value pairs in the local storage
+			function clearStrg() {
+				log('about to clear local storage');
+				window.localStorage.clear();
+				log('cleared');
+			}
+			
+			function log(txt) {
+				if(logging) {
+				  console.log(txt);
+				}
+			}
+			
+		</script>
+		
+	</head>
+	<body class="bodyStyle" onLoad="goPageGo()">
+	    <div class="lableTitle">Type (or paste) the words in the area bellow, one per line:</div>
+		<div>
+    		<textarea class="textAreaStyle" id="textboxWords" cols="51" rows="15"></textarea>
+		</div>
+		<div class="container">
+		    <div class="checkBox1">
+		        <input type="checkbox" value="youtube.com" name="ckRemove" id="ckYoutube" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Youtube<br />
+		        <input type="checkbox" value="soundcloud.com" name="ckRemove" id="ckSoundcloud" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove SoundCloud<br />
+		        <input type="checkbox" value="residentadvisor.net" name="ckRemove" id="ckResidentadvisor" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Resident Advisor<br />
+		        <input type="checkbox" value="facebook.com" name="ckRemove" id="ckFacebook" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Facebook<br />
+		        <input type="checkbox" value="discogs.com" name="ckRemove" id="ckdiscogs" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Discogs<br />
+		        <input type="checkbox" value="djtunes.com" name="ckRemove" id="ckDjtunes" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove DjTunes<br />
+                <input type="checkbox" value="junodownload.com" name="ckRemove" id="ckJunodownload" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove JunoDownload<br /> 
+            </div>
+		    <div class="checkBox2">		    
+		        <input type="checkbox" value="itunes.apple.com" name="ckRemove" id="ckItunes" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove iTunes<br />
+		        <input type="checkbox" value="beatport.com" name="ckRemove" id="ckBeatport" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Beatport<br />
+		        <input type="checkbox" value="trackitdown.net" name="ckRemove" id="ckTrackitdown" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Trackitdown<br />
+		        <input type="checkbox" value="djDownload.com" name="ckRemove" id="ckDjDownload" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove DjDownload<br />
+		        <input type="checkbox" value="myspace.com" name="ckRemove" id="ckMyspace" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove MySpace<br />
+		        <input type="checkbox" value="mixcloud.com" id="ckMixcloud" name="ckRemove" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove MixCloud<br />
+		   		<input type="checkbox" value="last.fm" id="ckLastFm" name="ckRemove" onClick="javascript:storeElementValueSession(this)"/>&nbsp;Remove Last.fm<br />
+		   		
+            </div>
+			<div class="checkBox1">
+            <br />
+            	<input type="checkbox" id="ckCheckAll" onClick="javascript:selectAll()"/>&nbsp;Select all / none<br />
+            	<input type="checkbox" id="ckSurroundByQuotes"/>&nbsp;Surround by quotes<br />
+				<input type="checkbox" id="ckTrimEachLine" checked="checked"/>&nbsp;Trim each line<br />
+                <input type="radio" name="radioOpenSearch" id="rbSearchGoogle" value="search" checked="checked">&nbsp;Search on Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</input>
+                <input type="radio" name="radioOpenSearch" id="rbOpen" value="open">&nbsp;Open<span class="redText">*</span></input>
+                <p class="redText">* Only fully qualified urls (ex.: http://www.google.com)</p>
+            	<input type="button" onClick="javascript:openTabs()" value="Search" class="buttonStyle" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;               
+          		<input type="button" onClick="javascript:clearSettings()" value="Clear settings" class="buttonStgsStyle" /><br /><br />
+                <div>
+		</div>
+
+            </div>
+ 		</div>
+ 
+	</body>
+</html>

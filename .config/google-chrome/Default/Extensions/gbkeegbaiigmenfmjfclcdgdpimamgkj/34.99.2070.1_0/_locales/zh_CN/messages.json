@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "了解详情"
+   },
+   "app_nacl_crash_msg": {
+      "message": "欢迎报告问题，帮助我们改进。"
+   },
+   "app_nacl_crash_report": {
+      "message": "报告问题..."
+   },
+   "app_nacl_crash_title": {
+      "message": "糟糕，出现了意外的问题。"
+   },
+   "app_nacl_error_msg": {
+      "message": "加载应用时出现问题。"
+   },
+   "app_nacl_error_title": {
+      "message": "文件无法打开。"
+   },
+   "application_description": {
+      "message": "文档编辑"
+   },
+   "file_loading_spinner_label": {
+      "message": "正在加载"
+   },
+   "file_not_found_msg": {
+      "message": "您所请求的文件不存在或已移到其他位置。"
+   },
+   "file_not_found_title": {
+      "message": "找不到文件。"
+   }
+}

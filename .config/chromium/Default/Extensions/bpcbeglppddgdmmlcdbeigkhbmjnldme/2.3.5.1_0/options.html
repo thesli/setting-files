@@ -1,0 +1,130 @@
+﻿<script>
+function lang(messageID, args) {
+	document.write(chrome.i18n.getMessage(messageID, args));
+}
+function language(messageID, args) {
+	return chrome.i18n.getMessage(messageID, args);
+}
+document.title=language('setting');
+</script>
+<div id="main" style="padding: 20px 0 0 0;">
+<h2 style="font-family:Microsoft YaHei,Arial;"><center><script>lang('setting')</script></center></h2>
+<div style="background-color:#8DC9FE;-webkit-border-radius:5px;border:2px solid #33CCFF;width:500px;font-family:Microsoft YaHei,Arial;margin:0 auto;line-height: 16pt;padding: 10px 10px 0 10px;font-size:0.8em;vertical-align:middle;">
+<p><input type="checkbox" id="killdzad" checked /><label for="killdzad"><script>lang('killdzad')</script></label></p>
+<p><input type="checkbox" id="killdzxad" checked /><label for="killdzxad"><script>lang('killdzxad')</script></label></p>
+<p><input type="checkbox" id="killsignad" /><label for="killsignad"><script>lang('killsignad')</script></label></p>
+<p><input type="checkbox" id="noflashtitle" /><label for="noflashtitle"><script>lang('noflashtitle')</script></label></p>
+<p><input type="checkbox" id="killwidget" /><label for="killwidget"><script>lang('killwidget')</script></label></p>
+<p><input type="checkbox" id="autofinish" /><label for="autofinish"><script>lang('autofinish')</script></label></p>
+<div style="padding: 0 0 0 7px;line-height: 20pt;background-color:#FFFFFF;-webkit-border-radius:5px;">
+<table style="table-layout:fixed;font-size:0.8em;vertical-align:middle;"><tr>
+<td style="width:436"><script>lang('whitelist')</script>:</td>
+<td><button id="showhide" onclick="showhide();" style="width:48px"><script>lang('open')</script></button></td>
+</tr></table><div id="white-lists" style="display:none;padding: 0 0 3px 3px;"></div></div>
+<div align="right" style="font-family:Microsoft YaHei,Arial;padding: 0;"><p>
+<button style="height:25px; width:85px;" id="restore" onclick="disable_btn();restore();"><script>lang('restore')</script></button>　
+<button style="height:25px; width:85px;" id="save" onclick="disable_btn();save();"><script>lang('save')</script></button>　
+<button style="height:25px; width:85px;" id="reload" onclick="disable_btn();reload();"><script>lang('reload')</script></button>
+</p></div>
+</div><div id="textout" align="center"></div>
+<script>
+var wl_array;
+var site_ok=false;
+function $(obj) {
+	return document.getElementById(obj);
+}
+function show_msg(msg){
+	$("textout").style.height="25px";
+	$("textout").style.padding="10px";
+	$("textout").innerHTML='<div style="padding: 13px 15px;width:350px;height:16px;background-color: #FFB062;-webkit-border-radius: 50px;">'+msg+'</div>';
+	setTimeout('enable_btn();$("textout").innerHTML="";$("textout").style.height="";$("textout").style.padding="";',3000);
+}
+function disable_btn(){
+	$("restore").disabled="disabled";
+	$("save").disabled="disabled";
+	$("reload").disabled="disabled";
+}
+function enable_btn(){
+	$("restore").disabled="";
+	$("save").disabled="";
+	$("reload").disabled="";
+}
+function reload(){
+	show_msg(language('reload_ok'));
+	load_setting();
+}
+function save(){
+	show_msg(language('save_ok'));
+	dosave();
+}
+function del(id){
+	delete wl_array[id];
+	refresh_white_lists();
+}
+function add(){
+	wl_array.push($("new-white-lists").value);
+	refresh_white_lists();
+	$("new-white-lists").value="";
+	$("new-white-lists").focus();
+}
+function check_site(){
+	var patrn=/^[^\\/:?]+\.[a-zA-Z]{2,4}$/;
+	if (!patrn.exec($("new-white-lists").value)){
+		$("add").disabled="disabled";
+		site_ok=false;
+	} else {
+		$("add").disabled="";
+		site_ok=true;
+	}
+}
+function showhide(){
+	if ($("showhide").innerHTML==language('close'))	{
+		$("white-lists").style.display="none";
+		$("showhide").innerHTML=language('open');
+	} else {
+		$("white-lists").style.display="";
+		$("showhide").innerHTML=language('close');
+	}
+}
+function restore(){
+	localStorage["killdzad"]="1";
+	localStorage["killdzxad"]="1";
+	localStorage["killsignad"]="0";
+	localStorage["killwidget"]="0";
+	localStorage["noflashtitle"]="0";
+	localStorage["autofinish"]="0";
+	localStorage["wl_array"]="";
+	load_setting();
+	show_msg(language('restore_ok'));
+}
+function dosave(){
+	localStorage["wl_array"]=wl_array.join("|");
+	localStorage["killdzad"]=$("killdzad").checked ? "1" : "0";
+	localStorage["killdzxad"]=$("killdzxad").checked ? "1" : "0";
+	localStorage["killsignad"]=$("killsignad").checked ? "1" : "0";
+	localStorage["killwidget"]=$("killwidget").checked ? "1" : "0";
+	localStorage["noflashtitle"]=$("noflashtitle").checked ? "1" : "0";
+	localStorage["autofinish"]=$("autofinish").checked ? "1" : "0";
+}
+function load_setting(){
+	wl_array=localStorage["wl_array"] ? localStorage["wl_array"].split("|") : Array();
+	refresh_white_lists();
+	$("killdzad").checked=localStorage["killdzad"]==="0" ? false : true;
+	$("killdzxad").checked=localStorage["killdzxad"]==="0" ? false : true;
+	$("killsignad").checked=localStorage["killsignad"]==="1" ? true : false;
+	$("killwidget").checked=localStorage["killwidget"]==="1" ? true : false;
+	$("noflashtitle").checked=localStorage["noflashtitle"]==="1" ? true : false;
+	$("autofinish").checked=localStorage["autofinish"]==="1" ? true : false;
+}
+function refresh_white_lists(){
+	var output="";
+	output='<table style="font-size:0.8em;table-layout:fixed;vertical-align:middle;">';
+	for(var i=0;i<wl_array.length;i++){
+		if (wl_array[i]){
+			output+='<tr><td>'+wl_array[i]+'</td><td style="width:50px"><button onclick="del('+i+');" style="width:100%">'+language('delete')+'</button></td></tr>';
+		}
+	}
+	$("white-lists").innerHTML=output+'<tr><td style="width:90%"><input type="text" id="new-white-lists" style="width:100%" onkeyup="check_site();if(event.keyCode==13 && site_ok){add();}" /></td><td style="width:50px"><button id="add" onclick="check_site();add();" style="width:100%" disabled>'+language('add')+'</button></td></tr></table>';
+}
+load_setting();
+</script>

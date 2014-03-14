@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "sv"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Detta till\u00E4gg ger inga f\u00F6rslag fr\u00E5n sidor med s\u00E4kert inneh\u00E5ll, som den h\u00E4r (t.ex. http\u003Cb\u003Es\u003C/b\u003E://) Vi ses p\u00E5 den allm\u00E4nna webben!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Till\u00E4gget fungerar b\u00E4st p\u00E5 webbplatsernas startsidor.\u003Cp\u003ETesta till\u00E4gget p\u00E5 en webbplats som du gillar &mdash;och f\u00E5 sidf\u00F6rslag om saker du k\u00E4nner till."
+   },
+   "sp_default_title": {
+      "message": "Visa Google Similar Pages"
+   },
+   "sp_description": {
+      "message": "Hitta webbplatser som liknar sidan du befinner dig p\u00E5 just nu."
+   },
+   "sp_domain_change_message": {
+      "message": "Om du vill \u00E4ndra din lokala dom\u00E4n till www.google.com \u003Ca id='over' href='#'\u003Eklickar du h\u00E4r\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com har sparats som din lokala dom\u00E4n f\u00F6r h\u00E4mtning av liknande sidor."
+   },
+   "sp_domain_message": {
+      "message": "Till\u00E4gget kommer att kontakta $1 f\u00F6r att h\u00E4mta listan med liknande sidor.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Antal sidor: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EOm Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Skicka g\u00E4rna dina synpunkter till \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Tack!"
+   },
+   "sp_options_intro": {
+      "message": "Med webbl\u00E4sartill\u00E4gget Google Similar Pages kan du snabbt och enkelt f\u00F6rhandsgranska och utforska sidor som liknar den du befinner dig p\u00E5, utan att l\u00E4mna sidan."
+   },
+   "sp_options_legal": {
+      "message": "N\u00E4r du klickar p\u00E5 knappen Similar Pages skickas en s\u00F6kfr\u00E5ga till Google f\u00F6r att se om det finns andra sidor som liknar den du visar.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EData i s\u00F6kningen hanteras enligt beskrivningen i Googles \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Esekretesspolicy\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003ESekretesspolicy\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EAnv\u00E4ndarvillkor\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Avinstallera"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Om du vill avinstallera Google Similar Pages \u00F6ppnar du Verktyg-menyn i Chrome &gt;och v\u00E4ljer Till\u00E4gg. Sedan klickar du p\u00E5 l\u00E4nken Avinstallera f\u00F6r till\u00E4gget Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "F\u00F6rhandsgranskning\u003Cbr\u003E\u00E4r inte tillg\u00E4nglig"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (fr\u00E5n Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Till\u00E4gget \u00E4r inte tillg\u00E4ngligt f\u00F6r ditt land eller din region just nu. Kom tillbaka senare."
+   },
+   "sp_zero_results": {
+      "message": "Inga liknande sidor hittades."
+   }
+}

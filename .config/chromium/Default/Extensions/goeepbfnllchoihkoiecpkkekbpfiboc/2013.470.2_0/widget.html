@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html ng-app="" ng-csp>
+
+  <head>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/angular.js"></script>
+    <script type="text/javascript" src="/js/weather.js"></script>
+    <!-- - For https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg
+    -->
+    <style>
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+        cursor: default;
+      }
+
+      h3 {
+        margin-top: 8px;
+      }
+
+      .widgets, .error {
+        font-family: 'HelveticaNeue-Light', HelveticaNeue, Helvetica, Arial !important;
+        font: 16px arial, helvetica, sans-serif;
+        -webkit-user-select: none;
+        position: absolute;
+        top: 0px; bottom: 0px;
+        left: 0px; right: 0px;
+      }
+
+      .error {
+        background-image: url("/img/nighttime_error.jpg");
+        background-size: 406px 200px;
+        color: white;
+        padding: 5px;
+        padding-right: 20px;
+        display: none;
+      }
+
+      .error > *, .error a {
+        color: white;
+        text-shadow: 1px 1px 0px black
+      }
+
+      .error a {
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .android-style {
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+        background-color: white !important;
+        color: #878787;
+        padding: 10px;
+        top: 0px; bottom: 0px;
+        left: 0px; right: 0px;
+        padding-right: 0;
+      }
+
+      .android-style-darktext {
+        color: #666666;
+      }
+
+      .android-style-lighttext {
+        /* only here for consistency, the color is set to the default android color */
+      }
+
+      .non-android-style {
+        color: white;
+        background-color: rgb(28, 161, 220);
+        top: 0px; bottom: 0px;
+        left: 0px; right: 0px;
+        padding: 10px;
+        background-image: -webkit-gradient(linear, 100% 100%, 0% 0%, from(rgba(255, 255, 255, 0.347656)), to(rgba(255, 255, 255, 0.0390625)));
+      }
+
+      .non-android-style-img {
+        -webkit-filter: brightness(1);
+      }
+
+      .non-android-style-darktext {
+        color: #FFFFFF;
+      }
+
+      .non-android-style-lighttext {
+        color: #FFFFFF;
+        opacity: 0.8;
+      }
+
+      .weathericon {
+        width: 50px;
+        height: 50px;
+      }
+
+      .place {
+        font-size: 25px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+
+      .animation {
+        -webkit-transition-property: all;
+        -webkit-transition-duration: 1s;
+      }
+
+      .fade {
+        opacity: 1;
+        -webkit-transition-property: opacity;
+      }
+
+      .subs {
+        white-space: nowrap;
+      }
+
+      .sub {
+        float: left;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: 18px;
+      }
+
+      .subsub {
+        display:inline-block;
+        text-align:center;
+      }
+
+      .bigtemp {
+        width: 120px;
+        font-size: 48px;
+        text-align: center;
+      }
+
+      .bigcondition {
+        margin-top: 4px;
+        width: 45px;
+        height: 45px;
+      }
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: right;
+      }
+
+      .inline {
+        display: inline;
+      }
+
+      .inline-block {
+        display: inline-block;
+      }
+
+      .darktext {
+        color: #666666;
+      }
+
+      .condition {
+        text-align: center;
+        width: 50px;
+        font-size: 11px;
+      }
+
+      .menu {
+        width: 23px;
+        height: 23px;
+        background-image: url("/img/menu.png");
+        background-position: -5px 27px;
+        cursor: pointer;
+        display: inline-block;
+
+        position: absolute;
+        right: 5px;
+        top: 12px;
+      }
+
+      .menu:hover {
+        background-position: -37px 27px;
+      }
+
+      .edit {
+        width: 23px;
+        height: 23px;
+        background-image: url("/img/menu.png");
+        background-position: -5px -5px;
+        cursor: pointer;
+        display: inline-block;
+        opacity: 0;
+
+        position: absolute;
+        right: 30px;
+        top: 12px;
+      }
+
+      .edit:hover {
+        background-position: -37px -5px;
+      }
+
+      body:hover .edit {
+        opacity: 1;
+      }
+
+      body:hover .place {
+        width: -webkit-calc(100% - 50px);
+      }
+
+      body .place {
+        width: -webkit-calc(100% - 25px);
+      }
+
+      .bigtemp-false {
+        font-size: 56px;
+      }
+
+      .smalltext {
+        font-size: 10px;
+      }
+
+      .sub_img {
+        width: 20px;
+        height: 20px;
+      }
+
+      body.wide .bigtemp {
+        font-size: 56px;
+      }
+
+      body.wide .bigtemp-false {
+        font-size: 80px;
+      }
+      body.wide .subs {
+        display: inline-block;
+      }
+      body.wide .smalltext {
+        font-size: 16px;
+      }
+      body.wide .sub {
+        margin-left: 5px;
+        line-height: 20px;
+      }
+      body.wide .sub_img {
+        margin-top: 4px;
+        width: 45px;
+        height: 45px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div ng-controller="WeatherCtrl">
+      <div class="widgets {{weather.style}}">
+        <div class="place animation">{{ weather.current_observation.display_location.city }} <a class="edit animation fade" href="options.html" target="_top" title="Edit"></a><a class="menu" href="{{forecast_url}}" target="_top" title="Open Forecast"></a></div>
+        <div class="inline-block animation">
+          <div class="inline left">
+            <img ng-src="{{ weather.icon_url_custom }}" class="inline weathericon {{weather.style}}-img">
+            <div class="animation condition">{{ weather.current_observation.weather }}</div>
+          </div>
+          <div class="bigtemp inline right bigtemp-{{weather.three}}">
+            {{ weather.current_observation['temp_'+unit] | number:0 }}&deg;
+          </div>
+        </div>
+
+        <div class="subs animation">
+          <div class="sub">
+            <div class="subsub">
+              <div class="smalltext">{{weather.days[0].date.weekday_short}}</div>
+              <div class="inline-block">
+                <img title="{{weather.days[0].conditions}}" ng-src="{{weather.icons[0]}}" class="sub_img animation {{weather.style}}-img">
+              </div>
+              <div class="smalltext">
+                <div class="{{weather.style}}-darktext">{{ weather.days[0].high[unitlong] | number:0 }}&deg;</div>
+                <div class="{{weather.style}}-lighttext">{{ weather.days[0].low[unitlong] | number:0 }}&deg;</div>
+              </div>
+            </div>
+          </div>
+          <div class="sub">
+            <div class="subsub">
+              <div class="smalltext">{{weather.days[1].date.weekday_short}}</div>
+              <div class="inline-block">
+                <img title="{{weather.days[1].conditions}}" ng-src="{{weather.icons[1]}}" class="sub_img animation {{weather.style}}-img">
+              </div>
+              <div class="smalltext">
+                <div class="{{weather.style}}-darktext"> {{ weather.days[1].high[unitlong] | number:0 }}&deg;</div>
+                <div class="{{weather.style}}-lighttext">{{ weather.days[1].low[unitlong] | number:0 }}&deg;</div>
+              </div>
+            </div>
+          </div>
+          <div class="sub">
+            <div class="subsub">
+              <div class="smalltext">{{weather.days[2].date.weekday_short}}</div>
+              <div class="inline-block">
+                <img title="{{weather.days[2].conditions}}" ng-src="{{weather.icons[2]}}" class="sub_img animation {{weather.style}}-img">
+              </div>
+              <div class="smalltext">
+                <div class="{{weather.style}}-darktext"> {{ weather.days[2].high[unitlong] | number:0 }}&deg;</div>
+                <div class="{{weather.style}}-lighttext">{{ weather.days[2].low[unitlong] | number:0 }}&deg;</div>
+              </div>
+            </div>
+          </div>
+          <div class="sub">
+            <div class="subsub">
+              <div class="smalltext">{{weather.days[3].date.weekday_short}}</div>
+              <div class="inline-block">
+                <img title="{{weather.days[3].conditions}}" ng-src="{{weather.icons[3]}}" class="sub_img animation {{weather.style}}-img">
+              </div>
+              <div class="smalltext">
+                <div class="{{weather.style}}-darktext"> {{ weather.days[3].high[unitlong] | number:0 }}&deg;</div>
+                <div class="{{weather.style}}-lighttext">{{ weather.days[3].low[unitlong] | number:0 }}&deg;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="error">
+        <h3 id="error-title">Who turned out the sun?</h3>
+        <p id="error-message">Is your location valid?</p>
+        <a class="edit animation fade" href="options.html" target="_top"></a>
+      </div>
+    </div>
+  </body>
+</html>

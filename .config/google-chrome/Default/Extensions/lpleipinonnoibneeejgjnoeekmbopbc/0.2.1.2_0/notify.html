@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8"> 
+<title></title>
+<style>
+body {
+        font-size: 12px;
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	-webkit-user-select: none;
+        text-align: center;
+}
+a:link , a:visited
+{
+	color: #000000;
+	background: transparent;
+	text-decoration: none;
+	border-bottom: 1px dotted; 
+        text-align: center;
+}      
+
+a:hover, a:active 
+{
+	-webkit-border-radius: 7px;
+	background : rgba(0,0,0,0.4); 
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none; 
+	text-shadow: #000 1px 1px;
+        text-align: center;
+}
+
+#message {
+	text-align:center;
+}
+
+.message {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+
+.message .logo {
+  width: 48px;
+  height: 48px;
+  padding: 0px 0px 5px 5px;
+}
+
+.message img {
+  align:absmiddle; 
+  padding: 0px 0px 5px 5px;
+}
+
+.menu  {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+
+.item {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin:  0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  
+}
+
+
+</style>
+<script type="text/javascript" src="tools.js"></script>
+<script type="text/javascript" src="notify.js"></script>
+</head>
+<body>
+
+
+	<div class="message">
+	<div class="item logo">
+	<img id='icon' width="48px" height="48px" src="icons/installing.gif" alt="..." >
+	</div>
+	<div class="item"><span id="message">MESSAGE</span>
+	</div>
+	</div>
+
+	<div class="menu">
+	<div class="item" id="tdhome">
+	<a id="home">&nbspHomepage&nbsp</a>
+	</div>
+	</div>
+
+
+</body>
+</html>
+

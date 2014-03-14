@@ -1,0 +1,12 @@
+{
+   "browser_action": {
+      "default_icon": "multiple_tabs_search_48.png",
+      "popup": "multiple_tabs_search.html"
+   },
+   "description": "Open multiple URLs or search for several words using Google search, each one in a new tab.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQYdjGG9BPafk6w7A6Voy9f/hpX091D6Ft4fx59xXhpzzqOudprJmDNj/MtAlydpHcjnIW7Yt/V+mHXGHPdnn6OI+ct9Qmj7oNGNsp5A+ImSEMJCrA7/VkYr0NSxq5q6QgK4flOHJgLSwarVeWQbNtKLG+GXB70tYMG1ZGZMyBFwIDAQAB",
+   "name": "Multiple Tabs Search",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

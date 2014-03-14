@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "da"
+   },
+   "qs_about_close_button": {
+      "message": "Luk"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "N\u00E5r du klikker p\u00E5 et Google-s\u00F8geresultat, kan Quick Scroll vises i nederste h\u00F8jre hj\u00F8rne af siden og vise et eller flere tekststykker p\u00E5 den side, der er relevant for din foresp\u00F8rgsel. Hvis du klikker p\u00E5 teksten, kommer du til den del af siden."
+   },
+   "qs_about_explanation2": {
+      "message": "Google Quick Scroll vises kun, n\u00E5r den med al sandsynlighed er til nytte. Du kan minimere den ved at klikke p\u00E5 minimerknappen \u00F8verst til h\u00F8jre."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EOm Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPrivatlivspolitik\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EServicevilk\u00E5r\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "S\u00E5dan fungerer Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll er nu installeret."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll er en browserudvidelse, som hj\u00E6lper dig med at finde det, du leder efter, hurtigere."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll vises kun, n\u00E5r den er til nytte. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EF\u00E5 flere oplysninger\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Indstillingerne er gemt"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Hj\u00E6lp med at g\u00F8re Google Quick Scroll bedre ved automatisk at sende brugsstatistikker til Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Indstillinger for privatliv"
+   },
+   "qs_about_step_1": {
+      "message": "Foretag en Google-s\u00F8gning."
+   },
+   "qs_about_step_2": {
+      "message": "Klik p\u00E5 et s\u00F8geresultat."
+   },
+   "qs_about_step_3": {
+      "message": "Klik p\u00E5 Quick Scroll for at springe til de relevante dele af siden."
+   },
+   "qs_about_support_instructions": {
+      "message": "Hvis du har sp\u00F8rgsm\u00E5l eller problemer i forbindelse med at brug af Quick Scroll, kan du se vores \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Esupportside\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Tak, fordi du installerer Google Quick Scroll."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EPr\u00F8v det!\u003C/b\u003E S\u00F8g efter [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E], og klik p\u00E5 resultatet \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Pr\u00F8v disse foresp\u00F8rgsler:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Hvis du vil afinstallere Google Quick Scrool, skal du i Chrome v\u00E6lge V\u00E6rkt\u00F8jer&nbsp;\u003E&nbsp;i menuen Udvidelser og klikke p\u00E5 linket Afinstaller for udvidelsen Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Afinstaller"
+   },
+   "qs_description": {
+      "message": "Google Quick Scroll giver dig mulighed for at g\u00E5 direkte til relevante tekststykker i et Google-s\u00F8geresultat."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  F\u00E6rre resultater"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "F\u00E5 vist de oprindelige resultater for din foresp\u00F8rgsel"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll er en browserudvidelse, som hj\u00E6lper dig med at finde det, du s\u00F8ger efter, hurtigere.\u003Cbr/\u003E\u003Cbr/\u003EN\u00E5r du klikker p\u00E5 et Google-s\u00F8geresultat, kan Quick Scroll vises i nederste h\u00F8jre hj\u00F8rne p\u00E5 siden og vise et eller flere tekststykker p\u00E5 den side, der er relevante for din foresp\u00F8rgsel. Hvis du klikker p\u00E5 teksten, kommer du til den del af siden.\u003Cbr/\u003E\u003Cbr/\u003EQuick Scroll fors\u00F8ger at holde sig i baggrunden, og den vises kun, n\u00E5r den med al sandsynlighed er til nytte."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Quick Scroll kunne desv\u00E6rre ikke finde nogen resultater p\u00E5 denne side for \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003EF\u00E5 flere oplysninger.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Hele denne side synes at dreje sig om \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Quick Scroll vises kun, n\u00E5r dele af siden er relevante. \u003Cspan class=\"goog_qs-learn-more\"\u003EF\u00E5 flere oplysninger.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll blev ikke vist, fordi hele siden er relevant for din s\u00F8gning."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll vises, n\u00E5r du klikker p\u00E5 en Google-resultatside. \u003Cspan class=\"goog_qs-learn-more\"\u003EF\u00E5 flere oplysninger.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "N\u00E5r du klikker p\u00E5 \"Installer\", accepterer du disse servicevilk\u00E5r: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Flere resultater \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "F\u00E5 vist flere resultater for din foresp\u00F8rgsel"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Fremh\u00E6ver fandt resultater p\u00E5 denne side."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll er aktiveret. Klik her for at f\u00E5 flere oplysninger."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll venter p\u00E5, at siden indl\u00E6ses..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "\u00C5bn Hj\u00E6lp og siden Indstillinger"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Resultater p\u00E5 siden for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Resultater p\u00E5 siden for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimer"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "\u00C5bn Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klik for at f\u00E5 vist denne tekst p\u00E5 siden"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Spring til tekst $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Bedste resultater for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Web Timer Options</title>
+    <link rel="stylesheet" href="options.css" />
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Web Timer Options</h1>
+      <div id="info">
+        <span>
+          Love Web Timer? <a target="_blank" href="https://chrome.google.com/webstore/detail/web-timer/ggnjbdfgigejghknieofeahaknkjafim/reviews">Leave a review!</a>
+        </span>
+        <br />
+        <span>
+          Problems? Questions? Feature requests? <a target="_blank" href="https://chrome.google.com/webstore/detail/web-timer/ggnjbdfgigejghknieofeahaknkjafim/details">Send feedback!</a>
+        </span>
+      </div>
+    </div>
+    <div id="settings">
+      <table>
+        <tbody>
+          <tr>
+            <th>
+            Sites to Ignore<br />
+            (one per line)
+            </th>
+            <td><textarea id="blacklist"></textarea></td>
+            <td id="blacklist-description" class="description">Web Timer will not track any sites you put on this list. Any existing data for sites on the list will be removed.</td>
+          </tr>
+          <tr>
+            <th>Chart Display Limit</th>
+            <td>
+              <label>Show Top</label>
+              <input id="chart_limit" type="text" size="2" maxlength="2" />
+              <label>Sites</label>
+            </td>
+            <td id="limit-description" class="description">Sites below the limit will be grouped into the "Other" category.</td>
+          </tr>
+          <tr>
+            <th>Storage</th>
+            <td>
+              <input id="clear-data" type="checkbox" />
+              <label for="clear-data">Clear All Data</label>
+            </td>
+            <td id="storage-description" class="description">There is no way to recover your data once you delete it.</td>
+        </tbody>
+      </table>
+    </div>
+    <div id="footer">
+      <button id="save-button">Save</button>
+      <span id="status"></span>
+    </div>
+  </body>
+</html>

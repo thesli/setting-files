@@ -1,0 +1,67 @@
+body { background-color: #d6d6d6; font-family: Helvetica, Arial; background-image: url('../images/bg.gif');  }
+
+.template { display: none; }
+
+
+h1 { margin-bottom: 10px; margin-top:5px; font-size: 25px; width:200px; float:left; background:url('../images/rpath19.png') no-repeat center left; padding-left:25px; font-weight: normal; }
+p { font-size:12px; }
+
+.logoContainer { width:100%; }
+
+.logo { float:right; width: 104px; }
+
+.pathContainer { min-width: 350px; max-width: 500px; }
+
+.pathItem
+{
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: url('../images/tick.png') no-repeat bottom right, -webkit-linear-gradient(top, #d5ebd3, #a2c39f);
+	min-height: 40px;
+}
+
+.pathItem.redirect { background: url('../images/arrow.png') no-repeat bottom right, -webkit-linear-gradient(top, #d3e4eb, #abc5d1); }
+.pathItem.notfound { background: url('../images/denied.png') no-repeat bottom right, -webkit-linear-gradient(top, #ebd4db 0%, #d1abb2 100%); }
+.pathItem.error { background: url('../images/warning.png') no-repeat bottom right, -webkit-linear-gradient(top, #ebe2d4 0%, #d1c5ab 100%); }
+
+
+.pathItem h2, .pathItem h3 { overflow: hidden; white-space: nowrap;  margin: 0; padding: 0;  font-weight: normal;   }
+
+.pathItem.expanded h2, .pathItem.expanded h3 { white-space:normal; overflow: auto; word-wrap: break-word }
+
+.pathItem h2 { margin-bottom: 5px; font-size:16px; }
+.pathItem h3 { font-size:12px; color: #333333; }
+
+.pathResponseHeaders { padding-left: 20px; margin-top: 10px; display: none;  }
+
+.clearFix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearFix {
+	display: inline-block;
+}
+
+.hide { display: none; }
+
+#closewindow {font-size:9px; outline: 0; display:block; height:12px; padding-left: 16px; line-height:12px; background: url('../images/close.png') no-repeat center left; }
+
+
+.content {
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+	background: white;
+	font-size: 14px;
+	line-height: 20px;
+	padding:10px;
+	margin-bottom:10px;
+}

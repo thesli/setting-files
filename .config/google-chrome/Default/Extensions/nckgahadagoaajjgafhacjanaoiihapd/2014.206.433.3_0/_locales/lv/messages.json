@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Nevar izveidot savienojumu ar Google. L\u016Bdzu, p\u0101rbaudiet interneta savienojumu."
+   },
+   "chrome_ext_description": {
+      "message": "Hangout sesij\u0101s sarunu papildin\u0101\u0161anai var izmantot fotoatt\u0113lus, jap\u0101\u0146u emocijz\u012Bmes un pat bezmaksas grupu videozvanus."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Koment\u0101ri"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "S\u016Bt\u012Bt atsauksmes"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "uzaicin\u0101ja j\u016Bs uz Hangout sesijas grupas videozvanu"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "S\u016Bt\u012Bt atsauksmes"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Nav veikta pierakst\u012B\u0161an\u0101s."
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "R\u0101d\u012Bt Hangout sesijas virs citiem logiem"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "v\u0113las ar jums sazin\u0101ties videozvan\u0101 Hangouts sesij\u0101"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "At\u013Caut fona re\u017E\u012Bmu"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Pierakst\u012Bties Hangouts sesij\u0101, kad tiek start\u0113ta p\u0101rl\u016Bkprogramma Chrome"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Statuss: izveidots savienojums\nNelas\u012Bti zi\u0146ojumi"
+   },
+   "quasar_answer_button_text": {
+      "message": "Atbild\u0113t"
+   },
+   "quasar_button_apply": {
+      "message": "Lietot"
+   },
+   "quasar_button_cancel": {
+      "message": "Atcelt"
+   },
+   "quasar_button_save": {
+      "message": "Labi"
+   },
+   "quasar_chat_title": {
+      "message": "$1 saka...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Noklik\u0161\u0137iniet, lai dotos uz lapu..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Noraid\u012Bt"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Atcelt"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Platforma:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Pazi\u0146ojums par konfidencialit\u0101ti"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Apraksts, produkta inform\u0101cija, papildinform\u0101cija un j\u016Bsu e-pasta adrese tiks nos\u016Bt\u012Bta uz\u0146\u0113mumam Google. Skatiet pakalpojuma Google atsauksmes pakalpojumu snieg\u0161anas noteikumus. Iesniedzot \u0161o saturu, j\u016Bs pie\u0161\u0137irat uz\u0146\u0113mumam Google ties\u012Bbas to izmantot, lai uzlabotu Google produktus un pakalpojumus. Skatiet m\u016Bsu konfidencialit\u0101tes politiku."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback?hl=lv"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "S\u016Bt\u012Bt atsauksmes"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Sist\u0113mas inform\u0101cija"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Lietot\u0101ja a\u0123ents"
+   },
+   "quasar_group_chat_title": {
+      "message": "No grupas t\u0113rz\u0113\u0161anas..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 piedal\u0101s Hangout sesij\u0101",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Pal\u012Bdz\u012Bba"
+   },
+   "quasar_label_all_notification": {
+      "message": "Atsp\u0113jot pazi\u0146ojumus"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Atsp\u0113jot t\u0113rz\u0113\u0161anas pazi\u0146ojumus"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Taimauta ilgums (sekund\u0113s):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "At\u013Caut t\u0113rz\u0113\u0161anas pazi\u0146ojumos autom\u0101tisko taimautu"
+   },
+   "quasar_label_tray_icon": {
+      "message": "R\u0101d\u012Bt sist\u0113mas teknes ikonu"
+   },
+   "quasar_legend_notifications": {
+      "message": "Pazi\u0146ojumi"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Lietojumprogramma"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Atsauksmes"
+   },
+   "quasar_menutext_quit": {
+      "message": "Iziet"
+   },
+   "quasar_menutext_settings": {
+      "message": "Opcijas"
+   },
+   "quasar_menutext_signout": {
+      "message": "Izrakst\u012Bties"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Nezin\u0101ms"
+   },
+   "quasar_sign_in": {
+      "message": "Pierakst\u012Bties"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Pierakstieties, lai s\u0101ktu t\u0113rz\u0113t ar draugiem."
+   },
+   "quasar_tip_connected": {
+      "message": "Statuss: savienojums ir izveidots"
+   },
+   "quasar_tip_connecting": {
+      "message": "Statuss: notiek savienojuma izveide"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Statuss: atvienota"
+   },
+   "quasar_tip_not_load": {
+      "message": "Statuss: iel\u0101des k\u013C\u016Bda"
+   },
+   "quasar_tip_not_login": {
+      "message": "Statuss: nav veikta pieteik\u0161an\u0101s"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Statuss: notiek atk\u0101rtota savienojuma izveide"
+   },
+   "quasar_try_now": {
+      "message": "M\u0113\u0123in\u0101t t\u016Bl\u012Bt"
+   },
+   "quasar_video_details": {
+      "message": "zvana jums, izmantojot video t\u0113rz\u0113\u0161anu."
+   },
+   "quasar_video_title": {
+      "message": "Videozvans no lietot\u0101ja $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "zvana jums."
+   },
+   "quasar_voice_title": {
+      "message": "Balss zvans no lietot\u0101ja $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

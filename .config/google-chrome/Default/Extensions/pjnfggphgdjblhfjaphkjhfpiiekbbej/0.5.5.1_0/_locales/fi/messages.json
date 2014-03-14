@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "fi"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "T\u00E4m\u00E4 laajennus ei voi esitt\u00E4\u00E4 ehdotuksia t\u00E4m\u00E4n kaltaisista sivuista, joiden sis\u00E4lt\u00F6 on suojattu (esim. http\u003Cb\u003Es\u003C/b\u003E://). N\u00E4hd\u00E4\u00E4n, kun palaat takaisin julkisille sivuille!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "T\u00E4m\u00E4 laajennus toimii parhaiten verkkosivustojen etu- tai p\u00E4\u00E4sivulla.\u003Cp\u003EKokeile laajennusta suosikkisivustoosi &mdash; n\u00E4et laajennuksen sinulle ehdottamat sivut."
+   },
+   "sp_default_title": {
+      "message": "Katso Googlen samankaltaiset sivut"
+   },
+   "sp_description": {
+      "message": "L\u00F6yd\u00E4 verkkosivuja, jotka ovat samankaltaisia kuin katselemasi sivu."
+   },
+   "sp_domain_change_message": {
+      "message": "Voit vaihtaa paikallisen verkkotunnuksen osoitteeksi www.google.com \u003Ca id='over' href='#'\u003Enapsauttamalla t\u00E4t\u00E4\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com on tallennettu paikalliseksi verkkotunnukseksi, ja sit\u00E4 k\u00E4ytet\u00E4\u00E4n samankaltaisien sivujen noutamiseen."
+   },
+   "sp_domain_message": {
+      "message": "Laajennus ottaa yhteytt\u00E4 verkkotunnukseen osoitteessa $1 hakiessaan samankaltaisten sivujen luetteloa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Sivujen lukum\u00E4\u00E4r\u00E4: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003ETietoja Googlesta\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Voit l\u00E4hett\u00E4\u00E4 palautetta osoitteeseen \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Kiitos!"
+   },
+   "sp_options_intro": {
+      "message": "Google Similar Pages -selainlaajennuksen avulla voit salamannopeasti esikatsella ja tutkia muita sivuja, jotka ovat samankaltaisia juuri katselemasi sivun kanssa."
+   },
+   "sp_options_legal": {
+      "message": "Kun napsautat Samankaltaiset sivut -painiketta, selain l\u00E4hett\u00E4\u00E4 Googlelle hakukyselyn selvitt\u00E4\u00E4kseen, onko katselemasi sivun kaltaisia sivuja olemassa.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EKyselyyn liittyvi\u00E4 tietoja k\u00E4sitell\u00E4\u00E4n Googlen \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Etietosuojak\u00E4yt\u00E4nn\u00F6n\u003C/a\u003E mukaisesti.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003ETietosuojak\u00E4yt\u00E4nt\u00F6\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EK\u00E4ytt\u00F6ehdot\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Poistaminen"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Voit poistaa Google Similar Pagesin napsauttamalla Poista-linkki\u00E4 Google Similar Pages -laajennuksen kohdalla Chromen Ty\u00F6kalut&gt;Laajennukset -valikossa."
+   },
+   "sp_preview_not_available": {
+      "message": "Esikatselu\u003Cbr\u003Eei saatavilla."
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta-versio (Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Laajennus ei ole viel\u00E4 saatavilla maassasi. Tarkista pian uudelleen."
+   },
+   "sp_zero_results": {
+      "message": "Samankaltaisia sivuja ei l\u00F6ytynyt."
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "OBSOLET. En lloc d'aix\u00F2, feu servir l'extensi\u00F3 Google Input Tools (disponible a http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "SUSP\u00C8S: Teclat virtual (de Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opcions de l'extensi\u00F3 Virtual Keyboard"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Seleccioneu els dissenys del teclat a l'esquerra:"
+   },
+   "vkbd_save_options": {
+      "message": "Desa"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Mostra/amaga el teclat"
+   }
+}

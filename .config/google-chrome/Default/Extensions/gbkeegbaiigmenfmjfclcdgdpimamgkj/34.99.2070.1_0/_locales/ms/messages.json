@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Bantu kami dengan melaporkan isu tersebut."
+   },
+   "app_nacl_crash_report": {
+      "message": "Laporkan isu..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Alamak. Hal itu tidak sepatutnya berlaku."
+   },
+   "app_nacl_error_msg": {
+      "message": "Terdapat masalah memuatkan aplikasi."
+   },
+   "app_nacl_error_title": {
+      "message": "Fail tidak dapat dibuka."
+   },
+   "application_description": {
+      "message": "Penyuntingan dokumen"
+   },
+   "file_loading_spinner_label": {
+      "message": "Memuatkan"
+   },
+   "file_not_found_msg": {
+      "message": "Fail yang anda minta telah dialihkan."
+   },
+   "file_not_found_title": {
+      "message": "Fail tidak dijumpai."
+   }
+}

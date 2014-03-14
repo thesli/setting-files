@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "sk"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Toto roz\u0161\u00EDrenie nem\u00F4\u017Ee pon\u00FAka\u0165 n\u00E1vrhy zo str\u00E1nok so zabezpe\u010Den\u00FDm obsahom (napr. http\u003Cb\u003Es\u003C/b\u003E://), ako je t\u00E1to. Te\u0161\u00EDme sa na v\u00E1s na verejnom webe!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Toto roz\u0161\u00EDrenie funguje najlep\u0161ie na domovsk\u00FDch str\u00E1nkach alebo hlavnej str\u00E1nke v\u00E4\u010D\u0161iny webov\u00FDch str\u00E1nok.\u003Cp\u003EVysk\u00FA\u0161ajte roz\u0161\u00EDrenie na svojich ob\u013E\u00FAben\u00FDch webov\u00FDch str\u00E1nkach&mdash;, otestujte ho v praxi a uvid\u00EDte, ak\u00E9 n\u00E1vrhy str\u00E1nok v\u00E1m zobraz\u00ED pre t\u00E9mu, v ktorej sa orientujete."
+   },
+   "sp_default_title": {
+      "message": "Podobn\u00E9 str\u00E1nky Google"
+   },
+   "sp_description": {
+      "message": "Objavte webov\u00E9 str\u00E1nky podobn\u00E9 t\u00FDm, ktor\u00E9 pr\u00E1ve prehliadate."
+   },
+   "sp_domain_change_message": {
+      "message": "Ak chcete zmeni\u0165 miestnu dom\u00E9nu na www.google.com, \u003Ca id='over' href='#'\u003Ekliknite tu\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "Dom\u00E9na www.google.com bola ulo\u017Een\u00E1 ako miestna za \u00FA\u010Delom na\u010D\u00EDtania podobn\u00FDch str\u00E1nok."
+   },
+   "sp_domain_message": {
+      "message": "Roz\u0161\u00EDrenie bude za \u00FA\u010Delom na\u010D\u00EDtania zoznamu podobn\u00FDch str\u00E1nok kontaktova\u0165 dom\u00E9nu $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Po\u010Det str\u00E1n: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EO spolo\u010Dnosti Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy; 2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Te\u0161\u00EDme sa na va\u0161e n\u00E1zory a pripomienky zaslan\u00E9 na adresu \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. \u010Eakujeme."
+   },
+   "sp_options_intro": {
+      "message": "Roz\u0161\u00EDrenie prehliada\u010Da Google Similar Pages v\u00E1m umo\u017En\u00ED v r\u00FDchlosti priebe\u017Ene zobrazova\u0165 uk\u00E1\u017Eky in\u00FDch str\u00E1nok podobn\u00FDch tej, ktor\u00FA pr\u00E1ve prehliadate, a presk\u00FAmava\u0165 ich."
+   },
+   "sp_options_legal": {
+      "message": "Ke\u010F kliknete na tla\u010Didlo Podobn\u00E9 str\u00E1nky, v\u00E1\u0161 prehliada\u010D odo\u0161le spolo\u010Dnosti Google vyh\u013Ead\u00E1vac\u00ED dopyt a pok\u00FAsi sa tak zisti\u0165, \u010Di existuj\u00FA str\u00E1nky podobn\u00E9 tej zobrazenej.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003ES \u00FAdajmi s\u00FAvisiacimi s dopytom budeme zaobch\u00E1dza\u0165 v s\u00FAlade s \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epravidlami ochrany osobn\u00FDch \u00FAdajov\u003C/a\u003E Google.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPravidl\u00E1 ochrany osobn\u00FDch \u00FAdajov\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EZmluvn\u00E9 podmienky\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Odin\u0161talova\u0165"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Ak chcete roz\u0161\u00EDrenie Google Similar Pages odin\u0161talova\u0165, prejdite v ponuke prehliada\u010Da Chrome na mo\u017Enos\u0165 N\u00E1stroje &gt; Roz\u0161\u00EDrenia a kliknite na odkaz Odin\u0161talova\u0165 pri roz\u0161\u00EDren\u00ED Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Uk\u00E1\u017Eka\u003Cbr\u003Enie je k dispoz\u00EDcii"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (od Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.sk"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Roz\u0161\u00EDrenie v s\u00FA\u010Dasnosti nie je pre va\u0161u krajinu alebo oblas\u0165 k dispoz\u00EDcii. Sk\u00FAste znova nesk\u00F4r."
+   },
+   "sp_zero_results": {
+      "message": "Neboli n\u00E1jden\u00E9 \u017Eiadne podobn\u00E9 str\u00E1nky."
+   }
+}

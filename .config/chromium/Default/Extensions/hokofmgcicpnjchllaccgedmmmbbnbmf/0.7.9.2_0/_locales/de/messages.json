@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "Seite kann nicht gesperrt werden"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Clear recently closed tabs"
+   },
+   "clickToOpen": {
+      "message": "Klicken Sie zum \u00D6ffnen \"$title$\"",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "Eine neue M\u00F6glichkeit zwischen Registerkarten (Tabs) zu navigieren. Einfacher Zugriff auf die am h\u00E4ufigsten verwendeten Tabs, damit assoziierten Tabs und geschlossenen Tabs. Erm\u00F6glicht ebenfalls das Sperren von Registerkarten."
+   },
+   "frequentlyUsedTabs": {
+      "message": "Frequently used tabs"
+   },
+   "loading": {
+      "message": "laden..."
+   },
+   "lockPage": {
+      "message": "Seite sperren"
+   },
+   "name": {
+      "message": "TabJump - Intelligenter Tab-Navigator"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "Recently closed tabs"
+   },
+   "relatedTabs": {
+      "message": "Related tabs"
+   },
+   "sureToLeavePage": {
+      "message": "Sind Sie sicher, dass Sie diese Seite verlassen m\u00F6chten?"
+   },
+   "unlockPage": {
+      "message": "Seite entsperren"
+   }
+}

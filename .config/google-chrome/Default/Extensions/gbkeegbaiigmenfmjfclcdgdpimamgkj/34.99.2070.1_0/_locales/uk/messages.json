@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Докладніше"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Допоможіть нам, повідомивши про проблему."
+   },
+   "app_nacl_crash_report": {
+      "message": "Повідомити про проблему..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Неочікувана помилка."
+   },
+   "app_nacl_error_msg": {
+      "message": "Під час завантаження програми виникла проблема."
+   },
+   "app_nacl_error_title": {
+      "message": "Неможливо відкрити файл."
+   },
+   "application_description": {
+      "message": "Редагування документів"
+   },
+   "file_loading_spinner_label": {
+      "message": "Завантаження"
+   },
+   "file_not_found_msg": {
+      "message": "Потрібний вам файл переміщено."
+   },
+   "file_not_found_title": {
+      "message": "Файл не знайдено."
+   }
+}

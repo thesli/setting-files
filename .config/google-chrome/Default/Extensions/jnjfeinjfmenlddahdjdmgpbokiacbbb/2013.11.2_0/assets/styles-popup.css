@@ -1,0 +1,159 @@
+/*
+Copyright (c) 2009 - 2013, Evan Jehu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the author nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+body {
+  width: 350px;
+  min-height: 50px;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  line-height: 1.25;
+}
+
+.qs_input {
+  font-size: 12px;
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  padding: 5px 5px 5px 25px;
+  margin: 0;
+  width: 100%;
+  border-style: groove;
+  background: url('search.png') no-repeat 5px center;
+}
+
+#tools {
+  margin: 2px;
+}
+
+div.template {
+  width: 100%;
+  display: none;
+  position:relative;
+  top:0;
+}
+
+.tab {
+	padding-top: 1px;
+	padding-bottom: 1px;
+  clear:both;
+  height: 27px;
+}
+
+div.tabimage {
+	float: left;
+}
+
+div.tabimage img {
+  vertical-align: middle;
+  padding: 4px;
+}
+
+div.hideicon img {
+  display: none;
+}
+
+div.withfocus.open div.close {
+	display: inline;
+	position: relative;
+	float: right;
+	top: 4px;
+	right: 5px;
+}
+
+div.close {
+	display: none;
+}
+
+div.title, div.url {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+div.closed div.tabimage {
+  opacity: .4;
+}
+
+div.closed div.title {
+  color: gray;
+}
+
+div.content {
+  margin: 0;
+  padding: 0;
+  max-height: 450px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.highlight {
+  color: #200772;
+  background-color: yellow;
+}
+
+.odd {
+  background: white;
+}
+
+.even {
+  background: whitesmoke;
+}
+
+.withfocus, div.closed.withfocus div.title {
+  color: white;
+  background-color: #200772;
+}
+
+.nourl div.title {
+  line-height:25px;
+  vertical-align:middle;
+}
+
+.nourl div.url {
+  display:none;
+}
+
+div.url {
+  display:block;
+  font-size: 9px;
+  color: lightgray;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar:vertical {
+  border-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  -webkit-border-image: url(scrollbar.png) 12 0 12 0;
+  border-width: 12px 0;
+  min-height: 20px;
+}

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ZASTARAL\u00C9. Pou\u017Eijte m\u00EDsto toho roz\u0161\u00ED\u0159en\u00ED N\u00E1stroje pro zad\u00E1v\u00E1n\u00ED \u00FAdaj\u016F Google (k dispozici na adrese http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "UKON\u010CENA PODPORA: Virtu\u00E1ln\u00ED kl\u00E1vesnice (od spole\u010Dnosti Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Mo\u017Enosti roz\u0161\u00ED\u0159en\u00ED Virtu\u00E1ln\u00ED kl\u00E1vesnice"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "V lev\u00E9 \u010D\u00E1sti str\u00E1nky vyberte rozlo\u017Een\u00ED kl\u00E1vesnice:"
+   },
+   "vkbd_save_options": {
+      "message": "Ulo\u017Eit"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Zobrazit \u010Di skr\u00FDt kl\u00E1vesnici"
+   }
+}

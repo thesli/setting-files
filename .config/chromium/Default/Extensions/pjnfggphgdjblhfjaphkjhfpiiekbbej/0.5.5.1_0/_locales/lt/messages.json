@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "lt"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "\u0160is pl\u0117tinys negali pateikti pasi\u016Blym\u0173 i\u0161 puslapi\u0173, kuriuose yra apsaugoto turinio (pvz., http\u003Cb\u003Es\u003C/b\u003E://). Susitiksime vie\u0161ajame \u017Einiatinklyje!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "\u0160is pl\u0117tinys geriausiai veikia pagrindiniuose daugelio svetaini\u0173 puslapiuose.\u003Cp\u003EI\u0161bandykite pl\u0117tin\u012F m\u0117gstamoje svetain\u0117je &mdash; i\u0161bandykite j\u012F ir per\u017Ei\u016Br\u0117kite puslapio pasi\u016Blymus apie \u017Einomus dalykus."
+   },
+   "sp_default_title": {
+      "message": "\u017Dr. pana\u0161ius \u201EGoogle\u201C puslapius"
+   },
+   "sp_description": {
+      "message": "Atraskite puslapius, pana\u0161ius \u012F \u0161iuo metu nar\u0161om\u0105 puslap\u012F."
+   },
+   "sp_domain_change_message": {
+      "message": "Jei norite pakeisti vietin\u012F domen\u0105 \u012F \u201Ewww.google.com\u201C, \u003Ca id='over' href='#'\u003Espustel\u0117kite \u010Dia\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com i\u0161saugotas kaip vietinis domenas, skirtas pana\u0161iems puslapiams gauti."
+   },
+   "sp_domain_message": {
+      "message": "Pl\u0117tinys susisieks su $1 ir gaus pana\u0161i\u0173 puslapi\u0173 s\u0105ra\u0161\u0105.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Puslapi\u0173 skai\u010Dius: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EApie \u201EGoogle\u201C\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy; \u201EGoogle\u201C, 2010 m."
+   },
+   "sp_options_feedback": {
+      "message": "Mielai perskaitysime atsiliepimus, siun\u010Diamus \u0161iuo adresu: \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. D\u0117kojame!"
+   },
+   "sp_options_intro": {
+      "message": "\u201EGoogle\u201C pana\u0161i\u0173 puslapi\u0173 nar\u0161ykl\u0117s pl\u0117tinys leid\u017Eia greitai per\u017Ei\u016Br\u0117ti ir tyrin\u0117ti kitus puslapius, kurie pana\u0161\u016Bs \u012F nar\u0161om\u0105 puslap\u012F. Greitai!"
+   },
+   "sp_options_legal": {
+      "message": "Kai spustel\u0117site mygtuk\u0105 \u201EPana\u0161\u016Bs puslapiai\u201C, nar\u0161ykl\u0117 i\u0161si\u0173s paie\u0161kos u\u017Eklaus\u0105 \u201EGoogle\u201C, kad b\u016Bt\u0173 per\u017Ei\u016Br\u0117ta, ar yra \u012F per\u017Ei\u016Brim\u0105 puslap\u012F pana\u0161i\u0173 puslapi\u0173.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003ESu u\u017Eklausa susij\u0119 duomenys bus tvarkomi taip, kaip nurodyta \u201EGoogle\u201C \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Eprivatumo politikoje\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPrivatumo politika\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EPaslaug\u0173 teikimo s\u0105lygos\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Pa\u0161alinti"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Jei norite pa\u0161alinti \u201EGoogle\u201C pana\u0161ius puslapius, naudokite \u201EChrome\u201C \u012Franki\u0173&gt; pl\u0117tini\u0173 meniu parinkt\u012F ir spustel\u0117kite \u201EGoogle\u201C pana\u0161i\u0173 puslapi\u0173 pl\u0117tinio nuorod\u0105 \u201EPa\u0161alinti\u201C."
+   },
+   "sp_preview_not_available": {
+      "message": "Per\u017Ei\u016Bra\u003Cbr\u003Enegalima"
+   },
+   "sp_product_name": {
+      "message": "\u201EGoogle\u201C pana\u0161\u016Bs puslapiai, beta versija (sukurta \u201EGoogle\u201C)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "\u201EGoogle\u201C pana\u0161\u016Bs puslapiai"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Pl\u0117tinys \u0161iuo metu negalimas j\u016Bs\u0173 \u0161aliai / regionui. Netrukus bandykite dar kart\u0105."
+   },
+   "sp_zero_results": {
+      "message": "Nerasta pana\u0161i\u0173 puslapi\u0173."
+   }
+}

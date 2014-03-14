@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Ne\u012Fmanoma prisijungti prie \u201EGoogle\u201C. Patikrinkite interneto ry\u0161\u012F."
+   },
+   "chrome_ext_description": {
+      "message": "Per \u201EHangout\u201C pokalbiai atgyja su nuotraukomis, jaustukais ir net nemokamais grupiniais vaizdo skambu\u010Diais."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Komentarai"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Si\u0173sti atsiliepim\u0105"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "pakviet\u0117 jus \u012F grup\u0117s \u201EHangout\u201C vaizdo skambut\u012F"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Si\u0173sti atsiliepim\u0105"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Neprisijungta"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Rodyti \u201EHangout\u201C vir\u0161 kit\u0173 lang\u0173"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "atlieka vaizdo skambut\u012F jums per \u201EHangout\u201C"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Leisti veikti fono re\u017Eimu"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Prisijungti prie \u201EHangout\u201C, kai paleid\u017Eiama \u201EChrome\u201C"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangout"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "B\u016Bsena: prisijungta\nPraleista prane\u0161im\u0173"
+   },
+   "quasar_answer_button_text": {
+      "message": "Atsakyti"
+   },
+   "quasar_button_apply": {
+      "message": "Taikyti"
+   },
+   "quasar_button_cancel": {
+      "message": "At\u0161aukti"
+   },
+   "quasar_button_save": {
+      "message": "Gerai"
+   },
+   "quasar_chat_title": {
+      "message": "$1 sako...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Jei norite eiti \u012F puslap\u012F, spustel\u0117kite..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Atmesti"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "At\u0161aukti"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Platforma:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Privatumo prane\u0161imas"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Apra\u0161as, produkto bei papildoma informacija ir el. pa\u0161to adresas bus siun\u010Diami \u201EGoogle\u201C. \u017Dr. \u201EGoogle\u201C atsiliepim\u0173 paslaug\u0173 teikimo s\u0105lygas. Pateikdami \u0161\u012F turin\u012F suteikiate \u201EGoogle\u201C teis\u0119 naudoti j\u012F produktams ir paslaugoms tobulinti. \u017Dr. privatumo politik\u0105."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback?hl=lt"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Si\u0173sti atsiliepim\u0105"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Sistemos informacija"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Naudotojo priemon\u0117:"
+   },
+   "quasar_group_chat_title": {
+      "message": "I\u0161 grup\u0117s pokalbio..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 dalyvauja \u201EHangout\u201C",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Pagalba"
+   },
+   "quasar_label_all_notification": {
+      "message": "I\u0161jungti prane\u0161imus"
+   },
+   "quasar_label_chat_notification": {
+      "message": "I\u0161jungti pokalbi\u0173 kambario prane\u0161imus"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Skirtasis laikas (sekund\u0117mis):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Leisti automati\u0161kai nustatyti pokalbi\u0173 prane\u0161imams skirt\u0105 laik\u0105"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Rodyti sistemos d\u0117klo piktogram\u0105"
+   },
+   "quasar_legend_notifications": {
+      "message": "Prane\u0161imai"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Programa"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Atsiliepimai"
+   },
+   "quasar_menutext_quit": {
+      "message": "I\u0161eiti"
+   },
+   "quasar_menutext_settings": {
+      "message": "Parinktys"
+   },
+   "quasar_menutext_signout": {
+      "message": "Atsijungti"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Ne\u017Einomas"
+   },
+   "quasar_sign_in": {
+      "message": "Prisijungti"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Prisijunkite ir prad\u0117kite kalb\u0117ti su draugais"
+   },
+   "quasar_tip_connected": {
+      "message": "B\u016Bsena: prisijungta"
+   },
+   "quasar_tip_connecting": {
+      "message": "B\u016Bsena: jungiamasi"
+   },
+   "quasar_tip_disconnected": {
+      "message": "B\u016Bsena: atsijungta"
+   },
+   "quasar_tip_not_load": {
+      "message": "B\u016Bsena: \u012Fk\u0117limo klaida"
+   },
+   "quasar_tip_not_login": {
+      "message": "B\u016Bsena: neprisijungta"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "B\u016Bsena: jungiamasi dar kart\u0105"
+   },
+   "quasar_try_now": {
+      "message": "Bandykite dabar"
+   },
+   "quasar_video_details": {
+      "message": "skambina jums naudodamas (-a) vaizdo pokalb\u012F"
+   },
+   "quasar_video_title": {
+      "message": "Vaizdo skambutis nuo $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "skambina jums"
+   },
+   "quasar_voice_title": {
+      "message": "Balso skambutis nuo $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

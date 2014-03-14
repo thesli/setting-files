@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "nl"
+   },
+   "qs_about_close_button": {
+      "message": "Sluiten"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Nadat u op een Google-zoekresultaat heeft geklikt, kan Snel scrollen in de rechterbenedenhoek van de pagina worden weergegeven. Snel scrollen geeft een of meer tekstfragmenten van de pagina weer die relevant zijn voor uw zoekopdracht. Als u op de tekst klikt, gaat u naar dat gedeelte van de pagina."
+   },
+   "qs_about_explanation2": {
+      "message": "De extensie Snel scrollen wordt alleen weergegeven wanneer deze van nut kan zijn. U kunt de extensie minimaliseren door rechtsboven op de knop voor minimaliseren te klikken."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EOver Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPrivacybeleid\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EServicevoorwaarden\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Hoe Snel scrollen werkt:"
+   },
+   "qs_about_installed": {
+      "message": "Google Snel scrollen is nu ge\u00EFnstalleerd."
+   },
+   "qs_about_introduction": {
+      "message": "Met de browserextensie Google Snel scrollen kunt u sneller vinden wat u zoekt."
+   },
+   "qs_about_only_useful": {
+      "message": "De extensie Snel scrollen wordt alleen weergegeven als deze van nut is. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EMeer\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Opties zijn opgeslagen"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Help Google Snel scrollen beter te maken door automatisch gebruiksstatistieken naar Google te verzenden."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Privacyopties"
+   },
+   "qs_about_step_1": {
+      "message": "Voer een zoekopdracht met Google Zoeken uit."
+   },
+   "qs_about_step_2": {
+      "message": "Klik op een zoekresultaat."
+   },
+   "qs_about_step_3": {
+      "message": "Klik op Snel scrollen om naar de relevante delen van de pagina te gaan."
+   },
+   "qs_about_support_instructions": {
+      "message": "Als u vragen heeft of als u problemen heeft met Snel scrollen, kunt u onze \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Eondersteuningspagina\u003C/a\u003E bekijken.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Hartelijk dank dat u Google Snel scrollen heeft ge\u00EFnstalleerd!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EProbeer het eens!\u003C/b\u003E Zoek naar [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] en klik op het resultaat 'dark matter brown dwarfs'."
+   },
+   "qs_about_try_queries": {
+      "message": "Probeer deze zoekopdrachten:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Als u Google Snel scrollen wilt verwijderen, gaat u naar het menu 'Gereedschap'&nbsp;\u003E&nbsp;'Extensies' en klikt u op de link 'Installatie ongedaan maken' naast de extensie Google Snel scrollen."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Installatie ongedaan maken"
+   },
+   "qs_description": {
+      "message": "Met Snel scrollen kunt u rechtstreeks naar het relevante gedeelte van een Google-zoekresultaat gaan."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Minder overeenkomsten"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "De oorspronkelijke overeenkomsten voor uw zoekopdracht weergeven"
+   },
+   "qs_gallery_description": {
+      "message": "Snel scrollen is een browserextensie waarmee u hetgeen wat u zoekt sneller kunt vinden.\u003Cbr/\u003E\u003Cbr/\u003ENadat u op een zoekresultaat van Google heeft geklikt, kan Snel scrollen worden weergegeven in de rechterbenedenhoek van de pagina, waar stukjes tekst van de pagina worden weergegeven die relevant zijn voor uw zoekopdracht. Door op de tekst te klikken, gaat u naar dat gedeelte van de pagina.\u003Cbr/\u003E\u003Cbr/\u003EWe proberen de extensie Snel scrollen alleen weer te geven wanneer dit mogelijk van nut is."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Snel scrollen kon op deze pagina geen overeenkomsten vinden voor \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003EMeer informatie.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Deze hele pagina lijkt te gaan over \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Snel scrollen wordt weergegeven wanneer alleen delen van de pagina relevant zijn. \u003Cspan class=\"goog_qs-learn-more\"\u003EMeer informatie.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Snel scrollen is niet weergegeven omdat de gehele pagina relevant is voor uw zoekopdracht."
+   },
+   "qs_info_on_search": {
+      "message": "Snel scrollen wordt weergegeven nadat u op een Google-zoekresultaat heeft geklikt. \u003Cspan class=\"goog_qs-learn-more\"\u003EMeer informatie.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Door op 'Installeren' te klikken gaat u akkoord met deze Servicevoorwaarden: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Meer overeenkomsten \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Meer overeenkomsten voor uw zoekopdracht weergeven"
+   },
+   "qs_name": {
+      "message": "Google Snel scrollen"
+   },
+   "qs_page_action_active": {
+      "message": "Snel scrollen heeft overeenkomsten op deze pagina gevonden."
+   },
+   "qs_page_action_inactive": {
+      "message": "Snel scrollen is ingeschakeld. Klik voor meer informatie."
+   },
+   "qs_page_action_running": {
+      "message": "Snel scrollen wacht tot de pagina is geladen..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "De pagina met ondersteuning en opties openen"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Overeenkomsten op de pagina voor \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Overeenkomsten op de pagina voor \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimaliseren"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google Snel scrollen openen"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klik om deze tekst op de pagina te bekijken"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Ga naar tekst $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Beste overeenkomsten voor \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

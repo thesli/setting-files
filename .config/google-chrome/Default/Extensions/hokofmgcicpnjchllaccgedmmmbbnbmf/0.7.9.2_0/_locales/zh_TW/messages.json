@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "\u7121\u6CD5\u9396\u5B9A\u6B64\u9801"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Clear recently closed tabs"
+   },
+   "clickToOpen": {
+      "message": "\u6253\u958B \"$title$\"",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "A new way to navigate your tabs. Easily access most used tabs, associated tabs, and closed tabs. Allows tab locking too."
+   },
+   "frequentlyUsedTabs": {
+      "message": "\u7D93\u5E38\u4F7F\u7528\u7684\u5206\u9801"
+   },
+   "loading": {
+      "message": "\u8F09\u5165\u4E2D..."
+   },
+   "lockPage": {
+      "message": "\u89E3\u9664\u9396\u5B9A"
+   },
+   "name": {
+      "message": "TabJump - Intelligent Tab Navigator"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "\u6700\u8FD1\u95DC\u9589\u7684\u5206\u9801"
+   },
+   "relatedTabs": {
+      "message": "\u76F8\u95DC\u5206\u9801"
+   },
+   "sureToLeavePage": {
+      "message": "\u78BA\u5B9A\u8981\u96E2\u958B\u6B64\u9801\u9762\uFF1F"
+   },
+   "unlockPage": {
+      "message": "\u9396\u5B9A\u6B64\u9801"
+   }
+}

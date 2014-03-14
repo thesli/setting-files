@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "hu"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Ez a b\u0151v\u00EDtm\u00E9ny nem tud javaslatokat tenni az ehhez hasonl\u00F3 biztons\u00E1gos tartalommal rendelkez\u0151 oldalak alapj\u00E1n (pl. http\u003Cb\u003Es\u003C/b\u003E://). Viszontl\u00E1t\u00E1sra a nyilv\u00E1nos weben!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Ez a b\u0151v\u00EDtm\u00E9ny legink\u00E1bb a webhelyek f\u0151oldalain \u00E9s kezd\u0151lapjain haszn\u00E1lhat\u00F3.\u003Cp\u003EPr\u00F3b\u00E1lja ki a b\u0151v\u00EDtm\u00E9nyt egyik kedvenc weboldal\u00E1n &mdash; tesztelje \u00E9s n\u00E9zze meg az oldaljavaslatokat olyasmivel kapcsolatban, amit ismer."
+   },
+   "sp_default_title": {
+      "message": "Google Hasonl\u00F3 oldalak megtekint\u00E9se"
+   },
+   "sp_description": {
+      "message": "Fedezzen fel m\u00E1s, az \u00E9ppen megtekintetthez hasonl\u00F3 weboldalakat."
+   },
+   "sp_domain_change_message": {
+      "message": "Ha a helyi domainnevet a www.google.com domainre m\u00F3dos\u00EDtan\u00E1, \u003Ca id='over' href='#'\u003Ekattintson ide\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "A www.google.com el lett mentve, mint a hasonl\u00F3 oldalak lek\u00E9r\u00E9s\u00E9re haszn\u00E1land\u00F3 helyi domain."
+   },
+   "sp_domain_message": {
+      "message": "A b\u0151v\u00EDtm\u00E9ny a $1 haszn\u00E1lat\u00E1val k\u00E9ri le a hasonl\u00F3 oldalak list\u00E1j\u00E1t.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Oldalak sz\u00E1ma: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EMinden a Google-r\u00F3l\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "\u00D6r\u00F6mmel fogadjuk visszajelz\u00E9s\u00E9t a(z) \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E e-mail c\u00EDmen. K\u00F6sz\u00F6nj\u00FCk!"
+   },
+   "sp_options_intro": {
+      "message": "A Google Hasonl\u00F3 oldalak b\u0151v\u00EDtm\u00E9nnyel gyorsan megtal\u00E1lhat az \u00E9ppen megtekintett oldalhoz hasonl\u00F3 egy\u00E9b oldalakat, \u00E9s megtekintheti azok el\u0151n\u00E9zet\u00E9t -- menet k\u00F6zben."
+   },
+   "sp_options_legal": {
+      "message": "Amikor a Hasonl\u00F3 oldalak gombra kattint, b\u00F6ng\u00E9sz\u0151je a keres\u00E9si lek\u00E9rdez\u00E9st elk\u00FCldi a Google-nak, hogy az a megtekintett oldalhoz hasonl\u00F3 oldalakat keressen.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EA lek\u00E9rdez\u00E9shez kapcsol\u00F3d\u00F3 adatokat a Google \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Eadatv\u00E9delmi ir\u00E1nyelveinek\u003C/a\u003E megfelel\u0151en kezelj\u00FCk.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EAdatv\u00E9delmi ir\u00E1nyelvek\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9telek\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Elt\u00E1vol\u00EDt\u00E1s"
+   },
+   "sp_options_uninstall_message": {
+      "message": "A Google hasonl\u00F3 oldalak b\u0151v\u00EDtm\u00E9ny elt\u00E1vol\u00EDt\u00E1s\u00E1hoz nyissa meg a Google Chrome Eszk\u00F6z\u00F6k&gt;B\u0151v\u00EDtm\u00E9nyek men\u00FCj\u00E9t, majd kattintson a Google Hasonl\u00F3 oldalak melletti Elt\u00E1vol\u00EDt\u00E1s linkre."
+   },
+   "sp_preview_not_available": {
+      "message": "Nincs el\u0151n\u00E9zet\u003Cbr\u003E"
+   },
+   "sp_product_name": {
+      "message": "Google Hasonl\u00F3 oldalak b\u00E9ta (Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Hasonl\u00F3 oldalak"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Ez a b\u0151v\u00EDtm\u00E9ny jelenleg nem \u00E9rhet\u0151 el orsz\u00E1g\u00E1ban/r\u00E9gi\u00F3j\u00E1ban. K\u00E9rj\u00FCk, l\u00E1togasson vissza a k\u00F6zelj\u00F6v\u0151ben."
+   },
+   "sp_zero_results": {
+      "message": "Nem tal\u00E1lhat\u00F3 hasonl\u00F3 oldal."
+   }
+}

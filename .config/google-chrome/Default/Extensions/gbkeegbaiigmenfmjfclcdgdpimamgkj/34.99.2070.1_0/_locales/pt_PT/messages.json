@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Saiba mais"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Ajude-nos comunicando o problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Comunicar um problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups, isto não era suposto acontecer."
+   },
+   "app_nacl_error_msg": {
+      "message": "Ocorreu um problema ao carregar a aplicação."
+   },
+   "app_nacl_error_title": {
+      "message": "Não é possível abrir o ficheiro."
+   },
+   "application_description": {
+      "message": "Edição de documentos"
+   },
+   "file_loading_spinner_label": {
+      "message": "A carregar"
+   },
+   "file_not_found_msg": {
+      "message": "Falha ao transferir o ficheiro solicitado."
+   },
+   "file_not_found_title": {
+      "message": "Ficheiro não encontrado."
+   }
+}

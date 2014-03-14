@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>AutoPager Notification</title>
+        <script type="text/javascript" src="../content/autopager-namespace.js"></script>
+        <script type="text/javascript" src="../content/autopager-bw-utils.js"></script>
+        <script type="text/javascript" src="../content/autopager-alertpage.js"></script>
+    </head>
+    <body  onload="autopagerAlert.onLoad()" style="background-color:rgb(239, 235, 231)" width="100px">
+        <a href="javascript:autopagerAlert.onAlertClick();">
+            <img src='../skin/classic/autopager48.png' alt="AutoPager"/>
+        </a>
+
+        <a href="javascript:autopagerAlert.onLinkClick(event);">
+            <b id='title' style="font-weight:bold"></b>
+        </a>
+        &nbsp;
+        <a class="text-link" href="javascript:autopagerAlert.onLinkClick(event);">
+            <b           id="message" />
+        </a>
+        <input type="image"
+               onclick="autopagerAlert.onAlertClose();" size="4" src='../content/images/vx.png'/>
+
+    </body>
+</html>

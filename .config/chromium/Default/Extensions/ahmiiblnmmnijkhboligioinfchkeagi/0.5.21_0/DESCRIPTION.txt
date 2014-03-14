@@ -1,0 +1,223 @@
+== ANNOUNCEMENTS ==
+
+  **THIS IS A BETA PRODUCT**
+
+  Please post issues on the tracker or email me at ansel@anselsantosa.com
+  DO NOT POST ISSUES IN THE COMMENTS
+
+
+== WHAT DOES IT DO? ==
+
+  It is a personalized solution for those who are tired of useless and distracting elements in the Facebook interface.
+  It removes as much or as little as you want. It also adds functionality if you so choose.
+  Look around the options page to see what it does first hand. Link below.
+
+
+== PERMISSIONS ==
+
+  Learn more about Chrome Extension permissions here: http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=186213
+  If you look as the permissions required by similar extensions in the Web Store, you will see that they are exactly the same
+  so before you make assumptions based on two short and broad statements, please read the following:
+
+ == "tabs"
+  * This permissions results in the "This extensions can access your browsing history" warning.
+  * I *NEVER* access your browsing history.
+  * I need this permission to open tabs. I use this to open the options page on major updates.
+  * This permission is also used to refresh the Facebook tab when you save your settings.
+ == "bookmarks"
+  * This permission results in the "This item can access your bookmars" warning.
+  * I *NEVER* access, read, modify, store, or transmit any of bookmarks.
+  * I need this permission to create a bookmark that is used to sync settings accross computers.
+ == "http://www.facebook.com/*", "https://www.facebook.com/*"
+  * This permission results in the "This extension can access your data on www.facebook.com" warning.
+  * I *NEVER* access, read, store, or transmit your personal data.
+  * I need this permission to run user scripts behind specific pages in the browser.
+  * These scripts inject Javascript and CSS into Facebook to enhance functionality and hide elements
+
+  Still don't trust me? Go to [https://github.com/anstosa/Minimalist-Facebook] to see the entire source code.
+
+
+== OPTIONS ==
+
+  The Options page is easy to use and interactive features:
+  * Screenshots when you mouseover options so you know what you're changing
+  * Organized tabbed navigation
+  * See it in action here: [http://www.anselsantosa.com/sites/MinimalistFacebook/options.html]
+
+  The following elements can be modified individually:
+ == GENERAL
+  * Hide Minimalist for Facebook options icon
+  * Show favicon counter
+  * Show transition animations
+  * Hide Footer
+  * Custom CSS input
+ == THEME
+  * Minimalist-style look
+  * Full width layout
+  * Customize background color
+  * Customize accent color
+  * Show hover highlights
+ == TOOLBAR
+  * Hide toolbar [click to toggle when hidden]
+  * Floating Toolbar
+  * Hide logo
+  * Hide Friend requests icon
+  * Hide Messages icon
+  * Hide Notifications icon
+  * Hide Search
+  * Hide Home link
+  * Hide Profile link
+ == NAVIGATION
+  * Hide navigation [click to toggle when hidden]
+  * Floating navigation
+  * Hide Profile section
+  * Hide News Feed link
+  * Hide Messages link
+  * Hide Events link
+  * Hide Friends link
+  * Hide Create group...
+  * Hide Navigation section
+  * Hide "More" link
+  * Hide Chat section
+  * Hide Chat search box
+ == SIDEBAR
+  * Hide sidebar [click to toggle when hidden]
+  * Floating sidebar
+  * Hide Events
+  * Hide Find More Friends
+  * Hide Requests
+  * Hide Pokes
+  * Hide Recommended
+  * Hide People You May Know
+  * Hide Ads
+ == MAIN
+  * Show true timestamps
+  * Photo zoom on hover
+  * Disable theater mode
+  * Hide idle
+  * Hide bottom list
+  * Hide Top/Recent
+  * Hide Applications stories
+  * Hide Poll/Questions stories
+  * Hide Pages stories
+  * Hide event stories
+  * Hide friend stories
+  * Hide group stories
+  * Hide like stories
+  * Hide link stories
+  * Hide note stories
+  * Hide photo stories
+  * Hide place stories
+  * Hide profile picture stories
+  * Hide relationship status stories
+  * Hide status stories
+  * Hide video stories
+  * Hide wall post stories 
+ == MORE?
+  * Leave feature suggestions in the Issue Tracker: [http://code.google.com/p/minimalist-facebook/issues]
+
+
+== HOW DO I WORK IT? ==
+
+  All the instructions you need are on the support page:
+  [http://code.google.com/p/minimalist-facebook/wiki/Support]
+
+
+== ISSUES TRACKING ==
+
+  I test as thoroughly as I can before each release, but bugs are bound to get through.
+  Read, track, and submit bugs in the Issue Tracker:
+  [http://code.google.com/p/minimalist-facebook/issues]
+
+
+== QUESTION? ==
+
+  * Ping me on Twitter: @anstosa
+  * Email me: ansel@anselsantosa.com
+
+
+== COMING SOON ==
+
+  Want to recommend a feature? Submit it in the Issues Tracker:
+  [http://code.google.com/p/minimalist-facebook/issues]
+
+
+== CHANGELOG ==
+
+ == 0.5.20 [23 AUG]
+  * Fixed: Floating toolbar makes page unscrollable
+ == 0.5.19 [23 AUG]
+  * Fixed: Full timestamps not working
+  * Fixed: Floating sidebar margins off
+ == 0.5.18 [28 JUL]
+  * Fixed: Logo not showing up with custom accent color. (seriously Facebook?! wtf. STOP. TOUCHING. YOUR. SPRITES.)
+ == 0.5.17 [16 JUL]
+  * Fixed: New chat sidebar causing navigation overlap
+ == 0.5.16 [12 JUL]
+  * Fixed: Options page not navigating correctly
+ == 0.5.15 [06 JUL]
+  * Fixed: Icons not showing up in on hover or by default with custom accent color (GAHHHH!)
+  * Fixed: Broken link in rate and review on options page
+ == 0.5.14 [23 JUN]
+  * Fixed: Icons not showing up in on hover or by default with custom accent color
+ == 0.5.13 [01 JUN]
+  * Fixed: Icons not showing up in correct color with custom accent color
+ == 0.5.12 [18 MAY]
+  * Fixed: Unreliability in 13.*
+  * Fixed: Bad image quality for toolbar icons and logo (Thanks Admad)
+ == 0.5.11 [17 MAY]
+  * Fixed: Workaround for Chromium 82784: http://goo.gl/XZMSr. No icon for affected builds
+ == 0.5.10 [12 MAY]
+  * Fixed: Background color not applied to certain elements (Thanks Ahmad)
+  * Fixed: Background color applied to social plugins (Thanks again Ahmad)
+ == 0.5.9 [3 MAY]
+  * Fixed: Icons graphics broken in toolbar
+ == 0.5.8 [16 APR]
+  * Added: Hide Find Friends
+  * Fixed: Floating Sidebar covering top buttons
+  * Fixed: default to Most Recent redirects
+  * Fixed: Home and Profile links in toolbar not hiding correctly
+ == 0.5.7 [12 APR]
+  * Fixed: Buttons not working above floating sidebar
+  * Fixed: Photo zoom for embedded videos showing last photo instead
+ == 0.5.6 [10 APR]
+  * Fixed: Floating sidebar overlapping buttons on profiles
+  * Fixed: Floating sidebar appearing under photos in album overview
+  * Fixed: Photo zoom overlaps name tooltips (hidden, names moved into photo zoom)
+  * Fixed: Photo zoom not applied to recently tagged in profiles
+ == 0.5.5 [7 APR]
+  * Added: Hide Poll/Questions stories
+  * Added: Hide Pages stories
+  * Fixed: Photo zoom appears on full-size photos
+  * Fixed: Pokes not hiding
+  * Fixed: Photo zoom only working on first loaded page.
+  * Fixed: Floating navigation is scrollable when longer than page
+ == 0.5.4 [4 APR]
+  * Fixed: Layout errors with Hide nav without floating nav
+  * Fixed: Custom settings fields not loading from memory
+  * Fixed: Export loop executes too many times
+ == 0.5.3 [3 APR]
+  * Fixed: Toolbar too short in full-width layout
+ == 0.5.2 [31 MAR]
+  * Fixed: Error in manifest
+ == 0.5.1 [31 MAR]
+  * Added: Floating Sidebar
+  * Fixed: Options not being applied to apps.facebook.com
+  * Fixed: Full width options only aligned left
+  * Fixed: Hide navigation breaking stuff
+ == 0.5.0 [30 MAR]
+  * First!
+
+
+== CREDITS ==
+
+  Most of Minimalist for Facebook is written from the ground-up but some things are just perfect already:
+  * favicon unread counter by Peter Wooley 
+  Full details on the About page: [http://www.anselsantosa.com/sites/MinimalistFacebook/options.html#abo] 
+
+
+== LEGAL ==
+
+  I am not a Facebook Employee or officially affiliated with Facebook in any way. This extension is not endorsed by Facebook.
+  Facebook and the Facebook logo are trademarks of Facebook Inc.
+  Use of these trademarks is subject to Facebook Permissions.

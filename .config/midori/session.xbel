@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel>
+<info>
+<metadata current="0"/>
+</info>
+<bookmark href="about:dial">
+<title>Speed Dial</title>
+<info>
+<metadata mime-type="text/html"/>
+</info>
+</bookmark>
+</xbel>

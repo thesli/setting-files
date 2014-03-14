@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "\u8A73\u7D30"
+   },
+   "app_nacl_crash_msg": {
+      "message": "\u554F\u984C\u306E\u5831\u544A\u306B\u3054\u5354\u529B\u304F\u3060\u3055\u3044\u3002"
+   },
+   "app_nacl_crash_report": {
+      "message": "\u554F\u984C\u3092\u5831\u544A..."
+   },
+   "app_nacl_crash_title": {
+      "message": "\u4E88\u671F\u3057\u306A\u3044\u554F\u984C\u304C\u767A\u751F\u3057\u307E\u3057\u305F\u3002"
+   },
+   "app_nacl_error_msg": {
+      "message": "\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u306E\u8AAD\u307F\u8FBC\u307F\u4E2D\u306B\u554F\u984C\u304C\u767A\u751F\u3057\u307E\u3057\u305F\u3002"
+   },
+   "app_nacl_error_title": {
+      "message": "\u30D5\u30A1\u30A4\u30EB\u3092\u958B\u3051\u307E\u305B\u3093\u3002"
+   },
+   "application_description": {
+      "message": "\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\u306E\u7DE8\u96C6"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059"
+   },
+   "file_not_found_msg": {
+      "message": "\u30EA\u30AF\u30A8\u30B9\u30C8\u3057\u305F\u30D5\u30A1\u30A4\u30EB\u306F\u79FB\u52D5\u3055\u308C\u3066\u3044\u307E\u3059\u3002"
+   },
+   "file_not_found_title": {
+      "message": "\u30D5\u30A1\u30A4\u30EB\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002"
+   }
+}

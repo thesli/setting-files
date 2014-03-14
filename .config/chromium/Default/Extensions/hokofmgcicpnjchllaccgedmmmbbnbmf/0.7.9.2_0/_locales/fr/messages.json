@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "Impossible d'\u00E9pingler cette page"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Clear recently closed tabs"
+   },
+   "clickToOpen": {
+      "message": "Cliquez pour ouvrir \"$title$\"",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "A new way to navigate your tabs. Easily access most used tabs, associated tabs, and closed tabs. Allows tab locking too."
+   },
+   "frequentlyUsedTabs": {
+      "message": "Frequently used tabs"
+   },
+   "loading": {
+      "message": "chargement..."
+   },
+   "lockPage": {
+      "message": "Epingler cette page"
+   },
+   "name": {
+      "message": "TabJump - Intelligent Tab Navigator"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "Recently closed tabs"
+   },
+   "relatedTabs": {
+      "message": "Related tabs"
+   },
+   "sureToLeavePage": {
+      "message": "Etes vous s\u00FBr de vouloir quitter cette page?"
+   },
+   "unlockPage": {
+      "message": "Lib\u00E9rer cet page"
+   }
+}

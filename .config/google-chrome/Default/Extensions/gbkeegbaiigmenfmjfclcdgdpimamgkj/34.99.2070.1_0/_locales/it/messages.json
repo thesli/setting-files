@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Ulteriori informazioni"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Aiutaci segnalando il problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Segnala un problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ops. Questo non doveva succedere."
+   },
+   "app_nacl_error_msg": {
+      "message": "Si è verificato un problema durante il caricamento dell'applicazione."
+   },
+   "app_nacl_error_title": {
+      "message": "Impossibile aprire il file."
+   },
+   "application_description": {
+      "message": "Modifica di documenti"
+   },
+   "file_loading_spinner_label": {
+      "message": "Caricamento in corso"
+   },
+   "file_not_found_msg": {
+      "message": "Il file richiesto è stato spostato."
+   },
+   "file_not_found_title": {
+      "message": "File non trovato."
+   }
+}

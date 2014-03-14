@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "v162/background.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "v162/newpage-pop.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/IBChrome128.png",
+      "16": "img/IBChrome16.png",
+      "32": "img/IBChrome32.png",
+      "48": "img/IBChrome48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgJu72AMOYMQysDTPNQ0c8gzIMpQ/LWjCYaPi3OD226RTJK+hj0eT2s2G6r33I3Eafc/tQ49X8/PKLxfTcir6fwR+kAQcWFw3BWTkhqAuBnth2t2gqlahjmxpU6X4h5ae0LtwYL25kuya8HagI73pkmQCy3pL5x3tugSpgiJWWRwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "optional_permissions": [ "topSites", "chrome://favicon/" ],
+   "options_page": "v162/options.html",
+   "permissions": [ "http://*.flickr.com/", "tabs", "bookmarks", "management", "contextMenus", "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.6.2"
+}

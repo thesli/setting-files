@@ -1,0 +1,70 @@
+/* Setting */
+    body {
+        background: #cce;
+        padding: 0;
+        margin: 0;
+        font-family: Geneva, "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+        font-size: 0.9em;
+    }
+    #container {
+        background: url(image/bg_setting.png) repeat;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #666;
+    }
+    #contents {
+        background: url(image/bg_transparent_white.png) repeat;
+        padding: 20px 60px;
+        border-top: none;
+        border-bottom: none;
+        width: 700px;
+        margin: 0 auto;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+    h3 {
+        background: url(image/ico_touch.png) no-repeat left center;
+        padding-left: 25px;
+    }
+    .item table {
+        width: 100%;
+    }
+    .itemdesc {
+        text-align: center;
+        width: 80px;
+    }
+    .itemvalue {
+        vertical-align: top;
+    }
+    .itemnote {
+        vertical-align: top;
+        background: #fff;
+        width: 60%;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .itemnote p {
+        color: #73be1e;
+        margin: 0;
+        padding: 0;
+    }
+    .note {
+        font-size: 0.9em;
+        margin-left: 20px;
+        font-style: italic;
+    }
+    fieldset {
+        margin-top: 20px;
+        border: 1px outset #aaa;
+        background: #eee;
+    }
+    fieldset legend {
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: #666;
+    }
+    .language {
+        text-align: right;
+    }

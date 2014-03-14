@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "sl"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Ta raz\u0161iritev ne more dajati predlogov s strani z za\u0161\u010Diteno vsebino (na primer http\u003Cb\u003Es\u003C/b\u003E://), kot je ta. Vidimo se spet v javnem spletu!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Ta raz\u0161iritev najbolje deluje na doma\u010Dih straneh ali na glavni strani ve\u010Dine spletnih mest.\u003Cp\u003EPreskusite jo na svojih priljubljenih mestih &mdash; preskusite, kak\u0161ne predloge dobite za strani, ki jih \u017Ee poznate."
+   },
+   "sp_default_title": {
+      "message": "Oglejte si Googlovo raz\u0161iritev \u00BBPodobne strani\u00AB"
+   },
+   "sp_description": {
+      "message": "Odkrijte spletne strani, podobne tej, po kateri brskate."
+   },
+   "sp_domain_change_message": {
+      "message": "\u010Ce \u017Eelite lokalno domeno spremeniti na www.google.com, \u003Ca id='over' href='#'\u003Ekliknite tukaj\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "Domena www.google.com je shranjena kot lokalna domena za prenos podobnih strani."
+   },
+   "sp_domain_message": {
+      "message": "Raz\u0161iritev bo vzpostavila povezavo s stre\u017Enikom $1, da prenese seznam podobnih strani.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "\u0160tevilo strani: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EO Googlu\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Zanimajo nas vsakr\u0161ne povratne informacije: \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Hvala!"
+   },
+   "sp_options_intro": {
+      "message": "Raz\u0161iritev brskalnika Google Podobne strani omogo\u010Da sproten hiter predogled in raziskovanje drugih strani, podobnih tisti, po kateri brskate."
+   },
+   "sp_options_legal": {
+      "message": "\u010Ce kliknete gumb za podobne strani, brskalnik po\u0161lje iskalno poizvedbo Googlu, da preveri, ali so kak\u0161ne strani, podobne tisti, ki si jo ogledujete.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EPodatki, povezani s poizvedbo, bodo obdelani, kot je opisano v Googlovem \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epravilniku o zasebnosti\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPravilnik o zasebnosti\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EPogoji storitve\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Odstranjevanje"
+   },
+   "sp_options_uninstall_message": {
+      "message": "\u010Ce \u017Eelite odstraniti Google Podobne strani, , v brskalniku Chrome izberite mo\u017Enost Orodja&gt;Raz\u0161iritve in kliknite povezavo \u00BBOdstrani\u00AB za raz\u0161iritev Google Podobne strani."
+   },
+   "sp_preview_not_available": {
+      "message": "Predogled\u003Cbr\u003Eni na voljo"
+   },
+   "sp_product_name": {
+      "message": "Google Podobne strani, razli\u010Dica beta (ponudnik: Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Podobne strani"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Raz\u0161iritev trenutno ni na voljo za va\u0161o dr\u017Eavo/obmo\u010Dje. Preverite znova pozneje."
+   },
+   "sp_zero_results": {
+      "message": "Podobne strani niso bile najdene."
+   }
+}

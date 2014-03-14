@@ -1,0 +1,94 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+  padding: 10px;
+}
+a {
+  color: #0000ff;
+}
+h1 {
+  font-size: 30px;
+}
+h1 span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3F79C2;
+}
+h2 {
+  font-size: 20px;
+  border-bottom: 1px dashed #aaaaaa;
+}
+h3 {
+  font-size: 18px;
+}
+#history > li {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+ul {
+  padding-left: 20px;
+}
+ul.updates {
+  padding-top: 5px;
+}
+ul.updates li {
+  font-weight: normal;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+li span {
+  font-weight: normal;
+  font-size: 14px;
+}
+.sidebox {
+  float: right;
+  width: 550px;
+  padding-left: 20px;
+  background-color: #ffffff;
+}
+.sidebox .small {
+  width: 450px;
+}
+.box {
+  border: 1px solid #3F79C2;
+  background-color: #DAE5F3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.box.tip {
+  border-color: #3FC254;
+  background-color: #D6F7DE;
+}
+.box h3 {
+  margin-top: 0px;
+}
+.box h4 {
+  margin: 0px;
+}
+.box p {
+  margin: 5px 0px;
+  font-size: 14px;
+}
+.box p.indent {
+  margin-left: 20px;
+}
+.box ul {
+  margin-top: 5px;
+}
+.box ul li {
+  font-size: 14px;
+}
+.box ul li a {
+  font-size: 13px;
+}
+img.update-note {
+  position: relative;
+  top: 4px;
+}
+#noshow {
+  border: 1px solid #cc0000;
+  background-color: #ff9b9b;
+  font-weight: bold;
+}

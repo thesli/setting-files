@@ -1,0 +1,141 @@
+<!--
+THIS CODE WAS TAKEN FROM
+GMAIL MAIL CHECKER (https://chrome.google.com/extensions/detail/mihcahmgecmbnbcchbopgniflfhgnkff).
+-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Infinite Scroll for Chrome - Options</title>
+<style>
+body {
+  font-family:helvetica, arial, sans-serif;
+  font-size: 80%;
+  margin:10px;
+}
+
+input {
+}
+
+#header {
+  padding-bottom:1.5em;
+  padding-top:1.5em;
+}
+
+#header h1 {
+  font-size: 156%;
+  display:inline;
+  padding-bottom:43px;
+  padding-left:75px;
+  padding-top:40px;
+  background:url(128.png) no-repeat;
+  background-size:67px;
+  background-position:1px 18px;
+}
+
+.section-header {
+  background:#f2f2f2;
+  border-top:1px solid #b5b5b5;
+  font-size:99%;
+  padding:3px 0 2px 5px;
+  font-weight:bold;
+  margin-bottom:1em;
+  margin-top:1em;
+}
+
+#textbox {
+  height: 10em;
+  margin-left:2px;
+  width: 708px;
+}
+
+#footer {
+  margin-top:0em;
+  margin-bottom:2em;
+}
+</style>
+</head>
+<body>
+
+<div id="header"><h1>Infinite Scroll for Chrome Options</h1></div>
+
+<div class="section-header">Rules</div>
+
+<h4 style="margin-top: 0em; margin-bottom: 0;">Exceptions</h4>
+<p>Infinite Scroll is disabled for these sites.</p>
+  <textarea type="text" id="textbox" oninput="markDirty()"></textarea>
+  
+  <!--
+  <h4 style="margin-top: 3em; margin-bottom: 0;">User-defined Rules</h4>
+<p>Your rule must follow the Infinite Scroll for Chrome rule syntax. This is for advanced users.</p>
+  <textarea type="text" id="textbox" oninput="markDirty()"></textarea>
+  -->
+
+<div class="section-header" style="margin-top: 3em;">General</div>
+<p>You must restart Infinite Scroll for Chrome to apply these settings.</p>
+<br>
+  <form><input type="checkbox" id="checkRightClickMenu" onclick="markDirty()"><span style="margin-left: 0.2em;">Enable right-click menu</span></form>
+  <form><input type="checkbox" id="checkPageNumbering" onclick="markDirty()"><span style="margin-left: 0.2em;">Enable page numbering</span></form>
+  <form><input type="checkbox" id="checkAppendHistory" onclick="markDirty()"><span style="margin-left: 0.2em;">Append browsing history (Beta)</span></form>
+  <form><input type="checkbox" id="checkCreateDirect" onclick="markDirty()"><span style="margin-left: 0.2em;">Create elements directry (Beta)</span></form>
+<br>
+<p>Found a bug? Please file a request <a href="mailto:heusuke@gmail.com" style="color: #000000;">here</a>.</p>
+
+<div id="footer" style="text-align: left; margin-top: 4em;">
+  <button id="save-button" style="font-weight:bold" onclick="save()">Save</button>
+  <button onclick="init()">Cancel</button>
+</div>
+
+<script>
+
+  var textBox, saveButton;
+  var checkRightClickMenu, checkPageNumbering, checkAppendHistory, checkCreateDirect;
+
+  function init() {
+    textBox = document.getElementById("textbox");
+    saveButton = document.getElementById("save-button");
+
+    checkRightClickMenu = document.getElementById("checkRightClickMenu");
+    checkPageNumbering = document.getElementById("checkPageNumbering");
+    checkCreateDirect = document.getElementById("checkCreateDirect");
+    checkAppendHistory = document.getElementById("checkAppendHistory");
+
+    textBox.value = JSON.parse(localStorage['OPTION_EXCEPTIONS']).join('\n');
+
+    checkRightClickMenu.checked = JSON.parse(localStorage['OPTION_RIGHT_CLICK_MENU']);
+    checkPageNumbering.checked = JSON.parse(localStorage['OPTION_PAGE_NUMBERING']);
+    checkCreateDirect.checked = JSON.parse(localStorage['OPTION_DOM_DIRECT']);
+    checkAppendHistory.checked = JSON.parse(localStorage['OPTION_APPEND_HISTORY']);
+
+    markClean();
+  }
+
+  function save() {
+    var lines = textBox.value.split('\n');
+    var exceptions = [];
+    for (var i=0; i<lines.length; i++) {
+      if (lines[i] != '') { exceptions.push(lines[i]); }
+    }
+    localStorage['OPTION_EXCEPTIONS'] = JSON.stringify(exceptions);
+
+    localStorage['OPTION_RIGHT_CLICK_MENU'] = JSON.stringify(checkRightClickMenu.checked);
+    localStorage['OPTION_PAGE_NUMBERING'] = JSON.stringify(checkPageNumbering.checked);
+    localStorage['OPTION_DOM_DIRECT'] = JSON.stringify(checkCreateDirect.checked);
+    localStorage['OPTION_APPEND_HISTORY'] = JSON.stringify(checkAppendHistory.checked);
+
+    markClean();
+    init();
+  }
+
+  function markDirty() {
+    saveButton.disabled = false;
+  }
+
+  function markClean() {
+    saveButton.disabled = true;
+  }
+
+  init();
+</script>
+</body>
+</html>

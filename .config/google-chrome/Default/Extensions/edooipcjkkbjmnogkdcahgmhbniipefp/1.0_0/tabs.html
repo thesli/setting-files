@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tabs.css"> 
+<script src="jquery-1.4.1-and-plugins.min.js" type="text/javascript"></script> 
+<script src="jquery.quicksand.min.js" type="text/javascript"></script> 
+<script src="jquery-ui-1.8rc2.custom.min.js" type="text/javascript"></script> 
+<script src="tabs.js" type="text/javascript"></script> 
+</head>
+<body onload='init(); document.f.s.focus();' id='body'>
+<div class='container'>
+
+<form name='f' onsubmit='opentab(0);return false;' id='f'>
+<input id='s' type='text' name='s' onkeyup='window.clearInterval(updatenow); updatenow = window.setTimeout("init();",200);' onmouseover='this.focus();' >
+<div id='results'>loading ...</div>
+</form>
+
+<ul id='bookmarks' class='bookmarks'>
+</ul>
+
+<ul id='tabs' class='tabs'>
+</ul>
+
+<ul id='tabs2' class='tabs hidden'>
+</ul>
+
+</div>
+</body>
+</html>

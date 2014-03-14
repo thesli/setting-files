@@ -1,0 +1,392 @@
+{
+   "add": {
+      "message": "Hinzuf\u00FCgen"
+   },
+   "addToStreamus": {
+      "message": "Hinzuf\u00FCgen zu Streamus"
+   },
+   "addVideo": {
+      "message": "Hinzuf\u00FCgen eines Videos"
+   },
+   "addedSuccessfully": {
+      "message": "Erfolgreich hinzugef\u00FCgt"
+   },
+   "anIssueWasEncounteredWhileAddingYourPlaylistCheckTheUrl": {
+      "message": "Ein Problem wurde entdeckt w\u00E4hrend dem hinzuf\u00FCgen der Playlist. URL \u00FCberpr\u00FCfen?"
+   },
+   "areYouSure": {
+      "message": "Bist du sicher?"
+   },
+   "areYouSureYouWantToClearYourStream": {
+      "message": "Bist du sicher das du den Stream l\u00F6schen m\u00F6chtest?"
+   },
+   "areYouSureYouWantToDeletePlaylist": {
+      "description": "This looks like a bit of a sentence fragment, but there's a playlist title which comes afterwards",
+      "message": "Bist du sioher das du folgende Playlist l\u00F6schen m\u00F6chtest:"
+   },
+   "auto": {
+      "description": "Beschreibung f\u00FCr automatische Qualit\u00E4tsauswahl. Zu sehen in einem Drop-down Men\u00FC.",
+      "message": "Auto"
+   },
+   "banUntilClear": {
+      "description": "Bannen bedeutet kein Zeigen/keine Auswahl bis der Stream wieder gel\u00F6scht wird.",
+      "message": "Bannen bis zum L\u00F6schen"
+   },
+   "cantDeleteLastPlaylist": {
+      "message": "Kann letzte Playlist nicht l\u00F6schen"
+   },
+   "cantGoBackToPreviousVideo": {
+      "message": "Kann nicht zum vorherigen Video springen."
+   },
+   "cantSkipToNextVideo": {
+      "message": "Kann nicht zum n\u00E4chsten Video springen."
+   },
+   "cantToggleVideoState": {
+      "message": "Kann Videostatus nicht umschalten."
+   },
+   "channel": {
+      "description": "A noun -- as in a YouTube channel of music",
+      "message": "Kanal"
+   },
+   "clearStream": {
+      "message": "L\u00F6sche Stream"
+   },
+   "closeMenu": {
+      "message": "Schliesse Men\u00FC"
+   },
+   "copyTitleAndUrl": {
+      "message": "Kopiere Titel - URL"
+   },
+   "copyUrl": {
+      "message": "Kopiere URL"
+   },
+   "copyVideoTitleUrlCommandDescription": {
+      "message": "Die URL und Titel des derzeitigen Videos kopieren"
+   },
+   "copyVideoUrlCommandDescription": {
+      "message": "Die URL des derzeitigen Videos kopieren"
+   },
+   "create": {
+      "message": "Erstelle"
+   },
+   "createPlaylist": {
+      "message": "Erstelle Playlist"
+   },
+   "days": {
+      "message": "Tage"
+   },
+   "delete": {
+      "description": "Nur das einzelne Wort, wie auf dem Button zu sehen.",
+      "message": "L\u00F6sche"
+   },
+   "deletePlaylist": {
+      "message": "L\u00F6sche Playlist"
+   },
+   "deleteVideo": {
+      "message": "L\u00F6sche Video"
+   },
+   "deleteVideoCommandDescription": {
+      "message": "Das derzeitige Video aus dem Stream entfernen"
+   },
+   "dontRemindMeAgain": {
+      "message": "Nicht mehr erinnern"
+   },
+   "edit": {
+      "message": "Bearbeiten"
+   },
+   "editPlaylist": {
+      "message": "Bearbeite Playlist"
+   },
+   "elapsedTime": {
+      "message": "Vergangene Zeit"
+   },
+   "enqueue": {
+      "message": "Hinzuf\u00FCgen"
+   },
+   "enqueueAll": {
+      "message": "Alle hinzuf\u00FCgen"
+   },
+   "enqueuePlaylist": {
+      "message": "Playlist hinzuf\u00FCgen"
+   },
+   "enqueueSelected": {
+      "message": "Ausgew\u00E4hlte hinzuf\u00FCgen"
+   },
+   "errorEncountered": {
+      "message": "Ein Fehler wurde festgestellt."
+   },
+   "errorRetrievingTitle": {
+      "message": "Fehler beim holen des Titels"
+   },
+   "exitFullScreen": {
+      "message": "Vollbildmodus verlassen"
+   },
+   "extensionDescription": {
+      "message": "Streamus macht YouTube zu dem Musikplayer den du schon immer wolltest. Streamus macht streamen \u00FCber YouTube erfrischend einfach."
+   },
+   "extensionName": {
+      "description": "Der Name der Erweiterung",
+      "message": "Streamus\u2122 (Beta!)"
+   },
+   "extensionTitle": {
+      "message": "Streamus: Musik streamen, auf einfache Art."
+   },
+   "fullScreen": {
+      "message": "Vollbildmodus"
+   },
+   "general": {
+      "message": "Allgemein"
+   },
+   "hd": {
+      "message": "HD"
+   },
+   "hideVideo": {
+      "message": "Verstecke Video"
+   },
+   "hideVideoSearch": {
+      "message": "Verstecke Videosuche"
+   },
+   "highest": {
+      "description": "Beschreibung f\u00FCr Topqualit\u00E4t, 100% h\u00F6chste Audio Qualit\u00E4t. Zu sehen in einem Drop-down Men\u00FC.",
+      "message": "H\u00F6chste"
+   },
+   "hours": {
+      "message": "Stunden"
+   },
+   "installed": {
+      "description": "Bedeutet das Streamus 'Installiert' wurde",
+      "message": "Installiert"
+   },
+   "item": {
+      "message": "Eintrag"
+   },
+   "items": {
+      "message": "Eintr\u00E4ge"
+   },
+   "keyboardCommandFailure": {
+      "message": "Eingabe fehlerhaft"
+   },
+   "lowest": {
+      "description": "Beschreibung f\u00FCr niedrigste Qualit\u00E4tsauswahl. Zu sehen in einem Drop-down Men\u00FC.",
+      "message": "Niedrigste"
+   },
+   "minute": {
+      "message": "Minute"
+   },
+   "minutes": {
+      "message": "Minuten"
+   },
+   "newPlaylist": {
+      "message": "Neue Playlist"
+   },
+   "nextVideoCommandDescription": {
+      "message": "Zum n\u00E4chsten Video im Stream springen"
+   },
+   "noResultsFound": {
+      "message": "Keine Ergebnisse gefunden"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "openMenu": {
+      "message": "\u00D6ffne Men\u00FC"
+   },
+   "optional": {
+      "message": "Optional"
+   },
+   "play": {
+      "message": "Abspielen"
+   },
+   "playAll": {
+      "message": "Alle abspielen"
+   },
+   "playPlaylist": {
+      "message": "Playlist wiedergeben"
+   },
+   "playSelected": {
+      "message": "Ausgew\u00E4hlte abspielen"
+   },
+   "playlist": {
+      "message": "Playlist"
+   },
+   "playlistEmpty": {
+      "message": "Playlist leer"
+   },
+   "playlists": {
+      "message": "Playlists"
+   },
+   "previousVideoCommandDescription": {
+      "message": "Zum vorherigen Video im Stream springen"
+   },
+   "radioDisabled": {
+      "message": "Radio deaktiviert"
+   },
+   "radioEnabled": {
+      "message": "Radio aktiviert"
+   },
+   "reload": {
+      "message": "Aktualisieren"
+   },
+   "reloadStreamus": {
+      "message": "Aktualisiere Streamus"
+   },
+   "remindClearStream": {
+      "description": "This is a bit of a sentence fragment. It is used as part of a list of reminders. e.g. 'Reminders:  - Remind clear stream'",
+      "message": "Stream l\u00F6schen"
+   },
+   "remindDeletePlaylist": {
+      "description": "This is a bit of a sentence fragment. It is used as part of a list of reminders. e.g. 'Reminders:  - Remind delete playlist'",
+      "message": "Playlist l\u00F6schen"
+   },
+   "reminders": {
+      "message": "Erinnerungen"
+   },
+   "repeatDisabled": {
+      "message": "Wiederholen deaktiviert"
+   },
+   "repeatStream": {
+      "message": "Wiederhole Stream"
+   },
+   "repeatVideo": {
+      "message": "Wiederhole Video"
+   },
+   "required": {
+      "message": "Ben\u00F6tigt"
+   },
+   "resultsWillAppearAsYouSearch": {
+      "message": "Ergebnisse erscheinen w\u00E4hrend der Eingabe"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "saveSelected": {
+      "message": "Ausgew\u00E4hlte speichern"
+   },
+   "saveStream": {
+      "message": "Speichere Stream"
+   },
+   "saveVideo": {
+      "message": "Speichere Video"
+   },
+   "saveVideoCommandDescription": {
+      "message": "Video zur momentanen Playlist hinzuf\u00FCgen"
+   },
+   "saveVideos": {
+      "message": "Speichere Videos"
+   },
+   "search": {
+      "message": "Suchen"
+   },
+   "searchForVideos": {
+      "message": "nach Videos suchen"
+   },
+   "searching": {
+      "message": "Suche"
+   },
+   "selectPlaylist": {
+      "message": "W\u00E4hle Playlist"
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "showTooltips": {
+      "message": "Zeige Tooltips"
+   },
+   "showVideo": {
+      "message": "Zeige Video"
+   },
+   "showVideoSearch": {
+      "message": "Zeige Videosuche"
+   },
+   "shuffleDisabled": {
+      "message": "Zufallswiedergabe deaktiviert"
+   },
+   "shuffleEnabled": {
+      "message": "Zufallswiedergabe aktiviert"
+   },
+   "signIn": {
+      "message": "Anmelden"
+   },
+   "sorryAboutThat": {
+      "message": "Das tut uns leid"
+   },
+   "startTyping": {
+      "message": "Etwas eingeben"
+   },
+   "streamEmpty": {
+      "message": "Stream leer"
+   },
+   "streamusIsTakingALongTimeToLoadReloadingMayHelp": {
+      "message": "Streamus braucht sehr lange zum laden. Aktualisieren k\u00F6nnte helfen."
+   },
+   "timeRemaining": {
+      "message": "Zeit \u00FCbrig"
+   },
+   "title": {
+      "message": "Titel"
+   },
+   "to": {
+      "message": "zu"
+   },
+   "toggleRadioCommandDescription": {
+      "message": "Das Radio (Aus/An) schalten"
+   },
+   "toggleRepeatCommandDescription": {
+      "message": "Zwischen (Aus/Video/Stream) wiederholen umschalten"
+   },
+   "toggleShuffleCommandDescription": {
+      "message": "Zufallswiedergabe (Aus/An) schalten"
+   },
+   "toggleVideoCommandDescription": {
+      "message": "Wiedergabe umschalten zwischen (Wiedergabe/Pause)"
+   },
+   "totalTime": {
+      "message": "Zeit insgesamt"
+   },
+   "trySearchingForSomethingElse": {
+      "message": "Versuche nach etwas Anderem zu suchen"
+   },
+   "typeToCreateOrFilterPlaylists": {
+      "message": "Tippen zum Erstellen oder Filtern von Playlists"
+   },
+   "update": {
+      "message": "Updaten"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "video": {
+      "message": "Video"
+   },
+   "videoAddSuccess": {
+      "message": "Video wurde erfolgreich zu Streamus hinzugef\u00FCgt."
+   },
+   "videoQuality": {
+      "message": "Videoqualit\u00E4t"
+   },
+   "videos": {
+      "message": "Videos"
+   },
+   "watchOnYouTube": {
+      "message": "Auf YouTube ansehen"
+   },
+   "whyNotAddAVideoFromAPlaylistOr": {
+      "message": "Warum nicht das Video einer Playlist hinzuf\u00FCgen oder"
+   },
+   "working": {
+      "description": "Streamus arbeitet an etwas",
+      "message": "Arbeite"
+   },
+   "wouldYouLikeTo": {
+      "message": "M\u00F6chtest du"
+   },
+   "youTubePlayerErrorInvalidParameter": {
+      "message": "Die Anfrage enth\u00E4lt einen ung\u00FCltigen Wert. Zum Bespiel, dieser Fehler passiert wenn eine Video ID keine 11 Buchstaben beinhaltet, oder falls die Video ID ung\u00FCltige Buchstaben beinhaltet wie Ausrufezeichen oder Sternchen."
+   },
+   "youTubePlayerErrorNoPlayEmbedded": {
+      "message": "Video wurde nicht f\u00FCr die Wiedergabe in eingebetteten Playern authorisiert."
+   },
+   "youTubePlayerErrorVideoNotFound": {
+      "message": "Video wurde nicht gefunden. Das kann passieren wenn ein Video entfernt oder als privat markiert wurde."
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "UDFASET. Brug udvidelsen Google Input Tools (findes p\u00E5 http://goo.gl/lzCPo) i stedet."
+   },
+   "vkbd_name": {
+      "message": "UDFASET: Virtual Keyboard (fra Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Valgmuligheder for udvidelsen Virtual Keyboard"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "V\u00E6lg et eller flere tastaturlayouts fra venstre:"
+   },
+   "vkbd_save_options": {
+      "message": "Gem"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Vis/skjul tastatur"
+   }
+}

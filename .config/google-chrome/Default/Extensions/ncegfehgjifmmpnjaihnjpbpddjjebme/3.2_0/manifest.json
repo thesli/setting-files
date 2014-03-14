@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chromeTouch.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "Enable iPhone like touch scroll interface.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "32": "icon_32.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRoiT8vLn6l9m/ODaDc3Sj8qIMwmo8j0t0TLsfNZeuo46yYP7ESieBY3fGbvcuGrkSpVEMVQVLti3/2WfvleiCj+wWaz7xV2qLCqMDo2PxIvFRYhxDbTQLzkGYLALjwE2qIiws34MT5xq4TH1GxabV8dts8KZXEowCVwuxKWgiXQIDAQAB",
+   "manifest_version": 2,
+   "name": "chromeTouch",
+   "options_page": "setting.html",
+   "page_action": {
+      "default_icon": "icon_32.png",
+      "default_title": "chromeTouch"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2"
+}

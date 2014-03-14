@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "OBSOLETO. Usa la extensi\u00F3n Herramientas de introducci\u00F3n de Google  (disponible en http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "DESACTIVADO: teclado virtual (de Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opciones de extensi\u00F3n de teclado virtual"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Selecciona dise\u00F1os de teclado en el panel de la izquierda:"
+   },
+   "vkbd_save_options": {
+      "message": "Guardar"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Mostrar/ocultar teclado"
+   }
+}

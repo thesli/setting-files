@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "További információ"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Segítsen nekünk a probléma bejelentésével."
+   },
+   "app_nacl_crash_report": {
+      "message": "Probléma bejelentése..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hoppá! Ennek nem kellett volna megtörténnie."
+   },
+   "app_nacl_error_msg": {
+      "message": "Hiba történt az alkalmazás betöltése során."
+   },
+   "app_nacl_error_title": {
+      "message": "A fájl nem nyitható meg."
+   },
+   "application_description": {
+      "message": "Dokumentumok szerkesztése"
+   },
+   "file_loading_spinner_label": {
+      "message": "Betöltés..."
+   },
+   "file_not_found_msg": {
+      "message": "A kért fájl más helyre került."
+   },
+   "file_not_found_title": {
+      "message": "A fájl nem található."
+   }
+}

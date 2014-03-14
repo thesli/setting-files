@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Viac inform\u00E1ci\u00ED"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Nahl\u00E1ste n\u00E1m probl\u00E9m a pom\u00F4\u017Ete ho t\u00FDm vyrie\u0161i\u0165."
+   },
+   "app_nacl_crash_report": {
+      "message": "Nahl\u00E1si\u0165 probl\u00E9m..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hops. Toto sa nemalo sta\u0165."
+   },
+   "app_nacl_error_msg": {
+      "message": "Pri na\u010D\u00EDtavan\u00ED aplik\u00E1cie sa vyskytol probl\u00E9m."
+   },
+   "app_nacl_error_title": {
+      "message": "S\u00FAbor sa ned\u00E1 otvori\u0165."
+   },
+   "application_description": {
+      "message": "\u00DAprava dokumentov"
+   },
+   "file_loading_spinner_label": {
+      "message": "Prebieha na\u010D\u00EDtavanie"
+   },
+   "file_not_found_msg": {
+      "message": "Po\u017Eadovan\u00FD s\u00FAbor sa niekam presunul."
+   },
+   "file_not_found_title": {
+      "message": "S\u00FAbor sa nena\u0161iel."
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.biodigitalhuman.com/"
+      },
+      "urls": [ "http://www.biodigitalhuman.com/", "http://biodigitalhuman.com/" ]
+   },
+   "description": "The BioDigital Human is a 3D platform that simplifies the understanding of anatomy, disease and treatments. Explore the body in 3D!",
+   "icons": {
+      "128": "logo_128_square.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwiZGkyA5NjZZ8kMkkTYTt44XwRcSH9rm7SGjXY6pArTczTAyZcqZUh6WghIBe5M8rgn+LYq06/QKgPqeaQtChGwoIVIaGSJe+RgDmW0iHUtjak6p11Fu9pwRERJvC44uACB5k2Cdq2UYSNjFCTC4SmDVa8zhCjMUCieELoYgIzwIDAQAB",
+   "name": "BIODIGITAL HUMAN",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.9.5"
+}

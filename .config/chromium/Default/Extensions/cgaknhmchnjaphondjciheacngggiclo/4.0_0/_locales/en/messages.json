@@ -1,0 +1,95 @@
+{
+   "c0": {
+      "message": "Back"
+   },
+   "c1": {
+      "message": "Refresh"
+   },
+   "c2": {
+      "message": "Facepad Options"
+   },
+   "extDesc": {
+      "message": "Looks, acts & feels like you're using Facebook on your iPhone. Notifies you when new messages arrive!"
+   },
+   "extName": {
+      "message": "Facepad for Facebook\u2122"
+   },
+   "m0": {
+      "message": "The new Facepad version $1 has been installed successfully!"
+   },
+   "m1": {
+      "message": "Facepad v$1 Options"
+   },
+   "m2": {
+      "message": "Notify me if I have unread messages"
+   },
+   "m3": {
+      "message": "Show a desktop notification"
+   },
+   "m4": {
+      "message": "Play a sound"
+   },
+   "m5": {
+      "message": "Automatically check for unread messages at regular intervals"
+   },
+   "m6": {
+      "message": "Check every:"
+   },
+   "m7": {
+      "message": "minutes"
+   },
+   "s0": {
+      "message": "You are Logged In"
+   },
+   "s1": {
+      "message": "You are Logged Out"
+   },
+   "s2": {
+      "message": "You have $1 unread messages!\nClick here to view your inbox."
+   },
+   "w0": {
+      "message": "Facepad extension for Chrome\u2122"
+   },
+   "w1": {
+      "message": "The Fast and Easy way to interact with Facebook!"
+   },
+   "w10": {
+      "message": "on Extensions Gallery"
+   },
+   "w11": {
+      "message": "Like & Follow"
+   },
+   "w12": {
+      "message": "on Facebook"
+   },
+   "w13": {
+      "message": "For any questions, suggestions or feedback please feel free to"
+   },
+   "w14": {
+      "message": "contact us"
+   },
+   "w2": {
+      "message": "Thanks for using Facepad extension for Chrome!"
+   },
+   "w3": {
+      "message": "There's not a lot more to say about. All you need is a login to Facebook as usual and the Facepad will work for you, even if you navigate away or close the Facebook tab."
+   },
+   "w4": {
+      "message": "The Facepad checks your Facebook inbox at the interval that you specified and displays the total number unread messages with a little badge on the toolbar button (Pic.1)"
+   },
+   "w5": {
+      "message": "You can also enable notifications, and a fade-in window brings the unread email counts to your desktop (Pic.3) Set an alert sound that notifies you if you have unread messages in your Inbox."
+   },
+   "w6": {
+      "message": "By clicking on Facepad button in your Chrome toolbar you can access all of Facebook's functionality in a small window that looks like Facebook on an iPhone (Pic.2)"
+   },
+   "w7": {
+      "message": "Download"
+   },
+   "w8": {
+      "message": "Don't forget to..."
+   },
+   "w9": {
+      "message": "Rate 5 Stars"
+   }
+}

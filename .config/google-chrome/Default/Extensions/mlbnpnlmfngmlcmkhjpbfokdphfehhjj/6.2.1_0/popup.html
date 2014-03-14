@@ -1,0 +1,48 @@
+<html>
+  <head>
+  	<link href="popup.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="ruulWrapper">
+		<div id="ruulHeader">
+            <div id="error" class="alert alert-danger"></div>
+        	<ul>
+            	<li><a id="ruulRemove" href="#">clear all</a></li>
+            </ul>
+          <h1>add a ruul</h1>
+          <p>choose and click, to add to page</p>
+        </div>
+        <ul id="ruulUl">
+        	<li id="ruulNormal" class="active"></li>
+            <li id="ruulBlue" class="active"></li>
+            <li id="ruulPink" class="active"></li>
+            <li id="ruulGreen" class="active"></li>
+            <li id="ruulSteel" class="active"></li>
+            <li id="ruulWood" class="active"></li>
+            <li id="ruulLong" class="active"></li>
+            <li id="ruulSetSquare"></li>
+            <li id="ruulProtractor"></li>
+        </ul>
+        <ul id="ruulLabels">
+        	<li>long</li>
+            <li class="comingSoon">coming soon</li>
+            <li class="comingSoon">coming soon</li>
+        </ul>
+        <!--
+        <div id="ruulPopupAdvert">
+        <iframe src="about:blank" width="1" height="1" frameborder="0" scrolling="no" id="ruulPopupAdvertFrame"></iframe>
+        </div>
+        -->
+
+        <label id="rememberLabel">
+            <input type="checkbox" id="remember" /> remember positions on any given website
+        </label>
+
+        <p id="bottom">
+            <a href="help/ruul_file.html" target="_blank" id="help">How to run on <b>local files</b></a>
+            <a href="http://www.ruul.me" target="_blank" id="about">about ruul</a>
+        </p>
+	</div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+define([],function(){"use strict";var i=new Backbone.Marionette.Application;i.addRegions({body:"body"}),i.addInitializer(function(){}),i.on("initialize:before",function(){}),i.on("initialize:after",function(){}),i.on("start",function(){}),i.start({})});

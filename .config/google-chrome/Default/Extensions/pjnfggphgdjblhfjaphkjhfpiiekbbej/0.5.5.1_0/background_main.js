@@ -1,0 +1,6 @@
+var c=this,d=Date.now||function(){return+new Date};var f=function(){var a=e,b=new XMLHttpRequest;b.open("GET","https://clients1.google.com/searchdomaincheck?format=domain",!1);b.onreadystatechange=function(){4==b.readyState&&200==b.status&&a(b.responseText)};try{b.send()}catch(s){}};var g,h,i,j,k=function(){return c.navigator?c.navigator.userAgent:null};j=i=h=g=!1;var l;if(l=k()){var m=c.navigator;g=0==l.indexOf("Opera");h=!g&&-1!=l.indexOf("MSIE");i=!g&&-1!=l.indexOf("WebKit");j=!g&&!i&&"Gecko"==m.product}var n=h,o=j,p=i;var q;if(g&&c.opera){var r=c.opera.version;"function"==typeof r&&r()}else o?q=/rv\:([^\);]+)(\)|;)/:n?q=/MSIE\s+([^\);]+)(\)|;)/:p&&(q=/WebKit\/(\S+)/),q&&q.exec(k());new function(){this.a=d()};/*
+ Copyright 2009 Google Inc.  All Rights Reserved.
+ Your use of this software is subject to the Terms of Service located
+ at https://chrome.google.com/extensions/intl/en/gallery_tos.html.
+*/
+function e(a){a&&0<a.length&&0==a.indexOf(".")&&(window.localStorage.request_domain="https://www"+a+"/");if(!window.localStorage.request_domain||0!=window.localStorage.request_domain.indexOf("https://www.google"))window.localStorage.request_domain="https://www.google.com/";if(!window.localStorage.already_run)chrome.tabs.create({url:"options.html"}),window.localStorage.already_run=!0}chrome&&f();

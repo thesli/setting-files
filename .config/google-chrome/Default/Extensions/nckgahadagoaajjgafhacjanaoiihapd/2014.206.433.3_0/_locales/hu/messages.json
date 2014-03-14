@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Nem lehet csatlakozni a Google rendszer\u00E9hez. Ellen\u0151rizze az internetkapcsolatot."
+   },
+   "chrome_ext_description": {
+      "message": "Az ingyenes Hangouts szolg\u00E1ltat\u00E1s \u00E9letre keltik a besz\u00E9lget\u00E9seket. Fot\u00F3kat oszthat meg, emoji ikonokat k\u00FCldhet, \u00E9s csoportos vide..."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Megjegyz\u00E9sek"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Visszajelz\u00E9s k\u00FCld\u00E9se"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "megh\u00EDvott egy csoportos Hangouts-videoh\u00EDv\u00E1sba"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Visszajelz\u00E9s k\u00FCld\u00E9se"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Nincs bejelentkezve"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "A Hangouts maradjon a t\u00F6bbi ablak felett"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "videoh\u00EDv\u00E1ssal h\u00EDvja \u00D6nt a Hangouts szolg\u00E1ltat\u00E1sb\u00F3l"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "H\u00E1tt\u00E9r \u00FCzemm\u00F3d enged\u00E9lyez\u00E9se"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Bejelentkez\u00E9s a Hangouts szolg\u00E1ltat\u00E1sba a Chrome indul\u00E1sakor"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "\u00C1llapot: Csatlakozva\nNem fogadott \u00FCzenetek"
+   },
+   "quasar_answer_button_text": {
+      "message": "H\u00EDv\u00E1s fogad\u00E1sa"
+   },
+   "quasar_button_apply": {
+      "message": "OK"
+   },
+   "quasar_button_cancel": {
+      "message": "M\u00E9gse"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 mondja...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Kattint\u00E1sra ugr\u00E1s az oldalra..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Elutas\u00EDt\u00E1s"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "M\u00E9gse"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Oper\u00E1ci\u00F3s rendszer:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Adatv\u00E9delmi nyilatkozat"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "A le\u00EDr\u00E1st, term\u00E9kinform\u00E1ci\u00F3t, tov\u00E1bbi adatokat \u00E9s e-mail c\u00EDm\u00E9t elk\u00FCldj\u00FCk a Google sz\u00E1m\u00E1ra. Tekintse meg a Google Visszajelz\u00E9s \u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleit. Ennek a tartalomnak a bek\u00FCld\u00E9s\u00E9vel megadja a jogot a Google sz\u00E1m\u00E1ra, hogy term\u00E9kei \u00E9s szolg\u00E1ltat\u00E1sai fejleszt\u00E9s\u00E9re haszn\u00E1lja fel azt. Tekintse meg Adatv\u00E9delmi ir\u00E1nyelveinket."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Visszajelz\u00E9s k\u00FCld\u00E9se"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Rendszeradatok"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Felhaszn\u00E1l\u00F3i \u00FCgyn\u00F6k"
+   },
+   "quasar_group_chat_title": {
+      "message": "Csoportos cseveg\u00E9sb\u0151l..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 r\u00E9szt vesz egy t\u00E1rsalg\u00F3ban",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "S\u00FAg\u00F3"
+   },
+   "quasar_label_all_notification": {
+      "message": "\u00C9rtes\u00EDt\u00E9sek kikapcsol\u00E1sa"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Cseveg\u0151\u00E9rtes\u00EDt\u00E9sek kikapcsol\u00E1sa"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Id\u0151t\u00FAll\u00E9p\u00E9s hossza (m\u00E1sodperc):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Az \u00E9rtes\u00EDt\u00E9sek automatikus id\u0151t\u00FAll\u00E9p\u00E9s\u00E9nek enged\u00E9lyez\u00E9se"
+   },
+   "quasar_label_tray_icon": {
+      "message": "T\u00E1lcaikon megjelen\u00EDt\u00E9se"
+   },
+   "quasar_legend_notifications": {
+      "message": "\u00C9rtes\u00EDt\u00E9sek"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Alkalmaz\u00E1s"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Visszajelz\u00E9s"
+   },
+   "quasar_menutext_quit": {
+      "message": "Kil\u00E9p\u00E9s"
+   },
+   "quasar_menutext_settings": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "quasar_menutext_signout": {
+      "message": "Kijelentkez\u00E9s"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Ismeretlen"
+   },
+   "quasar_sign_in": {
+      "message": "Bejelentkez\u00E9s"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Jelentkezzen be, ha besz\u00E9lgetni szeretne bar\u00E1taival"
+   },
+   "quasar_tip_connected": {
+      "message": "\u00C1llapot: Csatlakozva"
+   },
+   "quasar_tip_connecting": {
+      "message": "\u00C1llapot: Csatlakoz\u00E1s"
+   },
+   "quasar_tip_disconnected": {
+      "message": "\u00C1llapot: Lev\u00E1lasztva"
+   },
+   "quasar_tip_not_load": {
+      "message": "\u00C1llapot: Bet\u00F6lt\u00E9si hiba"
+   },
+   "quasar_tip_not_login": {
+      "message": "\u00C1llapot: Nincs bejelentkezve"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "\u00C1llapot: \u00DAjracsatlakoz\u00E1s"
+   },
+   "quasar_try_now": {
+      "message": "Pr\u00F3b\u00E1lkoz\u00E1s"
+   },
+   "quasar_video_details": {
+      "message": "videocseveg\u00E9sen kereszt\u00FCl h\u00EDvja"
+   },
+   "quasar_video_title": {
+      "message": "Videoh\u00EDv\u00E1s $1 felhaszn\u00E1l\u00F3t\u00F3l...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "h\u00EDvja \u00D6nt"
+   },
+   "quasar_voice_title": {
+      "message": "Audioh\u00EDv\u00E1s $1 felhaszn\u00E1l\u00F3t\u00F3l...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

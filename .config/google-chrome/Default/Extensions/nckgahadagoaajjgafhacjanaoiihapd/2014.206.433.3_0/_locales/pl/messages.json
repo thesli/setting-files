@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Nie mo\u017Cna po\u0142\u0105czy\u0107 si\u0119 z Google. Sprawd\u017A swoje po\u0142\u0105czenie internetowe."
+   },
+   "chrome_ext_description": {
+      "message": "W Google Hangouts wzbogacisz swoje kontakty ze znajomymi dzi\u0119ki zdj\u0119ciom, emotikonom i bezp\u0142atnym grupowym rozmowom wideo."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Komentarze"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Prze\u015Blij opini\u0119 do Google"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "zaprasza Ci\u0119 do rozmowy wideo w Hangoucie grupowym"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Prze\u015Blij opini\u0119 do Google"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Zaloguj si\u0119"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Trzymaj Hangouts nad innymi oknami"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "chce nawi\u0105za\u0107 z Tob\u0105 po\u0142\u0105czenie wideo w us\u0142udze Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Zezwalaj na dzia\u0142anie w tle"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Zaloguj si\u0119 w Hangouts po uruchomieniu Chrome"
+   },
+   "chrome_ext_short_name": {
+      "message": "Google Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stan: po\u0142\u0105czono\nPomini\u0119to wiadomo\u015Bci"
+   },
+   "quasar_answer_button_text": {
+      "message": "Odbierz"
+   },
+   "quasar_button_apply": {
+      "message": "Zastosuj"
+   },
+   "quasar_button_cancel": {
+      "message": "Anuluj"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 m\u00F3wi...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Kliknij, aby przej\u015B\u0107 do strony..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Odrzu\u0107"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Anuluj"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Platforma:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Ochrona prywatno\u015Bci"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Do Google zostanie wys\u0142any opis, informacje o aplikacji lub us\u0142udze, informacje dodatkowe oraz Tw\u00F3j adres e-mail. Zapoznaj si\u0119 z Warunkami korzystania z us\u0142ugi Google Feedback. Przesy\u0142aj\u0105c te dane, zezwalasz Google na ich wykorzystanie do doskonalenia aplikacji i us\u0142ug. Przeczytaj nasz\u0105 Polityk\u0119 prywatno\u015Bci."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Prze\u015Blij opini\u0119 do Google"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Informacje o systemie"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Klient u\u017Cytkownika:"
+   },
+   "quasar_group_chat_title": {
+      "message": "Z czatu grupowego..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 jest na hangoucie",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Pomoc"
+   },
+   "quasar_label_all_notification": {
+      "message": "Wy\u0142\u0105cz powiadomienia"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Wy\u0142\u0105cz powiadomienia czatu"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Limit czasu (w sekundach):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Zezwalaj na automatyczne wygasanie powiadomie\u0144 czatu"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Poka\u017C ikon\u0119 na pasku zada\u0144"
+   },
+   "quasar_legend_notifications": {
+      "message": "Powiadomienia"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Aplikacja"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Prze\u015Blij opini\u0119"
+   },
+   "quasar_menutext_quit": {
+      "message": "Zako\u0144cz"
+   },
+   "quasar_menutext_settings": {
+      "message": "Opcje"
+   },
+   "quasar_menutext_signout": {
+      "message": "Wyloguj si\u0119"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Nieznany"
+   },
+   "quasar_sign_in": {
+      "message": "Zaloguj si\u0119"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Zaloguj si\u0119 i zacznij rozmawia\u0107 ze znajomymi"
+   },
+   "quasar_tip_connected": {
+      "message": "Stan: u\u017Cytkownik po\u0142\u0105czony"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stan: \u0142\u0105czenie"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stan: u\u017Cytkownik roz\u0142\u0105czony"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stan: b\u0142\u0105d \u0142adowania"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stan: u\u017Cytkownik niezalogowany"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stan: ponowne \u0142\u0105czenie"
+   },
+   "quasar_try_now": {
+      "message": "Spr\u00F3buj teraz"
+   },
+   "quasar_video_details": {
+      "message": "dzwoni do Ciebie przez czat wideo"
+   },
+   "quasar_video_title": {
+      "message": "Po\u0142\u0105czenie wideo od: $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "dzwoni do Ciebie"
+   },
+   "quasar_voice_title": {
+      "message": "Po\u0142\u0105czenie g\u0142osowe od u\u017Cytkownika $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

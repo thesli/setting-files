@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "DEPRECATED. Please use the Google Input Tools extension (available at http://goo.gl/lzCPo) instead."
+   },
+   "vkbd_name": {
+      "message": "DEPRECATED: Virtual Keyboard (by Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtual Keyboard Extension Options"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Pick keyboard layout(s) from the left:"
+   },
+   "vkbd_save_options": {
+      "message": "Save"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Show/Hide Keyboard"
+   }
+}

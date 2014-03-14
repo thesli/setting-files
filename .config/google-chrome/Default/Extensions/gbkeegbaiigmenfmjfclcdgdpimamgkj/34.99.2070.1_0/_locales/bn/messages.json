@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "আরো জানুন"
+   },
+   "app_nacl_crash_msg": {
+      "message": "ত্রুটি প্রতিবেদন করে আমাদেরকে সহায়তা করুন৷"
+   },
+   "app_nacl_crash_report": {
+      "message": "একটি সমস্যা প্রতিবেদন করুন..."
+   },
+   "app_nacl_crash_title": {
+      "message": "ওহো৷এটি হওয়ার কথা ছিল না৷"
+   },
+   "app_nacl_error_msg": {
+      "message": "অ্যাপ্লিকেশনটি লোড করার সময় একটি হয়েছে৷"
+   },
+   "app_nacl_error_title": {
+      "message": "ফাইলটি খোলা যাবে না৷"
+   },
+   "application_description": {
+      "message": "দস্তাবেজ সম্পাদনা"
+   },
+   "file_loading_spinner_label": {
+      "message": "লোড হচ্ছে"
+   },
+   "file_not_found_msg": {
+      "message": "আপনার অনুরোধ করা ফাইলটি উপরে এবং স্থানান্তরিত হয়েছে৷"
+   },
+   "file_not_found_title": {
+      "message": "ফাইল পাওয়া যায়নি৷"
+   }
+}

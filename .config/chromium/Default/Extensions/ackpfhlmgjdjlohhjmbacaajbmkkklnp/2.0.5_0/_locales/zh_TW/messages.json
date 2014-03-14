@@ -1,0 +1,35 @@
+{
+   "hotkeyInstruct": {
+      "message": "\u8ACB\u9EDE\u64CA\u9375\u76E4\u4F86\u8F38\u5165\u65B0\u7684\u71B1\u9375:"
+   },
+   "hotkeyNotice": {
+      "message": "\u71B1\u9375\u4E0D\u80FD\u5728\u4F8B\u5982\u672C\u9801\u9762\u7684\u7CFB\u7D71\u9801\u9762\u4E0A\u4F7F\u7528. \u8ACB\u4F7F\u7528\u5C1A\u672A\u88AB\u64CD\u4F5C\u7CFB\u7D71\u6216\u662F\u8C37\u6B4C\u700F\u89BD\u5668\u4F54\u7528\u7684\u71B1\u9375\u7D44\u5408"
+   },
+   "instruct": {
+      "message": "\u9078\u64C7Tab Expose\u6253\u958B\u9801\u9762\u9078\u64C7\u754C\u9762\u7684\u65B9\u5F0F"
+   },
+   "newTab": {
+      "message": "\u65B0\u6A19\u7C64\u9801"
+   },
+   "no": {
+      "message": "\u5426"
+   },
+   "popup": {
+      "message": "\u5F48\u51FA\u8996\u7A97"
+   },
+   "save": {
+      "message": "\u4FDD\u5B58\u71B1\u9375"
+   },
+   "shortcut": {
+      "message": "\u71B1\u9375(\u9ED8\u8A8D: ctrl + shift + E; \u65B0\u71B1\u9375\u5C07\u61C9\u7528\u4E8E\u65B0\u52A0\u8F09\u7684\u9801\u9762\u4E0A\uFF0C\u5982\u679C\u662F\u4E4B\u524D\u5DF2\u7D93\u52A0\u8F09\u7684\u9801\u9762\uFF0C\u71B1\u9375\u6703\u5728\u5237\u65B0\u9801\u9762\u5F8C\u751F\u6548)"
+   },
+   "showTab": {
+      "message": "\u986F\u793A\u5DF2\u6253\u958B\u6A19\u7C64\u6578"
+   },
+   "theme": {
+      "message": "\u4E3B\u984C"
+   },
+   "yes": {
+      "message": "\u662F"
+   }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Clear Cache Options</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width"> 
+		
+		<meta name="author" content="Benjamin Bojko" />
+		<meta name="copyright" content="Copyright Big Spaceship 2011. All Rights Reserved." />
+		
+		<link rel="stylesheet" href="css/options.css" type="text/css" charset="utf-8">
+	</head>
+	<body>
+		
+		<div id="main">
+			
+			<section>
+				<h1>Clear Cache</h1>
+				<p>Extension by <a href="http://www.bigspaceship.com" target="_blank">Big Spaceship</a>/<a href="https://twitter.com/benjaminbojko" target="_blank">Benjamin Bojko</a>, Icons from <a href="http://iconsweets2.com/">IconSweets2</a></p>
+			</section>
+			
+			<section>
+				<h2>Reload</h2>
+				<ul>
+					<li><input type="checkbox" name="autorefresh" id="autorefresh" /><label for="autorefresh">Automatically reload active tab after clearing data</label></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h2>Data to Remove</h2>
+				<ul>
+					<li><input type="checkbox" name="data_to_remove" value="appcache" id="appcache" /><label for="appcache">App Cache</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="cache" id="cache" /><label for="cache">Cache</label></li>
+					<li>
+						<input type="checkbox" name="data_to_remove" value="cookies" id="cookies" /><label for="cookies">Cookies</label><a href="#" class="filters">filters</a>
+						<aside id="cookie-filters">
+							<p><input type="radio" name="cookies_filter_inclusive" value="yes" id="cookies_filter_inclusive_yes"/><label for="cookies_filter_inclusive_yes">Only clear the following <em>fast</em></label><input type="radio" name="cookies_filter_inclusive" value="no" id="cookies_filter_inclusive_no"/><label for="cookies_filter_inclusive_no">Don't clear the following <em>slow</em></label></p>
+							<ol></ol>
+							<legend>No filters defined</legend>
+							<p><a href="#" class="add">Add Domain</a></p>
+						</aside>
+					</li>
+					<li><input type="checkbox" name="data_to_remove" value="downloads" id="downloads" /><label for="downloads">Downloads</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="fileSystems" id="fileSystems" /><label for="fileSystems">File Systems</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="formData" id="formData" /><label for="formData">Form Data</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="history" id="history" /><label for="history">History</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="indexedDB" id="indexedDB" /><label for="indexedDB">Indexed DB</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="localStorage" id="localStorage" /><label for="localStorage">Local Storage</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="pluginData" id="pluginData" /><label for="pluginData">Plugin Data</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="passwords" id="passwords" /><label for="passwords">Passwords</label></li>
+					<li><input type="checkbox" name="data_to_remove" value="webSQL" id="webSQL" /><label for="webSQL">WebSQL</label></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h2>Time Period</h2>
+				<ul>
+					<!-- Extension now API expects miliseconds as values -->
+					<li><input type="radio" name="timeperiod" value="last_hour" id="last_hour" /><label for="last_hour">Last Hour</label></li>
+					<li><input type="radio" name="timeperiod" value="last_day" id="last_day" /><label for="last_day">Last Day</label></li>
+					<li><input type="radio" name="timeperiod" value="last_week" id="last_week" /><label for="last_week">Last Week</label></li>
+					<li><input type="radio" name="timeperiod" value="last_month" id="last_month" /><label for="last_month">Last Month</label></li>
+					<li><input type="radio" name="timeperiod" value="everything" id="everything" /><label for="everything">Everything</label></li>
+				</ul>
+			</section>
+			
+			<section>
+				<h2>Keyboard Shortcut</h2>
+				<p>Shortcuts can be configured at the bottom of the <a href="chrome://extensions">Chrome Extensions page</a> by clicking on <em>Configure Commands</em>.</p>
+			</section>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/load-default-options.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+	</body>
+</html>

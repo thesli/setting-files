@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Pelajari lebih lanjut"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Bantu kami dengan melaporkan masalah."
+   },
+   "app_nacl_crash_report": {
+      "message": "Laporkan masalah..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups. Hal itu seharusnya tidak terjadi."
+   },
+   "app_nacl_error_msg": {
+      "message": "Terjadi masalah saat memuat aplikasi."
+   },
+   "app_nacl_error_title": {
+      "message": "File tidak dapat dibuka."
+   },
+   "application_description": {
+      "message": "Pengeditan dokumen"
+   },
+   "file_loading_spinner_label": {
+      "message": "Memuat"
+   },
+   "file_not_found_msg": {
+      "message": "File yang Anda minta telah dipindahkan."
+   },
+   "file_not_found_title": {
+      "message": "File tidak ditemukan."
+   }
+}

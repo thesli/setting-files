@@ -1,0 +1,158 @@
+html {
+	font-family: Arial;
+	font-size:14px;
+	line-height:20px;
+	background:url(../images/bg.png) fixed repeat-x;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.clear {
+	clear:both;
+}
+
+#logo {
+	background:url(../images/logo128.png) no-repeat center;
+	background-size:cover;
+	width:64px;
+	height:64px;
+}
+
+#thanks{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#donate {
+	margin-bottom:20px;
+}
+
+#header {
+	width:600px;
+	margin:auto;
+	margin-top:20px;
+}
+
+#content {
+	margin:auto;
+	margin-bottom:100px;
+	width:800px;
+}
+
+#content2 {
+	margin:auto;
+	width:600px;
+}
+
+#options {
+	float:left;
+	width:500px;
+}
+
+#file {
+	width:600px;
+}
+
+#short {
+	float:right;
+	width:250px;
+	margin-bottom:20px;
+}
+
+#link {
+	float:right;
+	width:250px;
+	margin-bottom:20px;
+}
+
+.bigtitle {
+	background:#00853f;
+	color:#FFF;
+	padding:8px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	font-size:16px;
+	text-align:left;
+}
+
+.form td {
+	padding:5px;
+}
+
+.form td.title {
+	width:180px;
+	text-align:right;
+	padding:5px;
+}
+
+
+.form td.input {
+	width:200px;
+}
+
+.form select {
+	width:180px;
+	height:25px;
+	line-height:20px;
+	border:1px solid #DDD;
+}
+
+
+.form input[type=text], .form input[type=password] {
+	width:150px;
+	padding:5px;
+	border:1px solid #DDD;
+}
+
+.form input[type=file] {
+	width:470px;
+	padding:5px;
+}
+
+#send, #save, #optionsbutton {
+ 	width:160px;
+}
+
+#caps {
+	margin-top:50px;
+	text-align:center;
+}
+
+#support {
+	margin-top:100px;
+}
+
+#ratings {
+	margin-top:80px;
+	text-align:center;
+	font-weight:bold;
+	font-style:italic;
+}
+
+#copyright {
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align:center;
+}
+
+#copyright img {
+	width:25px;
+	border:0;
+}
+
+.tacenter {
+	text-align:center;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.dispoff {
+	display:none;
+}

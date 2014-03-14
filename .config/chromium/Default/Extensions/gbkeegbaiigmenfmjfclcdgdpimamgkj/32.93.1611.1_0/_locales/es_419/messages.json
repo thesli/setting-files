@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "M\u00E1s informaci\u00F3n"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Ay\u00FAdanos al informarnos sobre el problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Informar un problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Lo sentimos, esto no deber\u00EDa haber ocurrido."
+   },
+   "app_nacl_error_msg": {
+      "message": "Se produjo un error al cargar la aplicaci\u00F3n."
+   },
+   "app_nacl_error_title": {
+      "message": "No es posible abrir el archivo."
+   },
+   "application_description": {
+      "message": "Edici\u00F3n de documentos"
+   },
+   "file_loading_spinner_label": {
+      "message": "Cargando..."
+   },
+   "file_not_found_msg": {
+      "message": "El archivo que solicitaste ya no se encuentra en esta ubicaci\u00F3n."
+   },
+   "file_not_found_title": {
+      "message": "Archivo no encontrado"
+   }
+}

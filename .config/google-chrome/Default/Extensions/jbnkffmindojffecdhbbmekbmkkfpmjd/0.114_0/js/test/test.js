@@ -1,0 +1,1 @@
+define(["test/spec/playlistItemsSpec"],function(){"use strict";var e=jasmine.getEnv();e.updateInterval=1e3;var t=new jasmine.HtmlReporter;e.addReporter(t),e.specFilter=function(e){return t.specFilter(e)},e.execute()});

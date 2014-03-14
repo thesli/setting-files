@@ -1,0 +1,805 @@
+{
+   "add": {
+      "message": "Add"
+   },
+   "alignment": {
+      "message": "Alignment"
+   },
+   "appDesc": {
+      "description": "App description.",
+      "message": "Speed dial 2 is fast and clean extension for your favorite pages and quick access to your apps, bookmarks and browsing history."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Speed Dial 2"
+   },
+   "applications": {
+      "message": "Applications"
+   },
+   "apps_app_uninstalled": {
+      "message": "Application was uninstalled successfully"
+   },
+   "apps_do_you_want_to_uninstall": {
+      "message": "Do you realy want to uninstall selected application?"
+   },
+   "back": {
+      "message": "Back"
+   },
+   "back_to_dials": {
+      "message": "Back to my dials"
+   },
+   "background_color": {
+      "message": "Background color"
+   },
+   "bottom": {
+      "message": "Bottom"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "center": {
+      "message": "Center"
+   },
+   "clear": {
+      "message": "clear"
+   },
+   "color": {
+      "message": "Color"
+   },
+   "coming_soon": {
+      "message": "Coming soon"
+   },
+   "custom": {
+      "message": "Custom"
+   },
+   "dark": {
+      "message": "Dark"
+   },
+   "default": {
+      "message": "default"
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "disabled": {
+      "message": "Options"
+   },
+   "edit": {
+      "message": "Edit"
+   },
+   "help": {
+      "message": "Help"
+   },
+   "help_features": {
+      "message": "Show extension's feratures!"
+   },
+   "help_help": {
+      "message": "Help"
+   },
+   "help_show_online_help": {
+      "message": "Show online help"
+   },
+   "help_take_tour": {
+      "message": "Take the tour!"
+   },
+   "help_take_tour_help": {
+      "message": "Please take a minute to learn about basics of Speed Dial 2.\u003Cbr /\u003E It will help you to understand its possibilities and allow you to easily \u003Cbr /\u003Eget around with different settings and customizations!"
+   },
+   "help_tour": {
+      "message": "Take the tour of extension's features!"
+   },
+   "high": {
+      "message": "High"
+   },
+   "large": {
+      "message": "Large"
+   },
+   "left": {
+      "message": "Left"
+   },
+   "light": {
+      "message": "Light"
+   },
+   "low": {
+      "message": "Low"
+   },
+   "medium": {
+      "message": "Medium"
+   },
+   "name": {
+      "message": "Name"
+   },
+   "new_tab_add_dial_error": {
+      "message": "Fill both required fields please."
+   },
+   "new_tab_dial_saved": {
+      "message": "Bookmark saved."
+   },
+   "new_tab_enter_group_name": {
+      "message": "Please enter a new group name"
+   },
+   "new_tab_group_edited": {
+      "message": "Group updated."
+   },
+   "new_tab_group_removed": {
+      "message": "Group has been removed."
+   },
+   "newtab_add_dial": {
+      "message": "Add dial"
+   },
+   "newtab_add_new_dial": {
+      "message": "Add new dial"
+   },
+   "newtab_app_launch": {
+      "message": "Launch application"
+   },
+   "newtab_clear_results": {
+      "message": "clear results"
+   },
+   "newtab_create_group": {
+      "message": "Create group"
+   },
+   "newtab_custom_logo": {
+      "message": "Custom logo url"
+   },
+   "newtab_dial_aremove_warning": {
+      "message": "Name"
+   },
+   "newtab_dial_remove_warning": {
+      "message": "Do you really want to remove this dial?"
+   },
+   "newtab_edit_dial": {
+      "message": "Edit dial"
+   },
+   "newtab_edit_group": {
+      "message": "Edit group"
+   },
+   "newtab_group_name_and_color": {
+      "message": "Name of a group / Color"
+   },
+   "newtab_group_remove_warning": {
+      "message": "This will remove selected group with all dials inside it. \u003Cbr /\u003EDo you wish to continue?"
+   },
+   "newtab_homegroup": {
+      "message": "This is your home group"
+   },
+   "newtab_new_tab": {
+      "message": "New tab"
+   },
+   "newtab_open_all_links": {
+      "message": "Open all links"
+   },
+   "newtab_open_in_new_tab": {
+      "message": "Open in new tab"
+   },
+   "newtab_predefined_logo": {
+      "message": "Predefined logo"
+   },
+   "newtab_reload_thumbnail": {
+      "message": "Reload thumbnail"
+   },
+   "newtab_remove_group": {
+      "message": "Remove group"
+   },
+   "newtab_remove_question": {
+      "message": "Remove dial"
+   },
+   "newtab_search_your_history": {
+      "message": "Search your history"
+   },
+   "newtab_select_logo": {
+      "message": "Or select from predefined logos"
+   },
+   "no_title": {
+      "message": "No title"
+   },
+   "none": {
+      "message": "None"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "options_apps_about": {
+      "message": "Read more about"
+   },
+   "options_apps_icon_size": {
+      "message": "Icon size"
+   },
+   "options_apps_icons_only": {
+      "message": "Only icons"
+   },
+   "options_apps_panel_position": {
+      "message": "Panel position"
+   },
+   "options_apps_panel_theme": {
+      "message": "Panel theme"
+   },
+   "options_apps_show_panel": {
+      "message": "Show Apps panel?"
+   },
+   "options_apps_show_panel_help": {
+      "message": "You can show your installed Apps in standalone panel \u003Cbr /\u003Eor list your Apps in sidebar (see also \u003Ci\u003ESidebar\u003C/i\u003E section)."
+   },
+   "options_background_file_warning": {
+      "message": "Because of special way how Chrome handles local files, using this feature is highly not recommended. Background images loaded from your computer will result in \u003Cb\u003Emuch higher memory usage\u003C/b\u003E (possibly hundreds of megabytes of RAM) and will slow down overal loading time of Speed Dial 2 as well as overal performance of Your browser! We recommend that you use some of image hosting services like"
+   },
+   "options_background_image_service": {
+      "message": "You can use image hosting provider like"
+   },
+   "options_background_leave_empty": {
+      "message": "Leave empty for no background image"
+   },
+   "options_background_nav_file": {
+      "message": "File"
+   },
+   "options_background_nav_image": {
+      "message": "Background images"
+   },
+   "options_background_nav_patterns": {
+      "message": "Background patterns"
+   },
+   "options_background_nav_url": {
+      "message": "Custom URL"
+   },
+   "options_background_patterns_from": {
+      "message": "All these great patterns comes from"
+   },
+   "options_background_repeat": {
+      "message": "Repeat"
+   },
+   "options_background_repeat_no": {
+      "message": "Don't repeat"
+   },
+   "options_background_repeat_x": {
+      "message": "Repeat-horizontally"
+   },
+   "options_background_repeat_y": {
+      "message": "Repeat-vertically"
+   },
+   "options_customize_background_color": {
+      "message": "Background color"
+   },
+   "options_customize_border_colors": {
+      "message": "Border color"
+   },
+   "options_customize_customize_colors": {
+      "message": "Customize colors"
+   },
+   "options_customize_explain": {
+      "message": "Explain"
+   },
+   "options_customize_font_face": {
+      "message": "Font face"
+   },
+   "options_customize_font_size": {
+      "message": "Font size"
+   },
+   "options_customize_font_style": {
+      "message": "Font style"
+   },
+   "options_customize_font_style_bold": {
+      "message": "Bold"
+   },
+   "options_customize_font_style_bold_italic": {
+      "message": "Bold italic"
+   },
+   "options_customize_font_style_italic": {
+      "message": "Italic"
+   },
+   "options_customize_font_style_normal": {
+      "message": "Normal"
+   },
+   "options_customize_inner_background_color": {
+      "message": "Inner background color"
+   },
+   "options_customize_no_shadow": {
+      "message": "No shadow"
+   },
+   "options_customize_padding": {
+      "message": "Padding"
+   },
+   "options_customize_preview": {
+      "message": "Show preview"
+   },
+   "options_customize_rounded_corners": {
+      "message": "Rounded corners"
+   },
+   "options_customize_sample_title": {
+      "message": "Sample title"
+   },
+   "options_customize_shadow": {
+      "message": "Shadow"
+   },
+   "options_customize_show_title": {
+      "message": "Show title of a dial?"
+   },
+   "options_customize_show_visits": {
+      "message": "Show number of visits?"
+   },
+   "options_customize_text_align": {
+      "message": "Text alignment"
+   },
+   "options_customize_title": {
+      "message": "Title"
+   },
+   "options_customize_title_color": {
+      "message": "Title color"
+   },
+   "options_customize_title_position": {
+      "message": "Title position"
+   },
+   "options_customize_title_position_inside": {
+      "message": "Inside"
+   },
+   "options_customize_title_position_outside": {
+      "message": "Outside"
+   },
+   "options_enter_your": {
+      "message": "Enter your"
+   },
+   "options_export_export": {
+      "message": "Export settings"
+   },
+   "options_export_export_help": {
+      "message": "This section allows you to easily import/export your dials and setting to another computer. To export and backup your setting click \u003Cb\u003EExport settings\u003C/b\u003E button and copy all of generated text that appears."
+   },
+   "options_export_exported_settings": {
+      "message": "These are your exported settings"
+   },
+   "options_export_exported_settings_help": {
+      "message": "copy and paste through 'Import settings' button to use on different PC."
+   },
+   "options_export_import": {
+      "message": "Import settings"
+   },
+   "options_export_import_help": {
+      "message": "To import your setting, press \u003Cb\u003EImport settings\u003C/b\u003E button and paste settings you previously saved. Note that importing your settings will erase all your dials and saved options!"
+   },
+   "options_export_paste": {
+      "message": "Paste settings"
+   },
+   "options_export_paste_help": {
+      "message": "you previously exported through 'Export settings' button"
+   },
+   "options_export_warning": {
+      "message": "Warning: This will wipe all your settings and dials and replace them with ones included in imported settings. If you are a Pro user, these groups and bookmarks will replace existing bookmarks on our server. Do you wish to continue?"
+   },
+   "options_nav_apps": {
+      "message": "Apps"
+   },
+   "options_nav_background": {
+      "message": "Themes"
+   },
+   "options_nav_backup": {
+      "message": "Import/export"
+   },
+   "options_nav_changelog": {
+      "message": "Changelog"
+   },
+   "options_nav_customize": {
+      "message": "Customize dial style"
+   },
+   "options_nav_options": {
+      "message": "Dial options"
+   },
+   "options_nav_sidebar": {
+      "message": "Sidebar"
+   },
+   "options_nav_sync": {
+      "message": "Sync and backup"
+   },
+   "options_options": {
+      "message": "Options"
+   },
+   "options_options_advanced_options": {
+      "message": "Advanced options"
+   },
+   "options_options_center_vertically": {
+      "message": "Center rows vertically?"
+   },
+   "options_options_columns": {
+      "message": "Number of columns"
+   },
+   "options_options_columns_help": {
+      "message": "Number of dials to be shown in one row. Number of rows is calculated automatically according to overal number of saved dials."
+   },
+   "options_options_columns_in_a_row": {
+      "message": "in a row"
+   },
+   "options_options_custom_ratio": {
+      "message": "Custom thumbnail ratio"
+   },
+   "options_options_default_group_name": {
+      "message": "Name for default group"
+   },
+   "options_options_fit_logos": {
+      "message": "of screen width"
+   },
+   "options_options_fit_logos_dont_resize": {
+      "message": "No resizing"
+   },
+   "options_options_fit_logos_fit": {
+      "message": "Fit (default)"
+   },
+   "options_options_fit_logos_fit_and_center": {
+      "message": "Fit width and center"
+   },
+   "options_options_fit_logos_fit_width": {
+      "message": "Fit width"
+   },
+   "options_options_highlight_pages": {
+      "message": "Highlight most visited pages?"
+   },
+   "options_options_highlight_pages_help": {
+      "message": "Speedial2 keeps track of your daily habits and remembers which pages do you visit in the morning, afternoon, evening and night. By turning on this option, you should see a red corner on 3 pages you visit often at current part of a day."
+   },
+   "options_options_modify_width": {
+      "message": "Modify width"
+   },
+   "options_options_modify_width_screen": {
+      "message": "of screen width"
+   },
+   "options_options_open_in_new_tab": {
+      "message": "Open links in new tab?"
+   },
+   "options_options_open_in_new_tab_help": {
+      "message": "Turn on to open all links in new tab. If turned on, middle click or Ctrl+click will open links in current tab instead of new tab."
+   },
+   "options_options_order_dials": {
+      "message": "Order by"
+   },
+   "options_options_order_dials_help": {
+      "message": "Dials can be ordered automatically by number of visits or by your own manual order. If you choose to order pages manually, you can drag them to change their position."
+   },
+   "options_options_order_manual": {
+      "message": "Manual order"
+   },
+   "options_options_order_most_visited": {
+      "message": "By most visited"
+   },
+   "options_options_plus_button_button": {
+      "message": "button"
+   },
+   "options_options_plus_button_show": {
+      "message": "Show"
+   },
+   "options_options_refresh_thumbnail": {
+      "message": "Refresh thumbnail image"
+   },
+   "options_options_refresh_thumbnail_disabled": {
+      "message": "Disabled (default)"
+   },
+   "options_options_remember_group": {
+      "message": "Remember active group"
+   },
+   "options_options_remember_group_help": {
+      "message": "Option to remember and open last used group on new launch."
+   },
+   "options_options_scroll_layout": {
+      "message": "Scroll layout"
+   },
+   "options_options_scroll_layout_help": {
+      "message": "Scroll dials infinitely instead focing them to fit on screen."
+   },
+   "options_options_spacing": {
+      "message": "Dial spacing"
+   },
+   "options_options_thumbnail_quality": {
+      "message": "Thumbnail quality"
+   },
+   "options_options_thumbnail_quality_help": {
+      "message": "We recommend setting HIGH QUALITY for less than 10 dials, MEDIUM quality for 10-20 thumbnails and LOW quality for \u003E 20 thumbnails.\u003Cb\u003EPlease keep in mind\u003C/b\u003E that thumbnail quality also determines loading time of a new tab."
+   },
+   "options_pagetitle": {
+      "message": "New tab - options"
+   },
+   "options_save": {
+      "message": "Save settings"
+   },
+   "options_sidebar_access_by": {
+      "message": "Access sidebar by"
+   },
+   "options_sidebar_access_by_mouse": {
+      "message": "Entering the right side of the screen"
+   },
+   "options_sidebar_access_by_scroll": {
+      "message": "Scrolling down the mousewheel"
+   },
+   "options_sidebar_show_bookmarks": {
+      "message": "Bookmarks"
+   },
+   "options_sidebar_show_history": {
+      "message": "Show Recently closed tabs?"
+   },
+   "options_sidebar_show_tags": {
+      "message": "Always show tags"
+   },
+   "options_sidebar_use_shortcut": {
+      "message": "Display URL?"
+   },
+   "options_sidebar_use_sidebar": {
+      "message": "Use sidebar?"
+   },
+   "options_sync": {
+      "message": "Sync"
+   },
+   "options_sync_access_anywhere": {
+      "message": "Access your bookmarks from anywhere"
+   },
+   "options_sync_access_devices": {
+      "message": "Works with any mobile device - mobile phones and tablets"
+   },
+   "options_sync_access_devices_1": {
+      "message": "Works with mobile phones and tablets."
+   },
+   "options_sync_account_connected": {
+      "message": "You account is connected..."
+   },
+   "options_sync_become_pro": {
+      "message": "How to become a Pro"
+   },
+   "options_sync_become_pro_1": {
+      "message": "Create your account by visiting"
+   },
+   "options_sync_become_pro_2": {
+      "message": "Log in at"
+   },
+   "options_sync_become_pro_3": {
+      "message": "and pay for your Speed Dial 2 Pro with"
+   },
+   "options_sync_become_pro_4": {
+      "message": "Finally, enter your username \u003Cbr /\u003Eand password at the top of this page."
+   },
+   "options_sync_connecting": {
+      "message": "Connecting to sync server..."
+   },
+   "options_sync_connection_error": {
+      "message": "There was an error while connecting to server"
+   },
+   "options_sync_create_account": {
+      "message": "Create account"
+   },
+   "options_sync_create_pro_account": {
+      "message": "Create Pro account"
+   },
+   "options_sync_enter_credentials": {
+      "message": "Enter username and password"
+   },
+   "options_sync_error": {
+      "message": "There was an error while importing your settings."
+   },
+   "options_sync_how_it_works": {
+      "message": "How does it work?"
+   },
+   "options_sync_how_it_works_1": {
+      "message": "With Speed Dial Pro, you bookmarks and settings are being automatically synchronized to our server"
+   },
+   "options_sync_how_it_works_2": {
+      "message": "This means your extension with all dials, groups and settings will be synchronized across different computers right after you provide you sync creditials (username and password). Synchronization with our server takes place every time you start a browser and any other changes (creating new bookmarks or group) are immediatelly replicated online."
+   },
+   "options_sync_importing": {
+      "message": "Importing your settings..."
+   },
+   "options_sync_lifetime_account": {
+      "message": "lifetime account"
+   },
+   "options_sync_love": {
+      "message": "If you like Speed Dial 2, you\u2019ll \u003Cspan\u003E\u003Cb\u003Elove\u003C/b\u003E\u003C/span\u003E to have it in your pocket!"
+   },
+   "options_sync_my_bookmarks": {
+      "message": "My bookmarks"
+   },
+   "options_sync_not_active": {
+      "message": "Your sync account is not active. Please log in to activate it."
+   },
+   "options_sync_online_access": {
+      "message": "Mobile / online access"
+   },
+   "options_sync_online_access_1": {
+      "message": "Since your groups and bookmarks will be available online, you can access them from any other browser or mobile device by logging in at"
+   },
+   "options_sync_online_access_2": {
+      "message": "They're optimized to be viewed on mobile devices and tablets as well as desktop computers. To quickly access your bookmarks from your mobile device, set Speed Dial 2 as a homepage or pin it as a bookmark on your Homescreen."
+   },
+   "options_sync_password": {
+      "message": "Password"
+   },
+   "options_sync_reset_password": {
+      "message": "Reset password"
+   },
+   "options_sync_synchronization": {
+      "message": "Synchronization"
+   },
+   "options_sync_to_phone": {
+      "message": "Synchronize to your phone"
+   },
+   "options_sync_username": {
+      "message": "Sync username"
+   },
+   "options_sync_wait": {
+      "message": "Please wait for synchronization to complete..."
+   },
+   "options_sync_wrong_email": {
+      "message": "Wrong username, e-mail or password"
+   },
+   "or": {
+      "message": "OR"
+   },
+   "position": {
+      "message": "Position"
+   },
+   "read_more": {
+      "message": "Read more"
+   },
+   "recently_closed_tabs": {
+      "message": "Recently closed tabs."
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "repeat": {
+      "message": "Repeat"
+   },
+   "reset_to_default": {
+      "message": "Reset to default"
+   },
+   "right": {
+      "message": "Right"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "sidebar_applications": {
+      "message": "Applications."
+   },
+   "sidebar_bookmarks": {
+      "message": "Bookmarks."
+   },
+   "sidebar_clear_list": {
+      "message": "Clear the list."
+   },
+   "sidebar_delicious_bookmarks": {
+      "message": "Delicious."
+   },
+   "sidebar_delicious_last25_bookmarks": {
+      "message": "Show recently saved bookmarks."
+   },
+   "sidebar_google_bookmarks": {
+      "message": "Google Bookmarks."
+   },
+   "small": {
+      "message": "Small"
+   },
+   "statistics": {
+      "message": "Statistics"
+   },
+   "statistics_afternoon": {
+      "message": "Afternoon"
+   },
+   "statistics_evening": {
+      "message": "Evening"
+   },
+   "statistics_loading_message": {
+      "message": "Please wait while we analyze your browsing history."
+   },
+   "statistics_morning": {
+      "message": "Morning"
+   },
+   "statistics_most_visited_history": {
+      "message": "Most visited pages (Browser history)"
+   },
+   "statistics_most_visited_sd2": {
+      "message": "Most visited pages (Speed Dial 2)"
+   },
+   "statistics_night": {
+      "message": "Night"
+   },
+   "statistics_overall": {
+      "message": "Overall"
+   },
+   "statistics_pagetitle": {
+      "message": "Speed dial 2 - Statistics"
+   },
+   "statistics_statistics": {
+      "message": "Statistics"
+   },
+   "tip": {
+      "message": "Tip"
+   },
+   "title": {
+      "message": "Title"
+   },
+   "top": {
+      "message": "Top"
+   },
+   "transparent": {
+      "message": "Transparent"
+   },
+   "uninstall": {
+      "message": "Uninstall"
+   },
+   "url": {
+      "message": "Url"
+   },
+   "visits": {
+      "message": "visits"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "welcome_10_1": {
+      "message": "According to your browsing history, here is the list of recomended sites to start with. \u003Cbr\u003E\u003Cb\u003ESelect sites\u003C/b\u003E you would like to add to Speed Dial and click Finish."
+   },
+   "welcome_10_h1": {
+      "message": "Top picks for you"
+   },
+   "welcome_1_1": {
+      "message": "For the last three years, we've been working hard to \u003Cb\u003E\u003C/b\u003E craft a perfect new tab page\u003C/b\u003E \u2014 by listening to our users' needs while always keeping simplicity in mind."
+   },
+   "welcome_1_2": {
+      "message": "We invite you to take a tour of extension's features \u003Cbr /\u003E which will help you to get around easily. It will take just a moment!"
+   },
+   "welcome_1_h1": {
+      "message": "Welcome to Speed Dial 2!"
+   },
+   "welcome_2_1": {
+      "message": "Our extension is all about \u003Cb\u003Edials\u003C/b\u003E \u003Cb\u003E - visual bookmarks of your favorite websites.\u003C/b\u003E"
+   },
+   "welcome_2_2": {
+      "message": "Unlike default new tab, Speed Dial 2 allows you to keep as many websites as you want and even organize them into groups!"
+   },
+   "welcome_2_h1": {
+      "message": "Dial - your favorite website"
+   },
+   "welcome_3_1": {
+      "message": "Creating new dial is always one click away"
+   },
+   "welcome_3_2": {
+      "message": "Click the (+) button when you're on new tab page \u003Cbr\u003E or instantly save current page with a click on browser toolbar button while browsing."
+   },
+   "welcome_3_h1": {
+      "message": "Creating new dial"
+   },
+   "welcome_4_1": {
+      "message": "Right click (or control + click) a dial to change its settings."
+   },
+   "welcome_4_h1": {
+      "message": "Editing a dial"
+   },
+   "welcome_6_1": {
+      "message": "Sidebar is a special feature of our extension - it provides you with access to your \u003Cb\u003ERecently closed tabs\u003C/b\u003E, list of installed \u003Cb\u003Eapps\u003C/b\u003E, your Google Chrome \u003Cb\u003Ebookmarks\u003C/b\u003E or even bookmarks from \u003Ca\u003Edelicious.com\u003C/a\u003E - you can turn specific sidebar features on and off in options. Move your mouse to the right edge of the screen to open sidebar."
+   },
+   "welcome_6_h1": {
+      "message": "The sidebar."
+   },
+   "welcome_7_1": {
+      "message": "Speed Dial 2 gives you valuable insights about how you spend your day - it shows you the websites you often visit at the morning, afternoon or night and allows you to learn more about your habits."
+   },
+   "welcome_7_h1": {
+      "message": "Learn more about your day"
+   },
+   "welcome_9_1": {
+      "message": "Customize your new tab page with beautiful \u003Cb\u003Epredefined themes\u003C/b\u003E created by designers across the world."
+   },
+   "welcome_9_h1": {
+      "message": "Customize new tab with beautiful themes!"
+   },
+   "welcome_back": {
+      "message": "back"
+   },
+   "welcome_continue": {
+      "message": "Continue"
+   },
+   "welcome_finish": {
+      "message": "Finish"
+   },
+   "welcome_follow_1": {
+      "message": "@virae"
+   },
+   "welcome_pagetitle": {
+      "message": "Speed dial 2 - Welcome"
+   },
+   "welcome_skip_the_tour": {
+      "message": "Skip the tour"
+   }
+}

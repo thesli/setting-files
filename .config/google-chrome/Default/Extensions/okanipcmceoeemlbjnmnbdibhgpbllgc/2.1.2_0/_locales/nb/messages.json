@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "no"
+   },
+   "qs_about_close_button": {
+      "message": "Lukk"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "N\u00E5r du klikker p\u00E5 et Google-s\u00F8keresultat, kan Google Hurtigrulling vises nederst til h\u00F8yre p\u00E5 siden. Her ser du \u00E9n eller flere tekstsnutter fra siden som er relevante for s\u00F8keordet. Klikk p\u00E5 teksten for \u00E5 g\u00E5 til den aktuelle delen av siden."
+   },
+   "qs_about_explanation2": {
+      "message": "Hurtigrulling vises bare n\u00E5r det er sannsynlig at den vil v\u00E6re nyttig. Du kan minimere den ved \u00E5 klikke p\u00E5 minimeringsknappen \u00F8verst til h\u00F8yre."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EOm Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPersonvern\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EVilk\u00E5r\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Slik fungerer Hurtigrulling:"
+   },
+   "qs_about_installed": {
+      "message": "Google Hurtigrulling er n\u00E5 installert."
+   },
+   "qs_about_introduction": {
+      "message": "Google Hurtigrulling er en nettleserutvidelse som hjelper deg med \u00E5 finne det du leter etter p\u00E5 en raskere m\u00E5te."
+   },
+   "qs_about_only_useful": {
+      "message": "Google Hurtigrulling vises bare n\u00E5r det kan v\u00E6re nyttig. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EFinn ut mer\u003C/a\u003E .",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Alternativene er lagret"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Bidra til \u00E5 gj\u00F8re Google Hurtigrulling bedre ved \u00E5 sende automatisk bruksstatistikk til Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Personvernalternativer"
+   },
+   "qs_about_step_1": {
+      "message": "Foreta et s\u00F8k p\u00E5 Google."
+   },
+   "qs_about_step_2": {
+      "message": "Klikk p\u00E5 et s\u00F8keresultat."
+   },
+   "qs_about_step_3": {
+      "message": "Klikk p\u00E5 Hurtigrulling for \u00E5 hoppe til de relevante delene av siden."
+   },
+   "qs_about_support_instructions": {
+      "message": "Hvis du har sp\u00F8rsm\u00E5l om eller problemer med bruken av Google Hurtigrulling, kan du g\u00E5 til \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Ebrukerst\u00F8ttesiden\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Takk for at du installerte Google Hurtigrulling!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EPr\u00F8v det!\u003C/b\u003E S\u00F8k etter [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] og klikk p\u00E5 dark matter brown dwarfs-resultatet."
+   },
+   "qs_about_try_queries": {
+      "message": "Pr\u00F8v disse s\u00F8kene:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Hvis du vil avinstallere Google Hurtigrulling,&nbsp;\u003E&nbsp;velger du Utvidelser p\u00E5 verkt\u00F8ymenyen i Google Chrome og klikker p\u00E5 linken Avinstaller for Google Hurtigrulling-utvidelsen."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Avinstaller"
+   },
+   "qs_description": {
+      "message": "Med Google Hurtigrulling kan du g\u00E5 direkte til relevante deler av et s\u00F8keresultat."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  F\u00E6rre treff"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Vis opprinnelige treff for s\u00F8ket"
+   },
+   "qs_gallery_description": {
+      "message": "Google Hurtigrulling er en nettleserutvidelse som hjelper deg \u00E5 finne det du leter etter p\u00E5 en raskere m\u00E5te.\u003Cbr/\u003E\u003Cbr/\u003EN\u00E5r du klikker p\u00E5 et Google-s\u00F8keresultat, kan Google Hurtigrulling vises nederst til h\u00F8yre p\u00E5 siden. Her ser du \u00E9n eller flere tekstsnutter fra siden som er relevante for s\u00F8keordet. Klikk p\u00E5 teksten for \u00E5 g\u00E5 til den aktuelle delen av siden.\u003Cbr/\u003E\u003Cbr/\u003EGoogle Hurtigrulling vises bare n\u00E5r det er sannsynlig at den vil v\u00E6re nyttig."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Beklager, Hurtigrulling fant ingen treff for \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E p\u00E5 denne siden. \u003Cspan class=\"goog_qs-learn-more\"\u003EFinn ut mer.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Hele siden ser ut til \u00E5 handle om \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Hurtigrulling vises bare n\u00E5r kun deler av siden er relevant. \u003Cspan class=\"goog_qs-learn-more\"\u003EFinn ut mer.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Hurtigrulling vises ikke fordi hele siden er relevant for s\u00F8ket ditt."
+   },
+   "qs_info_on_search": {
+      "message": "Hurtigrulling vises n\u00E5r du klikker p\u00E5 et s\u00F8keresultat i Google. \u003Cspan class=\"goog_qs-learn-more\"\u003EFinn ut mer.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Ved \u00E5 klikke p\u00E5 Installer, godtar du disse vilk\u00E5rene: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Flere treff \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Vis flere treff for s\u00F8ket"
+   },
+   "qs_name": {
+      "message": "Google Hurtigrulling"
+   },
+   "qs_page_action_active": {
+      "message": "Hurtigrulling fant treff p\u00E5 denne siden."
+   },
+   "qs_page_action_inactive": {
+      "message": "Hurtigrulling er aktivert. Klikk for \u00E5 finne ut mer."
+   },
+   "qs_page_action_running": {
+      "message": "Hurtigrulling venter p\u00E5 at siden skal lastes inn."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "\u00C5pne siden for hjelp og alternativer"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Treff for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E p\u00E5 siden"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Treff for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E p\u00E5 siden"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimer"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "\u00C5pne Google Hurtigrulling"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Klikk for \u00E5 se denne teksten p\u00E5 siden"
+   },
+   "qs_toolbar_go_label": {
+      "message": "G\u00E5 til tekst $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Beste treff for \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

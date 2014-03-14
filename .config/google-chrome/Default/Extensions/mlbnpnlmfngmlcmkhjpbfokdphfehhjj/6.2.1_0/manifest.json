@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "ruul this site"
+   },
+   "content_scripts": [ {
+      "css": [ "ruulAll.css" ],
+      "js": [ "ruulAll.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [ "*://*.zcool.com.cn/*", "*://dexknows.whitepages.com/*", "*://tech.sina.com.cn/*" ],
+      "js": [ "support/ext.js", "support/support.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "A fantastically simple on-screen ruler for lining up and measuring type, line height, strokes and just about anything on the web.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCaWvraSEN7GkBXux/BJsMRXZKDqv6/gFusiImW17PN67jTypPW0qQNxZwN6oezISmqIKi/9VUuWgTymb9aqk3SwDzOUHCKNH2Znk5J7vxr0r4pW5oYw8nIs5O1fHh4Sj7Qw1jWEDJS11P5H4kscc6osoKTsyEzdmx0yLUfqaJbdQIDAQAB",
+   "manifest_version": 2,
+   "name": "ruul. Screen ruler",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "*://*/*", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2.1",
+   "web_accessible_resources": [ "support/pages/adoptions.html", "support/pages/privacy_policy.html" ]
+}

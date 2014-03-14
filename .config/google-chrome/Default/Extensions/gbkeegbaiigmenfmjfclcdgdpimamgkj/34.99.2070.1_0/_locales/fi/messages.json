@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Lisätietoja"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Auta meitä ilmoittamalla ongelmasta."
+   },
+   "app_nacl_crash_report": {
+      "message": "Ilmoita ongelmasta..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hups, näin ei ollut tarkoitus tapahtua."
+   },
+   "app_nacl_error_msg": {
+      "message": "Sovelluksen lataamisessa oli ongelma."
+   },
+   "app_nacl_error_title": {
+      "message": "Tiedostoa ei voi avata."
+   },
+   "application_description": {
+      "message": "Asiakirjojen muokkaaminen"
+   },
+   "file_loading_spinner_label": {
+      "message": "Ladataan"
+   },
+   "file_not_found_msg": {
+      "message": "Pyytämääsi tiedostoa ei löydy."
+   },
+   "file_not_found_title": {
+      "message": "Tiedostoa ei löydy."
+   }
+}

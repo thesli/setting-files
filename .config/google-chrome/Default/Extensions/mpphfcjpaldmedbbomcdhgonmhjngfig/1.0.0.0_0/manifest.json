@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background_page.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "keyboard_css.css" ],
+      "js": [ "standalone_api.js", "vkbd_driver.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com/ ; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_vkbd_description__",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbIQV0n3x8M04QPXT3BTmzj4BwwCEGAMfWr9QikP0LV3JIIkz/JonRJKixiFbcZawIHKyy/kZhbT8ftf7BgpAiLr5rv9mB7Uux8arOpGBUNElQRdl1dC6kKztKLCsLP+xthrQURG4o60kdVLHiI/vIjget0mWLIA1d5wxdh8GwFwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_vkbd_name__",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "icon19.png",
+      "default_title": "__MSG_vkbd_show_hide_keyboard__"
+   },
+   "permissions": [ "tabs", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.0",
+   "web_accessible_resources": [ "icon48.png" ]
+}

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "ተጨማሪ ለመረዳት"
+   },
+   "app_nacl_crash_msg": {
+      "message": "ችግሩን ሪፖርት በማድረግ ያግዙን።"
+   },
+   "app_nacl_crash_report": {
+      "message": "ጉዳዩን ሪፖርት ያድርጉ..."
+   },
+   "app_nacl_crash_title": {
+      "message": "ውይ ውይ። ያ መከሰት አልነበረበትም።"
+   },
+   "app_nacl_error_msg": {
+      "message": "እውቂያውን መጫን ላይ ችግር ነበር።"
+   },
+   "app_nacl_error_title": {
+      "message": "ፋይሉ ሊከፈት አይችልም።"
+   },
+   "application_description": {
+      "message": "የሰነድ አርትዖት"
+   },
+   "file_loading_spinner_label": {
+      "message": "በመጫን ላይ"
+   },
+   "file_not_found_msg": {
+      "message": "የጠየቁት ፋይል ተወስዷል።"
+   },
+   "file_not_found_title": {
+      "message": "ፋይል አልተገኘም።"
+   }
+}

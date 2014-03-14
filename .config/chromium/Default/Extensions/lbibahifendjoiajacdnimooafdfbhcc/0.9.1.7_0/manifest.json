@@ -1,0 +1,22 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "content_security_policy": "script-src 'self' https://www.google.com/jsapi https://www.google.com/uds/ https://www.engadget.com/ https://ssl.google-analytics.com/ga.js; object-src 'self'",
+   "description": "Engadget News reader, is a web magazine  app with obsessive daily coverage",
+   "externally_connectable": {
+      "matches": [ "*://*.engadget.com/*", "*://*.google.com/*" ]
+   },
+   "icons": {
+      "128": "icons/128x128.png",
+      "16": "icons/16x16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClI5u+qToTFYw2qn5qC1qMCdO80w1BkK+QDZ5KEJqtTzR/hY9wlonoLBHIQqIMa0z/QY/JKv4DfeNO3A2u4sfBrLDYPDHnUju9fxggQNKMdLt3CYXcw8S36/YQUpxRV7LK20sXduofeuGopOpzZKPC7KldVRnOk9th2ZNXQeuT9QIDAQAB",
+   "manifest_version": 2,
+   "name": "Engadget",
+   "permissions": [ "notifications", "unlimitedStorage", "http://*.google.com/", "http://*.engadget.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.1.7"
+}

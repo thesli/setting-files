@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "TIDAK DIGUNAKAN LAGI. Sebagai gantinya, gunakan ekstensi Alat Masukan Google (tersedia di http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "TIDAK DIGUNAKAN LAGI: Keyboard Virtual (oleh Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opsi Ekstensi Keyboard Virtual"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Pilih tata letak keyboard dari kiri:"
+   },
+   "vkbd_save_options": {
+      "message": "Simpan"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Perlihatkan/Sembunyikan Keyboard"
+   }
+}

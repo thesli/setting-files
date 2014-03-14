@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Dal\u0161\u00ED informace"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Nahlaste n\u00E1m probl\u00E9m a pomozte t\u00EDm s jeho \u0159e\u0161en\u00EDm."
+   },
+   "app_nacl_crash_report": {
+      "message": "Nahl\u00E1sit probl\u00E9m..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Jejda. To se nem\u011Blo st\u00E1t."
+   },
+   "app_nacl_error_msg": {
+      "message": "P\u0159i na\u010D\u00EDt\u00E1n\u00ED aplikace do\u0161lo k pot\u00ED\u017E\u00EDm."
+   },
+   "app_nacl_error_title": {
+      "message": "Soubor nelze otev\u0159\u00EDt."
+   },
+   "application_description": {
+      "message": "\u00DAprava dokument\u016F"
+   },
+   "file_loading_spinner_label": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED"
+   },
+   "file_not_found_msg": {
+      "message": "Po\u017Eadovan\u00FD soubor se n\u011Bkam pod\u011Bl."
+   },
+   "file_not_found_title": {
+      "message": "Soubor nebyl nalezen."
+   }
+}

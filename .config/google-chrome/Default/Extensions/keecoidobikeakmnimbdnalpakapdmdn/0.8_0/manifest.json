@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "css": [ "mystyle.css" ],
+      "js": [ "jquery.js", "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Navigate web using your keyboard without mouse. use ctrl+. to navigate and start typing",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgRDmxeiseW4y9EL3tZ3jBzcXO32t81xMcX5XhFGX+m23R73lE/SwZKAjOqUONl8FlE3Ki9v42+1Fzynpk/xFK3LEaUuRX0rBSSc2lx3ao0rx5sLfqIWp9gf0yYhXtu30Ap4o0pkeZGFDyLeOHsOgdmUYtqI6aejQ7nUDw85xTMwIDAQAB",
+   "manifest_version": 3,
+   "name": "Quick Navigation",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.8"
+}

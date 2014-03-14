@@ -1,0 +1,1 @@
+var _0xf3b5=["\x6E\x61\x6D\x65","\x6E\x75\x6D\x62\x65\x72"];function Label(_0xbc8ax2){this[_0xf3b5[0]]=_0xbc8ax2[0];this[_0xf3b5[1]]=_0xbc8ax2[1];} ;

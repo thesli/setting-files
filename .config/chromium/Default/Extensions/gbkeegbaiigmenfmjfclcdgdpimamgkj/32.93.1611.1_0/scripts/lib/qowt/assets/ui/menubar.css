@@ -1,0 +1,86 @@
+.qowt-main-menubar {
+  /* Basic menu styling for all apps.*/
+  top: 0;
+  left: 0;
+  right: 0;
+  cursor: default;
+  font: 13px Arial, sans-serif;
+  height: 35px;
+  padding: 0 35px 0 35px;
+  outline: none;
+  position: relative;
+  white-space: nowrap;
+  background: #fff;
+  color: #000;
+}
+
+.qowt-main-menubar .qowt-menuButton {
+  /* Basic menu button for all apps*/
+  margin: 3px 0 2px 0;
+  padding: 6px 11px 6px 11px;
+  border: 1px solid transparent;
+  display: inline-block;
+  position: relative;
+}
+
+.qowt-main-menubar.qowt-menu-open .qowt-menu-shield {
+  position: absolute;
+  z-index: 102;
+  height: 4px;
+  width: 100%;
+  background: white;
+  left: 0;
+  bottom: -2px;
+}
+
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton > menu,
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton > .qowt-menu-shield {
+  /* Hide the originally open menu pane when hovering on another menu button.*/
+  visibility: hidden !important;
+  /* Setting opacity to '0' fixes a bug on Chromebook Pixel where the scrollbars
+  are still visible when the menu is hidden */
+  opacity: 0 !important;
+}
+
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton:hover > menu,
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton:hover > .qowt-menu-shield {
+  /* Show menu panes when you hover over active menu buttons, but with an open menu.*/
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton:hover > menu {
+  /* TODO DuSk - really want to use calculated top from menuButton clientHeight.*/
+  top: 27px !important;
+}
+
+.qowt-main-menubar.qowt-menu-open .qowt-menuButton:hover {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.qowt-main-menubar .qowt-menuButton:hover {
+  /* Menu button hover styling for an inactive menu.*/
+  background-color: #eee;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.qowt-shortcut {
+  position: absolute;
+  text-align: right;
+  padding: 0 6px;
+  right: 0;
+  left: auto;
+  color: #777;
+}
+
+.qo-brand {
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 21px;
+  top: 7px;
+  float: right;
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=fuzzy-windows
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_HK]=fuzzyWindows Scroll Lock
+Name=fuzzyWindows Scroll Lock
+Comment[en_HK]=
+Comment=

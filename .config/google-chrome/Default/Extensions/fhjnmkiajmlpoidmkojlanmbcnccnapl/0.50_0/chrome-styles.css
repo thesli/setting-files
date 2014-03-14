@@ -1,0 +1,7 @@
+/*chrome styles*/
+div#taplio_tab_bar { height: 34px; }
+div.taplio-tab-text-hldr { top:5px; }
+
+div#taplio_tab_nav { width:100px; height:30px; bottom:-4px; z-index:0; -webkit-transform: skew(23deg); }
+div#taplio_tab_nav_l { z-index:1; left:1px; }
+div#taplio_tab_nav_r { z-index:0; left:0px; }

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "\u00CENVECHIT\u0102. Utiliza\u021Bi extensia Instrumente de introducere Google (disponibil\u0103 la http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "S-A RENUN\u021AAT LA DEZVOLTARE: Tastatur\u0103 virtual\u0103 (de la Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Op\u021Biunile extensiei Tastatur\u0103 virtual\u0103"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Alege\u021Bi aspectul tastaturii din partea st\u00E2ng\u0103:"
+   },
+   "vkbd_save_options": {
+      "message": "Salva\u021Bi"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Afi\u0219a\u021Bi/ascunde\u021Bi tastatura"
+   }
+}

@@ -1,0 +1,143 @@
+{
+   "chrome_extension_description": {
+      "message": "Chrome Touch \u53EF\u4EE5\u5B9E\u73B0\u7528\u9F20\u6807\u62D6\u52A8\u6765\u6ED1\u52A8\u6574\u4E2A\u9875\u9762, \u5C31\u50CF\u4F7F\u7528iPod Touch\u6216iPhone\u4E00\u6837\u3002"
+   },
+   "chrome_extension_name": {
+      "message": "chromeTouch"
+   },
+   "default": {
+      "message": "\u9ED8\u8BA4"
+   },
+   "on": {
+      "message": "\u542F\u7528"
+   },
+   "s_basic": {
+      "message": "\u57FA\u672C\u8BBE\u7F6E"
+   },
+   "s_bounceeffect": {
+      "message": "\u7F51\u9875\u56DE\u5F39\u6548\u679C"
+   },
+   "s_bounceeffect_note": {
+      "message": "\u542F\u7528\u540E, \u7F51\u9875\u6ED1\u52A8\u5230\u7A97\u53E3\u9876\u7AEF\u6216\u5E95\u7AEF\u65F6, \u5C06\u5F39\u56DE\u4E00\u70B9\u3002"
+   },
+   "s_dragdirection": {
+      "message": "\u62D6\u52A8\u65B9\u5411\u8BBE\u7F6E"
+   },
+   "s_dragdirection_normal": {
+      "message": "\u6B63\u5E38"
+   },
+   "s_dragdirection_reverse": {
+      "message": "\u53CD\u5411"
+   },
+   "s_draggrideparam": {
+      "message": "\u53C2\u6570\u8BBE\u7F6E"
+   },
+   "s_dragspeed": {
+      "message": "\u62D6\u52A8\u901F\u5EA6"
+   },
+   "s_dragspeed_fast": {
+      "message": "\u5FEB"
+   },
+   "s_dragspeed_note": {
+      "message": "\u76F8\u5BF9\u4E8E\u9F20\u6807\u62D6\u52A8\u901F\u5EA6,\u7F51\u9875\u7684\u6ED1\u52A8\u901F\u5EA6\u3002"
+   },
+   "s_dragspeed_slow": {
+      "message": "\u6162"
+   },
+   "s_easyswitch": {
+      "message": "\u6A21\u5F0F\u5207\u6362"
+   },
+   "s_easyswitch_note": {
+      "message": "\u6309\u70ED\u952E\u003Cbr\u003E\u6A21\u5F0F\u5C06\u5728'\u81EA\u52A8'-\u003E'\u5B8C\u6574'-\u003E'\u5173\u95ED'\u4E4B\u95F4\u5FAA\u73AF\u8BBE\u5B9A\u3002"
+   },
+   "s_glidedistance": {
+      "message": "Sliding Distance"
+   },
+   "s_glidedistance_long": {
+      "message": "\u957F"
+   },
+   "s_glidedistance_note": {
+      "message": "\u6BCF\u6B21\u9F20\u6807\u62D6\u52A8\u64CD\u4F5C,\u7F51\u9875\u6ED1\u52A8\u7684\u8DDD\u79BB\u3002"
+   },
+   "s_glidedistance_short": {
+      "message": "\u77ED"
+   },
+   "s_glidefactor": {
+      "message": "\u6ED1\u52A8\u7CFB\u6570"
+   },
+   "s_glidefactor_fastend": {
+      "message": "\u5FEB\u901F\u5236\u52A8"
+   },
+   "s_glidefactor_neverstop": {
+      "message": "\u65E0\u5236\u52A8"
+   },
+   "s_glidefactor_note": {
+      "message": "\u8BBE\u7F6E\u5236\u52A8\u8DDD\u79BB\u3002"
+   },
+   "s_glidefactor_slowend": {
+      "message": "\u7F13\u6162\u5236\u52A8"
+   },
+   "s_hideicon": {
+      "message": "\u4E0D\u663E\u793A\u5730\u5740\u680F\u56FE\u6807"
+   },
+   "s_hotkey": {
+      "message": "\u70ED\u952E"
+   },
+   "s_language": {
+      "message": "Language"
+   },
+   "s_mousebutton": {
+      "message": "\u9F20\u6807\u952E\u8BBE\u7F6E"
+   },
+   "s_mousebutton_left": {
+      "message": "\u5DE6\u952E"
+   },
+   "s_mousebutton_middle": {
+      "message": "\u4E2D\u952E"
+   },
+   "s_mousebutton_right": {
+      "message": "\u53F3\u952E"
+   },
+   "s_mousegesture": {
+      "message": "\u9F20\u6807\u624B\u52BF"
+   },
+   "s_mousegesture_note": {
+      "message": "\u5411\u5DE6\u62D6\u52A8\u7F51\u9875\u540E\u9000, \u5411\u53F3\u62D6\u52A8\u7F51\u9875\u524D\u8FDB"
+   },
+   "s_mousegesture_reversebackforward": {
+      "message": "\u53CD\u5411\u64CD\u4F5C: \u5411\u5DE6\u5219\u524D\u8FDB, \u5411\u53F3\u5219\u540E\u9000"
+   },
+   "s_noscrolllbars": {
+      "message": "\u53D6\u6D88\u5782\u76F4\u6EDA\u52A8\u6761"
+   },
+   "s_noscrolllbars_keyboardoption": {
+      "message": "\u542F\u7528\u952E\u76D8\u5BFC\u822A"
+   },
+   "s_noscrolllbars_mousewheeloption": {
+      "message": "\u542F\u7528\u9F20\u6807\u6EDA\u8F6E"
+   },
+   "s_noscrolllbars_note": {
+      "message": "\u8BA9\u4F60\u7684\u5C4F\u5E55\u66F4\u5BBD\u4E00\u70B9 :)"
+   },
+   "s_otherfeatures": {
+      "message": "\u5176\u5B83\u8BBE\u7F6E"
+   },
+   "s_setting": {
+      "message": "chromeTouch Setting"
+   },
+   "s_touchmode": {
+      "message": "\u6A21\u5F0F"
+   },
+   "s_touchmode_auto": {
+      "message": "\u81EA\u52A8(\u53EF\u4EE5\u6B63\u5E38\u9009\u62E9\u6587\u672C)"
+   },
+   "s_touchmode_full": {
+      "message": "\u5B8C\u6574(\u6ED1\u52A8\u6574\u4E2A\u9875\u9762)"
+   },
+   "s_touchmode_off": {
+      "message": "\u5173\u95ED"
+   },
+   "s_update": {
+      "message": "Update"
+   }
+}

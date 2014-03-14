@@ -1,0 +1,1 @@
+define(["backbone","jquery.hoverIntent","jquery","jquery.qtip","jquery.scrollIntoView","jquery.transit","jqueryUi","keymaster","lodash","selectize"],function(){require(["background/model/settings"],function(e){e.set("testing",!0),e.set("localDebug",!0)}),require(["test/test"])});

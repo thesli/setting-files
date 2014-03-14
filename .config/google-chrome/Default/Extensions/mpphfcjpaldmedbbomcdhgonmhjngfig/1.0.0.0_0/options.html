@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title></title>
+  <link rel='stylesheet' href='common.css' type='text/css' />
+
+  <script src='analytics.js'></script>
+  <script src='local_storage_util.js'></script>
+  <script src='layouts.js'></script>
+  <script src='i18n.js'></script>
+  <script src='options.js'></script>
+</head>
+
+<body>
+<div class='around'>
+  <img src='icon48.png' style='float:right'>
+  <p id='vkbd_pick_keyboard_layout' class='title'>
+  </p>
+  
+  <div class='center'>
+    <select id='layouts' size=27 class='multi'>
+    </select>
+    <select id='selected' size=27 class='multi'>
+    </select>
+  </div>
+  
+  <p class='save'>
+    <input id='vkbd_save_options' type='button' value='Save' />
+  </p>
+</div>
+</body>
+</html>

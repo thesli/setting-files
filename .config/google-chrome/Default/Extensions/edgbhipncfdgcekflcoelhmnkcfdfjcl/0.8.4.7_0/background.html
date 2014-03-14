@@ -1,0 +1,63 @@
+<html>
+<script>
+	 var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-5553300-9']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = 'https://ssl.google-analytics.com/ga.js';
+       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+     })();
+
+	var valid_extension = ["doc", "docx", "pdf", "ppt", "pps", "tiff"]; // "xls", "xlsx", "ods", "csv", "tsv", "txt", "tsb", "sxw", 
+	
+	chrome.extension.onRequest.addListener(
+		function(request, sender, sendResponse) {
+			switch (request.type) {
+				case 'get_ext':
+					// return json object
+					var obj = "";
+					for (var i = 0; i < valid_extension.length; i++){
+						obj	+= valid_extension[i] + ":" + localStorage["ugdv_" + valid_extension[i]] + ",";
+					}
+					obj += "newTab:" + localStorage["ugdv_newTab"];
+					sendResponse(obj);
+					break;
+				case "open_win":
+					chrome.windows.create({url:decodeURIComponent(request.url)});
+					sendResponse();
+					_gaq.push(['_trackEvent', 'open_win', 'clicked']);
+					break;
+				case "open_incognito":
+					chrome.windows.create({url:decodeURIComponent(request.url), incognito:true});
+					sendResponse();
+					_gaq.push(['_trackEvent', 'open_incognito', 'clicked']);
+					break;
+				case "open_tab":
+					chrome.tabs.create({url: decodeURIComponent(request.url)});
+					_gaq.push(['_trackEvent', 'open_tab', 'clicked']);
+					sendResponse();
+					break;
+				case "track_action":
+					_gaq.push(['_trackEvent', request.ref, request.value]);
+				 	break;
+				case 'set':
+					localStorage[request.key] = request.value;
+					break;
+				case 'get':
+					sendResponse(localStorage[request.key]);
+					break;
+				case 'check_defaults':
+					if (localStorage[request.key] == null){
+						localStorage[request.key] = request.value;
+					};
+					break;
+				default:
+					sendResponse();
+					break;
+			}
+		}
+	);
+</script>
+</html>

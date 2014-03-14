@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "hr"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Ovo pro\u0161irenje ne mo\u017Ee davati prijedloge sa stranica poput onih sa sigurnim sadr\u017Eajem (npr. http\u003Cb\u003Es\u003C/b\u003E://). Vidimo se ponovo na javnom webu!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Pro\u0161irenje najbolje radi na po\u010Detnim stranicama ili na glavnoj stranici ve\u0107ine web-lokacija.\u003Cp\u003EIsprobajte pro\u0161irenje na stranici koju ve\u0107 volite&mdash;provjerite na\u010Din na koji radi i pogledajte prijedloge stranica za stavke koje su vam poznate."
+   },
+   "sp_default_title": {
+      "message": "Pogledajte Google Sli\u010Dne stranice"
+   },
+   "sp_description": {
+      "message": "Otkrijte web-stranice sli\u010Dne onima koje trenuta\u010Dno pregledavate."
+   },
+   "sp_domain_change_message": {
+      "message": "Da biste promijenili svoju lokalnu domenu na www.google.com, \u003Ca id='over' href='#'\u003Ekliknite ovdje\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "Domena www.google.com spremljena je kao va\u0161a lokalna domena kod dohva\u0107anja sli\u010Dnih stranica."
+   },
+   "sp_domain_message": {
+      "message": "Pro\u0161irenje \u0107e kontaktirati $1 za dohva\u0107anje popisa sli\u010Dnih stranica.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Broj stranica: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EO Googleu\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Slobodno nam po\u0161aljite sve povratne informacije na adresu \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Hvala!"
+   },
+   "sp_options_intro": {
+      "message": "Pro\u0161irenje preglednika Google Similar Pages omogu\u0107uje brz pregled drugih stranica koje su sli\u010Dne onoj koju pregledavate - u trenu!"
+   },
+   "sp_options_legal": {
+      "message": "Kad kliknete gumb Sli\u010Dne stranice, preglednik \u0107e poslati upit za pretra\u017Eivanje Googleu kako bi provjerio postoje li sli\u010Dne stranice za stranicu koju pregledavate.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EPodaci povezani s va\u0161im upitom obra\u0111ivat \u0107e se na na\u010Din opisan u Googleovim \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epravilima o privatnosti\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPravila o privatnosti\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EUvjeti pru\u017Eanja usluge\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Deinstaliranje"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Da biste deinstalirali pro\u0161irenje Google Similar Pages, upotrijebite alate preglednika Chrome &gt; opciju izbornika Pro\u0161irenja, a zatim za pro\u0161irenje Google Similar Pages kliknite vezu Deinstaliraj."
+   },
+   "sp_preview_not_available": {
+      "message": "Pregled\u003Cbr\u003Enije dostupan"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (od Googlea)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Pro\u0161irenje trenuta\u010Dno nije dostupno za va\u0161u zemlju/regiju. Uskoro ponovno provjerite."
+   },
+   "sp_zero_results": {
+      "message": "Nisu prona\u0111ene sli\u010Dne stranice."
+   }
+}

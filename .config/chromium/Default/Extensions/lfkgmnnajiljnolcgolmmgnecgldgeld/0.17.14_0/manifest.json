@@ -1,0 +1,47 @@
+{
+   "background": {
+      "scripts": [ "/lib/vendor/au.min.js", "/lib/vendor/jquery.min.js", "/lib/bsync.scrypt.b64.ls.js", "/lib/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/lib/gestures.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "/lib/vendor/jquery.min.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_idle"
+   }, {
+      "js": [ "/lib/thank_you.js" ],
+      "matches": [ "http://www.smoothgestures.com/thankyou/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "/lib/installplugin.js" ],
+      "matches": [ "http://www.smoothgestures.com/installplugin.html" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://www.google.com https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Gestures, smooth.",
+   "icons": {
+      "128": "/assets/icon/128.png",
+      "16": "/assets/icon/16.png",
+      "32": "/assets/icon/32.png",
+      "48": "/assets/icon/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBAsZtLKg1B7P+mD4osPAoPO6f87XLi+wyyjbnxIDH+n7Snly0c0/rNnTfM3bZ+hj3DSEHGYnwJp+1jf9OAh1CZiCG+JoUmWMumrQZAqJZWPPzfLDBz1TpS8Jb1MasCIZRlngp8bSiooiBxGFlIaXGlk6l5/ExB/OJN9ZKW3+8XwIDAQAB",
+   "manifest_version": 2,
+   "name": "Smooth Gestures",
+   "options_page": "/views/options.html",
+   "page_action": {
+      "default_icon": {
+         "19": "/assets/img/pageaction.png"
+      },
+      "default_title": "Smooth Gestures",
+      "popup": "/views/popup.html"
+   },
+   "permissions": [ "*://*/", "tabs", "contextMenus", "storage", "bookmarks" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.17.14"
+}

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "T\u00ECm hi\u1EC3u th\u00EAm"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Gi\u00FAp ch\u00FAng t\u00F4i b\u1EB1ng c\u00E1ch b\u00E1o c\u00E1o s\u1EF1 c\u1ED1."
+   },
+   "app_nacl_crash_report": {
+      "message": "B\u00E1o c\u00E1o s\u1EF1 c\u1ED1..."
+   },
+   "app_nacl_crash_title": {
+      "message": "R\u1EA5t ti\u1EBFc. \u0110\u00E2y l\u00E0 s\u1EF1 c\u1ED1 kh\u00F4ng mong mu\u1ED1n x\u1EA3y ra."
+   },
+   "app_nacl_error_msg": {
+      "message": "\u0110\u00E3 x\u1EA3y ra s\u1EF1 c\u1ED1 khi t\u1EA3i \u1EE9ng d\u1EE5ng."
+   },
+   "app_nacl_error_title": {
+      "message": "Kh\u00F4ng th\u1EC3 m\u1EDF t\u1EC7p."
+   },
+   "application_description": {
+      "message": "Ch\u1EC9nh s\u1EEDa t\u00E0i li\u1EC7u"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u0110ang t\u1EA3i"
+   },
+   "file_not_found_msg": {
+      "message": "T\u1EC7p b\u1EA1n y\u00EAu c\u1EA7u \u0111\u00E3 kh\u00F4ng c\u00F2n v\u00E0 \u0111\u00E3 b\u1ECB di chuy\u1EC3n."
+   },
+   "file_not_found_title": {
+      "message": "Kh\u00F4ng t\u00ECm th\u1EA5y t\u1EC7p."
+   }
+}

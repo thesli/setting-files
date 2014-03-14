@@ -1,0 +1,78 @@
+{
+   "buttonLabelBottom": {
+      "description": "The hover text for the top/bottom position button",
+      "message": "Toggle top / bottom position"
+   },
+   "buttonLabelClose": {
+      "description": "The hover text for the close button",
+      "message": "Close Editor"
+   },
+   "buttonLabelLeftRight": {
+      "description": "The hover text for the left/right position button",
+      "message": "Toggle left / right position"
+   },
+   "buttonLabelReset": {
+      "description": "The hover text for the reset box size button",
+      "message": "Reset the box size"
+   },
+   "editorTitle": {
+      "description": "The text shown on the actual editor.",
+      "message": "Live CSS Editor"
+   },
+   "extBrowserActionName": {
+      "description": "The text shown to the user when they hover over the browser action button.",
+      "message": "Enable the editor"
+   },
+   "extDescription": {
+      "description": "The description of this extension.",
+      "message": "Live Write CSS onto any page"
+   },
+   "extName": {
+      "description": "The name of this extension.",
+      "message": "Live CSS Editor"
+   },
+   "optionsAlertSaved": {
+      "description": "A notification that the changes have been saved",
+      "message": "Your changes have been saved"
+   },
+   "optionsHeader": {
+      "description": "The headline at the top of the options page",
+      "message": "Live CSS Editor Options"
+   },
+   "optionsKeyCommandKeys": {
+      "description": "The other keys that need to be pressed to trigger the editor. Always the Command and Shift keys",
+      "message": "Command + Shift + "
+   },
+   "optionsKeyCommandLabel": {
+      "description": "The label for the key command option",
+      "message": "What key command would you like to use to open the editor?"
+   },
+   "optionsModifyLabel": {
+      "description": "The label for the modify option",
+      "message": "Should the CSS you wrote for a page be remembered and loaded when you visit?"
+   },
+   "optionsNo": {
+      "description": "A rejection word",
+      "message": "No"
+   },
+   "optionsSaveButton": {
+      "description": "The text on top of the save button",
+      "message": "Save Changes"
+   },
+   "optionsSaveLabel": {
+      "description": "The label for the save option",
+      "message": "Should the editor remember your CSS for a page even when you close it?"
+   },
+   "optionsWarnLabel": {
+      "description": "The label for the warning option",
+      "message": "Should the editor warn you before closing?"
+   },
+   "optionsYes": {
+      "description": "A confirmation word",
+      "message": "Yes"
+   },
+   "warningOnClose": {
+      "description": "The warning that is shown to the user if they close the editor with content in it.",
+      "message": "Are you sure you want to do this? All of your changes will be lost."
+   }
+}

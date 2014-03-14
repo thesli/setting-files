@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "keyboardnav.css" ],
+      "js": [ "keyboardnav.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Throw away your mouse and browse the web using your keyboard instead.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDa6MemOX6Bxpo0Sw+4RkqnHaINJ049FdQxo+rJEcuaXKLVksV2G4g5b83PExdpu+UOiwbskJWcRxiErvXwA/tjk0VkTWiBD+eZ9jcVXqEdLkAqfqW2j5Nr2CN0nWRuyLHBsBmMMXAVvDditU7kl9NHjutVGlBp4wxNkVNqxKo0oQIDAQAB",
+   "name": "Keyboard Navigation",
+   "options_page": "options.html",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.5"
+}

@@ -1,0 +1,191 @@
+
+body {
+height: 755px;
+margin: 0px;
+padding: 0px;
+margin-top: 65px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+.hidden {
+ display:none;
+}
+
+div.container {
+	min-width: 680px;
+	margin: 0px auto;
+	padding: 0px;
+	overflow:hidden;
+}
+
+#f {
+
+position:fixed;
+top:5px;
+left:10px;
+right:10px;
+padding: 10px;
+border:none;
+color: #fff;
+font-weight:bold;
+font-size: 16px;
+z-index:10;
+-webkit-border-radius:6px; 
+background: #eee;
+-webkit-box-shadow:0px 2px 20px #fff;
+height: 50px;
+}
+
+#s {
+height: 30px;
+border:none;
+opacity: 1.0;
+position:absolute;
+top: 10px;
+left: 10px;
+right: 10px;
+font-size: 14px;
+padding: 8px;
+}
+
+#results {
+position: absolute;
+top: 40px;
+left: 10px;
+margin-top: 6px;
+color: #333;
+font-family: arial, helvetica;
+font-size: 12px;
+font-weight: normal;
+
+}
+
+#f a, #bookmarks a {
+	font-family: arial;
+	font-weight: normal;
+	font-size: 12px;
+	display: inline-block;
+	text-decoration: none;
+    	background: #aaa;
+	padding: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	-webkit-border-radius:8px; 
+	color: #fff;
+	font-weight: bold;
+    	outline: none;	
+}
+
+
+#f a:focus, #bookmarks a:focus {
+	
+	background-color: #66f;
+}
+
+
+ul.bookmarks{
+display: inline-block:
+margin: 0px;
+padding: 5px;
+}
+
+ul.bookmarks li {
+display: inline-block;
+margin: 0px;
+padding: 0px;
+margin-left: 5px;
+}
+
+ul.bookmarks li a {
+
+}
+
+ul.tabs{
+padding: 0px;
+}
+
+
+ul.tabs li {
+display: inline-block;
+padding:0px;
+margin:0px;
+}
+
+ul.tabs li.separator {
+display: block;
+width: 100%;
+height: 1px;
+background: #eee;
+padding:0px;
+margin:0px;
+}
+
+ul.tabs a {
+display: inline-block;
+position: relative;
+width: 220px;
+height: 195px;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+text-decoration: none;
+outline: none;
+}
+
+
+ul.tabs a:focus div{
+-webkit-box-shadow:0px 2px 4px #666;
+background-color: #99f;
+}
+
+ul.tabs a:focus div.selected{
+	background-color: #e96;
+	
+}
+
+ul.tabs div {
+border: none;
+position: absolute;
+top: 10px;
+left: 10px;
+padding:3px;
+background-color: #eef;
+-webkit-border-radius:3px;
+}
+
+ul.tabs div.selected{
+	background-color: #fe9;
+	
+}
+
+ul.tabs img.screen {
+border: none;
+-webkit-border-radius:2px;
+width:200px;
+height: 140px;
+}
+
+ul.tabs img.icon {
+border:none;
+position: absolute;
+width: 16px;
+height: 16px;
+top:160px;
+left: 12px;
+}
+
+ul.tabs span{
+position: absolute;
+top: 157px;
+left: 30px;
+width: 170px;
+font-family: arial;
+font-size: 13px;
+padding: 3px;
+opacity: 1.0;
+overflow:hidden;
+height: 14px;
+color: #000;
+}
+

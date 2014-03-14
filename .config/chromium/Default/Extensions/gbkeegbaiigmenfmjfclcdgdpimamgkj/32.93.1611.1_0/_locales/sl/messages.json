@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Ve\u010D o tem"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pomagajte nam. Prijavite te\u017Eavo."
+   },
+   "app_nacl_crash_report": {
+      "message": "Prijavite te\u017Eavo ..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ojoj, to se ne bi smelo zgoditi."
+   },
+   "app_nacl_error_msg": {
+      "message": "Pri nalaganju programa je pri\u0161lo do te\u017Eave."
+   },
+   "app_nacl_error_title": {
+      "message": "Datoteke ni mogo\u010De odpreti."
+   },
+   "application_description": {
+      "message": "Urejanje dokumenta"
+   },
+   "file_loading_spinner_label": {
+      "message": "Nalaganje"
+   },
+   "file_not_found_msg": {
+      "message": "Zahtevana datoteka je bila premaknjena."
+   },
+   "file_not_found_title": {
+      "message": "Datoteke ni bilo mogo\u010De najti."
+   }
+}

@@ -1,0 +1,1 @@
+(function(){var e=document,t=e.getElementsByTagName("head")[0],n=e.createElement("style"),r=e.location;n.id="LiveCSSEditor-PageCSS",n.setAttribute("type","text/css"),n.innerHTML=window.localStorage.getItem("livecsseditor-cache-"+r),t.appendChild(n)})();

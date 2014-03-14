@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Kh\u00F4ng th\u1EC3 k\u1EBFt n\u1ED1i v\u1EDBi Google. Vui l\u00F2ng ki\u1EC3m tra k\u1EBFt n\u1ED1i internet c\u1EE7a b\u1EA1n."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts l\u00E0m cho cu\u1ED9c tr\u00F2 chuy\u1EC7n tr\u1EDF n\u00EAn s\u1ED1ng \u0111\u1ED9ng v\u1EDBi \u1EA3nh, bi\u1EC3u t\u01B0\u1EE3ng c\u1EA3m x\u00FAc v\u00E0 c\u1EA3 c\u00E1c cu\u1ED9c g\u1ECDi \u0111i\u1EC7n video nh\u00F3m mi\u1EC5n ph\u00ED."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Nh\u1EADn x\u00E9t"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "G\u1EEDi ph\u1EA3n h\u1ED3i"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "\u0111\u00E3 m\u1EDDi b\u1EA1n tham gia cu\u1ED9c g\u1ECDi \u0111i\u1EC7n video Hangout nh\u00F3m"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "G\u1EEDi ph\u1EA3n h\u1ED3i"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Ch\u01B0a \u0111\u0103ng nh\u1EADp"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Gi\u1EEF Hangouts \u1EDF \u0111\u1EA7u c\u00E1c c\u1EEDa s\u1ED5 kh\u00E1c"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "\u0111ang g\u1ECDi \u0111i\u1EC7n video cho b\u1EA1n qua Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Cho ph\u00E9p ch\u1EBF \u0111\u1ED9 n\u1EC1n"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "\u0110\u0103ng nh\u1EADp v\u00E0o Hangouts khi Chrome kh\u1EDFi \u0111\u1ED9ng"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Tr\u1EA1ng th\u00E1i: K\u1EBFt n\u1ED1i\nTin nh\u1EAFn \u0111\u00E3 b\u1ECF l\u1EE1"
+   },
+   "quasar_answer_button_text": {
+      "message": "Tr\u1EA3 l\u1EDDi"
+   },
+   "quasar_button_apply": {
+      "message": "\u00C1p d\u1EE5ng"
+   },
+   "quasar_button_cancel": {
+      "message": "H\u1EE7y"
+   },
+   "quasar_button_save": {
+      "message": "Ok"
+   },
+   "quasar_chat_title": {
+      "message": "$1 n\u00F3i...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Nh\u1EA5p \u0111\u1EC3 \u0111i t\u1EDBi trang..."
+   },
+   "quasar_decline_button_text": {
+      "message": "T\u1EEB ch\u1ED1i"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "H\u1EE7y"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "N\u00EA\u0300n t\u1EA3ng:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Tuy\u00EAn b\u1ED1 b\u1EA3o m\u1EADt"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "M\u00F4 t\u1EA3, th\u00F4ng tin s\u1EA3n ph\u1EA9m, th\u00F4ng tin b\u1ED5 sung v\u00E0 \u0111\u1ECBa ch\u1EC9 email c\u1EE7a b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c g\u1EEDi t\u1EDBi Google. H\u00E3y xem \u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5 c\u1EE7a Google Feedback. B\u1EB1ng c\u00E1ch g\u1EEDi n\u1ED9i dung n\u00E0y, b\u1EA1n s\u1EBD c\u1EA5p cho Google quy\u1EC1n s\u1EED d\u1EE5ng n\u1ED9i dung \u0111\u1EC3 c\u1EA3i ti\u1EBFn c\u00E1c s\u1EA3n ph\u1EA9m v\u00E0 d\u1ECBch v\u1EE5 c\u1EE7a ch\u00FAng t\u00F4i. H\u00E3y xem Ch\u00EDnh s\u00E1ch b\u1EA3o m\u1EADt c\u1EE7a ch\u00FAng t\u00F4i."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "G\u1EEDi ph\u1EA3n h\u1ED3i"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Th\u00F4ng tin h\u1EC7 th\u1ED1ng"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "T\u00E1c nh\u00E2n ng\u01B0\u1EDDi d\u00F9ng:"
+   },
+   "quasar_group_chat_title": {
+      "message": "T\u1EEB tr\u00F2 chuy\u1EC7n nh\u00F3m..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 \u0111ang tham gia hangout",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Tr\u01A1\u0323 giu\u0301p"
+   },
+   "quasar_label_all_notification": {
+      "message": "V\u00F4 hi\u1EC7u th\u00F4ng b\u00E1o"
+   },
+   "quasar_label_chat_notification": {
+      "message": "V\u00F4 hi\u1EC7u th\u00F4ng b\u00E1o tr\u00F2 chuy\u1EC7n"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Th\u1EDDi gian h\u1EBFt gi\u1EDD (b\u1EB1ng gi\u00E2y):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Cho ph\u00E9p th\u00F4ng b\u00E1o tr\u00F2 chuy\u1EC7n t\u1EF1 \u0111\u1ED9ng h\u1EBFt gi\u1EDD"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Hi\u1EC3n th\u1ECB bi\u1EC3u t\u01B0\u1EE3ng khay h\u1EC7 th\u1ED1ng"
+   },
+   "quasar_legend_notifications": {
+      "message": "Th\u00F4ng b\u00E1o"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "\u1EE8ng d\u1EE5ng"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Ph\u1EA3n h\u00F4\u0300i"
+   },
+   "quasar_menutext_quit": {
+      "message": "Tho\u00E1t"
+   },
+   "quasar_menutext_settings": {
+      "message": "T\u00F9y ch\u1ECDn"
+   },
+   "quasar_menutext_signout": {
+      "message": "\u0110\u0103ng xu\u1EA5t"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Kh\u00F4ng x\u00E1c \u0111\u1ECBnh"
+   },
+   "quasar_sign_in": {
+      "message": "\u0110\u0103ng nh\u00E2\u0323p"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "\u0110\u0103ng nh\u1EADp \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u tr\u00F2 chuy\u1EC7n v\u1EDBi b\u1EA1n b\u00E8"
+   },
+   "quasar_tip_connected": {
+      "message": "Tr\u1EA1ng th\u00E1i: \u0110\u00E3 k\u1EBFt n\u1ED1i"
+   },
+   "quasar_tip_connecting": {
+      "message": "Tr\u1EA1ng th\u00E1i: \u0110ang k\u1EBFt n\u1ED1i"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Tr\u1EA1ng th\u00E1i: \u0110\u00E3 ng\u1EAFt k\u1EBFt n\u1ED1i"
+   },
+   "quasar_tip_not_load": {
+      "message": "Tr\u1EA1ng th\u00E1i: L\u1ED7i t\u1EA3i"
+   },
+   "quasar_tip_not_login": {
+      "message": "Tr\u1EA1ng th\u00E1i: Ch\u01B0a \u0111\u0103ng nh\u1EADp"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "T\u00ECnh tr\u1EA1ng: \u0110ang k\u1EBFt n\u1ED1i l\u1EA1i"
+   },
+   "quasar_try_now": {
+      "message": "Th\u1EED ngay"
+   },
+   "quasar_video_details": {
+      "message": "\u0111ang g\u1ECDi cho b\u1EA1n b\u1EB1ng tr\u00F2 chuy\u1EC7n video"
+   },
+   "quasar_video_title": {
+      "message": "Cu\u1ED9c g\u1ECDi \u0111i\u1EC7n video t\u1EEB $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "\u0111ang g\u1ECDi b\u1EA1n"
+   },
+   "quasar_voice_title": {
+      "message": "Cu\u1ED9c g\u1ECDi tho\u1EA1i t\u1EEB $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

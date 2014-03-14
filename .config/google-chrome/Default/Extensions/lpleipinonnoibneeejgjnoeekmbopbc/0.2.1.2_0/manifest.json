@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "tools.js", "settings.js", "webstore.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/logo-32.png",
+      "default_popup": "popup.html",
+      "default_title": "Extensions Manager (aka Switcher)"
+   },
+   "description": "Handy extensions, applications & themes manager.",
+   "icons": {
+      "128": "icons/logo-128.png",
+      "16": "icons/logo-16.png",
+      "32": "icons/logo-32.png",
+      "48": "icons/logo-48.png",
+      "64": "icons/logo-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3ueD9Z7bAkpD8q6o+oN0D9KdPGett17JxTB5EfciEFLvf0cFnZ7mrKMDOjTIwN8LnPs+ALm1Tt1fXM9RoXjFlyYTFnq15FUMDOI8wMLOLDd4I25BK90DrzfvtRX50VF/fO3f7dHkkt3nfs95anIYuU2BIsgSwgHeHXi903X6HUwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "20.0",
+   "name": "Extensions Manager (aka Switcher)",
+   "options_page": "options.html",
+   "permissions": [ "management", "idle", "notifications", "storage", "unlimitedStorage", "http://chrome.google.com/*", "https://chrome.google.com/*", "https://*.googleusercontent.com/*", "https://clients2.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1.2",
+   "web_accessible_resources": [ "icons/logo-32.png" ]
+}

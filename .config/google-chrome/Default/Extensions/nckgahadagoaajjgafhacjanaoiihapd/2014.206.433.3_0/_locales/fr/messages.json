@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Impossible de se connecter \u00E0 Google. Veuillez v\u00E9rifier votre connexion Internet."
+   },
+   "chrome_ext_description": {
+      "message": "Avec Hangouts, donnez vie \u00E0 vos conversations en y int\u00E9grant gratuitement photos, emoji et des appels vid\u00E9o de groupe."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Commentaires"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Donnez-nous votre avis"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "vous a invit\u00E9 \u00E0 un Hangout vid\u00E9o"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Donnez-nous votre avis"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Non connect\u00E9"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Conserver Hangouts au-dessus des autres fen\u00EAtres"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "essaie de vous joindre par appel vid\u00E9o via Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Autoriser le mode arri\u00E8re-plan"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Se connecter \u00E0 Hangouts lorsque Google\u00A0Chrome d\u00E9marre"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "\u00C9tat\u00A0: Connect\u00E9\nMessages manqu\u00E9s"
+   },
+   "quasar_answer_button_text": {
+      "message": "R\u00E9pondre"
+   },
+   "quasar_button_apply": {
+      "message": "Appliquer"
+   },
+   "quasar_button_cancel": {
+      "message": "Annuler"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 dit...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Cliquez ici pour aller \u00E0 la page..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Refuser"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Annuler"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Plate-forme :"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "D\u00E9claration de confidentialit\u00E9"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "La description, les informations sur le produit, votre adresse e-mail et d'autres informations seront envoy\u00E9es \u00E0 Google. Reportez-vous aux conditions d'utilisation de Google\u00A0Feedback. En envoyant ce contenu, vous autorisez Google \u00E0 l'utiliser afin d'am\u00E9liorer ses produits et ses services. Nous vous invitons \u00E0 consulter nos r\u00E8gles de confidentialit\u00E9."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Donnez-nous votre avis"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Informations syst\u00E8me"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Agent utilisateur\u00A0:"
+   },
+   "quasar_group_chat_title": {
+      "message": "Du chat en groupe..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 participe \u00E0 un Hangout",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Aide"
+   },
+   "quasar_label_all_notification": {
+      "message": "D\u00E9sactiver les notifications"
+   },
+   "quasar_label_chat_notification": {
+      "message": "D\u00E9sactiver les notifications par chat"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "D\u00E9lai d'expiration (en secondes)\u00A0:"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Autoriser l'expiration automatique du d\u00E9lai des notifications par chat"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Afficher l'ic\u00F4ne de la zone de notification"
+   },
+   "quasar_legend_notifications": {
+      "message": "Notifications"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Application"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Commentaires"
+   },
+   "quasar_menutext_quit": {
+      "message": "Quitter"
+   },
+   "quasar_menutext_settings": {
+      "message": "Options"
+   },
+   "quasar_menutext_signout": {
+      "message": "Se d\u00E9connecter"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Inconnu"
+   },
+   "quasar_sign_in": {
+      "message": "Se connecter"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Connectez-vous pour discuter avec vos amis."
+   },
+   "quasar_tip_connected": {
+      "message": "\u00C9tat\u00A0: Connect\u00E9"
+   },
+   "quasar_tip_connecting": {
+      "message": "\u00C9tat\u00A0: Connexion\u2026"
+   },
+   "quasar_tip_disconnected": {
+      "message": "\u00C9tat\u00A0: D\u00E9connect\u00E9"
+   },
+   "quasar_tip_not_load": {
+      "message": "\u00C9tat\u00A0: Erreur lors du chargement"
+   },
+   "quasar_tip_not_login": {
+      "message": "\u00C9tat\u00A0: Non connect\u00E9"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "\u00C9tat\u00A0: Reconnexion..."
+   },
+   "quasar_try_now": {
+      "message": "Essayer maintenant"
+   },
+   "quasar_video_details": {
+      "message": "vous appelle avec le chat vid\u00E9o."
+   },
+   "quasar_video_title": {
+      "message": "Appel vid\u00E9o de $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "vous appelle."
+   },
+   "quasar_voice_title": {
+      "message": "Appel vocal de $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

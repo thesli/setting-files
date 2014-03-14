@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Més informació"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Ajudeu-nos informant del problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Informeu d'un problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Això no havia de passar."
+   },
+   "app_nacl_error_msg": {
+      "message": "S'ha produït un problema en carregar l'aplicació."
+   },
+   "app_nacl_error_title": {
+      "message": "No es pot obrir el fitxer."
+   },
+   "application_description": {
+      "message": "Edició del document"
+   },
+   "file_loading_spinner_label": {
+      "message": "S'està carregant"
+   },
+   "file_not_found_msg": {
+      "message": "El fitxer que heu sol·licitat s'ha mogut."
+   },
+   "file_not_found_title": {
+      "message": "No s'ha trobat el fitxer."
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "மேலும் அறிக"
+   },
+   "app_nacl_crash_msg": {
+      "message": "சிக்கலைத் தெரிவிப்பதன் மூலம் எங்களுக்கு உதவுக."
+   },
+   "app_nacl_crash_report": {
+      "message": "சிக்கல் எனப் புகார் செய்க..."
+   },
+   "app_nacl_crash_title": {
+      "message": "அச்சச்சோ. அது நடந்திருக்கக் கூடாது."
+   },
+   "app_nacl_error_msg": {
+      "message": "பயன்பாட்டை ஏற்றும்போது பிழை."
+   },
+   "app_nacl_error_title": {
+      "message": "கோப்பைத் திறக்க முடியவில்லை."
+   },
+   "application_description": {
+      "message": "ஆவணத்தைத் திருத்துதல்"
+   },
+   "file_loading_spinner_label": {
+      "message": "ஏற்றுகிறது"
+   },
+   "file_not_found_msg": {
+      "message": "நீங்கள் கோரிய கோப்பானது பதிவிறக்க முடியாமல் நகர்த்தப்பட்டது."
+   },
+   "file_not_found_title": {
+      "message": "கோப்பு இல்லை."
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/words_highlight.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "icons": {
+      "128": "images/w128.png",
+      "16": "images/w.png",
+      "48": "images/w48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYGb1S8HetJ93dqRxfBV/WC5ZQGK6BgRI74djOa+N4HobKFQ/Wb4GGrGMFFgs3za6yPTPr/AFAS64mBsvZ6Gjo+JeNE54FIOKchPHDwHG+0eOFn6XcyaXXElKXFFcG4VsoFYbr6fbxKiPPDy/PHrC4YjzrmUQyafnYzdOcqfByJQIDAQAB",
+   "manifest_version": 2,
+   "name": "word highlight",
+   "options_page": "options_page.html",
+   "page_action": {
+      "default_icon": "images/w.png",
+      "default_title": "word highlight"
+   },
+   "permissions": [ "tabs", "http://*/", "https://*/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3.2"
+}

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "F\u00D6R\u00C5LDRAT. Anv\u00E4nd till\u00E4gget Google Input Tools ist\u00E4llet (tillg\u00E4ngligt p\u00E5 http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "UTFASAT: Virtual Keyboard (fr\u00E5n Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Alternativ f\u00F6r till\u00E4gget Virtual Keyboard"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "V\u00E4lj layout f\u00F6r tangentbordet fr\u00E5n v\u00E4nster:"
+   },
+   "vkbd_save_options": {
+      "message": "Spara"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Visa/d\u00F6lj tangentbord"
+   }
+}

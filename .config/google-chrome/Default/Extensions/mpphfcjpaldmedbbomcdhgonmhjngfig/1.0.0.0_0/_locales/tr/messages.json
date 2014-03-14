@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "UYGUN BULUNMADI. L\u00FCtfen bunun yerine Google Input Tools uzant\u0131s\u0131n\u0131 (http://goo.gl/lzCPo adresinde bulunabilir) kullan\u0131n."
+   },
+   "vkbd_name": {
+      "message": "KULLANIMDAN KALDIRILDI: Sanal Klavye (Google'dan)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtual Keyboard Uzant\u0131s\u0131 Se\u00E7enekleri"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Soldan klavye yerle\u015Fimini se\u00E7in:"
+   },
+   "vkbd_save_options": {
+      "message": "Kaydet"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Klavyeyi G\u00F6ster/Gizle"
+   }
+}

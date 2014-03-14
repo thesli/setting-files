@@ -1,0 +1,172 @@
+{
+   "elementToolbarChildNode": {
+      "description": "Titre du noeud enfant de l'\u00E9l\u00E9ment en surbrillance en mode exploration",
+      "message": "Noeud enfant"
+   },
+   "elementToolbarHelp": {
+      "description": "Message d'aide de la barre d'outils",
+      "message": "Utilisez le mode exploration pour se d\u00E9placer sur la page et les \u00E9l\u00E9ments en surbrillance. Cliquez sur un \u00E9l\u00E9ment pour d\u00E9sactiver le mode exploration."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "Titre de l'\u00E9l\u00E9ment en surbrillance en mode exploration",
+      "message": "El\u00E9ment en surbrillance"
+   },
+   "elementToolbarNextSibling": {
+      "description": "Titre du n\u0153ud fr\u00E8re qui suit l'\u00E9l\u00E9ment en surbrillance dans le mode exploration",
+      "message": "Noeud fr\u00E8re suivant"
+   },
+   "elementToolbarParentNode": {
+      "description": "Titre du noeud parent de l'\u00E9l\u00E9ment en surbrillance en mode exploration",
+      "message": "Noeud parent"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "Titre du n\u0153ud fr\u00E8re qui pr\u00E9c\u00E9de l'\u00E9l\u00E9ment en surbrillance dans le mode exploration",
+      "message": "Noeud fr\u00E8re pr\u00E9c\u00E9dent"
+   },
+   "elementToolbarToggleOff": {
+      "description": "Texte du bouton d'activation du mode exploration en posision off",
+      "message": "Off"
+   },
+   "elementToolbarToggleOn": {
+      "description": "Texte du bouton d'activation du mode exploration en posision on",
+      "message": "On"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Etiquette du bouton d'activation du mode exploration",
+      "message": "Mode exploration"
+   },
+   "errorLocal": {
+      "description": "Message d'erreur \u00E0 faire appara\u00EEtre lorsqu'on essaie d'ex\u00E9cuter l'extension dans une page d'extension chrome",
+      "message": "Les extensions ne peuvent pas s'ex\u00E9cuter dans les pages locales de chrome pour des raisons de s\u00E9curit\u00E9"
+   },
+   "errorWebStore": {
+      "description": "Message d'erreur \u00E0 faire appara\u00EEtre lorsqu'on essaie d'ex\u00E9cuter l'extension dans le web store chrome",
+      "message": "Les extensions ne peuvent pas s'ex\u00E9cuter dans le web store chrome pour des raisons de s\u00E9curit\u00E9"
+   },
+   "extDescription": {
+      "description": "Description de l'extension",
+      "message": "Dessine une r\u00E8gle pour mesurer les dimensions ainsi que les positions, et mesure aussi les \u00E9l\u00E9ments de n'importe quelle page web."
+   },
+   "extName": {
+      "description": "Nom de l'extension",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Nom abr\u00E9g\u00E9 de l'extension (12 caract\u00E8res au maximum)",
+      "message": "Page Ruler"
+   },
+   "optionsHideUpdateTabHelp": {
+      "description": "Message qui indique comment l'onglet d'affichage d'une mise \u00E0 jour est utilis\u00E9",
+      "message": "Ne pas afficher l'onglet mise \u00E0 jour chaque fois qu'une nouvelle version de l'extension est install\u00E9e"
+   },
+   "optionsHideUpdateTabLabel": {
+      "description": "L'\u00E9tiquette de la case \u00E0 cocher qui concerne l'affichage de l'onglet mise \u00E0 jour",
+      "message": "Ne pas afficher l'Onglet de Mise \u00E0 jour:"
+   },
+   "optionsPageTitle": {
+      "description": "Titre de la page des options",
+      "message": "Options de Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Message qui explique comment les statistiques anonymes d'utilisation sont exploit\u00E9es",
+      "message": "L'information collect\u00E9e ne contient aucune information priv\u00E9e et n'est utilis\u00E9e que dans l'objectif d'am\u00E9liorer cette extension afin d'identifier quelles en sont les parties utilis\u00E9es"
+   },
+   "optionsStatisticsLabel": {
+      "description": "L'\u00E9tiquette de la case \u00E0 cocher pour l'envoie anonyme de statistiques d'utilisation",
+      "message": "Envoyer Anonymement des Statistiques d'utilisation:"
+   },
+   "toolbarBottom": {
+      "description": "Etiquette pour l'affichage de la position en bas dans la barre",
+      "message": "Bas"
+   },
+   "toolbarClose": {
+      "description": "Bouton de fermeture de la barre d'outils pour fermer le module",
+      "message": "Fermer"
+   },
+   "toolbarColor": {
+      "description": "Etiquette  du s\u00E9lecteur de couleur dans la barre d'outils",
+      "message": "Couleur"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Label du bouton de d\u00E9sactivation du mode Element (elements des tags HTML)",
+      "message": "D\u00E9sactiver le mode Element"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Label du bouton d'activation du mode Element (elements des tags HTML)",
+      "message": "Activer le mode Element"
+   },
+   "toolbarHeight": {
+      "description": "Etiquette pour l'affichage de la hauteur dans la barre",
+      "message": "Hauteur"
+   },
+   "toolbarLeft": {
+      "description": "Etiquette pour l'affichage de la position \u00E0 gauche dans la barre",
+      "message": "Gauche"
+   },
+   "toolbarRight": {
+      "description": "Etiquette pour l'affichage de la position \u00E0 droite dans la barre",
+      "message": "Droite"
+   },
+   "toolbarTop": {
+      "description": "Etiquette pour l'affichage de la position en haut dans la barre",
+      "message": "Haut"
+   },
+   "toolbarWidth": {
+      "description": "Etiquette pour l'affichage de la largeur dans la barre",
+      "message": "Largeur"
+   },
+   "updateCodeTitle": {
+      "desciption": "Titre pour la section code de la bo\u00EEte lat\u00E9rale des contibuteurs",
+      "message": "Code"
+   },
+   "updateContributeTitle": {
+      "desciption": "Titre de la bo\u00EEte lat\u00E9rale de contribution",
+      "message": "Contribuez \u00E0 Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "Titre de la bo\u00EEte lat\u00E9rale \u00E0 l'attention des contributeurs",
+      "message": "Contributeurs"
+   },
+   "updateDoNotShowPageAgain": {
+      "description": "Etiquette de la case \u00E0 cliquer pour ne plus afficher cette page dans la page de mise \u00E0 jour",
+      "message": "Ne plus afficher cette page \u00E0 nouveau"
+   },
+   "updateHistoryTitle": {
+      "desciption": "Titre de la section de l'historique des mises \u00E0 jour",
+      "message": "Quoi de Nouveau?"
+   },
+   "updateIconsTitle": {
+      "desciption": "Titre pour la section icons de la bo\u00EEte lat\u00E9rale des contibuteurs",
+      "message": "Icons"
+   },
+   "updatePageHeader": {
+      "description": "Message d'ent\u00EAte de la page qui contient le num\u00E9ro de la nouvelle version",
+      "message": "Page Ruler a \u00E9t\u00E9 mis \u00E0 jour vers la version \u003Cspan\u003E$VERSION$\u003C/span\u003E",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "exemple": "2.0.1"
+         }
+      }
+   },
+   "updatePageHeaderInstall": {
+      "description": "Message d'ent\u00EAte de la page de mise \u00E0 jour quand un nouvel utilisateur proc\u00E8de \u00E0 l'installation ",
+      "message": "Merci d'avoir install\u00E9 Page Ruler!"
+   },
+   "updatePageTitle": {
+      "desciption": "Titre de la page de mise \u00E0 jour",
+      "message": "Page Ruler a \u00E9t\u00E9 mis \u00E0 jour"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Description de la proc\u00E9dure pour contribuer \u00E0 une traduction",
+      "message": "Vous souhaitez utiliser Page Ruler dans votre propre langue? Visitez la page \u003Ca href='https://github.com/wrakky/page-ruler'\u003EGitHub project page\u003C/a\u003E et suivez les instructions sur la fa\u00E7on de soumettre une traduction."
+   },
+   "updateTranslateTitle": {
+      "desciption": "Titre de la section de traduction dans la zone lat\u00E9rale de Contribution",
+      "message": "Traduire"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "Titre pour la section traduction de la bo\u00EEte lat\u00E9rale des contibuteurs",
+      "message": "Traductions"
+   }
+}

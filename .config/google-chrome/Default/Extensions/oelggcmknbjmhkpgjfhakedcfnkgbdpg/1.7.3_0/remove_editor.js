@@ -1,0 +1,1 @@
+(function(){var e=document.getElementById("LiveCSSEditor-panel"),t=document.getElementById("LiveCSSEditor-PageCSS");t.parentElement.removeChild(t),e.parentElement.removeChild(e)})();

@@ -1,0 +1,143 @@
+{
+   "chrome_extension_description": {
+      "message": "Habilitar el iPhone como el interfaz tactil de desplazamiento."
+   },
+   "chrome_extension_name": {
+      "message": "chromeTouch"
+   },
+   "default": {
+      "message": "predeterminado"
+   },
+   "on": {
+      "message": "Encendido"
+   },
+   "s_basic": {
+      "message": "Basico"
+   },
+   "s_bounceeffect": {
+      "message": "Efecto de rebote"
+   },
+   "s_bounceeffect_note": {
+      "message": "Este es un efecto que la pantalla de rebotes a la ventana despues de que se desliza la parte superior o debajo de la pantalla."
+   },
+   "s_dragdirection": {
+      "message": "Direccion de Arrastre"
+   },
+   "s_dragdirection_normal": {
+      "message": "Normal"
+   },
+   "s_dragdirection_reverse": {
+      "message": "Inverso"
+   },
+   "s_draggrideparam": {
+      "message": "Parametro de deslizamiento y arrastre"
+   },
+   "s_dragspeed": {
+      "message": "Velocidad de arrastre"
+   },
+   "s_dragspeed_fast": {
+      "message": "Rapido"
+   },
+   "s_dragspeed_note": {
+      "message": "Cambio mas rapido o mas lento el desplazamiento de la pantalla que la velocidad de arrastre del raton."
+   },
+   "s_dragspeed_slow": {
+      "message": "Lento"
+   },
+   "s_easyswitch": {
+      "message": "cambiar facil"
+   },
+   "s_easyswitch_note": {
+      "message": "Pulse la tecla,\u003Cbr\u003ETouch modo cambiara 'Automatico' -\u003E 'completo' -\u003E 'apagado' -\u003E .."
+   },
+   "s_glidedistance": {
+      "message": "distancia de deslizamiento"
+   },
+   "s_glidedistance_long": {
+      "message": "larga"
+   },
+   "s_glidedistance_note": {
+      "message": "La pantalla de diapositivas de acuerdo a la velocidad de arrastre cuando el boton del raton despues de la de arrastre. La longitud del factor de deslizamiento."
+   },
+   "s_glidedistance_short": {
+      "message": "corta"
+   },
+   "s_glidefactor": {
+      "message": "Factor de deslizamiento"
+   },
+   "s_glidefactor_fastend": {
+      "message": "final rapido"
+   },
+   "s_glidefactor_neverstop": {
+      "message": "Never stop"
+   },
+   "s_glidefactor_note": {
+      "message": "La velocidad de deslizamiento se reduce gradualmente hasta la parada. Corredizas factor de freno."
+   },
+   "s_glidefactor_slowend": {
+      "message": "final lento"
+   },
+   "s_hideicon": {
+      "message": "no mostrar icono"
+   },
+   "s_hotkey": {
+      "message": "Hot key"
+   },
+   "s_language": {
+      "message": "Idioma"
+   },
+   "s_mousebutton": {
+      "message": "Utilice el boton del raton"
+   },
+   "s_mousebutton_left": {
+      "message": "Boton izquierdo"
+   },
+   "s_mousebutton_middle": {
+      "message": "Boton del medio"
+   },
+   "s_mousebutton_right": {
+      "message": "Boton derecho"
+   },
+   "s_mousegesture": {
+      "message": "Gestos de raton"
+   },
+   "s_mousegesture_note": {
+      "message": "Arrastre la pagina a la izquierda de la pagina de nuevo, a la derecha de arrastre para la pagina hacia adelante."
+   },
+   "s_mousegesture_reversebackforward": {
+      "message": "Invertir la direccion gesto para adelante / atras la pagina"
+   },
+   "s_noscrolllbars": {
+      "message": "No barra de desplazamiento"
+   },
+   "s_noscrolllbars_keyboardoption": {
+      "message": "Habilitar la navegacion por teclado"
+   },
+   "s_noscrolllbars_mousewheeloption": {
+      "message": "Habilitar la rueda del raton"
+   },
+   "s_noscrolllbars_note": {
+      "message": "Usted puede utilizar la pantalla mas amplia de este modo."
+   },
+   "s_otherfeatures": {
+      "message": "Otras caracteristicas"
+   },
+   "s_setting": {
+      "message": "chromeTouch Setting"
+   },
+   "s_touchmode": {
+      "message": "Touch Modo"
+   },
+   "s_touchmode_auto": {
+      "message": "Auto(no arrastrando sobre el texto)"
+   },
+   "s_touchmode_full": {
+      "message": "Full(arrastrar cualquier momento)"
+   },
+   "s_touchmode_off": {
+      "message": "Off(no arrastrar)"
+   },
+   "s_update": {
+      "message": "Actualizar"
+   }
+}

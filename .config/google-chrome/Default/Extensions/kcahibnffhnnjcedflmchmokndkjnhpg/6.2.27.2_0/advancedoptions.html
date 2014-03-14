@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+.storageDump
+{
+    border-bottom-style:solid;
+    border-top-style:solid
+}
+
+</style>
+</head>
+<body>
+<h2>StumbleUpon Options</h2>
+<h3>Warning!  Change these settings at your own risk</h3>
+
+<table>
+    <tr>
+        <td>
+            Domain:&nbsp;<input id="domain" type="text" value="" style="width:200px" />
+            <input id="changeDomain" type="button" value="Change" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="dumpStorage" type="button" value="Dump Storage" />
+            <div id="dumpStorageResults"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="clearCookies" type="button" value="Clear Site Cookies" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="clearStorage" type="button" value="Clear Extension Storage" />
+            <div id="clearStorageResults"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="disablePreFrame" type="checkbox"  />&nbsp;Disable Pre-Frame Support
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="enableXDebugCookie" type="checkbox"  />&nbsp;Enable XDebug Cookie ("PHPSTORM" is the session ID)
+        </td>
+    </tr>
+</table>
+
+<script src="advancedoptions.js"></script>
+</body>
+</html>

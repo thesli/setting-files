@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>Economist Radio Options</title>
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css" /> 
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/latest.min.js"></script>
+		<script type="text/javascript" src="scripts/options.js"></script>
+	</head>
+	<body class="options">
+		<div id="wrap">
+			<div id="header">
+				<h1>Economist Radio Beta Options</h1>
+			</div>
+			<div class="center">
+				<div class="option">
+					<div class="left">
+						Playlist size:
+					</div>
+					<div class="right">
+						<select name="limit" id="limit">
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						<option value="20" selected="selected">20</option>
+						<option value="25">25</option>
+						<option value="30">30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						</select>
+					</div>
+				</div>
+				<div class="option">
+					<div class="left">
+						Check for new content every:
+					</div>
+					<div class="right">
+						<select name="interval" id="interval">
+						<option value="5" selected="selected">5</option>
+						<option value="15">15</option>
+						<option value="30">30</option>
+						<option value="45">45</option>
+						<option value="60">60</option>
+						</select> minutes
+					</div>
+				</div>
+				<div class="option">
+					<div class="left">
+						Display desktop notifications:
+					</div>
+					<div class="right">
+						<input type="checkbox" id="desknote" value="1" />
+					</div>
+				</div>
+				<div class="option">
+					<div class="left">
+						Play next track automatically:
+					</div>
+					<div class="right">
+						<input type="checkbox" id="autoplay" value="1" />
+					</div>
+				</div>
+				<div class="save">
+					<button id="save">Save Options</button>
+				</div>
+				<div id="message"></div>
+			</div>
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>

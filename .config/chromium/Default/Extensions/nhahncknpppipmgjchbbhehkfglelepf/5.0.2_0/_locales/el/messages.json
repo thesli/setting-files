@@ -1,0 +1,11 @@
+{
+   "chrome_extension_description": {
+      "message": "This extension highlights the Google search keywords in web pages. This way you can instantly find the relevant parts of a page. The screenshot shows the Wikipedia result after searching for the term 'World Peace' with Google. The arrow in the screenshot points to the button that enable/disable this functionality."
+   },
+   "chrome_extension_name": {
+      "message": "\u03B5\u03C0\u03B9\u03C3\u03B7\u03BC\u03AC\u03BD\u03B5\u03C4\u03B5 \u03BB\u03AD\u03BE\u03B5\u03B9\u03C2-\u03BA\u03BB\u03B5\u03B9\u03B4\u03B9\u03AC \u03B3\u03B9\u03B1 \u03B1\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u03C3\u03C4\u03BF Google"
+   },
+   "chrome_extension_title": {
+      "message": "\u03B5\u03C0\u03B9\u03C3\u03B7\u03BC\u03AC\u03BD\u03B5\u03C4\u03B5 \u03BB\u03AD\u03BE\u03B5\u03B9\u03C2-\u03BA\u03BB\u03B5\u03B9\u03B4\u03B9\u03AC \u03B3\u03B9\u03B1 \u03B1\u03BD\u03B1\u03B6\u03AE\u03C4\u03B7\u03C3\u03B7 \u03C3\u03C4\u03BF Google"
+   }
+}

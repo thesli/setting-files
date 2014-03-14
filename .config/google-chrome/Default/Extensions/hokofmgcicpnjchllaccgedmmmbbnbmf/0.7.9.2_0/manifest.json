@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "locales.js", "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "16": "img/tabjump_icon.png",
+      "32": "img/tabjump_icon.png",
+      "48": "img/tabjump_icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5u2nWUVz+V/iwVw+7QESKPe7wtNrQODgZ56gaFztosl7wL1FE7MbwkUJJphgMXOKkyecS7XdwGLf1vuuZPmcA6AdIwIanwehs6nSYqINl5vJ40kXhjSQcPx8D7L0iBG1kqA/OKE3FJFypn+yvsx3PrPNYWEYrECM7lNNv8PvuQwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "__MSG_name__",
+   "page_action": {
+      "default_icon": {
+         "19": "img/tabjump_icon.png",
+         "38": "img/tabjump_icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_pageActionTitle__"
+   },
+   "permissions": [ "tabs", "bookmarks" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.7.9.2"
+}

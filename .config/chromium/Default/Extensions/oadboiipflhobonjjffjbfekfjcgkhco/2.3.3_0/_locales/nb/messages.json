@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "Om"
+   },
+   "about_message": {
+      "message": "Med utvidelsen Chrome to Phone fra Google kan du sende koblinger og annen informasjon fra Chrome til Android-enheten. Chrome to Phone  best\u00E5r av en Chrome-nettleserutvidelse og et Android-program."
+   },
+   "about_title_message": {
+      "message": "Om"
+   },
+   "app_desc": {
+      "message": "Med Google-utvidelsen \u00ABChrome to Phone\u00BB kan du sende koblinger og annen informasjon fra Chrome til Android-enheten."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone Extension"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "Tilkoblingsfeil."
+   },
+   "device_not_registered_message": {
+      "message": "Enheten er ikke registrert for brukeren."
+   },
+   "error_sending_message": {
+      "message": "Feil ved sending til telefon: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Send nettleserkoblinger fra Chrome til telefonen."
+   },
+   "features_message2": {
+      "message": "Google Maps-koblinger starter Google Maps-programmet p\u00E5 Android."
+   },
+   "features_message3": {
+      "message": "YouTube-koblinger starter YouTube-programmet p\u00E5 Android."
+   },
+   "features_message4": {
+      "message": "N\u00E5r du velger et telefonnummer, \u00E5pnes ringepanelet automatisk med nummeret fylt i."
+   },
+   "features_message5": {
+      "message": "N\u00E5r du velger tekst p\u00E5 en nettside, kopieres teksten til utklippstavlen i Android (trykk og hold inne en tekstboks for \u00E5 lime inn p\u00E5 Android)."
+   },
+   "features_title_message": {
+      "message": "Funksjoner"
+   },
+   "help_message": {
+      "message": "Hjelp"
+   },
+   "invalid_scheme_message": {
+      "message": "Kun http- eller https-sider h\u00E5ndteres."
+   },
+   "privacy_message": {
+      "message": "Personvern"
+   },
+   "sending_message": {
+      "message": "Sender til telefon ..."
+   },
+   "sent_message": {
+      "message": "Sendt til telefonen."
+   },
+   "sign_in_message": {
+      "message": "logg p\u00E5"
+   },
+   "sign_in_required_message": {
+      "message": "$link$ Chrome to Phone.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "Logg av"
+   },
+   "signed_in_message": {
+      "message": "P\u00E5logget. Du kan n\u00E5 sende koblinger til telefonen."
+   },
+   "signed_out_message": {
+      "message": "Du er n\u00E5 logget av Chrome to Phone."
+   },
+   "signed_out_title_message": {
+      "message": "Logget av"
+   },
+   "step2_message": {
+      "message": "S\u00F8k etter \u00ABChrome to Phone\u00BB p\u00E5 chrome.google.com/extensions."
+   },
+   "step3_message": {
+      "message": "Installer utvidelsen Chrome to Phone, og klikk p\u00E5 verkt\u00F8ylinjeikonet for \u00E5 logge deg p\u00E5."
+   },
+   "step4_message": {
+      "message": "S\u00F8k etter \u00ABChrome to Phone\u00BB p\u00E5 Market p\u00E5 Android-enheten."
+   },
+   "step5_message": {
+      "message": "Installer Android-programmet Chrome to Phone, og fullf\u00F8r konfigurasjonsprosessen."
+   },
+   "step6_message": {
+      "message": "Klikk p\u00E5 verkt\u00F8ylinjeikonet for \u00E5 sende koblingen eller markert tekst til telefonen."
+   },
+   "tos_message": {
+      "message": "Vilk\u00E5r for bruk"
+   }
+}

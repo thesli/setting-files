@@ -1,0 +1,200 @@
+<!--
+Copyright (c) 2009 - 2014, Evan Jehu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the author nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL EVAN JEHU BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="assets/styles.css" type="text/css" media="all"/>
+  <link rel="stylesheet" href="assets/styles-options.css" type="text/css" media="all"/>
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  <title>Quick Tabs Options</title>
+  <script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+
+<div class="alert"><span>[blank]</span></div>
+
+<div class="header">
+  <img src="assets/icon-32.png" alt="Quick Tabs">
+
+  <h1>Quick Tabs Options</h1>
+</div>
+
+<div class="shortcutAlert">
+  <p>[Empty]</p>
+  <div style="text-align: right">
+    <a href="#" id="shortcut_done" class="btn primary"><span><span>OK I get it!</span></span></a>
+  </div>
+</div>
+
+<div class="body">
+  <p>The source code for Quick Tabs is hosted on
+    <a href="http://github.com/babyman/quick-tabs-chrome-extension" target="_blank">github.com</a>
+    and available for your review. Any feedback you may have can be left on the
+    <a href="https://chrome.google.com/extensions/detail/jnjfeinjfmenlddahdjdmgpbokiacbbb" target="_blank">Quick
+      Tabs</a>
+    extension page hosted by google or on the project issues page at
+    <a href="http://github.com/babyman/quick-tabs-chrome-extension/issues" target="_blank">github.com</a>.</p>
+  <fieldset>
+    <legend>Quick Tabs list window options</legend>
+    <table>
+      <tr>
+        <td>
+          <label for="closed_tabs_size">
+            <strong>Closed tabs</strong> list size:
+          </label>
+        </td>
+        <td>
+          <select id="closed_tabs_size">
+            <option value="0">none</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="show_urls">
+            Show URL's:
+          </label>
+        </td>
+        <td>
+          <input type='checkbox' id='show_urls'/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="show_tooltips">
+            Show page title as a tooltip:
+          </label>
+        </td>
+        <td>
+          <input type='checkbox' id='show_tooltips'/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="show_favicons">
+            Show page favicons:
+          </label>
+        </td>
+        <td>
+          <input type='checkbox' id='show_favicons'/>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>
+          Close tab shortcut:<sup>*</sup>
+        </td>
+        <td>
+          <label> ctrl <input type="checkbox" id="close_ctrl"/> </label>
+          <label> + shift <input type="checkbox" id="close_shift"/> </label>
+          <label> + alt <input type="checkbox" id="close_alt"/> </label>
+          <label> + command<sup>&sect;</sup> <input type="checkbox" id="close_meta"/> </label>
+          + <input type="text" id="close_key" maxlength="3" size="3"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Close all displayed tabs shortcut:<sup>*</sup>
+        </td>
+        <td>
+          <label> ctrl <input type="checkbox" id="close_all_ctrl"/> </label>
+          <label> + shift <input type="checkbox" id="close_all_shift"/> </label>
+          <label> + alt <input type="checkbox" id="close_all_alt"/> </label>
+          <label> + command<sup>&sect;</sup> <input type="checkbox" id="close_all_meta"/> </label>
+          + <input type="text" id="close_all_key" maxlength="3" size="3"/>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>
+          <label for="show_dev_tools">
+            Include Chrome developer tools as tabs:
+          </label>
+        </td>
+        <td>
+          <input type='checkbox' id='show_dev_tools'/> (will take full effect on reload)
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>Popup window shortcut</legend>
+    <table>
+      <tr>
+        <td>
+          Display Quick Tabs popup window:
+        </td>
+        <td>
+          <strong>ctrl+m</strong> by default
+        </td>
+      </tr>
+    </table>
+    <p>
+      <strong style="text-decoration: underline">Important</strong>: The shortcut key is now managed by Chrome directly and can be changed by scrolling
+      all the way to the bottom of the chrome://extensions/ page and clicking "Keyboard shortcuts".
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Search Options</legend>
+    <table>
+      <tr>
+        <td>
+          <label for="search_string"> When no tabs match, search using:</label>
+        </td>
+        <td>
+          <input type="text" id="search_string" style="width:250px;"/> (%s is replaced with your search term)
+        </td>
+      </tr>
+    </table>
+  </fieldset>
+  <br/>
+
+  <a href="#" id="save_btn" class="btn primary"><span><span>Apply changes</span></span></a>
+
+  <br/>
+  <br/>
+
+  <div class="footnote">
+    * - because of limitations with the Chrome extensions api keyboard shortcuts may not work on all pages and some
+    experimentation may be required.
+  </div>
+  <div class="footnote">
+    &sect; - Apple Mac only.
+  </div>
+
+</div>
+
+</body>
+</html>

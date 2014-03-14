@@ -1,0 +1,76 @@
+[000:000] Cpu: 6.42.7, x4, 3392Mhz, 3948MB
+[000:000] Computer model: Not available
+[000:002] [o1d24620-1] Listening for HELLO.
+[000:009] [o1d24620-1] Shutting down instance.
+[000:009] [o1d24620-1] Client disconnected.
+[006:335] [o1d24620-2] Listening for HELLO.
+[006:362] [o1d24620-2] Client connected.
+[006:362] [o1d24620-2] Registered new shared memory segment at 100
+[006:472] [o1d24620-2] Shutting down instance.
+[006:472] [o1d24620-2] Attached client while shutting down; sending shutdown notification.
+[006:472] [o1d24620-2] Client disconnected.
+[009:674] [o1d24620-3] Listening for HELLO.
+[009:704] [o1d24620-4] Listening for HELLO.
+[009:718] [o1d24620-5] Listening for HELLO.
+[010:688] [o1d24620-3] Client connected.
+[010:688] [o1d24620-3] Registered new shared memory segment at 101
+[010:688] [o1d24620-4] Client connected.
+[010:688] [o1d24620-4] Registered new shared memory segment at 102
+[011:253] [o1d24620-4] Unmapping shared mem: 102
+[011:253] Created new pool buffer at 0x296f58279000, 14400 bytes
+[011:253] [o1d24620-4] Registered new shared memory segment at 103
+[011:435] [o1d24620-4] Sending rendering size change: 175x100
+[011:487] [o1d24620-4] Unmapping shared mem: 103
+[011:487] Created new pool buffer at 0x296f5827d000, 57600 bytes
+[011:487] [o1d24620-4] Registered new shared memory segment at 104
+[011:539] [o1d24620-3] Sending rendering size change: 1677x944
+[011:594] [o1d24620-4] Unmapping shared mem: 104
+[011:594] [o1d24620-4] Registered new shared memory segment at 105
+[011:662] [o1d24620-3] Unmapping shared mem: 101
+[011:662] Created new pool buffer at 0x296f58366000, 921600 bytes
+[011:663] [o1d24620-3] Registered new shared memory segment at 106
+[049:122] [o1d24620-4] Unmapping shared mem: 105
+[049:123] Created new pool buffer at 0x296f5828e000, 129600 bytes
+[049:124] [o1d24620-4] Registered new shared memory segment at 107
+[056:662] [o1d24620-4] Unmapping shared mem: 107
+[056:662] Created new pool buffer at 0x296f582ae000, 230400 bytes
+[056:663] [o1d24620-4] Registered new shared memory segment at 108
+[134:909] [o1d24620-3] Sending rendering size change: 1449x816
+[138:976] [o1d24620-3] Unmapping shared mem: 106
+[138:976] Created new pool buffer at 0x296f58459000, 2073600 bytes
+[138:979] [o1d24620-3] Registered new shared memory segment at 109
+[138:979] [o1d24620-4] Unmapping shared mem: 108
+[138:979] Created new pool buffer at 0x296f58654000, 518400 bytes
+[138:980] [o1d24620-4] Registered new shared memory segment at 110
+[149:906] [o1d24620-3] Sending rendering size change: 1451x817
+[150:027] [o1d24620-3] Sending rendering size change: 1471x828
+[150:143] [o1d24620-3] Sending rendering size change: 1487x837
+[190:063] [o1d24620-5] Client connected.
+[190:063] [o1d24620-5] Registered new shared memory segment at 111
+[191:373] [o1d24620-5] Unmapping shared mem: 111
+[191:373] Created new pool buffer at 0x296f582e7000, 32640 bytes
+[191:373] [o1d24620-5] Registered new shared memory segment at 112
+[192:873] [o1d24620-5] Sending rendering size change: 177x100
+[218:471] [o1d24620-6] Listening for HELLO.
+[218:500] [o1d24620-6] Client connected.
+[218:500] [o1d24620-6] Registered new shared memory segment at 113
+[223:399] [o1d24620-6] Sending rendering size change: 1487x837
+[223:399] [o1d24620-6] Unmapping shared mem: 113
+[223:399] Created new pool buffer at 0x296f586d3000, 2073600 bytes
+[223:401] [o1d24620-6] Registered new shared memory segment at 114
+[306:118] [o1d24620-6] Sending rendering size change: 944x531
+[306:119] [o1d24620-3] Sending rendering size change: 944x531
+[311:794] [o1d24620-6] Sending rendering size change: 1487x837
+[311:794] [o1d24620-3] Sending rendering size change: 1487x837
+[321:954] [o1d24620-3] Shutting down instance.
+[321:954] [o1d24620-3] Attached client while shutting down; sending shutdown notification.
+[321:954] [o1d24620-3] Client disconnected.
+[321:955] [o1d24620-6] Shutting down instance.
+[321:955] [o1d24620-6] Attached client while shutting down; sending shutdown notification.
+[321:956] [o1d24620-6] Client disconnected.
+[322:317] [o1d24620-4] Shutting down instance.
+[322:317] [o1d24620-4] Attached client while shutting down; sending shutdown notification.
+[322:317] [o1d24620-4] Client disconnected.
+[322:317] [o1d24620-5] Shutting down instance.
+[322:317] [o1d24620-5] Attached client while shutting down; sending shutdown notification.
+[322:317] [o1d24620-5] Client disconnected.

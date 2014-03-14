@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "Veraltet. Bitte verwenden Sie stattdessen die Erweiterung Google Input Tools, die unter http://goo.gl/lzCPo verf\u00FCgbar ist."
+   },
+   "vkbd_name": {
+      "message": "Eingestellt: Virtuelle Tastatur (von Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Optionen der Erweiterung \"Virtuelle Tastatur\""
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "W\u00E4hlen Sie aus den links angezeigten Tastatur-Layouts aus:"
+   },
+   "vkbd_save_options": {
+      "message": "Speichern"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Tastatur ein-/ausblenden"
+   }
+}

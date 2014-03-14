@@ -1,0 +1,85 @@
+<html>
+<style>
+
+body {
+margin:15px;
+background: #eee;
+font-family:arial;
+font-size: 12px;
+}
+
+div{
+background: #fff;
+margin: 0px auto;
+width: 900px;
+background: #fff;
+margin: 0px auto;
+width: 90%;
+max-width: 660px;
+padding: 0px;
+-webkit-border-radius: 10px;
+padding: 10px 30px;
+}
+
+
+p {
+display:block;
+color: #666;
+}
+
+b{
+font-size:16px;
+color: #333;
+}
+
+img {
+max-width: 100%;
+margin: 10px 0px;
+ -webkit-box-shadow:0px 0px 4px #666;
+}
+
+br{
+clear:both;
+}
+</style>
+<body onload="document.f.close.options[localStorage['closechange']].selected=true; document.f.count.options[localStorage['showcount']].selected=true; document.f.countw.options[localStorage['showcountw']].selected=true;">
+<div>
+<form name='f'>
+<p>
+<h1><img src="icon_19.png" style="margin-bottom:-2px; margin-right:8px; -webkit-box-shadow:none;">Tabs Plus Options</h1>
+</p>
+<p>
+These are the options of the Tabs Plus extension. You don't need to save, every change will be effective immediately.
+</p>
+
+<p>
+<b>Close Popup after Tab-change?</b><br/>
+<select name="close" onchange="localStorage['closechange']=this.value;">
+  <option value="0">No</option>
+  <option value="1">Yes</option>
+</select>
+* Selecting "No" has no effect on Windows versions of Chrome 
+</p>
+
+<p>
+<b>Show open tab count?</b><br/>
+<select name="count" onchange="localStorage['showcount']=this.value; chrome.extension.getBackgroundPage().update();">
+  <option value="0">Yes</option>
+  <option value="1">No</option>
+</select>
+</p>
+
+
+<p>
+<b>Show open window count?</b><br/>
+<select name="countw" onchange="localStorage['showcountw']=this.value; chrome.extension.getBackgroundPage().update();">
+  <option value="0">Yes</option>
+  <option value="1">No</option>
+</select>
+</p>
+
+
+</form>
+</div>
+</body>
+</html>

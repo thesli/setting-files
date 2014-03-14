@@ -1,0 +1,478 @@
+@include 'lionbars.css';
+HTML, BODY {
+	height: 100%;
+	margin: 0px;
+	/* fallback */
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#CCCCCC));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #FFFFFF, #CCCCCC);
+	overflow: hidden;
+}
+@font-face {
+	font-family: 'Quattrocento Sans';
+	src: url('fonts/quattrocentosans-regular-webfont.eot');
+	src: url('fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/quattrocentosans-regular-webfont.woff') format('woff'), url('fonts/quattrocentosans-regular-webfont.ttf') format('truetype'), url('fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#wrapper {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+#accordion {
+	height: 90%;
+}
+#footer {
+	height: 10%;
+}
+#footer img {
+	padding-top: 10px;
+	padding-left: 30px;
+}
+.blackGradient {
+	color: #FFFFFF;
+	/* fallback */
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#252525));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #000000, #252525);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #000000, #252525);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #000000, #252525);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #000000, #252525);
+}
+h1, h2, h3, h4, h5, h6, p {
+	line-height: 1.3;
+	text-shadow: rgba(255,255,255,0.4) 1px 1px 0px;
+	z-index: 600;
+	position: relative;
+}
+h1, h2 {
+	font-size: 40px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: normal;
+}
+h3 {
+	font-size: 23px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: normal;
+}
+h4 {
+	font-size: 18px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: normal;
+}
+p {
+	font-size: 17px;
+	padding-top: 10px;
+}
+.easy-accordion {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+	margin: 0
+}
+.easy-accordion dt, .easy-accordion dd {
+	margin: 0;
+	padding: 0
+}
+.easy-accordion dt, .easy-accordion dd {
+	position: absolute
+}
+.easy-accordion dt {
+	margin-bottom: 0;
+	margin-left: 0;
+	z-index: 5;/* Safari */
+	-webkit-transform: rotate(-90deg); /* Firefox */
+	-moz-transform: rotate(-90deg);
+	-moz-transform-origin: 20px 0px;  /* Internet Explorer */
+	filter: progid :DXImageTransform.Microsoft.BasicImage(rotation=3);
+	cursor: pointer;
+}
+.easy-accordion dd {
+	z-index: 1;
+	opacity: 0;
+	overflow: hidden
+}
+.easy-accordion dd.active {
+	opacity: 1;
+}
+.easy-accordion dd.no-more-active {
+	z-index: 2;
+	opacity: 1
+}
+.easy-accordion dd.active {
+	z-index: 3
+}
+.easy-accordion dd.plus {
+	z-index: 4
+}
+.easy-accordion .slide-number {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	font-weight: normal;
+	font-size: 1.1em;/* Safari */
+	-webkit-transform: rotate(90deg); /* Firefox */
+	-moz-transform: rotate(90deg);  /* Internet Explorer */
+	filter: progid :DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+dd p {
+	line-height: 120%
+}
+#accordion {
+	width: 100%;
+	height: 90%;/*	display:none;
+	 */
+}
+#accordion dl {
+	width: 100%;
+	height: 100%;/*	display:none;
+	 */
+}
+#accordion dt {
+	height: 46px;
+	line-height: 44px;
+	text-align: right;
+	padding: 0 15px 0 0;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #26526c;
+	background-color: #000000;
+}
+#accordion dt.active {
+	cursor: pointer;
+	color: #CCC;
+}
+#accordion dt.hover {
+	color: #68889b;
+}
+#accordion dt.active.hover {
+	color: #fff
+}
+#accordion dd {
+	border-left: 0;
+	margin-right: 3px;
+	/* fallback */
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#CCCCCC));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #FFFFFF, #CCCCCC);
+	clear: both;
+}
+#accordion .slide-number {
+	color: #68889b;
+	font-weight: bold
+}
+#accordion .active .slide-number {
+	color: #fff;
+}
+#accordion .more {
+	padding-top: 10px;
+	display: block
+}
+.HD {
+	color: #990000 !important;
+}
+.Classic {
+}
+.ALT {
+	color: #690 !important;
+}
+.Mobile {
+	color: #C36 !important;
+}
+.listItems {
+	width: 25%;
+	float: left;
+	overflow-y: auto;
+}
+.itemContainer {
+	width: 75%;
+	height: 100%;
+	float: left;
+	overflow-y: auto;
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-shadow: rgba(255,255,255,0.4) 1px 1px 0px;
+	line-height: 20px;
+}
+.itemContainer .inner {
+	padding: 10px;
+}
+.itemContainer img {
+	-moz-box-shadow: 3px 3px 2px #CCC; /* Firefox/Mozilla */
+	-webkit-box-shadow: 3px 3px 2px #CCC; /*Safari/Chrome */
+	box-shadow: 3px 3px 2px #CCC; /* Opera & hoe het zou moeten */
+	/* Voor IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CCCCCC')";
+	/* Voor IE 5.5 - 7 */
+	filter: progid :DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CCCCCC');
+	border: 0px;
+}
+.shadow {
+	-moz-box-shadow: 3px 3px 3px #66; /* Firefox/Mozilla */
+	-webkit-box-shadow: 3px 3px 3px #666; /*Safari/Chrome */
+	box-shadow: 3px 3px 3px #666; /* Opera & hoe het zou moeten */
+	/* Voor IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#66')";
+	/* Voor IE 5.5 - 7 */
+	filter: progid :DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#666');
+	border: 0px;
+}
+.itemContainer a {
+	color: #036;
+}
+.itemContainer a:hover {
+}
+.itemContainer p {
+	display: block;
+}
+.itemContainer blockquote p {
+	font-style: italic;
+	background-color: #FFF;
+	padding: 4px;
+}
+.itemContainer h2 {
+	margin: 0;
+}
+.itemContainer small {
+	color: #999;
+	text-shadow: rgba(255,255,255,0.4) 1px 1px 0px;
+}
+.lightGradient {
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#CCCCCC));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #FFFFFF, #CCCCCC);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #FFFFFF, #CCCCCC);
+}
+.listItem {
+	display: block;
+	clear: both;
+	width: 100%;
+}
+.listItem a {
+	color: #000;
+	text-decoration: none;
+}
+.listItem a:hover {
+	color: #FFF;
+}
+.listItem:hover {
+	background: #333333;
+	color: #666;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #999, #666);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #999, #666);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #999, #666);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #999, #666);
+}
+.listItem .itemThumb {
+	float: left !important;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.listItem h4 {
+	padding: 0px;
+	margin: 0px;
+	float: left !important;
+	display: compact !important;
+	width: 300px;
+	padding: 5px 0px 5px 5px;
+}
+.listItems .selected, .listItems .selected a {
+	color: #FFFFFF !important;
+	background-color: #999999;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#CCCCCC));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #999, #CCCCCC);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #999, #CCCCCC);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #999, #CCCCCC);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #999, #CCCCCC);
+}
+#logo {
+	float: left;
+}
+#buttons {
+	float: right;
+	margin-right: 30px;
+	margin-top: 25px;
+}
+#infoBtn {
+	width: 32px;
+	height: 32px;
+	background-image: url(img/info.png);
+	opacity: 0.7;
+	cursor: pointer;
+}
+#infoBtn:hover {
+	opacity: 0.8;
+}
+.closeBtn {
+	width: 20px;
+	height: 20px;
+	background-image: url(img/closeBtn.png);
+	opacity: 0.8;
+	cursor: pointer;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.closeBtn:hover {
+	opacity: 1;
+}
+#about {
+	display: none;
+	position: absolute;
+	height: 300px;
+	width: 450px;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -175px;
+	opacity: 0.97;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#333));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #999, #333);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #999, #333);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #999, #333);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #999, #333);
+	z-index: 999;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.innerAbout {
+	padding: 15px;
+	color: #FFF;
+	float: left;
+	width: 390px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-shadow: rgba(255,255,255,0.4) 1px 1px 0px;
+}
+.innerAbout h3 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.innerAbout p {
+	padding: 0px !important;
+	padding-top: 10px !important;
+	margin: 0px;
+	color: #000;
+}
+.innerAbout a {
+	color: #000;
+	text-decoration: none;
+	opacity: 1;
+}
+.innerAbout a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+#offline {
+	display: none;
+	position: absolute;
+	height: 300px;
+	width: 450px;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -175px;
+	opacity: 0.97;
+	background-repeat: repeat-x;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#333));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #999, #333);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #999, #333);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #999, #333);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #999, #333);
+	z-index: 999;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.innerAbout {
+	padding: 15px;
+	color: #FFF;
+	float: left;
+	width: 390px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-shadow: rgba(255,255,255,0.4) 1px 1px 0px;
+}
+.innerAbout h3 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.innerAbout p {
+	padding: 0px !important;
+	padding-top: 10px !important;
+	margin: 0px;
+	color: #000;
+}
+.innerAbout a {
+	color: #000;
+	text-decoration: none;
+	opacity: 1;
+}
+.innerAbout a:hover {
+	color: #000;
+	text-decoration: underline;
+}

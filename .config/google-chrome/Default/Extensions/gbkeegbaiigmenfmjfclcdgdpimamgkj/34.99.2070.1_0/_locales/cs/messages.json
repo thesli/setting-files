@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Další informace"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Nahlaste nám problém a pomozte tím s jeho řešením."
+   },
+   "app_nacl_crash_report": {
+      "message": "Nahlásit problém..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Jejda. To se nemělo stát."
+   },
+   "app_nacl_error_msg": {
+      "message": "Při načítání aplikace došlo k potížím."
+   },
+   "app_nacl_error_title": {
+      "message": "Soubor nelze otevřít."
+   },
+   "application_description": {
+      "message": "Úprava dokumentů"
+   },
+   "file_loading_spinner_label": {
+      "message": "Načítání"
+   },
+   "file_not_found_msg": {
+      "message": "Požadovaný soubor se někam poděl."
+   },
+   "file_not_found_title": {
+      "message": "Soubor nebyl nalezen."
+   }
+}

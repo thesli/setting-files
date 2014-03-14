@@ -1,0 +1,206 @@
+{
+   "addLink": {
+      "message": "Send tab/link to Startpage"
+   },
+   "addLinkMenu": {
+      "message": "Enable 'Send tab/link to Startpage' menu"
+   },
+   "advancedOptionsBtn": {
+      "message": "Opciones Avanzadas"
+   },
+   "backToParentText": {
+      "message": "Volver"
+   },
+   "backgroundColorCustomTips": {
+      "message": "O puedes elegir un fondo personalizado:"
+   },
+   "backgroundColorOptionTitle": {
+      "message": "Color de fondo"
+   },
+   "backgroundColorSelectionTips": {
+      "message": "Selecciona un color para el tema:"
+   },
+   "bookmarkBarHelpContent": {
+      "message": "Esta zona muestra los elementos de su barra de marcadores, las carpetas no se muestran."
+   },
+   "bookmarkBarHelpDismiss": {
+      "message": "[Cerrar]"
+   },
+   "bookmarkBrowserHelp": {
+      "message": "Este panel te permite navegar r\u00E1pidamente por sus marcadores. Puedes arrastrar los m\u00E1s importantes al panel de la derecha."
+   },
+   "bookmarkBrowserPin": {
+      "message": "Mostrar como principal"
+   },
+   "bookmarkBrowserTitle": {
+      "message": "Marcadores"
+   },
+   "bookmarkBrowserTop": {
+      "message": "Inicio"
+   },
+   "bookmarkControlsHelpDismiss": {
+      "message": "[Close]"
+   },
+   "bookmarkControlsHelpMsg": {
+      "message": "Puedes personalizar la carpeta que se mostrar\u00E1 en el panel de la derecha - navega a la carpeta y pulsa sobre 'Mostrar como principal'."
+   },
+   "chromeBuggedText": {
+      "message": "Los marcadores de Google Chrome no est\u00E1n listos a\u00FAn. Por favor, cierre esta pesta\u00F1a y abra la p\u00E1gina de inicio en una nueva pesta\u00F1a ."
+   },
+   "chromeSyncBug": {
+      "message": "Esta versi\u00F3n de Google Chrome no soporta la sincronizaci\u00F3n."
+   },
+   "clearClosedText": {
+      "message": "Borrar"
+   },
+   "closeBtn": {
+      "message": "Cancelar"
+   },
+   "columnInAppLabel": {
+      "message": "Mostrar 3 columnas en 'Mis aplicaciones'"
+   },
+   "columnInBookmarkLabel": {
+      "message": "Mostrar 3 columnas en 'Mis marcadores'"
+   },
+   "columnInTopLabel": {
+      "message": "Show 3 columns in 'Most Visited'"
+   },
+   "confirm_uninstall": {
+      "message": "\u00BFEst\u00E1 seguro que desea desinstalar '$title$' ?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "[The name of the webapp]"
+         }
+      }
+   },
+   "contactUs": {
+      "message": "Contacta con nosotros en"
+   },
+   "customWallpaperLabel": {
+      "message": "Utilizar fondo de pantalla personalizada"
+   },
+   "defaultNotepadText": {
+      "message": "Gracias por instalar\nIncredible StartPage!\n \nThis es su bloc de notas. \u00A1Puedes tomar sus notas aqu\u00ED!"
+   },
+   "description": {
+      "message": "Una nueva p\u00E1gina personalizable para Chrome. Encuentra f\u00E1cilmente sus marcadores favoritos y pesta\u00F1as cerradas. Toma notas mientras navegas."
+   },
+   "existingBmLabel": {
+      "message": "Check this to overwrite current notepad content"
+   },
+   "fileWarning": {
+      "message": "La imagen es demasiado grande! Por favor, elija otra!"
+   },
+   "fontColorOptionTitle": {
+      "message": "Color de la fuente"
+   },
+   "fontColorSelectionTips": {
+      "message": "Selecciona el color de la fuenta:"
+   },
+   "gmailAccount": {
+      "message": "Cuenta de Google"
+   },
+   "googleAppsAccount": {
+      "message": "Cuenta de Google Apps, Dominio"
+   },
+   "googleAppsAccountDescription": {
+      "message": "Introduce s\u00F3lo su dominio de Google Appls sin \"www\", por ejemplo: visibotech.com"
+   },
+   "incredibleStartPage": {
+      "message": "Incredible StartPage"
+   },
+   "incredibleStartPageDescription": {
+      "message": "Incredible StartPage reemplaze su p\u00E1gina de inicio por defecto con una vista personalizable de sus marcadores, recordatorios y pesta\u00F1as recientes.\u003Cbr\u003E\u003Ca href='http://blog.visibotech.com/p/incredible-startpage.html'\u003EHaz clic aqu\u00ED\u003C/a\u003E para conocerlo."
+   },
+   "maximumRecentlyClosedTabs": {
+      "message": "M\u00E1ximo de pesta\u00F1as cerradas recientemente"
+   },
+   "message": {
+      "message": "URL de la imagen"
+   },
+   "name": {
+      "message": "Incredible StartPage - P\u00E1gina de inicio productivo para Chrome!"
+   },
+   "noColumnsLabel": {
+      "message": "N\u00FAmero de columnas"
+   },
+   "notRememberClosedTabs": {
+      "message": "0 (No recordar pesta\u00F1as cerradas)"
+   },
+   "noteUpdatedAtOtherPlacesText": {
+      "message": "esta nota ha sido actualizada desde otros lugares, por favor vuelva a cargar esta p\u00E1gina."
+   },
+   "notepadFont": {
+      "message": "Fuente del bloc de notas"
+   },
+   "notepadSync": {
+      "message": "Sincronizar bloc de notas"
+   },
+   "notepadSyncDescription": {
+      "message": "Sincronizar el contenido del bloc de notas con su cuenta de Google"
+   },
+   "notepadSyncDescription2": {
+      "message": "La sincronizaci\u00F3n de marcadores de Google Chrome debe estar activada, hacer clic a [\u003Ca href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'\u003Ehere\u003C/a\u003E] para m\u00E1s informaci\u00F3n"
+   },
+   "option": {
+      "message": "Opciones"
+   },
+   "optionsEffect": {
+      "message": "Los cambios se har\u00E1n efectivos cuando vuelva a cargar su p\u00E1gina de inicio."
+   },
+   "optionsSaved": {
+      "message": "Guardado"
+   },
+   "optionsTitle": {
+      "message": "Opciones"
+   },
+   "pagetitle": {
+      "message": "Opciones de Incredible StartPage"
+   },
+   "postTo": {
+      "message": "Enviar a"
+   },
+   "promptRename": {
+      "message": "Renombrar t\u00EDtulo"
+   },
+   "recentlyClosedTitle": {
+      "message": "Cerrado"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "saveBtn": {
+      "message": "Guardar"
+   },
+   "shareNotepadTo": {
+      "message": "Postear notas en"
+   },
+   "shareToCalendar": {
+      "message": "Calendario"
+   },
+   "shareToMail": {
+      "message": "Gmail"
+   },
+   "toggleOptionsBtn": {
+      "message": "Opciones del tema"
+   },
+   "topSitesLabel": {
+      "message": "Show 'Most Visited' Tab"
+   },
+   "uninstallApp": {
+      "message": "Desinstalar"
+   },
+   "useLocalLabel": {
+      "message": "Archivo local (~1024px de ancho, formato jpg & tama\u00F1o m\u00E1ximo 500K):"
+   },
+   "wallpaperOptionTitle": {
+      "message": "Fondos de pantalla"
+   },
+   "wallpaperThemeCustomTips": {
+      "message": "O usa un gradiente como fondo:"
+   },
+   "wallpaperThemeSelectionTips": {
+      "message": "Elige un fondo de pantalla para el tema:"
+   }
+}

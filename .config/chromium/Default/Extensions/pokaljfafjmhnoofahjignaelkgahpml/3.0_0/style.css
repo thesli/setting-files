@@ -1,0 +1,86 @@
+/* Global Styles */
+*{ font-family:Verdana, sans-serif; padding:0; margin:0; }
+a{ color:#fff; text-decoration:none; }
+a:hover{ color:#eee; }
+
+/* Styles for popup.html */
+body{ width:518px; background:#fff url('images/background.png'); }
+#track{ height:56px; width:518px; background:url('images/header.png') no-repeat; overflow:hidden; position:relative; }
+#footer{ height:10px; width:518px; background:url('images/footer.png') no-repeat; overflow:hidden; }
+.popText{ overflow:hidden; color:#777; }
+.popText a{ color:#8aabb3; }
+.popText a:hover{ text-decoration:underline; }
+.popText img{ vertical-align:bottom; }
+.popTextL, .popTextR{ display:block; width:249px; margin:10px 0 0 10px; font-size:12px; line-height:16px; float:left; }
+.popTextR{ text-align:right; margin:10px 10px 0 0; }
+
+
+	/* Popup menu styles */
+	.incList{ background:url('images/icons.png') no-repeat; background-position:-80px -316px; }
+	.incList:hover, .incSelect{ background-position:-80px -336px; }
+	
+	/* Player styles */
+	#tInfo{ width:324px; padding-top:5px; margin:0 5px 0 125px; overflow:hidden; }
+	#tSharing{ width:48px; position:absolute; top:14px; right:10px; font-size:11px; line-height:11px; color:#fff; text-align:center; }
+	.networks{ margin-top:3px; width:48px; height:14px; overflow:hidden; }
+	.networks a{ float:left; margin-left:3px; width:14px; height:14px; }
+	.networks a:first-child{ margin:0; }
+	h3{ padding:0; margin:0; font-size:18px; line-height:24px; font-weight:bold; }
+	#playing{ width:474px; float:left; }
+	#player{ margin-left:10px; width:465px; height:30px; position:relative; overflow:hidden; }
+	#waveform{ position:absolute; top:10px; left:70px; width:347px; height:10px; background:#9dc3cc; }
+	#buffering{ position:absolute; top:0; left:0; width:0; height:10px; background:#8aabb3; }
+	#progress{ top:0; left:0; position:absolute; width:0; height:10px; background:url('images/progress.png'); overflow:hidden; }
+	#loading{ position:absolute; top:0; left:0; width:347px; height:10px; background:url('images/loading.gif'); }
+	.playPauseC{ width:13px; height:16px; padding-top:7px; }
+	#playPause{ display:block; width:13px; height:16px; }
+	a.play, a.play:hover{ background:url('images/buttons.png'); background-position:36px 0; }
+	a.play:hover{ background-position: 13px 0; }
+	a.pause, a.pause:hover{ background:url('images/buttons.png'); }
+	a.pause:hover{ background-position: 59px 0; }
+	#time, #total{ position:absolute; top:8px; left:13px; width:57px; text-align:center; color:#333; font-size:12px; line-height:12px; }
+	#total{ left:406px; text-align:right; }
+	
+	/* Playlist styles */
+	#tracks{ padding:0; margin-left:10px; list-style-type:none; display:block; height:210px; width:496px; overflow-x:hidden; overflow-y:auto; border:1px solid #3c5e6b; font-size:12px; }
+	#tracks li{ margin:0; padding:3px 9px; white-space:nowrap; color:#fff; }
+	#tracks li a{ padding: 3px 500px 3px 0; }
+	#tracks li.odd{ background-color:#598a9e; }
+	#tracks li.even{ background-color:#4a7485; }
+	#tracks li.active, #tracks li:hover{ background-color:#6eacc4; }
+	#tracks li.active a, #tracks li:hover a{ color:#fff; }
+	
+	/* Notification styles */
+	#message{ padding-bottom:5px; }
+	#message p{ padding:10px 10px 0 10px; margin:0; font-size:13px; line-height:16px; }
+	#notification { font-size:13px; }
+	
+	/* Volume slider styles */
+	#volumecontrol{ margin:10px 0 0 10px; width:25px; height:10px; position:relative; float:left; }
+	#volume{ width:25px; }
+	.ui-slider-horizontal{ background:#9dc3cc; height:10px; border-radius:0; border:0; }
+	.ui-slider-range-min{ background:url('images/progress.png'); }
+	.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background:transparent; }
+	.ui-slider-handle{ display:none; background:transparent; }
+	#cone{ width:25px; height:10px; position:absolute; top:0; left:0; background:url('images/cone.png'); z-index:2; pointer-events:none; }
+	
+	/* Ad styles */
+	#ad{ max-width:468px; max-height:60px; margin:10px auto 0 auto; }
+	
+	/* Hidden div for jQuery access */
+	#access { display:none; }
+
+/* Styles for options.html */
+body.options{ margin:0; padding:0; background:#fff; width:100%; }
+#wrap{ width:518px; margin:10px auto 0 auto; background:url('images/background.png'); }
+#header{ width:518px; height:56px; background:url('images/header.png') no-repeat; overflow:hidden; position:relative; }
+#header h1, #message h1{ padding:0; margin:0; font-size:18px; line-height:24px; color:#fff; font-weight:bold; position:absolute; top:16px; left:125px; }
+.center{ width:518px; margin:0 auto; font-size:13px; line-height:16px; }
+.left{ float:left; width:236px; padding-right:3px; text-align:right; }
+.right{ float:left; width:276px; padding-left:3px; }
+.option{ overflow:hidden; padding-top:10px; }
+.save{ text-align:center; padding-top:10px; }
+input{ font-size:13px; line-height:16px; height:16px; font-weight:bold; padding:0; vertical-align:middle; }
+button{ padding:3px 10px; }
+#errors, #saved{ color:#ad0000; padding-top:10px; text-align:center; }
+#saved{ color:#00ad08; }

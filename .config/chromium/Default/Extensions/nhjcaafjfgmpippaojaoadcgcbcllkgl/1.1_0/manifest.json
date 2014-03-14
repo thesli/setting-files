@@ -1,0 +1,16 @@
+{
+   "background_page": "background.html",
+   "description": "Adds support for Multi Touch gestures for all elements on the currently viewed page.",
+   "icons": {
+      "128": "icon128.gif"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6gr5fXDxl3PIpX7OIzrrcXXtW8f67f5goIJptvMxXwswJsOfWSwlU/CIX5DBESro5fTAzu74QutvK7TObBpR7RcjLY4lJ4M0eCl4O4q0u9n1K5RzPRubcaMJE5wswDCcWnOsf/ER0XwFV/FnsZLH5lx0codhlfulDRDGLVewDfQIDAQAB",
+   "name": "MultiTouch",
+   "page_action": {
+      "default_icon": "icon19.gif",
+      "default_title": "MultiTouch"
+   },
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

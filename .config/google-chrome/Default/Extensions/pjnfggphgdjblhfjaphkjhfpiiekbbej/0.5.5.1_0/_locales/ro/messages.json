@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "ro"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Aceast\u0103 extensie nu poate face sugestii pentru acest tip de pagini, care au con\u0163inut securizat (de ex., http\u003Cb\u003Es\u003C/b\u003E://). Ne revedem \u00EEn re\u0163eaua web public\u0103!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Aceast\u0103 extensie func\u0163ioneaz\u0103 cel mai bine pe paginile de pornire sau pe paginile principale ale majorit\u0103\u0163ii site-urilor web.\u003Cp\u003E\u00CEncerca\u0163i extensia pe un site web care v\u0103 place deja &mdash; testa\u0163i-o \u015Fi vede\u0163i sugestiile din pagin\u0103 referitoare la ceva care cunoa\u015Fte\u0163i deja."
+   },
+   "sp_default_title": {
+      "message": "Google Pagini cu con\u0163inut similar"
+   },
+   "sp_description": {
+      "message": "Descoperi\u0163i pagini web similare cu cea pe care v\u0103 afla\u0163i \u00EEn prezent."
+   },
+   "sp_domain_change_message": {
+      "message": "Pentru a schimba domeniul dvs. local \u00EEn www.google.com, \u003Ca id='over' href='#'\u003Eface\u0163i clic aici\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com a fost salvat ca domeniu local pentru preluarea paginilor similare."
+   },
+   "sp_domain_message": {
+      "message": "Extensia va contacta $1 pentru a prelua lista paginilor similare.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Num\u0103r de pagini: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EDespre Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Vom primi cu pl\u0103cere orice fel de feedback pe care dori\u0163i s\u0103 ni-l transmite\u0163i la \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. V\u0103 mul\u0163umim!"
+   },
+   "sp_options_intro": {
+      "message": "Extensia pentru browsere Google Similar Pages v\u0103 permite s\u0103 previzualiza\u0163i \u015Fi s\u0103 explora\u0163i rapid alte pagini similare cu cea pe care naviga\u0163i. Din mers!"
+   },
+   "sp_options_legal": {
+      "message": "Dac\u0103 face\u0163i clic pe butonul Pagini cu con\u0163inut similar, browserul va trimite o interogare de c\u0103utare c\u0103tre Google pentru a verifica dac\u0103 exist\u0103 pagini cu con\u0163inut similar cu al celei afi\u015Fate.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EDatele asociate cu interogarea vor fi gestionate conform \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epoliticii de confiden\u0163ialitate\u003C/a\u003E Google",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPolitica de confiden\u0163ialitate\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETermeni \u015Fi condi\u0163ii\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Dezinstala\u0163i"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Pentru a dezinstala Google Similar Pages, utiliza\u0163i meniul Instrumente &gt; Extensii din Chrome \u015Fi face\u0163i clic pe linkul Dezinstala\u0163i pentru extensia Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Vizualizarea\u003Cbr\u003Enu este disponibil\u0103"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (de la Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.ro"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "\u00CEn prezent extensia nu este disponibil\u0103 pentru \u0163ara/regiunea dvs. Reveni\u0163i cur\u00E2nd."
+   },
+   "sp_zero_results": {
+      "message": "Nu au fost g\u0103site pagini similare."
+   }
+}

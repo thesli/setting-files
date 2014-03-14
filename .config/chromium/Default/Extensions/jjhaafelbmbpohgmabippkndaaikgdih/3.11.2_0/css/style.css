@@ -1,0 +1,644 @@
+html {
+	font-family: Arial;
+	font-size:14px;
+	color:#222;
+	min-width:800px;
+	min-height:600px;
+	overflow:hidden;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	background:#FFF url(../images/bg.png) fixed top repeat-x;
+}
+
+
+
+/* HEADER */
+
+#header {
+	position:relative;
+	height:100px;
+	box-shadow: 1px 1px 3px #555;
+	z-index:20;
+	background:url(../images/logo128.png) no-repeat;
+	background-size:auto 64px;
+	background-position:20px 18px;
+	margin-bottom:5px;
+}
+
+#topmenu {
+	position:absolute;
+	top:15px;
+	left:100px;
+}
+
+#stats {
+	position:absolute;
+	line-height:20px;
+	right:20px;
+	top:10px;
+	font-size:16px;
+	text-align:right;
+}
+
+#stats .dl {
+	color:#76cc1e;
+}
+
+#stats .ul {
+	color:#00baff;
+}
+/* BOTTOM MENU */
+
+#filters {
+	position:absolute;
+	top:60px;
+	left:100px;
+}
+
+#filters #labels, #filters #status, #filters #order {
+	float:left;
+	padding-left:25px;
+	margin-right:10px;
+}
+
+#filters #labels {
+	background:url(../images/labels2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#filters #status {
+	background:url(../images/status2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#filters #order {
+	background:url(../images/order2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#filters #labels select, #filters #status select, #filters #order select {
+	height:25px;
+	line-height:20px;
+	border:1px solid #777;
+	width:110px;
+}
+
+/* PROPERTIES */
+
+#properties {
+	position:absolute;
+	display:none;
+	top:60px;
+	left:100px;
+}
+
+.loading {
+	background:url(../images/loading.gif) no-repeat left !important;
+	height:15px !important;
+	width:45px !important;
+	margin-left:40px !important;
+}
+
+#properties #dl_rate, #properties #ul_rate {
+	float:left;
+	margin-right:10px;
+	padding-left:25px;
+}
+
+#properties #dl_rate {
+	background:url(../images/down2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#properties #ul_rate {
+	background:url(../images/up2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+#properties #dl_rate select, #properties #ul_rate select {
+	height:25px;
+	line-height:20px;
+	border:1px solid #777;
+	width:90px;
+}
+
+/* TORRENTS, FILES */
+
+
+#torrents {
+	overflow-y:scroll;
+	background:#FFF;
+}
+
+
+/* TORRENT */
+
+.torrent {
+	width:100%;
+	clear:both;
+	text-align:right;
+//	padding-top:5px;
+	border-bottom:1px outset #EEE;
+}
+
+
+/* TORRENT INFOS */
+
+.torrent .infos {
+	cursor:pointer;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.torrent .infos .num, .torrent .morefiles .num {
+	float:left;
+	width:40px;
+	height:40px;
+	padding:5px;
+	text-align:center;
+	line-height:40px;
+	font-size:20px;
+	color:#888;
+}
+
+.torrent .infos .num.favorite {
+	background:url(../images/favorite2.png) no-repeat left;
+	background-size:auto 20px;
+	background-position:15px 30px;
+	margin-left:0px;
+}
+
+.torrent .infos .name, .torrent .morefiles .name {
+	padding:5px;
+	text-align:left;
+}
+
+.torrent .infos .name .labelname {
+	font-size:12px;
+	color:#AAA;
+}
+
+.torrent .infos .status {
+	float:right;
+	text-transform:uppercase;
+	padding:2px;
+	margin-right:10px;
+	font-weight:bold;
+}
+
+.torrent .infos .size, .torrent .morefiles .size {
+	float:left;
+	width:100px;
+	padding:2px;
+	padding-left:15px;
+	text-align:left;
+}
+
+.torrent .infos .percent, .torrent .morefiles .percent {
+	position:relative;
+	float:left;
+	width:20%;
+	background:#DDD;
+	-webkit-border-radius:5px;
+	height:20px;
+}
+
+.torrent .infos .percent .percentage, .torrent .morefiles .percent .percentage {
+	position:relative;
+	z-index:10;
+	color:#555;
+	font-weight:bold;
+	padding:2px;
+	padding-right:10px;
+	text-align:center;
+	font-size:13px;
+}
+
+.torrent .infos .progressbar, .torrent .morefiles .progressbar {
+	position:absolute;
+	height:20px;
+	top:0px;
+	z-index:0;
+	background:#76cc1e;
+	-webkit-border-radius:5px;
+
+}
+
+.torrent .infos .ratiobar {
+	position:absolute;
+	height:20px;
+	top:0px;
+	z-index:0;
+	background:#000;
+	opacity:0.1;
+	-webkit-border-radius:5px;
+}
+
+.torrent .infos .progressbar.blue {
+	background:#00baff !important;
+}
+
+.torrent .infos .eta {
+	float:left;
+	width:50px;
+	padding:2px;
+}
+
+.torrent .infos .downloadSpeed {
+	float:left;
+	width:100px;
+	padding:2px;
+	color:#76cc1e;
+}
+
+.torrent .infos .uploadSpeed {
+	float:left;
+	width:100px;
+	padding:2px;
+	color:#00baff;
+}
+
+/* TORRENT MOREINFOS */
+
+.torrent .moreinfos {
+//	width:730px;
+	padding-left:40px;
+	padding-bottom:10px;
+}
+
+.torrent .moreinfos .buttons {
+	width:375px;
+}
+
+.torrent .moreinfos .infos {
+	text-align:left;
+	color:#555;
+}
+
+.torrent .moreinfos .infos .seeds {
+	float:left;
+	width:125px;
+}
+
+.torrent .moreinfos .infos .peers {
+	float:left;
+	width:125px;
+}
+
+.torrent .moreinfos .infos .ratio {
+	float:left;
+	width:125px;
+}
+
+.torrent .moreinfos .infos .downloaded {
+	float:left;
+	width:175px;
+}
+
+.torrent .moreinfos .infos .uploaded {
+	float:left;
+	width:175px;
+}
+
+.torrent .moreinfos .infos .label {
+	float:left;
+}
+
+/* TORRENT MOREPROPERTIES */
+
+.torrent .moreproperties {
+//	width:730px;
+	text-align:center;
+	padding-left:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background:url(../images/settings2.png) no-repeat left;
+	background-size:45px auto;
+}
+
+.torrent .moreproperties .dl_rate, .torrent .moreproperties .ul_rate, .torrent .moreproperties .labels, .torrent .moreproperties .newlab {
+	float:left;
+	margin-right:10px;
+	padding-left:25px;
+}
+
+.torrent .moreproperties .dl_rate {
+	background:url(../images/down2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+.torrent .moreproperties .ul_rate {
+	background:url(../images/up2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+.torrent .moreproperties .labels, .torrent .moreproperties .newlab {
+	background:url(../images/labels2.png) no-repeat left;
+	background-size:auto 100%;
+}
+
+.torrent .moreproperties .dl_rate select, .torrent .moreproperties .ul_rate select, .torrent .moreproperties .labels select {
+	height:25px;
+	line-height:20px;
+	border:1px solid #777;
+	width:130px;
+}
+
+.torrent .moreproperties .newlab input {
+	padding-left:10px;
+	height:20px;
+	border:1px solid #777;
+	width:200px;
+	border-radius:5px;
+	background:#F8F8F8;
+}
+
+/* TORRENT MOREFILES */
+
+.torrent .morefiles {
+	width:730px;
+	padding-left:40px;
+	padding-top:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background:url(../images/files2.png) no-repeat top left;
+	background-size:45px auto;
+}
+
+.torrent .morefiles .num {
+	font-size:16px;
+}
+
+.torrent .morefiles .name {
+	font-size:14px;
+	font-weight:normal;
+}
+
+.torrent .morefiles .percent {
+	width:300px;
+	margin-top:7px;
+}
+
+.torrent .morefiles .percent .percentage {
+	font-size:10px;
+}
+
+.torrent .morefiles .percent .progressbar {
+	background:#76cc1e;
+	height:4px;
+}
+
+.torrent .morefiles .percent {
+	height:4px;
+}
+
+.torrent .morefiles .prioritym {
+	float:left;
+	width:25px;
+	background:url(../images/minus.png) center no-repeat;
+	background-size:auto 100%;
+	cursor:pointer;
+}
+
+.torrent .morefiles .priorityp {
+	float:left;
+	width:25px;
+	background:url(../images/plus.png) center no-repeat;
+	background-size:auto 100%;
+	cursor:pointer;
+}
+
+.torrent .morefiles .allpriority {
+	text-align:left;
+	margin-left:30px;
+	padding-bottom:10px;
+}
+
+.torrent .morefiles .allpriority select {
+	height:25px;
+	line-height:20px;
+	border:1px solid #777;
+}
+
+.torrent .morefiles .priority {
+	float:left;
+	padding:1px;
+	width:100px;
+}
+
+
+/* BUTTONS */
+
+.button {
+	width:35px;
+	height:35px;
+	float:left;
+	cursor:pointer;
+}
+
+.button.none {
+	width:20px;
+	cursor:auto;
+}
+
+.button.start, .button.play {
+	background:url(../images/start2.png);
+	background-size:cover;
+}
+
+.button.start:hover {
+	background:url(../images/start.png);
+	background-size:cover;
+}
+
+.button.pause {
+	background:url(../images/pause2.png);
+	background-size:cover;
+}
+
+.button.pause:hover {
+	background:url(../images/pause.png);
+	background-size:cover;
+}
+
+.button.stop {
+	background:url(../images/stop2.png);
+	background-size:cover;
+}
+
+.button.stop:hover {
+	background:url(../images/stop.png);
+	background-size:cover;
+}
+
+.button.recheck {
+	background:url(../images/recheck2.png);
+	background-size:cover;
+}
+
+.button.recheck:hover {
+	background:url(../images/recheck.png);
+	background-size:cover;
+}
+
+.button.forcestart {
+	background:url(../images/force2.png);
+	background-size:cover;
+}
+
+.button.forcestart:hover {
+	background:url(../images/force.png);
+	background-size:cover;
+}
+
+.button.remove {
+	background:url(../images/remove2.png);
+	background-size:cover;
+}
+
+.button.remove:hover {
+	background:url(../images/remove.png);
+	background-size:cover;
+}
+
+.button.removedata {
+	background:url(../images/removedata2.png);
+	background-size:cover;
+}
+
+.button.removedata:hover {
+	background:url(../images/removedata.png);
+	background-size:cover;
+}
+
+.button.files {
+	background:url(../images/files2.png);
+	background-size:cover;
+}
+
+.button.files:hover {
+	background:url(../images/files.png);
+	background-size:cover;
+}
+
+.button.plus {
+	background:url(../images/plus2.png);
+	background-size:cover;
+}
+
+.button.plus:hover {
+	background:url(../images/plus.png);
+	background-size:cover;
+}
+
+.button.tab {
+	background:url(../images/tab2.png);
+	background-size:cover;
+}
+
+.button.tab:hover {
+	background:url(../images/tab.png);
+	background-size:cover;
+}
+
+.button.settings {
+	background:url(../images/settings2.png);
+	background-size:cover;
+}
+
+.button.settings:hover {
+	background:url(../images/settings.png);
+	background-size:cover;
+}
+
+.button.properties {
+	background:url(../images/properties2.png);
+	background-size:cover;
+}
+
+.button.properties:hover {
+	background:url(../images/properties.png);
+	background-size:cover;
+}
+
+.button.collapse {
+	background:url(../images/collapse2.png);
+	background-size:cover;
+}
+
+.button.collapse:hover {
+	background:url(../images/collapse.png);
+	background-size:cover;
+}
+
+.button.expand {
+	background:url(../images/expand2.png);
+	background-size:cover;
+}
+
+.button.expand:hover {
+	background:url(../images/expand.png);
+	background-size:cover;
+}
+
+.button.heart {
+	background:url(../images/heart2.png);
+	background-size:cover;
+}
+
+.button.heart:hover {
+	background:url(../images/heart.png);
+	background-size:cover;
+}
+
+.button.notification {
+	background:url(../images/notification2.png);
+	background-size:cover;
+}
+
+.button.notification:hover {
+	background:url(../images/notification.png);
+	background-size:cover;
+}
+
+/* MISC */
+
+.trwhite {
+	background:#FFF;
+}
+
+.trgreen {
+	background:#fafffd;
+}
+
+.fleft {
+	float:left;
+}
+
+.fright {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.hidden {
+	display:none;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.taright {
+	text-align:right;
+}
+
+.tacenter {
+	text-align:center;
+}

@@ -1,0 +1,31 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/stylesheet.js" ],
+      "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*", "http://apps.facebook.com/*", "https://apps.facebook.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/active.js", "js/favicon.js", "js/zoom.js" ],
+      "matches": [ "http://www.facebook.com/*", "https://www.facebook.com/*", "http://apps.facebook.com/*", "https://apps.facebook.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "THIS EXTENSION IS DEPRECATED! Try SocialFixer instead: http://socialfixer.com",
+   "icons": {
+      "128": "img/icons/icon128.png",
+      "16": "img/icons/icon16.png",
+      "48": "img/icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0wupQgdb+Yexv/XA6AwL229FSsFwpGj6TtQMsW5QOzay8UpJ8M3MZdbPZKie4m8x8SgWtdmGEzryA8HSqs6jf5sJ1f7lWGB8Wlcd9wfQqvcNZ34Yu3YPe3dc6v/MunlEeLMKxxU51mwjcDL6l/Am47YxshuSpImb0UR7gnxG+kwIDAQAB",
+   "name": "Minimalist for Facebook\u2122 (DEPRECATED!)",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "img/icons/icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Minimalist for Facebook Options"
+   },
+   "permissions": [ "tabs", "bookmarks", "http://www.facebook.com/*", "https://www.facebook.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.5.21"
+}

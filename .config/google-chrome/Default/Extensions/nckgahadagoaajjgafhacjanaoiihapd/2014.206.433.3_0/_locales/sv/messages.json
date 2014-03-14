@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Det g\u00E5r inte att ansluta till Google. Kontrollera internetanslutningen."
+   },
+   "chrome_ext_description": {
+      "message": "I Hangouts v\u00E4cks konversationerna till liv med foton, emoji och gruppvideosamtal kostnadsfritt."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Kommentarer"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Skicka feedback"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "har bjudit in dig till ett gruppvideosamtal i en Hangout"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Skicka feedback"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Inte inloggad"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Placera Hangouts ovanp\u00E5 andra f\u00F6nster"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "vill ha ett videosamtal med dig via Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Till\u00E5t bakgrundsl\u00E4ge"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Logga in p\u00E5 Hangouts n\u00E4r Chrome startar"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Status: Ansluten\nMissade meddelanden"
+   },
+   "quasar_answer_button_text": {
+      "message": "Svara"
+   },
+   "quasar_button_apply": {
+      "message": "Verkst\u00E4ll"
+   },
+   "quasar_button_cancel": {
+      "message": "Avbryt"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 s\u00E4ger...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Klicka f\u00F6r att \u00F6ppna sidan..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Tacka nej"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Avbryt"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Plattform:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Sekretessmeddelande"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Beskrivning, produktinformation, \u00F6vrig information och din e-postadress skickas till Google. L\u00E4s anv\u00E4ndarvillkoren f\u00F6r Google Feedback. Genom att skicka det h\u00E4r inneh\u00E5llet ger du Google r\u00E4tten att anv\u00E4nda inneh\u00E5llet f\u00F6r att f\u00F6rb\u00E4ttra v\u00E5ra produkter och tj\u00E4nster. L\u00E4s v\u00E5r sekretesspolicy."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Skicka feedback"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Systeminformation"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Anv\u00E4ndaragent:"
+   },
+   "quasar_group_chat_title": {
+      "message": "Fr\u00E5n gruppchatt..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 deltar i en Hangout",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Hj\u00E4lp"
+   },
+   "quasar_label_all_notification": {
+      "message": "Inaktivera meddelanden"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Inaktivera chattmeddelanden"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "L\u00E4ngd p\u00E5 tidsgr\u00E4nsen (i sekunder):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Till\u00E5t att chattmeddelanden uppn\u00E5r tidsgr\u00E4nsen automatiskt"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Visa ikonen i systemf\u00E4ltet"
+   },
+   "quasar_legend_notifications": {
+      "message": "meddelanden"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Program"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Feedback"
+   },
+   "quasar_menutext_quit": {
+      "message": "Avsluta"
+   },
+   "quasar_menutext_settings": {
+      "message": "Alternativ"
+   },
+   "quasar_menutext_signout": {
+      "message": "Logga ut"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Ok\u00E4nt"
+   },
+   "quasar_sign_in": {
+      "message": "Logga in"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Logga in och b\u00F6rja prata med dina v\u00E4nner"
+   },
+   "quasar_tip_connected": {
+      "message": "Status: Ansluten"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: Ansluter"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Status: Fr\u00E5nkopplad"
+   },
+   "quasar_tip_not_load": {
+      "message": "Status: Fel vid inl\u00E4sning"
+   },
+   "quasar_tip_not_login": {
+      "message": "Status: Inte inloggad"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Status: \u00C5teransluter"
+   },
+   "quasar_try_now": {
+      "message": "Testa nu"
+   },
+   "quasar_video_details": {
+      "message": "ringer dig med videochatten"
+   },
+   "quasar_video_title": {
+      "message": "Videosamtal fr\u00E5n $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "ringer dig"
+   },
+   "quasar_voice_title": {
+      "message": "R\u00F6stsamtal fr\u00E5n $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

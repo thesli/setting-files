@@ -1,0 +1,46 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/fvd.single.icon.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extension_hint__"
+   },
+   "content_scripts": [ {
+      "css": [ "js/hooks/content.css" ],
+      "js": [ "js/hooks/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://facebook.com/*", "*://*.facebook.com/*" ],
+      "js": [ "/modules/clickberry/clickberryCheck.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://facebook.com/*", "*://*.facebook.com/*" ],
+      "js": [ "/modules/clickberry/content.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Most Popular Downloader. Downloads most popular media formats. Tag and share video.",
+   "icons": {
+      "128": "images/fvd.single.main_128.png",
+      "16": "images/fvd.single.main_16.png",
+      "24": "images/fvd.single.main_24.png",
+      "32": "images/fvd.single.main_32.png",
+      "48": "images/fvd.single.main_48.png",
+      "64": "images/fvd.single.main_64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+ATeIBeQeBa45mNC2G4g/JzpeO2glS3ty3vd8G5JqgD84USdOTAQagmtFrwz9MEUN+90SR6o76bE4J5ygSUrd/G42PHU3ZADDYP9Uq4RantOagx487xzT54KRTE7h4iyEfUgGpdDpGXAPWaPkvLlgnvlmuMAjI71iz0wyk8Lw0wIDAQAB",
+   "manifest_version": 2,
+   "name": "FVD Downloader",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "http://*/*", "https://*/*", "webRequestBlocking", "storage", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.6.5",
+   "web_accessible_resources": [ "*" ]
+}

@@ -1,0 +1,1 @@
+define(["background/collection/streamItems","background/model/video","test/testUtility"],function(){"use strict";describe("StreamItems",function(){})});

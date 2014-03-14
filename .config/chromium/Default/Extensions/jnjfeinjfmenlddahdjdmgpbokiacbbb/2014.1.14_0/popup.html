@@ -1,0 +1,83 @@
+<!--
+Copyright (c) 2009 - 2014, Evan Jehu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the author nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL EVAN JEHU BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="assets/styles.css" type="text/css" media="all"/>
+  <link rel="stylesheet" href="assets/styles-popup.css" type="text/css" media="all"/>
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.quicksearch.js"></script>
+  <script type="text/javascript" src="js/jquery.highlight-3.js"></script>
+  <script type="text/javascript" src="js/jquery.hotkeys-0.8.js"></script>
+  <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+  <title>Quick Tabs</title>
+</head>
+<body>
+<div id="tools" class="tools"></div>
+<div class="qs_wraper">
+  <input type="text" name="search" value="" class ="qs_input" id="searchbox" placeholder="Search" autocomplete="off" tabindex="1" autofocus/>
+</div>
+<div class="content" tabindex="2">
+  <div class="template">
+    <div class="tab odd open">
+      <div class="tabimage"><img src="assets/icon-32.png" alt="favicon" height="16" width="16"></div>
+      <div>
+        <div class="close"></div>
+        <div class="title hilite">In this post I will show you how to use LINQ to XML to query the Delicious API</div>
+        <div class="url hilite"> http://encosia.com/2008/10/31/use-jquery-and-quicksearch-to-interactively-search-any-data/</div>
+      </div>
+    </div>
+    <div class="tab even open withfocus">
+      <div class="tabimage"><img src="assets/icon-32.png" alt="favicon" height="16" width="16"></div>
+      <div>
+        <div class="close"><img src='assets/close.png'></div>
+        <div class="title hilite">In this post I will show you how to use LINQ to XML to query the Delicious API</div>
+        <div class="url hilite"> http://encosia.com/2008/10/31/use-jquery-and-quicksearch-to-interactively-search-any-data/</div>
+      </div>
+    </div>
+    <div class="tab odd closed">
+      <div class="tabimage"><img src="assets/icon-32.png" alt="favicon" height="16" width="16"></div>
+      <div>
+        <div class="close"><img src='assets/close.png'></div>
+        <div class="title hilite">In this post I will show you how to use LINQ to XML to query the Delicious API</div>
+        <div class="url hilite"> http://encosia.com/2008/10/31/use-jquery-and-quicksearch-to-interactively-search-any-data/</div>
+      </div>
+    </div>
+    <div class="tab even closed withfocus">
+      <div class="tabimage"><img src="assets/icon-32.png" alt="favicon" height="16" width="16"></div>
+      <div>
+        <div class="close"><img src='assets/close.png'></div>
+        <div class="title hilite">In this post I will show you how to use LINQ to XML to query the Delicious API</div>
+        <div class="url hilite"> http://encosia.com/2008/10/31/use-jquery-and-quicksearch-to-interactively-search-any-data/</div>
+      </div>
+    </div>
+   </div>
+</div>
+</body>
+</html>
+

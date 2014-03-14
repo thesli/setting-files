@@ -1,0 +1,12 @@
+{
+   "background_page": "background.html",
+   "description": "Use the omnibox to search your tabs!",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDh1f02AVjPXD/OCzd0aXc3ulUOBW2khvV+tdDPD+zn6cX+tzKWwsdRLtZnRvqN9WLb0Gs/Ayy+S4JTp7HEM0USSyIw7F2O6qnqMK1WAx4GzzsHcaVP4n1uG1gfvIZMTQ0k6VjUdd+TL73L9rme8MaN3dM/jiJu26bnA10PGskzVQIDAQAB",
+   "name": "Switch to Tab",
+   "omnibox": {
+      "keyword": "sw"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3"
+}

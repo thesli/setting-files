@@ -1,0 +1,334 @@
+body {
+	font-family: arial;
+	color: #000000;
+	background-color: #FFFFFF; 
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+        -webkitdropzone: none;
+}
+
+body. * {
+}
+
+body>  {
+	font-family: "segoe UI",arial;
+	font-style: "normal";
+}
+
+
+.action {
+	font-size: 12px; 
+	-webkit-border-radius: 7px ;
+	background-color: rgba(0,0,0,0.2) ; 
+	padding: 5px 5px;
+}
+
+.action span {
+         margin: 4px 2px;
+}
+
+* img {
+	-webkit-border-radius: 2px ;
+}
+
+
+.title
+{
+	font-size: 10px;
+	background-color: #E5ECF9; 
+	font-weight: bold;
+	margin-bottom: 3px;
+	height: 1em;
+	padding: 0.3em 0 0.5em 3px;
+}
+
+#groups {
+        display: block;
+}
+
+.group {
+        display: inline-block;
+        position: relative;
+}
+
+
+.margin-top {
+	margin-top: 8px;
+}
+
+.margin-left {
+    text-align: left;
+}
+
+.margin-right {
+    text-align: right;
+}
+
+
+.item
+{
+	font-size: 12px; 
+	white-space: nowrap;
+	height: 1.4em;
+	margin: 2px 8px 2px 8px;
+       -webkit-user-select: none;
+       -webkit-user-drag: element; 
+	cursor: -webkit-grab; 
+	cursor: -webkit-grab;
+	cursor: grab;
+
+}
+
+.item:
+active
+{
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
+
+.appName a:link 
+{
+	border-bottom: 1px dotted; 
+}
+
+.appName a:hover 
+{
+	border-bottom: none; 
+}
+
+.extName 
+{
+}
+
+.description
+{
+	font-size: 10px; 
+	height: 1.4em;
+	margin: 2px 16px 2px 8px;
+        white-space: nowrap;
+}
+
+.current
+{
+	font-weight: bold;
+}
+
+
+
+img
+{
+	vertical-align: text-top; 
+}
+
+
+span>a {
+  	margin: 0 2px;
+	padding: 0 3px;
+}
+
+a:link , a:visited
+{
+	color: #000000;
+	background: transparent;
+	text-decoration: none;
+	border:1px solid transparent;
+}      
+
+a:hover, a:active 
+{
+	background : #bbb; 
+	color: #fff;
+	text-decoration: none;
+	text-shadow: #555 1px 1px;
+	-webkit-border-radius: 7px;
+}
+
+
+.action a:hover img {
+       -webkit-filter: invert(1);
+       -webkit-transition:-webkit-filter 0.3s ease-out; 
+}
+
+.actionButton > img:hover {
+       -webkit-filter: invert(1);
+       -webkit-transition:-webkit-filter 0.3s ease-out; 
+       background-color: rgba(0,0,0,0.5) ; 
+}
+
+
+.actionSelected a {
+	text-decoration: none;
+	text-shadow: #555 1px 1px;
+	-webkit-border-radius: 7px;
+	color: #fff;
+	background: #af2b26;
+	background-image: -webkit-linear-gradient(top,#af2b26 0,#942422 100%);
+}
+
+
+.actionSelected a:hover,a:active {
+	background: #af2b26;
+	background-image: -webkit-linear-gradient(top,#af2b26 0,#942422 100%);
+}
+
+
+.ellipsis {
+   width: 100%;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   -webkit-text-overflow: ellipsis;
+} 
+
+#actions {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 99;
+        background: #eeeeee; 
+}
+
+#list {
+        position: relative;
+        min-height: 1em;
+}
+
+.item:hover span>a {
+	-webkit-border-radius: 7px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: #555 1px 1px;
+	background: #af2b26;
+	background-image: -webkit-linear-gradient(top,#af2b26 0,#942422 100%);
+}
+
+#list span>a:hover, span>a:active {
+	background: #af2b26;
+	background-image: -webkit-linear-gradient(top,#af2b26 0,#942422 100%);
+}
+
+
+[draggable] {
+    -webkit-user-select: none;
+    -webkit-user-drag: element;
+}
+[draggable=true] {
+}
+
+
+#loading progress {
+  width: 100%;
+}
+
+
+
+.dropActive {
+    -webkit-animation: dropActive 1s ease-out;
+    -webkit-animation-iteration-count: infinite;   
+}
+
+.dropActiveOver {
+    -webkit-animation: dropActiveOver 1s ease-out;
+    -webkit-animation-iteration-count: infinite;   
+}
+
+@-webkit-keyframes dropActive
+{
+ 0%   {  background-color: transparent; 
+        color: #000;
+ }
+50%  {
+	-webkit-border-radius: 7px;
+	color: #fff;
+	background: #bbb; 
+ }
+100% {  background-color:transparent; 
+        color: #000;
+ }
+
+}
+
+@-webkit-keyframes dropActiveOver
+{
+ 0%   {  background-color: transparent; 
+        color: #000;
+	text-shadow: none;
+ }
+50%  {
+	-webkit-border-radius: 7px;
+	color: #fff;
+	text-shadow: #555 1px 1px;
+	background: #7FBBFF; 
+ }
+ 100%   {  background-color: transparent; 
+        color: #000;
+	text-shadow: none;
+ }
+}
+
+
+.drag:active
+{
+	cursor: -webkit-grabbing;
+}
+
+
+
+::-webkit-scrollbar { height: 8px; width: 8px;}
+::-webkit-scrollbar-button:start, ::-webkit-scrollbar-button:end { display: none; }
+::-webkit-scrollbar-track-piece { background-color: #ffffff;-webkit-border-radius: 0px; }
+::-webkit-scrollbar-thumb { -webkit-border-radius: 8px; width: 50px; background-color: #CCCCCC;outline: 1px solid #ffffff;}
+::-webkit-scrollbar-thumb:hover { background-color: #999999; }
+
+
+
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+select, input, textarea, button { font:99% "segoe UI",arial; }
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: middle;  } /*middle; */
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+.hidden { display: none; visibility: hidden; }
+.invisible { visibility: hidden; }
+.visuallyhidden { position: absolute !important;   clip: rect(1px, 1px, 1px, 1px); }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden;}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+#panel { margin: 0 auto; }
+
+.actionButtons {
+ display: inline-block;
+ float: right;
+ margin: 3px 3px;
+}
+.actionButtons a {
+ padding: 0px 0px;
+}
+
+.paused .dropActiveOver {
+   -webkit-animation-play-state:paused;
+   -webkit-animation-delay:0;
+}
+
+div.info {
+	font-size: 10px; 
+	-webkit-border-radius: 7px ;
+	background-color: #f8f8ea; 
+	padding: 0px 12px;
+	-webkit-user-select:text;
+}
+
+dl {
+ display: block;
+ -webkit-margin-before: 0px;
+ -webkit-margin-after: 0px;
+ -webkit-margin-start: 0px;
+ -webkit-margin-end: 0px;
+}
+

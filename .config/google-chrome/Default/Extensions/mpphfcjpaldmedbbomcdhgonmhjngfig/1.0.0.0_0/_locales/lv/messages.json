@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "NOVECOJIS. T\u0101 viet\u0101 izmantojiet papla\u0161in\u0101jumu Google ievades r\u012Bki (pieejams \u0161eit: http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "DARB\u012ABA P\u0100RTRAUKTA: Virtu\u0101l\u0101 tastat\u016Bra (nodro\u0161ina Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtu\u0101l\u0101s tastat\u016Bras papla\u0161in\u0101juma opcijas"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Kreisaj\u0101 pus\u0113 atlasiet tastat\u016Bras izk\u0101rtojumu(-s):"
+   },
+   "vkbd_save_options": {
+      "message": "Saglab\u0101t"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "R\u0101d\u012Bt/sl\u0113pt tastat\u016Bru"
+   }
+}

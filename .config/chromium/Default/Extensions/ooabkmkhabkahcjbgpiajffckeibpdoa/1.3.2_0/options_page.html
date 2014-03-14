@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>word highlight</title>
+<script src="js/x.js"></script>
+<script src="js/tween2.js"></script>
+<link href="css/option_page.css" rel="stylesheet" type="text/css">
+<ul class="tabs" id="menu_tabs">
+  <li class="basics"><a href="#basics" class="active"><span>Basics</span></a>
+  <li class="news"><a href="#news"><span>News</span></a>
+  <li class="about"><a href="#about"><span>About</span></a>
+</ul>
+<div id="container">
+<div id="inner_container">
+<section id="basics" class="content">
+  <div><input type="checkbox" id="auto_highlight"><label for="auto_highlight">auto highlight</label></div>
+  <div><input type="checkbox" id="always_icon"><label for="always_icon">show wordhighlight icon always</label></div>
+</section>
+<section id="news" class="content">
+<ul>
+  <li>
+    <h4>2011/03/27</h4>
+    <p>ヒット件数の多いキーワードはハイライトを弱くするようにしました。
+    <p>ハイライト処理のバグ修正など
+  <li>
+    <h4>2010/06/13</h4>
+    <p>Google Mapsなどで重くなる問題を修正しました。
+</ul>
+</section>
+<section id="about" class="content">
+  <dl>
+    <dt>Name:<dt>
+    <dd><a href="https://chrome.google.com/extensions/detail/ooabkmkhabkahcjbgpiajffckeibpdoa" target="_blank">word highlight</a></dd>
+    <dt>Version:<dt>
+    <dd>ver <span id="ExtensionVersion"></span></dd>
+    <dt>Author:<dt>
+    <dd><a href="http://ss-o.net/" target="_blank">os0x</a></dd>
+    <dt>License:<dt>
+    <dd><a href="http://creativecommons.org/licenses/MIT/" target="_blank">The MIT license</a></dd>
+  </dl>
+</section>
+</div>
+</div>
+<script src="js/options.js"></script>

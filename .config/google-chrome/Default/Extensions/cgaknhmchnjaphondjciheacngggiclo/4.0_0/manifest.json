@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "19g.png",
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "js": [ "pad.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "opt.js" ],
+      "matches": [ "http://mixesoft.com/facepad/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "128.png",
+      "16": "19.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkKLoR6oVWv6VU4ghYH+5Ub3UvxyxWTJNNHI5CJZ2fZ1Aur2VhWjY1mhqT+KwCyUbUeaWeve/fO5XZlpbI1S3cepVPcS/OSCFb44oDd0X9nCcWZVdzCwODO2y9eNnY7LVzTxno/MCLPLg1XyN9IgIyMlaUX5o2V5eYOQG0F9CqnQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0",
+   "name": "__MSG_extName__",
+   "options_page": "opt.html",
+   "permissions": [ "tabs", "notifications", "http://mixesoft.com/facepad/*", "*://*.facebook.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "4.0",
+   "web_accessible_resources": [ "19.png", "48.png", "i/4000.png" ]
+}

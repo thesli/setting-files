@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "L\u00E4s mer"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Hj\u00E4lp oss genom att rapportera problemet."
+   },
+   "app_nacl_crash_report": {
+      "message": "Rapportera ett problem ..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Aj. Det var inte s\u00E5 d\u00E4r det var t\u00E4nkt."
+   },
+   "app_nacl_error_msg": {
+      "message": "Det gick inte att l\u00E4sa in appen."
+   },
+   "app_nacl_error_title": {
+      "message": "Det g\u00E5r inte att \u00F6ppna filen."
+   },
+   "application_description": {
+      "message": "Dokumentredigering"
+   },
+   "file_loading_spinner_label": {
+      "message": "L\u00E4ser in"
+   },
+   "file_not_found_msg": {
+      "message": "Den beg\u00E4rda filen verkar ha g\u00E5tt och flyttat p\u00E5 sig."
+   },
+   "file_not_found_title": {
+      "message": "Filen hittades inte."
+   }
+}

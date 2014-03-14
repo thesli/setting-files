@@ -1,0 +1,81 @@
+<html>
+<head><title>Tab Title Search Options</title></head>
+<script type="text/javascript">
+
+// Saves options to localStorage.
+function save_options() {
+  var selectedKey = document.getElementById('selectionKeyCode').value;
+  var isAltOrCtrl = document.getElementById('specialKey').value;
+  localStorage['fav_selectionKeyCode'] = selectedKey;
+  localStorage['fav_specialKey'] = isAltOrCtrl;
+}
+
+// Restores select box state to saved value from localStorage.
+
+function makeCharSet(mykey, myaltorctrl) {
+  var text = document.createTextNode('Select key a-z');
+  document.body.appendChild(text);
+
+  var selectionElement = document.createElement('select');
+  selectionElement.id = 'selectionKeyCode';
+  document.body.appendChild(selectionElement);
+  for (idx = 65; idx<=90; idx++) {
+    var charOption = document.createElement('option');
+    charOption.text = (String.fromCharCode(idx)).toLowerCase();
+    charOption.value = idx;
+    if (charOption.value == mykey) {
+      charOption.selected = "true";
+    }
+    document.getElementById('selectionKeyCode').appendChild(charOption);
+  }
+
+  text = document.createTextNode('Whether ALT or CTRL');
+  document.body.appendChild(text);
+
+  var altOrCtrl = document.createElement('select');
+  altOrCtrl.id = 'specialKey';
+  document.body.appendChild(altOrCtrl);
+  for (w = 0; w <=1 ; w++) {
+    var temp = document.createElement('option');
+    temp.value = w;
+    temp.text = "ALT";
+    if (w == 1) {
+      temp.text = "CTRL";
+    }
+    if (w == myaltorctrl) {
+      temp.selected = "true";
+    }
+    document.getElementById('specialKey').appendChild(temp);
+  }
+
+  /* var save = document.createElement('button');
+  save.onClick = "save_options();";
+  save.value = "Save";
+  save.textContent = "SAVE";
+  document.body.appendChild(save);
+  */
+}
+
+function restore_options() {
+    var selectedKey = 71;
+    if (localStorage['fav_selectionKeyCode'] != undefined) {
+        selectedKey = localStorage['fav_selectionKeyCode'];
+    } else {
+        localStorage['fav_selectionKeyCode'] = selectedKey;
+    }
+
+    var isAltOrCtrl = 0;
+    if (localStorage['fav_specialKey'] != undefined) {
+        isAltOrCtrl = localStorage['fav_specialKey'];
+    } else {
+        localStorage['fav_specialKey'] = isAltOrCtrl;
+    }
+  makeCharSet(selectedKey, isAltOrCtrl);
+}
+</script>
+
+<body onload="restore_options()">
+  <button onclick="save_options()">Save</button>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "詳細"
+   },
+   "app_nacl_crash_msg": {
+      "message": "問題の報告にご協力ください。"
+   },
+   "app_nacl_crash_report": {
+      "message": "問題を報告..."
+   },
+   "app_nacl_crash_title": {
+      "message": "予期しない問題が発生しました。"
+   },
+   "app_nacl_error_msg": {
+      "message": "アプリケーションの読み込み中に問題が発生しました。"
+   },
+   "app_nacl_error_title": {
+      "message": "ファイルを開けません。"
+   },
+   "application_description": {
+      "message": "ドキュメントの編集"
+   },
+   "file_loading_spinner_label": {
+      "message": "読み込んでいます"
+   },
+   "file_not_found_msg": {
+      "message": "リクエストしたファイルは移動されています。"
+   },
+   "file_not_found_title": {
+      "message": "ファイルが見つかりません。"
+   }
+}

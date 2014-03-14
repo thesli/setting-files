@@ -1,0 +1,315 @@
+<!DOCTYPE html><html><head><title>YouTube5</title><script>
+
+/*
+YouTube5 Copyright 2010 Connor McKay
+
+YouTube5 is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+YouTube5 is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+*/
+
+// inspired by http://userscripts.org/scripts/review/25105
+// 
+
+var fiveStyleIt;
+var normWinfo;
+var fsWindow = function(){
+	chrome.windows.getCurrent(function(aWin) {
+		normWinfo = null;
+		normWinfo = new Object();
+		normWinfo.left = aWin.left;
+		normWinfo.top = aWin.top;
+		normWinfo.width = aWin.width;
+		normWinfo.height = aWin.height;
+		var wInfo = new Object();
+		wInfo.left = screen.availLeft;
+		wInfo.top = screen.availTop;
+		wInfo.width = screen.availWidth;
+		wInfo.height = screen.availHeight;
+		chrome.windows.update(aWin.id, wInfo);			    
+	});
+}
+
+var normWindow = function(){
+	chrome.windows.getCurrent(function(aWin) {
+		chrome.windows.update(aWin.id, normWinfo);	
+		normWinfo = null;		    
+	});
+}
+
+var parseUrlEncoded = function(text) {
+	var data = {};
+	
+	var pairs = text.split('&');
+	pairs.forEach(function(pair) {
+		pair = pair.split('=');
+		data[pair[0]] = decodeURIComponent(pair[1]).replace(/\+/g, ' ');
+	});
+	
+	return data;
+}
+
+var youTubeMeta = function(text, flashvars) {
+	var meta = {};
+	
+	var data = parseUrlEncoded(text);
+	
+	if (data.errorcode && !flashvars.fmt_url_map) {
+		meta.error = data.reason;
+		return meta;
+	}
+	
+	var youTubeFormats = { 18: '360p', 22: '720p', 37: '1080p' };
+	
+	meta.formats = {};
+	// use the flashvars if the video info couldn't be retreived
+	(data.fmt_url_map || flashvars.fmt_url_map).split(',').forEach(function(format) {
+		var pair = format.split('|');
+		if (youTubeFormats[pair[0]]) {
+			meta.formats[youTubeFormats[pair[0]]] = pair[1];
+		}
+	});	
+	// 360p is always available, even if it isn't listed
+	if (!meta.formats['360p']) {
+		meta.formats['360p'] = 'http://www.youtube.com/get_video?fmt=18&asv=2&video_id=' + data.video_id + '&t=' + (data.token || data.t);
+	}	
+	var defaultFormat = localStorage["ytVidsize"];
+	if (!defaultFormat) {
+		defaultFormat = "720p";
+	}
+
+	if (meta.formats[defaultFormat]) {
+		meta.useFormat = defaultFormat;
+	} else {
+		for (format in meta.formats) {
+			if (parseInt(format) < parseInt(defaultFormat) && (!meta.useFormat || parseInt(format) > parseInt(meta.useFormat))) {
+				meta.useFormat = format;
+			} else {
+				break;
+			}
+		}
+	}
+	if (data.thumbnail_url) {
+		meta.poster = data.thumbnail_url.replace(/default.jpg/, 'hqdefault.jpg');
+	}
+	meta.title = data.title;
+	meta.author = data.author;
+	meta.authorLink = 'http://www.youtube.com/user/' + data.author;
+	meta.link = 'http://www.youtube.com/watch?v=' + data.video_id;
+	meta.from = 'YouTube';
+	
+	return meta;
+};
+
+var vimeoMeta = function(clipId, xml) {
+	var meta = {};
+	
+	if (xml.querySelector('error')) {
+		meta.error = xml.querySelector('error title').textContent + '<br />' + xml.querySelector('error message').textContent;
+		return meta;
+	}
+	
+	meta.formats = {};
+	
+	if (xml.querySelector('video isHD').textContent == '1') {
+		meta.formats['HD'] = 'http://vimeo.com/play_redirect?clip_id=' + clipId + '&quality=hd&codecs=H264';
+	}
+	meta.formats['SD'] = 'http://vimeo.com/play_redirect?clip_id=' + clipId + '&quality=sd&codecs=H264';
+	
+	var defaultFormat = localStorage["vimVidsize"];
+	if (!defaultFormat) {
+		defaultFormat = "SD";
+	}
+	if (meta.formats[defaultFormat]) {
+		meta.useFormat = defaultFormat;
+	} else {
+		meta.useFormat = 'SD';
+	}
+	
+	meta.poster = xml.querySelector('video thumbnail').textContent;
+	meta.title = xml.querySelector('video caption').textContent;
+	meta.author = xml.querySelector('video uploader_display_name').textContent;
+	meta.authorLink = xml.querySelector('video uploader_url').textContent;
+	meta.link = xml.querySelector('video url').textContent;
+	meta.from = 'Vimeo';
+	
+	return meta;
+};
+
+var canLoad = function(inEvent) {
+	url  = inEvent;
+	var aBool = false;
+	/*
+	if (fiveStyleIt&&((/^http:\/\/www\.youtube\.com\/(?:v|embed)\//i.test(url) || /^http:\/\/s\.ytimg\.com\/yt\/swf\/watch/i.test(url)) || (/^http:\/\/assets\.vimeo\.com\/flash\/moog/i.test(url) || /^\/moogaloop_local/i.test(url) || /vimeo\.com\/moogaloop/i.test(url)) || (/^http:\/\/([a-z]+\.)?static\.ak\.fbcdn\.net\/rsrc.php\/zh\/r\/newa_5lrU0z.swf/i.test(url)))) {
+	*/
+	
+	if (fiveStyleIt&&(/^http:\/\/www\.youtube\.com\/(?:v|embed)\//i.test(url) ||  /^http:\/\/s\.ytimg\.com\/yt\/swfbin\/watch/i.test(url))) {
+		aBool= true;
+	}
+	return aBool;
+};
+
+var loadYouTubeVideo = function(playerId, videoId, autoplay, flashvars) {
+	var req = new XMLHttpRequest();
+	req.open('GET', 'http://www.youtube.com/get_video_info?&video_id=' + videoId + '&el=embedded&ps=default&eurl=http%3A%2F%2Fwww%2Egoogle%2Ecom%2F&hl=en_US', true);
+	req.onreadystatechange = function(ev) {
+		if (req.readyState === 4 && req.status === 200) {
+			var meta = youTubeMeta(req.responseText, flashvars);
+			meta.autoplay = false;//autoplay;
+			var injectVideo = new Object();
+			injectVideo.playerId = playerId;
+			injectVideo.meta = meta;
+			chrome.tabs.getSelected(null, function(tab) {
+				chrome.tabs.sendRequest(tab.id, {injectVideo: injectVideo});
+			})
+		} else if (req.readyState === 4 && req.status === 404) {
+			var meta = { error: '404 Error loading YouTube video' };
+			var injectVideo = new Object();
+			injectVideo.playerId = playerId;
+			injectVideo.meta = meta;
+			chrome.tabs.getSelected(null, function(tab) {
+				chrome.tabs.sendRequest(tab.id, {injectVideo: injectVideo});
+			})
+		}
+	};
+	req.send(null);
+};
+
+var loadVimeoVideo = function(playerId, clipId, autoplay) {
+	var req = new XMLHttpRequest();
+	req.open('GET', 'http://vimeo.com/moogaloop/load/clip:' + clipId + '/local/', true);
+	req.onreadystatechange = function(ev) {
+		if (req.readyState === 4 && req.status === 200) {
+			var meta = vimeoMeta(clipId, req.responseXML);
+			meta.autoplay = autoplay;
+			var injectVideo = new Object();
+			injectVideo.playerId = playerId;
+			injectVideo.meta = meta;
+			chrome.tabs.getSelected(null, function(tab) {
+				chrome.tabs.sendRequest(tab.id, {injectVideo: injectVideo});
+			})
+		} else if (req.readyState === 4 && req.status === 404) {
+			//alert('metaerror');
+		//	var meta = { error: '404 Error loading Vimeo video' };
+		}
+	};
+	req.send(null);
+};
+
+var loadFacebookVideo = function(playerId, data) {
+	var meta = {};
+	
+	meta.formats = {};
+	if (data.highqual_src) {
+		meta.formats['High'] = data.highqual_src;
+		meta.formats['Low'] = data.lowqual_src;
+	} else {
+		meta.formats['Low'] = data.video_src;
+	}
+	//	var defaultFormat = localStorage["fbVidsize"]+'';		
+		var defaultFormat ='High';
+	if (meta.formats[defaultFormat]) {
+		meta.useFormat = defaultFormat;
+	} else {
+		meta.useFormat = 'Low';
+	}
+	
+	
+	meta.poster = data.thumb_url;
+	meta.title = data.video_title;
+	meta.link = 'http://www.facebook.com/video/video.php?v=' + data.video_id;
+	meta.author = data.video_owner_name;
+	meta.authorLink = data.video_owner_href;
+	meta.from = 'Facebook';
+	meta.autoplay = true;
+	var injectVideo = new Object();
+	injectVideo.playerId = playerId;
+	injectVideo.meta = meta;
+	chrome.tabs.getSelected(null, function(tab) {
+		chrome.tabs.sendRequest(tab.id, {injectVideo: injectVideo});
+	})
+};
+
+var loadVideo = function(video) {
+	var url = video.url;
+	var playerId = video.playerId;
+	var flashvars = video.flashvars;
+	if (m = url.match(/^http:\/\/www\.youtube\.com\/(?:v|embed)\/([^\?&]+)([\?&].+)?/i)) {
+		var videoId = m[1];
+		var autoplay = /autoplay=1/.test(m[2]);
+		loadYouTubeVideo(playerId, videoId, autoplay, flashvars);
+	} else if (/^http:\/\/s.ytimg.com\/yt\/swfbin\/watch/i.test(url)) {
+		var data = parseUrlEncoded(flashvars);
+		loadYouTubeVideo(playerId, data.video_id, false, data);
+	} else if (/^http:\/\/assets\.vimeo\.com\/flash\/moog/i.test(url)) {
+		var data = parseUrlEncoded(flashvars);
+		loadVimeoVideo(playerId, data.clip_id, false);
+	} else if (m = url.match(/vimeo\.com\/moogaloop.swf?.*clip_id=(\d+)/i)) {
+		var clipId = m[1];
+		loadVimeoVideo(playerId, clipId,false);
+	} else if (/^\/moogaloop_local/i.test(url)) {
+		var data = parseUrlEncoded(flashvars);
+		loadVimeoVideo(playerId, data.clip_id, false);
+	} else if (/^http:\/\/([a-z]+\.)?static\.ak\.fbcdn\.net\/rsrc.php\/zh\/r\/newa_5lrU0z.swf/i.test(url)) {
+		var data = parseUrlEncoded(flashvars);
+		loadFacebookVideo(playerId, data);
+	} 
+};
+
+chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+	
+	 if (request.loadVideo){
+		loadVideo(request.loadVideo);
+		
+		sendResponse({});
+    }else if(request.canLoad){
+		var clBool = false;
+		clBool = canLoad(request.canLoad);
+		sendResponse({shouldLoad:clBool});
+	}else if(request.bigWin){
+		fsWindow();
+	}else if(request.normWin){
+		if (normWinfo) {
+			normWindow();
+		};
+	}	
+	
+ });
+
+chrome.browserAction.onClicked.addListener(function(theTab) { 
+	
+	
+	if ((fiveStyleIt==true)||(fiveStyleIt=="true")) {
+		fiveStyleIt = false;
+		chrome.browserAction.setIcon({path:"icon19gray.png"});
+	}else{
+		fiveStyleIt = true;
+		chrome.browserAction.setIcon({path:"icon19.png"});
+	}
+	localStorage["enableMe"] = fiveStyleIt;
+	sendResponse({});
+ });
+
+var awakeFromLoad = function(){	
+	fiveStyleIt = localStorage["enableMe"];
+	if ((fiveStyleIt!=true)&&(fiveStyleIt!="true")&&(fiveStyleIt!=false)&&(fiveStyleIt!="false")) {
+		fiveStyleIt = true;
+		 localStorage["enableMe"] = true;
+	}
+	if ((fiveStyleIt==true)||(fiveStyleIt=="true")) {
+		fiveStyleIt=true;
+		chrome.browserAction.setIcon({path:"icon19.png"});
+	}else{
+		fiveStyleIt=false;
+		chrome.browserAction.setIcon({path:"icon19gray.png"});
+	}
+	
+}
+
+</script></head><body onload="awakeFromLoad();"></body></html>

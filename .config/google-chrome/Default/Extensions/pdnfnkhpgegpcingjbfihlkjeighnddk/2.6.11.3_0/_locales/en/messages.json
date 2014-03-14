@@ -1,0 +1,53 @@
+{
+   "description": {
+      "message": "Helps users access their web services while travelling outside mainland China."
+   },
+   "feedback": {
+      "message": "If you have any questions, please don't hesitate to \u003Ca href=\"http://ub.uku.im/feedback\" target=\"_blank\">contact us\u003C/a>."
+   },
+   "help": {
+      "message": "For more information about different modes, you can \u003Ca href=\"http://ub.uku.im/modes\" target=\"_blank\">read this\u003C/a>."
+   },
+   "mode_lite": {
+      "message": "Lite"
+   },
+   "mode_lite_description": {
+      "message": "Fast, but applicable to only \u003Cabbr title=\"Tudou, Xiami, Ku6 and Xunlei\">few websites\u003C/abbr>."
+   },
+   "mode_normal": {
+      "message": "Normal"
+   },
+   "mode_normal_description": {
+      "message": "Recommended. Applicable to the most websites."
+   },
+   "mode_redirect": {
+      "message": "Redirect"
+   },
+   "mode_redirect_description": {
+      "message": "Slow, but compatible with other proxy settings."
+   },
+   "mode_select": {
+      "message": "Select Operation Mode"
+   },
+   "popup_title": {
+      "message": "Configure Unblock Youku"
+   },
+   "rating": {
+      "message": "If you find this extension helpful, \u003Ca href=\"http://ub.uku.im/reviews\" target=\"_blank\">please help us to rate it\u003C/a>."
+   },
+   "sharing": {
+      "message": "Welcome to share it via"
+   },
+   "support_checkbox_label": {
+      "message": "Yes, I want to support this software."
+   },
+   "support_message_no": {
+      "message": "You only need to enable this to support us. Nothing else.\u003Cbr>We are not going to show ads to annoy you, you don't need to pay us for anything, and we don't want your donation.\u003Cbr>\u003Ca href=\"http://ub.uku.im/support_us\" target=\"_blank\">For more information, please visit here.\u003C/a>"
+   },
+   "support_message_yes": {
+      "message": "Thank you! Your support is greatly appreciated!\u003Cbr>This functionality is powered by \u003Ca href=\"http://ub.uku.im/support_us\" target=\"_blank\">VigLink\u003C/a>."
+   },
+   "support_title": {
+      "message": "We Need Your Support"
+   }
+}

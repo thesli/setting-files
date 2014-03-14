@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "NEPOU\u017D\u00CDVA SA. Pou\u017Eite namiesto toho roz\u0161\u00EDrenie N\u00E1stroje na zad\u00E1vanie vstupov Google (dostupn\u00E9 na adrese http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "UKON\u010CEN\u00C1 PODPORA: virtu\u00E1lna kl\u00E1vesnica (od spolo\u010Dnosti Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Mo\u017Enosti roz\u0161\u00EDrenia Virtu\u00E1lna kl\u00E1vesnica"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "V\u013Eavo vyberte rozlo\u017Eenie kl\u00E1vesnice:"
+   },
+   "vkbd_save_options": {
+      "message": "Ulo\u017Ei\u0165"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Zobrazi\u0165 / skry\u0165 kl\u00E1vesnicu"
+   }
+}

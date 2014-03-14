@@ -1,0 +1,23 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://api.soundcloud.com https://ad.doubleclick.net; object-src 'self'",
+   "description": "Listen to the latest audio content from The Economist.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRNPSzUrR23ZC6sRFyy30HKtXmjgUjHfe/a5u7HB/vog/upOco6kTgnIfBgWBVR5ePgmYfvnym0Hh3Adv1ZJuNYbffz2RoCML42pv8W3dg44uKvPbE+43ZHLLEiAHVviZDb+0mhExtkQh0s2AgWn3JEaUtz4SBNSJRW4mVDUiOyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Economist Radio",
+   "options_page": "options.html",
+   "permissions": [ "notifications", "http://www.soundcloud.com/", "http://.doubleclick.net/*", "http://*.doubleclick.net/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.0"
+}

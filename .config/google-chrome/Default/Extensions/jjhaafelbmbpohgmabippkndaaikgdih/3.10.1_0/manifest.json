@@ -1,0 +1,63 @@
+{
+   "background": {
+      "scripts": [ "js/jquery/jquery-1.9.1.min.js", "js/lang.js", "js/functions.js", "js/class/torrent.js", "js/class/file.js", "js/actions.js", "js/display.js", "js/background.js", "sup-am/background.js", "sup-fdi/background.js", "sup-rj/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/logo64.png",
+      "default_popup": "index.html"
+   },
+   "commands": {
+      "notification": {
+         "description": "Notification",
+         "suggested_key": {
+            "default": "Alt+N",
+            "mac": "Alt+N"
+         }
+      },
+      "openfile": {
+         "description": "Open file tab",
+         "suggested_key": {
+            "default": "Alt+F",
+            "mac": "Alt+F"
+         }
+      },
+      "opentab": {
+         "description": "Open extension in tab",
+         "suggested_key": {
+            "default": "Alt+T",
+            "mac": "Alt+T"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "sup-fdi/script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "sup-fdi/script.js" ],
+      "matches": [ "https://www.facebook.com/*", "https://*.bing.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "sup-rj/script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://apis.google.com; object-src 'self'",
+   "description": "\u00B5Torrent for Google Chrome",
+   "icons": {
+      "128": "images/logo128.png",
+      "16": "images/logo16.png",
+      "32": "images/logo32.png",
+      "64": "images/logo64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdX82CCs/2rhNkBJGM/16BAo6GEnngSJsf7VK0UK/5903gedbg9MtU2PZaAzPruRC/CrCTsb+Gprwt77l3giOaHzlrWAaMX+6cLfkCYK1tcJzf/EHY3xEI+5w5DPoLt5aMHmyz/FG7ZDP9SM4eMA4Z53ZvlvsxcZbMdEiinnI2lwIDAQAB",
+   "manifest_version": 2,
+   "name": "uTorrent for Google Chrome",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "background", "notifications", "webRequest", "webRequestBlocking", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.10.1",
+   "web_accessible_resources": [ "images/logo128.png" ]
+}

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon19.png",
+      "default_title": "Facebook Chat Notification"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Alerts you of new chat messages with an animated icon and a desktop notification even if you're away from your browser!",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon19.png",
+      "19": "images/icon19.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTRPFWVm3VquGDguzhUPtZ+6tuhhYzxeWJ79gLkLfnsRhL8bPNbMnLMhUdHj2QzLU1KBoUM++PzmyPgUNVQEJtSIkAW3ARHEpa9mrx2DUb/uf761YsvHVSYsXVCP4gpOlYqKjBBfUbRb4kd8LP/HjKG55sZ68vSHgHIh9jpqA0DQIDAQAB",
+   "manifest_version": 2,
+   "name": "Facebook Chat Notification",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.35"
+}

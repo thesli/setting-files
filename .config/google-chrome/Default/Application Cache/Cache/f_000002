@@ -1,0 +1,987 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------
+Theme Name:    Netzkino
+Description:   Netzkino - kostenlos und legal
+Version:       2.0
+Author:        Daniel Schmidt
+------------------------------------------------------------------------*/
+/*GENERAL*/
+*{
+margin:0;
+padding:0;
+}
+
+section#netzkino {
+	display: block !important;
+}
+section#loading {
+	display: none;
+}
+
+a{
+cursor:pointer;
+}
+a img {
+border:none;
+}
+h1 {
+color: #474747;
+font: bold 18px Helvetica,Arial;
+margin-bottom: 12px;
+}
+h2 {
+color: #474747;
+font: bold 14px Helvetica,Arial;
+margin-bottom: 16px;
+}
+h3 {
+color: #474747;
+font: bold 12px Helvetica,Arial;
+margin-bottom: 16px;
+}
+.cleaner {
+clear: both;
+}
+/* == WordPress WYSIWYG Editor Styles == */
+	.entry ul li {
+		margin-left:20px;
+	}
+	.entry-content img {
+		margin: 0 0 1.5em 0;
+		}
+	.alignleft, img.alignleft {
+		margin-right: 1.5em;
+		display: inline;
+		float: left;
+		}
+	.alignright, img.alignright {
+		margin-left: 1.5em;
+		display: inline;
+		float: right;
+		}
+	.aligncenter, img.aligncenter {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
+		}
+	.alignnone, img.alignnone {
+		/* not sure about this one */
+		}
+	.wp-caption {
+		margin-bottom: 1.5em;
+		text-align: center;
+		padding-top: 5px;
+		}
+	.wp-caption img {
+		border: 0 none;
+		padding: 0;
+		margin: 0;
+		}
+	.wp-caption p.wp-caption-text {
+		line-height: 1.5;
+		font-size: 10px;
+		margin: 0;
+		}
+	.wp-smiley {
+		margin: 0 !important;
+		max-height: 1em;
+		}
+	blockquote.left {
+		margin-right: 20px;
+		text-align: right;
+		margin-left: 0;
+		width: 33%;
+		float: left;
+		}
+	blockquote.right {
+		margin-left: 20px;
+		text-align: left;
+		margin-right: 0;
+		width: 33%;
+		float: right;
+		}
+	.gallery dl {}
+	.gallery dt {}
+	.gallery dd {}
+	.gallery dl a {}
+	.gallery dl img {}
+	.gallery-caption {}
+
+	.size-full {}
+	.size-large {}
+	.size-medium {}
+	.size-thumbnail {}
+
+
+
+/* == WordPress WYSIWYG Editor Styles END== */
+p a {
+text-decoration: underline;
+font: bold 12px Helvetica,Arial;
+color:#6aace8;
+}
+/*NavBar*/
+#topNavBar {
+	position: fixed;
+	z-index: 7;
+	top:0;
+	left:0;
+	width:100%;
+	background-color: #474747;
+}
+.topNavBarContainer{
+	width:1000px;
+	margin-right: auto;
+	margin-left:auto;
+}
+#topNavBar ul li.current-cat {
+	background-color: #6aace8;
+}
+#topNavBar ul li {
+float:left;
+list-style: none;
+height:23px;
+padding-top:5px;
+}
+#topNavBar ul li a{
+color:#fff;
+font:normal 14px Helvetica,Arial;
+padding:0 10px;
+text-decoration: none;
+}
+/*NavBar END*/
+/*Container*/
+#container {
+width:1004px;
+margin-right: auto;
+margin-left:auto;
+margin-top:50px;
+padding:2px;
+}
+/*Header*/
+#netzkinoLogo {
+background:url(../imgs/header/netzkino-logo.jpg) no-repeat;
+width: 203px;
+height: 48px;
+float:left;
+margin-top: -5px
+}
+#netzkinoLogo a.logoLink {
+width: 217px;
+height: 48px;
+display: block;
+}
+#netzkino-follow {
+
+}
+#netzkino-follow .fb-follow {
+background:url(../imgs/single/share/fb-inactive.png) no-repeat;
+width: 37px;
+height: 37px;
+display:block;
+float:left;
+margin-left:20px;
+}
+#netzkino-follow .fb-follow:hover {
+background:url(../imgs/single/share/fb-active.png) no-repeat;
+}
+#netzkino-follow .twitter-follow {
+background:url(../imgs/single/share/twitter-inactive.png) no-repeat;
+width: 37px;
+height: 37px;
+display: block;
+float:left;
+margin-left:10px;
+}
+#netzkino-follow .twitter-follow:hover {
+background:url(../imgs/single/share/twitter-active.png) no-repeat;
+}
+#netzkino-follow .google-follow {
+background:url(../imgs/single/share/gplus-inactive.png) no-repeat;
+width: 37px;
+height: 37px;
+display: block;
+float:left;
+margin-left:10px;
+}
+#netzkino-follow .google-follow:hover {
+background:url(../imgs/single/share/gplus-active.png) no-repeat;
+}
+#netzkino-follow .follow {
+background:url(../imgs/header/social/speech-bubble.png) no-repeat;
+height: 37px;
+width: 111px;
+float:left;
+margin-left:10px;
+}
+#netzkino-follow .follow p {
+font:normal 16px 'Play',Helvetica,Arial;
+color:#fff;
+padding:8px 0;
+text-align: center;
+}
+#netzkinoSearch {
+background:url(../imgs/header/search/netzkino-searchfield.png) no-repeat;
+width:272px;
+height:38px;
+float:left;
+margin-left:30px;
+}
+#netzkinoSearch #s {
+width: 209px;
+height: 38px;
+float: left;
+cursor: text;
+border: none;
+background: none;
+padding: 0 12px;
+font:normal 14px Helvica,Arial;
+}
+#netzkinoSearch #search_submit {
+width: 38px;
+height: 38px;
+cursor: pointer;
+border:none;
+background:none;
+}
+#netzkinoClaim {
+background: url(../imgs/header/netzkino-claim.png) no-repeat;
+width: 201px;
+height: 45px;
+float:right;
+}
+#netzkinoClaim p.claim{
+font:normal 16px 'Play',Helvetica,Arial;
+color: #fff;
+margin-top:9px;
+margin-left:16%;
+}
+.subtitle {
+	font: 14px 'Play',Helvetica,Arial;
+	color: #fff;
+	background-color: #6AACE8;
+	margin-top: 20px;
+	border: 10px solid #6AACE8;
+	border-radius: 5px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+/*Header END*/
+/*Index*/
+.left {
+	position: absolute;
+	width: 200px;
+	margin-top:24px;
+}
+.left #sidebar ul {
+	border-radius: 5px;
+	background-color: #6aace8;
+}
+.left #sidebar ul li {
+	list-style: none;
+}
+.left #sidebar ul li a {
+	color:#fff;
+	font: normal 12px Helvetica,Arial;
+	text-decoration: none;
+	display:block;
+	padding: 15px 0 15px 30px;
+	border-bottom: 2px solid #63a5e2;
+	border-top: 2px solid #80b8eb;
+	line-height: 14px;
+}
+.left #sidebar ul li:first-child a {
+	border-top:none;
+}
+.left #sidebar ul li:last-child a {
+	border-bottom:none;
+}
+
+.left #sidebar a>img {
+	float:left;
+	margin-top:-3px;
+	margin-right:5px;
+	height: 20px;
+	width: 20px;
+	background-image: url(../imgs/sprites/categories.png);
+}
+
+.category-1{ background-position: 0 0;  }
+.category-10{ background-position: 0 -21px;  }
+.category-111{ background-position: 0 -42px;  }
+.category-18{ background-position: 0 -63px;  }
+.category-3{ background-position: 0 -84px;  }
+.category-31{ background-position: 0 -105px;  }
+.category-32{ background-position: 0 -126px;  }
+.category-33{ background-position: 0 -147px;  }
+.category-34{ background-position: 0 -168px;  }
+.category-35{ background-position: 0 -189px;  }
+.category-36{ background-position: 0 -210px;  }
+.category-39{ background-position: 0 -231px;  }
+.category-4{ background-position: 0 -252px;  }
+.category-5{ background-position: 0 -273px;  }
+.category-51{ background-position: 0 -294px;  }
+.category-6{ background-position: 0 -315px;  }
+.category-61{ background-position: 0 -336px;  }
+.category-71{ background-position: 0 -357px;  }
+.category-81{ background-position: 0 -378px;  }
+.category-91{ background-position: 0 -399px;  }
+
+
+
+.middle {
+position: absolute;
+margin-left: 220px;
+width: 560px;
+margin-top:24px;
+}
+.advertising-top {
+background-color:
+#ededed;
+border-radius: 5px;
+width: 560px;
+height: 80px;
+display: block;
+margin-top: 20px;
+}
+.advertising-top-category {
+background-color:
+#ededed;
+border-radius: 5px;
+width: 560px;
+height: 80px;
+display: block;
+margin-top:20px;
+}
+.advertising-top-box {
+	text-align: center;
+	padding-top:10px;
+}
+.advertising-top-net {
+background-color:
+#ededed;
+border-radius: 5px;
+width: 1000px;
+height: 110px;
+display: block;
+margin-bottom: -19px;
+}
+.advertising-top-box-net {
+	text-align: center;
+	/*padding-left:116px;*/
+	padding-top:10px;
+}
+.advertising-top-left {
+	float:left;
+}
+.advertising-top-right {
+	float:right;
+}
+.contentAdBox {
+background-color: #EDEDED;
+border-radius: 5px;
+width: 370px;
+height: 290px;
+display: block;
+margin-top:20px;
+}
+.contentAdBox-net {
+	/*text-align: center;*/
+	padding-top:20px;
+	padding-left: 35px;
+}
+
+#slider, #slider img, #slider .unoslider_slider_area {
+	min-width: 200px;
+	min-height: 182px;
+}
+.unoslider_indicator {
+	top:5px !important;
+	right:5px !important;
+}
+
+.right {
+position: absolute;
+margin-left:800px;
+width: 200px;
+margin-top:24px;
+}
+.right .fbLikeBox {
+	margin:0;
+}
+.weitereFilmeAd {
+background-color: #EDEDED;
+border-radius: 5px;
+width: 200px;
+height: 170px;
+display: block;
+padding-top:15px;
+text-align: center;
+margin-top:20px;
+}
+.wideSkyscraper {
+background-color:#ededed;
+border-radius: 5px;
+width: 200px;
+height: 648px;
+display: block;
+margin-top:20px;
+}
+.wideSkyscraper iframe {
+padding: 25px 20px;
+}
+.wideSkyscraperRight {
+background-color:#ededed;
+border-radius: 5px;
+width: 200px;
+height: 648px;
+display: block;
+margin-top:20px;
+}
+.wideSkyscraperRight iframe {
+padding: 25px 20px;
+}
+.advertisingSquare {
+background-color:#ededed;
+border-radius: 5px;
+width: 560px;
+height: 250px;
+}
+.advertisingSquareLeft {
+margin-top:20px;
+float:left;
+}
+.advertisingSquareRight {
+margin-top:20px;
+float:right;
+}
+.so-funktioniert-netzkino {
+margin-top:20px;
+}
+.so-funktioniert-netzkino ul li {
+list-style: none;
+float:left;
+font: normal 14px 'Play',Helvetica,Arial;
+}
+.so-funktioniert-netzkino ul li.first {
+margin-left:18px;
+}
+.so-funktioniert-netzkino ul li.center {
+margin-left:69px;
+}
+.so-funktioniert-netzkino ul li.last {
+margin-left:78px;
+}
+a.mainBanner {
+margin-top:36px;
+display:block;
+}
+/*Index END*/
+
+/*Category*/
+/*
+.catTexte {
+font: 12px Helvetica,Arial;
+color: #fff;
+background-color: #6AACE8;
+margin-top: 20px;
+border: 10px solid #6AACE8;
+border-radius: 5px;
+}
+.catTexte strong {
+margin-bottom:2px;
+}
+*/
+.movieList {
+margin-right:-22px;
+}
+/*COVER*/
+.movieList a {
+text-decoration: none;
+float:left;
+margin-right:22px;
+margin-top:20px;
+height: 246px;
+overflow: hidden;
+}
+.movieList a img {
+/*margin: 20px 18px 0 0;*/
+}
+.infoText {
+margin-top: 1650px;
+margin-bottom: 20px;
+font: normal 12px Helvetica, Arial;
+color: #474747;
+}
+.kinoList {
+margin-right:-22px;
+}
+.kinoList a {
+	float:left;
+	margin-right:22px;
+	margin-top:20px;
+	text-decoration: none;
+	position: relative;
+}
+.kinoList a:hover .infobox {
+display:block;
+}
+.kinoList a .kinoName {
+background-color:#6aace8;
+height: 24px;
+padding-top: 3px;
+}
+.kinoList a .kinoName img {
+float:left;
+margin-right: 9px;
+margin-left: 9px;
+}
+.kinoList a .kinoName h2 {
+color:#fff;
+font:normal 14px Helvetica,Arial;
+padding-top:2px;
+}
+.infobox {
+	display:none;
+	width:172px;
+	height:246px;
+	font-family:Helvetica,Arial;
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	z-index:2;
+	background:#6aace8;
+}
+.infobox .content {
+padding:10px;
+}
+.infobox .content .headline {
+text-align: center;
+background-color:#fff;
+padding:5px;
+}
+.infobox .content .headline strong {
+font: bold 12px Helvetica,Arial;
+color:#6aace8;
+}
+.movieList a:hover .infobox{
+display:block;
+}
+.highlight{
+	background:url(../imgs/shadow.png) no-repeat;
+	width: 172px;
+	height: 44px;
+	position: absolute;
+	z-index: 1;
+}
+.highlight p{
+	color:#fff;
+	font:bold 12px Helvetica,Arial;
+	text-align: center;
+	padding:5px;
+	text-shadow: 2px 2px 2px #333;
+}
+.highlight-bottom {
+	background:url(../imgs/shadow.png) no-repeat;
+	width: 172px;
+	height: 44px;
+	position: absolute;
+	z-index: 1;
+	bottom: 4px;
+}
+.highlight-bottom p{
+color:#fff;
+font:bold 12px Helvetica,Arial;
+text-align: center;
+padding:5px;
+text-shadow: 2px 2px 2px #333;
+}
+/*COVER END*/
+
+/*Category END*/
+/*Single*/
+.moreMovies li {
+list-style: none;
+margin-bottom: 12px;
+}
+.moreMoviesList li {
+list-style: none;
+margin-bottom:10px;
+}
+.share {
+background-color:#6aace8;
+width: 560px;
+height:27px;
+}
+.share p {
+color: #fff;
+font: normal 14px 'Play',Helvetica,Arial;
+padding-left:10px;
+margin: 8px 15px 0 0;
+position: relative;
+top: 6px;
+}
+.share a.fbook {
+background:url(../imgs/single/share/facebook.png) no-repeat;
+height: 25px;
+width: 71px;
+display: block;
+position: relative;
+left:145px;
+top:-16px;
+}
+.share a.twitter {
+background:url(../imgs/single/share/twitter.png) no-repeat;
+height: 25px;
+width: 66px;
+display: block;
+position: relative;
+top:-41px;
+left:236px;
+}
+.share a.gplus {
+background:url(../imgs/single/share/google-plus.png) no-repeat;
+height: 25px;
+width: 74px;
+display: block;
+position: relative;
+top:-66px;
+left:322px;
+}
+.share a.mail {
+background:url(../imgs/single/share/mail.png) no-repeat;
+height: 25px;
+width: 60px;
+display:block;
+position: relative;
+top:-91px;
+left:416px;
+}
+.fsk18 {
+}
+.netzkino-youtube {
+display:none;
+}
+.youtubeplayer-button {
+cursor: pointer;
+font:normal 12px 'Play',Helvetica,Arial;
+color:#fff;
+float:right;
+margin-top: 2px;
+margin-right: 10px;
+}
+.youtubeplayer-button img {
+margin-bottom:-7px;
+}
+.clipkitplayer-button {
+cursor: pointer;
+font:normal 12px 'Play',Helvetica,Arial;
+color:#fff;
+display:none;
+float:right;
+margin-top: 6px;
+margin-right: 10px;
+}
+.clipkitvideo {
+display:block;
+}
+.player-bottom {
+background-color:#6aace8;
+width: 560px;
+height:27px;
+}
+ul.meta {
+margin-top: 20px;
+}
+ul.meta li {
+list-style: none;
+float: left;
+}
+.meta-desc {
+list-style: none;
+width: 170px;
+font: bold 12px Helvetica,Arial;
+color:#6aace8;
+float: left;
+}
+.meta-desc ul .filmCover {
+	margin-bottom:10px;
+}
+.meta-desc ul li{
+list-style: none;
+float:none;
+padding-bottom:5px;
+}
+.meta-desc ul li a{
+text-decoration: underline;
+font: bold 12px Helvetica,Arial;
+color:#6aace8;
+}
+.meta-desc strong {
+color:#474747;
+}
+.likeMovie {
+	background: url(../imgs/single/like.png) no-repeat;
+	width: 372px;
+	height: 102px;
+	margin-bottom: 20px;
+}
+.likeBox {
+	margin-top: 70px;
+	margin-left: 100px;
+}
+.meta-text {
+list-style: none;
+width: 370px;
+font: normal 12px Helvetica,Arial;
+color:#474747;
+float:right;
+margin-left:20px;
+}
+.comments-button {
+background-color:#6aace8;
+border-radius: 5px;
+height: 28px;
+width: 151px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.comments-button p{
+font: normal 12px 'Play',Helvetica,Arial;
+text-align: center;
+color:#fff;
+padding-top:7px;
+}
+.comment-author {
+padding-top:10px;
+border-top: solid #ededed;
+}
+.comment-author {
+color:#6aace8;
+text-decoration: none;
+font: bold 12px Helvetica,Arial;
+}
+.comment-author a {
+color:#6aace8;
+text-decoration: none;
+font: bold 12px Helvetica,Arial;
+}
+.comment-text {
+color:#474747;
+font: normal 12px Helvetica,Arial;
+margin: 10px 0;
+}
+.comment-date {
+height: 20px;
+display: inline-block;
+background-color:#999;
+margin-bottom:10px;
+padding: 0 5px 0 5px;
+}
+.comment-date p {
+font: normal 12px Helvetica,Arial;
+color:#fff;
+padding-top:3px;
+text-align: center;
+}
+#commentform {
+padding-top:10px;
+border-top: solid #ededed;
+}
+#commentform label {
+font: normal 13px 'Play',Helvetica,Arial;
+color:#474747;
+}
+#commentform input {
+border:none;
+background-color:#ededed;
+margin-top:3px;
+margin-bottom:10px;
+height: 25px;
+width:300px;
+border-radius: 5px;
+padding: 4px 10px;
+font: normal 13px Helvetica,Arial;
+}
+#commentform textarea {
+border:none;
+background-color:#ededed;
+margin-top:3px;
+margin-bottom:10px;
+border-radius: 5px;
+padding: 10px 10px;
+font: normal 13px Helvetica,Arial;
+width:540px;
+height: 100px;
+}
+#commentform #submit {
+background-color:#6aace8;
+font: normal 13px 'Play',Helvetica,Arial;
+width: 101px;
+height: 29px;
+color:#fff;
+cursor: pointer;
+float:right;
+}
+p.moreFreeMovies {
+font: bold 14px Helvetica,Arial;
+color:#474747;
+margin-top:20px;
+margin-bottom:-10px;
+}
+/*Single END*/
+/*Footer*/
+
+/*Footer End*/
+/*BLOG*/
+.blog {
+margin-top:20px;
+}
+.blogHeader{
+margin-top:-20px;
+}
+.blog h2 a{
+text-decoration: none;
+color: #474747;
+height: auto;
+float:none;
+}
+.blogDate {
+background:url(../imgs/blog/blog-date.png) no-repeat;
+height: 30px;
+width: 158px;
+float:left;
+margin-bottom: 20px;
+}
+.blogDate p {
+color: #fff;
+font: bold 18px Helvetica,Arial;
+text-align: center;
+margin-left: 15px;
+padding-top: 5px;
+}
+.blogShare {
+height: 30px;
+width: 269px;
+background-color: #6AACE8;
+border-radius: 5px;
+float:right;
+margin-right:20px;
+}
+.blogShare .shareIcons {
+background:url(../imgs/blog/blog-share.png) no-repeat;
+height:24px;
+width:116px;
+float:left;
+margin-top: 3px;
+margin-left: 10px;
+margin-right:23px;
+}
+a.blogFB {
+height: 24px;
+width: 24px;
+margin-top:0px;
+margin-right:5px;
+float:left;
+}
+a.blogTwitter {
+height: 24px;
+width: 24px;
+margin-top:0px;
+margin-right:5px;
+float:left;
+}
+a.blogGooglePlus {
+height: 24px;
+width: 24px;
+margin-top:0px;
+margin-right:5px;
+float:left;
+}
+a.blogMail {
+height: 24px;
+width: 24px;
+margin-top:0px;
+margin-right:5px;
+float:left;
+}
+.blogShare p a{
+color:#fff;
+font:normal 13px 'Play',Helvetica,Arial;
+margin-top:7px;
+height:auto;
+float:left;
+text-decoration: underline;
+}
+.blogContent {
+font: normal 12px Helvetica, Arial;
+color:#474747;
+}
+.blogContent p a {
+	margin-right: 0;
+	height:auto;
+	float:none;
+}
+/*BLOG END*/
+/*ADVERTISING*/
+a.bannerImgs {
+height: 100px;
+}
+
+/*Container END*/
+#f3ad32426 {
+width: 200px;
+}
+.pluginSkinLight {
+	display:none;
+}
+#infscr-loading.loading, #infscr-loading.hasNoPosts {
+	display:block;
+}
+#infscr-loading {
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.fb-follow>span {
+	display: none;
+}
+/*DesignChanges Facebook Connect*/
+.appBanner {
+	float:right;
+}
+.slogan {
+	color: #fff;
+	font: normal 14px Helvetica,Arial;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.topNavBarRight {
+	float:right;
+}
+.fbLogin {
+	margin-left:30px;
+	float:left;
+}
+.fbConnectButton {
+	margin-left:15px;
+}
+.fbSharingText {
+	float:left;
+	color: #fff;
+	font: normal 14px Helvetica,Arial;
+	padding:5px 10px 0 10px;
+}
+.fbSharingOn img,.fbSharingOff img {
+	float:left;
+	cursor:pointer;
+}
+.fbcDeleteText {
+	float: right;
+}
+.fbcDelete {
+	text-decoration: underline;
+	color: #fff;
+	font: normal 14px Helvetica,Arial;	
+}

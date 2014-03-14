@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sk"
+   },
+   "qs_about_close_button": {
+      "message": "Zavrie\u0165"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Po kliknut\u00ED na v\u00FDsledok vyh\u013Ead\u00E1vania Google sa v pravom dolnom rohu str\u00E1nky m\u00F4\u017Ee zobrazi\u0165 roz\u0161\u00EDrenie R\u00FDchly presun obsahuj\u00FAce jeden alebo viac \u00FAryvkov textu, ktor\u00E9 s\u00FA relevantn\u00E9 pre v\u00E1\u0161 dopyt. Kliknut\u00EDm na text prejdete na zodpovedaj\u00FAcu \u010Das\u0165 str\u00E1nky."
+   },
+   "qs_about_explanation2": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun sa zobraz\u00ED len v pr\u00EDpadoch, kedy by mohlo by\u0165 u\u017Eito\u010Dn\u00E9. Minimalizova\u0165 ho m\u00F4\u017Eete kliknut\u00EDm na tla\u010Didlo Minimalizova\u0165 vpravo hore."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EO spolo\u010Dnosti Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPravidl\u00E1 ochrany osobn\u00FDch \u00FAdajov\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EZmluvn\u00E9 podmienky\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Ako funguje roz\u0161\u00EDrenie R\u00FDchly presun:"
+   },
+   "qs_about_installed": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun Google je nain\u0161talovan\u00E9."
+   },
+   "qs_about_introduction": {
+      "message": "R\u00FDchly presun Google je roz\u0161\u00EDrenie prehliada\u010Da, ktor\u00E9 v\u00E1m pom\u00F4\u017Ee r\u00FDchlej\u0161ie n\u00E1js\u0165 to, \u010Do h\u013Ead\u00E1te."
+   },
+   "qs_about_only_useful": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun sa zobraz\u00ED len v pr\u00EDpadoch, ke\u010F je to u\u017Eito\u010Dn\u00E9. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EViac inform\u00E1ci\u00ED\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Mo\u017Enosti s\u00FA ulo\u017Een\u00E9"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pom\u00F4\u017Ete n\u00E1m zlep\u0161i\u0165 roz\u0161\u00EDrenie R\u00FDchly presun Google automatick\u00FDm odosielan\u00EDm \u0161tatist\u00EDk pou\u017E\u00EDvania spolo\u010Dnosti Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Mo\u017Enosti ochrany osobn\u00FDch \u00FAdajov"
+   },
+   "qs_about_step_1": {
+      "message": "Vykonajte vyh\u013Ead\u00E1vanie Google."
+   },
+   "qs_about_step_2": {
+      "message": "Kliknite na v\u00FDsledok vyh\u013Ead\u00E1vania."
+   },
+   "qs_about_step_3": {
+      "message": "Kliknut\u00EDm na roz\u0161\u00EDrenie R\u00FDchly presun presko\u010D\u00EDte na relevantn\u00E9 \u010Dasti str\u00E1nky."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ak m\u00E1te \u0165a\u017Ekosti alebo ot\u00E1zky t\u00FDkaj\u00FAce sa roz\u0161\u00EDrenia R\u00FDchly presun, nav\u0161t\u00EDvte na\u0161u\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1 \"\u003Estr\u00E1nku podpory\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "\u010Eakujeme, \u017Ee ste si nain\u0161talovali roz\u0161\u00EDrenie R\u00FDchly presun Google."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EVysk\u00FA\u0161ajte to!\u003C/ b\u003E Vyh\u013Eadajte v\u00FDraz [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] a kliknite na v\u00FDsledok \u201Edark matter brown dwarfs\u201C."
+   },
+   "qs_about_try_queries": {
+      "message": "Sk\u00FAste tieto dopyty:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Ak chcete roz\u0161\u00EDrenie R\u00FDchly presun Google odin\u0161talova\u0165, prejdite v ponuke prehliada\u010Da Chrome na mo\u017Enos\u0165 N\u00E1stroje&nbsp;\u003E&nbsp;Roz\u0161\u00EDrenia a pri roz\u0161\u00EDren\u00ED R\u00FDchly presun Google kliknite na odkaz Odin\u0161talova\u0165."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Odin\u0161talova\u0165"
+   },
+   "qs_description": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun v\u00E1m umo\u017En\u00ED presko\u010Di\u0165 priamo na relevantn\u00FD \u00FAryvok v\u00FDsledku vyh\u013Ead\u00E1vania Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Menej zh\u00F4d"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Zobrazi\u0165 p\u00F4vodn\u00E9 zhody pre h\u013Eadan\u00FD v\u00FDraz"
+   },
+   "qs_gallery_description": {
+      "message": "R\u00FDchly presun Google je roz\u0161\u00EDrenie prehliada\u010Da, ktor\u00E9 v\u00E1m pom\u00F4\u017Ee r\u00FDchlej\u0161ie n\u00E1js\u0165 to, \u010Do h\u013Ead\u00E1te.\u003Cbr/\u003E\u003Cbr/\u003EPo kliknut\u00ED na v\u00FDsledok vyh\u013Ead\u00E1vania Google sa m\u00F4\u017Ee roz\u0161\u00EDrenie R\u00FDchly presun objavi\u0165 v pravom dolnom rohu str\u00E1nky spolu s nieko\u013Ek\u00FDmi \u00FAryvkami textu zo str\u00E1nky, ktor\u00E9 s\u00FA relevantn\u00E9 pre v\u00E1\u0161 dopyt. Kliknut\u00EDm na text prejdete na zodpovedaj\u00FAcu \u010Das\u0165 str\u00E1nky.\u003Cbr/\u003E\u003Cbr/\u003ERoz\u0161\u00EDrenie R\u00FDchly presun sa zobrazuje neru\u0161iv\u00FDm sp\u00F4sobom a len v pr\u00EDpadoch, kedy by mohlo by\u0165 u\u017Eito\u010Dn\u00E9."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Je n\u00E1m \u013E\u00FAto, roz\u0161\u00EDrenie R\u00FDchly presun nena\u0161lo na tejto str\u00E1nke \u017Eiadne zhody pre dopyt \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003EViac inform\u00E1ci\u00ED.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Zd\u00E1 sa, \u017Ee cel\u00E1 t\u00E1to str\u00E1nka tematicky s\u00FAvis\u00ED s dopytom \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Roz\u0161\u00EDrenie R\u00FDchly presun sa zobraz\u00ED, ak s\u00FA relevantn\u00E9 iba \u010Dasti danej str\u00E1nky. \u003Cspan class=\"goog_qs-learn-more\"\u003EViac inform\u00E1ci\u00ED.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun sa nezobrazilo, preto\u017Ee pre v\u00E1\u0161 dopyt je relevantn\u00E1 cel\u00E1 str\u00E1nka."
+   },
+   "qs_info_on_search": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun sa zobraz\u00ED po kliknut\u00ED na v\u00FDsledok vyh\u013Ead\u00E1vania Google. \u003Cspan class=\"goog_qs-learn-more\"\u003EViac inform\u00E1ci\u00ED.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Kliknut\u00EDm na polo\u017Eku \u201EIn\u0161talova\u0165\u201C vyjadrujete s\u00FAhlas s t\u00FDmito Zmluvn\u00FDmi podmienkami: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Viac zh\u00F4d \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Viac zh\u00F4d pre h\u013Eadan\u00FD v\u00FDraz"
+   },
+   "qs_name": {
+      "message": "R\u00FDchly presun Google"
+   },
+   "qs_page_action_active": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun na\u0161lo zhody na tejto str\u00E1nke."
+   },
+   "qs_page_action_inactive": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun je povolen\u00E9. Kliknut\u00EDm zobraz\u00EDte viac inform\u00E1ci\u00ED."
+   },
+   "qs_page_action_running": {
+      "message": "Roz\u0161\u00EDrenie R\u00FDchly presun \u010Dak\u00E1 na na\u010D\u00EDtanie str\u00E1nky..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Otvori\u0165 str\u00E1nku pomocn\u00EDka a mo\u017Enost\u00ED"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Zhody na str\u00E1nke pre dopyt \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Zhody na str\u00E1nke pre dopyt \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimalizova\u0165"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Otvori\u0165 roz\u0161\u00EDrenie R\u00FDchly presun Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kliknut\u00EDm tento text zobraz\u00EDte na str\u00E1nke"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Presko\u010Di\u0165 na text $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Najlep\u0161ie zhody pre dopyt \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

@@ -1,0 +1,25 @@
+#clickberryInjectedWindow {
+    width: 280px;
+    height: 270px;
+    position: fixed;
+    right: 20px;
+    top: 8px;
+    z-index: 10000000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+#clickberryInjectedWindow iframe {
+    border: 0px none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#clickberryInjectedWindowCorner {
+    width: 13px;
+    height: 9px;
+    background: url('corner_transparent.png') bottom no-repeat;
+    margin-top: -9px;
+    float: right;
+    margin-right: 50px;
+}

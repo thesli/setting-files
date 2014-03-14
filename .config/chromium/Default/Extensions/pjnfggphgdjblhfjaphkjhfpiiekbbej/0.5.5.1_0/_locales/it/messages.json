@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "it"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Questa estensione non pu\u00F2 offrire suggerimenti da pagine come questa con contenuti protetti (ad es. http\u003Cb\u003Es\u003C/b\u003E://). Meglio tornare sul Web pubblico."
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Questa estensione funziona al meglio nella home page o nella pagina principale di quasi tutti i siti web.\u003Cp\u003EProva l'estensione su un sito web che gi\u00E0 ti piace &mdash; testala e visualizza i suggerimenti di pagina su qualcosa che conosci."
+   },
+   "sp_default_title": {
+      "message": "Scopri Google Pagine simili"
+   },
+   "sp_description": {
+      "message": "Scopri pagine web simili alla pagina che stai visitando al momento."
+   },
+   "sp_domain_change_message": {
+      "message": "Per cambiare il tuo dominio locale in www.google.com, \u003Ca id='over' href='#'\u003Efai clic qui\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com \u00E8 stato salvato come tuo dominio locale per il recupero di pagine simili."
+   },
+   "sp_domain_message": {
+      "message": "L'estensione contatter\u00E0 $1 per recuperare l'elenco di pagine simili.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Numero di pagine: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003ETutto su Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Vorremmo ricevere i tuoi commenti all'indirizzo \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Grazie."
+   },
+   "sp_options_intro": {
+      "message": "L'estensione per browser Google Similar Pages ti permette di visualizzare rapidamente l'anteprima di altre pagine simili a quella visitata al momento e di esplorarle in un attimo."
+   },
+   "sp_options_legal": {
+      "message": "Quando fai clic sul pulsante Pagine simili, il browser invia una query di ricerca a Google per verificare se esistono pagine simili alla pagina visualizzata.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EI dati relativi alla query verranno trattati come descritto nelle \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Enorme sulla privacy\u003C/a\u003E di Google.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003ENorme sulla privacy\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETermini di servizio\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Disinstallazione"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Per disinstallare Google Similar Pages, utilizza l'opzione di menu Strumenti &gt; Estensioni di Chrome, quindi fai clic sul link \"Disinstalla\" relativo all'estensione Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Anteprima\u003Cbr\u003Enon disponibile"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (di Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "L'estensione non \u00E8 al momento disponibile per il tuo Paese o la tua regione. Torna a trovarci presto."
+   },
+   "sp_zero_results": {
+      "message": "Nessuna pagina simile trovata."
+   }
+}

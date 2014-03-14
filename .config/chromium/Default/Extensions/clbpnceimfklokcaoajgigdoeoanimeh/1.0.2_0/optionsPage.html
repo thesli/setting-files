@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			ChromeTube5 Options
+		</title>
+		<script type="text/javascript">
+		// Saves options to localStorage.
+		function save_options() {
+		var select = document.getElementById("ytVid_size");
+		var viddsaez = select.children[select.selectedIndex].value;
+		localStorage["ytVidsize"] = viddsaez;
+		/*  select = document.getElementById("vimVid_size");
+		viddsaez = select.children[select.selectedIndex].value;
+		localStorage["vimVidsize"] = viddsaez;*/
+		// Update status to let user know options were saved.
+		}
+
+		// Restores select box state to saved value from localStorage.
+		function restore_options() {
+		var vsize = localStorage["ytVidsize"];
+		if (!vsize) {
+			vsize = "720p";
+		}
+
+		var select = document.getElementById("ytVid_size");
+		for (var i = 0; i < select.children.length; i++) {
+			var child = select.children[i];
+			if (child.value == vsize) {
+				child.selected = "true";
+				break;
+			}
+		}
+		/*  vsize = -1;
+		vsize = localStorage["vimVidsize"];
+		if ((!vsize)||(vsize==-1)) {
+			vsize = "SD";
+		}
+		select = document.getElementById("vimVid_size");
+		for (var j = 0; j < select.children.length; j++) {
+			var childB = select.children[j];
+			if (childB.value == vsize) {
+				childB.selected = "true";
+				break;
+			}
+					 <div class="vimColumn">
+
+							  <label for="vimVid_size" class="vertical-center">Highest quality video format to load on Vimeo:<\/label>
+						  <select name="vimVid_size" id="vimVid_size">      
+							<option value="SD">SD<\/option>
+							<option value="HD">HD<\/option>
+						  <\/select>
+					 <\/div>
+		}*/
+		}
+		</script>
+	</head>
+	<body onload="restore_options()">
+		<div class="container wrapper">
+			<h3 class="title">
+				YouTube5, Chromed
+			</h3>
+			<form class="options" action="#" method="post">
+				<fieldset class="container set">
+					<div class="ytContainer">
+						<div class="ytColumn">
+							<label for="ytVid_size" class="vertical-center">Largest video format to load on YouTube:</label> <select name="ytVid_size" id="ytVid_size">
+								<option value="360p">360p</option>
+								<option value="720p">720p</option>
+								<option value="1080p">1080p</option>
+							</select>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<p>
+			<button onclick="save_options()">Save</button>
+		</p>
+		<div class="container footer">
+			<p>
+				by <a href="http://elasticthreads.tumblr.com">ElasticThreads</a> | <a href="http://twitter.com/elasticthreads">Twitter</a>
+			</p>
+			<p>
+				Adapted from the excellent Safari extension YouTube5 by <a href="http://www.verticalforest.com/2010/06/09/youtube5-html5-converter-for-youtube-videos/">Connor McKay</a><br />
+			</p>
+			<p>
+				Go on test this out at <a href="http://www.youtube.com/watch?v=ZA1NoOOoaNw">YouTube</a>, you know you want to...
+			</p>
+		</div>
+	</body>
+</html>

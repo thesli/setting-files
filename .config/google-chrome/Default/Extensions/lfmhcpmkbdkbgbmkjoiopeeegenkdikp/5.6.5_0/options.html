@@ -1,0 +1,153 @@
+<html>
+	<head>
+		<script type="text/javascript" src="/js/popup/namespace.js"></script>	
+	
+		<script type="text/javascript" src="/js/background/Media.js"></script>	
+		<script type="text/javascript" src="/js/background/MainButton.js"></script>	
+		<script type="text/javascript" src="/js/Prefs.js"></script>				
+		<script type="text/javascript" src="/js/Utils.js"></script>
+		<script type="text/javascript" src="/js/contentScripts/Controller.js"></script>		
+		<script type="text/javascript" src="/js/Tooltip.js"></script>	
+		<script type="text/javascript" src="/js/locale.js"></script>		
+		<script type="text/javascript" src="/js/ad.js"></script>			
+		<script type="text/javascript" src="/js/jquery.min.js" ></script>
+		<script type="text/javascript" src="/js/jquery.galleryScroll.1.5.2.js"></script>
+		<script type="text/javascript" src="/js/DownCounter.js"></script>				
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="js/internals/tools.js"></script>
+
+		<script type="text/javascript" src="/js/options/options.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/options.css" />
+		<link rel="stylesheet" type="text/css" href="css/galleryScroll.css" />
+		<script type="text/javascript" src="js/options.js"></script>
+		<title>Flash video downloader settings</title>
+	</head>
+	<body>
+	
+	<div id="mainContainer" class="install">
+	
+			<div class="head">
+				<div class="text"></div>
+			</div>
+
+			<div class="body">
+				
+				<div class="description1">
+					<div class="group">
+						<fieldset>
+							<legend>Show formats</legend>
+								<div class="col1">
+									<label><input type="checkbox" sname="fvd.enable_mp4"   id="enable_mp4"  /><span>.mp4  (mpeg)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_3gp"   id="enable_3gp"  /><span>.3gp  (3gpp)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_flv"   id="enable_flv"  /><span>.flv  (flv)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_mov"   id="enable_mov"  /><span>.mov  (quicktime)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_avi"   id="enable_avi"  /><span>.avi  (msvideo)</span></label><br/>
+								</div>
+								<div class="col2">
+									<label><input type="checkbox" sname="fvd.enable_wmv"   id="enable_wmv"  /><span>.wmv  (ms-wmv)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_asf"   id="enable_asf"  /><span>.asf  (ms-asf)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_swf"   id="enable_swf"  /><span>.swf  (flash)</span></label><br/>
+									<label><input type="checkbox" sname="fvd.enable_webm"  id="enable_webm" /><span>.webm (web)</span></label><br/>
+								</div>
+						</fieldset>					
+					</div>
+				</div>
+
+				<div class="description2">
+					<div class="group">
+						<fieldset>
+							<legend>Trigger if video more than</legend>
+								<label><input type="radio" name="trigger_video_more" sname="fvd.trigger_video_more"  value="video_100kb"/><span>100kb</span></label><br>
+								<label><input type="radio" name="trigger_video_more" sname="fvd.trigger_video_more"  value="video_1mb"/><span>1mb</span></label><br>
+						</fieldset>					
+					</div>	
+				</div>
+				
+				<div class="description2">
+					<div class="group">
+						<fieldset>
+							<legend>ClickBerry configuration</legend>
+								
+							<label><input type="checkbox" id="clickberrystate"/><span>Enable</span></label><br>
+								
+						</fieldset>					
+					</div>
+				</div>
+
+				<div id="mainMail" title="Submit bug or suggestion">
+					<div id="buttonBigSdGetSatisfaction"></div>
+				</div>		
+
+				<div id="applyButton">
+					<div class="fvdButton main withLoading" loading="0" id="applyChangesButton"><span class="text">Apply Changes</span><div class="image"></div></div>
+				</div>
+		
+				<div id="closeButton">
+					<div class="fvdButton" id="buttonCloseButton"><span class="text">Close</span></div>
+				</div>
+				
+				<div class="spacer"></div>
+				
+				
+				<div class="page">
+					<div class="gallery-block">
+						<div class="carousel G4">
+							<div class="title" id="slideTitle"><img src="/images/slide/title1.png" alt=""></div>
+							<div class="frame">
+								<ul style="margin-left: 0px;">
+									<li><a href="http://fvd-converter.com/"><img src="/images/slide/1.png" alt="" width="345" class="image"></a></li>,						
+									<li><a href="http://fvd-player.com/"><img src="/images/slide/2.png" alt="" width="345" class="image"></a></li>,						
+								</ul>
+							</div>
+				
+				
+							<div class="download-box"  id="slideDown">
+								<a href="http://fvdsuite.com/download" class="download"><span class="drop">Download Video Converter</span></a>
+							</div>
+				
+							<a href="http://fvdsuite.com/#" class="link-prev">&lt;</a>
+							<a href="http://fvdsuite.com/#" class="link-next">&gt;</a>
+							<div class="switcher s2">
+								<ul><li><a href="" class="">1</a></li><li><a href="" class="">2</a></li><li><a href="" class="">3</a></li><li><a href="" class="">4</a></li><li><a href="" class="">5</a></li><li><a href="" class="active" title="Pause">6</a></li></ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-block">
+						<div id="text2Container" style="visibility: visible;">
+							<ul style="margin-top: 10px; opacity: 1;"></li><div>
+								<ul>
+									<li>Convert Files in Batches</li>
+									<li>Video to Audio Converter</li>
+									<li>Output to AVI, MP4, MKV, FLV, 3GP, MP3</li>
+									<li>Convert Videos with Super High Speed</li>
+									<li>Support videos shot by iPhone, other smart phones and DVs</li> 
+								</ul>
+							</div></li></ul>	
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+
+
+			<div class="foot">
+				
+				<div class="text"></div>
+				
+				<div class="buttons">
+					<a href="http://www.flashvideodownloader.org/fvd-suite/page/contacts" class="contact"></a>
+					<a href="http://www.facebook.com/fvdmedia" class="facebook"></a>
+					<a href="https://twitter.com/fvdmedia" class="twitter"></a>										
+				</div>
+				
+			</div>
+				
+	</div>		
+	
+	
+	</body>
+</html>

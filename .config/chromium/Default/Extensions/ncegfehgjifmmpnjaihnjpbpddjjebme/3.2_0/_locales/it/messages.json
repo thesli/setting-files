@@ -1,0 +1,143 @@
+{
+   "chrome_extension_description": {
+      "message": "Abilita lo scorrimento dei contenuti tramite tocco."
+   },
+   "chrome_extension_name": {
+      "message": "Scorrimento con tocco"
+   },
+   "default": {
+      "message": "default"
+   },
+   "on": {
+      "message": "Attivo"
+   },
+   "s_basic": {
+      "message": "Impostazioni base"
+   },
+   "s_bounceeffect": {
+      "message": "Effetto rimbalzo"
+   },
+   "s_bounceeffect_note": {
+      "message": "Effetto per cui, durante lo scorrimento, il contenuto rimbalda nella finestra qualora vengano raggiunti i margini superiori o inferiori della pagina."
+   },
+   "s_dragdirection": {
+      "message": "Direzione di trascinamento"
+   },
+   "s_dragdirection_normal": {
+      "message": "Normale"
+   },
+   "s_dragdirection_reverse": {
+      "message": "Inversa"
+   },
+   "s_draggrideparam": {
+      "message": "Parametri di trascinamento e scorrimento"
+   },
+   "s_dragspeed": {
+      "message": "Velocit\u00E0 di trascinamento"
+   },
+   "s_dragspeed_fast": {
+      "message": "Veloce"
+   },
+   "s_dragspeed_note": {
+      "message": "Modifica la velocit\u00E0 di scorrimento dello schermo rispetto alla velocit\u00E0 di trascinamento del puntatore."
+   },
+   "s_dragspeed_slow": {
+      "message": "Lento"
+   },
+   "s_easyswitch": {
+      "message": "Utilizza lo switch rapido"
+   },
+   "s_easyswitch_note": {
+      "message": "Premendo la combinazione tasti, la modalit\u00E0 di tocco sar\u00E0 impostata in sequenza ad 'Automatica' -&gt; 'Completa' -&gt; 'Disattivata' -&gt; ..."
+   },
+   "s_glidedistance": {
+      "message": "Lunghezza di scorrimento"
+   },
+   "s_glidedistance_long": {
+      "message": "Ampia"
+   },
+   "s_glidedistance_note": {
+      "message": "I contenuti continuano a scorrere in base alla velocit\u00E0 di trascinamento e al fattore di scorrimento anche dopo il rilascio del puntatore."
+   },
+   "s_glidedistance_short": {
+      "message": "Ristretta"
+   },
+   "s_glidefactor": {
+      "message": "Fattore di scorrimento"
+   },
+   "s_glidefactor_fastend": {
+      "message": "Arresto rapido"
+   },
+   "s_glidefactor_neverstop": {
+      "message": "Senza arresto"
+   },
+   "s_glidefactor_note": {
+      "message": "La velocit\u00E0 di scorrimento viene ridotta gradualmente fino all'arresto in base al fattore specificato."
+   },
+   "s_glidefactor_slowend": {
+      "message": "Arresto lento"
+   },
+   "s_hideicon": {
+      "message": "Nascondi icona"
+   },
+   "s_hotkey": {
+      "message": "Combinazione tasti"
+   },
+   "s_language": {
+      "message": "Lingua"
+   },
+   "s_mousebutton": {
+      "message": "Utilizza pulsante del mouse"
+   },
+   "s_mousebutton_left": {
+      "message": "Pulsante sinistro"
+   },
+   "s_mousebutton_middle": {
+      "message": "Pulsante medio"
+   },
+   "s_mousebutton_right": {
+      "message": "Pulsante destro"
+   },
+   "s_mousegesture": {
+      "message": "Gesti del puntatore"
+   },
+   "s_mousegesture_note": {
+      "message": "Trascina la pagina a sinistra per tornare indietro, trascina a destra per andare avanti."
+   },
+   "s_mousegesture_reversebackforward": {
+      "message": "Inverti la direzione dei gesti per la navigazione tra pagine (avanti e indietro)"
+   },
+   "s_noscrolllbars": {
+      "message": "Nascondi barre di scorrimento"
+   },
+   "s_noscrolllbars_keyboardoption": {
+      "message": "Abilita navigazione tramite tastiera"
+   },
+   "s_noscrolllbars_mousewheeloption": {
+      "message": "Abilita rotella del mouse"
+   },
+   "s_noscrolllbars_note": {
+      "message": "Consente l'utilizzo di un'area pi\u00F9 ampia di visualizzazione."
+   },
+   "s_otherfeatures": {
+      "message": "Altre caratteristiche"
+   },
+   "s_setting": {
+      "message": "Impostazione tocco"
+   },
+   "s_touchmode": {
+      "message": "Modalit\u00E0 tocco"
+   },
+   "s_touchmode_auto": {
+      "message": "Automatica (disattiva scorrimento nelle aree di testo)"
+   },
+   "s_touchmode_full": {
+      "message": "Completa (scorrimento sempre attivo)"
+   },
+   "s_touchmode_off": {
+      "message": "Disabilitata (nessuno scorrimento con tocco)"
+   },
+   "s_update": {
+      "message": "Aggiorna"
+   }
+}

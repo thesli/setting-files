@@ -1,0 +1,21 @@
+{
+   "description": "Nothing fancier than some white here and there.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg55TQ3JMe/mZtxujazLfHqIwosA/iApIn7yw8HprCmuZcCYMaZ9HHoc1lZY4H5kDG0JjvdXYbSVNNFEuhRouwIwnXJ58tlYbEFtNAd8hAwoG3JSDSBORGrniI/e8xUkjtrgDf/vJsXb4soN+ZNnQvFwx1hIRq9CfUgJLB9Ab9VQIDAQAB",
+   "manifest_version": 2,
+   "name": "White Minimalism",
+   "theme": {
+      "colors": {
+         "frame": [ 255, 255, 255 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "tab_background_text": [ 120, 120, 120 ],
+         "toolbar": [ 255, 255, 255 ]
+      },
+      "images": {
+         "theme_frame": "img/theme_frame.png",
+         "theme_tab_background": "img/theme_tab_background.png",
+         "theme_toolbar": "img/theme_toolbar.png"
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

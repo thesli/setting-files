@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Import/Export</title>
+        <link rel="stylesheet" type="text/css" href="options.css" />
+        <style type="text/css">
+            body {
+                background: -webkit-gradient(linear, left top, left bottom, from(#09c), to(#357));
+                color: white;
+            }
+            a{
+                color: #FF7;
+            }
+            .featureDiv {
+                background: -webkit-gradient(linear, left top, left bottom,
+                    from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.05)));
+                padding: 15px;
+                -webkit-border-radius: 15px;
+                line-height: 20px;
+            }
+            .featureDiv h3 {
+                margin-top: 0px;
+            }
+            #importDescription2, #importFFDescription2{
+                font-weight: bold;
+            }
+            #import, #export{
+                font-weight: bold;
+            }
+            .button{
+                margin-top: 10px;
+                -webkit-box-shadow: #666 1px 1px 4px;
+                background: rgba(255, 255, 255, 0.7);
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                border-radius: 3px 3px;
+                color: black;
+                cursor: pointer;
+                display: inline-block;
+                font: normal normal normal 11px/normal Verdana, Arial, Tahoma, sans-serif;
+                padding: 5px;
+                text-align: center;                
+            }
+            #importText, #exportText, #importFFText{
+                width: 100%;
+                height: 200px;
+                margin-top: 2px;
+            }
+            #importTextDiv, #exportTextDiv{
+                width: 100%;
+            }
+            #importHint, #mergeHint{
+                
+                font-size:12px;
+                color:goldenrod;
+            }
+            .col{
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                border-radius: 3px 3px;
+                display:inline-block;
+                width:48%;
+                padding:5px;
+            }
+        </style>
+        <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="import.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"></div>
+                <div id="pagetitle"></div>
+                <br style="clear:both">
+            </div>
+            <div id="feature">
+                <div class="featureDiv">
+                    <h3 id="export">Export</h3>
+                    <p id="exportDescription">Click the "Export" button to export your columns and tabs. You can save the content to a file and import it at other computers.</p>
+                    <input type="button" id="exportBackup" value="Export for backup"><br>
+                    <input type="button" id="exportPrint" value="Export for print"><br>
+                    <div id="exportTextDiv" style="display: none">
+                        <div id="exportControls">
+                            <input type="radio" name="exportFormat" value="0" checked>Text
+                            <input type="radio" name="exportFormat" value="1">HTML                            
+                        </div>
+                        <textarea id="exportText" readonly="readonly"></textarea>
+                    </div>
+                </div>
+                <br />
+                <div class="featureDiv">
+                    <h3 id="import">Import</h3>
+                    <p id="importDescription">Click the "Import" button to begin importing columns and tabs. Paste the exported text into the box, then click the "Confirm" button.</p>
+
+                    <input type="button" id="importTextToggle" value="Import"><br>
+                    <div id="importTextDiv" style="display: none">
+                        <textarea id="importText"></textarea><br />
+                        <br/>
+                        <div>
+                            <div class="col">
+                                <input type="button" id="importButton" value="Import & Overwrite" />
+                                <p id="importHint">Warning: You current columns and tabs will be overwritten</p>                                
+                            </div>
+                            <div class="col">
+                                <input type="button" id="mergeButton" value="Import & Merge" /><br/>
+                                <input type="checkbox" id="mergeCheck"/><span id="mergeSame" style="font-size:12px;">Merge columns with the same name</span>
+                                <p id="mergeHint">Import columns and merge with existing columns</p>                                
+                            </div>
+                            <div style="clear:both"></div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="featureDiv">
+                    <h3 id="importFF">Merge Tabs from TooManyTabs(Firefox)</h3>
+                    <p id="importFFDescription">
+                        Open the backup generated by TooManyTabs on Firefox. Click the "Import" button to begin importing columns and tabs. Paste the text from the file into the box, then click the "Confirm" button.
+                    </p>
+                    <p id="importFFDescription2">
+                        The rows from Firefox will be added to your TooManyTabs. However, there is no 'color' tab functions in Chrome. Existing rows will not be affected.
+                    </p>
+                    <input type="button" id="importFFTextToggle" value="Merge"><br>
+                    <div id="importFFTextDiv" style="display: none">
+                        <textarea id="importFFText"></textarea><br />
+                        <input type="button" id="importFFButton" value="Confirm" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

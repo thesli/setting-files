@@ -1,0 +1,25 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Tab Expose",
+      "popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "hotkey.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Manage and navigate your tabs with ease.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhIgkgoRRRuXkxrVIhQnnP+HbWkX6no5j0gXYId8ajPsK5MXIhvp9mx4j6ZpZ+2FRfLFHC39tRALVANnt+f7CmxArDW68KyYJus/xffg/B6Ch05nfqrloY4Bxo6QOQONIcRTVdWoGjCxIBtz4SOvkgVhCsoJM9RDTz3ZqWQYW7fwIDAQAB",
+   "minimum_chrome_version": "5.0.316.0",
+   "name": "Tab Expose",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.5"
+}

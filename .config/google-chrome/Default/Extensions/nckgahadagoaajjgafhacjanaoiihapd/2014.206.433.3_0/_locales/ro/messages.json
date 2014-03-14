@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Conectarea la Google este imposibil\u0103. Verific\u0103 conexiunea la internet."
+   },
+   "chrome_ext_description": {
+      "message": "Hangouts anim\u0103 conversa\u021Biile cu fotografii, emoticonuri \u0219i chiar cu apeluri video gratuite."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Comentarii"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Trimite feedback"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "te-a invitat la un apel video de grup \u00EEn Hangout"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Trimite feedback"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Neconectat(\u0103)"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "P\u0103streaz\u0103 Hangouts deasupra celorlalte ferestre"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "te apeleaz\u0103 video prin Hangouts"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Permite modul fundal"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Conecteaz\u0103-te la Hangouts atunci c\u00E2nd porne\u0219te Chrome"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stare: conectat\u0103\nMesaje necitite"
+   },
+   "quasar_answer_button_text": {
+      "message": "R\u0103spunde"
+   },
+   "quasar_button_apply": {
+      "message": "Aplica\u0163i"
+   },
+   "quasar_button_cancel": {
+      "message": "Anuleaz\u0103"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 spune...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Face\u0163i clic pentru a accesa pagina..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Refuz\u0103"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Anuleaz\u0103"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Platform\u0103:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Declara\u0163ie de confiden\u0163ialitate"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Descrierea, informa\u021Biile despre produs, informa\u021Biile suplimentare \u0219i adresa dvs. de e-mail vor fi trimise la Google. Consulta\u021Bi Termenii \u0219i condi\u021Biile Google Feedback. Trimi\u021B\u00E2nd acest con\u021Binut, acorda\u021Bi companiei Google dreptul de a-l utiliza pentru a-\u0219i \u00EEmbun\u0103t\u0103\u021Bi produsele \u0219i serviciile. Consulta\u021Bi Politica noastr\u0103 de confiden\u021Bialitate."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Trimite feedback"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Informa\u0163ii despre sistem"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "Reprezentantul utilizatorului:"
+   },
+   "quasar_group_chat_title": {
+      "message": "Din chatul de grup..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 particip\u0103 la un Hangout",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Ajutor"
+   },
+   "quasar_label_all_notification": {
+      "message": "Dezactiva\u0163i notific\u0103rile"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Dezactiva\u0163i notific\u0103rile prin chat"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Durata expir\u0103rii (\u00EEn secunde):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Permite\u0163i expirarea automat\u0103 a notific\u0103rilor din chat"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Afi\u015Fa\u0163i pictograma pentru bara de sistem"
+   },
+   "quasar_legend_notifications": {
+      "message": "Notific\u0103ri"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Aplica\u0163ie"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Feedback"
+   },
+   "quasar_menutext_quit": {
+      "message": "Ie\u0219i"
+   },
+   "quasar_menutext_settings": {
+      "message": "Op\u0163iuni"
+   },
+   "quasar_menutext_signout": {
+      "message": "Deconecteaz\u0103-te"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Necunoscut"
+   },
+   "quasar_sign_in": {
+      "message": "Conecteaz\u0103-te"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Conecteaz\u0103-te \u0219i converseaz\u0103 cu prietenii"
+   },
+   "quasar_tip_connected": {
+      "message": "Stare: conectat(\u0103)"
+   },
+   "quasar_tip_connecting": {
+      "message": "Stare: se conecteaz\u0103"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stare: deconectat(\u0103)"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stare: eroare la \u00EEnc\u0103rcare"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stare: neconectat(\u0103)"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stare: se reconecteaz\u0103"
+   },
+   "quasar_try_now": {
+      "message": "\u00CEncerca\u0163i acum"
+   },
+   "quasar_video_details": {
+      "message": "te apeleaz\u0103 prin chat video"
+   },
+   "quasar_video_title": {
+      "message": "Apel video de la $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "te apeleaz\u0103"
+   },
+   "quasar_voice_title": {
+      "message": "Apel vocal de la $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

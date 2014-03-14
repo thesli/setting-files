@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html ng-app="antp" ng-csp>
+  <head>
+    <!--
+      Awesome New Tab Page
+      Copyright 2011-2013 Awesome HQ, LLC & Michael Hart
+      All rights reserved.
+      http://antp.co http://awesomehq.com
+    -->
+
+    <title>New Tab</title>
+    <link rel="canonical" href="https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg" />
+    <link rel="publisher" href="https://plus.google.com/101062285048075360930" />
+    <link rel="shortcut icon" href="/images/favicon.png?20120409" />
+
+    <link rel="stylesheet" href="/colorpicker/css/colorpicker.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/jquery.jgrowl.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/jquery.qtip.min.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="/css/style.css?nocache=14" type="text/css" media="screen" />
+
+    <meta name="google" value="notranslate" />
+    <meta name="twitter:widgets:csp" content="on">
+  </head>
+
+  <body class="bg-color">
+    <!-- Fixes an issue where scrolling sometimes didn't work. -->
+    <div class="scroll-helper"></div>
+
+    <div id="grid-holder"></div>
+
+    <div id="oetirc">
+      <div class="oetirc-ad-free"><center><a href="https://pro.antp.co/ads-free" target="_top">DISABLE THIS AD FOREVER</a></center></div>
+      <div class="oetirc-scroll"><center>SCROLL RIGHT TO SEE MORE OF YOUR GRID AND TILES</center></div>
+      <div id="oetirc-unit"></div>
+      <div class="oetirc-disable"><center>HIDE THIS AD FOR TODAY</center></div>
+      <div class="oetirc-yah"><center><a href="mailto:contact-for-advertisers@antp.co?Subject=Advertising%20in%20Awesome%20New%20Tab%20Page&Body=Product/Website/Brand%3A" target="_top">YOUR AD HERE</a></center></div>
+    </div>
+
+    <div id="widget-holder" ng-controller="tileCtrl">
+
+      <!-- Widgets -->
+      <div id="{{widget.id}}" ng-repeat="widget in widgets"
+        class="widget ng-cloak search-not-active"
+        type="{{widget.type}}"
+        tile-height="{{widget.size.0}}" tile-width="{{widget.size.1}}"
+        tile-init-top="{{widget.where.0}}" tile-init-left="{{widget.where.1}}"
+        style="height: {{widget.css.height}}px; width: {{widget.css.width}}px;
+          top: {{widget.css.top}}px; left: {{widget.css.left}}px;
+          background-size: {{widget.backgroundSize}}; background-position: {{widget.backgroundPosition}}">
+        <iframe ng-src="{{widget.path}}{{widget.hash}}" scrolling="no" frameborder="0" align="center" height="100%" width="100%"></iframe>
+        <div class="iframe-mask">
+          <div id="delete" class="sprite"></div>
+          <div id="widget-config" class="url sprite" data-url="{{widget.optionsUrl}}{{widget.hash}}" ng-show="widget.optionsUrl"></div>
+          <div class="resize-tile">
+            <div class="resize-tile-top" ng-show="widget.resize"></div>
+            <div class="resize-tile-bottom" ng-show="widget.resize"></div>
+            <div class="resize-tile-left" ng-show="widget.resize"></div>
+            <div class="resize-tile-right" ng-show="widget.resize"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Installed Apps -->
+      <div id="{{app.id}}" ng-repeat="app in apps"
+      class="widget app search-not-active"
+      ng-class="{'offline-enabled': app.offlineEnabled==true}"
+      type="{{app.type}}"
+      tile-height="{{app.size.0}}" tile-width="{{app.size.1}}"
+      tile-init-top="{{app.where.0}}" tile-init-left="{{app.where.1}}"
+      style="{{app.css.bg}};
+          height: {{app.css.height}}px; width: {{app.css.width}}px;
+          top: {{app.css.top}}px; left: {{app.css.left}}px;
+          background-size: {{app.backgroundSize}}; background-position: {{app.backgroundPosition}}">
+        <div ng-switch on="app.searchEnabled" >
+          <div ng-switch-when="true">
+            <input type="text" class="search-box" name="search" value="" placeholder="Search" data-search="{{app.searchUrl}}" autocomplete="off" />
+          </div>
+        </div>
+        <div class="app-name" ng-hide="!app.name_show">{{app.name}}</div>
+        <a class="url" data-url="{{app.appLaunchUrl}}" href="{{app.appLaunchUrl}}" onleftclick="{{app.onleftclick}}"></a>
+        <div class="iframe-mask">
+          <div id="delete" class="sprite"></div>
+          <div id="shortcut-edit" class="sprite"></div>
+          <div class="resize-tile" style="display: none; ">
+            <div class="resize-tile-top"></div>
+            <div class="resize-tile-bottom"></div>
+            <div class="resize-tile-left"></div>
+            <div class="resize-tile-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Shortcuts -->
+      <div id="{{shortcut.id}}" ng-repeat="shortcut in custom_shortcuts"
+      class="widget app search-not-active shortcut"
+      type="{{shortcut.type}}"
+      tile-height="{{shortcut.size.0}}" tile-width="{{shortcut.size.1}}"
+      tile-init-top="{{shortcut.where.0}}" tile-init-left="{{shortcut.where.1}}"
+      style="{{shortcut.css.bg}};
+          height: {{shortcut.css.height}}px; width: {{shortcut.css.width}}px;
+          top: {{shortcut.css.top}}px; left: {{shortcut.css.left}}px;
+          background-size: {{shortcut.backgroundSize}}; background-position: {{shortcut.backgroundPosition}}">
+        <div ng-switch on="shortcut.searchEnabled" >
+          <div ng-switch-when="true">
+            <input type="text" class="search-box" name="search" value="" placeholder="Search" data-search="{{shortcut.searchUrl}}" autocomplete="off" />
+          </div>
+        </div>
+        <div class="app-name" ng-hide="!shortcut.name_show">{{shortcut.name}}</div>
+        <a class="url" data-url="{{shortcut.appLaunchUrl}}" href="{{shortcut.appLaunchUrl}}" onleftclick="{{shortcut.onleftclick}}"></a>
+        <img ng-src="chrome://favicon/{{shortcut.appLaunchUrl}}" class="app-favicon" ng-hide="!shortcut.favicon_show" />
+        <div class="iframe-mask">
+          <div id="delete" class="sprite"></div>
+          <div id="shortcut-edit" class="sprite"></div>
+          <div class="resize-tile" style="display: none; ">
+            <div class="resize-tile-top"></div>
+            <div class="resize-tile-bottom"></div>
+            <div class="resize-tile-left"></div>
+            <div class="resize-tile-right"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="top-buttons">
+      <div id="logo-button" title="{{ 'ui_about' | i18n}}"></div>
+      <div id="config-button" class="sprite" title="{{ 'ui_config' | i18n}}"></div>
+      <div id="app-drawer-button" class="sprite" title="{{ 'ui_button_apps' | i18n}}"></div>
+      <div id="widget-drawer-button" class="sprite" title="{{ 'ui_button_widgets' | i18n}}"></div>
+      <div id="recently-closed-tabs" class="sprite" title="{{ 'ui_button_rct' | i18n}}"></div>
+      <div id="lock-button" class="sprite" title="{{ 'ui_button_lock' | i18n}}" style="display: none;"></div>
+      <div id="unlock-button" class="sprite" title="{{ 'ui_button_unlock' | i18n}}"></div>
+      <div id="pro-button" class="sprite" title="Awesome New Tab Page&trade; Pro"></div>
+    </div>
+
+    <div id="recently-closed-tabs-menu" class="no-scroll" ng-controller="RCTMCtrl">
+      <div>{{ 'ui_button_rct' | i18n}}</div>
+
+      <div class="rctm-item" ng-repeat="rct in recently_closed">
+        <img class="rctm-icon" ng-src="chrome://favicon/{{rct.url}}">
+        <a class="rctm-link" id="{{rct}}" title="{{rct.title}}"
+          href="{{rct.url}}">{{rct.title}}</a>
+        <div ng-click="removeTab(rct)" title="{{ 'rctm_remove' | i18n }}" class="rctm-close sprite"></div>
+      </div>
+
+      <div ng-show="recently_closed" class="rctm-reset-all" ng-click="clear()">{{ "rctm_clear_all" | i18n }}</div>
+    </div>
+
+    <div id="about" class="ui-2 container no-scroll">
+      <div class="ui-2 header">
+        <div class="ui-2 left">
+          <div class="ui-2 logo"></div>
+          <div class="ui-2 name">
+            Awesome New Tab Page&trade;
+            <span class="ui-2 crumb sprite">&nbsp;</span>
+            <span class="ui-2 subname"> {{'ui_about' | i18n}} </span>
+          </div>
+        </div>
+        <div class="ui-2 right">
+          <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+        </div>
+      </div>
+
+      <div class="ui-2 contents">
+        <div id="about-who" class="ui-2">
+          <!-- <h3>Who makes this?</h3>
+          <p>Awesome New Tab Page is published by <nobr>Awesome HQ, LLC</nobr>,
+            a company founded in the beautiful city of Seattle by <nobr>Michael Hart</nobr>.</p> -->
+
+          <h3>Do you make anything else?</h3>
+          <p>Check out Androplr, an Android client for <nobr>Droplr.com</nobr>. It's the easiest way to share links, images, and more from your Android device.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.androplr.free" class="bubble ilb">
+            Androplr on Google Play
+          </a>
+        </div>
+
+        <div id="about-dev" class="ui-2">
+          <h3>{{'ui_about_dev' | i18n}}</h3>
+          <p>Did you know that making a widget for Awesome New Tab Page is as easy as making a website?</p>
+          <p>Go ahead; make something awesome!</p>
+
+          <a href="https://github.com/NewTabPage/Awesome-Bookmarks-Widget" class="bubble ilb">
+            Make a widget
+          </a>
+
+          <h3>Find a bug? Need help?</h3>
+          <p>You can reach out to us through the link below.</p>
+          <a href="http://help.awesomehq.com/" class="bubble ilb">
+            Contact us
+          </a>
+        </div>
+
+        <div id="about-share" class="ui-2">
+          <h3>{{'ui_about_share' | i18n}}</h3>
+          <p>{{'ui_about_share1' | i18n}}</p>
+          <g:plusone expandTo="top" size="medium"
+          href="https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg"></g:plusone>
+          <a href="https://twitter.com/share" class="twitter-share-button"
+            data-url="https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg"
+            data-text="Awesome New Tab Page: The Chrome New Tab Page should be awesome, just like you."
+            data-count="horizontal" data-via="NewTabPage" data-related="HartMichael:Developer">Tweet</a>
+          <br />
+          <g:plus href="https://plus.google.com/101062285048075360930" width="300" height="131" theme="light"></g:plus>
+        </div>
+
+        <!-- <div id="about-rate" class="ui-2">
+          <h3>{{'ui_about_rate' | i18n}}</h3>
+          <p>
+            {{'ui_about_rate_desc' | i18n}}
+          </p>
+          <p>
+            <g:chrome-web-store widgettype="ratingreview" appid="mgmiemnjjchgkmgbeljfocdjjnpjnmcg"></g:chrome-web-store>
+          </p>
+        </div> -->
+      </div>
+    </div>
+
+    <div id="supported" class="ui-2 container no-scoll" style="display: none;">
+      <div class="ui-2 contents">
+        <div class="supported-confirm bubble ilb float-right"><b>Dismiss</b></div>
+        <center><h3>Awesome New Tab Page's development is supported by <u>optional</u> injected ads.</h3></center>
+        <p>
+          Awesome New Tab Page's development is supported by <b>optional</b> injected advertisements that are added to some of the websites you visit.
+          Over the past 2+ years, I've put in thousands of hours developing this extension (adding features, fixing bugs, making things better), supporting all users who <u><a href="http://help.awesomehq.com/" target="_blank">ask for help</a></u> (yep, all!), and developing (and helping other widget developers develop) widgets. My goal, as it always has been, is to make awesome stuff for awesome people.
+        </p>
+        <p>
+          Ads support most of the internet we all use and love; without them, the internet we have today would simply not exist. Similarly, without revenue, this extension (and the upcoming <u><a href="https://www.awesomehq.com/" target="_blank">Awesome HQ</a></u>, which is in beta) would not be possible.
+        </p>
+        <p>
+          <b>You can disable these injected ads in the settings (click the cog wheel in the top left of the page).</b>
+          If you disable the ads in settings, they should remain disabled unless you reinstall or reset the extension.
+        </p>
+
+        <br />
+        <center><b>Types of ads</b></center>
+
+        <div class="row">
+          <div class="col-md-6">
+            <center><b>Superfish Similar Products</b></center>
+
+            <div class="supported-ss" id="superfish-ss"></div>
+
+            <p>
+              Superfish ads are deals and similar products. You can use it to quickly search other websites for the same or similar products. It's generally accessed by briefly mousing over a button that appears on product images.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <center><b>RevJet Coupons</b></center>
+
+            <div class="supported-ss" id="revjet-ss"></div>
+
+            <p>
+              RevJet ads are deals and coupons added to select websites that can help you save money.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          The ads used in Awesome New Tab Page adhere to the Chrome Web Store's ad policies that can be found <a href="https://developers.google.com/chrome/web-store/program_policies" target="_blank"><u>here</u></a>. If you have any questions, please don't hesitate to contact me <a href="http://help.awesomehq.com/" target="_blank"><u>here</u></a> (Contact support link on the right).
+        </p>
+
+        <p>I want to make things very clear how the injected ads work and remind you that, as always with Awesome New Tab Page, you have complete control over pretty much everything. Thanks for your understanding and (maybe) support.</p>
+
+        <div class="supported-confirm bubble ilb float-right"><b>Confirm and Continue</b></div>
+        <div id="supported-confirm-configure" class="bubble ilb float-right">Confirm and Configure</div>
+      </div>
+    </div>
+
+    <div id="config" class="ui-2 container no-scoll">
+      <div class="ui-2 header">
+        <div class="ui-2 left">
+          <div class="ui-2 logo"></div>
+          <div class="ui-2 name">
+            Awesome New Tab Page&trade;
+            <span class="ui-2 crumb sprite">&nbsp;</span>
+            <span class="ui-2 subname">{{'ui_config' | i18n}}</span>
+          </div>
+        </div>
+        <div class="ui-2 right">
+          <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+        </div>
+      </div>
+
+      <div class="ui-2 contents" id="config-contents">
+        <tabs>
+          <pane name="{{'ui_config_general' | i18n}}">
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_shtlb' | i18n}}</b>
+                <p class="tip">{{'ui_config_shtlb_desc' | i18n}}</p>
+              </div>
+              <onoff name="hideLeftButtons" state="hideLeftButtons" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_shgrid' | i18n}}</b>
+                <p class="tip">{{'ui_config_shgrid_desc' | i18n}}</p>
+              </div>
+              <onoff name="toggle-grid" state="toggleGrid" />
+            </div>
+
+            <div id="reset-button" class="bubble ilb">{{'ui_config_reset' | i18n}}</div>
+            <p class="ilb">{{'ui_config_reset_desc' | i18n}}</p>
+
+            <br />
+            <h2>Advertisements</h2>
+            <p>Awesome New Tab Page's development is supported by optional injected ads that are added to some of the websites you visit. You can enable or disable these ads using the settings below. These settings only apply to injected ads. <u class="supported-window" style="cursor: pointer;">Learn more</u>.</p>
+
+            <br />
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>Enable coupons from RevJet</b>
+                <p class="tip">
+                  You can disable RevJet's coupon ads by setting this to Off.
+                </p>
+              </div>
+              <onoff name="toggle-revjet" state="toggleRevjet" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>Enable similar product search from Superfish</b>
+                <p class="tip">
+                  You can disable Superfish similar product search by setting this to Off.
+                </p>
+              </div>
+              <onoff name="toggle-superfish" state="toggleSuperfish" />
+            </div>
+
+            <div>
+              <b>Donate.</b> It's understandable if you don't want injected ads. Consider making a donation if you disable them to support the extension's development. You can
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline-block;">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="3FASK82JL9WZS">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+              with PayPal or with BitCoin (1GBVJ1uWZxC2CfxfVqJh8QhiWTqpsjwCP1).
+            </div>
+
+          </pane>
+
+          <pane name="{{'ui_config_bg' | i18n}}">
+            <div class="bubble ilb bg-color">
+              &nbsp;&nbsp;&nbsp;
+            </div>
+            <div id="colorselector-bg" class="bubble ilb">
+              {{'ui_config_bg_changecolor' | i18n}}
+            </div>
+            <input type="file" id="filesystem_bg_input" style="width:0; height: 0; opacity: 0;">
+            <div id="filesystem_bg_ui" class="bubble ilb">
+              {{'ui_config_bg_upload' | i18n}}
+            </div>
+            <p class="tip">
+              <i18n message-id='ui_config_bgimg1'></i18n>
+              <a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_background_shorthand2">
+                <u>{{'ui_c_learnmore' | i18n}}</u>.
+              </a>
+            </p>
+            <p>
+              <input id="bg-img-css" type="text" name="bg-img-css" autocomplete="off" />
+            </p>
+            <p class="tip">{{'ui_config_bgimg3' | i18n}}</p>
+            <p>{{'ui_config_bgimg2' | i18n}}</p>
+            <pre>url(https://cdn.antp.co/misc/bg/ics.png) repeat right top</pre>
+          </pane>
+
+          <pane name="{{'ui_import_export_header' | i18n}}">
+            <div id="import-export-contents" class="ui-2">
+              <div class="buttons">
+                <div id="import-btn" class="bubble ilb"><i18n message-id="ui_import_export_btn_import"></i18n></div>
+                <div id="export-btn" class="bubble ilb"><i18n message-id="ui_import_export_btn_export"></i18n></div>
+                <div id="restore-btn" class="bubble ilb"><i18n message-id="ui_import_export_btn_restore"></i18n></div>
+              </div>
+
+              <p><i18n message-id="ui_import_export_desc_import"></i18n></p>
+              <p><i18n message-id="ui_import_export_desc_export"></i18n></p>
+              <p><i18n message-id="ui_import_export_installed_warning"></i18n></p>
+              <p><i18n message-id="ui_import_export_desc_restore"></i18n></p>
+              <p>Important: Backups made before October 14, 2013 will only restore tile placements, not overall ANTP settings.</p>
+
+              <div>
+                <textarea rows="10" cols="50" id="import-textarea"></textarea>
+                <textarea rows="10" cols="50" id="export-textarea"></textarea>
+              </div>
+              <div id="run-import-btn" class="bubble ilb">
+                <i18n message-id="ui_import_export_btn_import_run"></i18n>
+              </div>
+
+            </div>
+          </pane>
+
+          <pane name="{{'ui_online_backups_header' | i18n}}">
+            <div class="online-backups" ng-controller="backupsCtrl">
+              <p><i18n message-id="ui_online_backups_desc"></i18n></p>
+              <p><i18n message-id="ui_online_backups_warning"></i18n></p>
+              <p>Important: Backups made before October 14, 2013 will only restore tile placements, not overall ANTP settings.</p>
+
+              <div class="list-wrapper" ng-controller="backupsCtrl">
+                <div class="space-stats"></div>
+                <div id="backups-list">
+                  <div class="online-backup" ng-repeat="backup in backups">
+                    <div class="item-link" title="{{backup.name}}">
+                      <span class="backup-name"> {{backup.name}} </span> <span class="dim"> - {{backup.size}} KB</span>
+                    </div>
+                    <span class="buttons">
+                      <div title="{{'ui_online_backup_load_backup' | i18n}}" class="button online-backups-load sprite" ng-click="loadBackup(backup.name)"></div>
+                      <div title="{{'ui_online_backup_remove_backup' | i18n}}" class="button online-backups-x sprite" ng-click="removeBackup(backup.name)"></div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <input id="backup-name" type="text" placeholder="{{'ui_online_backup_name_placeholder' | i18n}}" ng-model="newBackupName">
+              <div id="save-backup-btn" class="bubble ilb" ng-click="saveBackup(newBackupName)">{{'ui_online_backup_btn_save_backup' | i18n}}</i18n></div>
+            </div>
+          </pane>
+
+          <pane name="{{'ui_config_advanced' | i18n}}">
+            <p>
+              {{'ui_config_advanced_tip' | i18n}}
+            </p>
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_hide_scrollbar' | i18n}}</b>
+                <p class="tip">{{'ui_config_hide_scrollbar_tip' | i18n}}</p>
+              </div>
+              <onoff name="hide-scrollbar" state="hideScrollBar" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_advanced_disable_horizontal_scrollbar' | i18n}}</b>
+                <p class="tip">{{'ui_config_advanced_disable_horizontal_scrollbar_tip' | i18n}}</p>
+              </div>
+              <onoff name="disableHscroll" state="disableHscroll" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_advanced_hide_rctm' | i18n}}</b>
+                <p class="tip">{{'ui_config_advanced_hide_rctm_tip' | i18n}}</p>
+              </div>
+              <onoff name="hideRCTM" state="hideRCTM" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_advanced_grid_width' | i18n}}</b>
+                <p class="tip"><i18n message-id="ui_config_advanced_grid_width_tip"></i18n></p>
+              </div>
+              <input type="number" id="grid_width" class="float-right advanced-input" autocomplete="off" spellcheck="false" min="4" max="50" placeholder="{{'ui_config_onoff_off' | i18n}}" />
+            </div>
+
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>{{'ui_config_advanced_grid_height' | i18n}}</b>
+                <p class="tip"><i18n message-id="ui_config_advanced_grid_height_tip"></i18n></p>
+              </div>
+              <input type="number" id="grid_height" class="float-right advanced-input" autocomplete="off" spellcheck="false" min="3" max="25" placeholder="{{'ui_config_onoff_off' | i18n}}" />
+            </div>
+          </pane>
+        </tabs>
+      </div>
+    </div>
+
+    <div ng-controller="windowAppsWidgetsCtrl" class="no-scoll">
+      <div id="apps" class="ui-2 container">
+        <div class="ui-2 header">
+          <div class="ui-2 left">
+            <div class="ui-2 logo"></div>
+            <div class="ui-2 name">
+              Awesome New Tab Page&trade;
+              <span class="ui-2 crumb sprite">&nbsp;</span>
+              <span class="ui-2 subname">
+                {{'ui_button_apps' | i18n}}
+              </span>
+            </div>
+          </div>
+          <div class="ui-2 right">
+            <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+          </div>
+        </div>
+
+        <div class="ui-2 contents">
+          <div class="drawer-app ui-2 ilb faw-box">
+            <div class="faw-wrapper faw-icon-information">
+              <div class="faw-head"><i18n message-id="ui_faw_unlock_drag"></i18n></div>
+              <div class="faw-body"><i18n message-id="ui_faw_unlock_drag_apps"></i18n></div>
+            </div>
+          </div>
+          <div class="drawer-app ui-2 ilb faw-box">
+            <div class="faw-wrapper faw-icon-download">
+              <div class="faw-head"><i18n message-id="ui_faw_get_more_apps"></i18n></div>
+              <div class="faw-body"><i18n message-id="ui_faw_get_more_apps_body"></i18n></div>
+            </div>
+          </div>
+
+          <!-- <div class="window-pro-promo" ng-hide="isPro()">
+            <center>
+              Have multiple computers? <a href="https://pro.antp.co/?utm_source=antp&utm_medium=aww&utm_campaign=multi">Upgrade to <span>Pro</span></a> and synchronize.
+            </center>
+          </div> -->
+
+          <!-- Start Apps -->
+
+          <div ng-repeat="app in apps"
+          id="{{app.id}}"
+          class="widget app drawer-app ui-2 ilb"
+          type="{{app.type}}"
+          tile-width="1"
+          tile-height="1"
+          app-source="from-drawer"
+          stock="{{app.id}}">
+            <img class="ui-2 ilb url" ng-src="{{app.img}}" data-url="{{app.appLaunchUrl}}">
+            <div class="ui-2 drawer-app-name ilb url" data-url="{{app.appLaunchUrl}}" href="{{app.appLaunchUrl}}">{{app.name}}</div>
+            <div class="ui-2 drawer-app-uninstall ilb" ng-hide="!app.mayDisable">{{ "ui_uninstall" | i18n }}</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="widgets" class="ui-2 container">
+        <div class="ui-2 header">
+          <div class="ui-2 left">
+            <div class="ui-2 logo"></div>
+            <div class="ui-2 name">
+              Awesome New Tab Page&trade;
+              <span class="ui-2 crumb sprite">&nbsp;</span>
+              <span class="ui-2 subname">
+                {{'ui_button_widgets' | i18n}}
+              </span>
+            </div>
+          </div>
+          <div class="ui-2 right">
+            <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+          </div>
+        </div>
+
+        <div class="ui-2 contents" id="widget-drawer">
+          <div class="drawer-app ui-2 ilb faw-box">
+            <div class="faw-wrapper faw-icon-information">
+              <div class="faw-head"><i18n message-id="ui_faw_unlock_drag"></i18n></div>
+              <div class="faw-body"><i18n message-id="ui_faw_unlock_drag_widgets"></i18n></div>
+            </div>
+          </div>
+          <div class="drawer-app ui-2 ilb faw-box">
+            <div class="faw-wrapper faw-icon-download">
+              <div class="faw-head"><i18n message-id="ui_faw_get_more_widgets"></i18n></div>
+              <div class="faw-body">
+                <a href="http://dev.antp.co/widgets">
+                  <u id="widget-browser-button"><i18n message-id="ui_faw_get_more_widgets_body"></i18n></u>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="window-pro-promo" ng-hide="isPro()">
+            <center>
+              Have multiple computers? <a href="https://pro.antp.co/?utm_source=antp&utm_medium=aww&utm_campaign=multi">Upgrade to <span>Pro</span></a> and synchronize.
+            </center>
+          </div> -->
+
+          <!-- Start Widgets -->
+
+          <div ng-repeat="(key, widget) in widgets"
+            id="{{key}}"
+            class="widget app drawer-app ui-2 ilb" app-source="from-drawer"
+            type="{{widget.type}}"
+            tile-width="{{widget.width}}"
+            tile-height="{{widget.height}}"
+            tile-widget="true"
+            tile-widget-src="{{widget.path}}"
+            tile-poke="{{widget.pokeVersion}}"
+            resize="{{widget.v2.resize}}"
+            min_height="{{widget.v2.min_height}}"
+            max_height="{{widget.v2.max_height}}"
+            min_width="{{widget.v2.min_width}}"
+            max_width="{{widget.v2.max_width}}"
+            multi_placement="{{widget.v3.multi_placement}}" >
+              <img class="ui-2 ilb" ng-src="{{widget.img}}">
+              <div class="ui-2 drawer-app-name ilb">{{widget.name}}</div>
+              <div class="ui-2 drawer-app-wh ilb">{{widget.width}} Wide, {{widget.height}} Tall</div>
+              <div class="ui-2 drawer-app-uninstall ilb" ng-hide="widget.stock">{{ "ui_uninstall" | i18n }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="editor" ng-controller="windowTileEditorCtrl" class="ui-2 container">
+      <div class="ui-2 header">
+        <div class="ui-2 left">
+          <div class="ui-2 logo"></div>
+          <div class="ui-2 name">
+            Awesome New Tab Page&trade;
+            <span class="ui-2 crumb sprite">&nbsp;</span>
+            <span class="ui-2 subname">
+              {{'ui_te' | i18n}}
+            </span>
+            <span class="ui-2 crumb sprite">&nbsp;</span>
+            <span class="ui-2 subname" id="editor-name">
+              {{name}}
+            </span>
+          </div>
+        </div>
+        <div class="ui-2 right">
+          <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+        </div>
+      </div>
+
+      <div class="ui-2 contents">
+        <div id="tile-editor-right">
+          <tabs>
+            <pane name="{{'ui_te_general' | i18n}}">
+              <div class="show-if-app">
+                <p class="tip">{{'ui_te_app_tip' | i18n}}</p>
+              </div>
+
+              <h3>{{'ui_te_name' | i18n}}</h3>
+              <p>{{'ui_te_name_desc' | i18n}}</p>
+              <input type="text" ng-model="$parent.$parent.name" ng-tile-editor autocomplete="off" />
+
+              <div class="overflow-auto">
+                <div class="float-left option-container tile-edit-title-margin">
+                  {{'ui_te_shname' | i18n}}
+                </div>
+                <onoff ng-model="$parent.$parent.name_show" name="name_show" state="$parent.$parent.name_show" on-change="$parent.$parent.name_show = checked" ng-tile-editor>
+              </div>
+
+              <div class="overflow-auto tile-edit-title-margin">
+                <div class="float-left option-container tile-edit-title-margin">
+                  {{'ui_te_pin' | i18n}}
+                </div>
+                <onoff ng-model="$parent.$parent.shortcut_pin" name="shortcut_pin" state="$parent.$parent.shortcut_pin" on-change="$parent.$parent.shortcut_pin = checked" ng-tile-editor>
+              </div>
+
+              <div class="overflow-auto tile-edit-title-margin">
+                <div class="float-left option-container tile-edit-title-margin">
+                  {{'ui_te_newtab' | i18n}}
+                </div>
+                <onoff ng-model="$parent.$parent.shortcut_newtab" name="shortcut_newtab" state="$parent.$parent.shortcut_newtab" on-change="$parent.$parent.shortcut_newtab = checked" ng-tile-editor>
+              </div>
+
+              <div class="hide-if-app">
+                <h3>URL</h3>
+                <p>{{'ui_te_url_desc' | i18n}}</p>
+                <input ng-model="$parent.$parent.appLaunchUrl" type="text" ng-tile-editor autocomplete="off" />
+                <p class="tip">{{'ui_te_url_tip' | i18n}}</p>
+
+                <div class="overflow-auto tile-edit-title-margin">
+                  <div class="float-left option-container tile-edit-title-margin">
+                    {{'ui_te_shfavicon' | i18n}}
+                  </div>
+                  <onoff ng-model="$parent.$parent.favicon_show" name="favicon_show" state="$parent.$parent.favicon_show" on-change="$parent.$parent.favicon_show = checked" ng-tile-editor>
+                </div>
+              </div>
+            </pane>
+
+            <pane name="{{'ui_te_search' | i18n}}" class="hide-if-app">
+              <div class="hide-if-app">
+                <p>{{'ui_te_search_desc' | i18n}} <i>"https://www.google.com/search?q={input}"</i></p>
+                <input ng-model="$parent.$parent.searchUrl" type="text" ng-tile-editor autocomplete="off" />
+              </div>
+            </pane>
+
+            <pane name="{{'ui_config_bg' | i18n}}">
+
+              <h3>{{'ui_config_bg_changecolor' | i18n}}</h3>
+              <div id="shortcut_colorpicker" class="bubble ilb">
+                {{'ui_te_bg_colorpicker' | i18n}}
+              </div>
+              <div id="swatches" ng-click="setswatch($event)"></div>
+
+              <div class="overflow-auto tile-edit-title-margin">
+                <div class="float-left option-container tile-edit-title-margin">
+                  {{'ui_te_bg_transparent' | i18n}}
+                </div>
+                <onoff ng-model="$parent.$parent.shortcut_background_transparent" name="shortcut_background_transparent" state="$parent.$parent.shortcut_background_transparent" on-change="$parent.$parent.shortcut_background_transparent = checked" ng-tile-editor>
+              </div>
+
+              <p class="tip">
+                {{'ui_te_bg_tip' | i18n}}
+              </p>
+              <div class="hide-if-app">
+                <p class="tip">
+                  {{'ui_te_bg_note' | i18n}}
+                </p>
+              </div>
+
+              <div class="hide-if-app">
+                <h3>{{'ui_te_ib' | i18n}}</h3>
+                <p>{{'ui_te_ib_desc' | i18n}}</p>
+                <div id="filesystem_icon_screenshot_bt" class="bubble ilb">
+                  {{'ui_te_ib_screenshot' | i18n}}
+                </div>
+                <input ng-model="$parent.$parent.img" type="text" class="ilb" ng-tile-editor autocomplete="off" />
+                <input type="file" id="filesystem_icon_input" style="width:0; height: 0; opacity: 0;">
+                <div id="filesystem_icon_ui" class="bubble ilb">
+                  {{'ui_te_ib_browse' | i18n}}
+                </div>
+                <p class="tip">{{'ui_te_ib_tip' | i18n}}</p>
+                <p class="tip">{{'ui_te_ib_advanced' | i18n}}</p>
+              </div>
+            </pane>
+          </tabs>
+        </div>
+
+        <div id="tile-editor-left">
+          <div id="fake-tile-wrapper">
+            <div id="fake-tile-background" class="bg-color">
+              <div class="fake-tile" id="preview-tile" style="background-image: {{backgroundimage}}; background-color: {{backgroundcolor}}; ">
+                <img id="invisible-tile-img" style="display: none;"/> <!-- this element is to just get width and height of tile icon -->
+                <div class="app-name" ng-show="name_show">{{name}}</div>
+                <img class="app-favicon" ng-show="favicon_show" ng-src="{{favicon}}"/>
+                <div class="iframe-mask" style="display: block;"></div>
+              </div>
+              <div class="fake-tile" id="ft0"></div>
+              <div class="fake-tile" id="ft1"></div>
+              <div class="fake-tile" id="ft2"></div>
+              <div class="fake-tile" id="ft3"></div>
+              <div class="fake-tile" id="ft4"></div>
+              <div class="fake-tile" id="ft5"></div>
+              <div class="fake-tile" id="ft6"></div>
+              <div class="fake-tile" id="ft7"></div>
+              <div class="fake-tile" id="ft8"></div>
+            </div>
+
+            <div id="icon-resize-scale-controls">
+              <div>
+                <span class="align-top">{{'ui_resize_zoom' | i18n}}: </span>
+                <input id="zoom-slider" type="range" value="0" min="0" max="300" />
+              </div>
+              <div id="reset-bt" class="bubble ilb">
+                {{'ui_resize_reset' | i18n}}
+              </div>
+              <div id="center-bt" class="bubble ilb">
+                {{'ui_resize_center' | i18n}}
+              </div>
+              <div id="cover-bt" class="bubble ilb">
+                {{'ui_resize_cover' | i18n}}
+              </div>
+              <div id="contain-bt" class="bubble ilb">
+                {{'ui_resize_contain' | i18n}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pro-window" class="ui-2 container no-scroll" style="display: none;">
+      <div class="ui-2 header">
+        <div class="ui-2 left">
+          <div class="ui-2 logo"></div>
+          <div class="ui-2 name">
+            Awesome New Tab Page&trade;
+            <span class="ui-2 crumb sprite">&nbsp;</span>
+            <span class="ui-2 subname"> Pro </span>
+          </div>
+        </div>
+        <div class="ui-2 right">
+          <div class="ui-2 x sprite" title="{{ 'ui_button_close' | i18n }}"></div>
+        </div>
+      </div>
+
+      <div class="ui-2 contents" ng-controller="ProCtrl">
+        <tabs>
+          <div>
+            <h2>Manage Subscription</h2>
+            <div ng-hide="pro">
+              <div>
+                <a class="bubble ilb" href="https://pro.antp.co/">Upgrade</a>
+                <p class="ilb">
+                  Want to be a Pro and unlock the following features?
+                  <a class="ilb" href="https://pro.antp.co/" target="_blank"><u>Learn more</u>.</a>
+                </p>
+              </div>
+              <div>
+                <a class="bubble ilb" href="https://pro.antp.co/subscription">Connect</a>
+                <p class="ilb">
+                  Do you already have a Pro account and need to connect this computer to your account?
+                </p>
+              </div>
+            </div>
+            <div ng-show="pro && unresolvedError">
+              <div class="bubble ilb" ng-click="save()">Try Again</div>
+              <p class="ilb">
+                There were errors saving your recent changes.
+              </p>
+            </div>
+            <div ng-show="pro">
+              <div class="bubble ilb" ng-click="unlink()">Disconnect</div>
+              <p class="ilb">
+                You can remove your Pro account from this computer by pressing this button.
+              </p>
+            </div>
+            <div ng-show="expired">
+              <a class="bubble ilb" href="https://pro.antp.co/" target="_blank">Renew</a>
+              <a class="bubble ilb" ng-click="clear_expired()">Check again</a>
+              <p class="ilb">
+                Your subscription expired. Renew or check to see if it has been renewed?
+              </p>
+            </div>
+          </div>
+          <div ng-show="pro && !expired">
+            <h2>Pro Settings</h2>
+            <div class="overflow-auto">
+              <div class="float-left option-container">
+                <b>Theme: Glass</b>
+                <p class="tip">Set to On to enable the Glass theme for Awesome New Tab Page.</p>
+              </div>
+              <onoff name="proGlass" state="proGlass" />
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Helps keep Chrome's Developer Tools / Elements tab pretty -->
+    <div id="script_holder">
+      <script type="text/javascript" src="/javascript/libs.uglified.js?nocache=14"></script>
+      <script type="text/javascript" src="/javascript/app.compiled.js"></script>
+
+      <script type="text/javascript" src="/javascript/tile-editor.js"></script>
+      <script type="text/javascript" src="/javascript/tilesystem.js?nocache=13"></script>
+      <script type="text/javascript" src="/javascript/hscroll.js"></script>
+
+      <script type="text/javascript" src="/javascript/angular/antp.js?nocache=13"></script>
+
+      <script type="text/javascript" src="/javascript/require.js"></script>
+      <script type="text/javascript" src="/javascript/delayed-loader.js"></script>
+
+      <script type="text/javascript" src="/javascript/ui.js"></script>
+
+      <script type="text/javascript" src="/javascript/icon-resizing.js"></script>
+    </div>
+  </body>
+</html>

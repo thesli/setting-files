@@ -1,0 +1,600 @@
+<html>
+<head>
+	<title>Minimalist for Facebook Options</title>
+	<link type="text/css" rel="stylesheet" href="css/options.css" />
+	<link type="text/css" rel="stylesheet" href="css/picker/colorpicker.css" />
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+	<script type="text/javascript" src="js/picker/colorpicker.js"></script>
+	<script type="text/javascript" src="js/picker/eye.js"></script>
+	<script type="text/javascript" src="js/picker/utils.js"></script>
+	<script type="text/javascript">
+		//---- COLOR PICKERS ----//
+		(function($){
+			var initLayout = function() {
+				$('#backCLR').ColorPicker({
+					color: localStorage["backCLR"],
+					onShow: function (colpkr) {
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) {
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) {
+						$('#backCLR div').css('backgroundColor', '#' + hex);
+						localStorage["backCLR"] = "#" + hex;
+					}
+				});
+				$('#accentCLR').ColorPicker({
+					color: localStorage["accentCLR"],
+					onShow: function (colpkr) {
+						$(colpkr).fadeIn(500);
+						return false;
+					},
+					onHide: function (colpkr) {
+						$(colpkr).fadeOut(500);
+						return false;
+					},
+					onChange: function (hsb, hex, rgb) {
+						$('#accentCLR div').css('backgroundColor', '#' + hex);
+						localStorage["accentCLR"] = "#" + hex;
+					}
+				});
+			};
+			EYE.register(initLayout, 'init');
+		})(jQuery)
+		//---- END COLOR PICKERS ----//
+
+		// NAVIGATION HANDLER
+		var last = "gen";
+		function navigate(link) {
+			$("#OPT" + last).attr("style", "");
+			$("#OPT" + link).attr("style", "display: block;");
+			//document.getElementById("OPT" + link).scrollTop = 0;
+			$("#" + last).attr("class", "");
+			$("#" + link).attr("class", "current");
+			//document.getElementById("OPTside").scrollTop = 0;
+			last = link;
+		}
+	</script>
+	<script type="text/javascript">
+		//---- GOOGLE WEB FONT LOADER ----//
+		WebFontConfig = {
+			google: { families: [ 'Raleway:100' ] }
+		};
+		(function() {
+			var wf = document.createElement('script');
+				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+					'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				wf.type = 'text/javascript';
+				wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(wf, s);
+		})();
+		//---- END GOOGLE WEB FONT LOADER ----//
+	</script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-22336317-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+<div id="OPTwrap">
+	<div id="OPTside">
+		<h1>Minimalist</h1>
+		<!-- SYSTEM MESSAGES -->
+		<div id="announce" style="display: block;">
+			<strong>Subtract until it breaks</strong><br />The way of the minimalist
+		</div>
+		<div id="refresh">
+			<strong>Settings saved!</strong><br /><a href="#" onclick="javascript:chrome.extension.sendRequest({action: 'reload'},function(){});">Refresh Facebook to apply</a>
+			<br /><br /><span style="opacity:.5;">Some changes require browser restart</span>
+		</div>
+		<div id="refreshEI">
+			<strong>Import successful!</strong><br /><a href="#" onclick="javascript:chrome.extension.sendRequest({action: 'reload'},function(){});">Refresh Facebook to apply</a>
+		</div>
+		<div id="easterEgg_on">
+			<strong>Easter Egg enabled!</strong><br />Refresh Voice to apply
+		</div>
+		<div id="easterEgg_off">
+			<strong>Easter Egg disabled...</strong><br />
+		</div>
+		<!-- END SYSTEM MESSAGES -->
+		<!-- NAVIGATION -->
+		<ul>
+			<li><a href="#gen" class="" id="gen" onclick="navigate('gen')">General</a></li>
+			<li><a href="#the" class="" id="the" onclick="navigate('the')">Theme</a></li>
+			<li><a href="#too" class="" id="too" onclick="navigate('too')">Toolbar</a></li>
+			<li><a href="#nav" class="" id="nav" onclick="navigate('nav')">Navigation</a></li>
+			<li><a href="#sad" class="" id="sid" onclick="navigate('sid')">Sidebar</a></li>
+			<li><a href="#mai" class="" id="mai" onclick="navigate('mai')">Main</a></li>
+			<li>&nbsp;</li>
+			<li>&nbsp;</li>
+			<li><a href="#imp" class="" id="imp" onclick="navigate('imp')">Import/Export</a></li>
+			<li><a href="#mor" class="" id="mor" onclick="navigate('mor')">More</a></li>
+			<li><a href="#nge" class="" id="nge" onclick="navigate('nge')">Changes</a></li>
+			<li><a href="#sup" class="" id="sup" onclick="navigate('sup')">Support</a></li>
+			<li><a href="#abo" class="" id="abo" onclick="navigate('abo')">About</a></li>
+			<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=C5GNE665F894E" class="" id="don" target="_blank">Donate</a></li>
+		</ul>
+		<!-- END NAVIGATION -->
+	</div>
+	<div class="OPTmain" id="OPTgen">
+		<h1 class="dark">Facebook <span>| general</span></h1>
+		<section>
+			<h3>Options Icon</h3>
+			<div>
+				<input type="checkbox" id="mficon" />
+					&nbsp;<label for="mficon" title="">Hide Minimalist for Facebook options icon</label><br />
+					<span class="note"><strong>NOT RECOMMENDED:</strong> Only shows up in Facebook</span>
+			</div>
+		</section>
+		<section>
+			<h3>Favicon Counter</h3>
+			<div>
+				<input type="checkbox" id="favicon" />
+					&nbsp;<label for="favicon" title="">Show counter in favicon</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Animate Transitions</h3>
+			<div>
+				<input type="checkbox" id="trans" />
+					&nbsp;<label for="trans" hide title="">Show transition animations</label><br />
+					<span class="note">Very subtle. Not possible for all transitions.</span><br />
+					<!-- <span class="note"><strong>Note:</strong> May decrease performance slightly on slower machines</span> -->
+			</div>
+		</section>
+		<section>
+			<h3>Footer</h3>
+			<div>
+				<input type="checkbox" id="footer" />
+					&nbsp;<label for="footer" title="">Hide all</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Custom CSS</h3>
+			<div>
+				<input type="checkbox" id="customCSS" />
+					&nbsp;<label for="customCSS" hide title="">Use custom CSS</label><br />
+					<textarea id="customCSSval" rows="5" cols="40" style="margin-left: 25px;"></textarea>
+					<br />
+					<span class="note">Don't know CSS? <a href="https://groups.google.com/forum/?hl=en#!forum/minimalist-facebook" target="_blank">Ask questions and see examples here</a></span>
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTthe">
+		<h1 class="dark">Facebook <span>| theme</span></h1>
+		<section>
+			<h3>Minimalist</h3>
+			<div>
+				<input type="checkbox" disabled id="min" />
+					&nbsp;<label for="min" hide title="">Enable Minimalist stylesheet</label> [coming soon]<br />
+			</div>
+		</section>
+		<section>
+			<h3>Layout</h3>
+			<div>
+				<input type="checkbox" id="fullW" />
+					&nbsp;<label for="fullW" hide title="">Force full-width layout</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Background</h3>
+			<div>
+				<input type="checkbox" id="backC" />
+					&nbsp;<label for="backC" title="">Change background color</label><div c id="backCLR"><div id="backCLRsub" style="background-color: #fff;"></div></div><br />
+
+			</div>
+		</section>
+		<section>
+			<h3>Accent color</h3>
+			<div>
+				<input type="checkbox" id="accent" />
+					&nbsp;<label for="accent" title="">Change accent color</label><div c id="accentCLR"><div id="accentCLRsub" style="background-color: #3B5998;"></div></div><br />
+					<span class="note">NOTE: Dark/main color. Lighter tints calculated automatically</span><br />
+			</div>
+		</section>
+		<section>
+			<h3>Highlights</h3>
+			<div>
+				<input type="checkbox" id="high" />
+					&nbsp;<label for="high" title="">Show hover highlights</label><br />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTtoo">
+		<h1 class="dark">Facebook <span>| toolbar</span></h1>
+		<section>
+			<h3>Hide All</h3>
+			<div>
+				<input type="checkbox" id="tbarH" />
+					&nbsp;<label for="tbarH" title="">Hide toolbar</label><br />
+					<span class="note">[ \ ] or click blank stripe to toggle</span><br /><br />
+			</div>
+		</section>
+		<section>
+			<h3>Floating toolbar</h3>
+			<div>
+				<input type="checkbox" id="t_float" />
+					&nbsp;<label for="t_float" title="">Floating toolbar</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Left section</h3>
+			<div>
+				<input type="checkbox" id="logo" />
+					&nbsp;<label for="logo" title="">Hide logo</label><br />
+				<input type="checkbox" id="t_friends" />
+					&nbsp;<label for="t_friends" title="">Hide friend requests</label><br />
+				<input type="checkbox" id="t_messages" />
+					&nbsp;<label for="t_messages" title="">Hide messages</label><br />
+				<input type="checkbox" id="t_notifications" />
+					&nbsp;<label for="t_notifications" title="">Hide notifications</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Search</h3>
+			<div>
+				<input type="checkbox" id="t_search" />
+					&nbsp;<label for="t_search" title="">Hide search</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Right sections</h3>
+			<div>
+				<input type="checkbox" id="t_home" />
+					&nbsp;<label for="t_home" title="">Hide Home</label><br />
+				<input type="checkbox" id="t_profile" />
+					&nbsp;<label for="t_profile" title="">Hide Profile</label><br />
+				<input type="checkbox" id="t_ff" />
+					&nbsp;<label for="t_ff" title="">Hide "Find Friends"</label><br />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTnav">
+		<h1 class="dark">Facebook <span>| navigation</span></h1>
+		<section>
+			<h3>Hide All</h3>
+			<div>
+				<input type="checkbox" id="navH" />
+					&nbsp;<label for="navH" title="">Hide navigation</label><br />
+					<span class="note">Click blank stripe to toggle, [ / ] to focus search, [ \ ] to toggle</span>
+			</div>
+		</section>
+		<section>
+			<h3>Floating</h3>
+			<div>
+				<input type="checkbox" id="navF" />
+					&nbsp;<label for="navF" title="">Floating navigation</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Profile Section</h3>
+			<div>
+				<input type="checkbox" id="n_profile" />
+					&nbsp;<label for="n_profile" title="">Hide section</label><br />
+				<input type="checkbox" id="n_news" />
+					&nbsp;<label for="n_news" title="">Hide News Feed</label><br />
+				<input type="checkbox" id="n_messages" />
+					&nbsp;<label for="n_messages" title="">Hide Messages</label><br />
+				<input type="checkbox" id="n_events" />
+					&nbsp;<label for="n_events" title="">Hide Events</label><br />
+				<input type="checkbox" id="n_friends" />
+					&nbsp;<label for="n_friends" title="">Hide Friends</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Groups Section</h3>
+			<div>
+				<input type="checkbox" id="n_groups" />
+					&nbsp;<label for="n_groups" title="">Hide section</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Navigation Section</h3>
+			<div>
+				<input type="checkbox" id="n_more" />
+					&nbsp;<label for="n_more" title="">Hide "more"</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Chat Section</h3>
+			<div>
+				<input type="checkbox" id="n_chat" />
+					&nbsp;<label for="n_chat" title="">Hide Chat section</label><br />
+				<input type="checkbox" id="n_search" />
+					&nbsp;<label for="n_search" title="">Hide search box</label><br />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTsid">
+		<h1 class="dark">Facebook <span>| sidebar</span></h1>
+		<section>
+			<h3>Hide All</h3>
+			<div>
+				<input type="checkbox" id="s_all" />
+					&nbsp;<label for="s_all" title="">Hide sidebar</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Floating</h3>
+			<div>
+				<input type="checkbox" id="sF" />
+					&nbsp;<label for="sF" title="">Floating sidebar</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Other</h3>
+			<div>
+				<input type="checkbox" id="s_events" />
+					&nbsp;<label for="s_events" hide title="">Hide events</label><br />
+				<input type="checkbox" id="s_find" />
+					&nbsp;<label for="s_find" hide title="">Hide Find More Friends</label><br />
+				<input type="checkbox" id="s_requests" />
+					&nbsp;<label for="s_requests" hide title="">Hide Requests</label><br />
+				<input type="checkbox" id="s_pokes" />
+					&nbsp;<label for="s_pokes" hide title="">Hide Pokes</label><br />
+				<input type="checkbox" id="s_recommended" />
+					&nbsp;<label for="s_recommended" hide title="">Hide Recommended</label><br />
+				<input type="checkbox" id="s_people" />
+					&nbsp;<label for="s_people" hide title="">Hide People You May Know</label><br />
+				<input type="checkbox" id="s_ads" />
+					&nbsp;<label for="s_ads" hide title="">Hide Ads</label><br />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTmai">
+		<h1 class="dark">Facebook <span>| main</span></h1>
+		<section>
+			<h3>Info</h3>
+			<div>
+				<input type="checkbox" id="full" />
+					&nbsp;<label for="full" title="">Show full timestamps</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Photos</h3>
+			<div>
+				<input type="checkbox" id="zoom" />
+					&nbsp;<label for="zoom" title="">Show photo zoom on hover</label><br />
+				<input type="checkbox" id="theater" />
+					&nbsp;<label for="theater" title="">Disable theater mode</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>Chat</h3>
+			<div>
+				<input type="checkbox" id="idle" />
+					&nbsp;<label for="idle" title="">Hide idle</label><br />
+				<input type="checkbox" id="bottom" />
+					&nbsp;<label for="bottom" title="">Hide bottom list</label><br />
+			</div>
+		</section>
+		<section>
+			<h3>News Feed</h3>
+			<div>
+				<input type="checkbox" id="f_lf" />
+					&nbsp;<label for="f_lf" title="">Default to "Most Recent" feed</label><br />
+				<!-- <input type="checkbox" id="f_share" />
+					&nbsp;<label for="f_share" title="">Hide share links</label><br /> -->
+				<input type="checkbox" id="f_tr" />
+					&nbsp;<label for="f_tr" title="">Hide Top/Recent</label><br />
+				<input type="checkbox" id="f_app" />
+					&nbsp;<label hide for="f_app" title="">Hide Applications stories</label><br />
+				<input type="checkbox" id="f_poll" />
+					&nbsp;<label hide for="f_poll" title="">Hide Poll/Questions stories</label><br />
+				<input type="checkbox" id="f_page" />
+					&nbsp;<label hide for="f_page" title="">Hide Pages stories</label><br />
+				<input type="checkbox" id="f_event" />
+					&nbsp;<label hide for="f_event" title="">Hide event stories</label><br />
+				<input type="checkbox" id="f_friend" />
+					&nbsp;<label hide for="f_friend" title="">Hide friend stories</label><br />
+				<input type="checkbox" id="f_group" />
+					&nbsp;<label hide for="f_group" title="">Hide group stories</label><br />
+				<input type="checkbox" id="f_like" />
+					&nbsp;<label hide for="f_like" title="">Hide like stories</label><br />
+				<input type="checkbox" id="f_link" />
+					&nbsp;<label hide for="f_link" title="">Hide link stories</label><br />
+				<input type="checkbox" id="f_note" />
+					&nbsp;<label hide for="f_note" title="">Hide note stories</label><br />
+				<input type="checkbox" id="f_photo" />
+					&nbsp;<label hide for="f_photo" title="">Hide photo stories</label><br />
+				<input type="checkbox" id="f_place" />
+					&nbsp;<label hide for="f_place" title="">Hide place stories</label><br />
+				<input type="checkbox" id="f_profile" />
+					&nbsp;<label hide for="f_profile" title="">Hide profile picture stories</label><br />
+				<input type="checkbox" id="f_relationship" />
+					&nbsp;<label hide for="f_relationship" title="">Hide relationship status stories</label><br />
+				<input type="checkbox" id="f_status" />
+					&nbsp;<label hide for="f_status" title="">Hide status stories</label><br />
+				<input type="checkbox" id="f_video" />
+					&nbsp;<label hide for="f_video" title="">Hide video stories</label><br />
+				<input type="checkbox" id="f_wall" />
+					&nbsp;<label hide for="f_wall" title="">Hide wall post stories</label><br />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTimp">
+		<h1 class="dark">Facebook | <span>import/export</span></h1>
+		<section>
+			<h3>Import/Export</h3>
+			<div>
+				To transfer settings, click "Export", copy everything, paste it back in another browser and click "Import".
+				<br /><br />
+				<form name="EI">
+				<textarea id="EImain" rows="5" cols="40"></textarea>
+				<input type="button" value="Export" onClick="eport('EImain')" /><input type="button" value="Import" onClick="iport('EImain')" />
+				</form>
+			</div>
+		</section>
+		<section>
+			<h3>Presets</h3>
+			<div>
+				<strong>Warning:</strong> clicking a preset will replace your current settings. Your current settings will be saved to "Custom 3", overriding it's contents.<br /><br />
+				<div style="display: none;">
+					<textarea id="EI_0" rows="5" cols="40">{"mficon":false,"favicon":false,"trans":false,"footer":false,"customCSS":false,"customCSSval":"","min":false,"fullW":false,"backC":false,"backCLR":"#ffffff","accent":false,"accentCLR":"#3B5998","high":false,"tbarH":false,"t_float":false,"logo":false,"t_friends":false,"t_messages":false,"t_notifications":false,"t_search":false,"t_home":false,"t_profile":false,"navH":false,"navF":false,"n_profile":false,"n_news":false,"n_messages":false,"n_events":false,"n_friends":false,"n_groups":false,"n_more":false,"n_chat":false,"n_search":false,"s_all":false,"s_events":false,"s_find":false,"s_requests":false,"s_pokes":false,"s_recommended":false,"s_people":false,"s_ads":false,"full":false,"zoom":false,"theater":false,"idle":false,"bottom":false,"f_lf":false,"f_tr":false,"f_app":false,"f_event":false,"f_friend":false,"f_group":false,"f_like":false,"f_link":false,"f_note":false,"f_photo":false,"f_place":false,"f_profile":false,"f_relationship":false,"f_status":false,"f_video":false,"f_wall":false}
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+#ffffff
+undefined</textarea>
+					<textarea id="EI_1" rows="5" cols="40">{"mficon":false,"favicon":true,"trans":false,"footer":true,"customCSS":false,"customCSSval":"","min":false,"fullW":false,"backC":false,"backCLR":"#ffffff","accent":false,"accentCLR":"#3B5998","high":false,"tbarH":false,"t_float":false,"logo":false,"t_friends":false,"t_messages":false,"t_notifications":false,"t_search":false,"t_home":false,"t_profile":true,"navH":false,"navF":false,"n_profile":false,"n_news":false,"n_messages":false,"n_events":false,"n_friends":false,"n_groups":false,"n_more":false,"n_chat":false,"n_search":true,"s_all":false,"s_events":false,"s_find":false,"s_requests":false,"s_pokes":false,"s_recommended":false,"s_people":false,"s_ads":true,"full":false,"zoom":true,"theater":false,"idle":false,"bottom":false,"f_lf":false,"f_tr":false,"f_app":false,"f_event":false,"f_friend":false,"f_group":false,"f_like":false,"f_link":false,"f_note":false,"f_photo":false,"f_place":false,"f_profile":false,"f_relationship":false,"f_status":false,"f_video":false,"f_wall":false}
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+#ffffff
+undefined</textarea>
+					<textarea id="EI_2" rows="5" cols="40">{"mficon":false,"favicon":true,"trans":false,"footer":true,"customCSS":false,"customCSSval":"","min":false,"fullW":false,"backC":false,"backCLR":"#ffffff","accent":false,"accentCLR":"#3B5998","high":true,"tbarH":false,"t_float":true,"logo":false,"t_friends":false,"t_messages":false,"t_notifications":false,"t_search":false,"t_home":false,"t_profile":true,"navH":false,"navF":true,"n_profile":false,"n_news":false,"n_messages":false,"n_events":false,"n_friends":false,"n_groups":false,"n_more":false,"n_chat":false,"n_search":true,"s_all":false,"s_events":false,"s_find":true,"s_requests":false,"s_pokes":false,"s_recommended":true,"s_people":true,"s_ads":true,"full":false,"zoom":true,"theater":false,"idle":false,"bottom":false,"f_lf":false,"f_tr":false,"f_app":false,"f_event":false,"f_friend":false,"f_group":false,"f_like":false,"f_link":false,"f_note":false,"f_photo":false,"f_place":false,"f_profile":false,"f_relationship":false,"f_status":false,"f_video":false,"f_wall":false}
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+#ffffff
+undefined</textarea>
+					<textarea id="EI_3" rows="5" cols="40">{"mficon":false,"favicon":true,"trans":true,"footer":true,"customCSS":false,"customCSSval":"","min":false,"fullW":false,"backC":false,"backCLR":"#ffffff","accent":false,"accentCLR":"#3B5998","high":true,"tbarH":false,"t_float":true,"logo":false,"t_friends":false,"t_messages":false,"t_notifications":false,"t_search":false,"t_home":true,"t_profile":true,"navH":false,"navF":true,"n_profile":false,"n_news":false,"n_messages":false,"n_events":false,"n_friends":false,"n_groups":false,"n_more":true,"n_chat":false,"n_search":true,"s_all":true,"s_events":false,"s_find":false,"s_requests":false,"s_pokes":false,"s_recommended":false,"s_people":false,"s_ads":false,"full":true,"zoom":true,"theater":true,"idle":true,"bottom":true,"f_lf":false,"f_tr":true,"f_app":false,"f_event":false,"f_friend":false,"f_group":false,"f_like":false,"f_link":false,"f_note":false,"f_photo":false,"f_place":false,"f_profile":false,"f_relationship":false,"f_status":false,"f_video":false,"f_wall":false}
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+#ffffff
+undefined</textarea>
+				</div>
+				<input type="button" value="None" onClick="javascript:export('EIC_3');import('EI_0');;" />
+				<input type="button" value="Basics" onClick="javascript:export('EIC_3');import('EI_1');;" />
+				<input type="button" value="Simple" onClick="javascript:export('EIC_3');import('EI_2');;" />
+				<input type="button" value="Crazy" onClick="javascript:export('EIC_3');import('EI_3');;" /><br /><br />
+				<table>
+					<tr>
+						<td><input type="button" value="Custom 1" onClick="import('EIC_1')"/></td>
+						<td><textarea id="EIC_1" rows="1" cols="26"></textarea></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="Custom 2" onClick="import('EIC_2')" /></td>
+						<td><textarea id="EIC_2" rows="1" cols="26"></textarea></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="Custom 3" onClick="import('EIC_3')" /></td>
+						<td><textarea id="EIC_3" rows="1" cols="26"></textarea></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section>
+			<h3>Full Reset</h3>
+			<div>
+				If you are having problems and just want to start fresh, use this button. <strong>It will clear all local settings and reset them to Facebook's default.</strong>
+				<br /><br />
+				<input type="button" class="red" value="Reset All" onClick="javascript:localStorage.clear();import('EI_0');;" />
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTmor">
+		<h1 class="dark">Facebook <span onclick="easterEgg()" style="cursor:pointer;">| more</span></h1>
+		<section>
+			<h3>Extensions</h3>
+			<div>
+				<ul>
+					<li><a href="https://chrome.google.com/webstore/detail/bmihblnpomgpjkfddepdpdafhhepdbek">Minimalist for Everything</a>: Core modules for Gmail, Google Reader, Google Calendar, and Google+ with all the customization options you could ever want. 
+					</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTnge">
+		<h1 class="dark">Facebook <span>| changes</span></h1>
+		<section id="updated" style="display: none;">
+			<h3>Update</h3>
+			<div>
+				Minimalist for Facebook has been updated!
+			</div>
+		</section>
+		<section>
+			<h3>Announcements</h3>
+			<div>
+				<strong>MINIMALIST FOR FACEBOOK HAS BEEN DEPRECATED!</strong>
+				Try SocialFixer instead: <a href="http://socialfixer.com">http://socialfixer.com</a>
+			</div>
+		</section>
+		<section>
+			<h3>Donate</h3>
+			<div>
+				<p>This is a personal project and I am a full-time student, please <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RVCM5TZRYBK8">support me by donating</a> so I can keep Minimalist for Facebook up to date and competitive.</p>
+				<br />
+				<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C5GNE665F894E" target="_blank">Donate</a>
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTabo">
+		<h1 class="dark">Facebook <span>| about</span></h1>
+		<section>
+			<h3>Donate</h3>
+			<div>
+				<p>This is a personal project and I am a full-time student, please <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RVCM5TZRYBK8">support me by donating</a> so I can keep Minimalist for Google Reader up to date and competitive.</p>
+				<br />
+				<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RVCM5TZRYBK8" target="_blank">Donate</a>
+			</div>
+		</section>
+	</div>
+	<div class="OPTmain" id="OPTsup">
+		<h1 class="dark">Facebook <span>| support</span></h1>
+	</div>
+</div>
+<div id="deprecated" style="position: fixed;top:20px;right:20px;background:#000;color:#fff;padding:20px;border: 5px solid #ff0000;z-index: 99999;font-size: 14px;box-shadow: 1px 1px 10px #000;">
+<strong>MINIMALIST FOR FACEBOOK HAS BEEN DEPRECATED!</strong><br />
+Try SocialFixer instead: <a href="http://socialfixer.com"  style="color: #ccc;">http://socialfixer.com</a>
+</div>
+<script type="text/javascript">
+	//---- PROCESS URL HASHES ----//
+	var hash = window.location.hash.substr(1);
+	document.getElementById("refresh").setAttribute("style","");
+
+	if (hash == "update") {
+		document.getElementById("nge").setAttribute("class", "current");
+		document.getElementById("OPTnge").setAttribute("style", "display: block;");
+		document.getElementById("updated").setAttribute("style", "");
+		last = "nge";
+	} else if (hash == "imps") {
+		document.getElementById("imp").setAttribute("class", "current");
+		document.getElementById("OPTimp").setAttribute("style", "display: block;");
+		$("#announce").attr("style", "");
+		document.getElementById("refreshEI").setAttribute("style","display: block;");
+		last = "imp";
+	} else if (hash == null || hash == "") {
+		document.getElementById("gen").setAttribute("class", "current");
+		document.getElementById("OPTgen").setAttribute("style", "display: block;");
+		last = "gen";
+	} else {
+		document.getElementById(hash).setAttribute("class", "current");
+		document.getElementById("OPT" + hash).setAttribute("style", "display: block;");
+		last = hash;
+	}
+	//---- END PROCESS URL HASHES ----//
+</script>
+</body>
+</html>

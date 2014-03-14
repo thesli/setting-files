@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Learn more"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Help us by reporting the issue."
+   },
+   "app_nacl_crash_report": {
+      "message": "Report an issue..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Whoops. That wasn't supposed to happen."
+   },
+   "app_nacl_error_msg": {
+      "message": "There was a problem loading the application."
+   },
+   "app_nacl_error_title": {
+      "message": "The file cannot be opened."
+   },
+   "application_description": {
+      "message": "Document editing"
+   },
+   "file_loading_spinner_label": {
+      "message": "Loading"
+   },
+   "file_not_found_msg": {
+      "message": "The file that you've requested has up and moved."
+   },
+   "file_not_found_title": {
+      "message": "File not found."
+   }
+}

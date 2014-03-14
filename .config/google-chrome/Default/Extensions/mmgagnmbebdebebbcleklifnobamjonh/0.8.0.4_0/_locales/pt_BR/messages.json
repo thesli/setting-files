@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "Auto Fix Paging Issues"
+   },
+   "CheckUpdate": {
+      "message": "Check For Update"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "Content XPath n\u00E3o pode ser vazio!"
+   },
+   "CreateANewRule": {
+      "message": "Do you want to create a new rule for this page with the site wizard?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "EnableAutoPager": {
+      "message": "AutoPager is disabled? Do you want to enable it now?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "AutoPager is disabled on this site? Do you want to enable it now?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Ignore Version Check"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "Link XPath n\u00E3o pode ser vazio!"
+   },
+   "Load": {
+      "message": "Load"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Nomatchesfound": {
+      "message": "Nenhum resultado encontrado"
+   },
+   "Onematchfound": {
+      "message": "Um resultado encontrado"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "Pages": {
+      "message": "Pages"
+   },
+   "RelatedSearches": {
+      "message": "related searches:"
+   },
+   "RequestHelpOnSite": {
+      "message": "Do you want to request help on this site?"
+   },
+   "Resultsfrom": {
+      "message": "Resultados de"
+   },
+   "ShowOnNewSite": {
+      "message": "Exibir em nova p\u00E1gina"
+   },
+   "UpdateRules": {
+      "message": "The rules may had been updated, the issues may had been resolved.nDo you want to update the paging rules?"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "Configura\u00E7\u00F5es para \"%S\" j\u00E1 existem no reposit\u00F3rio online, deseja enviar mesmo assim?"
+   },
+   "alwaysdisableshort": {
+      "message": "SD"
+   },
+   "alwaysenableshort": {
+      "message": "SH"
+   },
+   "autopageOn": {
+      "message": "Auto page conclu\u00EDdo em %S. D\u00EA um duplo clique na p\u00E1gina para desabilit\u00E1-lo."
+   },
+   "autopageOnTip": {
+      "message": "Auto page conclu\u00EDdo em %S.nD\u00EA um duplo clique na p\u00E1gina para desabilit\u00E1-lo."
+   },
+   "autopagedisabled": {
+      "message": "Auto pager desabilitado. D\u00EA um duplo clique na p\u00E1gina para habilit\u00E1-lo."
+   },
+   "autopagedisabledTip": {
+      "message": "Auto pager desabilitado.nD\u00EA um duplo clique na p\u00E1gina para habilit\u00E1-lo."
+   },
+   "autopageenabled": {
+      "message": "Auto pager Habilitado. D\u00EA um duplo clique na p\u00E1gina para desabilit\u00E1-lo."
+   },
+   "autopageenabledTip": {
+      "message": "Auto pager Habilitado.nD\u00EA um duplo clique na p\u00E1gina para desabilit\u00E1-lo."
+   },
+   "autopager_label_value": {
+      "message": "auto pagina\u00E7\u00E3o"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "Painel P\u00E1gina"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "L"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "Carregar Imediatamente"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "ocultar"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10 P\u00E1ginas"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3 P\u00E1ginas"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5 P\u00E1ginas"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "A"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "Todas as P\u00E1ginas"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Pause"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "Exibir"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "AutoPager Site Confirmation"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "Do you want to clear autoPager site confirmation?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "AutoPager Site Setting Workshop"
+   },
+   "autopager_status_createXPath": {
+      "message": "Criar XPath"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "Criar XPath selecionando um n\u00F3 na p\u00E1gina."
+   },
+   "autopager_status_disableOnSite": {
+      "message": "Disable On Site"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "Disable On Site"
+   },
+   "autopager_status_enabled": {
+      "message": "Habilitado"
+   },
+   "autopager_status_enabledTip": {
+      "message": "Auto Pager Habilitado ou n\u00E3o"
+   },
+   "autopager_status_export": {
+      "message": "Exportar Prefer\u00EAncias"
+   },
+   "autopager_status_exportTip": {
+      "message": "Exportar Configura\u00E7\u00F5es do Auto Pager."
+   },
+   "autopager_status_exportclip": {
+      "message": "Exportar para a \u00C1rea de Transfer\u00EAncia"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Exportar Configura\u00E7\u00F5es do Auto Pager para \u00C1rea de Transfer\u00EAncia."
+   },
+   "autopager_status_exportfile": {
+      "message": "Exportar Para Arquivo"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Exportar Configura\u00E7\u00F5es do Auto Pager para Arquivo."
+   },
+   "autopager_status_importclip": {
+      "message": "Importar da \u00C1rea de Transfer\u00EAncia"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Importar Configura\u00E7\u00F5es do Auto Pager da \u00C1rea de Transfer\u00EAncia."
+   },
+   "autopager_status_importexport": {
+      "message": "Import/Export"
+   },
+   "autopager_status_importfile": {
+      "message": "Importar do Arquivo"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Importar Configura\u00E7\u00F5es do Auto Pager do Arquivo."
+   },
+   "autopager_status_importurl": {
+      "message": "Importar da URL"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Importar Configura\u00E7\u00F5es do Auto Pager da URL."
+   },
+   "autopager_status_myname": {
+      "message": "Meu Nome:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "Seu Nome, ser\u00E1 adicionado a configura\u00E7\u00E3o que voc\u00EA criou."
+   },
+   "autopager_status_reportSite": {
+      "message": "Report Issue On Site"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "Report Issue On Site"
+   },
+   "autopager_status_requestHelp": {
+      "message": "Request Help On Site"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Request Help On Site"
+   },
+   "autopager_status_setting": {
+      "message": "Gerenciador de Configura\u00E7\u00F5es"
+   },
+   "autopager_status_settingTip": {
+      "message": "Gerenciar Configura\u00E7\u00F5es do Auto Pager"
+   },
+   "autopager_status_showabout": {
+      "message": "About"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "Show About Of AutoPager."
+   },
+   "autopager_status_showoption": {
+      "message": "Exibir P\u00E1gina de Op\u00E7\u00F5es"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Exibe a P\u00E1gina de Op\u00E7\u00F5es para esta p\u00E1gina."
+   },
+   "autopager_status_sitewizard": {
+      "message": "Assistente de Site"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "Criar Configura\u00E7\u00F5es de Site usando o Assistente"
+   },
+   "autopager_status_testXPath": {
+      "message": "Testar XPath"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Testa Xpath na p\u00E1gina"
+   },
+   "autopager_status_update": {
+      "message": "Atualizar Configura\u00E7\u00F5es Online"
+   },
+   "autopager_status_updateTip": {
+      "message": "Atualizar Configura\u00E7\u00F5es Online do Auto Pager em Rules Repositories."
+   },
+   "autopager_status_xpathUtils": {
+      "message": "XPath Utils"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "AutoPager Site Setting Workshop"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "..."
+   },
+   "autopager_workshop_label_value": {
+      "message": "Frames"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "carregando pr\u00F3xima p\u00E1gina, por favor aguarde..."
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "..."
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "..."
+   },
+   "caption_results_caption2_label": {
+      "message": "Resultados"
+   },
+   "caption_results_caption_label": {
+      "message": "Resultados"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "Force JavaScript Mode"
+   },
+   "checkbox_ir_label": {
+      "message": "Include Recommended Rules"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "b"
+   },
+   "command_blinkElement_label": {
+      "message": "elemento piscante"
+   },
+   "command_narrower_key": {
+      "message": "n"
+   },
+   "command_narrower_label": {
+      "message": "Mais estreito"
+   },
+   "command_pause_key": {
+      "message": "p"
+   },
+   "command_pause_label": {
+      "message": "pausa (rolar p\u00E1gina para ver o efeito)"
+   },
+   "command_quit_key": {
+      "message": "q"
+   },
+   "command_quit_label": {
+      "message": "sair da sele\u00E7\u00E3o"
+   },
+   "command_select_key": {
+      "message": "s"
+   },
+   "command_select_label": {
+      "message": "selecionar elemento"
+   },
+   "command_showMenu_key": {
+      "message": "h"
+   },
+   "command_showMenu_label": {
+      "message": "mostrar/esconder ajuda"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "u"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "visualizar c\u00F3digo fonte (janela separada)"
+   },
+   "command_viewSource_key": {
+      "message": "v"
+   },
+   "command_viewSource_label": {
+      "message": "visualizar c\u00F3digo fonte"
+   },
+   "command_wider_key": {
+      "message": "w"
+   },
+   "command_wider_label": {
+      "message": "Mais largo"
+   },
+   "contentxpathconfirm": {
+      "message": "Este Content XPath \u00E9 v\u00E1lido?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Disable everywhere"
+   },
+   "disableon": {
+      "message": "Disable on %S"
+   },
+   "disableshort": {
+      "message": "D"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "Habilitar auto pager em %S nlinkXPath=%SncontentXPath=%S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager encontrou uma configura\u00E7\u00E3o para %S em %S. Deseja habilitar a auto pagina\u00E7\u00E3o neste site usando essa configura\u00E7\u00E3o?"
+   },
+   "enableshort": {
+      "message": "H"
+   },
+   "enableurl": {
+      "message": "Habilitar auto pager em %S."
+   },
+   "errorload": {
+      "message": "Erro ao carregar a p\u00E1gina:"
+   },
+   "esctoabort": {
+      "message": "Aperte ESC para abortar."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager \u00E9 uma extens\u00E3o para o firefox que faz download da pr\u00F3xima p\u00E1gina em segundo plano. Voc\u00EA pode us\u00E1-la como um gerador de XPath tamb\u00E9m."
+   },
+   "globaldisabled": {
+      "message": "Seu AutoPager esta desabilitado. Habilite ele para iniciar o auto start em %S."
+   },
+   "highlightcontents": {
+      "message": "Real\u00E7ar"
+   },
+   "highlightnextlinks": {
+      "message": "Real\u00E7ar links Pr\u00F3ximo"
+   },
+   "immediately_load": {
+      "message": "Immediately Load"
+   },
+   "importdone": {
+      "message": "Importa\u00E7\u00E3o conclu\u00EDda. %S novos sites, %S sites atualizados e %S sites ignorados."
+   },
+   "inputfile": {
+      "message": "Por favor selecione o arquivo de prefer\u00EAncias do auto pager:"
+   },
+   "inputname": {
+      "message": "Por favor digite seu nome, ele ser\u00E1 adicionado na configura\u00E7\u00E3o."
+   },
+   "inputnumber": {
+      "message": "Por favor digite um n\u00FAmero positivo"
+   },
+   "inputurl": {
+      "message": "Por favor entre com o endere\u00E7o para importar as prefer\u00EAncias:"
+   },
+   "inputxpath": {
+      "message": "Por favor digite o xpath:"
+   },
+   "label_Usages_value": {
+      "message": "Usages"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Selected Rule IDs(Seperate by ,)"
+   },
+   "label_lazyLoad": {
+      "message": "Lazy load image src attribute"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "Monitor XPath:"
+   },
+   "label_value": {
+      "message": "Count"
+   },
+   "lite_discovery": {
+      "message": "Do you want AutoPager automatic discovery whether there's a rule in the repository for the pages you are surfing?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003ECarregando...\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "resultado encontrados"
+   },
+   "modifyxpath": {
+      "message": "Por favor modifique o xpath se desejar:"
+   },
+   "more": {
+      "message": "More"
+   },
+   "moveover": {
+      "message": "Passe o mouse em %S, XPathe para ele:%S"
+   },
+   "mustinput": {
+      "message": "Voc\u00EA deve digitar seu nome."
+   },
+   "myname": {
+      "message": "Meu Nome:%S"
+   },
+   "navbottom": {
+      "message": "Goto Window Bottom"
+   },
+   "navdown": {
+      "message": "Page Down"
+   },
+   "navtop": {
+      "message": "Goto Window Top"
+   },
+   "navup": {
+      "message": "Page Up"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Never show this prompt again when new supported site found."
+   },
+   "nextpages": {
+      "message": "Pr\u00F3ximas %S P\u00E1ginas"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Nenhuma configura\u00E7\u00E3o encontrada para esta p\u00E1gina."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "S"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "H: Habilitado, D:Disabilitado, SH:Sempre Habilitado,SD:Sempre Desabilitado"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Ignore Format Version Check"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "Add AutoPager to browser User Agent"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Tweak Session, restore to the last visible page after restart"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "More"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "AutoPager Options"
+   },
+   "options_label_speedLabel_value": {
+      "message": "Proload page count:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Op\u00E7\u00F5es do Auto Pager"
+   },
+   "outputfile": {
+      "message": "Por favor digite um nome para o arquivo de exporta\u00E7\u00E3o:"
+   },
+   "pagebreak2": {
+      "message": "Quebra de p\u00E1gina adicionada pelo auto pager."
+   },
+   "pagelink": {
+      "message": "P\u00E1gina(\u003Ca href='%S'\u003E %S \u003C/a\u003E)."
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "Por favor selecione o conte\u00FAdo"
+   },
+   "selectlinkxpath": {
+      "message": "Por favor selecione o link para pr\u00F3xima p\u00E1gina."
+   },
+   "selectsearchengine": {
+      "message": "\u003CSelect a search engine\u003E"
+   },
+   "setting_appname": {
+      "message": "Auto Pager"
+   },
+   "setting_button_add": {
+      "message": "Adicionar..."
+   },
+   "setting_button_cloneToEdit": {
+      "message": "Clonar para Editar"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "Este item \u00E9 de uma fonte somente leitura. Voc\u00EA somente poder\u00E1 editar uma c\u00F3pia se necess\u00E1rio."
+   },
+   "setting_button_copy": {
+      "message": "Clonar"
+   },
+   "setting_button_down": {
+      "message": "Baixo"
+   },
+   "setting_button_edit": {
+      "message": "Editar..."
+   },
+   "setting_button_export": {
+      "message": "Exportar"
+   },
+   "setting_button_exportTip": {
+      "message": "Exportar Itens Selecionados"
+   },
+   "setting_button_import": {
+      "message": "Importar"
+   },
+   "setting_button_pick": {
+      "message": "Escolher..."
+   },
+   "setting_button_public": {
+      "message": "P\u00FAblico"
+   },
+   "setting_button_remove": {
+      "message": "Excluir"
+   },
+   "setting_button_reset": {
+      "message": "Reset"
+   },
+   "setting_button_resetTip": {
+      "message": "Reset to online setting or previous setting(for local rule)"
+   },
+   "setting_button_up": {
+      "message": "Cima"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "Aplicar"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "Advanced"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Sempre habilitar Java Script ao carregar p\u00E1gina"
+   },
+   "setting_label_btnEdit": {
+      "message": "Editar"
+   },
+   "setting_label_chkAjax": {
+      "message": "Este \u00E9 um site em ajax. N\u00E3o caregar evento."
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "Habilitar JavaScript ao carregar p\u00E1gina."
+   },
+   "setting_label_chkEnabled": {
+      "message": "Habilitar"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "Desabilitar a sobreposi\u00E7\u00E3o de configura\u00E7\u00F5es da p\u00E1gina carregada."
+   },
+   "setting_label_chkIsRegex": {
+      "message": "\u00C9 RegExp?"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "Carregamento R\u00E1pido (N\u00E3o seguro para todos os sites)."
+   },
+   "setting_label_chkShift": {
+      "message": "Shift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Need Trigger Mouse Down Event for the link"
+   },
+   "setting_label_confirmstyle": {
+      "message": "estilo de confirma\u00E7\u00E3o:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "Milliseconds to delay before merge next page"
+   },
+   "setting_label_disable_by_default": {
+      "message": "Disabled for individual new site"
+   },
+   "setting_label_discoverytext": {
+      "message": "Descobrir"
+   },
+   "setting_label_doubleclick": {
+      "message": "+Duplo-clique"
+   },
+   "setting_label_general": {
+      "message": "Geral"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "Conte\u00FAdo XPath:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Descobrir"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "Filtrar XPath(Ignora itens nas novas p\u00E1ginas):"
+   },
+   "setting_label_grpSmart": {
+      "message": "Pagina\u00E7\u00E3o Inteligente"
+   },
+   "setting_label_hotkeys": {
+      "message": "Habilitar/Desabilitar teclas de atalho:"
+   },
+   "setting_label_ignoresite": {
+      "message": "Ignore Sites"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "Container XPath:"
+   },
+   "setting_label_lblDesc": {
+      "message": "Descri\u00E7\u00E3o:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "Link XPath:"
+   },
+   "setting_label_lblOwner": {
+      "message": "Criado Por:"
+   },
+   "setting_label_lblSetting": {
+      "message": "AutoPager setting source"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "Context Type:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "Desc:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "Maintained By:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "Tipo:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "Padr\u00E3o URL:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "Configura\u00E7\u00F5es da Atualiza\u00E7\u00E3o Autom\u00E1tica:"
+   },
+   "setting_label_loading": {
+      "message": "carregando estilo de notifica\u00E7\u00E3o:"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "Paginar quando o espa\u00E7o for menor que"
+   },
+   "setting_label_marginEnd": {
+      "message": "altura da janela"
+   },
+   "setting_label_minipages": {
+      "message": "Minimum preloaded page count"
+   },
+   "setting_label_pagebreak": {
+      "message": "estilo de quebra de p\u00E1gina:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Show autopager context menu"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Show a help tip image for each controls, click to see the description for that control"
+   },
+   "setting_label_showPrompt": {
+      "message": "Show prompt for individual new site"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Show autopager icon in status bar"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Show autopager icon in toolbar"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Show simple modal prompt for individual new site"
+   },
+   "setting_label_sites": {
+      "message": "Sites"
+   },
+   "setting_label_smartenable": {
+      "message": "Habilitar Pagina\u00E7\u00E3o Inteligente"
+   },
+   "setting_label_smartlinks": {
+      "message": "Seguir link quando n\u00E3o existirem mais de"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "encontrar links."
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "Procurar Texto/Imagem Src/ID/Class(Separado por &quot;|&quot;) nos links Pr\u00F3ximo (Next):"
+   },
+   "setting_label_timeout": {
+      "message": "tempo esgotado de carregamento de p\u00E1gina(segundos):"
+   },
+   "setting_label_update": {
+      "message": "Atualizar"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "Don&apos;t change it if you don&apos;t know it.\nThis will help if the main content of the site have a container with overflow-y and scrollbar. Take www.cuil.com as an example."
+   },
+   "setting_title": {
+      "message": "Configura\u00E7\u00F5es do Auto Pager"
+   },
+   "setting_tree_Description": {
+      "message": "Descri\u00E7\u00E3o"
+   },
+   "setting_tree_URLPattern": {
+      "message": "Padr\u00E3o URL:"
+   },
+   "setting_type_autopager": {
+      "message": "autopager xml"
+   },
+   "setting_type_autopagerize": {
+      "message": "autopagerize"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "autopagerize josn"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "autopager text"
+   },
+   "setting_update_bidaily": {
+      "message": "Every Other Day"
+   },
+   "setting_update_daily": {
+      "message": "Todo Dia"
+   },
+   "setting_update_global": {
+      "message": "Use Global Setting"
+   },
+   "setting_update_monthly": {
+      "message": "Todo M\u00EAs"
+   },
+   "setting_update_never": {
+      "message": "Nunca"
+   },
+   "setting_update_once": {
+      "message": "First Time"
+   },
+   "setting_update_startup": {
+      "message": "Cada In\u00EDcio"
+   },
+   "setting_update_weekly": {
+      "message": "Toda Semana"
+   },
+   "showoptions": {
+      "message": "Exibir mais op\u00E7\u00F5es"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "Close AutoPager Page Holder"
+   },
+   "statusbar_label_value": {
+      "message": "Click to view the paging rules online"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Help"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "Fix Issues"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "Auto Fix"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "Auto Fix Issues"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "Reset All Setting"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "Reset All AutoPager Setting"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "Trouble Shooting"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "Trouble Shooting"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "Clean All"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "Donation"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Show Donation Page"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Show Related Search"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Help"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "Show Help Page"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "Rules"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "Show Rules in the Online Repository"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "Tutorials"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "Show Tutorials Page"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Switch To Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "Switch To AutoPager Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "Switch To Normal Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "Switch To AutoPager Normal Mode"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "Disable Paging By Default"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Discover matched rules online"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Highlight Contents"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Highlight Contents in the document"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "Highlight Next Links"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "Highlight Next Links in the document"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Options"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Works in lite model"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Show This On New Site"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Always show discover icon"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "AutoPager Core Options"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "Inclua ou duplique um XPath na lista para ver o efeito"
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Image Lazy load Attribute"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Clean Loaded Pages when elements by following xpath clicked/changed"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "Esta Sess\u00E3o"
+   },
+   "thissite": {
+      "message": "Este Site"
+   },
+   "thistime": {
+      "message": "Este Tempo"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "Add Site"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "Clear All"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Discovery"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "Open In Own Window"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "Open In Sidebar"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "Pickup Content"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "Pickup Link"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Test Site"
+   },
+   "treecol_authorityCol_label": {
+      "message": "Authority"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "Content XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "File"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "Link XPath"
+   },
+   "treecol_machedCol_label": {
+      "message": "Matched Count"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "Deseja tentar novamente?"
+   },
+   "unableevaluator": {
+      "message": "Imposs\u00EDvel verificar xpath:%S.n%S"
+   },
+   "unableload": {
+      "message": "n\u00E3o foi poss\u00EDvel carregar a p\u00E1gina:"
+   },
+   "unsupport_version": {
+      "message": "Found unsupported rule format version %S, current supports up to %S. This rule will be ignored."
+   },
+   "viewdescription": {
+      "message": "Click to View Description"
+   },
+   "viewdescription2": {
+      "message": "Ctrl + click to View Description"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "Reset"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "XPath Expression Desciption"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "XPath Expresstion"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Boolean Functions"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "Locations"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Node-Set Functions"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Number Functions"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "String Functions"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "selects ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "selects ancestors of the context node and self "
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "selects attribute of the context node"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Returns the boolean representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Returns the smallest integer value not less than the argument."
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "selects children of the context node"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "Returns the concatenation of its arguments."
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "Returns true if the first argument string contains the second argument string."
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "Returns the number of nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "selects descendants of the context node"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "selects descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Returns a boolean with the value of false."
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Returns the largest integer value not greater than the argument."
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "selects followings of the context node"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "selects next chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Returns the element specified by it&apos;s unique id."
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Returns true if the language of the context node is the same as the languag specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "Returns the position of the last node in the context list."
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Returns the local-name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Returns the local-name for the context node."
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "Returns the name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Returns the name for the context node."
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "selects namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Returns the namespace-uri for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Returns the namespace-uri for the context node."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "Returns a white-space normalized string specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Returns a white-space normalized string specified by the context-node."
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Returns a boolean with the opposite value of its argument."
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Returns the number representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Returns the number representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "selects parent of the context node"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "Returns the position of the current context node."
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "selects precedings of the context node"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "selects the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Returns the integer value closest to the argument."
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "select the context node"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "Returns true if the first argument string starts with the second argument string."
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "Returns the string representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Returns a string value representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Returns the length of the string specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Returns the length of the string specified by the context node."
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Returns the substring of the first argument starting at the position specified by the second argument and the length specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Returns the substring of the first argument string that comes after the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Returns the substring of the first argument string that comes before the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Returns the substring of the first argument from the position specified by the second argument."
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "Returns the sum of all nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Returns the text contents for the context node."
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "Replaces characters in the string specified by the second argument with characters specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Returns a boolean with the value of true."
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "ancestors of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "attribute of the context node"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "children of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "descendants of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "followings of the context node"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "next chapter siblings of the context node"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "parent of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "precedings of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "the context node"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "Description"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "Function"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "Short Description"
+   },
+   "xpathconfirm": {
+      "message": "Voc\u00EA acha que o pr\u00F3ximo link xpath est\u00E1 OK?"
+   },
+   "xpathreturnnothing": {
+      "message": "xpath retornou nada"
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

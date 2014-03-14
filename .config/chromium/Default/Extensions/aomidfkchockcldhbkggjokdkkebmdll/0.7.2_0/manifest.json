@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/images/rpath19_off.png",
+      "default_popup": "popup.html",
+      "default_title": "Click here to see your Redirect Path."
+   },
+   "description": "The HTTP Header & Redirect Checker for SEO",
+   "icons": {
+      "128": "assets/images/rpath128.png",
+      "16": "assets/images/rpath16.png",
+      "48": "assets/images/rpath48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDaA7fM2XJl3khWDydrlarFORsCdpJRbNRdlx/iGnvRWMGoOdheiR4han9BDiHwcB++Ug0JRTP28L7OK0GnfBlY4dFuOTgZ8+Af5hcQqaInvmIUD/ft3dhaLSgUun8My3gWB9QRw5d31eUc4qUM1cvqxxe5rzDSVYa766ul+CpqBwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "17",
+   "name": "Redirect Path",
+   "permissions": [ "tabs", "webRequest", "\u003Call_urls\u003E", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.2"
+}

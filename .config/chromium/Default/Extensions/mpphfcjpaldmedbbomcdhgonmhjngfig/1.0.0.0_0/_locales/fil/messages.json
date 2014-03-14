@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "HINDI NA GINAGAMIT. Mangyaring gamitin na lamang ang extension ng Mga Input Tool ng Google (available sa http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "HINDI NA GINAGAMIT: Virtual na Keyboard (ng Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Mga Pagpipilian sa Extension ng Virtual Keyboard"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Pumili ng (mga) layout ng keyboard mula sa kaliwa:"
+   },
+   "vkbd_save_options": {
+      "message": "I-save"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Ipakita/Itago ang Keyboard"
+   }
+}

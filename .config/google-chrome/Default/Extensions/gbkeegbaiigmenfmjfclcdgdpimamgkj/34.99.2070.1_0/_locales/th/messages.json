@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "เรียนรู้เพิ่มเติม"
+   },
+   "app_nacl_crash_msg": {
+      "message": "ช่วยเราด้วยการรายงานปัญหาที่เกิดขึ้น"
+   },
+   "app_nacl_crash_report": {
+      "message": "รายงานปัญหา..."
+   },
+   "app_nacl_crash_title": {
+      "message": "อ๊ะ ปัญหานี้ไม่น่าจะเกิดขึ้น"
+   },
+   "app_nacl_error_msg": {
+      "message": "มีปัญหาในการโหลดแอปพลิเคชัน"
+   },
+   "app_nacl_error_title": {
+      "message": "ไม่สามารถเปิดไฟล์ได้"
+   },
+   "application_description": {
+      "message": "การแก้ไขเอกสาร"
+   },
+   "file_loading_spinner_label": {
+      "message": "กำลังโหลด"
+   },
+   "file_not_found_msg": {
+      "message": "ไฟล์ที่คุณขอได้ถูกอัปโหลดและย้ายไปแล้ว"
+   },
+   "file_not_found_title": {
+      "message": "ไม่พบไฟล์"
+   }
+}

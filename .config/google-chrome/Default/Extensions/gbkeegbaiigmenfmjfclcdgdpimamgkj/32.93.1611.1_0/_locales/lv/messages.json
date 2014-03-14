@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Uzziniet vair\u0101k"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pal\u012Bdziet mums, zi\u0146ojot par probl\u0113mu."
+   },
+   "app_nacl_crash_report": {
+      "message": "Zi\u0146ot par probl\u0113mu..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Diem\u017E\u0113l rad\u0101s k\u013C\u016Bme."
+   },
+   "app_nacl_error_msg": {
+      "message": "Iel\u0101d\u0113jot lietojumprogrammu, rad\u0101s probl\u0113ma."
+   },
+   "app_nacl_error_title": {
+      "message": "Failu nevar atv\u0113rt."
+   },
+   "application_description": {
+      "message": "Dokumenta redi\u0123\u0113\u0161ana"
+   },
+   "file_loading_spinner_label": {
+      "message": "Notiek iel\u0101de"
+   },
+   "file_not_found_msg": {
+      "message": "J\u016Bsu piepras\u012Btais fails ir p\u0101rvietots."
+   },
+   "file_not_found_title": {
+      "message": "Fails nav atrasts."
+   }
+}

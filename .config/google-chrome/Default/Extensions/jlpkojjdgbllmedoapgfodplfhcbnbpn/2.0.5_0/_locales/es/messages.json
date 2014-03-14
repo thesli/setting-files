@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "T\u00EDtulo para el nodo secundario",
+      "message": "Nodo secundario"
+   },
+   "elementToolbarHelp": {
+      "description": "Mensaje de ayuda",
+      "message": "Usar el modo de seguimiento moviendo el cursor para resaltar elementos. Haz click en un elemento para desactivar el modo de seguimiento."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "T\u00EDtulo para el elemento resaltado",
+      "message": "Elemento resaltado"
+   },
+   "elementToolbarNextSibling": {
+      "description": "T\u00EDtulo para pasar al siguiente nodo relacionado.",
+      "message": "Siguiente nodo relacionado"
+   },
+   "elementToolbarParentNode": {
+      "description": "T\u00EDtulo para el nodo principal",
+      "message": "Nodo principal"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "T\u00EDtulo para pasar al anterior nodo relacionado",
+      "message": "Anterior nodo relacionado"
+   },
+   "elementToolbarToggleOff": {
+      "description": "El modo de seguimiento est\u00E1 desactivado",
+      "message": "Desactivado"
+   },
+   "elementToolbarToggleOn": {
+      "description": "El modo de seguimiento est\u00E1 activado",
+      "message": "Activado"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Descripci\u00F3n para el bot\u00F3n del modo de seguimiento",
+      "message": "Modo de seguimiento"
+   },
+   "errorLocal": {
+      "description": "Error que sale cuando alguien intenta utilizar la extension en una archivos locales",
+      "message": "Por razones de seguridad, la extensi\u00F3n no funciona en p\u00E1ginas de extensiones"
+   },
+   "errorWebStore": {
+      "description": "Error que sale cuando alguien intenta utilizar la extensi\u00F3n en el Chrome Web Store",
+      "message": "Por razones de seguridad la extensi\u00F3n no funciona en el Chrome Web Store"
+   },
+   "extDescription": {
+      "description": "Descripci\u00F3n de la extensi\u00F3n",
+      "message": "Dibuja una regla para obtener las dimensiones en p\u00EDxeles. Mide objetos de cualquier p\u00E1gina web. "
+   },
+   "extName": {
+      "description": "Nombre de la extensi\u00F3n",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Nombre corto de la extensi\u00F3n (m\u00E1ximo 12 caracteres)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "T\u00EDtulo para la p\u00E1gina de opciones",
+      "message": "Opciones de Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Message explaining how the anonymouse usage statistics is used",
+      "message": "La informaci\u00F3n recogida no contiene informaci\u00F3n personal y es utilizada exclusivamente para mejorar la extensi\u00F3n"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Descripci\u00F3n para saber si el usuario quiere mandar informaci\u00F3n an\u00F3nima",
+      "message": "Mandar informaci\u00F3n an\u00F3nima:"
+   },
+   "toolbarBottom": {
+      "description": "Descripci\u00F3n de bajo",
+      "message": "Bajo"
+   },
+   "toolbarClose": {
+      "description": "Cerrar la descripci\u00F3n",
+      "message": "Cerrar"
+   },
+   "toolbarColor": {
+      "description": "Descripci\u00F3n de color",
+      "message": "Color"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Descripci\u00F3n para descactivar el modo de elemento",
+      "message": "Desactivar el modo de elemento"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Descripci\u00F3n para activar el modo de elemento",
+      "message": "Activar el modo de elemento"
+   },
+   "toolbarHeight": {
+      "description": "Descripci\u00F3n de altura.",
+      "message": "Altura"
+   },
+   "toolbarLeft": {
+      "description": "Descripci\u00F3n de izquierda",
+      "message": "Izquierda"
+   },
+   "toolbarRight": {
+      "description": "Descripci\u00F3n de derecha ",
+      "message": "Derecha"
+   },
+   "toolbarTop": {
+      "description": "Descripci\u00F3n de arriba",
+      "message": "Alto"
+   },
+   "toolbarWidth": {
+      "description": "Descripci\u00F3n de anchura",
+      "message": "Ancho"
+   },
+   "updateCodeTitle": {
+      "desciption": "T\u00EDtulo para la secci\u00F3n de c\u00F3digo en la parte de contribuidores",
+      "message": "C\u00F3digo"
+   },
+   "updateContributeTitle": {
+      "desciption": "T\u00EDtulo para la secci\u00F3n de contribuir",
+      "message": "Contribuir con Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "T\u00EDtulo para la seccion de contribuidores",
+      "message": "Contribuidores"
+   },
+   "updateHistoryTitle": {
+      "desciption": "T\u00EDtulo para mostrar las \u00FAltimas versiones",
+      "message": "\u00DAltimas novedades"
+   },
+   "updateIconsTitle": {
+      "desciption": "T\u00EDtulo para la zona de iconos en la parte de contribuidores",
+      "message": "Iconos"
+   },
+   "updatePageHeader": {
+      "description": "Mensaje que indica la versi\u00F3n de la extensi\u00F3n",
+      "message": "Page Ruler se ha actualizado a la versi\u00F3n \u003Cspan\u003E$VERSION$\u003C/span\u003E",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "Page title for the update page",
+      "message": "Page Ruler ha sido actualizado"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Descripci\u00F3n para saber c\u00F3mo participar",
+      "message": "\u00BFQuieres usar Page Ruler en tu propia lengua? Visita la \u003Ca href='https://github.com/wrakky/page-ruler'\u003Ep\u00E1gina de GitHub\u003C/a\u003E y sigue las instrucciones para saber como mandar una traducci\u00F3n."
+   },
+   "updateTranslateTitle": {
+      "desciption": "T\u00EDtulo para la secci\u00F3n de traducci\u00F3n en la parte de contribuidores",
+      "message": "Translate"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "T\u00EDtulo para la secci\u00F3n de traducciones en la parte de contribuidores",
+      "message": "Traducciones"
+   }
+}

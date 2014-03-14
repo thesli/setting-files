@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "T\u1EF1 \u0111\u1ED9ng S\u1EEDa l\u1ED7i L\u1EADt trang"
+   },
+   "CheckUpdate": {
+      "message": "Check For Update"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "XPath N\u1ED9i Dung kh\u00F4ng th\u1EC3 r\u1ED7ng!"
+   },
+   "CreateANewRule": {
+      "message": "B\u1EA1n c\u00F3 mu\u1ED1n t\u1EA1o m\u1ED9t quy t\u1EAFc m\u1EDBi cho trang n\u00E0y v\u1EDBi tr\u00ECnh thu\u1EADt s\u0129 trang kh\u00F4ng?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "EnableAutoPager": {
+      "message": "AutoPager \u0111\u00E3 b\u1ECB t\u1EAFt? B\u1EA1n c\u00F3 mu\u1ED1n b\u1EADt n\u00F3 ngay b\u00E2y gi\u1EDD kh\u00F4ng?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "AutoPager \u0111\u00E3 b\u1ECB t\u1EAFt tr\u00EAn trang n\u00E0y? B\u1EA1n c\u00F3 mu\u1ED1n b\u1EADt n\u00F3 ngay b\u00E2y gi\u1EDD kh\u00F4ng?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Ignore Version Check"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "XPath Li\u00EAn K\u1EBFt kh\u00F4ng th\u1EC3 r\u1ED7ng!"
+   },
+   "Load": {
+      "message": "Load"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Nomatchesfound": {
+      "message": "Kh\u00F4ng th\u1EA5y k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p"
+   },
+   "Onematchfound": {
+      "message": "Th\u1EA5y m\u1ED9t k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "Pages": {
+      "message": "Pages"
+   },
+   "RelatedSearches": {
+      "message": "related searches:"
+   },
+   "RequestHelpOnSite": {
+      "message": "B\u1EA1n c\u00F3 mu\u1ED1n y\u00EAu c\u1EA7u tr\u1EE3 gi\u00FAp tr\u00EAn trang n\u00E0y kh\u00F4ng?"
+   },
+   "Resultsfrom": {
+      "message": "K\u1EBFt qu\u1EA3 t\u1EEB"
+   },
+   "ShowOnNewSite": {
+      "message": "Hi\u1EC7n tr\u00EAn Trang m\u1EDBi"
+   },
+   "UpdateRules": {
+      "message": "Quy t\u1EAFc c\u00F3 th\u1EC3 \u0111\u00E3 \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt, v\u1EA5n \u0111\u1EC1 c\u00F3 th\u1EC3 \u0111\u00E3 \u0111\u01B0\u1EE3c gi\u1EA3i quy\u1EBFt.nB\u1EA1n c\u00F3 mu\u1ED1n c\u1EADp nh\u1EADt quy t\u1EAFc l\u1EADt trang kh\u00F4ng?"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "Thi\u1EBFt l\u1EADp cho \"%S\" c\u00F3 v\u1EBB nh\u01B0 \u0111\u00E3 \u0111\u01B0\u1EE3c g\u1EEDi l\u00EAn ho\u1EB7c \u0111\u00E3 t\u1ED3n t\u1EA1i trong kho ch\u1EE9a tr\u1EF1c tuy\u1EBFn, b\u1EA1n c\u00F3 c\u00F2n mu\u1ED1n g\u1EEDi l\u00EAn n\u1EEFa kh\u00F4ng?"
+   },
+   "alwaysdisableshort": {
+      "message": "LT"
+   },
+   "alwaysenableshort": {
+      "message": "LB"
+   },
+   "autopageOn": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang ho\u00E0n t\u1EA5t tr\u00EAn %S. Nh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 t\u1EAFt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopageOnTip": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang ho\u00E0n t\u1EA5t tr\u00EAn %S.nNh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 t\u1EAFt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopagedisabled": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang \u0111\u00E3 b\u1ECB t\u1EAFt. Ctrl + Nh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 b\u1EADt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopagedisabledTip": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang \u0111\u00E3 b\u1ECB t\u1EAFt.nCtrl + Nh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 b\u1EADt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopageenabled": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang \u0111\u00E3 \u0111\u01B0\u1EE3c b\u1EADt. Ctrl + Nh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 t\u1EAFt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopageenabledTip": {
+      "message": "T\u1EF1 \u0111\u1ED9ng l\u1EADt trang \u0111\u00E3 \u0111\u01B0\u1EE3c b\u1EADt.nCtrl + Nh\u1EA5p \u0110\u00F4i L\u00EAn Trang \u0111\u1EC3 t\u1EAFt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng."
+   },
+   "autopager_label_value": {
+      "message": "l\u1EADt trang t\u1EF1 \u0111\u1ED9ng"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "Tr\u00ECnh gi\u1EEF Trang"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "L"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "T\u1EA3i ngay L\u1EADp t\u1EE9c"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "\u1EA9n"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10 Trang"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3 Trang"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5 Trang"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "T"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "T\u1EA5t c\u1EA3 C\u00E1c trang"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Pause"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "hi\u1EC7n"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "X\u00E1c nh\u1EADn Trang AutoPager"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "B\u1EA1n c\u00F3 mu\u1ED1n x\u00F3a tr\u1EAFng x\u00E1c nh\u1EADn trang AutoPager?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "Ph\u00E2n x\u01B0\u1EDFng Thi\u1EBFt l\u1EADp Trang c\u1EE7a AutoPager"
+   },
+   "autopager_status_createXPath": {
+      "message": "T\u1EA1o XPath"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "T\u1EA1o XPath b\u1EB1ng c\u00E1ch ch\u1ECDn m\u1ED9t \u0111i\u1EC3m n\u00FAt tr\u00EAn trang."
+   },
+   "autopager_status_disableOnSite": {
+      "message": "T\u1EAFt tr\u00EAn Trang"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "T\u1EAFt tr\u00EAn Trang"
+   },
+   "autopager_status_enabled": {
+      "message": "B\u1EADt AutoPager"
+   },
+   "autopager_status_enabledTip": {
+      "message": "AutoPager \u0111\u01B0\u1EE3c b\u1EADt ho\u1EB7c kh\u00F4ng."
+   },
+   "autopager_status_export": {
+      "message": "Xu\u1EA5t thi\u1EBFt l\u1EADp"
+   },
+   "autopager_status_exportTip": {
+      "message": "Xu\u1EA5t thi\u1EBFt l\u1EADp AutoPager."
+   },
+   "autopager_status_exportclip": {
+      "message": "Xu\u1EA5t sang Clipboard"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Xu\u1EA5t thi\u1EBFt l\u1EADp AutoPager sang Clipboard."
+   },
+   "autopager_status_exportfile": {
+      "message": "Xu\u1EA5t sang T\u1EADp tin"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Xu\u1EA5t thi\u1EBFt l\u1EADp AutoPager sang T\u1EADp tin."
+   },
+   "autopager_status_importclip": {
+      "message": "Nh\u1EADp t\u1EEB Clipboard"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Nh\u1EADp thi\u1EBFt l\u1EADp AutoPager t\u1EEB Clipboard."
+   },
+   "autopager_status_importexport": {
+      "message": "Nh\u1EADp/Xu\u1EA5t"
+   },
+   "autopager_status_importfile": {
+      "message": "Nh\u1EADp t\u1EEB T\u1EADp tin"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Nh\u1EADp thi\u1EBFt l\u1EADp AutoPager t\u1EEB T\u1EADp tin."
+   },
+   "autopager_status_importurl": {
+      "message": "Nh\u1EADp t\u1EEB URL"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Nh\u1EADp thi\u1EBFt l\u1EADp AutoPager t\u1EEB URL."
+   },
+   "autopager_status_myname": {
+      "message": "T\u00EAn T\u00F4i:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "T\u00EAn B\u1EA1n, s\u1EBD \u0111\u01B0\u1EE3c th\u00EAm v\u00E0o ph\u1EA7n c\u1EA5u h\u00ECnh m\u00E0 b\u1EA1n t\u1EA1o."
+   },
+   "autopager_status_reportSite": {
+      "message": "B\u00E1o l\u1ED7i tr\u00EAn Trang"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "B\u00E1o l\u1ED7i tr\u00EAn Trang"
+   },
+   "autopager_status_requestHelp": {
+      "message": "Y\u00EAu c\u1EA7u Tr\u1EE3 gi\u00FAp tr\u00EAn Trang"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Y\u00EAu c\u1EA7u Tr\u1EE3 gi\u00FAp tr\u00EAn Trang"
+   },
+   "autopager_status_setting": {
+      "message": "Qu\u1EA3n l\u00ED Thi\u1EBFt l\u1EADp"
+   },
+   "autopager_status_settingTip": {
+      "message": "Qu\u1EA3n l\u00ED Thi\u1EBFt l\u1EADp AutoPager."
+   },
+   "autopager_status_showabout": {
+      "message": "Gi\u1EDBi thi\u1EC7u"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "Hi\u1EC7n Gi\u1EDBi Thi\u1EC7u c\u1EE7a AutoPager."
+   },
+   "autopager_status_showoption": {
+      "message": "Hi\u1EC7n T\u00F9y Ch\u1ECDn Trang"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Hi\u1EC7n T\u00F9y Ch\u1ECDn Trang cho trang n\u00E0y."
+   },
+   "autopager_status_sitewizard": {
+      "message": "Tr\u00ECnh thu\u1EADt s\u0129 Trang"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "T\u1EA1o thi\u1EBFt l\u1EADp cho Trang trong Tr\u00ECnh thu\u1EADt s\u0129"
+   },
+   "autopager_status_testXPath": {
+      "message": "Th\u1EED nghi\u1EC7m XPath"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Th\u1EED nghi\u1EC7m XPath tr\u00EAn trang."
+   },
+   "autopager_status_update": {
+      "message": "C\u1EADp nh\u1EADt Thi\u1EBFt l\u1EADp Tr\u1EF1c tuy\u1EBFn"
+   },
+   "autopager_status_updateTip": {
+      "message": "C\u1EADp nh\u1EADt Thi\u1EBFt l\u1EADp AutoPager t\u1EEB Rules Repositories."
+   },
+   "autopager_status_xpathUtils": {
+      "message": "Ti\u1EC7n \u00EDch XPath"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "Ph\u00E2n x\u01B0\u1EDFng Thi\u1EBFt l\u1EADp Trang c\u1EE7a AutoPager"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "..."
+   },
+   "autopager_workshop_label_value": {
+      "message": "Frames"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "\u0111ang t\u1EA3i trang ti\u1EBFp theo, vui l\u00F2ng \u0111\u1EE3i..."
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "..."
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "..."
+   },
+   "caption_results_caption2_label": {
+      "message": "K\u1EBFt qu\u1EA3"
+   },
+   "caption_results_caption_label": {
+      "message": "K\u1EBFt qu\u1EA3"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "Force JavaScript Mode"
+   },
+   "checkbox_ir_label": {
+      "message": "Include Recommended Rules"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "n"
+   },
+   "command_blinkElement_label": {
+      "message": "nh\u1EA5p nh\u00E1y ph\u1EA7n t\u1EED"
+   },
+   "command_narrower_key": {
+      "message": "h"
+   },
+   "command_narrower_label": {
+      "message": "h\u1EB9p l\u1EA1i"
+   },
+   "command_pause_key": {
+      "message": "d"
+   },
+   "command_pause_label": {
+      "message": "t\u1EA1m d\u1EEBng (\u0111\u1EC3 cu\u1ED9n trang v\u00E0 th\u1EA5y hi\u1EC7u \u1EE9ng)"
+   },
+   "command_quit_key": {
+      "message": "o"
+   },
+   "command_quit_label": {
+      "message": "tho\u00E1t ph\u1EA7n \u0111\u00E3 ch\u1ECDn"
+   },
+   "command_select_key": {
+      "message": "c"
+   },
+   "command_select_label": {
+      "message": "ch\u1ECDn ph\u1EA7n t\u1EED"
+   },
+   "command_showMenu_key": {
+      "message": "i"
+   },
+   "command_showMenu_label": {
+      "message": "hi\u1EC7n/\u1EA9n tr\u1EE3 gi\u00FAp"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "e"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "xem m\u00E3 ngu\u1ED3n (trong c\u1EEDa s\u1ED5 ri\u00EAng bi\u1EC7t)"
+   },
+   "command_viewSource_key": {
+      "message": "x"
+   },
+   "command_viewSource_label": {
+      "message": "xem m\u00E3 ngu\u1ED3n"
+   },
+   "command_wider_key": {
+      "message": "r"
+   },
+   "command_wider_label": {
+      "message": "r\u1ED9ng ra"
+   },
+   "contentxpathconfirm": {
+      "message": "B\u1EA1n c\u00F3 ngh\u0129 n\u1ED9i dung xpath n\u00E0y l\u00E0 \u1ED5n kh\u00F4ng?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Disable everywhere"
+   },
+   "disableon": {
+      "message": "Disable on %S"
+   },
+   "disableshort": {
+      "message": "T"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "B\u1EADt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng tr\u00EAn %S nXPathli\u00EAnk\u1EBFt=%SnXPathn\u1ED9idung=%S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager t\u00ECm th\u1EA5y m\u1ED9t thi\u1EBFt l\u1EADp cho %S t\u1EEB %S.nB\u1EA1n c\u00F3 mu\u1ED1n d\u00F9ng n\u00F3 \u0111\u1EC3 b\u1EADt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng tr\u00EAn trang n\u00E0y kh\u00F4ng?"
+   },
+   "enableshort": {
+      "message": "B"
+   },
+   "enableurl": {
+      "message": "B\u1EADt l\u1EADt trang t\u1EF1 \u0111\u1ED9ng tr\u00EAn %S."
+   },
+   "errorload": {
+      "message": "L\u1ED7i khi \u0111ang t\u1EA3i trang:"
+   },
+   "esctoabort": {
+      "message": "Nh\u1EA5n ESC \u0111\u1EC3 h\u1EE7y b\u1ECF."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager l\u00E0 m\u1ED9t ph\u1EA7n m\u1EDF r\u1ED9ng cho Firefox/Mozilla, gi\u00FAp t\u1EF1 \u0111\u1ED9ng l\u1EADt trang ti\u1EBFp theo trong h\u1EADu c\u1EA3nh. V\u00E0 b\u1EA1n c\u0169ng c\u00F3 th\u1EC3 d\u00F9ng n\u00F3 nh\u01B0 l\u00E0 m\u1ED9t tr\u00ECnh t\u1EA1o XPath."
+   },
+   "globaldisabled": {
+      "message": "AutoPager c\u1EE7a b\u1EA1n hi\u1EC7n \u0111ang b\u1ECB t\u1EAFt. B\u1EADt n\u00F3 \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u t\u1EF1 \u0111\u1ED9ng l\u1EADt trang tr\u00EAn %S."
+   },
+   "highlightcontents": {
+      "message": "T\u00F4 s\u00E1ng N\u1ED9i dung"
+   },
+   "highlightnextlinks": {
+      "message": "T\u00F4 s\u00E1ng Li\u00EAn k\u1EBFt Ti\u1EBFp theo"
+   },
+   "immediately_load": {
+      "message": "Immediately Load"
+   },
+   "importdone": {
+      "message": "vi\u1EC7c nh\u1EADp \u0111\u00E3 xong v\u1EDBi %S trang m\u1EDBi, %S trang m\u1EDBi c\u1EADp nh\u1EADt v\u00E0 %S trang b\u1ECB b\u1ECF qua."
+   },
+   "inputfile": {
+      "message": "Vui l\u00F2ng ch\u1ECDn t\u1EADp tin thi\u1EBFt l\u1EADp l\u1EADt trang t\u1EF1 \u0111\u1ED9ng:"
+   },
+   "inputname": {
+      "message": "Vui l\u00F2ng g\u00F5 t\u00EAn c\u1EE7a b\u1EA1n, n\u00F3 s\u1EBD \u0111\u01B0\u1EE3c th\u00EAm v\u00E0o ph\u1EA7n c\u1EA5u h\u00ECnh m\u00E0 b\u1EA1n t\u1EA1o."
+   },
+   "inputnumber": {
+      "message": "Vui l\u00F2ng g\u00F5 m\u1ED9t s\u1ED1 d\u01B0\u01A1ng"
+   },
+   "inputurl": {
+      "message": "Vui l\u00F2ng g\u00F5 url \u0111\u1EC3 nh\u1EADp thi\u1EBFt l\u1EADp:"
+   },
+   "inputxpath": {
+      "message": "Vui l\u00F2ng g\u00F5 xpath:"
+   },
+   "label_Usages_value": {
+      "message": "S\u1EED d\u1EE5ng"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Selected Rule IDs(Seperate by ,)"
+   },
+   "label_lazyLoad": {
+      "message": "Lazy load image src attribute"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "Monitor XPath:"
+   },
+   "label_value": {
+      "message": "Count"
+   },
+   "lite_discovery": {
+      "message": "Do you want AutoPager automatic discovery whether there's a rule in the repository for the pages you are surfing?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003E\u0110ang t\u1EA3i...\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p"
+   },
+   "modifyxpath": {
+      "message": "Vui l\u00F2ng ch\u1EC9nh s\u1EEDa xpath n\u1EBFu b\u1EA1n mu\u1ED1n:"
+   },
+   "more": {
+      "message": "More"
+   },
+   "moveover": {
+      "message": "R\u00EA chu\u1ED9t l\u00EAn tr\u00EAn m\u1ED9t %S, XPath \u0111\u1EC3 bi\u1EBFt n\u00F3 l\u00E0:%S"
+   },
+   "mustinput": {
+      "message": "B\u1EA1n ph\u1EA3i g\u00F5 t\u00EAn c\u1EE7a m\u00ECnh."
+   },
+   "myname": {
+      "message": "T\u00EAn T\u00F4i:%S"
+   },
+   "navbottom": {
+      "message": "\u0110i xu\u1ED1ng D\u01B0\u1EDBi c\u00F9ng c\u1EE7a C\u1EEDa s\u1ED5"
+   },
+   "navdown": {
+      "message": "Page Down"
+   },
+   "navtop": {
+      "message": "\u0110i l\u00EAn Tr\u00EAn c\u00F9ng c\u1EE7a C\u1EEDa s\u1ED5"
+   },
+   "navup": {
+      "message": "Page Up"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Kh\u00F4ng bao gi\u1EDD hi\u1EC7n h\u1ED9p tho\u1EA1i n\u00E0y n\u1EEFa khi c\u00F3 trang m\u1EDBi \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3"
+   },
+   "nextpages": {
+      "message": "%S Trang ti\u1EBFp theo"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Kh\u00F4ng c\u00F3 c\u1EA5u h\u00ECnh ph\u00F9 h\u1EE3p cho trang n\u00E0y."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "S"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "B:B\u1EADt, T:T\u1EAFt, LB:Lu\u00F4n B\u1EADt, LT:Lu\u00F4n T\u1EAFt"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Ignore Format Version Check"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "Add AutoPager to browser User Agent"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Tweak Session, restore to the last visible page after restart"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "More"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "AutoPager Options"
+   },
+   "options_label_speedLabel_value": {
+      "message": "Proload page count:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "T\u00F9y ch\u1ECDn Auto Pager"
+   },
+   "outputfile": {
+      "message": "Vui l\u00F2ng cung c\u1EA5p t\u00EAn t\u1EADp tin xu\u1EA5t:"
+   },
+   "pagebreak2": {
+      "message": "Trang \u0111\u01B0\u1EE3c ng\u1EAFt b\u1EDFi AutoPager."
+   },
+   "pagelink": {
+      "message": "Trang (\u003Ca href='%S'\u003E %S \u003C/a\u003E)."
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "Vui l\u00F2ng ch\u1ECDn n\u1ED9i dung"
+   },
+   "selectlinkxpath": {
+      "message": "Vui l\u00F2ng ch\u1ECDn li\u00EAn k\u1EBFt trang ti\u1EBFp theo."
+   },
+   "selectsearchengine": {
+      "message": "\u003CSelect a search engine\u003E"
+   },
+   "setting_appname": {
+      "message": "AutoPager"
+   },
+   "setting_button_add": {
+      "message": "Th\u00EAm..."
+   },
+   "setting_button_cloneToEdit": {
+      "message": "Nh\u00E2n b\u1EA3n \u0111\u1EC3 Ch\u1EC9nh s\u1EEDa"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "M\u1EE5c n\u00E0y \u0111\u1EBFn t\u1EEB m\u1ED9t ngu\u1ED3n c\u00F3 s\u1EB5n. B\u1EA1n ch\u1EC9 c\u00F3 th\u1EC3 ch\u1EC9nh s\u1EEDa b\u1EA3n sao n\u1EBFu c\u1EA7n."
+   },
+   "setting_button_copy": {
+      "message": "Nh\u00E2n b\u1EA3n"
+   },
+   "setting_button_down": {
+      "message": "Xu\u1ED1ng"
+   },
+   "setting_button_edit": {
+      "message": "Ch\u1EC9nh s\u1EEDa..."
+   },
+   "setting_button_export": {
+      "message": "Xu\u1EA5t"
+   },
+   "setting_button_exportTip": {
+      "message": "Xu\u1EA5t c\u00E1c m\u1EE5c \u0111\u00E3 ch\u1ECDn"
+   },
+   "setting_button_import": {
+      "message": "Nh\u1EADp"
+   },
+   "setting_button_pick": {
+      "message": "Ch\u1ECDn..."
+   },
+   "setting_button_public": {
+      "message": "C\u00F4ng c\u1ED9ng"
+   },
+   "setting_button_remove": {
+      "message": "X\u00F3a"
+   },
+   "setting_button_reset": {
+      "message": "Reset"
+   },
+   "setting_button_resetTip": {
+      "message": "Reset to online setting or previous setting(for local rule)"
+   },
+   "setting_button_up": {
+      "message": "L\u00EAn"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "\u00C1p d\u1EE5ng"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "N\u00E2ng cao"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Lu\u00F4n B\u1EADt JavaScript Khi M\u1EDF Trang"
+   },
+   "setting_label_btnEdit": {
+      "message": "Ch\u1EC9nh s\u1EEDa"
+   },
+   "setting_label_chkAjax": {
+      "message": "\u0110\u00E2y l\u00E0 m\u1ED9t trang ajax. Kh\u00F4ng c\u00F3 s\u1EF1 ki\u1EC7n t\u1EA3i."
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "B\u1EADt Javascript khi m\u1EDF trang."
+   },
+   "setting_label_chkEnabled": {
+      "message": "\u0110\u01B0\u1EE3c b\u1EADt"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "T\u1EAFt thi\u1EBFt l\u1EADp overflow c\u1EE7a trang \u0111\u00E3 m\u1EDF."
+   },
+   "setting_label_chkIsRegex": {
+      "message": "L\u00E0 Bth\u1EE9c Qt\u1EAFc?"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "T\u1EA3i Nhanh (Kh\u00F4ng an to\u00E0n cho t\u1EA5t c\u1EA3 c\u00E1c trang)."
+   },
+   "setting_label_chkShift": {
+      "message": "Shift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Gi\u1EA3 l\u1EADp s\u1EF1 ki\u1EC7n Di Chu\u1ED9t Xu\u1ED1ng \u0111\u1ED1i v\u1EDBi li\u00EAn k\u1EBFt"
+   },
+   "setting_label_confirmstyle": {
+      "message": "style x\u00E1c nh\u1EADn:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "\u0110\u1ED9 tr\u1EC5 miligi\u00E2y tr\u01B0\u1EDBc khi tr\u1ED9n trang ti\u1EBFp theo"
+   },
+   "setting_label_disable_by_default": {
+      "message": "Disabled for individual new site"
+   },
+   "setting_label_discoverytext": {
+      "message": "Kh\u00E1m ph\u00E1"
+   },
+   "setting_label_doubleclick": {
+      "message": "+Nh\u1EA5p \u0110\u00F4i"
+   },
+   "setting_label_general": {
+      "message": "T\u1ED5ng qu\u00E1t"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "XPath N\u1ED9i Dung:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Kh\u00E1m ph\u00E1"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "L\u1ECDc XPath (B\u1ECF qua c\u00E1c m\u1EE5c c\u1EE7a trang m\u1EDBi):"
+   },
+   "setting_label_grpSmart": {
+      "message": "L\u1EADt trang Th\u00F4ng minh"
+   },
+   "setting_label_hotkeys": {
+      "message": "B\u1EADt/T\u1EAFt ph\u00EDm n\u00F3ng:"
+   },
+   "setting_label_ignoresite": {
+      "message": "Ignore Sites"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "XPath Container:"
+   },
+   "setting_label_lblDesc": {
+      "message": "M\u00F4 t\u1EA3:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "XPath Li\u00EAn K\u1EBFt:"
+   },
+   "setting_label_lblOwner": {
+      "message": "T\u1EA1o b\u1EDFi:"
+   },
+   "setting_label_lblSetting": {
+      "message": "Ngu\u1ED3n thi\u1EBFt l\u1EADp AutoPager"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "Ki\u1EC3u ng\u1EEF c\u1EA3nh:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "M\u00F4 t\u1EA3:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "Duy tr\u00EC b\u1EDFi:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "Ki\u1EC3u:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "M\u1EABu URL:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "T\u1EF1 \u0111\u1ED9ng C\u1EADp nh\u1EADt C\u1EA5u h\u00ECnh Trang:"
+   },
+   "setting_label_loading": {
+      "message": "style th\u00F4ng b\u00E1o \u0111ang t\u1EA3i:"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "L\u1EADt trang khi kho\u1EA3ng tr\u1ED1ng \u00EDt h\u01A1n"
+   },
+   "setting_label_marginEnd": {
+      "message": "chi\u1EC1u cao c\u1EEDa s\u1ED5"
+   },
+   "setting_label_minipages": {
+      "message": "L\u01B0\u1EE3t \u0111\u1EBFm trang t\u1EA3i s\u1EB5n t\u1ED1i thi\u1EC3u"
+   },
+   "setting_label_pagebreak": {
+      "message": "style ng\u1EAFt trang:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Show autopager context menu"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Hi\u1EC7n m\u1ED9t h\u00ECnh \u1EA3nh tr\u1EE3 gi\u00FAp cho m\u1ED7i \u0111i\u1EC1u khi\u1EC3n, nh\u1EA5n \u0111\u1EC3 xem m\u00F4 t\u1EA3 cho \u0111i\u1EC1u khi\u1EC3n \u0111\u00F3"
+   },
+   "setting_label_showPrompt": {
+      "message": "Hi\u1EC7n h\u1ED9p tho\u1EA1i h\u1ECFi cho t\u1EEBng trang m\u1EDBi"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Hi\u1EC7n bi\u1EC3u t\u01B0\u1EE3ng autopager trong thanh tr\u1EA1ng th\u00E1i"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Show autopager icon in toolbar"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Hi\u1EC7n h\u1ED9p tho\u1EA1i h\u1ECFi \u0111\u01A1n gi\u1EA3n cho t\u1EEBng trang m\u1EDBi"
+   },
+   "setting_label_sites": {
+      "message": "Trang"
+   },
+   "setting_label_smartenable": {
+      "message": "B\u1EADt L\u1EADt trang Th\u00F4ng minh"
+   },
+   "setting_label_smartlinks": {
+      "message": "Theo li\u00EAn k\u1EBFt khi kh\u00F4ng c\u00F3 h\u01A1n"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "li\u00EAn k\u1EBFt \u0111\u00E3 g\u1EB7p."
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "L\u1EDBp/ID/Ngu\u1ED3n H\u00ECnh/Ch\u1EEF cho T\u00ECm ki\u1EBFm Li\u00EAn k\u1EBFt Ti\u1EBFp theo (t\u00E1ch b\u1EDFi &apos;|&apos;):"
+   },
+   "setting_label_timeout": {
+      "message": "th\u1EDDi gian h\u1EBFt h\u1EA1n cho vi\u1EC7c t\u1EA3i trang (gi\u00E2y):"
+   },
+   "setting_label_update": {
+      "message": "C\u1EADp nh\u1EADt"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "\u0110\u1EEBng thay \u0111\u1ED5i n\u1EBFu b\u1EA1n kh\u00F4ng bi\u1EBFt v\u1EC1 n\u00F3.\nPh\u1EA7n n\u00E0y s\u1EBD c\u00F3 \u00EDch n\u1EBFu n\u1ED9i dung ch\u00EDnh c\u1EE7a trang c\u00F3 m\u1ED9t container v\u1EDBi overflow-y v\u00E0 thanh cu\u1ED9n. V\u00ED d\u1EE5 nh\u01B0 www.cuil.com."
+   },
+   "setting_title": {
+      "message": "Thi\u1EBFt l\u1EADp AutoPager"
+   },
+   "setting_tree_Description": {
+      "message": "M\u00F4 t\u1EA3"
+   },
+   "setting_tree_URLPattern": {
+      "message": "M\u1EABu URL"
+   },
+   "setting_type_autopager": {
+      "message": "autopager xml"
+   },
+   "setting_type_autopagerize": {
+      "message": "autopager-h\u00F3a"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "autopager-h\u00F3a josn"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "autopager ch\u1EEF"
+   },
+   "setting_update_bidaily": {
+      "message": "Every Other Day"
+   },
+   "setting_update_daily": {
+      "message": "M\u1ED7i ng\u00E0y"
+   },
+   "setting_update_global": {
+      "message": "D\u00F9ng thi\u1EBFt l\u1EADp Bao tr\u00F9m"
+   },
+   "setting_update_monthly": {
+      "message": "M\u1ED7i th\u00E1ng"
+   },
+   "setting_update_never": {
+      "message": "Kh\u00F4ng bao gi\u1EDD"
+   },
+   "setting_update_once": {
+      "message": "L\u1EA7n \u0111\u1EA7u ti\u00EAn"
+   },
+   "setting_update_startup": {
+      "message": "M\u1ED7i khi Kh\u1EDFi \u0111\u1ED9ng"
+   },
+   "setting_update_weekly": {
+      "message": "M\u1ED7i tu\u1EA7n"
+   },
+   "showoptions": {
+      "message": "Hi\u1EC7n th\u00EAm T\u00F9y ch\u1ECDn"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "\u0110\u00F3ng Tr\u00ECnh Gi\u1EEF Trang AutoPager"
+   },
+   "statusbar_label_value": {
+      "message": "Click to view the paging rules online"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Tr\u1EE3 gi\u00FAp"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "S\u1EEDa L\u1ED7i"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "T\u1EF1 \u0111\u1ED9ng S\u1EEDa"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "T\u1EF1 \u0111\u1ED9ng S\u1EEDa l\u1ED7i"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "Reset All Setting"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "Reset All AutoPager Setting"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "G\u1EE1 r\u1ED1i"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "G\u1EE1 r\u1ED1i"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "Clean All"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "\u1EE6ng h\u1ED9"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Hi\u1EC7n trang \u1EE6ng h\u1ED9"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Show Related Search"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Tr\u1EE3 gi\u00FAp"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "Hi\u1EC7n trang Tr\u1EE3 gi\u00FAp"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "Quy t\u1EAFc"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "Hi\u1EC7n quy t\u1EAFc trong Kho tr\u1EF1c tuy\u1EBFn"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "H\u01B0\u1EDBng d\u1EABn"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "Hi\u1EC7n trang H\u01B0\u1EDBng d\u1EABn"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Switch To Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "Switch To AutoPager Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "Switch To Normal Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "Switch To AutoPager Normal Mode"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "Disable Paging By Default"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Discover matched rules online"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Highlight Contents"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Highlight Contents in the document"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "Highlight Next Links"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "Highlight Next Links in the document"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Options"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Works in lite model"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Show This On New Site"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Always show discover icon"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "AutoPager Core Options"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "G\u00F5 M\u1ED9t XPAth Ho\u1EB7c Nh\u00E2n \u0110\u00F4i M\u1ED9t XPath trong danh s\u00E1ch \u0111\u1EC3 xem hi\u1EC7u \u1EE9ng."
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Image Lazy load Attribute"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Clean Loaded Pages when elements by following xpath clicked/changed"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "Phi\u00EAn n\u00E0y"
+   },
+   "thissite": {
+      "message": "Trang n\u00E0y"
+   },
+   "thistime": {
+      "message": "L\u00FAc n\u00E0y"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "Th\u00EAm Trang"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "X\u00F3a tr\u1EAFng T\u1EA5t c\u1EA3"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Kh\u00E1m ph\u00E1"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "M\u1EDF trong C\u1EEDa S\u1ED5 Ri\u00EAng"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "M\u1EDF trong Thanh L\u1EC1"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "Ch\u1ECDn l\u1EA5y N\u1ED9i dung"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "Ch\u1ECDn l\u1EA5y Li\u00EAn k\u1EBFt"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Th\u1EED Trang"
+   },
+   "treecol_authorityCol_label": {
+      "message": "X\u00E1c th\u1EF1c"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "XPath N\u1ED9i Dung"
+   },
+   "treecol_fileCol_label": {
+      "message": "T\u1EADp tin"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "XPath Li\u00EAn K\u1EBFt"
+   },
+   "treecol_machedCol_label": {
+      "message": "L\u01B0\u1EE3t \u0111\u1EBFm Kh\u1EDBp"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "B\u1EA1n c\u00F3 mu\u1ED1n th\u1EED l\u1EA1i l\u1EA7n n\u1EEFa?"
+   },
+   "unableevaluator": {
+      "message": "Kh\u00F4ng th\u1EC3 \u0111\u00E1nh gi\u00E1 xpath:n%S.n%S"
+   },
+   "unableload": {
+      "message": "kh\u00F4ng th\u1EC3 t\u1EA3i url:"
+   },
+   "unsupport_version": {
+      "message": "Found unsupported rule format version %S, current supports up to %S. This rule will be ignored."
+   },
+   "viewdescription": {
+      "message": "Click to View Description"
+   },
+   "viewdescription2": {
+      "message": "Ctrl + click to View Description"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "Thi\u1EBFt l\u1EADp l\u1EA1i"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "M\u00F4 t\u1EA3 Bi\u1EC3u th\u1EE9c XPath"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "Bi\u1EC3u th\u1EE9c XPath"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Ch\u1EE9c n\u0103ng Boolean"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "V\u1ECB tr\u00ED"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Ch\u1EE9c n\u0103ng Thi\u1EBFt l\u1EADp N\u00FAt"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Ch\u1EE9c n\u0103ng S\u1ED1"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "Ch\u1EE9c n\u0103ng Chu\u1ED7i"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "selects ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "selects ancestors of the context node and self "
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "selects attribute of the context node"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Returns the boolean representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Returns the smallest integer value not less than the argument."
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "selects children of the context node"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "Returns the concatenation of its arguments."
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "Returns true if the first argument string contains the second argument string."
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "Returns the number of nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "selects descendants of the context node"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "selects descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Returns a boolean with the value of false."
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Returns the largest integer value not greater than the argument."
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "selects followings of the context node"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "selects next chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Returns the element specified by it&apos;s unique id."
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Returns true if the language of the context node is the same as the languag specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "Returns the position of the last node in the context list."
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Returns the local-name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Returns the local-name for the context node."
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "Returns the name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Returns the name for the context node."
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "selects namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Returns the namespace-uri for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Returns the namespace-uri for the context node."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "Returns a white-space normalized string specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Returns a white-space normalized string specified by the context-node."
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Returns a boolean with the opposite value of its argument."
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Returns the number representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Returns the number representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "selects parent of the context node"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "Returns the position of the current context node."
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "selects precedings of the context node"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "selects the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Returns the integer value closest to the argument."
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "select the context node"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "Returns true if the first argument string starts with the second argument string."
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "Returns the string representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Returns a string value representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Returns the length of the string specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Returns the length of the string specified by the context node."
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Returns the substring of the first argument starting at the position specified by the second argument and the length specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Returns the substring of the first argument string that comes after the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Returns the substring of the first argument string that comes before the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Returns the substring of the first argument from the position specified by the second argument."
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "Returns the sum of all nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Returns the text contents for the context node."
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "Replaces characters in the string specified by the second argument with characters specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Returns a boolean with the value of true."
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "ancestors of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "attribute of the context node"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "children of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "descendants of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "followings of the context node"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "next chapter siblings of the context node"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "parent of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "precedings of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "the context node"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "Description"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "Function"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "Short Description"
+   },
+   "xpathconfirm": {
+      "message": "B\u1EA1n c\u00F3 ngh\u0129 xpath li\u00EAn k\u1EBFt ti\u1EBFp theo n\u00E0y l\u00E0 \u1ED5n kh\u00F4ng?"
+   },
+   "xpathreturnnothing": {
+      "message": "xpath kh\u00F4ng ph\u1EA3n h\u1ED3i"
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

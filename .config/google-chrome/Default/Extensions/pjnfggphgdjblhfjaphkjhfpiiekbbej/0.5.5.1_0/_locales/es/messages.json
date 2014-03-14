@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "es"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Esta extensi\u00F3n no puede ofrecer sugerencias para este tipo de p\u00E1ginas, ya que incluyen contenido seguro (por ejemplo, http\u003Cb\u003Es\u003C/b\u003E://). Vuelve a intentarlo en la Web p\u00FAblica."
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Esta extensi\u00F3n funciona mejor en las p\u00E1ginas principales de la mayor\u00EDa de los sitios web. Prueba la extensi\u00F3n en un sitio web que te guste &mdash;pru\u00E9bala y consulta las sugerencias de p\u00E1ginas sobre algo que conozcas\u003Cp\u003E."
+   },
+   "sp_default_title": {
+      "message": "Ver P\u00E1ginas similares de Google"
+   },
+   "sp_description": {
+      "message": "Descubre p\u00E1ginas web similares a la p\u00E1gina que est\u00E1s explorando actualmente."
+   },
+   "sp_domain_change_message": {
+      "message": "Para cambiar el dominio local por www.google.com, \u003Ca id='over' href='#'\u003Ehaz clic aqu\u00ED\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com se ha guardado como dominio local para la recuperaci\u00F3n de p\u00E1ginas similares."
+   },
+   "sp_domain_message": {
+      "message": "La extensi\u00F3n se pondr\u00E1 en contacto con $1 para recuperar la lista de p\u00E1ginas similares.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "N\u00FAmero de p\u00E1ginas: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EAcerca de Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Gracias por enviarnos tus comentarios a la direcci\u00F3n \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E"
+   },
+   "sp_options_intro": {
+      "message": "La extensi\u00F3n del navegador Google Similar Pages permite obtener una vista previa de la p\u00E1gina de forma r\u00E1pida y explorar otras p\u00E1ginas similares a la que est\u00E1s explorando de forma instant\u00E1nea."
+   },
+   "sp_options_legal": {
+      "message": "Al hacer clic en el bot\u00F3n de P\u00E1ginas similares de Google, el navegador enviar\u00E1 una consulta a Google para comprobar si existen p\u00E1ginas similares a la p\u00E1gina en la que te encuentras.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003ELos datos relacionados con la consulta se procesar\u00E1n tal como se describe en la \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epol\u00EDtica de privacidad\u003C/a\u003E de Google.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPol\u00EDtica de privacidad\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ECondiciones del servicio\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Desinstalaci\u00F3n"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Para desinstalar Google Similar Pages, utiliza la opci\u00F3n de men\u00FA \"Herramientas&gt;Extensiones\" de Chrome y haz clic en el enlace para desinstalar la extensi\u00F3n Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Vista previa\u003Cbr\u003Eno disponible"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (de Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "La extensi\u00F3n no est\u00E1 disponible actualmente para tu pa\u00EDs/regi\u00F3n. Vuelve a intentarlo m\u00E1s adelante."
+   },
+   "sp_zero_results": {
+      "message": "No se han encontrado p\u00E1ginas similares."
+   }
+}

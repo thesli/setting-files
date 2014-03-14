@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "EBASOBIV. Kasutage selle asemel Google'i sisestust\u00F6\u00F6riistade laiendust (saadaval aadressil http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "AEGUNUD: Virtuaalne klaviatuur (Google'ilt)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtuaalse klaviatuuri laienduse valikud"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Valige klaviatuuripaigutus(ed) vasakult:"
+   },
+   "vkbd_save_options": {
+      "message": "Salvesta"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Kuva/peida klaviatuur"
+   }
+}

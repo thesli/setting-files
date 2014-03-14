@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "zh-TW"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "\u9019\u500B\u64F4\u5145\u529F\u80FD\u4E0D\u9069\u7528\u65BC\u542B\u6709\u5B89\u5168\u5167\u5BB9\u7684\u7DB2\u9801 (\u4F8B\u5982\uFF1A http\u003Cb\u003Es\u003C/b\u003E://)\u3002\u8ACB\u5728\u516C\u7528\u7DB2\u9801\u4E0A\u76E1\u60C5\u9AD4\u9A57\uFF01"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "\u6B64\u64F4\u5145\u529F\u80FD\u9069\u5408\u61C9\u7528\u5728\u5927\u90E8\u5206\u7DB2\u7AD9\u7684\u9996\u9801\u6216\u4E3B\u9801\u4E0A\u3002\u003Cp\u003E\u8ACB\u5728\u60A8\u7D93\u5E38\u700F\u89BD\u7684\u7DB2\u7AD9\u4E0A\u8A66\u7528\u6B64\u64F4\u5145\u529F\u80FD &mdash; \u5EFA\u8B70\u60A8\u5148\u5229\u7528\u81EA\u5DF1\u719F\u6089\u7684\u5167\u5BB9\u6E2C\u8A66\u4E00\u4E0B\uFF0C\u770B\u770B\u80FD\u5920\u7372\u5F97\u4EC0\u9EBC\u6A23\u7684\u7DB2\u9801\u5EFA\u8B70\u3002"
+   },
+   "sp_default_title": {
+      "message": "\u67E5\u770B Google Similar Pages"
+   },
+   "sp_description": {
+      "message": "\u5C0B\u627E\u8207\u76EE\u524D\u700F\u89BD\u7DB2\u9801\u5167\u5BB9\u76F8\u4F3C\u7684\u7DB2\u9801\u3002"
+   },
+   "sp_domain_change_message": {
+      "message": "\u5982\u8981\u5C07\u672C\u6A5F\u7DB2\u57DF\u8B8A\u66F4\u70BA www.google.com\uFF0C\u8ACB\u003Ca id='over' href='#'\u003E\u6309\u4E00\u4E0B\u9019\u88E1\u003C/a\u003E\u3002"
+   },
+   "sp_domain_clicked_message": {
+      "message": "\u5DF2\u5C07 www.google.com \u5132\u5B58\u70BA\u64F7\u53D6\u76F8\u4F3C\u7DB2\u9801\u7684\u672C\u6A5F\u7DB2\u57DF\u3002"
+   },
+   "sp_domain_message": {
+      "message": "\u6B64\u64F4\u5145\u529F\u80FD\u5C07\u9023\u7DDA\u81F3 $1\uFF0C\u4EE5\u64F7\u53D6\u76F8\u4F3C\u7DB2\u9801\u6E05\u55AE\u3002",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "\u9801\u6578\uFF1A$1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EGoogle \u5B8C\u5168\u624B\u518A\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "\u975E\u5E38\u6B61\u8FCE\u60A8\u5728\u300C\u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E\u300D\u4E0A\u63D0\u4F9B\u5BF6\u8CB4\u7684\u610F\u898B\uFF0C\u8B1D\u8B1D\uFF01"
+   },
+   "sp_options_intro": {
+      "message": "Google Similar Pages \u700F\u89BD\u5668\u64F4\u5145\u529F\u80FD\u53EF\u8B93\u60A8\u5FEB\u901F\u9810\u89BD\u4E26\u5373\u6642\u67E5\u770B\u8207\u60A8\u6B63\u5728\u700F\u89BD\u7684\u7DB2\u9801\u5167\u5BB9\u76F8\u4F3C\u7684\u5176\u4ED6\u7DB2\u9801\u3002"
+   },
+   "sp_options_legal": {
+      "message": "\u6309\u4E00\u4E0B [\u985E\u4F3C\u7DB2\u9801] \u6309\u9215\u6642\uFF0C\u700F\u89BD\u5668\u6703\u5148\u50B3\u9001\u4E00\u7B46\u641C\u5C0B\u67E5\u8A62\u7D66 Google\uFF0C\u770B\u770B\u662F\u5426\u6709\u4EFB\u4F55\u7DB2\u9801\u8207\u60A8\u6B63\u5728\u6AA2\u8996\u7684\u7DB2\u9801\u985E\u4F3C\u3002\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003E\u8207\u67E5\u8A62\u76F8\u95DC\u7684\u8CC7\u6599\uFF0C\u6703\u6839\u64DA Google \u7684\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003E\u96B1\u79C1\u6B0A\u653F\u7B56\u003C/a\u003E\u8655\u7406",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003E\u96B1\u79C1\u6B0A\u653F\u7B56\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\u670D\u52D9\u689D\u6B3E\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "\u89E3\u9664\u5B89\u88DD"
+   },
+   "sp_options_uninstall_message": {
+      "message": "\u5982\u8981\u89E3\u9664\u5B89\u88DD Google Similar Pages\uFF0C\u8ACB\u5728 Google Chrome \u4E2D\u4F9D\u5E8F\u9078\u53D6 [\u5DE5\u5177] &gt; [\u64F4\u5145\u529F\u80FD] \u9078\u55AE\u9078\u9805\uFF0C\u4E26\u5728 Google Similar Pages \u64F4\u5145\u529F\u80FD\u4E0A\u6309\u4E00\u4E0B [\u89E3\u9664\u5B89\u88DD] \u7684\u9023\u7D50\u3002"
+   },
+   "sp_preview_not_available": {
+      "message": "\u7121\u6CD5\u9810\u89BD\u003Cbr\u003E"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages \u6E2C\u8A66\u7248 (\u7531 Google \u63D0\u4F9B)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "\u60A8\u6240\u5728\u7684\u570B\u5BB6/\u5730\u5340\u76EE\u524D\u5C1A\u7121\u6CD5\u4F7F\u7528\u6B64\u64F4\u5145\u529F\u80FD\uFF0C\u8ACB\u5BC6\u5207\u6CE8\u610F\u5F8C\u7E8C\u6D88\u606F\u3002"
+   },
+   "sp_zero_results": {
+      "message": "\u627E\u4E0D\u5230\u5167\u5BB9\u76F8\u4F3C\u7684\u7DB2\u9801\u3002"
+   }
+}

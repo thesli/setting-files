@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Saznajte više"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pomozite nam prijavom problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Prijava problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups. To nismo očekivali."
+   },
+   "app_nacl_error_msg": {
+      "message": "Došlo je do problema u učitavanju aplikacije."
+   },
+   "app_nacl_error_title": {
+      "message": "Datoteku nije moguće otvoriti."
+   },
+   "application_description": {
+      "message": "Uređivanje dokumenta"
+   },
+   "file_loading_spinner_label": {
+      "message": "Učitavanje"
+   },
+   "file_not_found_msg": {
+      "message": "Zatražena je datoteka premještena."
+   },
+   "file_not_found_title": {
+      "message": "Datoteka nije pronađena."
+   }
+}

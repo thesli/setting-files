@@ -1,0 +1,148 @@
+[video-player]
+repeat=false
+display=false
+display-translated-subtitle=false
+automatically-open-video=true
+audio-sink=autoaudiosink
+video-sink=gconfvideosink
+font-desc=Sans 26
+shaded-background=true
+force-aspect-ratio=true
+
+[waveform]
+scale=3
+zoom=1
+scrolling-with-player=true
+scrolling-with-selection=true
+respect-timing=true
+display=false
+display-background=false
+display-waveform-fill=true
+
+[extension-manager]
+Minimize Duration=enable
+Italicize=enable
+Apply Translation=enable
+Dialoguize=enable
+Command=enable
+Duplicate Subtitle=enable
+Best Fit=enable
+Sort Subtitles=enable
+Selection=enable
+Move After Preceding Subtitle=enable
+Change Framerate=enable
+Stack Subtitles=enable
+Insert Subtitle From Keyframe=enable
+Keyframes Management=enable
+Move Subtitles=enable
+Adjust Time=enable
+Clipboard=enable
+About=enable
+Find And Replace=enable
+Remove Subtitle=enable
+Waveform Management=enable
+View Manager=enable
+Time Mode Management=enable
+Plain Text=enable
+Preferences=enable
+Combine Subtitles=enable
+Reverse Text And Translation=enable
+Insert Subtitle=enable
+Join Document=enable
+Extend Length=enable
+Video Player Management=enable
+Split Document=enable
+Document Management=enable
+External Video Player=enable
+Split Subtitle=enable
+Timing From Player=enable
+Error Checking=enable
+Documents Navigation=enable
+Text Correction=enable
+Type Writer=enable
+Scale Subtitles=enable
+Edit Cell=enable
+Style Editor=enable
+Spell Checking=enable
+Keyboard Shortcuts=enable
+Sami=enable
+MPL2=enable
+Subtitle Editor Project=enable
+Spruce STL=enable
+SubRip=enable
+MicroDVD=enable
+DCSubtitle=enable
+Adobe Encore DVD (PAL)=enable
+BITC (Burnt-in timecode)=enable
+Sub Station Alpha=enable
+SBV=enable
+Advanced Sub Station Alpha=enable
+SubViewer2=enable
+MPsub=enable
+Adobe Encore DVD (NTSC)=enable
+Plain Text Format=enable
+Timed Text Authoring Format 1.0=enable
+
+[find-and-replace]
+column-text=true
+column-translation=true
+ignore-case=false
+used-regular-expression=false
+
+pattern=
+replacement=
+
+[view-manager]
+Simple=number;start;end;duration;text
+Advanced=number;start;end;duration;style;name;text
+Translation=number;text;translation
+Timing=number;start;end;duration;cps;text
+
+[interface]
+used-autosave=false
+use-dynamic-keyboard-shortcuts=true
+maximize-window=false
+max-undo=20
+ask-to-save-on-exit=false
+create-backup-copy=false
+autosave-minutes=10
+
+[encodings]
+encodings=ISO-8859-15;UTF-8
+used-auto-detected=true
+default=UTF-8
+
+[document]
+format=SubRip
+newline=Unix
+
+[subtitle-view]
+property-alignment-center=false
+show-character-per-line=true
+columns-displayed=number;start;end;duration;text
+enable-rubberband-selection=false
+used-ctrl-enter-to-confirm-change=false
+do-not-disable-actions-during-editing=false
+
+[timing]
+min-display=1000
+min-gap-between-subtitles=100
+min-characters-per-second=5
+max-characters-per-second=25
+max-characters-per-line=40
+max-line-per-subtitle=2
+
+[dialog-last-folder]
+dialog-open-document=file:///mnt/hgfs/share/Breaking.Bad.S01E01.HDTV.XviD-BiA
+dialog-open-video=file:///mnt/hgfs/share/Breaking.Bad.S01E01.HDTV.XviD-BiA
+
+[waveform-renderer]
+color-background=#4C4C4CFF
+color-text=#FFFFFFFF
+color-wave=#99CC4CFF
+color-wave-fill=#FFFFFFFF
+color-subtitle=#994C1999
+color-subtitle-selected=#E57F4C99
+color-subtitle-invalid=#FFFF00CC
+color-player-position=#FFFFFFFF
+display-subtitle-text=true

@@ -1,0 +1,113 @@
+<html><head><script>
+var responseFun;
+function actOnArrayOfTabs(phalana) {
+  var overallText = new Object();
+  console.log("actOnArrayOfTabs begin " +  (new Date()).getTime() + " " + globalTabs.length + " "  + phalana.length);
+  // console.log(phalana.length + " "  + phalana[0].title + " " + phalana[0].id);
+  for(var index = 0; index < phalana.length ;) {
+      overallText[index]={'title' : phalana[index].title, 'id': phalana[index].id};
+      index=index+1;
+      console.log(index);
+      // alert(index);
+  }
+      /*overallText[index] = new Object();
+      overallText[index].title = myTab.title;
+      overallText[index].id = myTab.id;
+      overallText[index].winid = myTab.windowId;
+      */
+  console.log("actOnArrayOfTabs end " +  (new Date()).getTime() + " " + globalTabs.length + " "  + phalana.length);
+  console.log('responseFun ' + responseFun);
+  responseFun({'tabList' : overallText});
+}
+
+var globalTabs = []; // new Object();
+var ctr = 0;
+
+function addToTabList(tabs) {
+    tabs.forEach(function(tab) {
+        globalTabs.push(tab);
+    });
+    console.log("addToTabList end" +  (new Date()).getTime() + " " + globalTabs.length);
+    ctr = ctr - 1;
+    console.log("ctr = " + ctr);
+}
+
+/*
+function addToTabList(bigTabList) {
+    return (function(tabs) {
+        tabs.forEach(function(tab) {
+            bigTabList.push(tab);
+        });
+    });
+}
+*/
+
+/*
+function addToTabList(w) {
+    if (w == 0) {
+        return (function(tabs) {
+            for (var x = 0; x < tabs.length; x = x+1) {
+                globalTabs.push(tabs[i]);
+            }
+*/
+
+function repeatTimer() {
+    if (ctr > 0) {
+        setTimeout("repeatTimer()", 50);
+    } else {
+        actOnArrayOfTabs(globalTabs);
+    }
+}
+
+function xyz(winList) {
+    // console.log("xyz start " +  (new Date()).getTime() + " " + globalTabs.length);
+    globalTabs = [];
+    ctr = winList.length;
+    for (x=0;x<winList.length;x=x+1) {
+        // console.log("xyz adding " +  (new Date()).getTime() + " " + globalTabs.length);
+        chrome.tabs.getAllInWindow(winList[x].id, addToTabList);
+    }
+    repeatTimer(globalTabs);
+    // console.log("xyz middle " +  (new Date()).getTime() + " " + globalTabs.length);
+    // actOnArrayOfTabs(globalTabs);
+    // console.log("xyz end" +  (new Date()).getTime() + " " + globalTabs.length);
+}
+
+function setWindowToSelected(myTab) {
+    chrome.windows.get(myTab.windowId, function(myWindow) {
+        chrome.windows.update(myWindow.id, {'focused' : true}, null);
+    });
+}
+
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    // responseFun = null;
+    console.log('responseFun is null ? ' + (new Date()).getTime() + ' ' + responseFun);
+    console.log(sender.tab ?
+                "from a content script:" + sender.tab.url + (new Date()).getTime() :
+                "from the extension ");
+    if (request.operation == "tabList") {
+        responseFun = sendResponse;
+        console.log('responseFun being set ' + responseFun + ' ' + (new Date()).getTime());
+        chrome.windows.getAll({'populate' : true}, xyz);
+    } else {
+        if (request.operation == "switchTab") {
+            chrome.tabs.update(parseInt(request.tabId), {selected: true});
+            chrome.tabs.get(parseInt(request.tabId), setWindowToSelected);
+            sendResponse({});
+        } else {
+            if (request.operation == "shortcutForTabExplorer") {
+                console.log(localStorage['fav_selectionKeyCode'] + ' ' + localStorage['fav_specialKey']);
+                if (localStorage['fav_selectionKeyCode'] == undefined &&
+                    localStorage['fav_specialKey'] == undefined) {
+                    sendResponse({'fav_selectionKeyCode' : '71', 'fav_specialKey' : '0'});
+                } else {
+                    sendResponse({'fav_selectionKeyCode' : localStorage['fav_selectionKeyCode'], 'fav_specialKey' : localStorage['fav_specialKey']});
+                }
+            } else {
+                sendResponse({});
+            }
+        }
+    }
+  });
+</script></head><body></body></html>

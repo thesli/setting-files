@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/notification.js"></script>
+<style type="text/css">
+	html {height:60px;padding:0;overflow: hidden}
+	body {font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:normal;padding:0;margin:0;overflow:hidden}
+	a {text-decoration:none;color:black}
+	a:hover {text-decoration:none}
+	#wrapper {padding:20px 0;font-size:14px}
+	#wrapper:hover {cursor:pointer}
+	#logo {margin:0 5px;border-radius:5px}
+	#otherExtensions {font-size:11px;background:#efefef;padding:1px;text-align:right}
+	#ad:hover {color:blue !important;text-decoration:underline}
+	#close {margin-left:2px;background-image: url(images/close.png);vertical-align:text-bottom;height:11px;width:11px;display:inline-block;background-repeat: no-repeat;background-position:0 0}
+	#close:hover {background-position:0 -24px}
+	.share {color:blue;font-weight:bold;text-decoration:underline}
+</style> 
+</head>
+<body id="body">
+    <div id="wrapper" gaCategory="msg">
+    	<img id='logo' src='images/icon19.png' align='absmiddle'/>
+    	<a id="msg" title="Click to open Facebook page" href='#'></a>    	
+    </div>
+    <!-- images/chrome_web_store-16.png -->
+    <!-- data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBggGBQkIBwgKCQkKDRYODQwMDRoTFBAWHxwhIB8cHh4jJzIqIyUvJR4eKzssLzM1ODg4ISo9QTw2QTI3ODUBCQoKDAsNGQ4MGSwkHiQsNSk1KTU1NTQ1NSk1NTUpNSwzNTU1NTUwKTU1NTU1Lik1NTUpLDU1NTQ1KTU2KSw1Nf/AABEIACAAIAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAFBgcE/8QALRAAAQMCAwYFBQEAAAAAAAAAAQIDEQQFAAYSEyExQXHRFCIyUZIVQ2GRsQf/xAAVAQEBAAAAAAAAAAAAAAAAAAAEAP/EAB0RAAEEAgMAAAAAAAAAAAAAAAEAERITYfACAwT/2gAMAwEAAhEDEQA/ALBdry1aC1tU6trMeaOEd8CabOrSw5tm0phZCd+ny8vf97sbsxWSjvHh/GIWrZatGlwpiYnhx4DCE5TUNJmOmoayy1LFNVvKZYfNUolZHPTyHDCeFERN3Q+0eqRrIbcJvqM6tJLQZbSdSwFSZ8vP2jrvwVtF7au6ngyAA0EkkKnjPbCC3TWN/OZsjVG8pCEq1P8AiFesCSB7xIw75estHaC/4NC07UJ1allXAqjj1OLnREwd1dY9UhYQ24W24mA31OJQM3Ul0/02K4VTQtzhpbcyKdRSt4+UuqVEATuH434qd2oaitDQp1oRpnVqJ5xgcbHcT95j5K7YMmKbWWhzHaM92Omr6WiJKKhbjza1K1hSpWpRj1TEDFdtxlTnQf04F/Q7jyfZ+Su2CVqoXqJDhqHErUuPTMCJ9+uJS//Z -->
+    <!-- calendar-->
+    <!--  data:image/jpg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBggGBQkIBwgKCQkKDRYODQwMDRoTFBAWHxwhIB8cHh4jJzIqIyUvJR4eKzssLzM1ODg4ISo9QTw2QTI3ODUBCQoKDAsNGQ4MGSwkHiQsNSk1KTU1NTQ1NSk1NTUpNSwzNTU1NTUwKTU1NTU1Lik1NTUpLDU1NTQ1KTU2KSw1Nf/AABEIACAAIAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAFBgcE/8QALRAAAQMCAwYFBQEAAAAAAAAAAQIDEQQFAAYSEyExQXHRFCIyUZIVQ2GRsQf/xAAVAQEBAAAAAAAAAAAAAAAAAAAEAP/EAB0RAAEEAgMAAAAAAAAAAAAAAAEAERITYfACAwT/2gAMAwEAAhEDEQA/ALBdry1aC1tU6trMeaOEd8CabOrSw5tm0phZCd+ny8vf97sbsxWSjvHh/GIWrZatGlwpiYnhx4DCE5TUNJmOmoayy1LFNVvKZYfNUolZHPTyHDCeFERN3Q+0eqRrIbcJvqM6tJLQZbSdSwFSZ8vP2jrvwVtF7au6ngyAA0EkkKnjPbCC3TWN/OZsjVG8pCEq1P8AiFesCSB7xIw75estHaC/4NC07UJ1allXAqjj1OLnREwd1dY9UhYQ24W24mA31OJQM3Ul0/02K4VTQtzhpbcyKdRSt4+UuqVEATuH434qd2oaitDQp1oRpnVqJ5xgcbHcT95j5K7YMmKbWWhzHaM92Omr6WiJKKhbjza1K1hSpWpRj1TEDFdtxlTnQf04F/Q7jyfZ+Su2CVqoXqJDhqHErUuPTMCJ9+uJS//Z -->
+    <div id="otherExtensions"><a id="ad" href="#"><img src="images/chrome_web_store-16.png" align="absmiddle" height=14 style="margin-right:3px"/>Try my other cool apps!</a><a id="close" href="#" title="Remove">&nbsp;</a></div>
+    <div id="shareMessage" style="display:none;padding:5px;font-size:12px">Remove the small messages at the bottom forever just by <a class="share" href="#">sharing</a> this Facebook Chat Notification app from <a class='share'href="#">here</a>!</div>
+</body>
+</html>

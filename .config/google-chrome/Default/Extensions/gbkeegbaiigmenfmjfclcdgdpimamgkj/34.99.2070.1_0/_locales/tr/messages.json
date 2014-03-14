@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Daha fazla bilgi edinin"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Sorunu bildirerek bize yardımcı olun."
+   },
+   "app_nacl_crash_report": {
+      "message": "Sorun bildir..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hata! Bunun olmaması gerekiyordu."
+   },
+   "app_nacl_error_msg": {
+      "message": "Uygulama yüklenirken bir sorun oluştu."
+   },
+   "app_nacl_error_title": {
+      "message": "Dosya açılamıyor."
+   },
+   "application_description": {
+      "message": "Doküman düzenleme"
+   },
+   "file_loading_spinner_label": {
+      "message": "Yükleniyor"
+   },
+   "file_not_found_msg": {
+      "message": "İstediğiniz dosya taşındı."
+   },
+   "file_not_found_title": {
+      "message": "Dosya bulunamadı."
+   }
+}

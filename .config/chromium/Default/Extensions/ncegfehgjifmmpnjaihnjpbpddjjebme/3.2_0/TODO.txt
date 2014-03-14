@@ -1,0 +1,8 @@
+TODO!!
+	Remember touch mode for websites/pages
+	Refine no-scrollbar mode(on/off automatically when mouse is near the right edge of the screen or on moving)
+	file:// problem on Ubuntu Linux Chromium 4.0.252.0.
+	Scrollable on flash movies.
+	Grab icon changer in grabbable place.
+	More smooth glide.
+	Add a switching tab gesture.

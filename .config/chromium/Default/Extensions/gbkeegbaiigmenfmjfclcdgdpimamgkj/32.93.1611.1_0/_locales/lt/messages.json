@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Su\u017Einokite daugiau"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pad\u0117kite mums prane\u0161dami apie problem\u0105."
+   },
+   "app_nacl_crash_report": {
+      "message": "Prane\u0161kite apie problem\u0105..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Oi. Taip netur\u0117jo atsitikti."
+   },
+   "app_nacl_error_msg": {
+      "message": "\u012Ekeliant program\u0105 i\u0161kilo problema."
+   },
+   "app_nacl_error_title": {
+      "message": "Nepavyksta atidaryti failo."
+   },
+   "application_description": {
+      "message": "Dokumento redagavimas"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u012Ekeliama"
+   },
+   "file_not_found_msg": {
+      "message": "Failas, d\u0117l kurio pateik\u0117te u\u017Eklaus\u0105, yra perkeltas."
+   },
+   "file_not_found_title": {
+      "message": "Failas nerastas."
+   }
+}

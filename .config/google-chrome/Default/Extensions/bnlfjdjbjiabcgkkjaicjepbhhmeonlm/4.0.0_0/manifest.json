@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "description": "Live refresh extension for Prepros App",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "48": "img/icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvTqfzuZXqq9l6Tkymz8bBYGPcG9eOEE04xsNzftCLvRIHdkl1zUq/bwQ2QnVeC3+3Etc3W3EefMnA8XMuU5/SHFE6CRvnB+Yrwix87ey3sVC88oBYhQGz95CNQk5gJybmPe4B/vYonsOzx8DaHIMzcG0+dvxdIMfoLmG0b4xCbwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "Prepros",
+   "offline_enabled": true,
+   "permissions": [ "tabs", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.0"
+}

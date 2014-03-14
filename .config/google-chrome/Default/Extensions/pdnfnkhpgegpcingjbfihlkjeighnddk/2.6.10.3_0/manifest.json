@@ -1,0 +1,42 @@
+{
+   "background": {
+      "scripts": [ "shared/urls.js", "shared/tools.js", "shared/sogou.js", "chrome/pages/js/analytics.js", "chrome/storage.js", "chrome/header.js", "chrome/proxy.js", "chrome/redirect.js", "chrome/timezone.js", "chrome/config.js" ]
+   },
+   "browser_action": {
+      "default_icon": "chrome/icons/icon19gray.png",
+      "default_popup": "chrome/pages/popup.html",
+      "default_title": "Unblock Youku isn't working properly! Visit http://uku.im/faq for solutions."
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chrome/content/tudou.js" ],
+      "matches": [ "http://www.tudou.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "chrome/content/play.baidu.css" ],
+      "matches": [ "http://play.baidu.com/*" ]
+   }, {
+      "all_frames": true,
+      "exclude_globs": [ "http://*.edu.*/*", "http://u*.ca/*", "http://*.u*.ca/*", "http://uni*.it/*", "http://*.uni*.it/*", "http://uni*.de/*", "http://*.uni*.de/*", "http://uni*.fr/*", "http://*.uni*.fr/*", "http://*.gov.*/*", "http://*game.com/*", "http://*mail*", "http://*bank*", "http://*personal*" ],
+      "exclude_matches": [ "http://*.org/*", "http://*.edu/*", "http://*.ac.uk/*", "http://*.ac.jp/*", "http://*.cn/*", "http://*.gov/*", "http://*.gc.ca/*", "http://*.go.jp/*", "http://*.youku.com/*", "http://*.tudou.com/*", "http://*.soku.com/*", "http://*.sohu.com/*", "http://*.letv.com/*", "http://*.163.com/*", "http://*.xunlei.com/*", "http://*.amazon.com/*", "http://*.amazon.ca/*", "http://*.amazon.co.uk/*", "http://*.amazon.de/*", "http://*.amazon.fr/*", "http://*.amazon.co.jp/*" ],
+      "js": [ "chrome/content/links.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "chrome/icons/icon128.png",
+      "16": "chrome/icons/icon16.png",
+      "48": "chrome/icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWE+tGiW4Yb80bjudelq8EZi5B7jowqAJfvHhFtn9egUcUvXcQ2Y3ATxWpw+HKReBAYuBJEExONhbZjZFz+GZ4SHkquWVosFCwjHopckJON+O9IT6+215kxMHO2T8LFNPLdtpQAbmM0M44dGoaJXZ/SXPkzqNQw9b9Ux620Nl4HwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "25.0",
+   "name": "Unblock Youku",
+   "options_page": "chrome/pages/options.html",
+   "permissions": [ "proxy", "webRequest", "webRequestBlocking", "storage", "\u003Call_urls\u003E" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6.10.3"
+}

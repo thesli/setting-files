@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/16.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_button_tooltip__",
+      "icons": [ "icons/16.png", "icons/32.png", "icons/48.png", "icons/128.png" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/page_load.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFfZTbbOkPF78VXIt1bBqr2yG//wUCfZWmpIPQmOuBMWTrekR8TZfBpet+X5IxVvmULmcPwJJ/nvIXBWmmTwiMI5tfEeVnuYHyFEQ1nseMMh2bJk4TGoARO9BLToVg7VgzxOxRhyaXqzLiszldORFvpaZNV656NSck7lOLa7yBIQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_title__",
+   "offline_enabled": false,
+   "options_page": "options.html",
+   "permissions": [ "background", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.9"
+}

@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Googleen ei saada yhteytt\u00E4. Tarkista internetyhteys."
+   },
+   "chrome_ext_description": {
+      "message": "Keskusteluja voi el\u00E4v\u00F6itt\u00E4\u00E4 valokuvilla, hymi\u00F6ill\u00E4 ja vaikkapa ilmaisilla ryhm\u00E4videopuheluilla."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Kommentit"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "L\u00E4het\u00E4 palautetta"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "on kutsunut sinut ryhm\u00E4videokeskusteluun"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "L\u00E4het\u00E4 palautetta"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Ei kirjautunut"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "Pid\u00E4 Hangouts muiden ikkunoiden yl\u00E4puolella"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "soittaa sinulle videopuhelun Hangouts-palvelun kautta"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Salli taustatila"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Kirjaudu Hangouts-palveluun Chromen k\u00E4ynnistyess\u00E4"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Tila: yhdistetty\nHuomaamatta j\u00E4\u00E4neet viestit"
+   },
+   "quasar_answer_button_text": {
+      "message": "Vastaa"
+   },
+   "quasar_button_apply": {
+      "message": "K\u00E4yt\u00E4"
+   },
+   "quasar_button_cancel": {
+      "message": "Peruuta"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 sanoo...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Siirry klikkaamalla sivulle..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Hylk\u00E4\u00E4"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Peruuta"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "K\u00E4ytt\u00F6ymp\u00E4rist\u00F6:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Tietosuojalausunto"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Kuvaus, tuotetiedot, lis\u00E4tiedot ja s\u00E4hk\u00F6postiosoitteesi l\u00E4hetet\u00E4\u00E4n Googlelle. Tutustu Google-palautteen k\u00E4ytt\u00F6ehtoihin. L\u00E4hett\u00E4m\u00E4ll\u00E4 n\u00E4m\u00E4 tiedot my\u00F6nn\u00E4t Googlelle oikeuden k\u00E4ytt\u00E4\u00E4 tietoja tuotteiden ja palvelujen parantamiseen. Tutustu tietosuojak\u00E4yt\u00E4nt\u00F6\u00F6mme."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "http://www.google.com/tools/feedback/intl/fi/"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "L\u00E4het\u00E4 palautetta"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "J\u00E4rjestelm\u00E4n tiedot"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "K\u00E4ytt\u00E4j\u00E4agentti:"
+   },
+   "quasar_group_chat_title": {
+      "message": "Ryhm\u00E4keskustelusta..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 on Hangoutissa",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "Ohje"
+   },
+   "quasar_label_all_notification": {
+      "message": "Poista ilmoitukset k\u00E4yt\u00F6st\u00E4"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Poista keskusteluilmoitukset k\u00E4yt\u00F6st\u00E4"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "Aikakatkaisun pituus (sekunteina):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Salli pikaviesti-ilmoitusten vanheta automaattisesti"
+   },
+   "quasar_label_tray_icon": {
+      "message": "N\u00E4yt\u00E4 ilmaisinalueen kuvake"
+   },
+   "quasar_legend_notifications": {
+      "message": "Ilmoitukset"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Sovellus"
+   },
+   "quasar_menutext_feedback": {
+      "message": "Palaute"
+   },
+   "quasar_menutext_quit": {
+      "message": "Poistu"
+   },
+   "quasar_menutext_settings": {
+      "message": "Asetukset"
+   },
+   "quasar_menutext_signout": {
+      "message": "Kirjaudu ulos"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Tuntematon"
+   },
+   "quasar_sign_in": {
+      "message": "Kirjaudu sis\u00E4\u00E4n"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Kirjaudu sis\u00E4\u00E4n, jotta voit keskustella yst\u00E4vien kanssa"
+   },
+   "quasar_tip_connected": {
+      "message": "Tila: Yhdistetty"
+   },
+   "quasar_tip_connecting": {
+      "message": "Tila: Yhdistet\u00E4\u00E4n"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Tila: Yhteys katkaistu"
+   },
+   "quasar_tip_not_load": {
+      "message": "Tila: Lataamisvirhe"
+   },
+   "quasar_tip_not_login": {
+      "message": "Tila: Ei kirjautunut sis\u00E4\u00E4n"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Tila: Yhdistet\u00E4\u00E4n uudelleen"
+   },
+   "quasar_try_now": {
+      "message": "Kokeile"
+   },
+   "quasar_video_details": {
+      "message": "soittaa sinulle videopuhelun"
+   },
+   "quasar_video_title": {
+      "message": "Videopuhelu k\u00E4ytt\u00E4j\u00E4lt\u00E4 $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "soittaa sinulle"
+   },
+   "quasar_voice_title": {
+      "message": "\u00C4\u00E4nipuhelu k\u00E4ytt\u00E4j\u00E4lt\u00E4 $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

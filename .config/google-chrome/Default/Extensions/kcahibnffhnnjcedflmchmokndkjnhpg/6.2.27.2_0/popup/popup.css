@@ -1,0 +1,116 @@
+
+body {
+    font-family:Arial;
+    font-size:12px;
+    color:#6f6f68;
+    display:none;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+/* Reset the list padding */
+ol {
+    -webkit-padding-start: 0px;
+    padding:0px;
+}
+
+#disabledMessage, #bottomButtons a {
+    font-family:Arial;
+    font-size:12px;
+    color:#444444;
+}
+
+#topButtons a {
+    font-family:Arial;
+    font-size:12px;
+    color:#6f6f68;
+}
+
+.popupButtons {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+
+.logoutPrompt {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    font-family:Arial;
+    font-size:12px;
+    color:#6f6f68;
+}
+
+.logoutPrompt a {
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+
+.logoutPrompt a:hover, #bottomButtons a:hover {
+    color:#000000;
+    font-weight:bold;
+}
+
+.btn {
+    white-space:nowrap;
+    margin:18px 0px 18px 0px;
+}
+
+.btn a {
+    text-decoration:none;
+    outline:none;
+}
+
+#topButtons a:hover, #bottomButtons a:hover {
+    color:#000000;
+    font-weight:bold;
+}
+
+#topButtons .btnDisabled a, #bottomButtons .btnDisabled a {
+    color:#c8cac9;
+    font-weight:normal;
+}
+
+#topButtons li.btnDisabled a:hover, #bottomButtons li.btnDisabled a:hover {
+    color:#c8cac9;
+    font-weight:normal;
+}
+
+body .btnDisabled a:hover {
+    cursor:pointer;
+}
+
+.bgImgLeft
+{
+    padding: 0 7px 0 30px;
+    display: block;
+    vertical-align: middle;
+    background-repeat:no-repeat;
+}
+
+li.topBtn {
+    margin-top:0px;
+}
+
+li.bottomBtn {
+    margin-bottom:0px;
+}
+
+/* Avoid popup width jumping when this guy gets the bold highlight */
+#turnoff {
+    min-width:120px;
+}
+
+hr {
+    margin: 14px -8px 14px -8px;
+}
+
+#messageContent {
+    display:none;
+    width:400px;
+}
+
+li .bgImgLeft {
+    height:18px;
+}

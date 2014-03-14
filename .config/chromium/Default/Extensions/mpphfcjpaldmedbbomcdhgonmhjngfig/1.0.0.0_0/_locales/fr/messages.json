@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "OBSOL\u0090\u00C8TE.\u00A0Veuillez utiliser l'extension Google\u00A0Input\u00A0Tools (disponible \u00E0 l'adresse http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "OBSOL\u00C8TE\u00A0: Clavier virtuel (Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Options de l'extension Clavier\u00A0virtuel"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "S\u00E9lectionnez une ou plusieurs dispositions de clavier \u00E0 gauche :"
+   },
+   "vkbd_save_options": {
+      "message": "Enregistrer"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Afficher/Masquer le clavier"
+   }
+}

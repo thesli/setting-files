@@ -1,0 +1,455 @@
+{
+   "rctm_clear_all": {
+      "message": "Clear Recently Closed Tabs"
+   },
+   "rctm_remove": {
+      "message": "Remove"
+   },
+   "ui_about": {
+      "message": "About"
+   },
+   "ui_about_dev": {
+      "message": "Developers"
+   },
+   "ui_about_rate": {
+      "message": "Rate"
+   },
+   "ui_about_rate_desc": {
+      "message": "Do you like this extension? Take a minute to give a positive review on the Chrome Web Store."
+   },
+   "ui_about_share": {
+      "message": "Share"
+   },
+   "ui_about_share1": {
+      "message": "Do you like Awesome New Tab Page? Why not share it with friends and family?"
+   },
+   "ui_apps_tip_message": {
+      "message": "Nice! You just installed an app. You can find all of your installed apps here."
+   },
+   "ui_apps_tip_message_title": {
+      "message": "New App Installed"
+   },
+   "ui_button_apps": {
+      "message": "Apps"
+   },
+   "ui_button_cancel": {
+      "message": "Cancel"
+   },
+   "ui_button_close": {
+      "message": "Close"
+   },
+   "ui_button_lock": {
+      "message": "Lock to Interact with Apps & Widgets"
+   },
+   "ui_button_no": {
+      "message": "No"
+   },
+   "ui_button_ok": {
+      "message": "OK"
+   },
+   "ui_button_rct": {
+      "message": "Recently Closed Tabs"
+   },
+   "ui_button_unlock": {
+      "message": "Unlock"
+   },
+   "ui_button_widgets": {
+      "message": "Widgets"
+   },
+   "ui_button_yes": {
+      "message": "Yes"
+   },
+   "ui_c_learnmore": {
+      "message": "Learn more"
+   },
+   "ui_config": {
+      "message": "Configure"
+   },
+   "ui_config_advanced": {
+      "message": "Advanced"
+   },
+   "ui_config_advanced_disable_horizontal_scrollbar": {
+      "message": "Enable horizontal scrolling"
+   },
+   "ui_config_advanced_disable_horizontal_scrollbar_tip": {
+      "message": "Enables horizontal scrolling. Disable to use vertical scrolling."
+   },
+   "ui_config_advanced_grid_height": {
+      "message": "Set Grid Height"
+   },
+   "ui_config_advanced_grid_height_tip": {
+      "message": "Overrides automatic grid generation. Using this setting may result in your tiles not being loaded. Setting this value too large may impact performance. Min: 3. Max: 25. \u003Cb\u003EErase number to disable!\u003C/b\u003E"
+   },
+   "ui_config_advanced_grid_width": {
+      "message": "Set Grid Width"
+   },
+   "ui_config_advanced_grid_width_tip": {
+      "message": "Overrides automatic grid generation. Using this setting may result in your tiles not being loaded. Setting this value too large may impact performance. Min: 4. Max: 50. \u003Cb\u003EErase number to disable!\u003C/b\u003E"
+   },
+   "ui_config_advanced_hide_rctm": {
+      "message": "Enable the Recently Closed Tab Menu"
+   },
+   "ui_config_advanced_hide_rctm_tip": {
+      "message": "Enables the Recently Closed Tab Menu in the top left. Disable to hide the icon and stop logging closed tabs."
+   },
+   "ui_config_advanced_tip": {
+      "message": "Below are advanced options that, if used improperly, can lead to a degraded user experience. Use the following options at your own risk."
+   },
+   "ui_config_bg": {
+      "message": "Background"
+   },
+   "ui_config_bg_changecolor": {
+      "message": "Change Background Color"
+   },
+   "ui_config_bg_upload": {
+      "message": "Upload Image"
+   },
+   "ui_config_bgimg1": {
+      "message": "\u003Cb\u003EAdvanced\u003C/b\u003E (Shorthand Background CSS): Use an image on the web."
+   },
+   "ui_config_bgimg2": {
+      "message": "Example (NO trailing semicolon!):"
+   },
+   "ui_config_bgimg3": {
+      "message": "Erase the box to use the default background (solid color)."
+   },
+   "ui_config_general": {
+      "message": "General"
+   },
+   "ui_config_hide_scrollbar": {
+      "message": "Show bottom scrollbar"
+   },
+   "ui_config_hide_scrollbar_tip": {
+      "message": "Shows the scrollbar at the bottom of the page."
+   },
+   "ui_config_onoff_off": {
+      "message": "OFF"
+   },
+   "ui_config_onoff_on": {
+      "message": "ON"
+   },
+   "ui_config_reset": {
+      "message": "Reset"
+   },
+   "ui_config_reset_desc": {
+      "message": "This button will allow you to undo all changes you've made to Awesome New Tab Page."
+   },
+   "ui_config_shgrid": {
+      "message": "Always show grid"
+   },
+   "ui_config_shgrid_desc": {
+      "message": "When disabled, the grid will only be visible when the grid is unlocked."
+   },
+   "ui_config_shtlb": {
+      "message": "Always show top left buttons"
+   },
+   "ui_config_shtlb_desc": {
+      "message": "When disabled, the top left buttons will slide out of the way. To access them again, simply mouse over where they normally were."
+   },
+   "ui_confirm_reset": {
+      "message": "Are you sure you want to reset widget, app, and custom shortcut placements, stock widget preferences (notepad, etc.), and background preferences? Any customizations will be irrevocably lost."
+   },
+   "ui_confirm_uninstall": {
+      "message": "Are you sure you want to uninstall $app$?",
+      "placeholders": {
+         "app": {
+            "content": "$1",
+            "example": "Chrome Web Store"
+         }
+      }
+   },
+   "ui_drag_widget_message": {
+      "message": "To place a widget, click and drag the widget to an empty tile."
+   },
+   "ui_faw_get_more_apps": {
+      "message": "Get More Apps"
+   },
+   "ui_faw_get_more_apps_body": {
+      "message": "Get more apps from the \u003Ca href='https://chrome.google.com/webstore/?utm_source=download-apps&utm_medium=awesome-new-tab-page'\u003EChrome Web Store\u003C/a\u003E."
+   },
+   "ui_faw_get_more_widgets": {
+      "message": "Get More Widgets"
+   },
+   "ui_faw_get_more_widgets_body": {
+      "message": "Find more widgets."
+   },
+   "ui_faw_unlock_drag": {
+      "message": "Unlock & Drag"
+   },
+   "ui_faw_unlock_drag_apps": {
+      "message": "Unlock the grid and \u003Cb\u003Edrag\u003C/b\u003E your installed apps to an empty slot."
+   },
+   "ui_faw_unlock_drag_widgets": {
+      "message": "Unlock the grid and \u003Cb\u003Edrag\u003C/b\u003E your installed widgets to an empty slot."
+   },
+   "ui_import_export_btn": {
+      "message": "Import/Export"
+   },
+   "ui_import_export_btn_export": {
+      "message": "Export"
+   },
+   "ui_import_export_btn_import": {
+      "message": "Import"
+   },
+   "ui_import_export_btn_import_run": {
+      "message": "Apply"
+   },
+   "ui_import_export_btn_restore": {
+      "message": "Restore"
+   },
+   "ui_import_export_confirm_restore": {
+      "message": "Are you sure you want to restore? Your current settings would be lost."
+   },
+   "ui_import_export_confirm_restore_title": {
+      "message": "Confirm Restore"
+   },
+   "ui_import_export_desc": {
+      "message": "Take your settings to other browsers or restore a backup."
+   },
+   "ui_import_export_desc_export": {
+      "message": "Export: Generates a string that contains all of your preferences. This string can be saved for later as a backup or can be copied to other computers to automatically set them up like this one. Uploaded images are not exported; images on the web are."
+   },
+   "ui_import_export_desc_import": {
+      "message": "Import: Overwrites your current configuration with a valid exported string. \u003Cb\u003EWARNING\u003C/b\u003E: All of your current preferences will be irrevocably lost. There is no way to undo this operation. Uploaded images are not imported; images on the web are."
+   },
+   "ui_import_export_desc_restore": {
+      "message": "Restore: Allows you to undo the last Import. Your current state will be backed up for later restoration as well."
+   },
+   "ui_import_export_empty_string_msg": {
+      "message": "Enter import string first!"
+   },
+   "ui_import_export_header": {
+      "message": "Import/Export"
+   },
+   "ui_import_export_installed_warning": {
+      "message": "Installed apps, extensions, and widgets are not imported or exported. Extensions can't install other apps or extensions. Use \u003Ca href='http://support.google.com/chrome/bin/answer.py?answer=165139'\u003EChrome Sync\u003C/a\u003E instead."
+   },
+   "ui_import_export_invalid_string_msg": {
+      "message": "Invalid import string!"
+   },
+   "ui_import_export_msg_header": {
+      "message": "Import/Export"
+   },
+   "ui_import_export_no_restore_msg": {
+      "message": "Nothing to restore!"
+   },
+   "ui_online_backup_backup_already_exist": {
+      "message": "A backup with this name already exist. Please type a unique database name."
+   },
+   "ui_online_backup_backup_already_exist_title": {
+      "message": "Name already exist!"
+   },
+   "ui_online_backup_backup_imported": {
+      "message": "Backup has been imported successfully."
+   },
+   "ui_online_backup_backup_imported_title": {
+      "message": "Backup imported"
+   },
+   "ui_online_backup_btn_save_backup": {
+      "message": "Save Backup"
+   },
+   "ui_online_backup_confirm_delete_backup": {
+      "message": "Are you sure you want to remove the backup? Once removed, you won't be able to recover it."
+   },
+   "ui_online_backup_confirm_delete_backup_title": {
+      "message": "Are you sure?"
+   },
+   "ui_online_backup_confirm_load_backup": {
+      "message": "Do you want to import this backup? If you import the backup, your current settings would be lost."
+   },
+   "ui_online_backup_confirm_load_backup_title": {
+      "message": "Are you sure?"
+   },
+   "ui_online_backup_invalid_backup_name": {
+      "message": "Backup name should be atleast one character long."
+   },
+   "ui_online_backup_invalid_backup_name_title": {
+      "message": "Invalid backup name!"
+   },
+   "ui_online_backup_load_backup": {
+      "message": "Load Backup"
+   },
+   "ui_online_backup_name_placeholder": {
+      "message": "Enter backup name"
+   },
+   "ui_online_backup_sync_size_exceeded": {
+      "message": "Too large to be stored in online storage."
+   },
+   "ui_online_backup_sync_size_exceeded_title": {
+      "message": "Size exceeded!"
+   },
+   "ui_online_backup_sync_writes_exceeded": {
+      "message": "You've exceeded maximum write operations limit per minute. Please try again in a few seconds."
+   },
+   "ui_online_backup_sync_writes_exceeded_title": {
+      "message": "Too many operations!"
+   },
+   "ui_online_backups_desc": {
+      "message": "Online backups are stored using the Chrome Storage API and have a limited space of 100KB. You can access these backups over multiple computers which are logged in with same Google Chrome account. \u003Ca href='https://support.google.com/chrome/answer/185277?hl=en'\u003ELearn how to sign in to Chrome.\u003C/a\u003E"
+   },
+   "ui_online_backups_header": {
+      "message": "Online Backups"
+   },
+   "ui_online_backups_warning": {
+      "message": "\u003Cb\u003EImportant: \u003C/b\u003E You need to be signed in to Google Chrome using the same account to synchronize backups online. If you are not signed in, these backups will be stored offline, only on this computer. Images uploaded directly to the extension are \u003Ci\u003Enot\u003C/i\u003E backed up."
+   },
+   "ui_resize_center": {
+      "message": "Center"
+   },
+   "ui_resize_contain": {
+      "message": "Contain"
+   },
+   "ui_resize_cover": {
+      "message": "Cover"
+   },
+   "ui_resize_reset": {
+      "message": "Reset"
+   },
+   "ui_resize_zoom": {
+      "message": "Zoom"
+   },
+   "ui_screenshot_confirm": {
+      "message": "In order to capture the screenshot, the website will be opened in a new tab. After the page has finished loading, the tab will automatically close and you'll be returned to Awesome New Tab Page. Please don't close or navigate away. This shouldn't take but a few seconds."
+   },
+   "ui_screenshot_confirm_title": {
+      "message": "Taking Screenshot"
+   },
+   "ui_screenshot_permission_denied": {
+      "message": "You declined to grant Awesome New Tab Page the permission necessary to allow it to capture screenshots. If you wish to take a screenshot, please try again and grant Awesome New Tab Page the necessary permission."
+   },
+   "ui_screenshot_permission_denied_title": {
+      "message": "Permission Denied"
+   },
+   "ui_te": {
+      "message": "Tile Editor"
+   },
+   "ui_te_app_tip": {
+      "message": "Not all options are available for apps. If you'd like to get more options, create a custom shortcut instead. Simply click on an empty tile with the grid unlocked."
+   },
+   "ui_te_bg_colorpicker": {
+      "message": "Open Color Picker"
+   },
+   "ui_te_bg_note": {
+      "message": "Note: This option has no effect on the Icon & Background settings."
+   },
+   "ui_te_bg_tip": {
+      "message": "Tip: If you check this box, you may also want to hide the name and favicon."
+   },
+   "ui_te_bg_transparent": {
+      "message": "Completely transparent background"
+   },
+   "ui_te_general": {
+      "message": "General"
+   },
+   "ui_te_ib": {
+      "message": "Icon & Background"
+   },
+   "ui_te_ib_advanced": {
+      "message": "Advanced: Hide the name and favicon and use an image that's 200px by 200px to completely customize a 1x1 tile."
+   },
+   "ui_te_ib_browse": {
+      "message": "Browse"
+   },
+   "ui_te_ib_desc": {
+      "message": "Enter a web URL to an image, use the browse button, or drag & drop an image above to change the icon."
+   },
+   "ui_te_ib_screenshot": {
+      "message": "Use Screenshot"
+   },
+   "ui_te_ib_tip": {
+      "message": "Tip: Leave blank for no icon."
+   },
+   "ui_te_name": {
+      "message": "Name"
+   },
+   "ui_te_name_desc": {
+      "message": "What do you want to call it?"
+   },
+   "ui_te_newtab": {
+      "message": "Open in New Tab on left click"
+   },
+   "ui_te_pin": {
+      "message": "Pin on left click"
+   },
+   "ui_te_search": {
+      "message": "Search"
+   },
+   "ui_te_search_desc": {
+      "message": "Enter a search URL for this website. For example:"
+   },
+   "ui_te_shfavicon": {
+      "message": "Show / Hide Favicon"
+   },
+   "ui_te_shname": {
+      "message": "Show / Hide Name"
+   },
+   "ui_te_url_desc": {
+      "message": "Enter the URL you'd like to link to, such as http://www.google.com/"
+   },
+   "ui_te_url_tip": {
+      "message": "Tip: A valid URL contains a protocol - such as \"http://\" - before the domain. Without a valid protocol, your shortcut will not work."
+   },
+   "ui_tutorial2_app_drawer": {
+      "message": "Here you'll find all of the apps that you've installed from the Chrome Web Store. You can \u003Cb\u003Edrag\u003C/b\u003E apps out of this window onto your \u003Cb\u003Eunlocked\u003C/b\u003E grid. You can also uninstall apps from this window."
+   },
+   "ui_tutorial2_app_window_title": {
+      "message": "Apps Window"
+   },
+   "ui_tutorial2_completed_string": {
+      "message": "Like, really awesome. Now you know how to use Awesome New Tab Page to get the most out of your Chrome experience. So what are you going to do next?"
+   },
+   "ui_tutorial2_completed_title": {
+      "message": "You're awesome!"
+   },
+   "ui_tutorial2_delete_widget": {
+      "message": "Delete this widget"
+   },
+   "ui_tutorial2_delete_widget_string": {
+      "message": "The grid is yours to customize as you see fit. You can remove tiles you don't want. Go ahead and \u003Cb\u003Edelete the tutorial widget\u003C/b\u003E."
+   },
+   "ui_tutorial2_empty_grid_string": {
+      "message": "Why be limited to apps found on the Chrome Web Store? \u003Cb\u003EClick on this empty grid tile\u003C/b\u003E to create a custom shortcut to anywhere on the web."
+   },
+   "ui_tutorial2_empty_grid_title": {
+      "message": "Empty Grid Tile"
+   },
+   "ui_tutorial2_finish_string": {
+      "message": "Finish Tutorial"
+   },
+   "ui_tutorial2_lock_grid": {
+      "message": "Locking and unlocking the grid allows you to place, move, and remove widgets, apps, and custom shortcuts. \u003Cb\u003EClick the padlock to continue\u003C/b\u003E."
+   },
+   "ui_tutorial2_lock_title": {
+      "message": "Lock/Unlock Grid"
+   },
+   "ui_tutorial2_main_click": {
+      "message": "Click that tiny little button down there to get going."
+   },
+   "ui_tutorial2_main_feels": {
+      "message": "You just upgraded to awesome. How does it feel?"
+   },
+   "ui_tutorial2_main_getstarted": {
+      "message": "Maybe a little too much awesome all at once? Don't worry, the tutorial widget will help you get started."
+   },
+   "ui_tutorial2_main_start": {
+      "message": "Start Tutorial"
+   },
+   "ui_tutorial2_main_welcome": {
+      "message": "Welcome to"
+   },
+   "ui_tutorial2_next": {
+      "message": "Next"
+   },
+   "ui_tutorial2_widget_drawer": {
+      "message": "Here you'll find installed widgets made by third-party developers specifically designed for Awesome New Tab Page. Widgets bring dynamic and useful information right to your new tab page."
+   },
+   "ui_tutorial2_widgets_window_title": {
+      "message": "Widgets Window"
+   },
+   "ui_uninstall": {
+      "message": "Uninstall"
+   },
+   "ui_uninstall_title": {
+      "message": "Uninstall App"
+   }
+}

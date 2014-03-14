@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" ng-app="newTab">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>New Tab Redirect</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+</head>
+<body>
+
+<div ng-cloak>
+    <div class="main-container" ng-controller="MainController">
+
+        <span id="app-prefs"><a href="#" class="plain" ng-click="show_prefs=true"><i class="fa fa-gears"></i></a></span>
+
+        <div class="dialog" ng-show="show_prefs">
+            <div class="content">
+                <h2>Display Preferences</h2>
+                <div class="setting">
+                    <h3><i class="fa fa-bookmark-o"></i> Bookmarks Bar</h3>
+                    <label>
+                        <input type="checkbox" ng-model="enable_bookmarks"> Enable
+                    </label>
+                    <div>
+                        Show <input type="number" min="5" max="40" ng-model="bookmark_count" title="Too many bookmarks will cause the box to become very large"> bookmarks
+                    </div>
+                </div>
+                <div class="setting">
+                    <h3><i class="fa fa-star-o"></i> Top Sites Panel</h3>
+                    <label>
+                        <input type="checkbox" ng-model="enable_top"> Enable
+                    </label>
+                    <div>
+                        Show <input type="number" min="5" max="20" ng-model="top_count" title="Too many top sites will cause the box to become very large"> top sites
+                    </div>
+                </div>
+
+                <button ng-click="save_preferences()" class="pull-right">Close</button>
+            </div>
+        </div>
+
+        <div class="app-header">
+            <span class="app-logo"><a href="options.html" target="_self"><i class="fa">&nbsp;</i> {{extension_name}}</a></span>
+            <span class="webstore"><a href="https://chrome.google.com/webstore" target="_self" class="plain"><i class="fa" style="background:url('chrome://favicon/https://chrome.google.com/webstore/category/apps') no-repeat;"></i> Chrome Web Store</a></span>
+        </div>
+
+        <div class="container bookmarks-container" ng-show="enable_bookmarks && bookmarks.length > 0" ng-class="{'populated':bookmarks.length > 0}">
+            <a class="bookmark" ng-if="enable_bookmarks" ng-repeat="b in bookmarks" href="{{b.url}}" title="{{b.title}}" target="_self">
+                <i class="fa" style="background:url('chrome://favicon/{{b.url}}') no-repeat"></i>
+                <span>{{b.title}}</span>
+            </a>
+        </div>
+
+        <div class="container app-container clear" ng-class="{'after-bookmarks': enable_bookmarks && bookmarks.length > 0,'populated':apps.length > 0}">
+            <div><input type="search" ng-model="q.name" ng-show="apps.length > 5" placeholder="Filter apps"></div>
+            <chrome-app ng-repeat="app in (apps | filter:q)" app="app"></chrome-app>
+            <div ng-show="(apps | filter:q).length == 0" style="margin:1.5em">No matches found.</div>
+            <span class="clear"></span>
+        </div>
+
+        <div id="top-sites" ng-if="enable_top && top.length > 0">
+            <div class="top-sites-wrapper">
+                <span class="top-sites-header">Top Sites</span>
+                <div class="inner">
+                    <a ng-repeat="site in top" href="{{site.url}}" title="{{site.title}}"
+                       target="_self" class="bookmark">
+                        <i class="fa" style="background:url('chrome://favicon/{{site.url}}') no-repeat"></i>
+                        <span>{{site.title}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/vendor/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>
+
+<script type="text/javascript" src="js/controllers.js"></script>
+<script type="text/javascript" src="js/directives.js"></script>
+<script type="text/javascript" src="js/filters.js"></script>
+<script type="text/javascript" src="js/services.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/redirect.js"></script>
+</body>
+</html>

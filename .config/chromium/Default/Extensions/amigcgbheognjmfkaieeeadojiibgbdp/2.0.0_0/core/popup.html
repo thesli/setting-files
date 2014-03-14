@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>TooManyTabs for Chrome</title>
+        <link rel="stylesheet" type="text/css" href="popup.css" />
+        <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+        <!--script type="text/javascript" src="locales.js"></script-->
+        <script type="text/javascript" src="popup.js"></script>
+    </head>
+
+    <body style="width:783px; height:599px;">
+        
+        <div id="basebox">
+            <div id="toolbararea">
+                <form>
+                    <input id="searchbox" title=""/>
+                </form>
+                
+                <div class="toolbarlabel" id="findlabel"></div>
+                
+                <div class="sortbutton button" id="sortbynamebutton" title=""></div>
+                
+                <div class="sortbutton button" id="sortbyaddressbutton" title=""></div>
+                
+                <div class="sortbutton button" id="sortbytimebutton" title=""></div>
+                
+                <div class="toolbarlabel" id="optionlabel" title=""></div>
+                
+                <div class="toolbarlabel" id="importlabel" title=""></div>
+            </div>
+
+            <div id="logoarea"></div> 
+            
+            <div to="5" class="colorbutton button" style="bottom:16px; left:114px; background:-webkit-gradient(linear, left top, right bottom, from(#ff0), color-stop(0.5, #0f0), to(#00f));"></div>
+            <div to="4" class="colorbutton button" style="bottom:16px; left:96px;  background:#444455;"></div>
+            <div to="3" class="colorbutton button" style="bottom:16px; left:78px;  background:#E6E6E6;"></div>
+            <div to="2" class="colorbutton button" style="bottom:16px; left:60px;  background:#f8ae32;"></div>
+            <div to="1" class="colorbutton button" style="bottom:16px; left:42px;  background:#AAAAAA;"></div>
+            <div to="0" class="colorbutton button" style="bottom:16px; left:24px;  background:#00abeb;"></div>
+
+            <div id="tabarea">
+                <div id="innertabarea" style="left:0px; width:1000px">
+                    <div id="numsearchresults" style="top:600px;"></div>
+                    <div id="searchseparator" style="left:-10px;"></div>
+                </div>
+                <div id="leftarrow" class="button"></div>
+                <div id="rightarrow" class="button"></div>
+            </div>
+
+            <div id="tmtarea">
+                <!-- row label -->
+                <div id="tmtleftarrow" class="button" title=""></div>
+                <div id="tmtrowlabel"></div>
+                <input id="tmtrowlabelinput" maxlength="15" style="display: none;">
+                <div id="tmtrightarrow" class="button" title="Next column"></div>
+
+                <!-- row tip and controls-->
+                <div id="tmtColControlsWrapper">
+                    <div id="tmtrowbuttons">
+                        <img id="tmtaddcol" src="/img/tmtbutton_add.png"/>
+                        <img id="tmtdelcol" src="/img/tmtbutton_del.png"/>
+                        <img id="tmtclearcol" src="/img/tmtbutton_bin.png"/>
+                        <img id="tmtsortaz" src="/img/tmtbutton_az.png"/>
+                        <img id="tmtsortcom" src="/img/tmtbutton_com.png"/>
+                        <div class="tmtrowcontrol" id="tmtconfirm">
+                            <div class="confirmQuestion">
+                                <span id="confirmQuestionText"></span><br/>
+                                <input id="confirmButton" type="button" class="tmtrowcontrolbutton">
+                                <input id="cancelButton" type="button" class="tmtrowcontrolbutton">
+                            </div>
+                        </div>                        
+                    </div>
+                    <div id="tmtcolfilterWrap">
+                        <form>
+                            <input id="tmtfilter" type="text" size="20">
+                        </form>
+                    </div>
+                    <div id="tmtrowcontent"></div>
+                </div>
+
+                <!-- tabs -->
+                <div id="uparrow" class="button"></div>
+                <div id="tmtlistbox">
+                    <div id="innertmtarea" style="top:0px;"></div>
+                </div>
+                <div id="downarrow" class="button"></div>
+                <!-- context menu -->
+                <div id="tmtcontextmenu" style="top:600px;">
+                    <div class="tmtcontextmenutext" id="contextmenuremove"></div>
+                    <div class="tmtcontextmenutext" id="contextmenucancel"></div>
+                </div>
+            </div>
+            <div id="tmtStatus"></div>
+        </div>
+    </body>
+</html>
+

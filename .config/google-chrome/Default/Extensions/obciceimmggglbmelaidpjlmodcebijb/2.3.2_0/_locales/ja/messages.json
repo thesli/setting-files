@@ -1,0 +1,856 @@
+{
+   "1": {
+      "description": "the number",
+      "message": "1"
+   },
+   "10": {
+      "description": "the number",
+      "message": "10"
+   },
+   "11": {
+      "description": "the number",
+      "message": "11"
+   },
+   "12": {
+      "description": "the number",
+      "message": "12"
+   },
+   "12_hours_option": {
+      "description": "12 hour time format, example: 3:00 PM",
+      "message": "12\u6642\u9593\u8868\u793A"
+   },
+   "13": {
+      "description": "the number",
+      "message": "13"
+   },
+   "14": {
+      "description": "the number",
+      "message": "14"
+   },
+   "15": {
+      "description": "the number",
+      "message": "15"
+   },
+   "15_minutes_option": {
+      "description": "Time amount",
+      "message": "15\u5206"
+   },
+   "16": {
+      "description": "the number",
+      "message": "16"
+   },
+   "17": {
+      "description": "the number",
+      "message": "17"
+   },
+   "18": {
+      "description": "the number",
+      "message": "18"
+   },
+   "19": {
+      "description": "the number",
+      "message": "19"
+   },
+   "2": {
+      "description": "the number",
+      "message": "2"
+   },
+   "20": {
+      "description": "the number",
+      "message": "20"
+   },
+   "21": {
+      "description": "the number",
+      "message": "21"
+   },
+   "22": {
+      "description": "the number",
+      "message": "22"
+   },
+   "23": {
+      "description": "the number",
+      "message": "23"
+   },
+   "24": {
+      "description": "the number",
+      "message": "24"
+   },
+   "24_hours_option": {
+      "description": "24 hour time format, example: 14:00",
+      "message": "24\u6642\u9593\u8868\u793A"
+   },
+   "25": {
+      "description": "the number",
+      "message": "25"
+   },
+   "26": {
+      "description": "the number",
+      "message": "26"
+   },
+   "27": {
+      "description": "the number",
+      "message": "27"
+   },
+   "28": {
+      "description": "the number",
+      "message": "28"
+   },
+   "29": {
+      "description": "the number",
+      "message": "29"
+   },
+   "3": {
+      "description": "the number",
+      "message": "3"
+   },
+   "30": {
+      "description": "the number",
+      "message": "30"
+   },
+   "30_minutes_option": {
+      "description": "Time amount",
+      "message": "30\u5206"
+   },
+   "31": {
+      "description": "the number",
+      "message": "31"
+   },
+   "4": {
+      "description": "the number",
+      "message": "4"
+   },
+   "5": {
+      "description": "the number",
+      "message": "5"
+   },
+   "6": {
+      "description": "the number",
+      "message": "6"
+   },
+   "60_minutes_option": {
+      "description": "Time amount",
+      "message": "1\u6642\u9593"
+   },
+   "7": {
+      "description": "the number",
+      "message": "7"
+   },
+   "8": {
+      "description": "the number",
+      "message": "8"
+   },
+   "9": {
+      "description": "the number",
+      "message": "9"
+   },
+   "Whats_new_section_title": {
+      "description": "Section heading in Settings",
+      "message": "What's new"
+   },
+   "afternoon": {
+      "description": "The afternoon abbreviation when using 12 hour time",
+      "message": "\u663C\u9803"
+   },
+   "and": {
+      "description": "The word and",
+      "message": "and"
+   },
+   "april": {
+      "description": "The month",
+      "message": "4"
+   },
+   "arabic": {
+      "description": "The language",
+      "message": "Arabic"
+   },
+   "august": {
+      "description": "The month",
+      "message": "8"
+   },
+   "back_arrow": {
+      "description": "ascii arrow",
+      "message": "&larr;"
+   },
+   "back_to_week_link": {
+      "description": "back to week link",
+      "message": "$arrow$ \u9031\u306B\u623B\u308B",
+      "placeholders": {
+         "arrow": {
+            "content": "$1",
+            "example": "an arrow"
+         }
+      }
+   },
+   "catalonian": {
+      "description": "The language",
+      "message": "Catalonian"
+   },
+   "chinese_simplified": {
+      "description": "The language",
+      "message": "Chinese (Simplified)"
+   },
+   "chrome_language": {
+      "description": "language identifier used by Chrome",
+      "message": "ja"
+   },
+   "clear_history_button": {
+      "description": "Button text for clear history button in Settings",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u306E\u30AF\u30EA\u30A2"
+   },
+   "clearing_history_section_title": {
+      "description": "Section heading in Settings",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u306E\u30AF\u30EA\u30A2"
+   },
+   "close_button": {
+      "description": "Button to close modal",
+      "message": "Ok!"
+   },
+   "collapse_button": {
+      "description": "Text for collapse button",
+      "message": "\u6298\u308A\u7573\u3080"
+   },
+   "confirm_delete_all_search_results": {
+      "description": "Confirmation text to delete all search results",
+      "message": "\u691C\u7D22\u7D50\u679C\u3092\u3059\u3079\u3066\u524A\u9664\u3057\u3066\u3082\u3088\u3044\u3067\u3059\u304B\uFF1F"
+   },
+   "confirm_delete_all_visits": {
+      "description": "Confirmation text to delete all visits from a specific date",
+      "message": "$formal_date$\u4EE5\u964D\u306E\u95B2\u89A7\u5C65\u6B74\u3092\u3059\u3079\u3066\u6D88\u53BB\u3057\u3066\u3082\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F",
+      "placeholders": {
+         "formal_date": {
+            "content": "$1",
+            "example": "January 2, 2011"
+         }
+      }
+   },
+   "credits_link": {
+      "description": "The link to credits",
+      "message": "$open$Better History$close$ credits",
+      "placeholders": {
+         "close": {
+            "content": "$2",
+            "example": "strong close"
+         },
+         "open": {
+            "content": "$1",
+            "example": "strong open"
+         }
+      }
+   },
+   "credits_title": {
+      "description": "Title for credits modal",
+      "message": "Better History Credits"
+   },
+   "current_version_label": {
+      "description": "label for the current version",
+      "message": "Current version"
+   },
+   "czech": {
+      "description": "The language",
+      "message": "Czech"
+   },
+   "date_week_label": {
+      "description": "short week w/ label",
+      "message": "$week$ \u65E5\u3092\u542B\u3080\u9031",
+      "placeholders": {
+         "week": {
+            "content": "$1",
+            "example": "date"
+         }
+      }
+   },
+   "december": {
+      "description": "The month",
+      "message": "12"
+   },
+   "default_time_format": {
+      "description": "12 or 24 hour based",
+      "message": "12"
+   },
+   "delete_all_visits_for_filter_button": {
+      "description": "Text for delete all visits for a day filter button",
+      "message": "\u524A\u9664..."
+   },
+   "delete_all_visits_for_search_button": {
+      "description": "Text for delete all visits from search button",
+      "message": "\u524A\u9664..."
+   },
+   "delete_grouped_visits": {
+      "description": "Tooltip for the delete button on grouped visits",
+      "message": "\u3053\u306E\u30B0\u30EB\u30FC\u30D7\u3092\u524A\u9664\u3059\u308B"
+   },
+   "delete_time_interval_button": {
+      "description": "delete button label",
+      "message": "\u524A\u9664"
+   },
+   "delete_time_interval_button_tooltip": {
+      "description": "delete button tooltip",
+      "message": "\u524A\u9664"
+   },
+   "delete_visit": {
+      "description": "Tooltip for the delete button on a page visit",
+      "message": "\u3053\u306E\u5C65\u6B74\u3092\u524A\u9664\u3059\u308B"
+   },
+   "developed_by": {
+      "description": "Developer label",
+      "message": "Created and developed by $link_open$$name$$link_close$",
+      "placeholders": {
+         "link_close": {
+            "content": "$2",
+            "example": "Closing link"
+         },
+         "link_open": {
+            "content": "$1",
+            "example": "Opening link"
+         },
+         "name": {
+            "content": "$3",
+            "example": "Developer name"
+         }
+      }
+   },
+   "dutch": {
+      "description": "The language",
+      "message": "Dutch"
+   },
+   "evening": {
+      "description": "The evening abbreviation when using 12 hour time",
+      "message": "\u5915\u65B9"
+   },
+   "expand_button": {
+      "description": "Text for expand button",
+      "message": "\u5C55\u958B\u3059\u308B"
+   },
+   "extended_formal_date": {
+      "description": "The order of a full extended date",
+      "message": "dddd YYYY MMMM Do"
+   },
+   "february": {
+      "description": "The month",
+      "message": "2"
+   },
+   "feedback_section_title": {
+      "description": "Section heading in Settings",
+      "message": "\u30D5\u30A9\u30FC\u30C9\u30D0\u30C3\u30AF"
+   },
+   "formal_date": {
+      "description": "The order of a full date",
+      "message": "YYYY\u5E74 MMMM\u6708 Do"
+   },
+   "french": {
+      "description": "The language",
+      "message": "French"
+   },
+   "friday": {
+      "description": "The day of the week",
+      "message": "\u91D1"
+   },
+   "german": {
+      "description": "The language",
+      "message": "German"
+   },
+   "google_plus_language": {
+      "description": "Google plus language abbreviation",
+      "message": "ja"
+   },
+   "group_visits_by_domain_label": {
+      "description": "Label for check box to group visits by domain",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u3092\u30C9\u30E1\u30A4\u30F3\u3054\u3068\u306B\u307E\u3068\u3081\u308B"
+   },
+   "group_visits_by_label": {
+      "description": "Label for select box to set the time grouping interval for visits",
+      "message": "\u30B0\u30EB\u30FC\u30D7\u5316\u306E\u5358\u4F4D"
+   },
+   "hindi": {
+      "description": "The language",
+      "message": "Hindi"
+   },
+   "history_title": {
+      "description": "Extension title",
+      "message": "History"
+   },
+   "hungarian": {
+      "description": "The language",
+      "message": "Hungarian"
+   },
+   "italian": {
+      "description": "The language",
+      "message": "Italian"
+   },
+   "january": {
+      "description": "The month",
+      "message": "1"
+   },
+   "japanese": {
+      "description": "The language",
+      "message": "Japanese"
+   },
+   "july": {
+      "description": "The month",
+      "message": "7"
+   },
+   "june": {
+      "description": "The month",
+      "message": "6"
+   },
+   "last_week": {
+      "description": "last week",
+      "message": "\u5148\u9031"
+   },
+   "latvian": {
+      "description": "The language",
+      "message": "Latvian"
+   },
+   "leave_a_review": {
+      "description": "Link text to leave a review",
+      "message": "\u30EC\u30D3\u30E5\u30FC\u3092\u66F8\u304F"
+   },
+   "local_time": {
+      "description": "local time format",
+      "message": "Ah\u6642m\u5206"
+   },
+   "manifest_browser_action_title": {
+      "description": "Manifest browser action title",
+      "message": "Browse history"
+   },
+   "manifest_description": {
+      "description": "Manifest description",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u3092\u3082\u3063\u3068\u898B\u3084\u3059\u304F\u3057\u307E\u3059\u3002\u3000\u691C\u7D22\u6A5F\u80FD\u30FB\u512A\u308C\u305F\u30A4\u30F3\u30BF\u30FC\u30D5\u30A7\u30A4\u30B9\u30FB\u4F7F\u3044\u3084\u3059\u3044\u30D5\u30A3\u30EB\u30BF\u30FC\u6A5F\u80FD\u3092\u95B2\u89A7\u5C65\u6B74\u306B\u3002"
+   },
+   "manifest_name": {
+      "description": "Manifest name",
+      "message": "Better History"
+   },
+   "march": {
+      "description": "The month",
+      "message": "3"
+   },
+   "max_number_of_search_results": {
+      "description": "number of search results found",
+      "message": "$number$ \u4EF6\u4EE5\u4E0A\u306E\u7D50\u679C",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "may": {
+      "description": "The month",
+      "message": "5"
+   },
+   "monday": {
+      "description": "The day of the week",
+      "message": "\u6708"
+   },
+   "morning": {
+      "description": "The morning abbreviation when using 12 hour time",
+      "message": "\u65E9\u671D"
+   },
+   "no_visits_found": {
+      "description": "Text for no visits found message",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u304C\u307F\u3064\u304B\u308A\u307E\u305B\u3093\u3002"
+   },
+   "november": {
+      "description": "The month",
+      "message": "11"
+   },
+   "number_of_search_results": {
+      "description": "number of search results found",
+      "message": "$number$ \u4EF6\u306E\u691C\u7D22\u7D50\u679C",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "number_of_visits": {
+      "description": "Label to a number representing a number of visits",
+      "message": "$number_open$$number$$number_close$ visits",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "the number of visits"
+         },
+         "number_close": {
+            "content": "$3",
+            "example": "number tag close"
+         },
+         "number_open": {
+            "content": "$2",
+            "example": "number tag open"
+         }
+      }
+   },
+   "october": {
+      "description": "The month",
+      "message": "10"
+   },
+   "ordinal_1": {
+      "description": "the ordinal for 1",
+      "message": "\u65E5"
+   },
+   "ordinal_10": {
+      "description": "the ordinal for 10",
+      "message": "\u65E5"
+   },
+   "ordinal_11": {
+      "description": "the ordinal for 11",
+      "message": "\u65E5"
+   },
+   "ordinal_12": {
+      "description": "the ordinal for 12",
+      "message": "\u65E5"
+   },
+   "ordinal_13": {
+      "description": "the ordinal for 13",
+      "message": "\u65E5"
+   },
+   "ordinal_14": {
+      "description": "the ordinal for 14",
+      "message": "\u65E5"
+   },
+   "ordinal_15": {
+      "description": "the ordinal for 15",
+      "message": "\u65E5"
+   },
+   "ordinal_16": {
+      "description": "the ordinal for 16",
+      "message": "\u65E5"
+   },
+   "ordinal_17": {
+      "description": "the ordinal for 17",
+      "message": "\u65E5"
+   },
+   "ordinal_18": {
+      "description": "the ordinal for 18",
+      "message": "\u65E5"
+   },
+   "ordinal_19": {
+      "description": "the ordinal for 19",
+      "message": "\u65E5"
+   },
+   "ordinal_2": {
+      "description": "the ordinal for 2",
+      "message": "\u65E5"
+   },
+   "ordinal_20": {
+      "description": "the ordinal for 20",
+      "message": "\u65E5"
+   },
+   "ordinal_21": {
+      "description": "the ordinal for 21",
+      "message": "\u65E5"
+   },
+   "ordinal_22": {
+      "description": "the ordinal for 22",
+      "message": "\u65E5"
+   },
+   "ordinal_23": {
+      "description": "the ordinal for 23",
+      "message": "\u65E5"
+   },
+   "ordinal_24": {
+      "description": "the ordinal for 24",
+      "message": "\u65E5"
+   },
+   "ordinal_25": {
+      "description": "the ordinal for 25",
+      "message": "\u65E5"
+   },
+   "ordinal_26": {
+      "description": "the ordinal for 26",
+      "message": "\u65E5"
+   },
+   "ordinal_27": {
+      "description": "the ordinal for 27",
+      "message": "\u65E5"
+   },
+   "ordinal_28": {
+      "description": "the ordinal for 28",
+      "message": "\u65E5"
+   },
+   "ordinal_29": {
+      "description": "the ordinal for 29",
+      "message": "\u65E5"
+   },
+   "ordinal_3": {
+      "description": "the ordinal for 3",
+      "message": "\u65E5"
+   },
+   "ordinal_30": {
+      "description": "the ordinal for 30",
+      "message": "\u65E5"
+   },
+   "ordinal_31": {
+      "description": "the ordinal for 31",
+      "message": "\u65E5"
+   },
+   "ordinal_4": {
+      "description": "the ordinal for 4",
+      "message": "\u65E5"
+   },
+   "ordinal_5": {
+      "description": "the ordinal for 5",
+      "message": "\u65E5"
+   },
+   "ordinal_6": {
+      "description": "the ordinal for 6",
+      "message": "\u65E5"
+   },
+   "ordinal_7": {
+      "description": "the ordinal for 7",
+      "message": "\u65E5"
+   },
+   "ordinal_8": {
+      "description": "the ordinal for 8",
+      "message": "\u65E5"
+   },
+   "ordinal_9": {
+      "description": "the ordinal for 9",
+      "message": "\u65E5"
+   },
+   "polish": {
+      "description": "The language",
+      "message": "Polish"
+   },
+   "portuguese": {
+      "description": "The language",
+      "message": "Portuguese"
+   },
+   "prompt_cancel_button": {
+      "description": "Button to close modal",
+      "message": "\u30AD\u30E3\u30F3\u30BB\u30EB"
+   },
+   "prompt_delete_button": {
+      "description": "Button to delete history",
+      "message": "\u524A\u9664"
+   },
+   "prompt_title": {
+      "description": "Title of prompt",
+      "message": "\u78BA\u8A8D"
+   },
+   "right_click_options_section_title": {
+      "description": "Section heading in Settings",
+      "message": "\u53F3\u30AF\u30EA\u30C3\u30AF\u306E\u30AA\u30D7\u30B7\u30E7\u30F3"
+   },
+   "romanian": {
+      "description": "The language",
+      "message": "Romanian"
+   },
+   "russian": {
+      "description": "The language",
+      "message": "Russian"
+   },
+   "saturday": {
+      "description": "The day of the week",
+      "message": "\u571F"
+   },
+   "search_by_domain": {
+      "description": "search by domain of visit",
+      "message": "\u8A73\u3057\u304F\u306F\u30B5\u30A4\u30C8\u3078"
+   },
+   "search_by_domain_label": {
+      "description": "Label for check box to enable right click option",
+      "message": "Search by domain"
+   },
+   "search_by_text_selection_label": {
+      "description": "Label for check box to enable right click option",
+      "message": "\u9078\u629E\u7BC4\u56F2\u304B\u3089\u306E\u691C\u7D22\u3092\u53EF\u80FD\u306B\u3059\u308B"
+   },
+   "search_in_history": {
+      "description": "Label for search in history context menu item",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u304B\u3089\u691C\u7D22"
+   },
+   "search_input_placeholder_text": {
+      "description": "Placeholder text in the search input box",
+      "message": "\u30BF\u30A4\u30C8\u30EB\u30FBURL\u30FB\u65E5\u4ED8\u306A\u3069"
+   },
+   "search_time_frame": {
+      "description": "Time frame relating to Search",
+      "message": "\u3053\u306E\u6570\u30F6\u6708"
+   },
+   "search_title": {
+      "description": "title for the search page",
+      "message": "\u691C\u7D22"
+   },
+   "searching_title": {
+      "description": "Searching title",
+      "message": "\u691C\u7D22"
+   },
+   "september": {
+      "description": "The month",
+      "message": "9"
+   },
+   "settings_link": {
+      "description": "Text for the link to Settings",
+      "message": "\u8A2D\u5B9A"
+   },
+   "settings_title": {
+      "description": "Settings title for Settings page",
+      "message": "\u8A2D\u5B9A"
+   },
+   "short_date": {
+      "description": "for Moment.js",
+      "message": "MMMM Do"
+   },
+   "short_date_with_day": {
+      "description": "for Moment.js",
+      "message": "dddd, MMMM Do"
+   },
+   "slovak": {
+      "description": "The language",
+      "message": "Slovak"
+   },
+   "spanish": {
+      "description": "The language",
+      "message": "Spanish"
+   },
+   "spread_the_word_section_title": {
+      "description": "Section heading in Settings",
+      "message": "\u4E16\u754C\u306B\u5E83\u3052\u3088\u3046\uFF01"
+   },
+   "suggestions_bugs_comments": {
+      "description": "Link text to give feedback",
+      "message": "\u63D0\u6848\u306E\u3042\u308B\u4EBA\u30FB\u30D0\u30B0\u3092\u898B\u3064\u3051\u305F\u4EBA\u30FB\u30B3\u30E1\u30F3\u30C8\u3092\u9001\u308A\u305F\u3044\u4EBA\u306F $link_open$@Better_History$link_close$ \u306B\u30EA\u30D7\u30E9\u30A4\u3092\u98DB\u3070\u3057\u3066\u304F\u3060\u3055\u3044\uFF01",
+      "placeholders": {
+         "link_close": {
+            "content": "$2"
+         },
+         "link_open": {
+            "content": "$1"
+         }
+      }
+   },
+   "sunday": {
+      "description": "The day of the week",
+      "message": "\u65E5"
+   },
+   "swedish": {
+      "description": "The language",
+      "message": "Swedish"
+   },
+   "this_week": {
+      "description": "this week",
+      "message": "\u4ECA\u9031"
+   },
+   "thursday": {
+      "description": "The day of the week",
+      "message": "\u6728"
+   },
+   "time_format_label": {
+      "description": "Label for select box to set the time format (12 or 24 hours)",
+      "message": "\u6642\u523B\u306E\u8868\u793A\u5F62\u5F0F"
+   },
+   "today_link": {
+      "description": "Link for today",
+      "message": "\u4ECA\u65E5"
+   },
+   "translation_help_heading": {
+      "description": "Heading to recruit translators",
+      "message": "\u3042\u306A\u305F\u306E\u6BCD\u8A9E\u304C\u9078\u629E\u80A2\u306B\u306A\u3044\u5834\u5408\u2026\u2026"
+   },
+   "translation_instructions": {
+      "description": "Instructions on how to help translate",
+      "message": "\u82F1\u8A9E\u304C\u4F7F\u3048\u3066\u3001Better History \u306E\u7FFB\u8A33\u3092\u3057\u305F\u3044\u8CB4\u65B9\u3001\u5927\u6B53\u8FCE\u3067\u3059\uFF01\u3000$link_open$ $email$ $link_close$ \u307E\u3067\u3054\u9023\u7D61\u3092\uFF01",
+      "placeholders": {
+         "email": {
+            "content": "$1",
+            "example": "Contact email address"
+         },
+         "link_close": {
+            "content": "$3",
+            "example": "close tag for email link"
+         },
+         "link_open": {
+            "content": "$2",
+            "example": "open tag for email link"
+         }
+      }
+   },
+   "translators_heading": {
+      "description": "Heading for translators",
+      "message": "Translators"
+   },
+   "tuesday": {
+      "description": "The day of the week",
+      "message": "\u706B"
+   },
+   "turkish": {
+      "description": "The language",
+      "message": "Turkish"
+   },
+   "twitter_language": {
+      "description": "Twitter language abbreviation",
+      "message": "ja"
+   },
+   "twitter_template": {
+      "description": "Default message for Twitter sharing",
+      "message": "Chrome \u7528 Better History \u3067\u3001\u95B2\u89A7\u5C65\u6B74\u304C\u7D20\u6575\u306B\uFF01"
+   },
+   "version_description": {
+      "description": "Version description",
+      "message": ""
+   },
+   "version_important_note": {
+      "description": "Heading for an important note",
+      "message": "Important note"
+   },
+   "version_items": {
+      "description": "Release bulletpoints",
+      "message": "$open$\u76F4\u8FD1\u5341\u9031\u9593\u306E\u5C65\u6B74\u3092\u7C21\u5358\u306B\u898B\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059$close$ $open$\u9031\u533A\u5207\u308A\u3067\u306E\u5C65\u6B74\u306E\u6574\u7406$close$ $open$\u9031\u3054\u3068\u306E\u30D6\u30E9\u30A6\u30B8\u30F3\u30B0\u30B5\u30DE\u30EA\u30FC$close$ $open$\u8D77\u52D5\u306E\u9AD8\u901F\u5316$close$ $open$\u691C\u7D22\u30FB\u30B0\u30EB\u30FC\u30D7\u5316\u306E\u6700\u9069\u5316$close$$open$\u30EF\u30F3\u30AF\u30EA\u30C3\u30AF\u3067\u904E\u53BB\u306B\u8A2A\u554F\u3057\u305F\u30C9\u30E1\u30A4\u30F3\u304B\u3089\u306E\u691C\u7D22\u304C\u53EF\u80FD$close$",
+      "placeholders": {
+         "close": {
+            "content": "$2",
+            "example": "\u003C/li\u003E"
+         },
+         "open": {
+            "content": "$1",
+            "example": "\u003Cli\u003E"
+         }
+      }
+   },
+   "version_note": {
+      "descriotion": "Feedback and support note",
+      "message": ""
+   },
+   "version_title": {
+      "description": "Title of the version modal",
+      "message": "\u30E1\u30B8\u30E3\u30FC\u30DE\u30A4\u30EB\u30B9\u30C8\u30FC\u30F3\uFF1A\u9031\u533A\u5207\u308A\u3067\u306E\u5C65\u6B74\u306E\u8868\u793A\uFF01"
+   },
+   "version_whats_new": {
+      "description": "Heading for what's new in version",
+      "message": "What's new"
+   },
+   "vietnamese": {
+      "description": "The language",
+      "message": "Vietnamese"
+   },
+   "view_release_announcement_link": {
+      "description": "Link text to view the release announcement",
+      "message": "\u30EA\u30EA\u30FC\u30B9\u30CE\u30FC\u30C8\u3092\u307F\u308B"
+   },
+   "visit_grouping_section_title": {
+      "description": "Section heading in Settings",
+      "message": "\u95B2\u89A7\u5C65\u6B74\u306E\u30B0\u30EB\u30FC\u30D7\u5316"
+   },
+   "visits_to_domain": {
+      "description": "Label for visits to domain context menu item",
+      "message": "$domain$ \u3078\u30A2\u30AF\u30BB\u30B9\u3059\u308B",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "wednesday": {
+      "description": "The day of the week",
+      "message": "\u6C34"
+   },
+   "yesterday_link": {
+      "description": "Link for yesterday",
+      "message": "\u6628\u65E5"
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Подробнее…"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Сообщите нам о проблеме."
+   },
+   "app_nacl_crash_report": {
+      "message": "Сообщить о проблеме"
+   },
+   "app_nacl_crash_title": {
+      "message": "Шеф, все пропало!"
+   },
+   "app_nacl_error_msg": {
+      "message": "Не удалось загрузить приложение."
+   },
+   "app_nacl_error_title": {
+      "message": "Не удается открыть файл"
+   },
+   "application_description": {
+      "message": "Редактирование документов"
+   },
+   "file_loading_spinner_label": {
+      "message": "Загрузка…"
+   },
+   "file_not_found_msg": {
+      "message": "Запрошенный файл перемещен."
+   },
+   "file_not_found_title": {
+      "message": "Файл не найден."
+   }
+}

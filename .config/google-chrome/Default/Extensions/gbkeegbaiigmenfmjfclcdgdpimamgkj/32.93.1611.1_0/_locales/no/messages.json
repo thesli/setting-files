@@ -1,0 +1,32 @@
+{
+  "app_error_learn_more": {
+    "message": "Finn ut mer"
+  }, 
+  "app_nacl_crash_msg": {
+    "message": "Hjelp oss ved \u00e5 rapportere problemet."
+  }, 
+  "app_nacl_crash_report": {
+    "message": "Rapport\u00e9r et problem"
+  }, 
+  "app_nacl_crash_title": {
+    "message": "Beklager. Dette skulle ikke ha skjedd."
+  }, 
+  "app_nacl_error_msg": {
+    "message": "Det oppsto et problem under innlastingen av programmet."
+  }, 
+  "app_nacl_error_title": {
+    "message": "Filen kan ikke \u00e5pnes."
+  }, 
+  "application_description": {
+    "message": "Dokumentredigering"
+  }, 
+  "file_loading_spinner_label": {
+    "message": "Laster inn ..."
+  }, 
+  "file_not_found_msg": {
+    "message": "Filen du ba om er flyttet."
+  }, 
+  "file_not_found_title": {
+    "message": "Fant ikke filen"
+  }
+}

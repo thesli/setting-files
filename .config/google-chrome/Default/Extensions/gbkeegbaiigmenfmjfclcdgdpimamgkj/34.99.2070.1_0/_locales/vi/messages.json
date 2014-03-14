@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Tìm hiểu thêm"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Giúp chúng tôi bằng cách báo cáo sự cố."
+   },
+   "app_nacl_crash_report": {
+      "message": "Báo cáo sự cố..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Rất tiếc. Đây là sự cố không mong muốn xảy ra."
+   },
+   "app_nacl_error_msg": {
+      "message": "Đã xảy ra sự cố khi tải ứng dụng."
+   },
+   "app_nacl_error_title": {
+      "message": "Không thể mở tệp."
+   },
+   "application_description": {
+      "message": "Chỉnh sửa tài liệu"
+   },
+   "file_loading_spinner_label": {
+      "message": "Đang tải"
+   },
+   "file_not_found_msg": {
+      "message": "Tệp bạn yêu cầu đã không còn và đã bị di chuyển."
+   },
+   "file_not_found_title": {
+      "message": "Không tìm thấy tệp."
+   }
+}

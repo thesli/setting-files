@@ -1,0 +1,23 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-1.6.1.min.js", "google.js" ],
+      "matches": [ "*://*.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "jquery-1.6.1.min.js", "vbulletin.js" ],
+      "matches": [ "http://forums.digitalpoint.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Preloads search results and preview them without leaving page.",
+   "icons": {
+      "128": "images/preview128.png",
+      "16": "images/preview16.png",
+      "32": "images/preview32.png",
+      "64": "images/preview64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvcClX7ddqZ0PG1TgQf8vvnIMUPWOuh2eVe7vd68Wt3XOd4d5NxUCgmVU0Y/81yT3dug6HrUZZ3+GZ+poHwrIo3bZXhQFxYjoRodVEAU6obihoN0/Bon+34+xuM/eNdtqJplMp6My5q6y1oqi0yXHOI0j/e3hvut2AsPqfzDt0oQIDAQAB",
+   "name": "Search Preview for Google\u2122",
+   "permissions": [ "tabs", "contextMenus", "history", "http://*/*", "https://*/*", "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.3"
+}

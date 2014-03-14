@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "વધુ જાણો"
+   },
+   "app_nacl_crash_msg": {
+      "message": "સમસ્યાની જાણ કરીને અમને સહાય કરો."
+   },
+   "app_nacl_crash_report": {
+      "message": "સમસ્યાની જાણ કરો..."
+   },
+   "app_nacl_crash_title": {
+      "message": "ઊફ્ફ. આ બનવાનું ધાર્યું ન હતું."
+   },
+   "app_nacl_error_msg": {
+      "message": "એપ્લિકેશન લોડ કરવામાં સમસ્યા હતી."
+   },
+   "app_nacl_error_title": {
+      "message": "ફાઇલ ખોલી શકાતી નથી."
+   },
+   "application_description": {
+      "message": "દસ્તાવેજ સંપાદન"
+   },
+   "file_loading_spinner_label": {
+      "message": "લોડ કરી રહ્યું છે"
+   },
+   "file_not_found_msg": {
+      "message": "તમે વિનંતી કરેલી ફાઇલ આવી ગઈ છે અને ખસેડવામાં આવી છે."
+   },
+   "file_not_found_title": {
+      "message": "ફાઇલ મળી નથી."
+   }
+}

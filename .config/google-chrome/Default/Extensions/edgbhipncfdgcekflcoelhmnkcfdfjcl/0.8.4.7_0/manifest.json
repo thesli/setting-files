@@ -1,0 +1,19 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.js", "js/jquery.contextmenu.js", "js/jquery.linkparser.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Allows you to view doc, docx, pdf, ppt, pps files with Google Docs Viewer.",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwIQX8p/quoInZ1E2vP2ue8gDJo2zjSNc9h4jHCKamoJR1oRz0YMQEDWluPgWdj0TzTTYNe1JvdwBOXyiEAwLtGqjKid8bKFL87ezP8EXyzORrHO5A5Th53Jn9nfI1RHQdnp6h2SBHyWySUCwnqgQH2TC1PhEDrdmMLJ6S8YJNMQIDAQAB",
+   "name": "Ultimate Google Docs Viewer",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.8.4.7"
+}

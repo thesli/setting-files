@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ATMESTA. Geriau naudokite \u201EGoogle\u201C \u012Fvesties \u012Franki\u0173 pl\u0117tin\u012F (pasiekiamas \u0161iuo adresu: http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "NEBENAUDOJAMA: virtualioji klaviat\u016Bra (\u201EGoogle\u201C)"
+   },
+   "vkbd_options_title": {
+      "message": "\u201EVirtual Keyboard\u201C pl\u0117tinio parinktys"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Kair\u0117je pus\u0117je pasirinkite klaviat\u016Bros i\u0161d\u0117stym\u0105 (-us):"
+   },
+   "vkbd_save_options": {
+      "message": "I\u0161saugoti"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Rodyti / sl\u0117pti klaviat\u016Br\u0105"
+   }
+}

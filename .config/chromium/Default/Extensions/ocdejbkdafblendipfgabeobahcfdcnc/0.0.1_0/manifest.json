@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery.js", "js/jquery.clickecho.js", "ripple.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "Give Chrome that touch screen ripple effect!",
+   "icons": {
+      "48": "48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9pyNCa9F7+DCJYMPYwJZ5sppWJEknT1PXBvZ5t270q4uSr9tVBwOPIM+TAQJgPRPrIzW1ALruOxIpc41T5GXcjfnOlTVQWPRUoxLZAp854hJDvAnuWALHVYAaHQvC3nQblCO7HhvXaWYZT5tBgx270a7V1f1C+GTz9NY0KJkWDQIDAQAB",
+   "name": "RippleMe",
+   "permissions": [ "http://*/*", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Pata maelezo zaidi"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Tusaidie kwa kuripoti tatizo."
+   },
+   "app_nacl_crash_report": {
+      "message": "Ripoti tatizo..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Lo! Hilo halikufaa kufanyika."
+   },
+   "app_nacl_error_msg": {
+      "message": "Kulikuwa na tatizo wakati wa kupakia programu."
+   },
+   "app_nacl_error_title": {
+      "message": "Faili haiwezi kufunguliwa."
+   },
+   "application_description": {
+      "message": "Kuhariri hati"
+   },
+   "file_loading_spinner_label": {
+      "message": "Inapakia"
+   },
+   "file_not_found_msg": {
+      "message": "Faili uliyoiomba ina tatizo na imehamishwa."
+   },
+   "file_not_found_title": {
+      "message": "Faili haipatikani."
+   }
+}

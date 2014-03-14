@@ -1,0 +1,63 @@
+#!/bin/bash
+#
+# This script is run by Variety when a new wallpaper is set.
+# You can use bash, python or whatever suits you for the script.
+# Here you can put custom commands for setting the wallpaper on your specific desktop environment
+# or run commands like notify-send to notify you of the change, or you can
+# run commands that would theme your browser, login screen or whatever you desire.
+#
+# The first passed parameter (accessed with $1) is the absolute path to the wallpaper image to be set as wallpaper
+# (after effects, clock, etc. are applied).
+#
+# The second passed parameter ($2) is "auto" when the wallpaper is changed automatically (i.e. regular change), "manual"
+# when the user has triggered the change or "refresh" when the change is triggered by a change in quotes, clock, etc.
+#
+# The third passed parameter ($3) is the absolute path to the original wallpaper image (before effects, clock, etc.)
+# and "manual" otherwise - e.g. when the user clicks Previous, Next or Trash.
+
+
+# Here you may apply some additional custom operations on the wallpaper.
+# In the end put the path to the actual wallpaper image file in the WP variable
+WP=$1
+
+
+# KDE - User will have to manually choose ~/.config/variety/wallpaper-kde.jpg as a wallpaper.
+# Afterwards, with the command below, Variety will just overwrite the file when changing the wallpaper
+# and KDE will refresh it
+if [ "`env | grep KDE_FULL_SESSION | tail -c +18`" == "true" ]; then
+    cp "$WP" ~/.config/variety/wallpaper-kde.jpg
+    exit 0
+fi
+
+# Gnome 3, Unity
+gsettings set org.gnome.desktop.background picture-uri "file://$WP" 2> /dev/null
+gsettings set com.canonical.unity-greeter background "$WP"
+if [ "`gsettings get org.gnome.desktop.background picture-options`" == "'none'" ]; then
+    gsettings set org.gnome.desktop.background picture-options 'zoom'
+fi
+
+# XFCE
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s "" 2> /dev/null
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/image-path -s "$WP" 2> /dev/null
+
+# LXDE/PCmanFM
+pcmanfm --set-wallpaper "$WP" 2> /dev/null
+
+# Feh - commented, as it may cause problems with Nautilus, (see bug https://bugs.launchpad.net/variety/+bug/1047083)
+# feh --bg-scale "$WP" 2> /dev/null
+
+# MATE after 1.6
+gsettings set org.mate.background picture-filename "$WP" 2> /dev/null
+
+# MATE before 1.6
+mateconftool-2 -t string -s /desktop/mate/background/picture_filename "$WP" 2> /dev/null
+
+# Cinnamon after 1.8
+gsettings set org.cinnamon.background picture-uri "file://$WP" 2> /dev/null
+
+# Gnome 2
+gconftool-2 -t string -s /desktop/gnome/background/picture_filename "$WP" 2> /dev/null
+
+# Show a notification on wallpaper change (only when the change is automatic). Display the original filename, but the post-effects image.
+# name=$(echo "$3" | sed 's/\//\n/g'| tail -n 1)
+# if [ "$2" == "auto" ]; then notify-send --icon "$WP" "Wallpaper changed" "$name" ; fi

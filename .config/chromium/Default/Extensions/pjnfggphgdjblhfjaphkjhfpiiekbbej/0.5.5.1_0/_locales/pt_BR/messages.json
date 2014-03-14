@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "pt-BR"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Esta extens\u00E3o n\u00E3o pode fazer sugest\u00F5es de p\u00E1ginas como esta, que possuem conte\u00FAdo protegido (por exemplo, http\u003Cb\u003Es\u003C/b\u003E://). Vejo voc\u00EA de novo nos sites p\u00FAblicos!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Esta extens\u00E3o funciona melhor em p\u00E1ginas iniciais ou na p\u00E1gina principal da maioria dos sites.\u003Cp\u003EExperimente a extens\u00E3o em um site que voc\u00EA j\u00E1 ame &mdash; fa\u00E7a o teste e veja as sugest\u00F5es de p\u00E1ginas para algo que voc\u00EA j\u00E1 conhece."
+   },
+   "sp_default_title": {
+      "message": "Ver as P\u00E1ginas similares do Google"
+   },
+   "sp_description": {
+      "message": "Descubra p\u00E1ginas da web parecidas com a p\u00E1gina em que est\u00E1 navegando no momento."
+   },
+   "sp_domain_change_message": {
+      "message": "Para alterar o dom\u00EDnio local para www.google.com, \u003Ca id='over' href='#'\u003Eclique aqui\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com foi salvo como o seu dom\u00EDnio local para recuperar p\u00E1ginas semelhantes."
+   },
+   "sp_domain_message": {
+      "message": "Esta extens\u00E3o entrar\u00E1 em contato com o $1 para recuperar a lista de p\u00E1ginas semelhantes.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "N\u00FAmero de p\u00E1ginas: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003ESobre o Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Adorar\u00EDamos ouvir os seus coment\u00E1rios em \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Obrigado!"
+   },
+   "sp_options_intro": {
+      "message": "A extens\u00E3o de navegador P\u00E1ginas semelhantes do Google permite visualizar e explorar rapidamente outras p\u00E1ginas que s\u00E3o parecidas com uma na qual voc\u00EA est\u00E1 navegando -- instantaneamente!"
+   },
+   "sp_options_legal": {
+      "message": "Quando voc\u00EA clicar no bot\u00E3o P\u00E1ginas similares, o seu navegador enviar\u00E1 uma consulta de pesquisa para o Google para ver se h\u00E1 p\u00E1ginas similares \u00E0 p\u00E1gina que voc\u00EA est\u00E1 visualizando.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EOs dados relacionados \u00E0 consulta ser\u00E3o tratados conforme descrito na \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPol\u00EDtica de Privacidade\u003C/a\u003E do Google",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPol\u00EDtica de Privacidade\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETermos de Servi\u00E7o\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Desinstalar"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Para desinstalar as P\u00E1ginas semelhantes do Google, use a op\u00E7\u00E3o do menu Ferramentas &gt; Extens\u00F5es do Google Chrome, e clique no link Desinstalar para a extens\u00E3o P\u00E1ginas semelhantes do Google."
+   },
+   "sp_preview_not_available": {
+      "message": "Visualiza\u00E7\u00E3o\u003Cbr\u003En\u00E3o dispon\u00EDvel"
+   },
+   "sp_product_name": {
+      "message": "P\u00E1ginas semelhantes do Google - Beta (por Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com.br"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "P\u00E1ginas semelhantes do Google"
+   },
+   "sp_tld_special_case_text": {
+      "message": "No momento a extens\u00E3o n\u00E3o est\u00E1 dispon\u00EDvel para o seu pa\u00EDs/regi\u00E3o. Volte em breve."
+   },
+   "sp_zero_results": {
+      "message": "Nenhuma semelhante encontrada."
+   }
+}

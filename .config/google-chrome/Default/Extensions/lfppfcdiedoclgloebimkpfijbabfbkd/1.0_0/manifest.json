@@ -1,0 +1,14 @@
+{
+   "background_page": "background.html",
+   "icons": {
+      "16": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDM1ecxgs6o8B1lASlzOCisUeWuMwtFW7l0gwnbKT6MCA/iE323UdLMkW6ctfyk5ZTgGX3wW/CHqL8MjDUWs7WZv/OLcfAB67R6se4qgty4qp+04dHGS/UnPnc53sRRW50Jb4OPDxbSXiikjb0wdVv9U5H1QbCUYHZYFLTceP3HNQIDAQAB",
+   "name": "Omni feeling lucky ",
+   "omnibox": {
+      "keyword": "\u003E"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

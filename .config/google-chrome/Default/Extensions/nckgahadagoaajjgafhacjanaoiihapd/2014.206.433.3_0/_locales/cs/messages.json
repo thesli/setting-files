@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Nepoda\u0159ilo se spojit s Googlem. Zkontrolujte p\u0159ipojen\u00ED k internetu."
+   },
+   "chrome_ext_description": {
+      "message": "S Hangouts m\u016F\u017Eete konverzace o\u017Eivit pomoc\u00ED fotek, ikon emod\u017Ei a skupinov\u00FDch videohovor\u016F \u2013 a to zcela zdarma."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "Koment\u00E1\u0159e"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "Odeslat n\u00E1zor"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "v\u00E1s zve do skupinov\u00E9ho videohovoru ve slu\u017Eb\u011B Hangouts"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "Odeslat n\u00E1zor"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "Nejste p\u0159ihl\u00E1\u0161eni"
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "V\u017Edy zobrazovat aplikaci Hangouts nad ostatn\u00EDmi okny"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "s v\u00E1mi chce ve slu\u017Eb\u011B Hangouts uspo\u0159\u00E1dat videohovor"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "Povolit re\u017Eim na pozad\u00ED"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "P\u0159ihl\u00E1sit se do slu\u017Eby Hangouts p\u0159i spu\u0161t\u011Bn\u00ED Chromu"
+   },
+   "chrome_ext_short_name": {
+      "message": "Hangouts"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "Stav: P\u0159ipojeno\nZme\u0161kan\u00E9 zpr\u00E1vy"
+   },
+   "quasar_answer_button_text": {
+      "message": "P\u0159ijmout vol\u00E1n\u00ED"
+   },
+   "quasar_button_apply": {
+      "message": "Pou\u017E\u00EDt"
+   },
+   "quasar_button_cancel": {
+      "message": "Zru\u0161it"
+   },
+   "quasar_button_save": {
+      "message": "OK"
+   },
+   "quasar_chat_title": {
+      "message": "$1 \u0159\u00EDk\u00E1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "Kliknut\u00EDm je mo\u017En\u00E9 p\u0159ej\u00EDt na str\u00E1nku..."
+   },
+   "quasar_decline_button_text": {
+      "message": "Odm\u00EDtnout"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "Zru\u0161it"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "Platforma:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "Prohl\u00E1\u0161en\u00ED o ochran\u011B osobn\u00EDch \u00FAdaj\u016F"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "Popis, informace o slu\u017Eb\u011B, dal\u0161\u00ED informace a va\u0161e e-mailov\u00E1 adresa budou odesl\u00E1ny spole\u010Dnosti Google. Prostudujte si smluvn\u00ED podm\u00EDnky slu\u017Eby Google Feedback. Odesl\u00E1n\u00EDm tohoto obsahu ud\u011Blujete spole\u010Dnosti Google pr\u00E1vo pou\u017E\u00EDt jej k vylep\u0161en\u00ED slu\u017Eeb. Podrobnosti naleznete v na\u0161ich z\u00E1sad\u00E1ch ochrany soukrom\u00ED."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "Odeslat n\u00E1zor"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "Syst\u00E9mov\u00E9 informace"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "User-agent"
+   },
+   "quasar_group_chat_title": {
+      "message": "Ze skupinov\u00E9ho chatu..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1 je pr\u00E1v\u011B na Hangoutu",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "N\u00E1pov\u011Bda"
+   },
+   "quasar_label_all_notification": {
+      "message": "Zak\u00E1zat upozorn\u011Bn\u00ED"
+   },
+   "quasar_label_chat_notification": {
+      "message": "Zak\u00E1zat upozorn\u011Bn\u00ED chatem"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "D\u00E9lka \u010Dasov\u00E9ho limitu (v sekund\u00E1ch):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "Povolit automatick\u00FD \u010Dasov\u00FD limit pro ozn\u00E1men\u00ED chatu"
+   },
+   "quasar_label_tray_icon": {
+      "message": "Zobrazit ikonu oznamovac\u00ED oblasti syst\u00E9mu"
+   },
+   "quasar_legend_notifications": {
+      "message": "Upozorn\u011Bn\u00ED"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "Aplikace"
+   },
+   "quasar_menutext_feedback": {
+      "message": "V\u00E1\u0161 n\u00E1zor"
+   },
+   "quasar_menutext_quit": {
+      "message": "Ukon\u010Dit"
+   },
+   "quasar_menutext_settings": {
+      "message": "Mo\u017Enosti"
+   },
+   "quasar_menutext_signout": {
+      "message": "Odhl\u00E1sit se"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "Nezn\u00E1m\u00E9"
+   },
+   "quasar_sign_in": {
+      "message": "P\u0159ihl\u00E1sit se"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "Abyste si mohli popov\u00EDdat s p\u0159\u00E1teli, mus\u00EDte se p\u0159ihl\u00E1sit"
+   },
+   "quasar_tip_connected": {
+      "message": "Stav: P\u0159ipojeno"
+   },
+   "quasar_tip_connecting": {
+      "message": "Status: P\u0159ipojov\u00E1n\u00ED"
+   },
+   "quasar_tip_disconnected": {
+      "message": "Stav: Odpojeno"
+   },
+   "quasar_tip_not_load": {
+      "message": "Stav: Chyba p\u0159i na\u010D\u00EDt\u00E1n\u00ED"
+   },
+   "quasar_tip_not_login": {
+      "message": "Stav: Nep\u0159ihl\u00E1\u0161eno"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "Stav: Op\u011Btovn\u00E9 p\u0159ipojov\u00E1n\u00ED"
+   },
+   "quasar_try_now": {
+      "message": "Vyzkou\u0161et"
+   },
+   "quasar_video_details": {
+      "message": "v\u00E1s vol\u00E1 pomoc\u00ED videochatu"
+   },
+   "quasar_video_title": {
+      "message": "Videohovor od u\u017Eivatele $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "v\u00E1s vol\u00E1"
+   },
+   "quasar_voice_title": {
+      "message": "Hlasov\u00E9 vol\u00E1n\u00ED od u\u017Eivatele $1...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

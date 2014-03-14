@@ -1,0 +1,282 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/seo.css" />
+		<script type="text/javascript" src="js/defaults.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/tools/tools.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_internal/seo_history.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_internal/seo_processor.js" charset="utf-8"></script>
+
+		<script type="text/javascript" src="js/seo_features/login_or_register.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_features/copywriter_helper.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_features/site_pages_analyser.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_features/site_range_alalyser.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/seo_features/site_antiplagiat.js" charset="utf-8"></script>
+
+		<title>LiveInternet site statistics SEO</title>
+	</head>
+	<body>
+		<div id="seo_account">
+			<div id="seo_site_account_title">Logged in seo.li.ru as cdb@linkycat.com - [Logout]</div>
+			<div id="seo_account_title">Logged in Yandex as Codeblight</div>
+			<div id="seo_account_queries_count">Used <b>5</b> queries of <b>1000</b></div>
+			<div id="seo_account_error">Yandex licensy is not accepted</div>
+			<div><span id="seo_account_region">Used region: </span></div>
+		</div>
+
+		<div id="header">
+			<h1 id="page_title">LiveInterner site statistics</h1>
+			<div id="features_menu">
+				<a href="/seo.html?type=copywriter" id="copywriter">Copywriter helper</a>&nbsp;
+				<a href="/seo.html?type=sp_analyser" id="sp_analyser">Site pages analyser</a>&nbsp;
+				<a href="/seo.html?type=sr_analyser" id="sr_analyser">Site range analyser</a>
+				<a href="/seo.html?type=antiplagiat" id="antiplagiat">Antiplagiat</a>
+			</div>
+		</div>
+		<div class="section-header first" id="page_title_seo">SEO features</div>
+
+		<div id="content">
+
+			<div id="seo_login_check"></div>
+			<div id="seo_login">
+				<div id="seo_login_form">
+		
+					<label for="seo_login_email" id="txt_seo_login_email">EMail:</label>
+					<input type="text" name="seo_login_email" id="seo_login_email" />
+
+					<label for="seo_login_password" id="txt_seo_login_password">Password:</label>
+					<input type="password" name="seo_login_password" id="seo_login_password" />
+
+					<input type="button" value="Login or register" id="seo_login_submit" />
+
+				</div>
+
+				<div id="seo_login_try">Try to login...</div>
+				<div id="seo_login_error">
+					<div id="seo_login_error_title">Login error</div>
+					<div id="seo_login_error_msg"></div>
+					<input type="button" value="Try again" id="seo_login_back" />
+					<input type="button" value="I forgot my password" id="seo_login_forgot" />
+				</div>
+				<div id="seo_register_confirm">
+					<div id="seo_login_confirm_msg"></div>
+					<label for="seo_login_confirm" id="txt_seo_login_confirm">Confirm code:</label>
+					<input type="text" name="seo_login_confirm" id="seo_login_confirm" />
+					<input type="button" value="Confirm" id="seo_login_confirm_submit" />
+				</div>
+				<div id="seo_confirm_try">Try to confirm...</div>
+				<div id="seo_confirm_error">
+					<div id="seo_confirm_error_title">Confirmation error</div>
+					<div id="seo_confirm_error_msg"></div>
+					<input type="button" value="Try again" id="seo_confirm_back" />
+					<input type="button" value="Back to login" id="seo_login_confirm_back" />
+				</div>
+				<div id="seo_password_forgot_form">
+					<div id="seo_password_forgot_form_error"></div>
+					<label for="seo_password_forgot_email" id="txt_seo_password_forgot_email">EMail:</label>
+					<input type="text" id="seo_password_forgot_email" />
+					<input type="button" value="I want change my password" id="seo_password_forgot_submit" />
+				</div>
+				<div id="seo_password_forgot_try_email">Verifing entered Email...</div>
+				<div id="seo_password_change_form">
+					<div id="seo_password_change_form_error"></div>
+					<label for="seo_password_change_code" id="txt_seo_password_change_code">Confirm code:</label>
+					<input type="text" id="seo_password_change_code" />
+					<label for="seo_password_change_new_pass" id="txt_seo_password_change_new_pass">New password:</label>
+					<input type="password" id="seo_password_change_new_pass" />
+
+					<input type="button" value="Change my password" id="seo_password_change_submit" />
+				</div>
+				<div id="seo_password_change_try">Password is changing...</div>
+
+			</div>
+			<div id="seo_copywriter">
+
+				<div id="seo_copywriter_query">
+
+					<label for="seo_copywriter_query_text" id="txt_copywriter_query_title">Query:</label>
+					<textarea id="seo_copywriter_query_text"></textarea>
+					<div id="seo_copywriter_query_results_count">
+						<span id="txt_copywriter_process_title">Process for:</span>
+						<input id="results_copywriter_count_5" type="radio" name="seo_copywriter_results_count" value="5" /><label for="results_copywriter_count_5">TOP-5</label>
+						<input id="results_copywriter_count_10" type="radio" name="seo_copywriter_results_count" value="10" /><label for="results_copywriter_count_10">TOP-10</label>
+						<input id="results_copywriter_count_20" type="radio" name="seo_copywriter_results_count" value="20" /><label for="results_copywriter_count_20">TOP-20</label>
+					</div>
+					<div id="seo_copywriter_query_provider">
+						<span id="txt_copywriter_provider_title">Search system:</span>
+						<input id="provider_copywriter_yandex" type="radio" name="seo_copywriter_provider" value="yandex" /><label for="provider_copywriter_yandex">Yandex</label>
+						<input id="provider_copywriter_google" type="radio" name="seo_copywriter_provider" value="google" /><label for="provider_copywriter_google">Google</label>
+						<div id="porvider_copywriter_yandex_unavaible">You not authorized in Yandex, please login</div>
+					</div>
+					<div id="submit_copywriter_container">
+						<input type="button" id="seo_copywriter_query_submit" value="Submit" />
+					</div>
+				</div>
+
+				<div id="seo_copywriter_query_process">
+					<label id="seo_copywriter_progress_text">Progress:</label>
+					<div id="seo_copywriter_query_progress">
+						<div id="seo_copywriter_query_progress_bar"></div>
+					</div>
+	
+					<label id="seo_copywriter_log_text">Log:</label>
+					<div id="seo_copywriter_query_log"></div>
+					<div id="stop_copywriter_container">
+						<input type="button" id="seo_copywriter_query_stop" value="Stop" />
+					</div>
+				</div>
+
+				<div id="seo_copywriter_query_results">
+					<div id="seo_copywriter_query_results_html"></div>
+					<div id="seo_copywriter_query_results_site"><a href="#" id="seo_copywriter_query_results_link" target="_blank">View results on site</a></div>
+					<div id="back_copywriter_container">
+						<input type="button" id="seo_copywriter_query_back" value="Back" />
+					</div>
+				</div>
+			</div>
+
+			<div id="seo_sp_analyser">
+
+				<div id="seo_sp_analyser_query">
+
+					<label for="seo_sp_analyser_query_url" id="txt_sp_analyser_query_url">URL:</label>
+					<input type="text" id="seo_sp_analyser_query_url" />
+
+					<label for="seo_sp_analyser_query_text" id="txt_sp_analyser_query_title">Query:</label>
+					<textarea id="seo_sp_analyser_query_text"></textarea>
+
+					<div id="submit_sp_analyser_container">
+						<input type="button" id="seo_sp_analyser_submit" value="Submit" />
+					</div>
+				</div>
+
+				<div id="seo_sp_analyser_process">
+					<label id="seo_sp_analyser_progress_text">Progress:</label>
+					<div id="seo_sp_analyser_progress">
+						<div id="seo_sp_analyser_progress_bar"></div>
+					</div>
+	
+					<label id="seo_sp_analyser_log_text">Log:</label>
+					<div id="seo_sp_analyser_log"></div>
+					<div id="stop_sp_analyser_container">
+						<input type="button" id="seo_sp_analyser_stop" value="Stop" />
+					</div>
+				</div>
+
+				<div id="seo_sp_analyser_results">
+					<div id="seo_sp_analyser_results_html"></div>
+					<div id="seo_sp_analyser_results_site"><a href="#" id="seo_sp_analyser_results_link" target="_blank">View results on site</a></div>
+					<div id="back_sp_analyser_container">
+						<input type="button" id="seo_sp_analyser_back" value="Back" />
+					</div>
+				</div>
+			</div>
+
+			<div id="seo_sr_analyser">
+				<div id="seo_sr_analyser_query">
+
+					<label for="seo_sr_analyser_query_sites" id="txt_sr_analyser_query_sites">Sites:</label>
+					<textarea id="seo_sr_analyser_query_sites"></textarea>
+
+					<label for="seo_sr_analyser_query_text" id="txt_sr_analyser_query_queries">Queries:</label>
+					<textarea id="seo_sr_analyser_query_text"></textarea>
+
+					<div id="submit_sr_analyser_container">
+						<input type="button" id="seo_sr_analyser_submit" value="Submit" />
+					</div>
+				</div>
+
+				<div id="seo_sr_analyser_process">
+					<label id="seo_sr_analyser_progress_text">Progress:</label>
+					<div id="seo_sr_analyser_progress">
+						<div id="seo_sr_analyser_progress_bar"></div>
+					</div>
+	
+					<label id="seo_sr_analyser_log_text">Log:</label>
+					<div id="seo_sr_analyser_log"></div>
+					<div id="stop_sr_analyser_container">
+						<input type="button" id="seo_sr_analyser_stop" value="Stop" />
+					</div>
+				</div>
+
+				<div id="seo_sr_analyser_results">
+					<div id="seo_sr_analyser_results_html"></div>
+					<div id="seo_sr_analyser_results_site"><a href="#" id="seo_sr_analyser_results_link" target="_blank">View results on site</a></div>
+					<div id="back_sr_analyser_container">
+						<input type="button" id="seo_sr_analyser_back" value="Back" />
+					</div>
+				</div>
+			</div>
+
+			<div id="seo_antiplagiat">
+				<div id="seo_antiplagiat_query">
+
+					<label for="seo_antiplagiat_query_text" id="txt_antiplagiat_query_queries">Text:</label>
+					<textarea id="seo_antiplagiat_query_text"></textarea>
+
+					<div id="submit_antiplagiat_container">
+						<input type="button" id="seo_antiplagiat_submit" value="Submit" />
+					</div>
+				</div>
+
+				<div id="seo_antiplagiat_process">
+					<label id="seo_antiplagiat_progress_text">Progress:</label>
+					<div id="seo_antiplagiat_progress">
+						<div id="seo_antiplagiat_progress_bar"></div>
+					</div>
+	
+					<label id="seo_antiplagiat_log_text">Log:</label>
+					<div id="seo_antiplagiat_log"></div>
+					<div id="stop_antiplagiat_container">
+						<input type="button" id="seo_antiplagiat_stop" value="Stop" />
+					</div>
+				</div>
+
+				<div id="seo_antiplagiat_results">
+					<div id="seo_antiplagiat_results_html"></div>
+					<div id="seo_antiplagiat_results_site"><a href="#" id="seo_antiplagiat_results_link" target="_blank">View results on site</a></div>
+					<div id="back_antiplagiat_container">
+						<input type="button" id="seo_antiplagiat_back" value="Back" />
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<div id="right_panel">
+			<div id="history">
+				<h3 id="history_header">Saved queries</h3>
+				<div id="history_form_div">
+					<label id="history_title_label" for="history_title">Title:</label><br />
+					<input type="text" id="history_title" />
+					<input type="button" value="Save" id="history_form_save" />
+					<span id="history_saving_status" class="history_status">Saving...</span>
+				</div>
+
+				<div id="history_list_div"></div>
+
+				<h3 id="history_log_header">Queries history</h3>
+				<div id="history_log_list_div"></div>
+				<div class="all_history_div">
+					<a href="#" id="all_history_link" target="_blank">View all history...</a>
+				</div>
+
+
+				<div class="history_item" id="history_teplate_item">
+					<img src="/images/delete.png" id="history_item_delete" title="Delete record" />
+					<span class="history_data">21.06.2010</span>
+					<a href="#">My Item</a>
+					<span class="history_status">Opening...</span>
+				</div>
+
+				<div class="history_log_item" id="history_log_teplate_item">
+					<span class="history_log_data">21.06.2010</span>
+					<a href="#" target="_blank">My Item</a>
+				</div>
+			</div>
+			<div id="description"></div>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,156 @@
+{
+   "elementToolbarChildNode": {
+      "description": "T\u00EDtulo para o n\u00F3 filho do elemento destacado em modo de tracking",
+      "message": "N\u00F3 filho"
+   },
+   "elementToolbarHelp": {
+      "description": "Mensagem de ajuda para a barra de ferramentas",
+      "message": "Use o modo de tracking para mover sobre a p\u00E1gian e destacar elementos. Clique em um elemento para destivar o modo de tracking."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "T\u00EDtulo para o elemento destacado em modo de tracking",
+      "message": "Elemento destacado"
+   },
+   "elementToolbarNextSibling": {
+      "description": "T\u00EDtulo para o n\u00F3 irm\u00E3o posterior do elemento destacado em modo de tracking",
+      "message": "Pr\u00F3ximo n\u00F3 irm\u00E3o"
+   },
+   "elementToolbarParentNode": {
+      "description": "T\u00EDtulo para o n\u00F3 pai do elemento destacado em modo de tracking",
+      "message": "N\u00F3 pai"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "T\u00EDtulo para o n\u00F3 irm\u00E3o anterior do elemento destacado em modo de tracking",
+      "message": "N\u00F3 irm\u00E3o anterior"
+   },
+   "elementToolbarToggleOff": {
+      "description": "O texto de estado desligado para o bot\u00E3o de ativar/desativar modo de tracking",
+      "message": "Desligado"
+   },
+   "elementToolbarToggleOn": {
+      "description": "O texto de estado ligado para o bot\u00E3o de ativar/desativar modo de tracking",
+      "message": "Ligado"
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Nome do bot\u00E3o de ativar/desativar modo de traking",
+      "message": "Modo de Tracking"
+   },
+   "errorLocal": {
+      "description": "Mensagem de erro ao executar a extens\u00E3o em uma p\u00E1gina de extens\u00E3o do chrome",
+      "message": "Extens\u00F5es n\u00E3o podem rodar em p\u00E1ginas locais por raz\u00F5es de seguran\u00E7a"
+   },
+   "errorWebStore": {
+      "description": "Mensagem de erro ao executar a extens\u00E3o na chrome web store",
+      "message": "Extens\u00F5es n\u00E3o podem rodar na chrome web store por raz\u00F5es de seguran\u00E7a"
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Desenhe r\u00E9guas para conseguir as dimens\u00F5es e posicionamento em pixels al\u00E9m de medir elementos de uma p\u00E1gina web."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Extension short name (maximum 12 characters)",
+      "message": "Page Ruler"
+   },
+   "optionsPageTitle": {
+      "description": "T\u00EDtulo da p\u00E1gina de op\u00E7\u00F5es",
+      "message": "Op\u00E7\u00F5es do Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Mensagem explicando como as estat\u00EDsticas an\u00F4nimas de uso s\u00E3o utilizadas",
+      "message": "Informa\u00E7\u00F5es coletadas n\u00E3o cont\u00E9m detalhes pessoais e s\u00E3o utilizadas somente com a inten\u00E7\u00E3o de melhorar esta extens\u00E3o vendo que se\u00E7\u00F5es s\u00E3o mais utilizadas"
+   },
+   "optionsStatisticsLabel": {
+      "description": "Nome da checkbox de enviar estat\u00EDsticas an\u00F4nimas de uso",
+      "message": "Enviar estat\u00EDsticas an\u00F4nimas de uso:"
+   },
+   "toolbarBottom": {
+      "description": "Nome do campo de posicionamento inferior na barra de ferramentas",
+      "message": "Baixo"
+   },
+   "toolbarClose": {
+      "description": "Tooltip do bot\u00E3o de fechar do addon",
+      "message": "Fechar"
+   },
+   "toolbarColor": {
+      "description": "Nome do selecionador de cor na barra de ferramentas",
+      "message": "Cor"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Nome do bot\u00E3o de desativar modo de elementos (elementos HTML)",
+      "message": "Desativar Modo de Elementos"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Nome do bot\u00E3o de ativar modo de elementos (elementos HTML)",
+      "message": "Ativar Modo de Elementos"
+   },
+   "toolbarHeight": {
+      "description": "Nome do campo de altura na barra de ferramentas",
+      "message": "Height"
+   },
+   "toolbarLeft": {
+      "description": "Nome do campo de posicionamento \u00E0 esquerda na barra de ferramentas",
+      "message": "Esquerda"
+   },
+   "toolbarRight": {
+      "description": "Nome do campo de posicionamento \u00E0 direita na barra de ferramentas",
+      "message": "Direita"
+   },
+   "toolbarTop": {
+      "description": "Nome do campo de posicionamento superior na barra de ferramentas",
+      "message": "Cima"
+   },
+   "toolbarWidth": {
+      "description": "Nome do campo de largura na barra de ferramentas",
+      "message": "Largura"
+   },
+   "updateCodeTitle": {
+      "desciption": "T\u00EDtulo para a se\u00E7\u00E3o do c\u00F3digo na caixa lateral de colaboradores",
+      "message": "C\u00F3digo"
+   },
+   "updateContributeTitle": {
+      "desciption": "T\u00EDtulo para a caixa lateral de contribui\u00E7\u00E3o",
+      "message": "Contribua com o Page Ruler"
+   },
+   "updateContributorsTitle": {
+      "desciption": "T\u00EDtulo para a caixa lateral de colaboradores",
+      "message": "Colaboradores"
+   },
+   "updateHistoryTitle": {
+      "desciption": "T\u00EDtulo para a se\u00E7\u00E3o de hist\u00F3rico de atualiza\u00E7\u00F5es",
+      "message": "O que h\u00E1 de novo?"
+   },
+   "updateIconsTitle": {
+      "desciption": "T\u00EDtulo para a se\u00E7\u00E3o de \u00EDcones na caixa lateral de colaboradores",
+      "message": "\u00CDcones"
+   },
+   "updatePageHeader": {
+      "description": "Mensagem de cabe\u00E7alho para a p\u00E1gina contendo o n\u00FAmero da vers\u00E3o nova",
+      "message": "Page Ruler foi atualizado para a vers\u00E3o \u003Cspan\u003E$VERSION$\u003C/span\u003E",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageTitle": {
+      "desciption": "T\u00EDtulo da p\u00E1gina de atualiza\u00E7\u00E3o",
+      "message": "Page Ruler Atualizado"
+   },
+   "updateTranslateDescription": {
+      "desciption": "Descri\u00E7\u00E3o de como entender e contribuir com uma tradu\u00E7\u00E3o",
+      "message": "Quer utilizar o Page Ruler na sua linguagem? Visite a \u003Ca href='https://github.com/wrakky/page-ruler'\u003Ep\u00E1gina do projeto no GitHub\u003C/a\u003E e siga as instru\u00E7\u00F5es sobre como submeter uma tradu\u00E7\u00E3o."
+   },
+   "updateTranslateTitle": {
+      "desciption": "T\u00EDtulo para a se\u00E7\u00E3o de tradu\u00E7\u00E3o na caixa lateral de contribui\u00E7\u00E3o",
+      "message": "Tradu\u00E7\u00E3o"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "T\u00EDtulo para a se\u00E7\u00E3o de tradu\u00E7\u00F5es na caixa lateral de colaboradores",
+      "message": "Tradu\u00E7\u00F5es"
+   }
+}

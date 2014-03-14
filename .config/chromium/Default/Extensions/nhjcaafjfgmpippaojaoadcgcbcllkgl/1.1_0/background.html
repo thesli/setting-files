@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<title>MultiTouch</title>
+</head>
+<body>
+<script type="text/javascript">
+chrome.tabs.onUpdated.addListener(function(tabId) {
+	chrome.pageAction.show(tabId);
+});
+chrome.pageAction.onClicked.addListener(function(tab) {
+	chrome.tabs.executeScript(null, {file: "multitouch.js"});
+	chrome.pageAction.hide(tab.id);
+});
+</script>
+</body>
+</html>

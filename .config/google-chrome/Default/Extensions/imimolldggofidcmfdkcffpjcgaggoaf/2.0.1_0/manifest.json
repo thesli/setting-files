@@ -1,0 +1,21 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "VerticalTabs",
+      "popup": "popup.html"
+   },
+   "description": "Simple & Quick Vertical Tab Extension. Search(filter) Tabs, Drag&Drop Rearrange Tabs, Tabs Counter, Keyboard Control, Vertical View",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT0sgmNJ78CKs10H+P5OJ1g9AKzqOhRlRgYGyK5GLViAXVuw/vhXSIAQla+b4njwBFeCdxLlCQ6qNbPKtHLzfbMCWx+04dQnUC0d6lDBEHVBpaXlOu3krtbaMBmXsX1HkY2Bo1qYi2s+jN162JvcUyX4ryWgqnlwkTKj+POWLF0QIDAQAB",
+   "name": "VerticalTabs",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

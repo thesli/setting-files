@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>&options.dialog.autopager-options.title;</title>
+        <link rel="stylesheet" href="content/options.css" />
+        <script type="text/javascript" src="content/autopager-namespace.js"></script>
+        <script type="text/javascript" src="content/autopager-shared.js"></script>
+        <script type="text/javascript" src="content/autopager-bw-utils.js"></script>
+        <script type="text/javascript" src="content/autopager-langs.js"></script>        
+        <script type="text/javascript" src="content/autopager-strings.js"></script>        
+        <script type="text/javascript" src="content/autopager-pref-content.js"></script>
+        <script type="text/javascript" src="content/autopager-content.js"></script>        
+        <script type="text/javascript" src="content/autopager-bw-content.js"></script>        
+        <script type="text/javascript" src="content/autopager-translate.js"></script>
+        <script type="text/javascript" src="content/autopager-lite.js"></script>
+        <script type="text/javascript" src="content/autopager-utils.js"></script>
+        <script type="text/javascript" src="content/autopager-xpath.js"></script>
+        <script type="text/javascript" src="content/autopager-description.js"></script>        
+        <script type="text/javascript" src="content/autopager-options.js"></script>
+        <script type="text/javascript" src="content/autopager-end.js"></script>    
+    </head>
+    <body style="width:400px">
+        <h1 class="icon"><a target="_blank" href="http://www.teesoft.info/content/view/68/1/">&options.dialog.autopager-options.title;</a></h1>
+
+        <div class="section">
+            <h2>&setting.label.general;</h2>
+            <div>
+                <input type="checkbox"  class="feature" id="autopager-showicon"/>&setting.label.showToolbarIcon;
+            </div>
+            <div>
+                <input type="checkbox"  class="feature" id="autopager-disable-site"/>&autopager.status.disableOnSite;
+            </div>
+            <div>
+                <input type="checkbox"  class="feature" id="autopager-lite"/><a target="_blank" href="http://autopager.teesoft.info/lite.html">&statusbar.menuitem.liteModel.label;</a>
+                <span style="font-style:italic; color:red">Beta</span>
+            </div>
+            <!--
+            <div>
+                <input type="checkbox"  class="feature" id="autopager-showprompt"/><a target="_blank" href="http://autopager.teesoft.info/prompt.html">&setting.label.showPrompt;</a>
+                <ul id="autopager-disable-on-default-div" style="display:none;">
+                    <input type="checkbox"  class="feature" id="autopager-disable-on-default"/><a target="_blank" href="http://autopager.teesoft.info/prompt.html">&statusbar.menuitem.disable-on-default.label;</a>
+                </ul>
+            </div>
+            -->
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="feature" id="autopager-options">&options.dialog.autopager-options.buttonlabelextra1;</a>
+        </div>
+        <div class="section">
+            <h2>Rule options</h2>
+            <div>
+                <a class="feature" id="autopager-update">&autopager.status.update;</a>
+            </div>
+
+            <div>
+                <a class="feature" id="autopager-search">&statusbar.menuitem.autopagerlite-discover.label;</a>
+                <input type="hidden" id="url1" size="100"/>
+                <input type="hidden" id="url2" size="100"/>
+                <input type="hidden" id="url3" size="100"/>
+            </div>
+
+        </div>
+        <div class="section">
+            <h2>Local Rules</h2>
+            <div id="rules" style="display:none;">
+                <textarea id="txt" cols="50" rows="5"></textarea>
+            </div>
+            <div>
+                <!-- href="javascript:autopagerOptions.importRules2()" -->
+                <a class="feature" id="autopager-importrules"
+                   onclick="document.getElementById('help_import_explanation').style.display='block';">&setting.button.import;</a>
+            </div>
+            <div id="help_import_explanation" style="display:none"  onclick="window.open('http://www.teesoft.info/content/view/109/1/')">
+                Click to view the steps to add rules to AutoPager for Chrome
+            </div>
+            <div>
+                <a class="feature" id="autopager-exportrules">&setting.button.export;</a>
+            </div>
+            <div>
+                <a class="feature" id="autopager-clearrules">&toolbarbutton.clearAllPath.tooltiptext;</a>
+            </div>
+            <div style="display:none">
+                <a class="feature" id="autopager-site-workshop">Site Workshop</a>
+            </div>
+            <div>
+                <a class="feature" id="autopager-xpath-test">XPather Tester</a>
+            </div>
+            <div>
+                <a class="feature" id="autopager-xpather">Generate XPath</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Report Issues</h2>
+            <table>
+                <tbody><tr>
+                        <td style="padding-right:10px">
+                            <a class="feature" id="autopager-issue">&autopager.status.reportSite;</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right:10px">
+                            <a class="feature" id="autopager-request">&autopager.status.requestHelp;</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+        </div>
+
+        <table>
+            <tbody><tr>
+                    <td style="padding-right:10px">
+                        <a href="http://www.teesoft.info/autopager/donate.html" target="_blank">
+                            <img src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" title="Donate to AutoPager!" alt="donate"></a>
+                    </td>
+                    <td style="font-style:italic; font-size:14px">
+                        Do you love AutoPager?  You can
+                        <a href="http://www.teesoft.info/autopager/donate.html"  target="_blank">
+                            make a donation</a> of any amount.
+                    </td>
+                </tr>
+            </tbody></table>
+        <div style="display:none"><canvas id="canvas" width="19" height="19"></canvas></div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Tov\u00E1bbi inform\u00E1ci\u00F3"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Seg\u00EDtsen nek\u00FCnk a probl\u00E9ma bejelent\u00E9s\u00E9vel."
+   },
+   "app_nacl_crash_report": {
+      "message": "Probl\u00E9ma bejelent\u00E9se..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hopp\u00E1! Ennek nem kellett volna megt\u00F6rt\u00E9nnie."
+   },
+   "app_nacl_error_msg": {
+      "message": "Hiba t\u00F6rt\u00E9nt az alkalmaz\u00E1s bet\u00F6lt\u00E9se sor\u00E1n."
+   },
+   "app_nacl_error_title": {
+      "message": "A f\u00E1jl nem nyithat\u00F3 meg."
+   },
+   "application_description": {
+      "message": "Dokumentumok szerkeszt\u00E9se"
+   },
+   "file_loading_spinner_label": {
+      "message": "Bet\u00F6lt\u00E9s..."
+   },
+   "file_not_found_msg": {
+      "message": "A k\u00E9rt f\u00E1jl m\u00E1s helyre ker\u00FClt."
+   },
+   "file_not_found_title": {
+      "message": "A f\u00E1jl nem tal\u00E1lhat\u00F3."
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "areyousuretouninstallthis": {
+      "description": "Are you sure to uninstall the entension : ",
+      "message": "\u786E\u5B9A\u8981\u5378\u8F7D\u6269\u5C55\uFF1A"
+   },
+   "extname": {
+      "description": "Extension name.",
+      "message": "\u4E00\u952E\u7BA1\u7406\u6240\u6709\u6269\u5C55"
+   },
+   "iconx": {
+      "description": "",
+      "message": "55px"
+   },
+   "leftclicktodisablethis": {
+      "description": "Left-click to disable this extension or ",
+      "message": "\u5355\u51FB\u5DE6\u952E\u7981\u7528\u8BE5\u6269\u5C55\uFF0C"
+   },
+   "leftclicktoenablethis": {
+      "description": "Left-click to enable this extension or ",
+      "message": "\u5355\u51FB\u5DE6\u952E\u542F\u7528\u8BE5\u6269\u5C55\uFF0C"
+   },
+   "onekeydisable": {
+      "description": "Click this item to disable all extensions",
+      "message": "\u7981\u7528\u6240\u6709\u6269\u5C55"
+   },
+   "onekeyenable": {
+      "description": "Click this item to enable all extensions",
+      "message": "\u542F\u7528\u539F\u6709\u6269\u5C55"
+   },
+   "rightclicktouninstallthis": {
+      "description": "Right-click to uninstall this extension.",
+      "message": "\u5355\u51FB\u53F3\u952E\u5378\u8F7D\u8BE5\u6269\u5C55"
+   },
+   "textindent": {
+      "description": "",
+      "message": "80px"
+   }
+}

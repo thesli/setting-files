@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" rel="text/css" href="popup.css"/>
+        <!--script type="text/javascript" src="locales.js"></script-->
+        <script type="text/javascript" src="popup.js"></script>
+    </head>
+
+    <body>
+        <div id="titleBar">
+            <div id="currentTitle"></div>
+            <div id="protectionIconBtn">
+                <img id="protectedIcon" class="protectionIcon" src='img/protected.png' title="">
+                <img id="unprotectedIcon" class="protectionIcon" src='img/unprotected.png' title="">
+                <img id="protectedDisableIcon" class="protectionIcon" src='img/unprotected_grey.png' title="">
+            </div>
+        </div>
+        <div id="tabBox">
+            <div id="tabbackcolumn" class="column">
+                <div class="columntitle" id="tabbacktitle"></div>
+                <div class="columndescription" id="tabbackdescription"></div>
+                <img src="img/yellowBtn.png" id="backicon" class="icon"/>
+            </div>
+            <div id="tabundocolumn" class="column">
+                <div class="columntitle" id="tabundotitle"></div>
+                <div class="columndescription" id="tabundodescription"></div>
+                <img src="img/clear.png" id="tabClearRecentlyClosedTabsHistory" class="clearHistoryIcon"/>
+                <img src="img/redBtn.png" id="undoicon" class="icon"/>
+            </div>
+            <div id="tabsimilarcolumn" class="column">
+                <div class="columntitle" id="tabsimilartitle"></div>
+                <div class="columndescription" id="tabsimilardescription"></div>
+                <img src="img/blueBtn.png" id="similaricon" class="icon"/>
+            </div>
+        </div>
+        <!-- localize later -->
+        <div id="updateNotifier">TabJump is updated to 0.7! Click here to see new features!</div>
+    </body>
+</html>
+

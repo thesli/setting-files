@@ -1,0 +1,43 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "browseractionbutton.png",
+      "default_popup": "popup/popup.html",
+      "default_title": "Click to toggle the StumbleUpon extension"
+   },
+   "content_scripts": [ {
+      "js": [ "messaging_correlator.js", "messaging_is.js", "extconnect_is.js", "everypage.js", "everypage_early.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "messaging_correlator.js", "messaging_is.js", "extconnect_is.js", "everypage.js", "everypage_end.js", "litebar_cs.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "sitepage_end.js" ],
+      "matches": [ "http://*.stumbleupon.com/*", "https://*.stumbleupon.com/*", "http://*.stumble.net/*", "https://*.stumble.net/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "refer.js" ],
+      "matches": [ "http://*.stumbleupon.com/refer?new=1*", "https://*.stumbleupon.com/refer?new=1*", "http://*.stumble.net/refer?new=1*", "https://*.stumble.net/refer?new=1*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Explore more.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7zdc2iM/A4FIj7dXfd5zH6xzk8JNaLoAbupMqY3OO6HGCeHWcN2O8IbCnbBBaw37GPobhkBu9HpHdLJ8d7h74j2/mhIMPqgh4zlps2ZErJ7MkGSCARbz3VPuWkRQDw4ZEUGWR0qwhPzfxD6elCoYlj2F0D9/hNhPVLtW4DzrM3QIDAQAB",
+   "manifest_version": 2,
+   "name": "StumbleUpon",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "cookies", "notifications", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2.27.2",
+   "web_accessible_resources": [ "norefer.html", "messaging_correlator.js", "extconnect_wp.js", "extensionapi.js", "messaging_is.js", "norefer.js" ]
+}

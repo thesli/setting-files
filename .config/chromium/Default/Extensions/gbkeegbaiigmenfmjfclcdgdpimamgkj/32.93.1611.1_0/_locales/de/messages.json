@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Weitere Informationen"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Helfen Sie uns, indem Sie das Problem melden."
+   },
+   "app_nacl_crash_report": {
+      "message": "Problem melden..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hoppla! Das sollte eigentlich nicht passieren."
+   },
+   "app_nacl_error_msg": {
+      "message": "Beim Laden der Anwendung ist ein Problem aufgetreten."
+   },
+   "app_nacl_error_title": {
+      "message": "Die Datei kann nicht ge\u00F6ffnet werden."
+   },
+   "application_description": {
+      "message": "Dokumentbearbeitung"
+   },
+   "file_loading_spinner_label": {
+      "message": "Wird geladen"
+   },
+   "file_not_found_msg": {
+      "message": "Die angeforderte Datei konnte nicht heruntergeladen werden."
+   },
+   "file_not_found_title": {
+      "message": "Datei nicht gefunden"
+   }
+}

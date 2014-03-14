@@ -1,0 +1,283 @@
+.word_item0 {
+  display: inline;
+  background: #FFFF80;
+  color: black;
+}
+
+.word_item1 {
+  display: inline;
+  background: #99ccff;
+  color: black;
+}
+
+.word_item2 {
+  display: inline;
+  background: #ff99cc;
+  color: black;
+}
+
+.word_item3 {
+  display: inline;
+  background: #66cc66;
+  color: black;
+}
+
+.word_item4 {
+  display: inline;
+  background: #cc99ff;
+  color: black;
+}
+
+.word_item5 {
+  display: inline;
+  background: #ffcc66;
+  color: black;
+}
+
+.word_item6 {
+  display: inline;
+  background: #669999;
+  color: black;
+}
+
+.word_item7 {
+  display: inline;
+  background: #cc9966;
+  color: black;
+}
+
+.word_item8 {
+  display: inline;
+  background: #999999;
+  color: black;
+}
+
+.word_item9 {
+  display: inline;
+  background: #cc6699;
+  color: black;
+}
+
+#word {
+  line-height: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+#word > section {
+  clear: right;
+  line-height: 1;
+  background: #fff;
+  display: block;
+}
+
+#word > nav {
+  width: 100%;
+  padding: 3px;
+  position: relative;
+  display: none;
+}
+
+#word > nav > canvas.backport {
+  background: rgba(122, 122, 122, 0.5);
+  cursor: pointer;
+  position: absolute;
+  right: 6px;
+}
+
+#word > nav > canvas.viewport {
+  background: rgba(255, 255, 255, 0.5);
+  cursor: default;
+  position: absolute;
+  bottom: 0px;
+  right: 6px;
+}
+
+#word > nav:hover > canvas.backport {
+  background: #000000;
+}
+
+#word:hover > nav {
+  display: none;
+}
+
+#word:hover > nav > canvas.backport {
+  /*bottom:0px;*/
+}
+
+#word.edit {
+  opacity: 1;
+  cursor: default;
+}
+
+#word.edit #word_inputs_list {
+  display: none;
+}
+
+#word form.word_editor {
+  display: none;
+}
+
+#word.edit form.word_editor {
+  display: inline-block;
+  min-height: 60px;
+}
+
+#word.edit form.word_editor input {
+  max-width: 400px;
+}
+
+#word li {
+  display: inline-block;
+  margin: 0.2em;
+  line-height: 1.5;
+  padding: 0;
+  border: none;
+  font-size: medium;
+}
+
+#word > section > * {
+  vertical-align: middle;
+}
+
+#word > section > h3.word_title {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.1em 0.3em;
+  border: none;
+  margin: 0 0.2em;
+}
+
+#word > section > form.word_ctrl {
+  position: relative;
+  min-height: 24px;
+}
+
+form.word_ctrl fieldset.off_ctrl {
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+}
+
+#word_inputs_list {
+  padding: 0;
+  margin: 0.2em;
+  display: inline-block;
+  min-height: 60px;
+}
+
+#word_inputs_list > li > label {
+  cursor: pointer;
+}
+
+#word_inputs_list > li > input {
+  cursor: pointer;
+}
+
+#word_inputs_list > li > label.word_movelabel {
+  height: 12px;
+  display: block;
+  background: #999999;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 1px 0;
+  border-radius: 2px;
+}
+
+#word_inputs_list > li > label.word_movelabel:hover {
+  background: #bbbbbb;
+}
+
+#word_inputs_list > li > label > input[type=image] {
+  vertical-align: top;
+  padding: 0;
+  height: 12px;
+}
+
+input[type="button"],
+input[type="submit"],
+button {
+  -webkit-appearance: button;
+  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#cccccc));
+  border: 1px solid #999999;
+  border-radius: 3px;
+  height: 1.7em;
+  padding: 0 0.6em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:hover {
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#666666));
+}
+
+input[type="button"][disabled],
+input[type="submit"][disabled],
+button[disabled] {
+  background: #999999;
+}
+
+input[type="button"][disabled]:hover,
+input[type="submit"][disabled]:hover,
+button[disabled]:hover {
+  background: #999999;
+}
+
+h1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#666666));
+  font-size: small;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 0px;
+  padding: 3px 8px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#word > section {
+  /*
+  margin:3px 0;
+  border:1px solid #bbbbbb;*/
+  border-radius: 4px;
+}
+
+#word > section > form {
+  padding: 6px;
+}
+
+#word > section > form.word_ctrl {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(white));
+  /*
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  */
+}
+
+form.word_ctrl input.edit_ctrl {
+  width: 50px;
+}
+
+form fieldset {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edit-box {
+  min-width: 200px;
+}

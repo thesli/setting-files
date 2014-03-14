@@ -1,0 +1,39 @@
+{
+  "name": "Clickberry Browser Extension",
+  "version": "2.3.2.2",
+  "manifest_version": 2,
+  "icons"       : { "48": "48.png",
+                    "128":"128.png"},
+  "description": "Tag, share, like or comment inside any YouTube video",
+  "browser_action": {
+    "icons"       : ["16.png"],
+    "default_icon": {
+        "19": "16.png",          
+        "38": "32.png"
+    },
+    "name"        : "Clickberry Extension"
+    
+  },
+  "background": {
+    "page"   :   "background.html",
+    "persistent":   true
+  },
+  "permissions": [
+   "webRequest", "webRequestBlocking", "tabs", "<all_urls>" , "storage", "management"               
+  ],
+  
+  "content_scripts": [
+    {
+       "run_at":"document_end",
+      "matches": ["http://*/*", "https://*/*", "file://*"],
+      "js": ["clickberryCheck.js"], "all_frames":true
+    },
+    {
+        "run_at":"document_start",
+      "matches": ["http://*/*", "https://*/*", "file://*"],
+      "js": ["content.js"], "all_frames":true
+    }
+  ],
+
+   "web_accessible_resources": ["*","popup.html","clickberry.css","corner_black.png","corner_white.png","ChromeStdInjector.js","ChromeStdInjector.min.js"]
+}

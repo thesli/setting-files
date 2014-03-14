@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "background.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html",
+      "default_title": "Ginger"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "gingerEditor.min.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://services.gingersoftware.com https://servicesht.gingersoftware.com https://cdnginger-a.akamaihd.net https://tr.gingersoftware.com https://learn-sink.gingersoftware.com https://data.gingersoftware.com https://umservices.gingersoftware.com https://clientmessages.gingersoftware.com https://splunkci.gingersoftware.com https://auth.gingersoftware.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "homepage_url": "http://www.gingersoftware.com",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGpNgakAKD0gp66KEdgVd5DkZN65DbJDf0WWBeTdsox3jz54G8sn6adCkdZOjmXvNgdUEVCt6lAQlwvYhLpkf9HPDeCNYq36q0zhL+EPweurBujPQYsHv+Zyv459mZZx/PiGQf3kP55uqFBIy3snqD5evWNUbOnqsJlInwpLQuwQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_application_title__",
+   "short_name": "Ginger",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0.382",
+   "web_accessible_resources": [ "GIcon.svg", "GIconGrey.svg", "GIconHover.svg" ]
+}

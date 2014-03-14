@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="popup.css" />
+</head>
+
+<body>
+<div id="messageContent">
+</div>
+
+<div id="popupContent">
+    <div id="disabledMessage" style="display:none">
+    Your toolbar does not work with this page.  To keep stumbling use the menu below.
+    <hr/>
+    </div>
+    <div id="menuOptions">
+        <ol id="topButtons" class="popupButtons topButtons">
+            <li id="stumble" class="btn topBtn">
+                <a class="bgImgLeft" href="#;">Stumble!</a>
+            </li>
+
+            <li id="like" class="btn">
+                <a class="bgImgLeft" href="#;">Like</a>
+            </li>
+
+            <li id="notLike" class="btn" enabled="false">
+                <a class="bgImgLeft" href="#;">Dislike</a>
+            </li>
+
+            <li id="add-to-list" class="btn">
+                <a class="bgImgLeft" href="#;">Add to List</a>
+            </li>
+
+            <li id="share" class="btn">
+                <a class="bgImgLeft" href="#;">Share</a>
+            </li>
+        </ol>
+
+        <hr/>
+
+        <ol id="bottomButtons" class="popupButtons">
+            <li id="home" class="btn">
+                <a class="" href="#;" title="Go to the StumbleUpon web site.">Home</a>
+            </li>
+            <li id="profile" class="btn bottomBtn">
+                <a class="" href="#;" title="Go to your profile.">Your Profile</a>
+            </li>
+            <li id="help" class="btn bottomBtn">
+                <a class="" href="#;" title="Get help with using StumbleUpon.">Help</a>
+            </li>
+            <li id="settings" class="btn bottomBtn">
+                <a class="" href="#;" title="Change your settings.">Settings</a>
+            </li>
+            <hr/>
+            <li id="turnoff" class="btn bottomBtn">
+                <a class="" href="#;" title="Turn the toolbar off.">Hide Toolbar</a>
+            </li>
+            <li id="advanced-options" class="btn bottomBtn" style="display:none">
+                <a class="" href="#;" title="Change extension's advanced options.">Advanced Options</a>
+            </li>
+            <li id="logout" class="btn">
+                <a class="" href="#;">Sign Out</a>
+            </li>
+            <li id="login" class="btn" style="display:none">
+                <a class="" href="#;">Sign In</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<script src="/client_api.js"></script>
+<script src="/jquery.min.js"></script>
+<script src="popup.js"></script>
+
+
+</body>
+</html>

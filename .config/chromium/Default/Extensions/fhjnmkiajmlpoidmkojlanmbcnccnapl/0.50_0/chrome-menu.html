@@ -1,0 +1,77 @@
+<html>
+<head>
+
+<style type='text/css'>
+* { font-family: Arial; }
+
+.menu { list-style: none; }
+
+.menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width:180px;
+}
+
+.menu a:link{
+	color: #000000;
+	font-family: Arial;
+	font-size: 14px;
+	height: 18px;
+	display:block;
+	text-decoration: none;
+	padding: 8px 0 0 0px;
+}
+
+.menu a:hover{
+	font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body style="display:none">
+
+<div class="menu">
+	<ul id="menuOptions">
+		<li><a id="about" href="javascript:void(0);" onclick="aboutTaplio()" >About Taplio</a></li>
+		<li><a id="disable_ext" href="javascript:void(0);" onclick="disable()" >Disable Taplio</a></li>
+		<li><a id="cancel" href="javascript:void(0);" onclick="cancel()" >Cancel</a></li>
+	</ul>
+</div>
+
+
+<script>
+
+// on load
+document.addEventListener('DOMContentLoaded', function() {
+	bg_page = chrome.extension.getBackgroundPage();	
+
+	if (bg_page.Taplio.global_enable) document.body.style.display = "block";
+	else enable();
+});
+
+function aboutTaplio() {
+	chrome.tabs.create({ url: bg_page.Taplio.taplio_about_page })
+	window.close();
+}
+
+function enable() {
+	bg_page.Taplio.extGlobalEnable();
+	window.close();
+}
+
+function disable() {
+	bg_page.Taplio.extGlobalDisable();
+	window.close();	
+}
+
+function cancel() {
+	window.close();
+}
+
+</script>
+
+</body>
+</html>

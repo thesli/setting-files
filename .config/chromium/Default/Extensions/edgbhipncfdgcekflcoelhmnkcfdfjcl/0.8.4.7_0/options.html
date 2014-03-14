@@ -1,0 +1,177 @@
+<html>
+<head>
+	<title>Ultimate Google Docs Viewer Options</title>
+    
+    <script type="text/javascript">
+		
+		// alter this to add or remove extensions
+		var ext_obj = {
+			"<img src='images/spread.gif' align='absmiddle' /> Speadsheet Extensions"	: [
+				/*"xls",
+				"xlsx",
+				"ods",
+				"csv",
+				"tsv",
+				"txt",
+				"tsb"*/
+			],
+			"<img src='images/doc.gif' align='absmiddle' /> Document Extensions": [
+				"doc",
+				"docx",
+				"pdf",
+				"tiff"
+				/*"rtf",
+				"sxw"*/
+			],
+			"<img src='images/pres.gif' align='absmiddle' /> Presentation Extensions":[
+				"ppt",
+				"pps"
+			]
+			
+		}
+		
+        // Saves options to localStorage.
+        function saveOptions() {
+			for (var ext_sec in ext_obj){
+				for(var i = 0; i < ext_obj[ext_sec].length; i++){
+					var current_ext = ext_obj[ext_sec][i];
+					localStorage["ugdv_" + current_ext] = document.getElementById(current_ext).checked;
+				}
+			}
+			localStorage["ugdv_newTab"] = document.getElementById("new_page").checked;
+			localStorage["ugdv_pdfEdit"] = document.getElementById("pdf_edit").checked;
+			document.getElementById("status").innerHTML = "Saved!";
+        }
+    
+        function presetValues(){
+			for (var ext_sec in ext_obj){
+				for(var i = 0; i < ext_obj[ext_sec].length; i++){
+					var current_ext = ext_obj[ext_sec][i];
+					document.getElementById(current_ext).checked = localStorage["ugdv_" + current_ext] != null ? toBool(localStorage["ugdv_" + current_ext]) : true;
+					document.getElementById(current_ext).onchange = function(){
+						document.getElementById("status").innerHTML = "Not saved";
+					}
+				}
+			}
+			document.getElementById("new_page").checked = localStorage["ugdv_newTab"] != null ? toBool(localStorage["ugdv_newTab"]) : true;
+			document.getElementById("new_page").onchange = function(){
+				document.getElementById("status").innerHTML = "Not saved";
+			}
+			document.getElementById("pdf_edit").checked = localStorage["ugdv_pdfEdit"] != null ? toBool(localStorage["ugdv_pdfEdit"]) : true;
+			document.getElementById("pdf_edit").onchange = function(){
+				document.getElementById("status").innerHTML = "Not saved";
+			}
+        }
+        
+		function toBool(str){
+			return ("false" === str) ? false : true;
+		}
+		
+		function selectAll(){
+			// select all types	
+			for (var ext_sec in ext_obj){
+				for(var i = 0; i < ext_obj[ext_sec].length; i++){
+					var current_ext = ext_obj[ext_sec][i];
+					document.getElementById(current_ext).checked = true;
+				}
+			}
+			document.getElementById("status").innerHTML = "Not saved";
+		}
+		
+		function deselectAll(){
+			// deselect all types	
+			for (var ext_sec in ext_obj){
+				for(var i = 0; i < ext_obj[ext_sec].length; i++){
+					var current_ext = ext_obj[ext_sec][i];
+					document.getElementById(current_ext).checked = false;
+				}
+			}
+			document.getElementById("status").innerHTML = "Not saved";
+		}
+    
+    </script>
+    <style>
+		html{
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		form {
+			background-color:#F5F5F5;
+			border: #E5E5E5 1px solid;
+			padding: 20px;
+			width: 400px;
+		}
+		#page_title {
+			color:#039;
+			font-weight:bold;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:24px;
+			margin-bottom:14px;
+		}
+		.section {
+			color:#039;
+			font-weight:bold;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size:14px;
+			margin:15px 0 4px 0;
+		}
+		label {
+			margin-left: 20px;	
+		}
+		#notice {
+			margin-top: 40px;
+			font-size:10px;
+			font-weight:bold;
+		}
+		#status {
+			font-size:10px;
+			font-weight:bold;
+			color:#039;
+		}
+	</style>
+
+</head>
+
+<body onLoad="presetValues()">
+
+    <div id="page_title"><img src="images/icon48.png" align="absmiddle" /> Configure the Ultimate Google Docs Viewer</div>
+    
+    <form>
+        <script type="text/javascript">
+            for (var ext_sec in ext_obj){
+                document.write("<div class='section'>" + ext_sec + "</div>");
+				if (ext_obj[ext_sec].length > 0){
+					for(var i = 0; i < ext_obj[ext_sec].length; i++){
+						var current_ext = ext_obj[ext_sec][i];
+						document.write("<label><input type='checkbox' id='" + current_ext + "' /> *." + current_ext + "</label><br />");
+					}
+				}else{
+					document.write("<i>No files of this type are yet supported by the viewer.</i>");
+				}
+            }
+        </script>
+    </form>
+    <label><input type='checkbox' id='new_page' /> Open in new tab/window </label><br />
+    <label><input type='checkbox' id='pdf_edit' /> Default PDF Files to open with PDFescape.com </label><br />
+    <br />
+    <br />
+    <div id="status"></div>
+    <button onClick="selectAll();"><img src='images/checkbox.png' align='absmiddle' /> Select All</button>
+    <button onClick="deselectAll();"><img src='images/uncheckbox.png' align='absmiddle' /> Select None</button>
+    &emsp;
+    <button onClick="saveOptions();"><img src='images/disk.png' align='absmiddle' /> Save</button>
+    <button onClick="window.close();"><img src='images/cross.png' align='absmiddle' /> Close Options</button>
+
+<div id="notice">
+	* Thanks for <a href="http://www.pdfescape.com" target="_blank">PDFescape.com</a>, users can now edit PDF files online without needing to create an account. 
+    <br />
+	* Icons used on the form, title, and extension app icon are owned by <a href="http://www.google.com" target="_blank">Google, Inc.</a>
+    <br />
+    * Icons on buttons are from <a href="http://famfamfam.com" target="_blank">famfamfam.com</a>
+    <br />
+    * This extension uses the parseUri JavaScript created by <a href="http://blog.stevenlevithan.com/archives/parseuri" target="_blank">Steven Levithan</a>.
+    <br /><br />
+    For bugs or suggestions, please leave a comment on the extension page or email me at <a href="mailto:ext.chrome@gmail.com">ext.chrome@gmail.com</a>
+    
+</div>
+</body>
+</html>

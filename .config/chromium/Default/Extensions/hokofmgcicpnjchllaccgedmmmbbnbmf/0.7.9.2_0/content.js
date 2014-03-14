@@ -1,0 +1,1 @@
+var message=chrome.i18n.getMessage("sureToLeavePage"),isProtected=!1;chrome.extension.onMessage.addListener(function(a,c,b){a.action!="currentStatus"&&changeProtection();b(isProtected)});function changeProtection(){isProtected==!1?(isProtected=!0,window.onbeforeunload=function(){return message}):(isProtected=!1,window.onbeforeunload=function(){})};

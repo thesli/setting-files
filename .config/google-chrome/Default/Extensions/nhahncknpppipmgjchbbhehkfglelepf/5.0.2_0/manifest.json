@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "name": "Highlight Keywords for Google Search"
+   },
+   "content_scripts": [ {
+      "css": [ "SearchHighlight.css" ],
+      "js": [ "SearchHighlight.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "icons/highlight128.png",
+      "16": "icons/highlight16.png",
+      "48": "icons/highlight48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9BzWw7xjQ/xu3ef8xfonbAWmchLKWpYyS6YvO0mZPWTgekmMNuOxiNqV0YfG245AyD1U5r9eG1NTdM4OkRoFfS4fNkN82Dvs8tWH/qn133asnhCTcCAPvvckNdCQwM9Or76K+zYVFqnnuWJBwznaPutVUHhl0mkZtdISB/ALEkQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_chrome_extension_name__",
+   "permissions": [ "windows", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "5.0.2"
+}

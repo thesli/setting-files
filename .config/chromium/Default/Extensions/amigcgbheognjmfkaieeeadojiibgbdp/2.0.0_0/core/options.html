@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>Options for TooManyTabs</title>
+        <link rel="stylesheet" type="text/css" href="options.css" />
+        <style type="text/css">
+            body {
+                background: -webkit-gradient(linear, left top, left bottom, from(#09c), to(#357));
+                color: white;
+            }
+            a{
+                color: #FF7;
+            }
+            #feature {
+                background: -webkit-gradient(linear, left top, left bottom,
+                                from(rgba(255,255,255,0.2)), to(rgba(255,255,255,0.05)));
+            }
+            #copyright {
+                font-size: 13px;
+                color: white;
+            }
+            #copyright a {
+                color: white;
+                text-decoration: none;
+            }
+            #copyright a:hover {
+                color: yellow;
+            }
+            #donateBtn {
+                float: right;
+                margin: 5px 5px 5px 20px;
+            }          
+            .tip{
+                margin: 10px;
+                font-size:12px;
+                color:goldenrod;
+            }            
+            #crossWindow3{
+                display:none;
+            }
+        </style>
+        
+        <script type="text/javascript" src="/jscolor/jscolor.js"></script>
+        <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+        <!--script type="text/javascript" src="locales.js"></script-->
+        <script type="text/javascript" src="options.js"></script>
+        <link href="https://plus.google.com/104470168490743748748/" rel="publisher" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"></div>
+                <div id="pagetitle"></div>
+                <a href="https://plus.google.com/104470168490743748748/?prsrc=3" style="float:right;cursor:pointer;display:inline-block;text-decoration:none;color:#fff;font:13px/16px arial,sans-serif;"><span style="display:inline-block;font-weight:bold;vertical-align:top;margin-right:5px;margin-top:8px;">Join us</span><span style="display:inline-block;vertical-align:top;margin-right:15px;margin-top:8px;">on</span><img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border:0;width:32px;height:32px;"/></a>
+            </div>
+            <br style="clear:both">
+            <div id="feature">
+                <div>
+                    <a id="donateBtn" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=977161">Support our development</a>
+                </div>
+                <div id="welcomemessage" class="selection"></div>
+                <br>
+                <h3 id="GeneralSettings">General Settings</h3>
+                <div>
+                    <span id="popupWidth"></span>
+                    <input id="widebutton" type="radio" name="widthselect" value="wide">
+                    <span id="popupWidth1"></span>
+                    <input id="narrowbutton" type="radio" name="widthselect" value="narrow">
+                    <span id="popupWidth2"></span>
+                    <input id="smallbutton" type="radio" name="widthselect" value="small">
+                    <span id="popupWidth3"></span>
+                </div>
+                <br>
+                <div>
+                    <span id="showTabCount"></span>
+                    <input id="showcountbutton" type="radio" name="showcountselect" value="true"><span id="showTabCount1"></span>
+                    <input id="hidecountbutton" type="radio" name="showcountselect" value="0"><span id="showTabCount2"></span>
+                </div>
+                <br>
+                <div>
+                    <span id="maxRcTabs"></span>
+                    <select id="maxRcTabs-select">
+                        <option value="11">11</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <span id="customThemeColor"></span>
+                    <input id="customColor1" class="color">
+                    <input id="customColor2" class="color">
+                </div>
+                <br/>
+                <div>
+                    <label for="disablePreview" id="disablePreviewLabel">Disable tabs preview:</label>
+                    <input type='checkbox' id='disablePreview'></input>                    
+                    <div class="tip" id="disablePreviewTip">
+                        Tip: Even when tab previews are still loading, you can start to select or search tabs already.
+                    </div>
+                </div>
+                             
+                <div>
+                    <label for="disableContextMenu" id="disableContextMenuLabel">Disable TMT context menu</label>
+                    <input type='checkbox' id='disableContextMenu'></input>                   
+                </div>
+                <br/>                
+                <div>
+                    <span id="hidePinTabLabel">Hide Chrome's pinned tabs in TMT popup</span>
+                    <input id="hidePinTab" type="checkbox">
+                </div>
+                <br/>
+
+                <hr/>
+                <h3><span id="advancedFeatures"></span></h3>
+
+                <div>
+                    <span id="customRows1"></span>
+                    <input id="basicbutton" type="radio" name="modeselect" value="0">
+                    <span id="customRows2"></span>
+                    <input id="probutton" type="radio" name="modeselect" value="1">
+                    <span id="customRows3"></span>
+                </div>
+                <br>
+                <div>
+                    <span id="crossWindow"></span>
+                    <input id="showcrosswindow" type="radio" name="crosswindowselect" value="true"><span id="crossWindow1"></span>
+                    <input id="hidecrosswindow" type="radio" name="crosswindowselect" value="0"><span id="crossWindow2"></span>
+                    <div id="crossWindow3" class="tip"></div>
+                </div>               
+                <div>
+                    <span id="shortcut1"></span>
+                    <select id="shortcutkey">
+                        <option value="0">None</option>
+                        <option value="192">~ (Default)</option>
+                        <option value="219">[</option>
+                        <option value="221">]</option>
+                        <option value="220">\</option>
+                        <option value="186">;</option>
+                        <option value="222">'</option>
+                        <option value="188">,</option>
+                        <option value="190">.</option>
+                        <option value="191">/</option>
+                        <option value="27">ESC</option>
+                    </select>
+                    <div id="shortcut2" class="tip"></div>
+                </div>
+                <div>
+                    <span id="winpopupWidthLabel">TMT popup window's width (open by shortcut)</span>:
+                    <input id="winpopupWidth" type="text" size="5" value="800">
+                </div>                
+            </div>
+            <br style="clear:both">
+            <div>               
+                Bug report or suggestions? Go to this <a href="https://chrome.google.com/webstore/support/amigcgbheognjmfkaieeeadojiibgbdp">public support page</a> or <a href="mailto:contactus@visibotech.com">email us</a>
+                <div id="copyright">
+                    Version 2.0.0 | <a href='http://www.visibotech.com/'>Home</a> | <a href='http://blog.visibotech.com/'>Blog</a> | Copyright © 2009 Visibo Ltd. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

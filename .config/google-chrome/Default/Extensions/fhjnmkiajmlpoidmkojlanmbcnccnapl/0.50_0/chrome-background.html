@@ -1,0 +1,83 @@
+<html>
+<head>
+<script>
+	document.write('<script type="text/javascript" src="'+chrome.extension.getURL('taplio-ext-core/jquery-1.6.min.js')+'"> <\/script>');
+	document.write('<script type="text/javascript" src="'+chrome.extension.getURL('taplio-ext-core/taplio-background.js')+'"> <\/script>');
+	document.write('<script type="text/javascript" src="'+chrome.extension.getURL('taplio-ext-core/taplio-host-defs.js')+'"> <\/script>');
+	
+	// ----------------------------------
+	// CHROME BACKGROUND ADAPTER
+	// ----------------------------------
+	chromeBackgroundAdapter = {
+		_init_chrome_messageListener_: function() {
+			chrome.extension.onRequest.addListener(function(message, sender, sendResponse) {
+				if (typeof(Taplio[message.method]) == 'function') Taplio[message.method](message, sender.tab.id);
+				sendResponse(true);
+			});
+		},
+		_fn_sendToTab_: function(tab_id, message) {
+			chrome.tabs.sendRequest(tab_id, message);
+		},
+		_fn_sendToTabs_: function(method, payload) {
+			chrome.windows.getAll({ populate: true }, function(windows) {
+				for(var w in windows) {
+					var tabs = windows[w].tabs;
+					for(var t in tabs) {
+						Taplio.sendToTab(tabs[t].id, method, payload);
+					}
+				}
+			});
+		},
+		_fn_tabClosed_: function(tab_id, callback) {
+			chrome.windows.getAll({ populate: true }, function(windows) {
+				for(var w in windows) {
+					var tabs = windows[w].tabs;
+					for(var t in tabs) {
+						if (tabs[t].id == tab_id) return callback(false);
+					}
+				}
+				return callback(true);
+			});
+		},
+		_fn_getVersion_: function(callback) {
+			var xhr = new XMLHttpRequest(); 
+			xhr.open("get", chrome.extension.getURL('manifest.json'), false); 
+			xhr.onreadystatechange = function() {
+				if(this.readyState == 4) callback('taplio-chrome-'+JSON.parse(this.responseText).version);
+			}; 
+			xhr.send();
+		},
+		_fn_getHTML_: function(callback) {
+			var xhr = new XMLHttpRequest(); 
+			xhr.open("get", chrome.extension.getURL('taplio-ext-core/taplio.html'), false); 
+			xhr.onreadystatechange = function() {
+				var html = this.responseText;
+				html = html.replace(/@adapter_asset_path@/g, chrome.extension.getURL('chrome_assets'));
+				html = html.replace(/@core_asset_path@/g, chrome.extension.getURL('taplio-ext-core/assets'));
+				html = html.split('<!-- split -->');
+				callback(html[0], html[1]);
+			}; 
+			xhr.send();
+		},
+		_fn_getCoreAssetPath_: function(callback) {
+			callback(chrome.extension.getURL('taplio-ext-core/assets'));
+		},
+		_fn_setGlobalIcon_: function(icon) {
+			chrome.browserAction.setIcon({path:chrome.extension.getURL('chrome_assets/'+icon)});
+		}
+	}
+	
+	document.addEventListener('DOMContentLoaded', function() {
+		// copy in dependencies / run adapter init
+		for(var x in chromeBackgroundAdapter) {
+			if (x.slice(0,4) == '_fn_' || x.slice(0,2) == 'ct') Taplio[x.slice(3,x.length)] = chromeBackgroundAdapter[x];
+			else if (x.slice(0,6) == '_init_') chromeBackgroundAdapter[x]();
+		}
+
+		Taplio.init();
+	});
+	
+</script>
+
+</head>
+</html>

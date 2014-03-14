@@ -1,0 +1,804 @@
+@charset "utf-8";
+@font-face {
+    font-family: "FontAwesome";
+    src: url("font/fontawesome-webfont.woff?v=3.0.1") format("woff"),
+         url("chrome-extension://__MSG_@@extension_id__/font/fontawesome-webfont.woff?v=3.0.1") format("woff"),
+         url("font/fontawesome-webfont.ttf?v=3.0.1") format("truetype"),
+         url("chrome-extension://__MSG_@@extension_id__/font/fontawesome-webfont.ttf?v=3.0.1") format("truetype");
+}
+@-webkit-keyframes popIn{
+	0% {
+        opacity:0;
+        -webkit-transform:scale(0);
+        -webkit-animation-timing-function:ease-in;
+    }
+    60% {
+  	    opacity:0.8;
+  	    -webkit-transform:scale(1.2);
+  	    -webkit-animation-timing-function:ease-out;
+    }
+    100% {
+  	    opacity:1;
+  	    -webkit-transform:scale(1);
+    }
+}
+@-moz-keyframes popIn{
+	0% {
+        opacity:0;
+        -moz-transform:scale(0);
+        -moz-animation-timing-function:ease-in;
+    }
+    80% {
+  	    opacity:0.8;
+  	    -moz-transform:scale(1.2);
+  	    -moz-animation-timing-function:ease-out;
+    }
+    100% {
+  	    opacity:1;
+  	    -moz-transform:scale(1);
+    }
+}
+#codecola,
+#codecola label,
+#codecola input,
+#codecola p,
+#codecola form,
+#codecola ol,
+#codecola ul,
+#codecola li,
+#codecola a,
+#codecola select,
+#codecola textarea,
+#codecola button,
+#codecola ccfieldset,
+#codecola ccu,
+#codecola ccs,
+#codecola ccb,
+#codecola cccode,
+#codecola cclegend {
+    font: normal normal normal 12px/1.5 "Helvetica Neue", Helvetica, arial , san-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.codecola-wrap {
+    background-color: #292929;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    background-clip: padding-box;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 0 #000;
+    z-index: 2147483646;
+}
+
+#codecola .codecola-icon,
+#codecola .codecola-icon::before{
+    font: 14px/20px "FontAwesome";
+    color: rgb(100,100,100);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+}
+
+#codecola .codecola-icon:hover,
+#codecola .codecola-icon::before:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+
+#codecola .codecola-code{
+    font-family: monospace, consolas;
+    background-color: #f0f0f0;
+}
+
+#codecola ccfieldset {
+    display: block;
+}
+
+#codecola input,
+#codecola input:focus,
+#codecola select,
+#codecola textarea,
+#codecola textarea:focus {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+}
+
+#codecola button {
+    padding: 0 5px;
+}
+
+#codecola textarea {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#codecola ul,
+#codecola ol,
+#codecola li {
+    list-style: none;
+}
+
+#codecola {
+    padding: 0 5px 5px 6px;
+    position: fixed;
+    right: 5px;
+    text-align: left;
+    top: 5px;
+    width: 300px;
+    color: #fff;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+#codecola.cc-fade {
+    opacity: .7;
+}
+
+ol#codecola-selectors {
+    border-width: 4px;
+    color: #ccc;
+    opacity: 0;
+    position: fixed;
+    top: -2000px;
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    min-width: 150px;
+    padding: 5px 10px;
+}
+
+#codecola-selectors .tag-selector,
+#codecola-selectors .class-selector {
+    border-bottom: 1px solid #111;
+    padding: 2px 0;
+    cursor: pointer;
+    -webkit-transition: padding 0.2s ease-out;
+    -moz-transition: padding 0.2s ease-out;
+    transition: padding 0.2s ease-out;
+}
+
+#codecola-selectors .tag-selector:hover,
+#codecola-selectors .class-selector:hover {
+    color: #fff;
+    background-color: #333;
+    padding-left: 5px;
+}
+
+#codecola-selectors li:last-child {
+    border: none;
+}
+
+#codecola #codecola-current-info {
+    color: #d9d9d9;
+    padding-bottom: 2px;
+}
+
+#codecola #codecola-current-node {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 62px;
+    display: inline-block;
+}
+
+#codecola #codecola-open-all {
+    background-color: #3B3B3B;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    width: 40px;
+    top: -2px;
+    right: 0;
+}
+
+#codecola #codecola-open-all ccu,
+#codecola #codecola-open-all ccb {
+    display: inline-block;
+    height: 18px;
+    position: absolute;
+}
+
+#codecola #codecola-open-all ccu {
+    background-color: #595959;
+    border: 1px solid #1D1D1D;
+    border-width: 0 1px;
+    width: 20px;
+    -webkit-transition: left .2s ease-out;
+    -moz-transition: left .2s ease-out;
+    transition: left .2s ease-out;
+    left: -1px;
+}
+
+#codecola #codecola-open-all ccb {
+    background-color: #4169af;
+    top: 0;
+    left: 0;
+    width: 20px;
+}
+
+#codecola.codecola-allOpen #codecola-open-all ccu {
+    left: 19px;
+}
+
+#codecola ul {
+    padding-right: 5px;
+    margin-top: 2px;
+    max-height: 510px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#codecola ul::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+#codecola ul::-webkit-scrollbar-track-piece {
+    background-color: #000;
+}
+
+#codecola ul::-webkit-scrollbar-thumb {
+    background-color: #292929;
+    border: 1px solid #000;
+}
+
+#codecola ul.cc-close {
+    padding: 0 5px 0;
+    max-height: 0;
+}
+
+#codecola .codecola-item .codecola-item-title{
+    position: relative;
+    margin: 0;
+    color: #888;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+#codecola .codecola-item .codecola-item-title:hover{
+    color: #ccc;
+}
+
+#codecola .codecola-item .codecola-item-title::before{
+    font-family: "FontAwesome";
+    content: "\f0da";
+    display: inline-block;
+    width: 10px;
+}
+
+#codecola .codecola-item-open .codecola-item-title::before {
+    content: "\f0d7";
+}
+
+#codecola .codecola-item .codecola-item-title label {
+    font-size: 14px;
+}
+
+#codecola cccode {
+    color: #fff;
+}
+
+#codecola .codecola-editorWrap,
+#codecola #codecola-styles{
+    border: 1px solid #000;
+    border-color: #000 rgba(0,0,0,.25) rgba(0,0,0,.25) #000;
+    margin: 0 1px 0 0;
+    padding: 0 10px;
+    height: 0;
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    overflow: hidden;
+    position: relative; /*mac os chrome overflow hidden bug*/
+}
+
+#codecola .codecola-editorWrap {
+    background-color: #474747;
+}
+
+#codecola .codecola-disable .codecola-editorWrap::after{
+    content: '\20';
+    background-color: rgba(0,0,0,.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#codecola #codecola-styles{
+    padding: 0 5px;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    resize: none;
+    border-color: #282828;
+}
+
+#codecola .codecola-item{
+    display: none;
+}
+
+#codecola .codecola-item-open .codecola-editorWrap {
+    height: auto;
+    padding: 10px;
+    border-color: #000;
+}
+
+#codecola #codecola-styles.cc-open{
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+#codecola input {
+    vertical-align: middle;
+}
+
+#codecola input[type="range"] {
+    width: 128px;
+    color: #fff;
+}
+
+#codecola input[type="file"] {
+    width: 205px;
+}
+
+#codecola input[type="text"]:disabled,
+#codecola input[type="number"]:disabled {
+    color: #F5F4EA;
+    background-color: #ccc;
+    border-color: #222;
+}
+
+#codecola input[type="checkbox"],
+#codecola input[type="radio"] {
+    vertical-align: text-bottom;
+}
+
+#codecola input[type="text"],
+#codecola input[type="number"],
+#codecola .codecola-degree-input {
+    border: 1px solid #000;
+    -webkit-box-shadow: 1px 1px 0 #555;
+    -moz-box-shadow: 1px 1px 0 #555;
+    box-shadow: 1px 1px 0 #555;
+    padding: 0;
+}
+
+#codecola option:nth-child(2n+1) {
+    background-color: #eee;
+}
+
+#codecola ccfieldset .codecola-color-editorWrap {
+    padding-left: 48px;
+    width: 192px;
+    margin-top: -20px;
+}
+
+/*TODO*/
+#codecola #codecola-item-webkitBoxReflect ccfieldset .codecola-color-editorWrap {
+    padding-left: 0;
+    width: auto;
+    margin-top: 0;
+}
+
+#codecola-webkitBoxReflectGradient {
+    margin-top: 30px;
+}
+
+#codecola .codecola-hsb-current {
+    overflow: hidden;
+}
+
+#codecola .codecola-hsb-current label {
+    float: left;
+    margin-top: 2px;
+}
+
+#codecola .codecola-hsb {
+    margin: 5px 0;
+}
+
+#codecola .codecola-hsb-range input {
+    width: 194px;
+}
+
+#codecola .codecola-hsb-current input,
+#codecola .codecola-currentStyle,
+#codecola .codecola-degree-input,
+#codecola .codecola-color-picker .codecola-color-current input {
+    width: 42px;
+    height: 15px;
+    background-color: #7f7f7f;
+}
+
+#codecola .codecola-hsb-current input {
+    float: right;
+    margin-right: 2px;
+}
+
+#codecola .codecola-currentStyle,
+#codecola .codecola-color-picker .codecola-color-current input {
+    margin-left: 5px;
+    line-height: 15px;
+}
+
+#codecola .codecola-color-picker input[type="range"] {
+    width: 100%;
+}
+
+#codecola .codecola-hsb-img {
+    height: 5px;
+    margin-top: 3px;
+    background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMhaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQzNDIsIDIwMTAvMDEvMTAtMTg6MDY6NDMgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QzQyNjg2NzVDMzJGMTFERkI3QTJEQUIwNjk1RUVGRTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QzQyNjg2NzZDMzJGMTFERkI3QTJEQUIwNjk1RUVGRTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDNDI2ODY3M0MzMkYxMURGQjdBMkRBQjA2OTVFRUZFNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDNDI2ODY3NEMzMkYxMURGQjdBMkRBQjA2OTVFRUZFNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB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);
+    background-repeat: no-repeat;
+}
+
+#codecola .codecola-hsbH .codecola-hsb-img {
+    background-position: 0 0;
+}
+
+#codecola .codecola-hsbS .codecola-hsb-img {
+    background-position: 0 -5px;
+}
+
+#codecola .codecola-hsbB .codecola-hsb-img {
+    background-position: 0 -10px;
+}
+
+#codecola .codecola-editor-multi ccfieldset {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #555;
+    padding: 10px 0;
+    position: relative;
+}
+
+#codecola .codecola-editor-multi ccfieldset:last-child {
+    border-bottom: none;
+}
+
+#codecola .codecola-editor-multi ccfieldset:first-child {
+    border-top: none;
+}
+
+#codecola .codecola-editor-multi ccfieldset cclegend {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #ddd;
+    background-color: #111;
+    border-radius: 4px;
+    padding: 1px 5px;
+}
+
+#codecola ccfieldset ol label:first-child,
+#codecola .codecola-color-picker label {
+    display: inline-block;
+    width: 48px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    -webkit-text-size-adjust: none;
+}
+
+#codecola .codecola-color-picker .codecola-color-current label {
+    width: auto;
+    margin: 0;
+}
+
+#codecola ccfieldset li {
+    margin: 2px 0;
+}
+
+#codecola #codecola-item-fontOther .codecola-editorWrap label,
+#codecola #codecola-item-textAlign .codecola-editorWrap label {
+    margin-right: 10px;
+}
+
+#codecola-option:after,
+codecola-current-info:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#codecola-fold {
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -5px;
+    right: 0;
+}
+
+#codecola-fold ccs,
+#codecola-fold ccb {
+    border: 1px solid #888;
+    border-width: 2px 1px 1px;
+    background-color: #292929;
+    display: inline-block;
+    height: 5px;
+    width: 8px;
+    top: 5px;
+    left: 6px;
+    position: absolute;
+}
+
+#codecola-fold ccb {
+    top: 8px;
+    left: 4px;
+}
+
+#codecola-fold.cc-close ccb {
+    display: none;
+}
+
+#codecola-fold.cc-close ccs {
+    top: 9px;
+    border-width: 2px 0 0;
+    left: 5px;
+    width: 10px;
+}
+
+#codecola-fold:hover ccs,
+#codecola-fold:hover ccb {
+    border-color: #ccc;
+}
+
+#codecola-show-about{
+    float: right;
+    margin: -5px 0 0 2px;
+}
+#codecola-show-about::after {
+    content: "\f05a";
+}
+
+#codecola-drag {
+    overflow: hidden;
+    height: 10px;
+    cursor: move;
+    margin: 6px 5px 10px 0;
+    background: -webkit-linear-gradient(90deg,rgba(0,0,0,0) 50%,#888 50%) repeat 0 0;
+    background-size: 2px 2px;
+}
+
+.codecola-opt-button {
+    border: 1px solid #292929;
+    float: right;
+    top: -2px;
+    position: relative;
+    margin-right: 2px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#codecola-getStyles,
+#codecola-getHTML {
+    font: bold 12px/18px arial !important;
+    letter-spacing: 1px;
+}
+
+#codecola-switch::after{
+    content: "\f002";
+}
+
+#codecola-share::after{
+    content: "\f045";
+}
+
+#codecola-getNote::after{
+    content: "\f0f6";
+}
+
+#codecola-save::after{
+    content: "\f0c7";
+}
+
+#codecola .codecola-opt-button.cc-open,
+#codecola .codecola-opt-button:active {
+    border-color: #000;
+    background-color: #666;
+    color: #ccc;
+}
+
+#codecola .codecola-opt-button.cc-open:hover {
+    background-color: #777;
+}
+
+#codecola .codecola-item .codecola-icon {
+    float: right;
+}
+
+#codecola .codecola-compatibility::after{
+    content: "\f0ac";
+}
+
+#codecola .codecola-cancel::after{
+    content: "\f0e2";
+}
+
+#codecola .codecola-eye::after{
+    content: "\f06e";
+}
+
+#codecola .codecola-eye.cc-close::after{
+    content: "\f070";
+}
+
+#codecola .codecola-degree-wrap,
+#codecola-textShadowDegree,
+#codecola-boxShadowDegree{
+    color: #fff;
+    display:inline-block;
+}
+
+#codecola-getHTML-wrap,
+#codecola-save-wrap,
+#codecola-about-wrap,
+#codecola-finder-wrap {
+    display: none;
+    padding: 25px 5px 5px;
+    position: fixed;
+    color: #fff;
+    z-index: 2147483647;
+}
+
+#codecola-save-wrap,
+#codecola-finder-wrap,
+#codecola-about-wrap {
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+#codecola-save-wrap.loadding,
+#codecola-finder-wrap.cc-open,
+#codecola-about-wrap.cc-open {
+    -webkit-animation: popIn 0.5s;
+    -moz-animation: popIn 0.5s;
+    display: block;
+}
+
+.codecola-pop-title {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: #888;
+}
+
+.codecola-pop-close {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.codecola-pop-close::before {
+    content: "\f00d";
+}
+
+#codecola-getHTML-wrap.loadding {
+    display: block;
+    top: 5px;
+    left: 5px;
+}
+
+#codecola-getHTML-wrap.cc-open {
+    right: 5px;
+    bottom: 5px;
+}
+
+#codecola-getHTML-content,
+#codecola-save-content,
+#codecola-finder-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: #555;
+    border: 1px solid black;
+    resize: none;
+}
+
+#codecola-show-currentNode {
+    color: #888;
+    padding: 0 1px;
+    cursor: help;
+    border-bottom: 1px dotted #888;
+}
+
+#codecola-show-currentNode:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+#codecola-about-wrap {
+    width: 420px;
+    height: 150px;
+    margin-left: -220px;
+    margin-top: -150px;
+}
+
+#codecola-about-wrap .codecola-about-global {
+    height: 100px;
+    padding: 5px 10px;
+    background: url(128.png) no-repeat 10px 10px #474747;
+    background-image: url(chrome-extension://__MSG_@@extension_id__/128.png);
+    background-size: 60px;
+    position: relative;
+}
+
+#codecola-about-wrap .codecola-about-version {
+    color: #ccc;
+    padding-left: 80px;
+    margin-top: -5px;
+}
+
+#codecola-about-wrap .codecola-about-author {
+    font-size: 10px;
+    -webkit-text-size-adjust: none;
+}
+
+#codecola-about-wrap .codecola-about-name {
+    font-size: 30px;
+    line-height: 1.2;
+    padding-top: 6px;
+    padding-left: 75px;
+    font-family: georgia;
+    background: none;
+}
+
+#codecola-about-wrap .codecola-about-detail {
+    color: #888;
+}
+
+#codecola-about-wrap .codecola-about-doc {
+    margin: 3px 0;
+}
+
+#codecola-about-wrap .codecola-about-content a {
+    color: #ccc;
+    background: none;
+    text-decoration: underline;
+}
+
+#codecola-about-wrap .codecola-about-author a {
+    color: #888;
+}
+
+#codecola-about-wrap .codecola-about-wrap a:hover {
+    color: #fff;
+}
+
+#codecola-mask {
+    position: fixed;
+    z-index: 2147483645;
+    left: -100px;
+    background-color: rgba(42, 134, 219, 0.42);
+    pointer-events: none;
+}
+
+#codecola .codecola-color-transparent{
+    vertical-align: middle;
+}
+
+.codecola-selecting{
+    outline: 2px solid rgba(42, 134, 219, 0.42);
+}

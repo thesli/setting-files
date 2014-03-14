@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ZASTARELO. Uporabite raz\u0161iritev Google Input Tools (na voljo na http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "ZASTARELO: navidezna tipkovnica (Googlov izdelek)"
+   },
+   "vkbd_options_title": {
+      "message": "Mo\u017Enosti raz\u0161iritev za navidezno tipkovnico"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Na levi strani izberite postavitve tipkovnice:"
+   },
+   "vkbd_save_options": {
+      "message": "Shrani"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Poka\u017Ei/skrij tipkovnico"
+   }
+}

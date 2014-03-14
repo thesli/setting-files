@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Сазнајте више"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Помозите нам пријављивањем проблема."
+   },
+   "app_nacl_crash_report": {
+      "message": "Пријавите проблем..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Упс. Нисмо то очекивали."
+   },
+   "app_nacl_error_msg": {
+      "message": "Дошло је до проблема при учитавању апликације."
+   },
+   "app_nacl_error_title": {
+      "message": "Датотека не може да се отвори."
+   },
+   "application_description": {
+      "message": "Измена докумената"
+   },
+   "file_loading_spinner_label": {
+      "message": "Учитавање"
+   },
+   "file_not_found_msg": {
+      "message": "Датотека коју сте захтевали је премештена."
+   },
+   "file_not_found_title": {
+      "message": "Датотека није пронађена."
+   }
+}

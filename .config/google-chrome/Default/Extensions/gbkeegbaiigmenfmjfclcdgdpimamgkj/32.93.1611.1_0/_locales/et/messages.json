@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Lisateave"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Aidake meid, teavitades probleemist."
+   },
+   "app_nacl_crash_report": {
+      "message": "Probleemist teavitamine ..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Oih! Seda poleks pidanud juhtuma."
+   },
+   "app_nacl_error_msg": {
+      "message": "Rakenduse laadimisel ilmnes probleem."
+   },
+   "app_nacl_error_title": {
+      "message": "Faili ei saa avada."
+   },
+   "application_description": {
+      "message": "Dokumendi muutmine"
+   },
+   "file_loading_spinner_label": {
+      "message": "Laadimine"
+   },
+   "file_not_found_msg": {
+      "message": "Taotletud fail pole enam selles kohas."
+   },
+   "file_not_found_title": {
+      "message": "Faili ei leitud."
+   }
+}

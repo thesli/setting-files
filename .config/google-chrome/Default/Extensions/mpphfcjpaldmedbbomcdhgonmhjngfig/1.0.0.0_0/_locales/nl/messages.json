@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "VEROUDERD. Gebruik in plaats daarvan de extensie voor Google Input Tools (verkrijgbaar op http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "VEROUDERD: Virtueel toetsenbord (van Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opties voor de extensie Virtueel toetsenbord"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Selecteer toetsenbordindelingen aan de linkerkant:"
+   },
+   "vkbd_save_options": {
+      "message": "Opslaan"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Toetsenbord weergeven/verbergen"
+   }
+}

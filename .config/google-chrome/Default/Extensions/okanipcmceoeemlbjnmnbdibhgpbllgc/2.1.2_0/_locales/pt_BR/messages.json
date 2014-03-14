@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "pt-BR"
+   },
+   "qs_about_close_button": {
+      "message": "Fechar"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Ap\u00F3s clicar em um resultado de pesquisa do Google, a Rolagem r\u00E1pida do Google pode aparecer no canto inferior direito da p\u00E1gina, mostrando um ou mais trechos de texto da p\u00E1gina que s\u00E3o relevantes para a sua consulta. Clicar no texto leva para aquela parte da p\u00E1gina."
+   },
+   "qs_about_explanation2": {
+      "message": "A Rolagem r\u00E1pida do Google aparece somente quando h\u00E1 probabilidade de ser \u00FAtil. Voc\u00EA pode minimiz\u00E1-la clicando no bot\u00E3o \"minimizar\" no canto superior direito."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003ESobre o Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPol\u00EDtica de Privacidade\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETermos de Servi\u00E7o\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Como a Rolagem r\u00E1pida funciona:"
+   },
+   "qs_about_installed": {
+      "message": "A Rolagem r\u00E1pida do Google foi instalada."
+   },
+   "qs_about_introduction": {
+      "message": "A Rolagem r\u00E1pida do Google \u00E9 uma extens\u00E3o de navegador que ajuda o usu\u00E1rio a encontrar o que est\u00E1 pesquisando mais rapidamente."
+   },
+   "qs_about_only_useful": {
+      "message": "A Rolagem r\u00E1pida s\u00F3 aparece quando \u00E9 \u00FAtil. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003ESaiba mais\u003C/a\u003E .",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Op\u00E7\u00F5es salvas"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Ajude a melhorar a Rolagem r\u00E1pida do Google enviando estat\u00EDsticas de uso automaticamente para o Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Op\u00E7\u00F5es de privacidade"
+   },
+   "qs_about_step_1": {
+      "message": "Fa\u00E7a uma pesquisa no Google."
+   },
+   "qs_about_step_2": {
+      "message": "Clique em um resultado da pesquisa."
+   },
+   "qs_about_step_3": {
+      "message": "Clique na Rolagem r\u00E1pida para ir para as partes relevantes da p\u00E1gina."
+   },
+   "qs_about_support_instructions": {
+      "message": "Em caso de d\u00FAvidas ou problemas para usar a Rolagem r\u00E1pida, consulte a nossa \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Ep\u00E1gina de suporte\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Obrigado por instalar a Rolagem r\u00E1pida do Google"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EExperimente!\u003C/ b\u003E Pesquise por [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] e clique no resultado \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Teste estas consultas:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Para desinstalar a Rolagem r\u00E1pida do Google, use a op\u00E7\u00E3o de menu Ferramentas&nbsp;\u003E&nbsp;Extens\u00F5es do Chrome e clique no link Desinstalar da extens\u00E3o Rolagem r\u00E1pida do Google."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Desinstalar"
+   },
+   "qs_description": {
+      "message": "A Rolagem r\u00E1pida do Google permite saltar diretamente para os trechos de interesse de um resultado de pesquisa do Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Menos correspond\u00EAncias"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Mostrar as correspond\u00EAncias originais para a sua consulta"
+   },
+   "qs_gallery_description": {
+      "message": "A Rolagem r\u00E1pida do Google \u00E9 uma extens\u00E3o do navegador que ajuda voc\u00EA a encontrar o que est\u00E1 procurando mais rapidamente.\u003Cbr/\u003E\u003Cbr/\u003EDepois de clicar em um resultado de pesquisa do Google, a Rolagem r\u00E1pida pode aparecer no canto inferior direito da p\u00E1gina, mostrando um ou mais trechos do texto da p\u00E1gina que s\u00E3o relevantes para sua consulta. Clicar sobre o texto leva para essa parte da p\u00E1gina.\u003Cbr/\u003E\u003Cbr/\u003E A ideia da Rolagem r\u00E1pida n\u00E3o \u00E9 atrapalhar, por isso ela s\u00F3 aparece quando h\u00E1 probabilidade de ser \u00FAtil."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "A Rolagem r\u00E1pida n\u00E3o localizou nenhuma correspond\u00EAncia nesta p\u00E1gina para \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003ESaiba mais.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Esta p\u00E1gina inteira parece ser sobre \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. A Rolagem r\u00E1pida aparece quando apenas algumas partes da p\u00E1gina s\u00E3o relevantes. \u003Cspan class=\"goog_qs-learn-more\"\u003ESaiba mais.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "A Rolagem r\u00E1pida n\u00E3o apareceu porque a p\u00E1gina inteira \u00E9 relevante para sua consulta."
+   },
+   "qs_info_on_search": {
+      "message": "A Rolagem r\u00E1pida aparece ap\u00F3s clicar em um resultado de pesquisa do Google. \u003Cspan class=\"goog_qs-learn-more\"\u003ESaiba mais.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Ao clicar em \"Instalar\", voc\u00EA concorda com estes Termos de Servi\u00E7o: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Mais correspond\u00EAncias \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Mostrar mais correspond\u00EAncias para a sua consulta"
+   },
+   "qs_name": {
+      "message": "Rolagem r\u00E1pida do Google"
+   },
+   "qs_page_action_active": {
+      "message": "A Rolagem r\u00E1pida do Google encontrou correspond\u00EAncias nesta p\u00E1gina."
+   },
+   "qs_page_action_inactive": {
+      "message": "A Rolagem r\u00E1pida do Google est\u00E1 ativada. Clique para obter mais informa\u00E7\u00F5es."
+   },
+   "qs_page_action_running": {
+      "message": "A Rolagem r\u00E1pida do Google est\u00E1 aguardando o carregamento da p\u00E1gina..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Abrir a p\u00E1gina de op\u00E7\u00F5es e a ajuda"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Correspond\u00EAncias na p\u00E1gina para \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Correspond\u00EAncias na p\u00E1gina para \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimizar"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Abrir a Rolagem r\u00E1pida do Google"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Clique para ver este texto na p\u00E1gina"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Ir para o texto $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Melhores correspond\u00EAncias para \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

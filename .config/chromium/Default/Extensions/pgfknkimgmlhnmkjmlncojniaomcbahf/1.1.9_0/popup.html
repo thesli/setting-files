@@ -1,0 +1,136 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="js/tools/tools.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+</head>
+<body>
+	<h1 id="alert"></h1>
+
+	<div id="header">
+		<a href="http://liveinternet.ru/" target="_blank"><img src="/images/logo.png" /></a>
+		<div id="domain_selector">
+			<div>
+				<input type="text" id="domain_field" />
+				<img src="/images/arrow.png" id="start_search" />
+			</div>
+
+			<img src="/images/seo.png" title="SEO tools" id="start_seo_tools" />
+		</div>
+	</div>
+
+	<div id="displayer">
+		<div id="supported_domain">
+
+			<div id="panel_statistics_view">
+				<div id="ts_display" style="display: none">
+					<table id="ts_table" class="cool">
+						<tr>
+							<td colspan="2">
+								<div class="raring_back">
+									<div>
+										<div id="ts_place">65535</div>
+									</div>
+								</div>
+								<div id="rating_right">
+									<span id="ts_place_in_rating">место в рейтинге</span>&nbsp;<a id="place_link" href="#" target="_blank">доменов второго уровня</a>
+								</div>
+							</td>
+						</tr>
+
+						<tr class="a">
+							<td class="l" id="ts_auditory_title">Охват аудитории:</td>
+							<td class="r" id="ts_auditory_value">0.5%</td>
+						</tr>
+						<tr class="b">
+							<td class="l" id="ts_kernel_title">Ядро аудитрии:</td>
+							<td class="r" id="ts_kernel_value">5%</td>
+						</tr>
+						<tr class="a">
+							<td class="l" id="ts_search_title">Доля поискового траффика:</td>
+							<td class="r" id="ts_search_value">0%</td>
+						</tr>
+						<tr class="b">
+							<td class="l" id="ts_demography_title">Демография:</td>
+							<td class="r" id="ts_demography_value" valign="center"><img id="ts_dm_imale" src="/images/male.png" /><span id="ts_dm_lmale">50%</span><img id="ts_dm_ifemale" src="/images/female.png" /><span id="ts_dm_lfemale">50%</span></td>
+						</tr>
+
+						<tr class="b">
+							<td class="l" id="ts_friends_my_title">Друзей:</td>
+							<td class="r" id="ts_friends_my_value">5</td>
+						</tr>
+						<tr class="a">
+							<td class="l" id="ts_friends_me_title">В друзьях у:</td>
+							<td class="r" id="ts_friends_me_value">1</td>
+						</tr>
+
+						<tr>
+							<td colspan="2" class="all_statistics"><a id="ts_all_panel_statistics" href="#" target="_blank">Вся статистика сайта</a></td>
+						</tr>
+					</table>
+				</div>
+				<div id="ts_info">
+					<div id="ts_info_label"></div>
+				</div>
+			</div>
+
+			<div id="counter_statistics_view">
+				<h2 id="cs_title">Статистика посещений</h2>
+				<div id="cs_display" style="display: none">
+					<table id="cs_table" class="cool">
+						<tr>
+							<th></th>
+							<th class="r" id="cs_views_title">Просмотры</th>
+							<th class="r" id="cs_visiters_title">Посетители</th>
+						</tr>
+						<tr class="a">
+							<td class="l" id="cs_month_title">За 31 день</td>
+							<td class="r" id="month_hit">1</td>
+							<td class="r" id="month_vis">1</td>
+						</tr>
+						<tr class="b">
+							<td class="l" id="cs_week_title">За 7 дней</td>
+							<td class="r" id="week_hit">1</td>
+							<td class="r" id="week_vis">1</td>
+						</tr>
+						<tr class="a">
+							<td class="l" id="cs_day_title">За 24 часа</td>
+							<td class="r" id="day_hit">1</td>
+							<td class="r" id="day_vis">1</td>
+						</tr>
+						<tr class="b">
+							<td class="l" id="cs_today_title">Сегодня</td>
+							<td class="r" id="today_hit">1</td>
+							<td class="r" id="today_vis">1</td>
+						</tr>
+						<tr class="a">
+							<td class="l" id="cs_online_title">На линии</td>
+							<td class="r" id="online_hit">1</td>
+							<td class="r" id="online_vis">1</td>
+						</tr>
+					</table>
+				</div>
+				<div id="cs_info">
+					<div id="cs_info_label"></div>
+				</div>
+			</div>
+
+			<div id="catalog_statistics_view">
+
+				<div id="as_display" style="display: none">
+				
+					<div id="as_category_info"></div>
+					<div id="as_statistics_info"></div>
+				</div>
+				<div id="as_info">
+					<div id="as_info_label"></div>
+				</div>
+			</div>
+		</div>
+		<div id="unsupported_domain">
+			<div id="unsupported_page">Информация для этой страницы недоступна</div>
+		</div>
+	</div>
+</body>
+</html>

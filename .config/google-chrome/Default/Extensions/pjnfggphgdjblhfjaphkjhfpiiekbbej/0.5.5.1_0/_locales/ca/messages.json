@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "ca"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Aquesta extensi\u00F3 no pot fer suggeriments en p\u00E0gines com aquesta, que tenen contingut segur (p. ex., http\u003Cb\u003Es\u003C/b\u003E://). Ens veiem al web p\u00FAblic!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Aquesta extensi\u00F3 funciona millor en p\u00E0gines d'inici o a la p\u00E0gina principal de bona part dels llocs web.\u003Cp\u003EProveu l'extensi\u00F3 en un lloc web que us agradi molt&mdash; poseu-la a prova i vegeu els suggeriments de p\u00E0gina en un exemple que ja us \u00E9s conegut."
+   },
+   "sp_default_title": {
+      "message": "Vegeu P\u00E0gines similars de Google"
+   },
+   "sp_description": {
+      "message": "Permet descobrir p\u00E0gines web similars a la p\u00E0gina per la qual navegueu en aquests moments."
+   },
+   "sp_domain_change_message": {
+      "message": "Per canviar el vostre domini local a www.google.com, \u003Ca id='over' href='#'\u003Efeu clic aqu\u00ED\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com s'ha desat com al vostre domini local per recuperar p\u00E0gines similars."
+   },
+   "sp_domain_message": {
+      "message": "L'extensi\u00F3 contactar\u00E0 amb $1 per recuperar la llista de p\u00E0gines similars.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Nombre de p\u00E0gines: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EQuant a Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Ens agradaria molt que ens f\u00E9ssiu saber qualsevol comentari que tingueu a \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Gr\u00E0cies."
+   },
+   "sp_options_intro": {
+      "message": "L'extensi\u00F3 del navegador P\u00E0gines similars de Google permet fer una visualitzaci\u00F3 pr\u00E8via i explorar altres p\u00E0gines similars a la que esteu navegant amb rapidesa i de manera immediata."
+   },
+   "sp_options_legal": {
+      "message": "En fer clic al bot\u00F3 \"P\u00E0gines semblants\", el navegador enviar\u00E0 una consulta de cerca a Google per veure si hi ha cap p\u00E0gina s'assembli a la que visualitzeu.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003ELes dades relacionades amb la consulta es tractaran tal com es descriu a la \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epol\u00EDtica de privadesa\u003C/a\u003E de Google",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPol\u00EDtica de privadesa\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ECondicions d'\u00FAs\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Desinstal\u00B7laci\u00F3"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Per desinstal\u00B7lar P\u00E0gines similars de Google, utilitzeu l'opci\u00F3 del men\u00FA &gt; Extensions d'eines de Google Chrome i feu clic a l'enlla\u00E7 \"Desinstal\u00B7la\" de l'extensi\u00F3 P\u00E0gines similars de Google."
+   },
+   "sp_preview_not_available": {
+      "message": "Visualitzaci\u00F3 pr\u00E8via\u003Cbr\u003Eno disponible"
+   },
+   "sp_product_name": {
+      "message": "P\u00E0gines similars de Google, versi\u00F3 beta (de Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "P\u00E0gines similars de Google"
+   },
+   "sp_tld_special_case_text": {
+      "message": "En aquests moments, l'extensi\u00F3 no est\u00E0 disponible per al vostre pa\u00EDs o per a la vostra regi\u00F3. Torneu a comprovar-ho m\u00E9s endavant."
+   },
+   "sp_zero_results": {
+      "message": "No s'han trobat p\u00E0gines similars."
+   }
+}

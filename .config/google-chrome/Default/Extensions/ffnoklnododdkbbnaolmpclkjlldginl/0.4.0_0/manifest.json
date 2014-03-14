@@ -1,0 +1,19 @@
+{
+   "background_page": "b.html",
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "e.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "An unofficial alternative version of AutoPagerize/AutoPager.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWvG2EcCmcmRfQpqoCrOWWeuxiNa+ej0SX3D3Mt9e1ejEdmXzlMCG48uA9CHk4Ef30TxKE07bMWKQkUgYWNvPOFRUJSAEcQL72XwPSbJMnPI/Z5ixEVp7QkMrFkfmhllb6cCWPbeou1woxcx7AoaaMlS464uNx/XEov/9jWw4c0QIDAQAB",
+   "name": "Infinite Scroll for Google Chrome\u2122",
+   "options_page": "o.html",
+   "permissions": [ "contextMenus", "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.4.0"
+}

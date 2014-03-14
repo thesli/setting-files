@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "lv"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "\u0160is papla\u0161in\u0101jums nevar neko ieteikt no \u0161\u0101da veida lap\u0101m, kur\u0101m ir dro\u0161s saturs (piem., http\u003Cb\u003Es\u003C/b\u003E://). Tiekamies publiskaj\u0101 t\u012Bmekl\u012B!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "\u0160is papla\u0161in\u0101jums vislab\u0101k darbojas m\u0101jaslap\u0101s vai viet\u0146u galvenaj\u0101s lap\u0101s.\u003Cp\u003EIzm\u0113\u0123iniet papla\u0161in\u0101jumu iecien\u012Bt\u0101 vietn\u0113\u00A0&mdash;, p\u0101rbaudiet to un skatiet, k\u0101das lapas tiek ieteiktas par jums zin\u0101m\u0101m liet\u0101m."
+   },
+   "sp_default_title": {
+      "message": "Skat\u012Bt Google Similar Pages"
+   },
+   "sp_description": {
+      "message": "Atkl\u0101jiet t\u012Bmek\u013Ca lapas, kas ir l\u012Bdz\u012Bgas j\u016Bsu p\u0101rl\u016Bkotaj\u0101m lap\u0101m."
+   },
+   "sp_domain_change_message": {
+      "message": "Lai main\u012Btu viet\u0113jo dom\u0113nu uz www.google.com, \u003Ca id='over' href='#'\u003Enoklik\u0161\u0137iniet \u0161eit\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com ir saglab\u0101ts k\u0101 viet\u0113jais dom\u0113ns, kas tiks izmantots l\u012Bdz\u012Bgu lapu izg\u016B\u0161anai."
+   },
+   "sp_domain_message": {
+      "message": "Papla\u0161in\u0101jums sazin\u0101sies ar $1, lai izg\u016Btu l\u012Bdz\u012Bgu lapu sarakstu.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Lapu skaits: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EPar Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "M\u0113s v\u0113l\u0113tos ieg\u016Bt j\u016Bsu atsauksmes. Nos\u016Btiet mums t\u0101s uz \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Paldies!"
+   },
+   "sp_options_intro": {
+      "message": "P\u0101rl\u016Bkprogrammas papla\u0161in\u0101jums Google Similar Pages \u013Cauj jums vien\u0101 mirkl\u012B priek\u0161skat\u012Bt un izp\u0113t\u012Bt lapas, kas ir  l\u012Bdz\u012Bgas tobr\u012Bd p\u0101rl\u016Bkojamajai lapai."
+   },
+   "sp_options_legal": {
+      "message": "Noklik\u0161\u0137inot uz pogas Similar Pages, p\u0101rl\u016Bkprogramma nos\u016Bt\u012Bs mekl\u0113\u0161anas vaic\u0101jumu uz Google, lai uzzin\u0101tu, vai ir lapas, kas l\u012Bdz\u012Bgas skat\u012Btajai.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EAr vaic\u0101jumu saist\u012Btie dati tiks izmantoti saska\u0146\u0101 ar Google \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Ekonfidencialit\u0101tes politiku\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EKonfidencialit\u0101tes politika\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EPakalpojumu snieg\u0161anas noteikumi\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Atinstal\u0113\u0161ana"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Lai atinstal\u0113tu papla\u0161in\u0101jumu Google Similar Pages, atveriet p\u0101rl\u016Bkprogrammas Chrome izv\u0113lni R\u012Bki &gt; Papla\u0161in\u0101jumi un noklik\u0161\u0137iniet uz saites Atinstal\u0113t blakus papla\u0161in\u0101jumam Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Priek\u0161skat\u012Bjums\u003Cbr\u003Enav pieejams"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta versija (nodro\u0161ina Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.lv"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "\u0160is papla\u0161in\u0101jums \u0161obr\u012Bd nav pieejams j\u016Bsu valst\u012B/re\u0123ion\u0101. L\u016Bdzu, v\u0113l\u0101k p\u0101rbaudiet v\u0113lreiz."
+   },
+   "sp_zero_results": {
+      "message": "Neviena l\u012Bdz\u012Bga lapa netika atrasta."
+   }
+}

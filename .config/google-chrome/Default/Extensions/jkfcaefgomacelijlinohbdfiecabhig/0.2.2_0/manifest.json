@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "content_script.js" ],
+      "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Play recognized video contents in a fixed block on the screen.",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzyfFvAArhBMCK180mKJsqRwDQAfy4jNKElSwR0YgKrAH1pWDGaVSJLWgf0vM6vFuo4SEctFfrbrMuVx8hbAfp95PmUTkkA1Y5WqLi9f/ryRnNOL9GPTHwFfDtAaupZblE83TEMU9wPkpOBYQYxFn6AsrDhTT+yDMLqye8A8qHIwIDAQAB",
+   "manifest_version": 2,
+   "name": "Facebook video player",
+   "permissions": [ "tabs", "http://*.facebook.com/", "https://*.facebook.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.2.2"
+}

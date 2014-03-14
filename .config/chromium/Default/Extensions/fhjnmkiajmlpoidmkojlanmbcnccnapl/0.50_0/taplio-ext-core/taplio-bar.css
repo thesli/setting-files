@@ -1,0 +1,57 @@
+/* boilerplate */
+div#taplio_tab_bar, div#taplio_tab_bar * {
+	padding:0px; margin:0px; border:0; 
+	font-size: inherit;
+	font: inherit;
+	vertical-align: middle ! important;
+	cursor:inherit;
+}
+
+/*tab bar styles*/
+div#taplio_tab_bar { 
+	position: fixed;
+	width: 100%; height: 34px;
+	left: 0px; top: 0px;
+	border-bottom: 1px solid #b6b6b6;
+	background-repeat:repeat-x;
+
+	font-family: 'lucida sans unicode';
+	color: #000;
+	font-size: 11px ! important;
+	text-align: left;
+	line-height: 11px;
+	font-style: normal;
+	white-space: nowrap;
+
+	cursor: default;
+	z-index: 2147483647;
+}
+
+div#taplio_bg { position:absolute; left:0px; top:0px; width:100%; height:100%; z-index:-1; }
+div#taplio_logo { position:absolute; top:8px; left:14px; width:50px; height:15px; background-repeat:no-repeat; }
+div#taplio_tabs { position:absolute; display:block; top:0px; left:80px; right:130px; height:100%; overflow:hidden; }
+
+/*traveler width should be set to 145 x # of tabs*/
+div#taplio_tabs_traveler { position:absolute; height:100%; left:0px; margin-left:10px ! important; }
+
+/*tab styles*/
+div.taplio-tab { position:absolute; width:145px; height:30px; bottom:0px; float:left; z-index:99; overflow-x:visible; }
+div.taplio-tab-hldr { position:absolute; left:-10px; right:-10px; height:100%; }
+div.taplio-tab-text-hldr { position:absolute; left:17px; right:15px; }
+img.taplio-tab-fav { position:relative; top:-3px; width:16px; height:16px; left:0px; vertical-align:middle; padding-top:3px ! important; }
+
+/*tab navigation*/
+div#taplio_tab_nav { position:absolute; display:none; }
+div#taplio_tab_nav div { position:relative; float:left; }
+
+/*share*/
+div#taplio_share { position:absolute; top:4px; right:14px; z-index:200; }
+
+img#taplio_share_button { z-index:0; }
+div#taplio_share_frame_hldr { position:absolute; top:24px; right:4px; z-index:1; }
+
+iframe#taplio_share_frame { position:absolute; width:550px; height:350px; top:0px; right:0px; z-index:0; }
+img#taplio_share_frame_pointer { position:absolute; top:-6px; right:5px; z-index:1; }
+
+/*tab footer*/
+div#taplio_tabs_footer { position:absolute; width:100%; height:6px; left:0px; bottom:0px; z-index: 100; }

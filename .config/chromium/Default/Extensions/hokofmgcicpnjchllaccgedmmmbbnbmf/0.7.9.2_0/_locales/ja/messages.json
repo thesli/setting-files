@@ -1,0 +1,46 @@
+{
+   "cannotLockPage": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u3092\u30ED\u30C3\u30AF\u3067\u304D\u307E\u305B\u3093"
+   },
+   "clearRecentlyClosedTabsHistory": {
+      "message": "Clear recently closed tabs"
+   },
+   "clickToOpen": {
+      "message": "\"$title$\"\u3092\u958B\u304D\u307E\u3059",
+      "placeholders": {
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "description": {
+      "message": "\u30BF\u30D6\u3092\u30CA\u30D3\u30B2\u30FC\u30C8\u3059\u308B\u65B0\u3057\u3044\u65B9\u6CD5\u3067\u3059\u3002\u3088\u304F\u4F7F\u3046\u30BF\u30D6\u3001\u95A2\u9023\u3059\u308B\u30BF\u30D6\u3001\u9589\u3058\u3089\u308C\u305F\u30BF\u30D6\u306B\u7C21\u5358\u306B\u30A2\u30AF\u30BB\u30B9\u3067\u304D\u307E\u3059\u3002\u30BF\u30D6\u306E\u30ED\u30C3\u30AF\u3082\u3067\u304D\u307E\u3059\u3002"
+   },
+   "frequentlyUsedTabs": {
+      "message": "\u3088\u304F\u4F7F\u3046\u30BF\u30D6"
+   },
+   "loading": {
+      "message": "\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059..."
+   },
+   "lockPage": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u306E\u30ED\u30C3\u30AF"
+   },
+   "name": {
+      "message": "TabJump - \u6D17\u7DF4\u3055\u308C\u305F\u30BF\u30D6\u30CA\u30D3\u30B2\u30FC\u30BF\u30FC"
+   },
+   "pageActionTitle": {
+      "message": "TabJump!"
+   },
+   "recentlyClosedTabs": {
+      "message": "\u6700\u8FD1\u9589\u3058\u305F\u30BF\u30D6"
+   },
+   "relatedTabs": {
+      "message": "\u95A2\u9023\u3059\u308B\u30BF\u30D6"
+   },
+   "sureToLeavePage": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u3092\u6B8B\u3057\u3066\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"
+   },
+   "unlockPage": {
+      "message": "\u3053\u306E\u30DA\u30FC\u30B8\u306E\u30ED\u30C3\u30AF\u3092\u89E3\u9664\u3059\u308B"
+   }
+}

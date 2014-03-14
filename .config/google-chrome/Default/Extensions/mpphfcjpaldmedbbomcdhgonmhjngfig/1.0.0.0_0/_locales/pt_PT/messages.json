@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ELIMINADO. Utilize a extens\u00E3o das Ferramentas de Introdu\u00E7\u00E3o Google (dispon\u00EDvel em http://goo.gl/lzCPo) como alternativa."
+   },
+   "vkbd_name": {
+      "message": "ELIMINADO: Teclado Virtual (do Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Op\u00E7\u00F5es da Extens\u00E3o Teclado Virtual"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Selecione esquemas de teclado a partir da esquerda:"
+   },
+   "vkbd_save_options": {
+      "message": "Guardar"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Mostrar/Ocultar Teclado"
+   }
+}

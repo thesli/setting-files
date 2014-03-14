@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "Auto Fix Paging Issues"
+   },
+   "CheckUpdate": {
+      "message": "Rechercher des mises \u00E0 jour"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "Le contenu XPath ne peut \u00EAtre vide !"
+   },
+   "CreateANewRule": {
+      "message": "Souhaitez-vous cr\u00E9er une nouvelle r\u00E8gle pour cette page en utilisant l'assistant du site\u00A0?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "EnableAutoPager": {
+      "message": "AutoPager est d\u00E9sactiv\u00E9. Souhaitez-vous le r\u00E9activer maintenant\u00A0?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "AutoPager est d\u00E9sactiv\u00E9 pour ce site. Souhaitez-vous l'activer d\u00E8s maintenant\u00A0?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Ignorer la v\u00E9rification de version"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "Le lien XPath ne peut \u00EAtre vide !"
+   },
+   "Load": {
+      "message": "Load"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Nomatchesfound": {
+      "message": "Aucune correspondance"
+   },
+   "Onematchfound": {
+      "message": "Une correspondance a \u00E9t\u00E9 trouv\u00E9e"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "Pages": {
+      "message": "Pages"
+   },
+   "RelatedSearches": {
+      "message": "related searches:"
+   },
+   "RequestHelpOnSite": {
+      "message": "Souhaitez-vous obten,ir de l'aide depuis ce site\u00A0?"
+   },
+   "Resultsfrom": {
+      "message": "R\u00E9sultats de"
+   },
+   "ShowOnNewSite": {
+      "message": "Voir sur un nouveau site"
+   },
+   "UpdateRules": {
+      "message": "Les r\u00E8gles devraient \u00EAtre mises \u00E0 jour, les soucis seraient ainsi r\u00E9solus.nSouhaitez-vous mettre \u00E0 jour les r\u00E8gles des pages\u00A0?"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "Le param\u00E9trage de site pour \u00AB\u00A0%S\u00A0\u00BB semble avoir d\u00E9j\u00E0 \u00E9t\u00E9 fait, ou est stock\u00E9 en ligne. Voulez-vous vraiment tenir compte de votre demande\u00A0?"
+   },
+   "alwaysdisableshort": {
+      "message": "TD"
+   },
+   "alwaysenableshort": {
+      "message": "TA"
+   },
+   "autopageOn": {
+      "message": "Chargement automatique fait pour %S. Double-cliquez sur la page pour d\u00E9sactiver AutoPager."
+   },
+   "autopageOnTip": {
+      "message": "Chargement automatique fait pour %S.nDouble-cliquez sur la page pour d\u00E9sactiver AutoPager."
+   },
+   "autopagedisabled": {
+      "message": "AutoPager est d\u00E9sactiv\u00E9. Double-cliquez sur la page afin de l'activer."
+   },
+   "autopagedisabledTip": {
+      "message": "AutoPager est d\u00E9sactiv\u00E9.nDouble-cliquez sur la page afin de l'activer."
+   },
+   "autopageenabled": {
+      "message": "AutoPager est activ\u00E9. Double-cliquez sur la page afin de le d\u00E9sactiver."
+   },
+   "autopageenabledTip": {
+      "message": "AutoPager est activ\u00E9.nDouble-cliquez sur la page afin de le d\u00E9sactiver."
+   },
+   "autopager_label_value": {
+      "message": "AutoPager"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "D\u00E9tenteur de la page"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "i"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "Chargement imm\u00E9diat"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "masqu\u00E9"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10 pages"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3 pages"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5 pages"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "T"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "Toutes les pages"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Pause"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "visible"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "Confirmation de site AutoPager"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "Voulez-vous effacer la confirmation de site AutoPager\u00A0?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "Atelier de param\u00E9trage en ligne d'AutoPager"
+   },
+   "autopager_status_createXPath": {
+      "message": "Cr\u00E9er une expression XPath"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "Cr\u00E9er une expression XPath en s\u00E9lectionnant un n\u0153ude sur la page"
+   },
+   "autopager_status_disableOnSite": {
+      "message": "D\u00E9sactiver pour le site"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "D\u00E9sactiver pour le site"
+   },
+   "autopager_status_enabled": {
+      "message": "Activ\u00E9"
+   },
+   "autopager_status_enabledTip": {
+      "message": "\u00C9tat d'activation d'AutoPager"
+   },
+   "autopager_status_export": {
+      "message": "Exporter les param\u00E8tres"
+   },
+   "autopager_status_exportTip": {
+      "message": "Exporter les param\u00E8tres d'Auto Pager"
+   },
+   "autopager_status_exportclip": {
+      "message": "Exporter vers le presse-papiers"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Exporter les param\u00E8tres d'Auto Pager vers le presse-papiers"
+   },
+   "autopager_status_exportfile": {
+      "message": "Exporter vers un fichier"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Exporter les param\u00E8tres d'Auto Pager vers un fichier"
+   },
+   "autopager_status_importclip": {
+      "message": "Importer depuis le presse-papiers"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Importer les param\u00E8tres d'AutoPager depuis le contenu du presse-papiers"
+   },
+   "autopager_status_importexport": {
+      "message": "Importer\u00A0/ exporter"
+   },
+   "autopager_status_importfile": {
+      "message": "Importer depuis un fichier"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Importer les param\u00E8tres d'AutoPager depuis un fichier"
+   },
+   "autopager_status_importurl": {
+      "message": "Importer depuis une URL"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Importer les param\u00E8tres d'AutoPager depuis une URL"
+   },
+   "autopager_status_myname": {
+      "message": "Mon nom :"
+   },
+   "autopager_status_mynameTip": {
+      "message": "Votre nom, qui sera li\u00E9 \u00E0 ce que vous avez cr\u00E9\u00E9 durant le param\u00E9trage"
+   },
+   "autopager_status_reportSite": {
+      "message": "Rapporter un probl\u00E8me sur le site"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "Rapporter un probl\u00E8me sur le site"
+   },
+   "autopager_status_requestHelp": {
+      "message": "Demander de l'aide sur le site"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Demander de l'aide sur le site"
+   },
+   "autopager_status_setting": {
+      "message": "Configuration\u2026"
+   },
+   "autopager_status_settingTip": {
+      "message": "Param\u00E8tres d'AutoPager"
+   },
+   "autopager_status_showabout": {
+      "message": "\u00C0 propos"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "\u00C0 propos d'AutoPager"
+   },
+   "autopager_status_showoption": {
+      "message": "Options de la page"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Voir les options concernant cette page"
+   },
+   "autopager_status_sitewizard": {
+      "message": "Assistant pour le site"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "Cr\u00E9er des param\u00E8tres pour ce site gr\u00E2ce \u00E0 l'assistant"
+   },
+   "autopager_status_testXPath": {
+      "message": "Test du XPath"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Faire le test d'une expression XPath \u00E9tant sur la page"
+   },
+   "autopager_status_update": {
+      "message": "Mise \u00E0 jour des param\u00E8tres"
+   },
+   "autopager_status_updateTip": {
+      "message": "Mettre \u00E0 jour les param\u00E8tres d'AutoPager depuis Rules Repositories"
+   },
+   "autopager_status_xpathUtils": {
+      "message": "Utilitaires XPath"
+   },
+   "autopager_toolbarLabel": {
+      "message": "Atelier de param\u00E9trage en ligne d'AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "Atelier de param\u00E9trage en ligne d'AutoPager"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "\u2026"
+   },
+   "autopager_workshop_label_value": {
+      "message": "Cadres"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "Chargement de la page suivante, merci de patienter\u2026"
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "\u2026"
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "\u2026"
+   },
+   "caption_results_caption2_label": {
+      "message": "R\u00E9sultats"
+   },
+   "caption_results_caption_label": {
+      "message": "R\u00E9sultats"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "Activer le mode Javascript"
+   },
+   "checkbox_ir_label": {
+      "message": "Inclure les r\u00E8gles recommand\u00E9es"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "c"
+   },
+   "command_blinkElement_label": {
+      "message": "Faire clignoter l'\u00E9l\u00E9ment"
+   },
+   "command_narrower_key": {
+      "message": "r"
+   },
+   "command_narrower_label": {
+      "message": "R\u00E9duire la s\u00E9lection"
+   },
+   "command_pause_key": {
+      "message": "p"
+   },
+   "command_pause_label": {
+      "message": "Pause (pour d\u00E9rouler la page, afin de voir les effets)"
+   },
+   "command_quit_key": {
+      "message": "q"
+   },
+   "command_quit_label": {
+      "message": "Quitter le mode \u00AB S\u00E9lection \u00BB"
+   },
+   "command_select_key": {
+      "message": "S"
+   },
+   "command_select_label": {
+      "message": "S\u00E9lectionner un \u00E9l\u00E9ment"
+   },
+   "command_showMenu_key": {
+      "message": "a"
+   },
+   "command_showMenu_label": {
+      "message": "Afficher / masquer l'aide"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "f"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "Afficher la source (dans une nouvelle fen\u00EAtre)"
+   },
+   "command_viewSource_key": {
+      "message": "o"
+   },
+   "command_viewSource_label": {
+      "message": "Afficher la source"
+   },
+   "command_wider_key": {
+      "message": "t"
+   },
+   "command_wider_label": {
+      "message": "\u00C9tendre la s\u00E9lection"
+   },
+   "contentxpathconfirm": {
+      "message": "Pensez-vous que ce contenu XPath est correct ?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Disable everywhere"
+   },
+   "disableon": {
+      "message": "Disable on %S"
+   },
+   "disableshort": {
+      "message": "D"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "AutoPager activ\u00E9 sur %SnLien XPath = %SnContenu XPath = %S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager a trouv\u00E9 un un param\u00E9trage pour %S de %S.nVoulez-vous activer l'auto-pagination pour ce site en l'utilisant\u00A0?"
+   },
+   "enableshort": {
+      "message": "A"
+   },
+   "enableurl": {
+      "message": "Activer AutoPager sur %S."
+   },
+   "errorload": {
+      "message": "Erreur de chargement de page :"
+   },
+   "esctoabort": {
+      "message": "Appuyez sur \u00C9chap pour abandonner."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager est une extension pour Firefox / Mozilla, permettant de charger automatiquement la page suivante en arri\u00E8re-plan. Elle est aussi utilisable en tant que g\u00E9n\u00E9rateur XPath."
+   },
+   "globaldisabled": {
+      "message": "Votre AutoPager est actuellement d\u00E9sactiv\u00E9. Activez-le afin de faire un lancement automatique avec %S."
+   },
+   "highlightcontents": {
+      "message": "Contenus surlign\u00E9s"
+   },
+   "highlightnextlinks": {
+      "message": "Mettre en \u00E9vidence le(s) lien(s) vers la page suivante"
+   },
+   "immediately_load": {
+      "message": "Immediately Load"
+   },
+   "importdone": {
+      "message": "Importation faite avec %S nouveau(x) site(s), %S site(s) mis \u00E0 jour, et %S site(s) ignor\u00E9(s)."
+   },
+   "inputfile": {
+      "message": "S\u00E9lectionner le fichier contenant les param\u00E8tres d'AutoPager"
+   },
+   "inputname": {
+      "message": "Merci de pr\u00E9ciser votre nom, il sera ajout\u00E9 \u00E0  la configuration que vous avez cr\u00E9\u00E9e."
+   },
+   "inputnumber": {
+      "message": "Merci d'entrer un nombre positif"
+   },
+   "inputurl": {
+      "message": "Merci d'entrer l'URL pour importer les param\u00E8tres :"
+   },
+   "inputxpath": {
+      "message": "Merci d'entrer l'expression XPath :"
+   },
+   "label_Usages_value": {
+      "message": "Utilisations"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Selected Rule IDs(Seperate by ,)"
+   },
+   "label_lazyLoad": {
+      "message": "Lazy load image src attribute"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "Moniteur XPath"
+   },
+   "label_value": {
+      "message": "Count"
+   },
+   "lite_discovery": {
+      "message": "Do you want AutoPager automatic discovery whether there's a rule in the repository for the pages you are surfing?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003EChargement\u2026\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "correspondances ont \u00E9t\u00E9 trouv\u00E9es"
+   },
+   "modifyxpath": {
+      "message": "Merci de modifier le XPath si vous le souhaitez :"
+   },
+   "more": {
+      "message": "More"
+   },
+   "moveover": {
+      "message": "Pointeur sur une balise %S, dont l'expression XPath est %S"
+   },
+   "mustinput": {
+      "message": "Vous devez pr\u00E9ciser votre nom."
+   },
+   "myname": {
+      "message": "Mon nom : %S"
+   },
+   "navbottom": {
+      "message": "Aller en bas de la fen\u00EAtre"
+   },
+   "navdown": {
+      "message": "Page bas"
+   },
+   "navtop": {
+      "message": "Aller en haut de la fen\u00EAtre"
+   },
+   "navup": {
+      "message": "Page haut"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Ne plus afficher ce message lorsqu'un nouveau site pris en charge a \u00E9t\u00E9 trouv\u00E9."
+   },
+   "nextpages": {
+      "message": "pour les %S pages suivantes"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Aucune configuration n'a \u00E9t\u00E9 trouv\u00E9e pour cette page."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "S"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "Alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "A : Activer, D : D\u00E9sactiver, TA : Toujours activer, TD : Toujours d\u00E9sactiver"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Ignorer la v\u00E9rification du format"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "Ajouter AutoPager \u00E0 la signature \u00AB\u00A0User Agent\u00A0\u00BB du navigateur"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Session rapide (restaure la derni\u00E8re page apr\u00E8s red\u00E9marrage)"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "Plus\u2026"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "Options AutoPager"
+   },
+   "options_label_speedLabel_value": {
+      "message": "Nombre de page(s) pr\u00E9charg\u00E9e(s)"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Options d'AutoPager"
+   },
+   "outputfile": {
+      "message": "Merci de fournir un nom au fichier export\u00E9 :"
+   },
+   "pagebreak2": {
+      "message": "Coupure de page ins\u00E9r\u00E9e par AutoPager."
+   },
+   "pagelink": {
+      "message": "Page (\u003Ca href='%S'\u003E %S \u003C/a\u003E)."
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "Merci de s\u00E9lectionner le contenu"
+   },
+   "selectlinkxpath": {
+      "message": "Merci de s\u00E9lectionner le lien vers la page suivante."
+   },
+   "selectsearchengine": {
+      "message": "\u003CSelect a search engine\u003E"
+   },
+   "setting_appname": {
+      "message": "AutoPager"
+   },
+   "setting_button_add": {
+      "message": "Ajouter\u2026"
+   },
+   "setting_button_cloneToEdit": {
+      "message": "Cloner pour \u00E9diter"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "\u00C9l\u00E9ment provenant d'une source s\u00FBre. N'\u00E9diter la version clon\u00E9e que si n\u00E9cessaire."
+   },
+   "setting_button_copy": {
+      "message": "Cloner"
+   },
+   "setting_button_down": {
+      "message": "Descendre"
+   },
+   "setting_button_edit": {
+      "message": "\u00C9diter\u2026"
+   },
+   "setting_button_export": {
+      "message": "Exporter"
+   },
+   "setting_button_exportTip": {
+      "message": "Exporter les \u00E9l\u00E9ments s\u00E9lectionn\u00E9s"
+   },
+   "setting_button_import": {
+      "message": "Importer"
+   },
+   "setting_button_pick": {
+      "message": "Choisir\u2026"
+   },
+   "setting_button_public": {
+      "message": "Publier"
+   },
+   "setting_button_remove": {
+      "message": "Supprimer"
+   },
+   "setting_button_reset": {
+      "message": "R\u00E9initialiser"
+   },
+   "setting_button_resetTip": {
+      "message": "Reset to online setting or previous setting(for local rule)"
+   },
+   "setting_button_up": {
+      "message": "Monter"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "Appliquer"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "Avanc\u00E9"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Toujours activer le script Java durant le chargement de la page"
+   },
+   "setting_label_btnEdit": {
+      "message": "\u00C9diter"
+   },
+   "setting_label_chkAjax": {
+      "message": "C'est un site AJAX. Aucun \u00E9v\u00E9nement charg\u00E9."
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "Activer Javascript durant le chargement de la page."
+   },
+   "setting_label_chkEnabled": {
+      "message": "Activ\u00E9"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "D\u00E9sactiver les param\u00E8tres de d\u00E9bordement concernant la page charg\u00E9e."
+   },
+   "setting_label_chkIsRegex": {
+      "message": "Expression rationnelle ?"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "Chargement rapide (n'est pas sans danger sur tous les sites)."
+   },
+   "setting_label_chkShift": {
+      "message": "Maj"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Besoin d'un \u00E9v\u00E8nement de d\u00E9clenchement de la souris pour le lien"
+   },
+   "setting_label_confirmstyle": {
+      "message": "Style des options de page :"
+   },
+   "setting_label_delaymsecs": {
+      "message": "Millisecondes d'attente avant de fusionner la page suivante"
+   },
+   "setting_label_disable_by_default": {
+      "message": "D\u00E9sactiv\u00E9 pour un nouveau site individuel"
+   },
+   "setting_label_discoverytext": {
+      "message": "Identification"
+   },
+   "setting_label_doubleclick": {
+      "message": "+ double-clic"
+   },
+   "setting_label_general": {
+      "message": "G\u00E9n\u00E9ral"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "Contenu XPath :"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Identification"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "Filtre XPath (ignore les \u00E9l\u00E9ments des nouvelles pages)\u00A0:"
+   },
+   "setting_label_grpSmart": {
+      "message": "Pagination intelligente"
+   },
+   "setting_label_hotkeys": {
+      "message": "Activer / d\u00E9sactiver les raccourcis-clavier :"
+   },
+   "setting_label_ignoresite": {
+      "message": "Ignorer les sites"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "Conteneur XPath :"
+   },
+   "setting_label_lblDesc": {
+      "message": "Description :"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "Lien XPath :"
+   },
+   "setting_label_lblOwner": {
+      "message": "Cr\u00E9\u00E9 par :"
+   },
+   "setting_label_lblSetting": {
+      "message": "Source de param\u00E9trage d'AutoPager"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "Type de contexte :"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "Descr. :"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "Maintenance par :"
+   },
+   "setting_label_lblSettingType": {
+      "message": "Type :"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL :"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath :"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "Format de l'URL :"
+   },
+   "setting_label_lblUpdate": {
+      "message": "Mettre \u00E0 jour automatiquement les configurations de sites :"
+   },
+   "setting_label_loading": {
+      "message": "Style du cadre de notification :"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "Paginer quand l'espace est de moins de"
+   },
+   "setting_label_marginEnd": {
+      "message": "hauteur(s) de fen\u00EAtre(s)."
+   },
+   "setting_label_minipages": {
+      "message": "Nombre minimum de pages pr\u00E9charg\u00E9es"
+   },
+   "setting_label_pagebreak": {
+      "message": "Style de saut de page :"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Show autopager context menu"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Afficher une image d'aide pour chacun des contr\u00F4les, y cliquer pour voir sa description"
+   },
+   "setting_label_showPrompt": {
+      "message": "Afficher une demande lors d'un nouveau site individuel"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Afficher l'ic\u00F4ne d'AutoPager dans la barre d'\u00E9tat"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Afficher l'ic\u00F4ne d'AutoPager dans la barre d'outils"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Afficher une invite modale simple pour chaque nouveau site"
+   },
+   "setting_label_sites": {
+      "message": "Sites"
+   },
+   "setting_label_smartenable": {
+      "message": "Activer la pagination intelligente"
+   },
+   "setting_label_smartlinks": {
+      "message": "Suivre le lien quand il n'y a pas plus de"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "liens rassembl\u00E9s."
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "Noms (de textes, d'images, de champs ou de classes) d\u00E9terminant le lien vers la page suivante. Les s\u00E9parer avec la barre verticale \u00AB | \u00BB :"
+   },
+   "setting_label_timeout": {
+      "message": "D\u00E9lai de chargement de page (en secondes) :"
+   },
+   "setting_label_update": {
+      "message": "Mise \u00E0 jour"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "Ne changez rien si vous ne le connaissez pas.\nCela apportera de l'aide si le contenu principal du site a un conteneur disposant de d\u00E9bordement / de barre d\u00E9roulante. Le site www.cuil.com peut vous servir d'exemple."
+   },
+   "setting_title": {
+      "message": "Param\u00E8tres d'AutoPager"
+   },
+   "setting_tree_Description": {
+      "message": "Description"
+   },
+   "setting_tree_URLPattern": {
+      "message": "Format de l'URL"
+   },
+   "setting_type_autopager": {
+      "message": "XML AutoPager"
+   },
+   "setting_type_autopagerize": {
+      "message": "AutoPager-iser"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "AutoPager-iser JSON"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "Texte AutoPager"
+   },
+   "setting_update_bidaily": {
+      "message": "Tous les autres jours"
+   },
+   "setting_update_daily": {
+      "message": "Chaque jour"
+   },
+   "setting_update_global": {
+      "message": "Utiliser le param\u00E9trage global"
+   },
+   "setting_update_monthly": {
+      "message": "Chaque mois"
+   },
+   "setting_update_never": {
+      "message": "Jamais"
+   },
+   "setting_update_once": {
+      "message": "Premi\u00E8re fois"
+   },
+   "setting_update_startup": {
+      "message": "\u00C0 chaque d\u00E9marrage"
+   },
+   "setting_update_weekly": {
+      "message": "Chaque semaine"
+   },
+   "showoptions": {
+      "message": "M'afficher plus d'options"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "Close AutoPager Page Holder"
+   },
+   "statusbar_label_value": {
+      "message": "Cliquez pour voir les r\u00E8gles disponible en ligne"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Aide"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "Fix Issues"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "Auto Fix"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "Auto Fix Issues"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "Reset All Setting"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "Reset All AutoPager Setting"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "D\u00E9pannage"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "D\u00E9pannage"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "Effacer Tous"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "Don"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Afficher la page de don"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Show Related Search"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Aide"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "Voir la page d'aide"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "R\u00E8gles"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "Afficher les r\u00E8gles disponible en ligne"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "Tutoriels"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "Afficher la page des tutoriels"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "Rechercher des r\u00E8gles en ligne"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "Rechercher des r\u00E8gles en ligne"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Switch To Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "Switch To AutoPager Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "Basculer en mode normal"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "Basculer en mode normal"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "Disable Paging By Default"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Discover matched rules online"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Contenu en surbrillance"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Contenu en surbrillance dans le document"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "liens suivant en surbrillance"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "liens suivant en surbrillance dans le docuement"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Options"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Works in lite model"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Show This On New Site"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Always show discover icon"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "AutoPager Core Options"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "Entrez un XPath dans la liste (ou doublez-en un) afin de voir l'effet que cela a."
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Image Lazy load Attribute"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Clean Loaded Pages when elements by following xpath clicked/changed"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "pour cette session"
+   },
+   "thissite": {
+      "message": "pour ce site"
+   },
+   "thistime": {
+      "message": "pour cette fois-ci"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "Ajouter un site"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "Tout effacer"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Identification"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "Ouvrir dans la fen\u00EAtre actuelle"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "Ouvrir dans le panneau lat\u00E9ral"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "Contenu de la fen\u00EAtre de s\u00E9lection"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "Lien de la fen\u00EAtre de s\u00E9lection"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Tester un site"
+   },
+   "treecol_authorityCol_label": {
+      "message": "Autorit\u00E9"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "Contenu XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "Fichier"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "Lien XPath"
+   },
+   "treecol_machedCol_label": {
+      "message": "Compte correspondant"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "D\u00E9sirez-vous r\u00E9essayer ?"
+   },
+   "unableevaluator": {
+      "message": "Impossible d'\u00E9valuer l'expression XPath %S.n%S"
+   },
+   "unableload": {
+      "message": "Impossibilit\u00E9 de charger l'URL :"
+   },
+   "unsupport_version": {
+      "message": "Found unsupported rule format version %S, current supports up to %S. This rule will be ignored."
+   },
+   "viewdescription": {
+      "message": "Click to View Description"
+   },
+   "viewdescription2": {
+      "message": "Ctrl + click to View Description"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "R\u00E9initialiser"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "Description de l'expression XPath"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "Expression XPath"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Fonctions bool\u00E9ennes"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "Adresses"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Node-Set Functions"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Number Functions"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "String Functions"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "selects ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "selects ancestors of the context node and self "
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "selects attribute of the context node"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Returns the boolean representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Returns the smallest integer value not less than the argument."
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "selects children of the context node"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "Returns the concatenation of its arguments."
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "Returns true if the first argument string contains the second argument string."
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "Returns the number of nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "selects descendants of the context node"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "selects descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Returns a boolean with the value of false."
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Returns the largest integer value not greater than the argument."
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "selects followings of the context node"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "selects next chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Returns the element specified by it&apos;s unique id."
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Returns true if the language of the context node is the same as the languag specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "Returns the position of the last node in the context list."
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Returns the local-name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Returns the local-name for the context node."
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "Returns the name for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Returns the name for the context node."
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "selects namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Returns the namespace-uri for the first node in the node-set."
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Returns the namespace-uri for the context node."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "Returns a white-space normalized string specified by the argument."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Returns a white-space normalized string specified by the context-node."
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Returns a boolean with the opposite value of its argument."
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Returns the number representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Returns the number representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "selects parent of the context node"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "Returns the position of the current context node."
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "selects precedings of the context node"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "selects the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Returns the integer value closest to the argument."
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "select the context node"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "Renvoie vrai si la premi\u00E8re cha\u00EEne argument commence comme la seconde."
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "Returns the string representation of the object argument."
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Returns a string value representation of the context node."
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Renvoie la longueur de la cha\u00EEne pr\u00E9cis\u00E9e par l'argument."
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Renvoie la longueur de la cha\u00EEne pr\u00E9cis\u00E9e par le n\u0153ud contextuel."
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Returns the substring of the first argument starting at the position specified by the second argument and the length specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Returns the substring of the first argument string that comes after the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Returns the substring of the first argument string that comes before the first occurrence of the second argument."
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Returns the substring of the first argument from the position specified by the second argument."
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "Returns the sum of all nodes in the node-set."
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Returns the text contents for the context node."
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "Replaces characters in the string specified by the second argument with characters specified by the third argument."
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Returns a boolean with the value of true."
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "ancestors of the context node"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "ancestors of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "attribute of the context node"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "children of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "descendants of the context node"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "descendants of the context node and self"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "followings of the context node"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "next chapter siblings of the context node"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "namespaces of the context node"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "parent of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "precedings of the context node"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "the previous chapter sibling of the context node"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "the context node"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "Description"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "Function"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "Short Description"
+   },
+   "xpathconfirm": {
+      "message": "Pensez-vous que ce lien XPath est correct ?"
+   },
+   "xpathreturnnothing": {
+      "message": "L'expression XPath n'a rien retourn\u00E9."
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

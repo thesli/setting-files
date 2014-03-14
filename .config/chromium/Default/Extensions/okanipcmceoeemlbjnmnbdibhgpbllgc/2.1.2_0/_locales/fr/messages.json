@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "fr"
+   },
+   "qs_about_close_button": {
+      "message": "Fermer"
+   },
+   "qs_about_copy": {
+      "message": "&copy;\u00A0Google\u00A02009"
+   },
+   "qs_about_explanation": {
+      "message": "Lorsque vous cliquez sur un r\u00E9sultat de recherche Google, Google\u00A0Quick\u00A0Scroll peut s'afficher dans l'angle inf\u00E9rieur droit de la page pour indiquer un ou plusieurs extraits du texte ayant un lien avec votre recherche. Cliquez sur l'un de ces extraits pour atteindre la section correspondante."
+   },
+   "qs_about_explanation2": {
+      "message": "L'extension Google\u00A0Quick\u00A0Scroll ne s'affiche que lorsqu'elle peut s'av\u00E9rer utile. Vous pouvez la r\u00E9duire en cliquant sur le bouton situ\u00E9 dans l'angle sup\u00E9rieur droit."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003E\u00C0 propos de Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003ER\u00E8gles de confidentialit\u00E9\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EConditions d'utilisation\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Mode de fonctionnement de Google\u00A0Quick\u00A0Scroll\u00A0:"
+   },
+   "qs_about_installed": {
+      "message": "L'installation de Google\u00A0Quick\u00A0Scroll est termin\u00E9e."
+   },
+   "qs_about_introduction": {
+      "message": "Google\u00A0Quick\u00A0Scroll est une extension de navigateur qui vous aide \u00E0 trouver plus rapidement ce que vous recherchez."
+   },
+   "qs_about_only_useful": {
+      "message": "L'extension Google\u00A0Quick\u00A0Scroll ne s'affiche que lorsqu'elle est utile. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EEn savoir plus\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Options enregistr\u00E9es."
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Nous aider \u00E0 am\u00E9liorer Google\u00A0Quick\u00A0Scroll en envoyant automatiquement des statistiques d'utilisation \u00E0 Google"
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Options de confidentialit\u00E9"
+   },
+   "qs_about_step_1": {
+      "message": "Effectuez une recherche Google."
+   },
+   "qs_about_step_2": {
+      "message": "Cliquez sur un r\u00E9sultat de recherche."
+   },
+   "qs_about_step_3": {
+      "message": "Cliquez sur Google\u00A0Quick\u00A0Scroll pour acc\u00E9der directement aux sections pertinentes de la page."
+   },
+   "qs_about_support_instructions": {
+      "message": "Pour toute question ou difficult\u00E9 relative \u00E0 Google\u00A0Quick\u00A0Scroll, consultez notre page d'\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Eassistance\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Nous vous remercions d'avoir install\u00E9 Google\u00A0Quick\u00A0Scroll."
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EEssayez-le\u00A0!\u003C/b\u003E Recherchez [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E], puis cliquez sur le r\u00E9sultat \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Essayez ces requ\u00EAtes\u00A0:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Pour d\u00E9sinstaller Google\u00A0Quick\u00A0Scroll, acc\u00E9dez au menu \"Outils\"&nbsp;\u003E&nbsp;\"Extensions\" de Google\u00A0Chrome, puis cliquez sur le lien \"D\u00E9sinstaller\" de l'extension Google\u00A0Quick\u00A0Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "D\u00E9sinstaller"
+   },
+   "qs_description": {
+      "message": "Google\u00A0Quick\u00A0Scroll vous permet d'acc\u00E9der directement aux extraits de texte pertinents dans vos r\u00E9sultats de recherche Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Moins de r\u00E9sultats"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Afficher les premiers r\u00E9sultats de votre requ\u00EAte"
+   },
+   "qs_gallery_description": {
+      "message": "Google\u00A0Quick\u00A0Scroll est une extension de navigateur qui vous aide \u00E0 trouver ce que vous recherchez plus rapidement.\u003Cbr/\u003E\u003Cbr/\u003ELorsque vous cliquez sur un r\u00E9sultat de recherche Google, Google\u00A0Quick\u00A0Scroll peut s'afficher dans l'angle inf\u00E9rieur droit de la page pour indiquer un ou plusieurs extraits du texte ayant un lien avec votre recherche. Cliquez sur l'un de ces extraits pour atteindre la section correspondante.\u003Cbr/\u003E\u003Cbr/\u003EGoogle\u00A0Quick\u00A0Scroll est une extension discr\u00E8te qui ne s'affiche que lorsqu'elle est susceptible d'\u00EAtre utile."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "D\u00E9sol\u00E9, aucun r\u00E9sultat Google\u00A0Quick\u00A0Scroll n'a \u00E9t\u00E9 trouv\u00E9 pour \"\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\" sur cette page. \u003Cspan class=\"goog_qs-learn-more\"\u003EEn savoir plus\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "L'int\u00E9gralit\u00E9 de cette page semble traiter de \"\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\". Google\u00A0Quick\u00A0Scroll ne s'affiche que si seule une partie de la page correspond \u00E0 votre recherche. \u003Cspan class=\"goog_qs-learn-more\"\u003EEn savoir plus\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Google Quick Scroll ne s'est pas affich\u00E9, car l'int\u00E9gralit\u00E9 de la page correspond \u00E0 votre recherche."
+   },
+   "qs_info_on_search": {
+      "message": "Google\u00A0Quick\u00A0Scroll s'affiche lorsque vous cliquez sur un r\u00E9sultat de recherche Google. \u003Cspan class=\"goog_qs-learn-more\"\u003EEn savoir plus\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "En cliquant sur \"Installer\", vous acceptez les conditions d'utilisation disponibles \u00E0 l'adresse suivante\u00A0: https://chrome.google.com/extensions/intl/en/gallery_tos.html."
+   },
+   "qs_more_matches": {
+      "message": "Plus de r\u00E9sultats \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Afficher plus de r\u00E9sultats pour votre requ\u00EAte"
+   },
+   "qs_name": {
+      "message": "Google\u00A0Quick\u00A0Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Des correspondances Google\u00A0Quick\u00A0Scroll ont \u00E9t\u00E9 trouv\u00E9es sur cette page"
+   },
+   "qs_page_action_inactive": {
+      "message": "Google\u00A0Quick\u00A0Scroll est activ\u00E9. Cliquez ici pour plus d'informations."
+   },
+   "qs_page_action_running": {
+      "message": "En attente de la fin du chargement de la page\u2026"
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Ouvrir la page de l'aide et des options"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "R\u00E9sultats pour \"\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\""
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "R\u00E9sultats pour \"\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\""
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "R\u00E9duire"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Ouvrir Google\u00A0Quick\u00A0Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Cliquer pour afficher ce texte dans la page"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Acc\u00E9der au texte $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Meilleures correspondances pour \"\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\""
+   }
+}

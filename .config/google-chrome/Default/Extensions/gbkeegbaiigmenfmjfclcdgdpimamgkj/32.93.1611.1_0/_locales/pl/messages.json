@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Wi\u0119cej informacji"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pom\u00F3\u017C nam, zg\u0142aszaj\u0105c problem."
+   },
+   "app_nacl_crash_report": {
+      "message": "Zg\u0142o\u015B problem..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Oj! Co\u015B posz\u0142o nie tak."
+   },
+   "app_nacl_error_msg": {
+      "message": "Wyst\u0105pi\u0142 problem podczas wczytywania aplikacji."
+   },
+   "app_nacl_error_title": {
+      "message": "Nie mo\u017Cna otworzy\u0107 pliku."
+   },
+   "application_description": {
+      "message": "Edytowanie dokument\u00F3w"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u0141aduj\u0119"
+   },
+   "file_not_found_msg": {
+      "message": "\u017B\u0105dany plik zosta\u0142 przeniesiony."
+   },
+   "file_not_found_title": {
+      "message": "Nie znaleziono pliku."
+   }
+}

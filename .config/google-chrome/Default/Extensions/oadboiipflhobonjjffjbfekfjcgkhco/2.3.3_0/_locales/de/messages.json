@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "\u00DCber"
+   },
+   "about_message": {
+      "message": "Mit 'Chrome to Phone' von Google k\u00F6nnen Sie Links und andere Informationen von Google Chrome an Ihr Android-Ger\u00E4t senden. 'Chrome to Phone' besteht aus einer Google Chrome-Browsererweiterung und einer Android-Anwendung."
+   },
+   "about_title_message": {
+      "message": "\u00DCber"
+   },
+   "app_desc": {
+      "message": "Mit der Erweiterung 'Chrome to Phone' k\u00F6nnen Sie Links und andere Informationen von Google Chrome an Ihr Android-Ger\u00E4t senden."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone Extension"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "Verbindungsfehler"
+   },
+   "device_not_registered_message": {
+      "message": "Ger\u00E4t ist nicht f\u00FCr Nutzer registriert."
+   },
+   "error_sending_message": {
+      "message": "Fehler beim Senden an Telefon: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Senden Sie Browserlinks von Google Chrome an Ihr Handy."
+   },
+   "features_message2": {
+      "message": "\u00DCber die Google Maps-Links wird die Google Maps-Anwendung in Android gestartet."
+   },
+   "features_message3": {
+      "message": "\u00DCber die YouTube-Links wird die YouTube-Anwendung in Android gestartet."
+   },
+   "features_message4": {
+      "message": "Wenn Sie eine Telefonnummer ausw\u00E4hlen, wird automatisch das Telefon mit der entsprechenden Nummer angezeigt."
+   },
+   "features_message5": {
+      "message": "Durch die Auswahl von Text auf einer Webseite wird die Zwischenablage in Android kopiert. Halten Sie zum Einf\u00FCgen in Android ein Textfeld einige Sekunden lang gedr\u00FCckt."
+   },
+   "features_title_message": {
+      "message": "Funktionen"
+   },
+   "help_message": {
+      "message": "Hilfe"
+   },
+   "invalid_scheme_message": {
+      "message": "Es werden nur http- oder https-Seiten unterst\u00FCtzt."
+   },
+   "privacy_message": {
+      "message": "Datenschutz"
+   },
+   "sending_message": {
+      "message": "Wird an Telefon gesendet..."
+   },
+   "sent_message": {
+      "message": "An Telefon gesendet"
+   },
+   "sign_in_message": {
+      "message": "anmelden"
+   },
+   "sign_in_required_message": {
+      "message": "Bei 'Chrome to Phone' $link$",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "Abmelden"
+   },
+   "signed_in_message": {
+      "message": "Angemeldet. Sie k\u00F6nnen nun Links an Ihr Telefon senden."
+   },
+   "signed_out_message": {
+      "message": "Sie sind jetzt bei 'Chrome to Phone' abgemeldet."
+   },
+   "signed_out_title_message": {
+      "message": "Abgemeldet"
+   },
+   "step2_message": {
+      "message": "Suchen Sie unter 'chrome.google.com/extensions' nach 'Chrome to Phone'."
+   },
+   "step3_message": {
+      "message": "Installieren Sie die Erweiterung 'Chrome to Phone' und klicken Sie auf das Symbol in der Symbolleiste, um sich anzumelden."
+   },
+   "step4_message": {
+      "message": "Suchen Sie auf Ihrem Android-Ger\u00E4t in Market nach 'Chrome to Phone'."
+   },
+   "step5_message": {
+      "message": "Installieren Sie die Android-Anwendung 'Chrome to Phone' und schlie\u00DFen Sie die unkomplizierte Einrichtung ab."
+   },
+   "step6_message": {
+      "message": "Klicken Sie auf das Symbol in der Symbolleiste, um den Link oder den aktuell ausgew\u00E4hlten Text an Ihr Telefon zu senden."
+   },
+   "tos_message": {
+      "message": "Nutzungsbedingungen"
+   }
+}

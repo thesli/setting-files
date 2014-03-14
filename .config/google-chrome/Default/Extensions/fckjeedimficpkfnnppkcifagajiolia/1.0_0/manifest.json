@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "addbar.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Address bar while in fullscreen mode",
+   "icons": {
+      "32": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD10MXk71KveP2JvZFtKtMoFTq80jur2cLkGnSFc+HEF3UY4xfoP/R7xVTAuJmjFjsTf7IB3RRjGKy3o0uMx2owyRmY5LRauTyCzaVwAxZQMgk3J4BDH2rB+U0TfYVd0/cl58yYVi6kQSg6zmht6WP6Z7QIRjIcsL/Rl7tBplFlWQIDAQAB",
+   "name": "Fullscreen Address Bar",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

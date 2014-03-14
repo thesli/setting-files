@@ -1,0 +1,25 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon_19.png",
+      "default_title": "show tab switcher",
+      "popup": "tabs.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "page.css" ],
+      "js": [ "page.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Switch and Manage your Tabs with Style.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC30ACv5NJJf3ypu+LFeWkfLmtd16gKVX9SiZiXT8Jtw1veGkwGPW+K5TEfNSTv9UDbPuGHman5xRGFjuB/nyStsmUfXovI7X6o8+Ha5iKQSEEVcSl61ybsVXU75epbGpun88eMHMVsH3xsyYdmf9SYsO2hf17GKxbZbyR6ZfapjQIDAQAB",
+   "name": "Tabs Plus",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "bookmarks" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

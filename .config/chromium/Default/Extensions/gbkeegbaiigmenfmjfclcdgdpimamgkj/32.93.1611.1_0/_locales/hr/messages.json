@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Saznajte vi\u0161e"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Pomozite nam prijavom problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Prijava problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups. To nismo o\u010Dekivali."
+   },
+   "app_nacl_error_msg": {
+      "message": "Do\u0161lo je do problema u u\u010Ditavanju aplikacije."
+   },
+   "app_nacl_error_title": {
+      "message": "Datoteku nije mogu\u0107e otvoriti."
+   },
+   "application_description": {
+      "message": "Ure\u0111ivanje dokumenta"
+   },
+   "file_loading_spinner_label": {
+      "message": "U\u010Ditavanje"
+   },
+   "file_not_found_msg": {
+      "message": "Zatra\u017Eena je datoteka premje\u0161tena."
+   },
+   "file_not_found_title": {
+      "message": "Datoteka nije prona\u0111ena."
+   }
+}

@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "Sayfalama Hatalar\u0131n\u0131 D\u00FCzelt"
+   },
+   "CheckUpdate": {
+      "message": "G\u00FCncellemeler \u0130\u00E7in Denetle"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "\u0130\u00E7erik XPath bo\u015F b\u0131rak\u0131lamaz!nSonraki sayfan\u0131n i\u00E7eri\u011Fini se\u00E7ecek bir Xpath ifadesi belirtiniz."
+   },
+   "CreateANewRule": {
+      "message": "Site sihirbaz\u0131 ile yeni bir kural olu\u015Fturmak ister misiniz?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "EnableAutoPager": {
+      "message": "Autopager devre d\u0131\u015F\u0131. Etkinle\u015Ftirmek istiyor musunuz?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "Autopager bu sitede devre d\u0131\u015F\u0131. Etkinle\u015Ftirmek istiyor musunuz?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Versiyon Denetimini Yoksay"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "Link XPath bo\u015F b\u0131rak\u0131lamaz!nSonraki sayfan\u0131n ba\u011Flant\u0131s\u0131n\u0131 se\u00E7ecek bir Xpath ifadesi belirtiniz."
+   },
+   "Load": {
+      "message": "Load"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Nomatchesfound": {
+      "message": "E\u015Fle\u015Fme yok."
+   },
+   "Onematchfound": {
+      "message": "Bir adet e\u015Fle\u015Fme bulundu:"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "Pages": {
+      "message": "Pages"
+   },
+   "RelatedSearches": {
+      "message": "related searches:"
+   },
+   "RequestHelpOnSite": {
+      "message": "Bu site i\u00E7in yard\u0131m talebinde bulunmak istiyor musunuz?"
+   },
+   "Resultsfrom": {
+      "message": "Sonu\u00E7lar"
+   },
+   "ShowOnNewSite": {
+      "message": "Yeni sayfada g\u00F6ster"
+   },
+   "UpdateRules": {
+      "message": "Otomatik sayfalama kurallar\u0131n\u0131 g\u00FCncelleyerek ile sorunlar d\u00FCzelebilir.n\u015Eimdi g\u00FCncellemek istiyor musunuz?"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "\"%S\" i\u00E7in zaten bir kural g\u00F6nderilmi\u015F ya da \u00E7evrimi\u00E7i depoda var. Yine de g\u00F6ndermek istiyor musunuz?"
+   },
+   "alwaysdisableshort": {
+      "message": "HD"
+   },
+   "alwaysenableshort": {
+      "message": "HE"
+   },
+   "autopageOn": {
+      "message": "Otomatik sayfalama %S sitesinde etkinle\u015Ftirildi."
+   },
+   "autopageOnTip": {
+      "message": "Otomatik sayfalama %S sitesinde \u00E7al\u0131\u015F\u0131yor.nSimgesinden devre d\u0131\u015F\u0131 b\u0131rakabilirsiniz."
+   },
+   "autopagedisabled": {
+      "message": "Otomatik sayfalama devre d\u0131\u015F\u0131 b\u0131rak\u0131ld\u0131."
+   },
+   "autopagedisabledTip": {
+      "message": "Otomatik sayfalama devre d\u0131\u015F\u0131 b\u0131rak\u0131ld\u0131. nSimgesine t\u0131klayarak tekrar etkinle\u015Ftirebilirsiniz."
+   },
+   "autopageenabled": {
+      "message": "Otomatik sayfalama etkinle\u015Ftirildi."
+   },
+   "autopageenabledTip": {
+      "message": "Otomatik sayfalama etkinle\u015Ftirildi. nSimgesine t\u0131klayarak devre d\u0131\u015F\u0131 b\u0131rakabilirsiniz."
+   },
+   "autopager_label_value": {
+      "message": "Otomatik sayfalama"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "Sayfa Tutucu"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "S"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "\u015Eimdiden Sayfala"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "gizli"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "Sonraki 10 Sayfay\u0131"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "Sonraki 3 Sayfay\u0131"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "Sonraki 5 Sayfay\u0131"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "T"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "Sonraki T\u00FCm Sayfalar\u0131"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "accel,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Pause"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "g\u00F6ster"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "AutoPager site onaylar\u0131"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "AutoPager site onaylar\u0131n\u0131 temizlemek istedi\u011Finize emin misiniz?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "AutoPager Sayfalama Kural\u0131 Olu\u015Fturma Arac\u0131"
+   },
+   "autopager_status_createXPath": {
+      "message": "Xpath Olu\u015Ftur"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "\u00C7er\u00E7eveli se\u00E7im yard\u0131m\u0131yla sayfada kolayl\u0131kla XPath belirlemenizi sa\u011Flar."
+   },
+   "autopager_status_disableOnSite": {
+      "message": "Bu Sitedeyken Devre D\u0131\u015F\u0131 Kal"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "Bu sitedeyken otomatik sayfalamay\u0131 devre d\u0131\u015F\u0131 b\u0131rak."
+   },
+   "autopager_status_enabled": {
+      "message": "AutoPager'\u0131 Etkinle\u015Ftir"
+   },
+   "autopager_status_enabledTip": {
+      "message": "AutoPager'\u0131 etkinle\u015Ftirir."
+   },
+   "autopager_status_export": {
+      "message": "Kurallar\u0131 Ver"
+   },
+   "autopager_status_exportTip": {
+      "message": "Mevcut otomatik sayfalama kurallar\u0131n\u0131 bir dosyaya kaydet."
+   },
+   "autopager_status_exportclip": {
+      "message": "Panoya Kopyala"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Se\u00E7ili otomatik sayfalama kurallar\u0131n\u0131 panoya kopya."
+   },
+   "autopager_status_exportfile": {
+      "message": "Dosyaya Kaydet"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Se\u00E7ili otomatik sayfalama kurallar\u0131n\u0131 dosyaya kaydet."
+   },
+   "autopager_status_importclip": {
+      "message": "Panodan Al"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Otomatik sayfalama kurallar\u0131n\u0131 kopyalanm\u0131\u015F metinden al."
+   },
+   "autopager_status_importexport": {
+      "message": "Al/Ver"
+   },
+   "autopager_status_importfile": {
+      "message": "Dosyadan Al"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Otomatik sayfalama kurallar\u0131n\u0131 dosyadan al."
+   },
+   "autopager_status_importurl": {
+      "message": "URL'den Al"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Otomatik sayfalama kurallar\u0131n\u0131 URL adresinden al."
+   },
+   "autopager_status_myname": {
+      "message": "Ad\u0131m:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "Ad\u0131n\u0131z, olu\u015Fturdu\u011Funuz kurallara eklenecektir."
+   },
+   "autopager_status_reportSite": {
+      "message": "Bu Sitedeki Sorunu Bildir"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "Bu sitede ya\u015Fad\u0131\u011F\u0131n\u0131z otomatik sayfalama sorununu bildirerek \u00E7\u00F6z\u00FClmesini sa\u011Flayabilirsiniz."
+   },
+   "autopager_status_requestHelp": {
+      "message": "Otomatik Sayfalama Talep Et"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Bu site i\u00E7in otomatik sayfalama talebinde bulunarak, yeni kurallar\u0131n eklenmesine yard\u0131mc\u0131 olabilirsiniz."
+   },
+   "autopager_status_setting": {
+      "message": "Ayarlar\u0131 D\u00FCzenle"
+   },
+   "autopager_status_settingTip": {
+      "message": "Otomatik sayfalama ile ilgili yap\u0131land\u0131rmalar\u0131 d\u00FCzenle."
+   },
+   "autopager_status_showabout": {
+      "message": "Hakk\u0131nda"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "AutoPager Hakk\u0131nda"
+   },
+   "autopager_status_showoption": {
+      "message": "Sayfa Tercihlerini G\u00F6ster"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Bu sayfa i\u00E7in otomatik sayfalama tercihlerini bir kutuda g\u00F6ster."
+   },
+   "autopager_status_sitewizard": {
+      "message": "Otomatik Ke\u015Ffet"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "Anahtar ifadeleri tarayarak sayfada otomatik sayfalama kural\u0131 belirlemeyi dener."
+   },
+   "autopager_status_testXPath": {
+      "message": "XPath'i Test Et"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Belirtti\u011Finiz Xpath'i sayfada test eder."
+   },
+   "autopager_status_update": {
+      "message": "Kurallar\u0131 \u00C7evrimi\u00E7i G\u00FCncelle"
+   },
+   "autopager_status_updateTip": {
+      "message": "Otomatik sayfalama kurallar\u0131n\u0131 \u00E7evrimi\u00E7i olarak Rules Repositories adresinden g\u00FCnceller."
+   },
+   "autopager_status_xpathUtils": {
+      "message": "XPath Ara\u00E7lar\u0131"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager Sayfalama Kural\u0131 Olu\u015Fturma Arac\u0131"
+   },
+   "autopager_tooltip": {
+      "message": "Otomatik sayfalama i\u00E7in kural olu\u015Fturma arac\u0131n\u0131 g\u00F6ster."
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "..."
+   },
+   "autopager_workshop_label_value": {
+      "message": "Frames"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "sonraki sayfa y\u00FCkleniyor, l\u00FCtfen bekleyin ......"
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "..."
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "..."
+   },
+   "caption_results_caption2_label": {
+      "message": "Sonu\u00E7lar"
+   },
+   "caption_results_caption_label": {
+      "message": "Sonu\u00E7lar"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "Force JavaScript Mode"
+   },
+   "checkbox_ir_label": {
+      "message": "Include Recommended Rules"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "Y"
+   },
+   "command_blinkElement_label": {
+      "message": "Yan\u0131p s\u00F6nd\u00FCr"
+   },
+   "command_narrower_key": {
+      "message": "D"
+   },
+   "command_narrower_label": {
+      "message": "Daralt"
+   },
+   "command_pause_key": {
+      "message": "B"
+   },
+   "command_pause_label": {
+      "message": "Beklet (sayfada gezinirken g\u00F6rmek i\u00E7in)"
+   },
+   "command_quit_key": {
+      "message": "V"
+   },
+   "command_quit_label": {
+      "message": "Vazge\u00E7"
+   },
+   "command_select_key": {
+      "message": "S"
+   },
+   "command_select_label": {
+      "message": "Se\u00E7/yakala"
+   },
+   "command_showMenu_key": {
+      "message": "M"
+   },
+   "command_showMenu_label": {
+      "message": "Men\u00FCy\u00FC g\u00F6ster/gizle"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "A"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "Ayr\u0131 bir pencerede kayna\u011F\u0131 g\u00F6ster"
+   },
+   "command_viewSource_key": {
+      "message": "K"
+   },
+   "command_viewSource_label": {
+      "message": "Kayna\u011F\u0131 g\u00F6ster"
+   },
+   "command_wider_key": {
+      "message": "G"
+   },
+   "command_wider_label": {
+      "message": "Geni\u015Flet"
+   },
+   "contentxpathconfirm": {
+      "message": "Bunun bir \u0130\u00E7erik Xpath'i oldu\u011Funu onayl\u0131yor musunuz?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Disable everywhere"
+   },
+   "disableon": {
+      "message": "Disable on %S"
+   },
+   "disableshort": {
+      "message": "D"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "Otomatik sayfalama %S sayfas\u0131nda etkin.nLink XPath=%Sn\u0130\u00E7erik XPath=%S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager, %S i\u00E7in %S taraf\u0131ndan bir kural buldu.nBu sitedeyken otomatik sayfalamay\u0131 etkinle\u015Ftirmek istiyor musunuz?"
+   },
+   "enableshort": {
+      "message": "E"
+   },
+   "enableurl": {
+      "message": "%S i\u00E7in AutoPager"
+   },
+   "errorload": {
+      "message": "Otomatik sayfalamada hata olu\u015Ftu:"
+   },
+   "esctoabort": {
+      "message": "\u0130ptal etmek i\u00E7in ESC tu\u015Funa bas\u0131n."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager, sonraki sayfan\u0131n i\u00E7eri\u011Fini otomatik g\u00F6steren bir Firefox/Mozilla eklentisidir. Ayn\u0131 zamanda bir Xpath \u00FCreticisi olarak da kullanabilirsiniz."
+   },
+   "globaldisabled": {
+      "message": "Autopager'\u0131n\u0131z \u015Fu anda devre d\u0131\u015F\u0131. %S sitesinde otomatik etkinle\u015Ftirebilirsiniz."
+   },
+   "highlightcontents": {
+      "message": "\u0130\u00E7eri\u011Fi Vurgula"
+   },
+   "highlightnextlinks": {
+      "message": "Linkleri Vurgula"
+   },
+   "immediately_load": {
+      "message": "Immediately Load"
+   },
+   "importdone": {
+      "message": "Veriler incelendi. %S yeni kural eklendi, %S kural g\u00FCncellendi ve %S kural iptal edildi."
+   },
+   "inputfile": {
+      "message": "L\u00FCtfen AutoPager kural dosyas\u0131n\u0131 se\u00E7in:"
+   },
+   "inputname": {
+      "message": "L\u00FCtfen ad\u0131n\u0131z\u0131 girin. Ad\u0131n\u0131z olu\u015Fturdu\u011Funuz kurallara eklenecektir."
+   },
+   "inputnumber": {
+      "message": "L\u00FCtfen pozitif bir say\u0131 giriniz."
+   },
+   "inputurl": {
+      "message": "Kurallar\u0131 y\u00FCklemek i\u00E7in ge\u00E7erli URL giriniz.:"
+   },
+   "inputxpath": {
+      "message": "L\u00FCtfen bir Xpath giriniz:"
+   },
+   "label_Usages_value": {
+      "message": "Klavye kullan\u0131mlar\u0131"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Selected Rule IDs(Seperate by ,)"
+   },
+   "label_lazyLoad": {
+      "message": "Lazy load image src attribute"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "Monitor XPath:"
+   },
+   "label_value": {
+      "message": "Count"
+   },
+   "lite_discovery": {
+      "message": "Do you want AutoPager automatic discovery whether there's a rule in the repository for the pages you are surfing?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003EY\u00FCkleniyor ...\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "adet e\u015Fle\u015Fme bulundu:"
+   },
+   "modifyxpath": {
+      "message": "\u0130stiyorsan\u0131z Xpath'i de\u011Fi\u015Ftirebilirsiniz:"
+   },
+   "more": {
+      "message": "More"
+   },
+   "moveover": {
+      "message": "Fare \u00FCzerinde %S, XPath :%S"
+   },
+   "mustinput": {
+      "message": "Ad\u0131n\u0131z\u0131 girmelisiniz."
+   },
+   "myname": {
+      "message": "Ad\u0131m: %S"
+   },
+   "navbottom": {
+      "message": "En Alta Git"
+   },
+   "navdown": {
+      "message": "Bir Sayfa A\u015Fa\u011F\u0131"
+   },
+   "navtop": {
+      "message": "En \u00DCste Git"
+   },
+   "navup": {
+      "message": "Bir Sayfa Yukar\u0131"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Desteklenen bir site bulundu\u011Funda bu uyar\u0131y\u0131 g\u00F6sterme"
+   },
+   "nextpages": {
+      "message": "Sonraki%SSayfada"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Bu sayfa i\u00E7in otomatik sayfalama kural\u0131 mevcut de\u011Fil."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "K"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "E: Etkin, D:Devre d\u0131\u015F\u0131, HE:Her zaman Etkin, HD:Her zaman Devre d\u0131\u015F\u0131"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Kurallar\u0131n s\u00FCr\u00FCm kontrol\u00FCn\u00FC yoksay"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "AutoPager'\u0131 kullan\u0131c\u0131 arac\u0131s\u0131na ekle"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "Yeniden sayfalarken en son g\u00F6r\u00FCnen sayfadan ba\u015Fla"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "Daha fazla"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "AutoPager Se\u00E7enekleri"
+   },
+   "options_label_speedLabel_value": {
+      "message": "\u00D6ny\u00FCklenecek sayfa say\u0131s\u0131:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Ayarlar\u0131 D\u00FCzenle"
+   },
+   "outputfile": {
+      "message": "Bir dosya ad\u0131 belirtiniz:"
+   },
+   "pagebreak2": {
+      "message": "AutoPager ile sayfa sonu."
+   },
+   "pagelink": {
+      "message": "Sayfa \u003Ca href='%S'\u003E( %S )\u003C/a\u003E"
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "\u0130\u00E7erik Xpath'i belirtiniz."
+   },
+   "selectlinkxpath": {
+      "message": "Link Xpath'i belirtiniz."
+   },
+   "selectsearchengine": {
+      "message": "\u003CSelect a search engine\u003E"
+   },
+   "setting_appname": {
+      "message": "AutoPager"
+   },
+   "setting_button_add": {
+      "message": "Yeni..."
+   },
+   "setting_button_cloneToEdit": {
+      "message": "D\u00FCzenlemek i\u00E7in \u00E7o\u011Falt"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "Daha \u00F6nceden olu\u015Fturulmu\u015F bir kural\u0131 d\u00FCzenlemek isterseniz \u00E7o\u011Falt\u0131lm\u0131\u015F kopyas\u0131n\u0131 kullanabilirsiniz."
+   },
+   "setting_button_copy": {
+      "message": "\u00C7o\u011Falt"
+   },
+   "setting_button_down": {
+      "message": "A\u015Fa\u011F\u0131"
+   },
+   "setting_button_edit": {
+      "message": "D\u00FCzenle..."
+   },
+   "setting_button_export": {
+      "message": "Ver"
+   },
+   "setting_button_exportTip": {
+      "message": "Se\u00E7ili kurallar\u0131 ver."
+   },
+   "setting_button_import": {
+      "message": "Al"
+   },
+   "setting_button_pick": {
+      "message": "Yakala..."
+   },
+   "setting_button_public": {
+      "message": "Herkese A\u00E7\u0131k"
+   },
+   "setting_button_remove": {
+      "message": "Kald\u0131r"
+   },
+   "setting_button_reset": {
+      "message": "S\u0131f\u0131rla"
+   },
+   "setting_button_resetTip": {
+      "message": "\u00C7evrimi\u00E7i ve yerel kurallar\u0131 s\u0131f\u0131rla"
+   },
+   "setting_button_up": {
+      "message": "Yukar\u0131"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "Uygula"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "Geli\u015Fmi\u015F"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Y\u00FCklenen sayfalarda her zaman Javascript'i etkinle\u015Ftir"
+   },
+   "setting_label_btnEdit": {
+      "message": "D\u00FCzenle"
+   },
+   "setting_label_chkAjax": {
+      "message": "Bu bir Ajax sitesi, y\u00FCklenme g\u00FCnl\u00FC\u011F\u00FC yok"
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "Y\u00FCklenen sayfalarda Javascript'i etkinle\u015Ftir"
+   },
+   "setting_label_chkEnabled": {
+      "message": "Etkin"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "Sayfa y\u00FCklenirken ta\u015Fmay\u0131 (overflow) devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "setting_label_chkIsRegex": {
+      "message": "RegExp"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "H\u0131zl\u0131 y\u00FCklen (Her site i\u00E7in g\u00FCvenli de\u011Fil)"
+   },
+   "setting_label_chkShift": {
+      "message": "Shift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Sayfalama i\u00E7in fare hareketini zorunlu k\u0131l"
+   },
+   "setting_label_confirmstyle": {
+      "message": "Sayfa tercihleri kutusunun bi\u00E7emi:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "Sonraki sayfay\u0131 g\u00F6stermek i\u00E7in beklenecek salise:"
+   },
+   "setting_label_disable_by_default": {
+      "message": "Desteklenen yeni siteler i\u00E7in devre d\u0131\u015F\u0131 b\u0131rak"
+   },
+   "setting_label_discoverytext": {
+      "message": "Otomatik Ke\u015Ffet i\u00E7in anahtar ifadeler:"
+   },
+   "setting_label_doubleclick": {
+      "message": "+  \u00C7ift t\u0131kla"
+   },
+   "setting_label_general": {
+      "message": "Genel Ayarlar"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "\u0130\u00E7erik XPath:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Otomatik Ke\u015Ffet"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "XPath'i Kald\u0131r (Sonraki sayfalarda yoksay\u0131lacaklar listesi):"
+   },
+   "setting_label_grpSmart": {
+      "message": "Ak\u0131ll\u0131 Sayfalama"
+   },
+   "setting_label_hotkeys": {
+      "message": "AutoPager'\u0131 etkinle\u015Ftirme/devre d\u0131\u015F\u0131 b\u0131rakma k\u0131sayolu:"
+   },
+   "setting_label_ignoresite": {
+      "message": "Ignore Sites"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "Bar\u0131nd\u0131r\u0131c\u0131 XPath:"
+   },
+   "setting_label_lblDesc": {
+      "message": "A\u00E7\u0131klama:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "Link Xpath"
+   },
+   "setting_label_lblOwner": {
+      "message": "Olu\u015Fturan:"
+   },
+   "setting_label_lblSetting": {
+      "message": "AutoPager Kural Listesi"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "\u0130\u00E7erik T\u00FCr\u00FC:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "A\u00E7\u0131klama:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "Sa\u011Flayan:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "T\u00FCr:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "URL D\u00FCzeni:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "Site Kurallar\u0131n\u0131 Otomatik G\u00FCncelle:"
+   },
+   "setting_label_loading": {
+      "message": "&quot;Y\u00FCkleniyor...&quot; uyar\u0131s\u0131n\u0131n bi\u00E7emi:"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "Bo\u015F alan"
+   },
+   "setting_label_marginEnd": {
+      "message": "pencere y\u00FCksekli\u011Finden daha az ise ba\u015Fla"
+   },
+   "setting_label_minipages": {
+      "message": "\u00D6nceden y\u00FCklenecek minimum sayfa say\u0131s\u0131:"
+   },
+   "setting_label_pagebreak": {
+      "message": "&quot;AutoPager ile sayfa sonu&quot; sat\u0131r\u0131n\u0131n bi\u00E7emi:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Show autopager context menu"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Denetimleri kullan\u0131rken ipucu simgesi g\u00F6ster"
+   },
+   "setting_label_showPrompt": {
+      "message": "Desteklenen yeni sitelerde onay penceresini g\u00F6ster"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Durum \u00E7ubu\u011Funda AutoPager simgesini g\u00F6ster"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Ara\u00E7 \u00E7ubu\u011Funda AutoPager simgesini g\u00F6ster"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Desteklenen yeni sitelerde varsay\u0131lan sayfalama tercihlerini kullan"
+   },
+   "setting_label_sites": {
+      "message": "Mevcut Kurallar"
+   },
+   "setting_label_smartenable": {
+      "message": "Ak\u0131ll\u0131 Sayfalamay\u0131 Etkinle\u015Ftir"
+   },
+   "setting_label_smartlinks": {
+      "message": "Anahtar ifadelerle izlenen ba\u011Flant\u0131"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "adetten fazla de\u011Filse ba\u015Fla"
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "Ak\u0131ll\u0131 Sayfalama i\u00E7in anahtar ifadeler: Yaz\u0131/Resim Src/ID/Class('|' ile ay\u0131r\u0131n):"
+   },
+   "setting_label_timeout": {
+      "message": "sayfa y\u00FCklenme zaman a\u015F\u0131m\u0131 (saniye):"
+   },
+   "setting_label_update": {
+      "message": "G\u00FCncelle"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "Bunu bilmiyorsan\u0131z, de\u011Fi\u015Ftirmeyiniz. Sayfan\u0131n ana i\u00E7eri\u011Finde y-ta\u015Fmas\u0131 (overflow-y) ve kayd\u0131rma \u00E7ubu\u011Fu i\u00E7eren bir alan varsa kullan\u0131l\u0131r. \u00D6rnek i\u00E7in www.cuil.com sayfas\u0131na bak\u0131n\u0131z."
+   },
+   "setting_title": {
+      "message": "AutoPager Ayarlar\u0131"
+   },
+   "setting_tree_Description": {
+      "message": "A\u00E7\u0131klama"
+   },
+   "setting_tree_URLPattern": {
+      "message": "URL D\u00FCzeni"
+   },
+   "setting_type_autopager": {
+      "message": "autopager xml"
+   },
+   "setting_type_autopagerize": {
+      "message": "autopagerize"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "autopagerize Json"
+   },
+   "setting_type_autopagerlite": {
+      "message": "autopager lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "autopager text"
+   },
+   "setting_update_bidaily": {
+      "message": "Birer G\u00FCn Arayla"
+   },
+   "setting_update_daily": {
+      "message": "Her G\u00FCn"
+   },
+   "setting_update_global": {
+      "message": "Genel Ayarlar\u0131 Kullan"
+   },
+   "setting_update_monthly": {
+      "message": "Her Ay"
+   },
+   "setting_update_never": {
+      "message": "Hi\u00E7bir Zaman"
+   },
+   "setting_update_once": {
+      "message": "Bir Defa"
+   },
+   "setting_update_startup": {
+      "message": "Her Ba\u015Flat\u0131ld\u0131\u011F\u0131nda"
+   },
+   "setting_update_weekly": {
+      "message": "Her Hafta"
+   },
+   "showoptions": {
+      "message": "Daha Fazla Se\u00E7enek G\u00F6ster"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "AutoPager Sayfa Tutucusunu Kapat"
+   },
+   "statusbar_label_value": {
+      "message": "Click to view the paging rules online"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Yard\u0131m"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "Hatalar\u0131 D\u00FCzelt"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "Otomatik D\u00FCzelt"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "Hatalar\u0131 otomatik d\u00FCzelt"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "Reset All Setting"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "Reset All AutoPager Setting"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "Ar\u0131za Tespiti"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "Ar\u0131za Tespiti"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "T\u00FCm\u00FCn\u00FC Temizle"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "Ba\u011F\u0131\u015F yap"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Ba\u011F\u0131\u015F sayfas\u0131na git"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Show Related Search"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Yard\u0131m"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "\u00C7evrimi\u00E7i yard\u0131m sayfas\u0131na git"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "Kurallar"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "\u00C7evrimi\u00E7i depodaki kurallar\u0131 g\u00F6ster"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "E\u011Fitsel D\u00F6k\u00FCmanlar"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "E\u011Fitsel D\u00F6k\u00FCmanlar sayfas\u0131na git"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "Search rules online"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "Switch To Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "Switch To AutoPager Lite Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "Switch To Normal Mode"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "Switch To AutoPager Normal Mode"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "Disable Paging By Default"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Discover matched rules online"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Highlight Contents"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Highlight Contents in the document"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "Highlight Next Links"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "Highlight Next Links in the document"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Se\u00E7enekler"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Works in lite model"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Show This On New Site"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Always show discover icon"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "Autopager Temel Se\u00E7enekler"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "Xpath sonu\u00E7lar\u0131n\u0131 burada \u00F6nizlemek i\u00E7in bir XPath ifadesi yaz\u0131n\u0131z. Yakala d\u00FC\u011Fmeleri yard\u0131m\u0131yla sayfa i\u00E7inde fare ve klavye ile se\u00E7im yaparak kolayl\u0131kla Xpath ifadeleri olu\u015Fturmaya ba\u015Flayabilirsiniz. Listedeki alternatif Xpath'leri \u00F6nizlemek i\u00E7in \u00FCzerlerine \u00E7ift t\u0131klay\u0131n\u0131z."
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Image Lazy load Attribute"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Clean Loaded Pages when elements by following xpath clicked/changed"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "Bu Oturumda"
+   },
+   "thissite": {
+      "message": "Bu Sitede"
+   },
+   "thistime": {
+      "message": "Bu Sefer"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "Kural Olarak Ekle"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "T\u00FCm\u00FCn\u00FC Temizle"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Otomatik Ke\u015Ffet"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "Kendi penceresinde g\u00F6ster"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "Kenar \u00E7ubu\u011Funda g\u00F6ster"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "\u0130\u00E7eri\u011Fi Yakala"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "Linki Yakala"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Test Et"
+   },
+   "treecol_authorityCol_label": {
+      "message": "Eri\u015Fim"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "\u0130\u00E7erik XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "Liste"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "Link Xpath"
+   },
+   "treecol_machedCol_label": {
+      "message": "Adet"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "Yeniden denemek ister misiniz?"
+   },
+   "unableevaluator": {
+      "message": "xpath de\u011Ferlendirilemiyor:%S.n%S"
+   },
+   "unableload": {
+      "message": "url y\u00FCklenemiyor:"
+   },
+   "unsupport_version": {
+      "message": "Desteklenmeyen kural format s\u00FCr\u00FCm\u00FC %S bulundu. Mevcut %S s\u00FCr\u00FCm\u00FCne y\u00FCkseltilirse destekler. Bu kural yoksay\u0131lacak."
+   },
+   "viewdescription": {
+      "message": "Click to View Description"
+   },
+   "viewdescription2": {
+      "message": "Ctrl + click to View Description"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "S\u0131f\u0131rla"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "Xpath \u0130fade A\u00E7\u0131klamas\u0131"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "Xpath \u0130fadesi"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Mant\u0131ksal \u0130fadeler"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "Konumlar"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "D\u00FC\u011F\u00FCm-K\u00FCmesi \u0130\u015Flevleri"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Say\u0131 \u0130\u015Flevleri"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "Dizge \u0130\u015Flevleri"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00FCstsellerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendisini ve \u00FCstsellerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00F6zniteliklerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Nesnel de\u011Fi\u015Fkenin g\u00F6sterimini mant\u0131ksal de\u011Fere d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Belirtilen say\u0131y\u0131 en yak\u0131n b\u00FCy\u00FCk tamsay\u0131ya yuvarlar."
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00E7ocuklar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "De\u011Fi\u015Fkenlerini birbirine ulayarak olu\u015Fturdu\u011Fu dizgeyi d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "E\u011Fer birinci dizge, ikinci dizgeyi i\u00E7eriyorsa do\u011Fru, aksi takdirde yanl\u0131\u015F d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "D\u00FC\u011F\u00FCm-k\u00FCmesindeki d\u00FC\u011F\u00FCmlerin say\u0131lar\u0131n\u0131 d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn astsallar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendisini ve astsallar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Bir boole de\u011Feri do\u011Fru veya yanl\u0131\u015F ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Belirtilen say\u0131y\u0131 en yak\u0131n k\u00FC\u00E7\u00FCk tamsay\u0131ya yuvarlar."
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCmden sonra gelen (\u00F6znitelik d\u00FC\u011F\u00FCmleri ve isim-alan\u0131 d\u00FC\u011F\u00FCmleri hari\u00E7) t\u00FCm d\u00FC\u011F\u00FCmleri se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn t\u00FCm k\u00FC\u00E7\u00FCk karde\u015Flerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Elemanlar\u0131 e\u015Fsiz ID'lerine g\u00F6re d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Arg\u00FCman olarak belirtilen dil ile ayn\u0131 veya belirtilen dilin bir altdili olup olmamas\u0131na ba\u011Fl\u0131 olarak do\u011Fru veya yanl\u0131\u015F ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "\u0130fade de\u011Ferlendirme ba\u011Flam\u0131ndaki ba\u011Flamsal boyuta e\u015Fit bir say\u0131 ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Belirtilen d\u00FC\u011F\u00FCm-k\u00FCmesi i\u00E7indeki ilk d\u00FC\u011F\u00FCm\u00FCn geni\u015Fletilmi\u015F isminin yerel k\u0131sm\u0131 ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCme g\u00F6re yerel k\u0131s\u0131m ile d\u00F6ner"
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "D\u00FC\u011F\u00FCm k\u00FCmesindeki ilk d\u00FC\u011F\u00FCm\u00FCn ad\u0131n\u0131 d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCme g\u00F6re isim ile d\u00F6ner"
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn isim-alan\u0131 d\u00FC\u011F\u00FCmlerini se\u00E7er"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Belirtilen d\u00FC\u011F\u00FCm-k\u00FCmesi i\u00E7inde belgedeki s\u0131raya g\u00F6re ilk d\u00FC\u011F\u00FCm\u00FCn geni\u015Fletilmi\u015F isminin isim-alan\u0131 tan\u0131m-yeri (URI) ile d\u00F6ner"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCme g\u00F6re isim-alan\u0131 tan\u0131m-yeri (URI) ile d\u00F6ner"
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "\u0130\u015Flevi belirtilen dizgenin ba\u015F\u0131ndaki ve sonundaki bo\u015Fluk karakterleri at\u0131ld\u0131ktan sonra kalan dizgenin i\u00E7indeki bo\u015Fluk dizgecikleri birer bo\u015Fluk karakteri ile de\u011Fi\u015Ftirilerek elde edilen dizgeyi d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Belirtilen d\u00FC\u011F\u00FCm-k\u00FCmesi i\u00E7indeki bo\u015Fluk karakterleri at\u0131ld\u0131ktan sonra kalan d\u00FC\u011F\u00FCm-k\u00FCmesi i\u00E7indeki bo\u015Fluk dizgecikleri birer bo\u015Fluk karakteri ile de\u011Fi\u015Ftirilerek elde edilen d\u00FC\u011F\u00FCm-k\u00FCmesini d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Arg\u00FCman\u0131n\u0131 bir mant\u0131ksal de\u011Fere d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Nesnel arg\u00FCman\u0131n\u0131 bir say\u0131ya d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn g\u00F6sterimini say\u0131ya d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn ebeveynini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "De\u011Ferlendirme ba\u011Flam\u0131ndaki ba\u011Flamsal s\u0131raya e\u015Fit bir say\u0131 ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn t\u00FCm b\u00FCy\u00FCk karde\u015Flerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00F6nceki ilk b\u00F6l\u00FCm karde\u015Fini se\u00E7er"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Belirtilen say\u0131y\u0131 en yak\u0131n tamsay\u0131ya yuvarlar."
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendisini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "E\u011Fer birinci dizge, ikinci dizgeyi i\u00E7eriyorsa do\u011Fru, aksi takdirde yanl\u0131\u015F d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "\u0130\u015Flevi belirtilen nesnel arg\u00FCmant\u0131 bir dizgeye d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn g\u00F6sterimini bir dizgeye d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Arg\u00FCmana g\u00F6re belirtilen dizge i\u00E7indeki karakter say\u0131s\u0131 ile d\u00F6ner"
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm taraf\u0131ndan belirtilen dizge i\u00E7indeki karakter say\u0131s\u0131 ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Birinci arg\u00FCmanda belirtilen dizgenin ba\u015F\u0131ndan itibaren ikinci arg\u00FCmanda belirtilen s\u0131radaki karakterden ba\u015Flayan ve \u00FC\u00E7\u00FCnc\u00FC arg\u00FCmanda belirtilen say\u0131da karakter i\u00E7eren dizgeyle d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Birinci dizgenin i\u00E7inde ikinci dizgenin ilk bulundu\u011Fu konumda, ikinci dizgenin bitiminden birinci dizgenin sonuna kadar olan alt dizge ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Birinci dizgenin ba\u015Flang\u0131c\u0131ndan ikinci dizgenin ilk bulundu\u011Fu yere kadar olan alt dizgeyi d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Birinci arg\u00FCmanda belirtilen dizgenin ba\u015F\u0131ndan itibaren ikinci arg\u00FCmanda belirtilen say\u0131da karakter i\u00E7eren dizgeyle d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "D\u00FC\u011F\u00FCm-k\u00FCmesi i\u00E7indeki d\u00FC\u011F\u00FCmlerin birer say\u0131ya d\u00F6n\u00FC\u015Ft\u00FCr\u00FClen dizgesel de\u011Ferlerinin toplam\u0131 ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm i\u00E7in metin i\u00E7eri\u011Fini d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "Birinci dizgenin i\u00E7indeki karakterlerden ikinci dizgede belirtilenlerin yerlerine \u00FC\u00E7\u00FCnc\u00FC dizgede belirtilenlerden ikincidekiyle ayn\u0131 konumda olanlar\u0131 yerle\u015Ftirerek elde edilen dizgeyi d\u00F6nd\u00FCr\u00FCr."
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Bir boole do\u011Fru de\u011Feri ile d\u00F6ner."
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00FCstsellerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendisini ve \u00FCstsellerini se\u00E7er"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00F6zniteliklerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn \u00E7ocuklar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn astsallar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendini ve astsallar\u0131n\u0131 se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCmden sonra gelen t\u00FCm d\u00FC\u011F\u00FCmleri se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn t\u00FCm k\u00FC\u00E7\u00FCk karde\u015Flerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn isim-alan\u0131 d\u00FC\u011F\u00FCmlerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn ebeveynini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCmden \u00F6nce gelen (\u00F6znitelik d\u00FC\u011F\u00FCmleri ve isim-alan\u0131 d\u00FC\u011F\u00FCmleri hari\u00E7) t\u00FCm d\u00FC\u011F\u00FCmleri se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn t\u00FCm b\u00FCy\u00FCk karde\u015Flerini se\u00E7er."
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "Ba\u011Flamsal d\u00FC\u011F\u00FCm\u00FCn kendisini se\u00E7er."
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "A\u00E7\u0131klama"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "\u0130\u015Flev"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "K\u0131sa A\u00E7\u0131klamas\u0131"
+   },
+   "xpathconfirm": {
+      "message": "Bunun bir Link Xpath'i oldu\u011Funu onayl\u0131yor musunuz?"
+   },
+   "xpathreturnnothing": {
+      "message": "Xpath hi\u00E7bir \u015Fey d\u00F6nd\u00FCrmedi"
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

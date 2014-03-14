@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "fr"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Cette extension ne permet pas d'obtenir des suggestions \u00E0 partir de pages poss\u00E9dant du contenu s\u00E9curis\u00E9 comme celle-ci (par ex., http\u003Cb\u003Es\u003C/b\u003E://). Testez-la sur le Web public\u00A0!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Cette extension fonctionne de mani\u00E8re optimale sur la plupart des sites Web lorsqu'elle est associ\u00E9e \u00E0 la page d'accueil ou la page principale. \u003Cp\u003EEssayez-la sur un site Web que vous appr\u00E9ciez. &mdash;Testez-la pour afficher des suggestions de pages relatives \u00E0 un sujet que vous connaissez."
+   },
+   "sp_default_title": {
+      "message": "Voir Pages similaires de Google"
+   },
+   "sp_description": {
+      "message": "Trouvez des pages Web similaires \u00E0 celle que vous consultez."
+   },
+   "sp_domain_change_message": {
+      "message": "Pour remplacer votre domaine local par www.google.fr, \u003Ca id='over' href='#'\u003Ecliquez ici\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com a \u00E9t\u00E9 enregistr\u00E9 comme votre domaine local pour la recherche de pages similaires."
+   },
+   "sp_domain_message": {
+      "message": "L'extension contactera $1 pour extraire la liste de pages similaires.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Nombre de pages\u00A0: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003E\u00C0 propos de Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Faites-nous part de vos impressions \u00E0 l'adresse \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Merci\u00A0!"
+   },
+   "sp_options_intro": {
+      "message": "L'extension de navigateur Google\u00A0Similar Pages vous permet de visualiser rapidement et d'explorer des pages similaires \u00E0 celle que vous \u00EAtes en train de consulter, de mani\u00E8re instantan\u00E9e\u00A0!"
+   },
+   "sp_options_legal": {
+      "message": "Lorsque vous cliquez sur le bouton Pages similaires, votre navigateur envoie une requ\u00EAte de recherche \u00E0 Google pour v\u00E9rifier l'existence d'\u00E9ventuelles pages similaires \u00E0 celle que vous consultez.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003ECes donn\u00E9es connexes sont g\u00E9r\u00E9es conform\u00E9ment aux \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003ER\u00E8gles de confidentialit\u00E9\u003C/a\u003E de Google.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003ER\u00E8gles de confidentialit\u00E9\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EConditions d'utilisation\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "D\u00E9sinstaller"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Pour d\u00E9sinstaller Google\u00A0Similar Pages, utilisez le menu Outils &gt; Extensions de Google\u00A0Chrome et cliquez sur le lien D\u00E9sinstaller de l'extension Google\u00A0Pages similaires."
+   },
+   "sp_preview_not_available": {
+      "message": "Aper\u00E7u non disponible \u003Cbr\u003E"
+   },
+   "sp_product_name": {
+      "message": "Google\u00A0Similar Pages B\u00EAta (par Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.fr"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google\u00A0Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Cette extension n'est pas disponible dans votre pays ou votre r\u00E9gion pour le moment. Revenez sur cette page dans quelque temps."
+   },
+   "sp_zero_results": {
+      "message": "Aucune page similaire trouv\u00E9e"
+   }
+}

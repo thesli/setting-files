@@ -1,0 +1,200 @@
+body {
+  margin:0px;
+  width:500px;
+  height:510px;
+  overflow:hidden;
+  background:-webkit-gradient(linear, left top, left bottom,
+                                         from(#FFF), to(#BBB));
+}
+
+#titleBar{
+  position:relative;
+  height:35px;
+  top:0px;
+  width:500px;
+  background:-webkit-gradient(linear, left top, left bottom,
+                                         from(#fff), to(#eef));
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+  -webkit-border-bottom-right-radius:10px;
+  -webkit-border-bottom-left-radius:10px;
+}
+
+#currentTitle{
+  position:absolute;
+  top:5px;
+  left:10px;
+  color:#333;
+  font-family:Verdana, Arial, Tahoma;
+  font-size:14px; 
+  font-weight:bold; 
+  line-height:20px;
+  overflow:hidden;
+  width:400;
+  height:22px;
+  overflow:hidden;
+}
+
+#protectionIconBtn{
+    position:absolute;
+    padding:2px;
+    top:5px;
+    left:470px;
+    width:20px;
+    height:20px;
+    background:#CCCCCC;
+    cursor:pointer;
+    border-style:solid;
+    border-width:1px;
+    -webkit-border-radius: 5px;
+}
+
+.protectionIcon{
+    position:absolute;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+#protectedIcon{
+    display:none;
+}
+
+#unprotectedIcon{
+}
+
+#protectedDisableIcon{
+    display:none;
+}
+
+.column{
+    position:absolute;
+    top:35px;font-family:Verdana, Arial, Tahoma;
+    font-size:10px;
+    width:160px;
+    height:410px;
+    padding-top:55px;
+}
+
+#tabbackcolumn{
+    left:335px;
+}
+
+#tabundocolumn{
+    left:5px;
+}
+
+#tabsimilarcolumn{
+    left:170px;
+}
+
+.icon{
+    position:absolute;
+    left:0px;
+    top:10px;
+    width:30px;
+    height:30px;
+}
+
+.clearHistoryIcon {
+    position:absolute;
+    left:90px;
+    top:16px;
+    width:16px;
+    height:16px;
+
+    opacity: 0.5;
+    cursor: pointer;
+}
+.clearHistoryIcon:hover {
+    opacity: 1;
+}
+
+.columntitle{
+    position:absolute;
+    left:35px;
+    top:15px;
+    width:100px;
+    color:#000000;
+    font-family:Verdana, Arial, Tahoma;
+    font-size:16px; 
+    font-weight:bold; 
+}
+
+.columndescription {
+    position:absolute;
+    left:5px;
+    top:35px;
+    width:150px;
+    height:30px;
+    color:#000000;
+    overflow:hidden;
+    font-family:Verdana, Arial, Tahoma;
+    font-size:11px; 
+}
+
+.tabbox {
+  position:relative;
+  font-family:Verdana, Arial, Tahoma;
+  font-size:10px;
+
+  cursor:hand;
+  width:157px;
+  height:35px;
+  line-height:17px;
+  color:#000022;
+  margin-top:4px;
+  background:rgba(255,255,255,0.2);
+  
+  border-style:solid;
+  border-width:1px; 
+  border-color:#777; 
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  -webkit-border-top-right-radius:10px;
+  -webkit-border-top-left-radius:10px;
+  overflow:hidden;
+}
+
+.tabbox:hover {
+  -webkit-box-shadow: 1px 1px 4px rgba(125, 125, 0, 0.4);
+  background:rgba(255,255,255,0.9);
+}
+
+.tabtitle {
+    position:absolute;
+    top:3px;
+    width:125px;
+    height:30px;
+    left:25px;
+    font:11px Verdana, Arial, Tahoma;
+    line-height: 15px;
+    overflow:hidden;
+}
+
+.favicon{
+    position:absolute;
+    width:16px;
+    height:16px;
+    left:5px;
+    top:4px;
+}
+
+#updateNotifier {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    padding: 15px;
+    
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 8px black;
+    background: rgba(255, 255, 225, 0.9);
+    color: black;
+    font: 14px Tahoma, Arial, sans-serif;
+
+    z-index: 999999;
+    display: none; /* initially hidden */
+    cursor: pointer;
+}
+#updateNotifier:hover {
+    background: rgba(220, 255, 255, 0.9);
+}
+

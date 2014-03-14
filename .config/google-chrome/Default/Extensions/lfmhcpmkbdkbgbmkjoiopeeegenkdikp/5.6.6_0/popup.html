@@ -1,0 +1,132 @@
+<html>
+<head>
+	
+	<script type="text/javascript" src="/js/popup/namespace.js"></script>	
+	
+	<script type="text/javascript" src="/js/background/Media.js"></script>	
+	<script type="text/javascript" src="/js/background/MainButton.js"></script>	
+	<script type="text/javascript" src="/js/Prefs.js"></script>				
+	<script type="text/javascript" src="/js/Utils.js"></script>
+	<script type="text/javascript" src="/js/popup/Popup.js"></script>	
+	<script type="text/javascript" src="/js/contentScripts/Controller.js"></script>		
+	<script type="text/javascript" src="/js/Tooltip.js"></script>	
+	<script type="text/javascript" src="/js/locale.js"></script>		
+	<script type="text/javascript" src="/js/ad.js"></script>			
+	
+	<script type="text/javascript" src="/js/contentScripts/Controller.js"></script>				
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="text/javascript" src="js/internals/tools.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+	<link rel="stylesheet" type="text/css" href="js/_external/tiptip.css" />
+</head>
+<body>
+	<div id="alert"></div>
+	<div id="download_block">
+		
+		<div id="slowDownloadHint" class="topHint">
+			<div class="text">If you can't download any more, try to re-install extension. If it doesn't help, please contact us.</div>
+			<div class="close" id="slowDownloadHint_close">x</div>
+		</div>
+		<div id="captureDownloadHint" class="topHint">
+			<a href="https://chrome.google.com/webstore/detail/nimbus-screen-capture/bpconcjcammlapcogcnnelfmaeghhagj?utm_source=chrome-ntp-icon" target="_blank" class="text">New Update - Nimbus Screen Capture  - Screenshot, edit, download, upload!</a>
+			<div class="close" id="captureDownloadHint_close">x</div>
+		</div>
+		
+		<div class="bgLine"></div>
+		
+		<div id="updateChromeNotice" hidden="true">
+			Your version of Google Chrome™ is out of date. Please update it to work with Flash Video Downloader.<br/>
+			<img src="/images/update_chrome.png"/>
+		</div>
+		
+		<div id="multiple_download_block">
+			<div class="title">
+				<h2 id="multiple_download_block_title">Found media:</h2>
+				<div  class="iconDiv">
+					<div id="label_link_rate" class="please-rate">Please, rate us!</div> 
+					<a id="help_link_help"    class="iconButton"        href="https://fvdmedia.userecho.com/list/21579-chrome-extensions/?category=4918" target="_blank" title="Errors? Contact us!"></a>
+					<a id="help_link_options" class="iconButtonOptions" title="Options!"></a>
+					<a id="help_link_clear"   class="iconButtonClear"   title="Clear List"></a>
+					<a id="help_link_rate" 	  class="iconButtonRate"   title="Rate us"></a>
+				</div>
+		
+				<div id="noYoutubeMessage" hidden="true">
+					<span>Due to YouTube Policy. It isn't allowed to download from YouTube.</span><br>
+					<span>Please, do not post negative reviews. This is not our fault.</span><br>
+					<span>Hope you understand that. Thanks!</span>
+					<!--<img class="noYoutubefeaturebanner" src="/images/featurebanner.jpg"/>-->
+					
+				</div>
+			
+				<div id="download_item_container"></div>
+		
+				<div class="download_item" id="download_item_template">
+				  <div class="info">
+					<div class="leftContent">					
+						<div class="download_quality">
+							<div class="media_quality"></div>
+							<div class="media_format"><img/></div>
+						</div>					
+						<a class="download_url"></a>				
+					</div>	
+				
+					<div class="buttonsSmall">
+						<a title="Copy to Clipboard" class="copyLink"></a>	
+						<a title="Remove from list" class="removeLink"></a>						
+					</div>
+
+					<div class="rightContent">								
+						<a class="download_button" href="">
+						  <span class="text">Download</span>
+						  <div class="loading"></div>
+						  <div class="size"></div>
+						</a>
+					</div>
+
+					<!--div class="buttonsSmall">
+						<!--a title="Copy to Clipboard" class="copyLink"></a-->	
+						<!--a title="Remove from list" class="removeLink"></a>						
+					</div-->
+				  </div>
+				  <div class="line"></div>	
+					
+				</div>
+			</div>
+
+			<div id="empty_download_block" hidden="true">
+				<h2 id="empty_download_block_title">Can't find the media for download.</h2>
+			</div>
+		</div>
+	</div>
+	
+	<div id="donate_block" style="display: none;">
+		Thank you for your interest in donating! Your donation will help ensure that we can continue to make great software, and keep as much of it free as possible. How’s it free if we’re asking you to donate? That’s the great part—if you can’t afford it or you’re not sure it’s worth it, you’re welcome to keep using our software free of charge. 
+		<br/><br/>
+		Received donations will NOT be used to pay salaries or any indirect costs that is not directly related to keeping the service on the Internet. 
+		<br/>
+		<div id="donateButtonContainer">
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QNZY5B2VPLQKA" target="_blank"><img src="/images/paypal_donate.png"/></a>
+			<a href="#" id="returnToThreads">Return to threads</a>
+		</div>
+	</div>
+	
+	<div id="help_padding_block"></div>
+	<div id="help_block">		
+		<div class="bgLine"></div>
+	
+		<div class="helpLink">
+			<a id="help_link_convert_video" rotatead="1" href="http://fvd-converter.com/" target="_blank">Convert This Video</a>	
+		
+			<a id="help_link_android">Android Version</a>	
+		
+			<a id="help_link_converter" rotatead="1" href="http://flashvideodownloader.org/fvd-suite/to/s/chrome_converter/" target="_blank">Video Converter</a>		
+			<a id="help_link_speeddial">3D Speed Dial</a>		
+			<a id="help_link_better" href="https://chrome.google.com/webstore/detail/better-browser-for-chrome/pbegekjleoplkhibgbmkmnnfffcpfanh?hl=en-US" target="_blank">browse 15% faster!</a>		
+			<a id="help_link_donate" style="display:none" href="#">Donate</a>
+		</div>	
+	</div>
+</body>
+</html>

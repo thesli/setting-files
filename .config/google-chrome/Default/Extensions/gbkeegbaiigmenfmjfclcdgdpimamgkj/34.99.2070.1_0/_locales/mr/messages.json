@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "अधिक जाणून घ्या"
+   },
+   "app_nacl_crash_msg": {
+      "message": "समस्‍येचा अहवाल देऊन आम्‍हाला मदत करा."
+   },
+   "app_nacl_crash_report": {
+      "message": "समस्या नोंदवा..."
+   },
+   "app_nacl_crash_title": {
+      "message": "अरेरे. हे घडेल अशी अपेक्षा नव्‍हती."
+   },
+   "app_nacl_error_msg": {
+      "message": "अनुप्रयोग लोड करताना समस्या आली."
+   },
+   "app_nacl_error_title": {
+      "message": "फाईल उघडली जाऊ शकत नाही."
+   },
+   "application_description": {
+      "message": "दस्‍तऐवज संपादित करणे"
+   },
+   "file_loading_spinner_label": {
+      "message": "लोड करीत आहे"
+   },
+   "file_not_found_msg": {
+      "message": "आपण विनंती केलेली फाईल प्राप्त झाली आणि हलविली गेली आहे."
+   },
+   "file_not_found_title": {
+      "message": "फाईल आढळली नाही."
+   }
+}

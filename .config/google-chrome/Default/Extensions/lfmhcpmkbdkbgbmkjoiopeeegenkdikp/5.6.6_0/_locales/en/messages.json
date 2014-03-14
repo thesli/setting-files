@@ -1,0 +1,69 @@
+{
+   "extension_description": {
+      "description": "Description of this extension",
+      "message": "Easy video downloads"
+   },
+   "extension_hint": {
+      "description": "Tooltip for main button",
+      "message": "Click to download media"
+   },
+   "extension_locale": {
+      "description": "For internal usage",
+      "message": "en"
+   },
+   "extension_title": {
+      "description": "Title of this extension",
+      "message": "Flash Video Downloader"
+   },
+   "noyoutube_message": {
+      "message": "Due to Google Webstore Policy you're unable to download."
+   },
+   "popup_download_button": {
+      "description": "Download button for multiple downloads",
+      "message": "Download"
+   },
+   "popup_founded_media": {
+      "description": "Title for founded media",
+      "message": "Founded media:"
+   },
+   "popup_get_download_url": {
+      "description": "Single download button title",
+      "message": "Download This Media"
+   },
+   "popup_help_converter": {
+      "description": "Title for video converter link",
+      "message": "Video Converter"
+   },
+   "popup_help_feedback": {
+      "description": "Title for feedback link",
+      "message": "Feedback"
+   },
+   "popup_help_help": {
+      "description": "Title for help link",
+      "message": "Help"
+   },
+   "popup_media_not_found": {
+      "description": "Title for pages without media",
+      "message": "Can't find the media for download."
+   },
+   "popup_root_media": {
+      "description": "Title for error of supported sites",
+      "message": "Download feature is not accessible from site root."
+   },
+   "popup_search_button": {
+      "description": "Search button title",
+      "message": "Search"
+   },
+   "popup_searching_media": {
+      "description": "Title for searching media",
+      "message": "Searching media for download..."
+   },
+   "vk_download_video": {
+      "description": "Download link for VK Video",
+      "message": "Download Video"
+   },
+   "vk_download_video_hd": {
+      "description": "Download link for VK Video HD",
+      "message": "Download HD"
+   }
+}

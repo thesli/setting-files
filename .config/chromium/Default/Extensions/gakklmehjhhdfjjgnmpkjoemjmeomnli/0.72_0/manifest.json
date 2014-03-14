@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "bootstrapper_chrome.js" ],
+      "matches": [ "http://mail.google.com/*", "https://mail.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Get rich contact info, email history, and updates from Facebook and Twitter for everyone in your Gmail inbox.",
+   "icons": {
+      "128": "smartr_inbox_128x128.png",
+      "16": "smartr_inbox_16x16.png",
+      "48": "smartr_inbox_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQDXHqJdWDR++U3ADfc4JPucCliOclZsKqCaSVVyZu9peN4HiB5sFuWP2N9d0IRxFFBzR0pQ1PXMjKG7rxnkYAvH5gw2JDF1SXZzIwTLRVOHa4BwlJOLqPyQlF6Hx/G+uyaYnPBaWhQzpgBObulMom6iK+LmPfYUwjk4fcky9dnwIDAQAB",
+   "manifest_version": 2,
+   "name": "Smartr Inbox for Gmail",
+   "permissions": [ "http://data.cloud.xobni.com/", "http://sidebar.xobni.com/*", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.72"
+}

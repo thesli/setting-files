@@ -1,0 +1,1 @@
+chrome.extension.sendRequest({localStorage:"hotkey"},function(a){var b=/ctrl/.test(a),c=/shift/.test(a),d=/alt/.test(a),e=a.substr(a.lastIndexOf("+")+2);document.addEventListener("keydown",function(a){if(a.keyCode==e&&a.ctrlKey==b&&a.shiftKey==c&&a.altKey==d)return a.preventDefault(),chrome.extension.sendRequest(null),!1},!1)});

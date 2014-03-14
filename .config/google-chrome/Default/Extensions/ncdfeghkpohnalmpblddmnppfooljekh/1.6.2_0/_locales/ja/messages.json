@@ -1,0 +1,206 @@
+{
+   "addLink": {
+      "message": "Send tab/link to Startpage"
+   },
+   "addLinkMenu": {
+      "message": "Enable 'Send tab/link to Startpage' menu"
+   },
+   "advancedOptionsBtn": {
+      "message": "Advanced Options"
+   },
+   "backToParentText": {
+      "message": "\u623B\u308B"
+   },
+   "backgroundColorCustomTips": {
+      "message": "Or choose a custom background:"
+   },
+   "backgroundColorOptionTitle": {
+      "message": "Background Color"
+   },
+   "backgroundColorSelectionTips": {
+      "message": "Select a theme color:"
+   },
+   "bookmarkBarHelpContent": {
+      "message": "\u3053\u306E\u30A8\u30EA\u30A2\u306B\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u30C4\u30FC\u30EB\u30D0\u30FC\u306E\u5185\u5BB9\u304C\u8868\u793A\u3055\u308C\u307E\u3059\u3002\u30D5\u30A9\u30EB\u30C0\u306F\u975E\u8868\u793A\u3067\u3059\u3002"
+   },
+   "bookmarkBarHelpDismiss": {
+      "message": "[\u9589\u3058\u308B]"
+   },
+   "bookmarkBrowserHelp": {
+      "message": "\u3053\u3053\u304B\u3089\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u306B\u30A2\u30AF\u30BB\u30B9\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\u4E2D\u3067\u3082\u304A\u6C17\u306B\u5165\u308A\u306E\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u306F\u30C9\u30E9\u30C3\u30B0\u3067\u53F3\u306E\u30A8\u30EA\u30A2\u306B\u8868\u793A\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+   },
+   "bookmarkBrowserPin": {
+      "message": "Show as main"
+   },
+   "bookmarkBrowserTitle": {
+      "message": "\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF"
+   },
+   "bookmarkBrowserTop": {
+      "message": "Home"
+   },
+   "bookmarkControlsHelpDismiss": {
+      "message": "[Close]"
+   },
+   "bookmarkControlsHelpMsg": {
+      "message": "You can now customize the folder shown on the right panel - navigate to that folder and click 'Show as main'."
+   },
+   "chromeBuggedText": {
+      "message": "Chrome Bookmarks are not ready yet. Please close this tab and open the startpage in a new tab."
+   },
+   "chromeSyncBug": {
+      "message": "This Chrome version does not support sync feature."
+   },
+   "clearClosedText": {
+      "message": "\u30AF\u30EA\u30A2"
+   },
+   "closeBtn": {
+      "message": "Cancel"
+   },
+   "columnInAppLabel": {
+      "message": "Show 3 columns in 'My Apps'"
+   },
+   "columnInBookmarkLabel": {
+      "message": "Show 3 columns in 'My Bookmarks'"
+   },
+   "columnInTopLabel": {
+      "message": "Show 3 columns in 'Most Visited'"
+   },
+   "confirm_uninstall": {
+      "message": "Are you sure you wish to uninstall '$title$' ?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "[The name of the webapp]"
+         }
+      }
+   },
+   "contactUs": {
+      "message": "Contact us at"
+   },
+   "customWallpaperLabel": {
+      "message": "Use Custom Wallpaper"
+   },
+   "defaultNotepadText": {
+      "message": "\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3057\u3066\u9802\u304D\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002Incredible StartPage!\n \n\u3053\u306E\u30A8\u30EA\u30A2\u306F\u30E1\u30E2\u5E33\u3067\u3059\u3002\u3053\u3053\u3067\u30E1\u30E2\u3092\u53D6\u308B\u3053\u3068\u304C\u51FA\u6765\u307E\u3059\u3088\uFF01"
+   },
+   "description": {
+      "message": "A new, customizable start page for Chrome. Easily find your favorite bookmarks and closed tabs. Take notes as you browse."
+   },
+   "existingBmLabel": {
+      "message": "Check this to overwrite current notepad content"
+   },
+   "fileWarning": {
+      "message": "The image is too large! Please choose another one!"
+   },
+   "fontColorOptionTitle": {
+      "message": "Font Color"
+   },
+   "fontColorSelectionTips": {
+      "message": "Select your font color:"
+   },
+   "gmailAccount": {
+      "message": "Google Account"
+   },
+   "googleAppsAccount": {
+      "message": "Google Apps Account, Domain"
+   },
+   "googleAppsAccountDescription": {
+      "message": "Enter only your Google Apps domain without \"www\", e.g. visibotech.com"
+   },
+   "incredibleStartPage": {
+      "message": "Incredible StartPage"
+   },
+   "incredibleStartPageDescription": {
+      "message": "Incredible StartPage replaces your default starting page with a customizable view of your bookmarks, reminders and recent tabs.\u003Cbr\u003E\u003Ca href='http://blog.visibotech.com/p/incredible-startpage.html'\u003EClick here\u003C/a\u003E for a simple tutorial."
+   },
+   "maximumRecentlyClosedTabs": {
+      "message": "Maximum recently closed tabs"
+   },
+   "message": {
+      "message": "Please type your custom wallpaper URL:"
+   },
+   "name": {
+      "message": "Incredible StartPage - Productive Start Page for Chrome!"
+   },
+   "noColumnsLabel": {
+      "message": "Number of columns"
+   },
+   "notRememberClosedTabs": {
+      "message": "0 (Do not remember closed tabs)"
+   },
+   "noteUpdatedAtOtherPlacesText": {
+      "message": "The note has been updated from other places, please reload this page."
+   },
+   "notepadFont": {
+      "message": "Notepad Font"
+   },
+   "notepadSync": {
+      "message": "Notepad Sync"
+   },
+   "notepadSyncDescription": {
+      "message": "Sync notepad contents with your Google Account"
+   },
+   "notepadSyncDescription2": {
+      "message": "Chrome Bookmark Sync must be enabled, click [\u003Ca href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'\u003Ehere\u003C/a\u003E] for more information"
+   },
+   "option": {
+      "message": "Options"
+   },
+   "optionsEffect": {
+      "message": "Changes will be applied after reloading your startpage."
+   },
+   "optionsSaved": {
+      "message": "Saved"
+   },
+   "optionsTitle": {
+      "message": "Options"
+   },
+   "pagetitle": {
+      "message": "Incredible StartPage Options"
+   },
+   "postTo": {
+      "message": "Post to"
+   },
+   "promptRename": {
+      "message": "Rename title"
+   },
+   "recentlyClosedTitle": {
+      "message": "\u9589\u3058\u305F\u30BF\u30D6"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saveBtn": {
+      "message": "Save"
+   },
+   "shareNotepadTo": {
+      "message": "Post notes to"
+   },
+   "shareToCalendar": {
+      "message": "Calendar"
+   },
+   "shareToMail": {
+      "message": "Gmail"
+   },
+   "toggleOptionsBtn": {
+      "message": "Theme Options"
+   },
+   "topSitesLabel": {
+      "message": "Show 'Most Visited' Tab"
+   },
+   "uninstallApp": {
+      "message": "Uninstall"
+   },
+   "useLocalLabel": {
+      "message": "Local File (~1024px wide, jpg format & max. size 500K):"
+   },
+   "wallpaperOptionTitle": {
+      "message": "Wallpapers"
+   },
+   "wallpaperThemeCustomTips": {
+      "message": "Or use a gradient as the background:"
+   },
+   "wallpaperThemeSelectionTips": {
+      "message": "Choose wallpaper from a theme:"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "DEPRECATED. Utilizza invece l'estensione Google Input Tools (disponibile all'indirizzo http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "ELEMENTO OBSOLETO: tastiera virtuale (di Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opzioni dell'estensione Tastiera virtuale"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Seleziona i layout della tastiera a sinistra:"
+   },
+   "vkbd_save_options": {
+      "message": "Salva"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Mostra/Nascondi tastiera"
+   }
+}

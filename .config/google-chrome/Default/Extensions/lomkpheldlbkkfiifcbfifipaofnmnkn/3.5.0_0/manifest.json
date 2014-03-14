@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "cc-off.png",
+      "default_title": "Code Cola(off)"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "128.png",
+      "24": "24.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9GegSlVyiEQKIiirUVt+c1N4g9MbISo17q0aFVkoLIrsGVxpCAhbawggrUMgEiC3JUJ0BQBeIr0OeOuJ6RseglxYfW1vYMIR8tIOZm46vcJVUXh9+FfgqJ1EUdn6rduBHOUfmACmR+2aAj2O0jHrHhlrtKOn5oRnic9TeQwxdzwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.5.0",
+   "web_accessible_resources": [ "font/fontawesome-webfont.ttf", "font/fontawesome-webfont.woff", "128.png" ]
+}

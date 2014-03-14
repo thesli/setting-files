@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<script>
+if (!localStorage["wl_array"]){
+	localStorage["wl_array"]="";
+}
+chrome.extension.onRequest.addListener(
+function(request, sender, sendResponse) {
+	if(request.getsetting){
+		sendResponse({setting:localStorage});
+	}
+});
+if(!localStorage['first_run']){
+	localStorage['first_run']=1;
+	chrome.tabs.create({'index':999,'url':'firstrun.html'});
+}
+</script>

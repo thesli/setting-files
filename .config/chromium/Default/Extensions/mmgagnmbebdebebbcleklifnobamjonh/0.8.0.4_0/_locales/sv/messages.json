@@ -1,0 +1,1319 @@
+{
+   "AutoFix": {
+      "message": "Autokorrigera sidv\u00E4xlingsproblem"
+   },
+   "CheckUpdate": {
+      "message": "S\u00F6k efter uppdatering"
+   },
+   "ContentXPathcannotbenull": {
+      "message": "En inneh\u00E5lls-XPath kan inte ha ett nullv\u00E4rde!"
+   },
+   "CreateANewRule": {
+      "message": "Vill du skapa en ny regel f\u00F6r den h\u00E4r sidan med webbplatsguiden?"
+   },
+   "Disableinsteadofremove": {
+      "message": "Rules in repositories other then autopager.xml are disabled instead of removed. "
+   },
+   "Edit": {
+      "message": "Redigera"
+   },
+   "EnableAutoPager": {
+      "message": "AutoPager \u00E4r inaktiverat. Vill du aktivera det nu?"
+   },
+   "EnableAutoPagerOnSite": {
+      "message": "AutoPager \u00E4r inaktiverat f\u00F6r den h\u00E4r webbplatsen. Vill du aktivera det nu?"
+   },
+   "Help": {
+      "message": "Help"
+   },
+   "IgnoreVersionCheck": {
+      "message": "Ignorera versionskontroll"
+   },
+   "LinkXPathcannotbenull": {
+      "message": "En l\u00E4nk-XPath kan inte ha ett nullv\u00E4rde!"
+   },
+   "Load": {
+      "message": "L\u00E4s in"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Nomatchesfound": {
+      "message": "Inga matchningar hittades"
+   },
+   "Onematchfound": {
+      "message": "En matchning hittades"
+   },
+   "Options": {
+      "message": "Inst\u00E4llningar"
+   },
+   "Pages": {
+      "message": "Sidor"
+   },
+   "RelatedSearches": {
+      "message": "relaterade s\u00F6kningar:"
+   },
+   "RequestHelpOnSite": {
+      "message": "Vill du beg\u00E4ra hj\u00E4lp f\u00F6r den h\u00E4r webbplatsen?"
+   },
+   "Resultsfrom": {
+      "message": "Resultat fr\u00E5n"
+   },
+   "ShowOnNewSite": {
+      "message": "Visa p\u00E5 ny webbplats"
+   },
+   "UpdateRules": {
+      "message": "Reglerna kan ha uppdaterats och problemen d\u00E4rigenom blivit l\u00F6sta.nVill du uppdatera sidv\u00E4xlingsreglerna?"
+   },
+   "Yes": {
+      "message": "Ja"
+   },
+   "alertforrule": {
+      "message": "There's alert for this rule"
+   },
+   "allsites": {
+      "message": "All Sites"
+   },
+   "alreadpubliced": {
+      "message": "Webbplatsinst\u00E4llningarna f\u00F6r \"%S\" verkar redan vara inskickad till eller finnas i onlinedatabasen. Vill du \u00E4nd\u00E5 skicka dem?"
+   },
+   "alwaysdisableshort": {
+      "message": "AA"
+   },
+   "alwaysenableshort": {
+      "message": "AI"
+   },
+   "autopageOn": {
+      "message": "Automatisk sidv\u00E4xling slutf\u00F6rd p\u00E5 %S. Dubbelklicka p\u00E5 sidan f\u00F6r att inaktivera AutoPager."
+   },
+   "autopageOnTip": {
+      "message": "Automatisk sidv\u00E4xling slutf\u00F6rd p\u00E5 %S.nDubbelklicka p\u00E5 sidan f\u00F6r att inaktivera AutoPager."
+   },
+   "autopagedisabled": {
+      "message": "AutoPager \u00E4r inaktiverat. Ctrl+dubbelklicka p\u00E5 sidan f\u00F6r att aktivera AutoPager."
+   },
+   "autopagedisabledTip": {
+      "message": "AutoPager \u00E4r inaktiverat.nCtrl+dubbelklicka p\u00E5 sidan f\u00F6r att aktivera AutoPager."
+   },
+   "autopageenabled": {
+      "message": "AutoPager \u00E4r aktiverat. Ctrl+dubbelklicka p\u00E5 sidan f\u00F6r att inaktivera AutoPager."
+   },
+   "autopageenabledTip": {
+      "message": "AutoPager \u00E4r aktiverat.nCtrl+dubbelklicka p\u00E5 sidan f\u00F6r att inaktivera AutoPager."
+   },
+   "autopager_label_value": {
+      "message": "AutoPager"
+   },
+   "autopager_menu_autopager_hidden_panel_menu_label": {
+      "message": "Sidh\u00E5llare"
+   },
+   "autopager_menu_autopager_immedialate_load_key": {
+      "message": "L"
+   },
+   "autopager_menu_autopager_immedialate_load_label": {
+      "message": "L\u00E4s omedelbart in"
+   },
+   "autopager_menuitem_autopager_hidden_label": {
+      "message": "G\u00F6mt"
+   },
+   "autopager_menuitem_autopager_load_10_key": {
+      "message": "0"
+   },
+   "autopager_menuitem_autopager_load_10_label": {
+      "message": "10 sidor"
+   },
+   "autopager_menuitem_autopager_load_3_key": {
+      "message": "3"
+   },
+   "autopager_menuitem_autopager_load_3_label": {
+      "message": "3 sidor"
+   },
+   "autopager_menuitem_autopager_load_5_key": {
+      "message": "5"
+   },
+   "autopager_menuitem_autopager_load_5_label": {
+      "message": "5 sidor"
+   },
+   "autopager_menuitem_autopager_load_all_key": {
+      "message": "A"
+   },
+   "autopager_menuitem_autopager_load_all_label": {
+      "message": "Alla sidor"
+   },
+   "autopager_menuitem_autopager_load_modifiers": {
+      "message": "kortkommando,alt"
+   },
+   "autopager_menuitem_autopager_pause_load_key": {
+      "message": "Q"
+   },
+   "autopager_menuitem_autopager_pause_load_label": {
+      "message": "Paus"
+   },
+   "autopager_menuitem_autopager_show_label": {
+      "message": "Visa"
+   },
+   "autopager_mode": {
+      "message": "AutoPager need rule to know how to auto load next pages. Which mode do you want to use? Lite mode is recommended, you can switch to Normal mode at any time. Click Help to see more information."
+   },
+   "autopager_sanitizer_entry": {
+      "message": "AutoPagers webbplatsbekr\u00E4ftelser"
+   },
+   "autopager_sanitizer_entry_accesskey": {
+      "message": "A"
+   },
+   "autopager_sanitizer_entry_confirm": {
+      "message": "Vill du rensa AutoPagers webbplatsbekr\u00E4ftelser?"
+   },
+   "autopager_sidebarTitle": {
+      "message": "AutoPagers webbplatsinst\u00E4llningar"
+   },
+   "autopager_status_createXPath": {
+      "message": "Skapa XPath"
+   },
+   "autopager_status_createXPathTip": {
+      "message": "Skapa en XPath genom att v\u00E4lja en nod p\u00E5 sidan."
+   },
+   "autopager_status_disableOnSite": {
+      "message": "Inaktivera p\u00E5 webbplatsen"
+   },
+   "autopager_status_disableOnSiteTip": {
+      "message": "Inaktivera p\u00E5 webbplatsen"
+   },
+   "autopager_status_enabled": {
+      "message": "Aktivera AutoPager"
+   },
+   "autopager_status_enabledTip": {
+      "message": "Aktivera/Inaktivera AutoPager."
+   },
+   "autopager_status_export": {
+      "message": "Exportera inst\u00E4llningar"
+   },
+   "autopager_status_exportTip": {
+      "message": "Exportera AutoPagers inst\u00E4llningar."
+   },
+   "autopager_status_exportclip": {
+      "message": "Exportera till Urklipp"
+   },
+   "autopager_status_exportclipTip": {
+      "message": "Exportera AutoPagers inst\u00E4llningar till Urklipp."
+   },
+   "autopager_status_exportfile": {
+      "message": "Exportera till fil"
+   },
+   "autopager_status_exportfileTip": {
+      "message": "Exportera AutoPagers inst\u00E4llningar till en fil."
+   },
+   "autopager_status_importclip": {
+      "message": "Importera fr\u00E5n Urklipp"
+   },
+   "autopager_status_importclipTip": {
+      "message": "Importera AutoPager-inst\u00E4llningar fr\u00E5n Urklipp."
+   },
+   "autopager_status_importexport": {
+      "message": "Importera/Exportera"
+   },
+   "autopager_status_importfile": {
+      "message": "Importera fr\u00E5n fil"
+   },
+   "autopager_status_importfileTip": {
+      "message": "Importera AutoPager-inst\u00E4llningar fr\u00E5n en fil."
+   },
+   "autopager_status_importurl": {
+      "message": "Importera fr\u00E5n URL"
+   },
+   "autopager_status_importurlTip": {
+      "message": "Importera AutoPager-inst\u00E4llningar fr\u00E5n en URL."
+   },
+   "autopager_status_myname": {
+      "message": "Mitt namn:"
+   },
+   "autopager_status_mynameTip": {
+      "message": "Ditt namn, det l\u00E4ggs till i den konfiguration som du har skapat."
+   },
+   "autopager_status_reportSite": {
+      "message": "Rapportera problem med webbplatsen"
+   },
+   "autopager_status_reportSiteTip": {
+      "message": "Rapportera problem med webbplatsen"
+   },
+   "autopager_status_requestHelp": {
+      "message": "Beg\u00E4r hj\u00E4lp med webbplatsen"
+   },
+   "autopager_status_requestHelpTip": {
+      "message": "Beg\u00E4r hj\u00E4lp med webbplatsen"
+   },
+   "autopager_status_setting": {
+      "message": "Hantera inst\u00E4llningar"
+   },
+   "autopager_status_settingTip": {
+      "message": "Hantera AutoPagers inst\u00E4llningar."
+   },
+   "autopager_status_showabout": {
+      "message": "Om"
+   },
+   "autopager_status_showaboutTip": {
+      "message": "Visa Om-informationen f\u00F6r AutoPager."
+   },
+   "autopager_status_showoption": {
+      "message": "Visa sidinst\u00E4llningar"
+   },
+   "autopager_status_showoptionTip": {
+      "message": "Visa sidinst\u00E4llningarna f\u00F6r den h\u00E4r sidan."
+   },
+   "autopager_status_sitewizard": {
+      "message": "Webbplatsguiden"
+   },
+   "autopager_status_sitewizardTip": {
+      "message": "Skapa webbplatsinst\u00E4llningar i en guide"
+   },
+   "autopager_status_testXPath": {
+      "message": "Testa XPath"
+   },
+   "autopager_status_testXPathTip": {
+      "message": "Testa XPath och XPath p\u00E5 webbsidan."
+   },
+   "autopager_status_update": {
+      "message": "Uppdatera inst\u00E4llningar online"
+   },
+   "autopager_status_updateTip": {
+      "message": "Uppdatera AutoPagers inst\u00E4llningar fr\u00E5n Rules Repositories."
+   },
+   "autopager_status_xpathUtils": {
+      "message": "XPath-verktyg"
+   },
+   "autopager_toolbarLabel": {
+      "message": "AutoPager"
+   },
+   "autopager_tooltip": {
+      "message": "AutoPagers verkstad f\u00F6r webbplatsinst\u00E4llningar"
+   },
+   "autopager_workshop_button_modifyXPath_label": {
+      "message": "\u2026"
+   },
+   "autopager_workshop_label_value": {
+      "message": "Ramar"
+   },
+   "autopageralert": {
+      "message": "AutoPager Alert"
+   },
+   "autopagerstatus": {
+      "message": "AutoPager is %S on %S."
+   },
+   "autopaging": {
+      "message": "L\u00E4ser in n\u00E4sta sida. Var v\u00E4nlig v\u00E4nta..."
+   },
+   "button_modifyContainerXPath_label": {
+      "message": "..."
+   },
+   "button_modifyLinkXPath_label": {
+      "message": "..."
+   },
+   "caption_results_caption2_label": {
+      "message": "Resultat"
+   },
+   "caption_results_caption_label": {
+      "message": "Resultat"
+   },
+   "checkbox_chkForceJS_label": {
+      "message": "Tvinga JavaScript-l\u00E4ge"
+   },
+   "checkbox_ir_label": {
+      "message": "Inkludera rekommenderade regler"
+   },
+   "choosed_rules": {
+      "message": "Lite"
+   },
+   "clicktotrynewrules": {
+      "message": "Click to try the new rules"
+   },
+   "command_blinkElement_key": {
+      "message": "t"
+   },
+   "command_blinkElement_label": {
+      "message": "Blinkande element"
+   },
+   "command_narrower_key": {
+      "message": "S"
+   },
+   "command_narrower_label": {
+      "message": "Smalare"
+   },
+   "command_pause_key": {
+      "message": "P"
+   },
+   "command_pause_label": {
+      "message": "Paus (rulla sidan f\u00F6r att se effekten)"
+   },
+   "command_quit_key": {
+      "message": "A"
+   },
+   "command_quit_label": {
+      "message": "Avsluta markering"
+   },
+   "command_select_key": {
+      "message": "M"
+   },
+   "command_select_label": {
+      "message": "Markerat element"
+   },
+   "command_showMenu_key": {
+      "message": "g"
+   },
+   "command_showMenu_label": {
+      "message": "Visa/g\u00F6m hj\u00E4lp"
+   },
+   "command_viewSourceWindow_key": {
+      "message": "k"
+   },
+   "command_viewSourceWindow_label": {
+      "message": "Visa k\u00E4llkod (i nytt f\u00F6nster)"
+   },
+   "command_viewSource_key": {
+      "message": "V"
+   },
+   "command_viewSource_label": {
+      "message": "Visa k\u00E4llkod"
+   },
+   "command_wider_key": {
+      "message": "B"
+   },
+   "command_wider_label": {
+      "message": "Bredare"
+   },
+   "contentxpathconfirm": {
+      "message": "Anser du att denna inneh\u00E5lls-XPath \u00E4r OK?"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "disableeverywhere": {
+      "message": "Inaktivera \u00F6verallt"
+   },
+   "disableon": {
+      "message": "Inaktivera p\u00E5 %S"
+   },
+   "disableshort": {
+      "message": "I"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "enableinfo": {
+      "message": "Aktivera AutoPager p\u00E5 %S nlinkXPath=%SncontentXPath=%S"
+   },
+   "enableon": {
+      "message": "Enable on %S"
+   },
+   "enableonsite": {
+      "message": "AutoPager hittade en inst\u00E4llning f\u00F6r %S fr\u00E5n %S.nVill du aktivera automatisk sidv\u00E4xling f\u00F6r den h\u00E4r webbplatsen och anv\u00E4nda den?"
+   },
+   "enableshort": {
+      "message": "A"
+   },
+   "enableurl": {
+      "message": "Aktivera AutoPager p\u00E5 %S."
+   },
+   "errorload": {
+      "message": "Fel vid inl\u00E4sning av sida:"
+   },
+   "esctoabort": {
+      "message": "Tryck ned Esc-tangenten f\u00F6r att avbryta."
+   },
+   "extensions_autopager_mozilla_org_description": {
+      "message": "AutoPager \u00E4r ett Mozilla-till\u00E4gg som automatiskt l\u00E4ser in kommande webbsidor i bakgrunden och infogar dem i slutet av den sida du l\u00E4ser. Du kan \u00E4ven anv\u00E4nda den som en XPath-generator."
+   },
+   "globaldisabled": {
+      "message": "AutoPager \u00E4r f\u00F6r n\u00E4rvarande inaktiverat. Aktivera det f\u00F6r att m\u00F6jligg\u00F6ra autostart p\u00E5 %S."
+   },
+   "highlightcontents": {
+      "message": "Markera inneh\u00E5ll"
+   },
+   "highlightnextlinks": {
+      "message": "Markera 'N\u00E4sta'-l\u00E4nkar"
+   },
+   "immediately_load": {
+      "message": "L\u00E4s in omedelbart"
+   },
+   "importdone": {
+      "message": "Import slutf\u00F6rd. H\u00E4mtade %S nya webbplatser, %S uppdaterade webbplatser och %S ignorerade webbplatser."
+   },
+   "inputfile": {
+      "message": "V\u00E4lj en inst\u00E4llningsfil f\u00F6r AutoPager:"
+   },
+   "inputname": {
+      "message": "Ange ditt namn, det kommer att l\u00E4ggas till i den konfiguration som du skapade."
+   },
+   "inputnumber": {
+      "message": "Ange ett positivt nummer"
+   },
+   "inputurl": {
+      "message": "Ange import-URL:en d\u00E4r du h\u00E4mtar inst\u00E4llningarna:"
+   },
+   "inputxpath": {
+      "message": "Var v\u00E4nlig ange XPath:"
+   },
+   "label_Usages_value": {
+      "message": "Anv\u00E4ndning"
+   },
+   "label_filterLabel_tooltiptext": {
+      "message": "Clear this filter to see all rules."
+   },
+   "label_filterLabel_value": {
+      "message": "Filter"
+   },
+   "label_idsLabel_value": {
+      "message": "Valda regel-ID:n (separera med kommatecken &apos;,&apos;)"
+   },
+   "label_lazyLoad": {
+      "message": "Uppskjuten inl\u00E4sning av bildk\u00E4llattribut"
+   },
+   "label_monitorXPathLbl_value": {
+      "message": "\u00D6vervaka XPath:"
+   },
+   "label_value": {
+      "message": "Antal"
+   },
+   "lite_discovery": {
+      "message": "Vill du att AutoPager automatiskt skall uppt\u00E4cka om det finns en regel i databasen f\u00F6r de webbsidor du bes\u00F6ker?"
+   },
+   "loading": {
+      "message": "\u003Cb\u003EL\u00E4ser in...\u003C/b\u003E"
+   },
+   "matchesfound": {
+      "message": "matchningar hittades"
+   },
+   "modifyxpath": {
+      "message": "Du kan modifiera din XPath om du s\u00E5 \u00F6nskar:"
+   },
+   "more": {
+      "message": "Mer"
+   },
+   "moveover": {
+      "message": "Muspekaren h\u00E5lls \u00F6ver %S. Dess XPath \u00E4r:%S"
+   },
+   "mustinput": {
+      "message": "Du m\u00E5ste ange ditt namn."
+   },
+   "myname": {
+      "message": "Mitt namn:%S"
+   },
+   "navbottom": {
+      "message": "G\u00E5 till f\u00F6nstrets nederkant"
+   },
+   "navdown": {
+      "message": "G\u00E5 ned\u00E5t en sida"
+   },
+   "navtop": {
+      "message": "G\u00E5 till f\u00F6nstrets \u00F6verkant"
+   },
+   "navup": {
+      "message": "G\u00E5 upp\u00E5t en sida"
+   },
+   "needyourattention": {
+      "message": "Click here to see what's it."
+   },
+   "nevershowPrompt": {
+      "message": "Visa aldrig den h\u00E4r fr\u00E5gerutan igen n\u00E4r nya webbplatser som st\u00F6ds hittas."
+   },
+   "nextpages": {
+      "message": "N\u00E4sta %S sidor"
+   },
+   "noAccessKey": {
+      "message": "N"
+   },
+   "no_rules_from_repository": {
+      "message": "No"
+   },
+   "nomatchedconfig": {
+      "message": "Ingen matchande webbplatskonfiguration f\u00F6r den h\u00E4r sidan."
+   },
+   "normal_repositories": {
+      "message": "Normal"
+   },
+   "notrate": {
+      "message": "Not rate yet. Click to be the first reviewer."
+   },
+   "openautopagerSidebar_commandkey": {
+      "message": "S"
+   },
+   "openautopagerSidebar_modifiersKey": {
+      "message": "Alt"
+   },
+   "optionAccessKey": {
+      "message": "O"
+   },
+   "optionexplain": {
+      "message": "A: Aktivera, I:Inaktivera, AA:Alltid aktiverat, AI:Alltid inaktiverat"
+   },
+   "options_checkbox_ignoreFormatVersionCheck_label": {
+      "message": "Ignorera kontroll av formatversion"
+   },
+   "options_checkbox_setAgent_label": {
+      "message": "L\u00E4gg till AutoPager i webbl\u00E4sarens anv\u00E4ndaragent"
+   },
+   "options_checkbox_tweakSession_label": {
+      "message": "\u00C5terst\u00E4ll till den senast synliga sidan efter omstart"
+   },
+   "options_dialog_autopager_options_buttonlabelextra1": {
+      "message": "Mer"
+   },
+   "options_dialog_autopager_options_title": {
+      "message": "Inst\u00E4llningar f\u00F6r AutoPager"
+   },
+   "options_label_speedLabel_value": {
+      "message": "Antal f\u00F6rinl\u00E4sta sidor:"
+   },
+   "options_menuitem_label0": {
+      "message": "0"
+   },
+   "options_menuitem_label1": {
+      "message": "1"
+   },
+   "options_menuitem_label2": {
+      "message": "2"
+   },
+   "options_menuitem_label3": {
+      "message": "3"
+   },
+   "optiontitle": {
+      "message": "Inst\u00E4llningar f\u00F6r AutoPager"
+   },
+   "outputfile": {
+      "message": "Ange ett exportfilnamn:"
+   },
+   "pagebreak2": {
+      "message": "Sidbrytning av AutoPager."
+   },
+   "pagelink": {
+      "message": "Sida (\u003Ca href='%S'\u003E %S \u003C/a\u003E)."
+   },
+   "rate": {
+      "message": "Rate %s of 5. Click to input your rate."
+   },
+   "repositoryname": {
+      "message": "Repository Name"
+   },
+   "rulecount": {
+      "message": "Rule Count"
+   },
+   "rulesupdated": {
+      "message": "Rules Updated"
+   },
+   "selectcontentxpath": {
+      "message": "V\u00E4lj inneh\u00E5ll"
+   },
+   "selectlinkxpath": {
+      "message": "V\u00E4lj 'N\u00E4sta sida'-l\u00E4nk."
+   },
+   "selectsearchengine": {
+      "message": "\u003CV\u00E4lj en s\u00F6kmotor\u003E"
+   },
+   "setting_appname": {
+      "message": "AutoPager"
+   },
+   "setting_button_add": {
+      "message": "L\u00E4gg till..."
+   },
+   "setting_button_cloneToEdit": {
+      "message": "Klona f\u00F6r redigering"
+   },
+   "setting_button_cloneToEditTip": {
+      "message": "Det h\u00E4r objektet kommer fr\u00E5n en ready source (k\u00E4lla f\u00F6r f\u00E4rdiga produkter). Om redigering blir n\u00F6dv\u00E4ndigt kan du endast redigera den klonade versionen."
+   },
+   "setting_button_copy": {
+      "message": "Klona"
+   },
+   "setting_button_down": {
+      "message": "Ned\u00E5t"
+   },
+   "setting_button_edit": {
+      "message": "Redigera..."
+   },
+   "setting_button_export": {
+      "message": "Exportera"
+   },
+   "setting_button_exportTip": {
+      "message": "Exportera utvalda objekt"
+   },
+   "setting_button_import": {
+      "message": "Importera"
+   },
+   "setting_button_pick": {
+      "message": "V\u00E4lj..."
+   },
+   "setting_button_public": {
+      "message": "Publicera"
+   },
+   "setting_button_remove": {
+      "message": "Ta bort"
+   },
+   "setting_button_reset": {
+      "message": "\u00C5terst\u00E4ll"
+   },
+   "setting_button_resetTip": {
+      "message": "\u00C5terst\u00E4ll till onlineinst\u00E4llningar eller tidigare inst\u00E4llningar (f\u00F6r lokal regel)"
+   },
+   "setting_button_up": {
+      "message": "Upp\u00E5t"
+   },
+   "setting_buttonlabelextra1": {
+      "message": "Verkst\u00E4ll"
+   },
+   "setting_key": {
+      "message": "u"
+   },
+   "setting_label_advanced": {
+      "message": "Avancerat"
+   },
+   "setting_label_allwaysEnableJavaScript": {
+      "message": "Aktivera alltid JavaScript n\u00E4r en sida l\u00E4ses in"
+   },
+   "setting_label_btnEdit": {
+      "message": "Redigera"
+   },
+   "setting_label_chkAjax": {
+      "message": "Det h\u00E4r \u00E4r en AJAX-webbplats. Ingen inl\u00E4sningsh\u00E4ndelse."
+   },
+   "setting_label_chkAlt": {
+      "message": "Alt"
+   },
+   "setting_label_chkCtrl": {
+      "message": "Ctrl"
+   },
+   "setting_label_chkEnableJS": {
+      "message": "Aktivera JavaScript n\u00E4r en sida l\u00E4ses in."
+   },
+   "setting_label_chkEnabled": {
+      "message": "Aktiverat"
+   },
+   "setting_label_chkFixOverflow": {
+      "message": "Inaktivera spillomr\u00E5desinst\u00E4llningen f\u00F6r inl\u00E4st sida."
+   },
+   "setting_label_chkIsRegex": {
+      "message": "\u00C4r det ett RegEx?"
+   },
+   "setting_label_chkQuickLoad": {
+      "message": "Snabbinl\u00E4sning (inte s\u00E4kert p\u00E5 alla webbplatser)."
+   },
+   "setting_label_chkShift": {
+      "message": "Skift"
+   },
+   "setting_label_chkneedMouseDown": {
+      "message": "Kr\u00E4ver klickningsutl\u00F6sare f\u00F6r l\u00E4nken"
+   },
+   "setting_label_confirmstyle": {
+      "message": "Bekr\u00E4ftelsestil:"
+   },
+   "setting_label_delaymsecs": {
+      "message": "F\u00F6rdr\u00F6jning innan n\u00E4sta sida infogas (ms)"
+   },
+   "setting_label_disable_by_default": {
+      "message": "Inaktiverat f\u00F6r enskilda nya webbplatser"
+   },
+   "setting_label_discoverytext": {
+      "message": "Utforska"
+   },
+   "setting_label_doubleclick": {
+      "message": "+Dubbelklick"
+   },
+   "setting_label_general": {
+      "message": "Allm\u00E4nt"
+   },
+   "setting_label_grpContentXPath": {
+      "message": "Inneh\u00E5lls-XPath:"
+   },
+   "setting_label_grpDiscovery": {
+      "message": "Utforska"
+   },
+   "setting_label_grpRemoveXPath": {
+      "message": "Filter-XPath (ignorera objekt p\u00E5 de nya sidorna):"
+   },
+   "setting_label_grpSmart": {
+      "message": "Smart sidv\u00E4xling"
+   },
+   "setting_label_hotkeys": {
+      "message": "Aktivera/Inaktivera kortkommandon:"
+   },
+   "setting_label_ignoresite": {
+      "message": "Ignorera webbplatser"
+   },
+   "setting_label_lblContainerXPath": {
+      "message": "Beh\u00E5llare-XPath:"
+   },
+   "setting_label_lblDesc": {
+      "message": "Beskrivning:"
+   },
+   "setting_label_lblLinkXPath": {
+      "message": "L\u00E4nk-XPath:"
+   },
+   "setting_label_lblOwner": {
+      "message": "Skapat av:"
+   },
+   "setting_label_lblSetting": {
+      "message": "AutoPagers k\u00E4lla f\u00F6r inst\u00E4llningar"
+   },
+   "setting_label_lblSettingContext": {
+      "message": "Kontexttyp:"
+   },
+   "setting_label_lblSettingDesc": {
+      "message": "Beskr.:"
+   },
+   "setting_label_lblSettingOwner": {
+      "message": "Underh\u00E5lls av:"
+   },
+   "setting_label_lblSettingType": {
+      "message": "Typ:"
+   },
+   "setting_label_lblSettingUrl": {
+      "message": "URL:"
+   },
+   "setting_label_lblSettingXPath": {
+      "message": "XPath:"
+   },
+   "setting_label_lblURLPattern": {
+      "message": "URL-m\u00F6nster:"
+   },
+   "setting_label_lblUpdate": {
+      "message": "Uppdatera webbplatskonfigurationer automatiskt:"
+   },
+   "setting_label_loading": {
+      "message": "Inl\u00E4sningsmeddelande-stil:"
+   },
+   "setting_label_localrules": {
+      "message": "Local Rules"
+   },
+   "setting_label_margin": {
+      "message": "Sidv\u00E4xla n\u00E4r utrymmet \u00E4r mindre \u00E4n motsvarande"
+   },
+   "setting_label_marginEnd": {
+      "message": "f\u00F6nsterh\u00F6jd(er)"
+   },
+   "setting_label_minipages": {
+      "message": "Minsta antal f\u00F6rinl\u00E4sta sidor"
+   },
+   "setting_label_pagebreak": {
+      "message": "Sidbrytningsstil:"
+   },
+   "setting_label_showContextMenu": {
+      "message": "Visa AutoPagers snabbmeny"
+   },
+   "setting_label_showHelpTips": {
+      "message": "Visa en hj\u00E4lptipsbild f\u00F6r varje kontroll, klicka f\u00F6r att se beskrivningen f\u00F6r en viss kontroll"
+   },
+   "setting_label_showPrompt": {
+      "message": "Visa fr\u00E5geruta f\u00F6r enskild ny webbplats"
+   },
+   "setting_label_showStatusBar": {
+      "message": "Visa AutoPagers ikon i statusf\u00E4ltet"
+   },
+   "setting_label_showToolbarIcon": {
+      "message": "Visa AutoPagers ikon i verktygsf\u00E4ltet"
+   },
+   "setting_label_simpleModalPrompt": {
+      "message": "Visa enkel modal fr\u00E5geruta f\u00F6r enskild ny webbplats"
+   },
+   "setting_label_sites": {
+      "message": "Webbplatser"
+   },
+   "setting_label_smartenable": {
+      "message": "Aktivera smart sidv\u00E4xling"
+   },
+   "setting_label_smartlinks": {
+      "message": "Anv\u00E4nd denna l\u00E4nk, om inte fler \u00E4n"
+   },
+   "setting_label_smartlinksEnd": {
+      "message": "l\u00E4mpliga l\u00E4nkar finns."
+   },
+   "setting_label_smartmatch": {
+      "message": "Exactly match only"
+   },
+   "setting_label_smarttext": {
+      "message": "&apos;N\u00E4sta&apos;-l\u00E4nkar (l\u00E4nktext, bildk\u00E4lla, ID, CSS-klass), separerade av vertikalstreck (&apos;|&apos;):"
+   },
+   "setting_label_timeout": {
+      "message": "Tidsgr\u00E4ns f\u00F6r sidinl\u00E4sning (s):"
+   },
+   "setting_label_update": {
+      "message": "Uppdatera"
+   },
+   "setting_text_tipContainerXPath": {
+      "message": "\u00C4ndra inte det h\u00E4r om du inte vet vad du g\u00F6r.\nDet h\u00E4r \u00E4r till hj\u00E4lp om huvudinneh\u00E5llet p\u00E5 webbplatsen \u00E4r vertikalt inordnat i en beh\u00E5llare med rullningslist. Webbplatsen www.cuil.com \u00E4r ett exempel."
+   },
+   "setting_title": {
+      "message": "AutoPagers inst\u00E4llningar"
+   },
+   "setting_tree_Description": {
+      "message": "Beskrivning"
+   },
+   "setting_tree_URLPattern": {
+      "message": "URL-m\u00F6nster"
+   },
+   "setting_type_autopager": {
+      "message": "AutoPager-XML"
+   },
+   "setting_type_autopagerize": {
+      "message": "Autopagerisera"
+   },
+   "setting_type_autopagerizeJson": {
+      "message": "Autopagerisera JSON"
+   },
+   "setting_type_autopagerlite": {
+      "message": "AutoPager Lite"
+   },
+   "setting_type_autopagertext": {
+      "message": "AutoPager-text"
+   },
+   "setting_update_bidaily": {
+      "message": "Varannan dag"
+   },
+   "setting_update_daily": {
+      "message": "Dagligen"
+   },
+   "setting_update_global": {
+      "message": "Anv\u00E4nd globala inst\u00E4llningar"
+   },
+   "setting_update_monthly": {
+      "message": "M\u00E5natligen"
+   },
+   "setting_update_never": {
+      "message": "Aldrig"
+   },
+   "setting_update_once": {
+      "message": "F\u00F6rsta g\u00E5ngen"
+   },
+   "setting_update_startup": {
+      "message": "Varje programstart"
+   },
+   "setting_update_weekly": {
+      "message": "Veckovis"
+   },
+   "showoptions": {
+      "message": "Visa mig fler inst\u00E4llningar"
+   },
+   "smartpaging": {
+      "message": "Smart Paging"
+   },
+   "statusbar_image_autopager_close_toolbar_tooltiptext": {
+      "message": "St\u00E4ng AutoPagers sidh\u00E5llare"
+   },
+   "statusbar_label_value": {
+      "message": "Klicka f\u00F6r att se sidv\u00E4xlingsreglerna online"
+   },
+   "statusbar_menu_autopager_about_label": {
+      "message": "Hj\u00E4lp"
+   },
+   "statusbar_menu_fix_label": {
+      "message": "Korrigera problem"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_label": {
+      "message": "Autokorrigera"
+   },
+   "statusbar_menuitem_autoPagerAutoFix_tooltiptext": {
+      "message": "Korrigera problem automatiskt"
+   },
+   "statusbar_menuitem_autoPagerReset_label": {
+      "message": "\u00C5terst\u00E4ll alla inst\u00E4llningar"
+   },
+   "statusbar_menuitem_autoPagerReset_tooltiptext": {
+      "message": "\u00C5terst\u00E4ll alla AutoPagers inst\u00E4llningar"
+   },
+   "statusbar_menuitem_autoPagerShoting_label": {
+      "message": "Fels\u00F6kning"
+   },
+   "statusbar_menuitem_autoPagerShoting_tooltiptext": {
+      "message": "Fels\u00F6kning"
+   },
+   "statusbar_menuitem_autopager_clean_label": {
+      "message": "Rensa alla"
+   },
+   "statusbar_menuitem_autopager_donation_label": {
+      "message": "Donera"
+   },
+   "statusbar_menuitem_autopager_donation_tooltiptext": {
+      "message": "Visa donationssidan"
+   },
+   "statusbar_menuitem_autopager_related_search_label": {
+      "message": "Visa relaterad s\u00F6kning"
+   },
+   "statusbar_menuitem_autopager_showhelp_label": {
+      "message": "Hj\u00E4lp"
+   },
+   "statusbar_menuitem_autopager_showhelp_tooltiptext": {
+      "message": "Visa hj\u00E4lpsidan"
+   },
+   "statusbar_menuitem_autopager_showrules_label": {
+      "message": "Regler"
+   },
+   "statusbar_menuitem_autopager_showrules_tooltiptext": {
+      "message": "Visa regler i onlinedatabasen"
+   },
+   "statusbar_menuitem_autopager_showtutorials_label": {
+      "message": "Sj\u00E4lvstudier"
+   },
+   "statusbar_menuitem_autopager_showtutorials_tooltiptext": {
+      "message": "Visa sidan med sj\u00E4lvstudieresurser"
+   },
+   "statusbar_menuitem_autopagerlite_discover_label": {
+      "message": "S\u00F6k regler online"
+   },
+   "statusbar_menuitem_autopagerlite_discover_tooltiptext": {
+      "message": "S\u00F6k efter regler online"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_label": {
+      "message": "V\u00E4xla till Lite-l\u00E4ge"
+   },
+   "statusbar_menuitem_autopagerlite_switchToLite_tooltiptext": {
+      "message": "V\u00E4xla till AutoPagers Lite-l\u00E4ge"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_label": {
+      "message": "V\u00E4xla till normall\u00E4ge"
+   },
+   "statusbar_menuitem_autopagerlite_switchToNormal_tooltiptext": {
+      "message": "V\u00E4xla till AutoPagers normall\u00E4ge"
+   },
+   "statusbar_menuitem_disable_on_default_label": {
+      "message": "H\u00E5ll sidv\u00E4xling inaktiverat som standard"
+   },
+   "statusbar_menuitem_discover_label": {
+      "message": "Hitta matchande regler online"
+   },
+   "statusbar_menuitem_highlightContents_label": {
+      "message": "Markera inneh\u00E5ll"
+   },
+   "statusbar_menuitem_highlightContents_tooltiptext": {
+      "message": "Markera inneh\u00E5ll i dokumentet"
+   },
+   "statusbar_menuitem_highlightLinks_label": {
+      "message": "Markera &apos;N\u00E4sta&apos;-l\u00E4nkar"
+   },
+   "statusbar_menuitem_highlightLinks_tooltiptext": {
+      "message": "Markera &apos;N\u00E4sta&apos;-l\u00E4nkar i dokumentet"
+   },
+   "statusbar_menuitem_label": {
+      "message": "Inst\u00E4llningar"
+   },
+   "statusbar_menuitem_liteModel_label": {
+      "message": "Fungerar i Lite-versionen"
+   },
+   "statusbar_menuitem_noPrompt_label": {
+      "message": "Visa det h\u00E4r p\u00E5 nya webbplatser"
+   },
+   "statusbar_menuitem_showDiscoverPanel_label": {
+      "message": "Visa alltid Utforska-ikonen"
+   },
+   "statusbar_menuitem_tooltiptext": {
+      "message": "AutoPagers k\u00E4rninst\u00E4llningar"
+   },
+   "statusbar_statusbarpanel_autopagerlite_status_label": {
+      "message": "?"
+   },
+   "testprompt": {
+      "message": "Ange en XPath eller dubblera en XPath i listan f\u00F6r att se effekten."
+   },
+   "textbox_lazyImgSrc_tooltiptext": {
+      "message": "Attribut f\u00F6r uppskjuten inl\u00E4sning av bild"
+   },
+   "textbox_monitorXPath_tooltiptext": {
+      "message": "Rensa inl\u00E4sta sidor n\u00E4r element kopplade till f\u00F6ljande XPath klickas eller \u00E4ndras"
+   },
+   "thereisalert": {
+      "message": "There's alerts"
+   },
+   "thissession": {
+      "message": "Den h\u00E4r sessionen"
+   },
+   "thissite": {
+      "message": "Den h\u00E4r webbplatsen"
+   },
+   "thistime": {
+      "message": "Den h\u00E4r g\u00E5ngen"
+   },
+   "toolbarbutton_addSite_tooltiptext": {
+      "message": "L\u00E4gg till webbplats"
+   },
+   "toolbarbutton_clearAllPath_tooltiptext": {
+      "message": "Rensa alla"
+   },
+   "toolbarbutton_discoverPath_tooltiptext": {
+      "message": "Utforska"
+   },
+   "toolbarbutton_openInOwnWin_tooltiptext": {
+      "message": "\u00D6ppna i nytt f\u00F6nster"
+   },
+   "toolbarbutton_openInSidebar_tooltiptext": {
+      "message": "\u00D6ppna i sidof\u00E4lt"
+   },
+   "toolbarbutton_pickupContentPath_tooltiptext": {
+      "message": "H\u00E4mta inneh\u00E5ll"
+   },
+   "toolbarbutton_pickupLinkPath_tooltiptext": {
+      "message": "H\u00E4mtningsl\u00E4nk"
+   },
+   "toolbarbutton_testSite_tooltiptext": {
+      "message": "Testa webbplats"
+   },
+   "treecol_authorityCol_label": {
+      "message": "Relevans"
+   },
+   "treecol_contentXpathCol_label": {
+      "message": "Inneh\u00E5lls-XPath"
+   },
+   "treecol_fileCol_label": {
+      "message": "Fil"
+   },
+   "treecol_linkXpathCol_label": {
+      "message": "L\u00E4nk-XPath"
+   },
+   "treecol_machedCol_label": {
+      "message": "Antal"
+   },
+   "treecol_xpathCol_label": {
+      "message": "XPath"
+   },
+   "tryagain": {
+      "message": "Vill du f\u00F6rs\u00F6ka igen?"
+   },
+   "unableevaluator": {
+      "message": "Det g\u00E5r inte att utv\u00E4rdera XPath:%S.n%S"
+   },
+   "unableload": {
+      "message": "Det g\u00E5r inte att ladda URL:"
+   },
+   "unsupport_version": {
+      "message": "Hittade regel i ett format som inte st\u00F6ds, version %S. F\u00F6r n\u00E4rvarande finns st\u00F6d upp till %S. Den h\u00E4r regeln kommer att ignoreras."
+   },
+   "viewdescription": {
+      "message": "Klicka f\u00F6r att visa beskrivning"
+   },
+   "viewdescription2": {
+      "message": "Ctrl+klick f\u00F6r att visa beskrivning"
+   },
+   "xpath_exprestion_button_reset_label": {
+      "message": "\u00C5terst\u00E4ll"
+   },
+   "xpath_exprestion_descriptionBox_text": {
+      "message": "Uttrycksbeskrivning f\u00F6r XPath"
+   },
+   "xpath_exprestion_dialog_xpath_expressions_title": {
+      "message": "XPath-uttryck"
+   },
+   "xpath_exprestion_tab_boolean_label": {
+      "message": "Booleska funktioner"
+   },
+   "xpath_exprestion_tab_location_label": {
+      "message": "Platser"
+   },
+   "xpath_exprestion_tab_nodeset_label": {
+      "message": "Nodupps\u00E4ttningsfunktioner"
+   },
+   "xpath_exprestion_tab_number_label": {
+      "message": "Talfunktioner"
+   },
+   "xpath_exprestion_tab_string_label": {
+      "message": "Str\u00E4ngfunktioner"
+   },
+   "xpath_exprestion_treecell_d_ancestor_label": {
+      "message": "Markerar \u00F6verordnade element till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_ancestor_or_self_label": {
+      "message": "Markerar \u00F6verordnade element till kontextnoden och sig sj\u00E4lv "
+   },
+   "xpath_exprestion_treecell_d_attribute_label": {
+      "message": "Markerar attribut hos kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_boolean_label": {
+      "message": "Returnerar den booleska representationen av objektargumentet."
+   },
+   "xpath_exprestion_treecell_d_ceiling_label": {
+      "message": "Returnerar det minsta heltalsv\u00E4rdet som inte \u00E4r mindre \u00E4n argumentet."
+   },
+   "xpath_exprestion_treecell_d_child_label": {
+      "message": "Markerar underordnade objekt till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_concat_label": {
+      "message": "Returnerar sammanl\u00E4nkningen av dess argument."
+   },
+   "xpath_exprestion_treecell_d_contains_label": {
+      "message": "Returnerar SANT om den f\u00F6rsta argumentstr\u00E4ngen inneh\u00E5ller den andra argumentstr\u00E4ngen."
+   },
+   "xpath_exprestion_treecell_d_count_label": {
+      "message": "Returnerar antalet noder i nodupps\u00E4ttningen."
+   },
+   "xpath_exprestion_treecell_d_descendant_label": {
+      "message": "Markerar underordnade noder till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_descendant_or_self_label": {
+      "message": "Markerar underordnade noder till kontextnoden och sig sj\u00E4lv"
+   },
+   "xpath_exprestion_treecell_d_false_label": {
+      "message": "Returnerar en boolesk med v\u00E4rdet FALSKT."
+   },
+   "xpath_exprestion_treecell_d_floor_label": {
+      "message": "Returnerar det st\u00F6rsta heltalsv\u00E4rdet som inte \u00E4r st\u00F6rre \u00E4n argumentet."
+   },
+   "xpath_exprestion_treecell_d_following_label": {
+      "message": "Markerar efterf\u00F6ljare till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_following_sibling_label": {
+      "message": "Markerar n\u00E4sta kapitel p\u00E5 samma niv\u00E5 som kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_id_label": {
+      "message": "Returnerar ett element, som specificeras av sitt unika ID."
+   },
+   "xpath_exprestion_treecell_d_lang_label": {
+      "message": "Returnerar SANT om spr\u00E5ket f\u00F6r kontextnoden \u00E4r detsamma som spr\u00E5ket som anges av argumentet."
+   },
+   "xpath_exprestion_treecell_d_last_label": {
+      "message": "Returnerar positionen f\u00F6r den sista noden i kontextlistan."
+   },
+   "xpath_exprestion_treecell_d_local_name_N_label": {
+      "message": "Returnerar det lokala namnet p\u00E5 den f\u00F6rsta noden i nodupps\u00E4ttningen."
+   },
+   "xpath_exprestion_treecell_d_local_name_label": {
+      "message": "Returnerar det lokala namnet p\u00E5 kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_name_N_label": {
+      "message": "Returnerar namnet p\u00E5 den f\u00F6rsta noden i nodupps\u00E4ttningen."
+   },
+   "xpath_exprestion_treecell_d_name_label": {
+      "message": "Returnerar namnet p\u00E5 kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_namespace_label": {
+      "message": "Markerar namnrymder f\u00F6r kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_N_label": {
+      "message": "Returnerar namnrymds-URI:n f\u00F6r den f\u00F6rsta noden i nodupps\u00E4ttningen."
+   },
+   "xpath_exprestion_treecell_d_namespace_uri_label": {
+      "message": "Returnerar namnrymds-URI:n f\u00F6r kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_S_label": {
+      "message": "Returnerar en blankteckennormaliserad str\u00E4ng som anges av argumentet."
+   },
+   "xpath_exprestion_treecell_d_normalize_space_label": {
+      "message": "Returnerar en blankteckennormaliserad str\u00E4ng som anges av kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_not_label": {
+      "message": "Returnerar en boolesk med det motsatta v\u00E4rdet av sitt argument."
+   },
+   "xpath_exprestion_treecell_d_number_O_label": {
+      "message": "Returnerar talrepresentationen av objektargumentet."
+   },
+   "xpath_exprestion_treecell_d_number_label": {
+      "message": "Returnerar talrepresentationen av kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_parent_label": {
+      "message": "Markerar \u00F6verordnad nod till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_position_label": {
+      "message": "Returnerar positionen f\u00F6r den aktuella kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_preceding_label": {
+      "message": "Markerar f\u00F6retr\u00E4dare till kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_preceding_sibling_label": {
+      "message": "Markerar det f\u00F6reg\u00E5ende kapitlet p\u00E5 samma niv\u00E5 som kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_round_label": {
+      "message": "Returnerar heltalsv\u00E4rdet som ligger n\u00E4rmast argumentet."
+   },
+   "xpath_exprestion_treecell_d_self_label": {
+      "message": "Markera kontextnoden"
+   },
+   "xpath_exprestion_treecell_d_starts_with_label": {
+      "message": "Returnerar SANT om den f\u00F6rsta argumentstr\u00E4ngen startar med den andra argumentstr\u00E4ngen."
+   },
+   "xpath_exprestion_treecell_d_string_O_label": {
+      "message": "Returnerar str\u00E4ngrepresentationen av objektargumentet."
+   },
+   "xpath_exprestion_treecell_d_string_label": {
+      "message": "Returnerar en str\u00E4ngv\u00E4rdesrepresentation av kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_string_length_S_label": {
+      "message": "Returnerar l\u00E4ngden p\u00E5 str\u00E4ngen som anges av argumentet."
+   },
+   "xpath_exprestion_treecell_d_string_length_label": {
+      "message": "Returnerar l\u00E4ngden p\u00E5 str\u00E4ngen som anges av kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_substring_N_label": {
+      "message": "Returnerar delstr\u00E4ngen av det f\u00F6rsta argumentet, med b\u00F6rjan p\u00E5 positionen som anges av det andra argumentet och med l\u00E4ngden som anges av det tredje argumentet."
+   },
+   "xpath_exprestion_treecell_d_substring_after_label": {
+      "message": "Returnerar delstr\u00E4ngen av den f\u00F6rsta argumentstr\u00E4ng som f\u00F6ljer p\u00E5 den f\u00F6rsta f\u00F6rekomsten av det andra argumentet."
+   },
+   "xpath_exprestion_treecell_d_substring_before_label": {
+      "message": "Returnerar delstr\u00E4ngen av den f\u00F6rsta argumentstr\u00E4ng som f\u00F6reg\u00E5r den f\u00F6rsta f\u00F6rekomsten av det andra argumentet."
+   },
+   "xpath_exprestion_treecell_d_substring_label": {
+      "message": "Returnerar delstr\u00E4ngen av det f\u00F6rsta argumentet fr\u00E5n positionen som anges av det andra argumentet."
+   },
+   "xpath_exprestion_treecell_d_sum_label": {
+      "message": "Returnerar summan av alla noder i nodupps\u00E4ttningen."
+   },
+   "xpath_exprestion_treecell_d_text_label": {
+      "message": "Returnerar textinneh\u00E5llet av kontextnoden."
+   },
+   "xpath_exprestion_treecell_d_translate_label": {
+      "message": "Ers\u00E4tter de tecken i str\u00E4ngen som anges av det andra argumentet med de tecken som anges av det tredje argumentet."
+   },
+   "xpath_exprestion_treecell_d_true_label": {
+      "message": "Returnerar en boolesk med v\u00E4rdet SANT."
+   },
+   "xpath_exprestion_treecell_s_ancestor_label": {
+      "message": "\u00D6verordnade element till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_ancestor_or_self_label": {
+      "message": "\u00D6verordnade element till kontextnoden och sig sj\u00E4lv"
+   },
+   "xpath_exprestion_treecell_s_attribute_label": {
+      "message": "Attribut hos kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_child_label": {
+      "message": "Underordnade objekt till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_descendant_label": {
+      "message": "Underordnade noder till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_descendant_or_self_label": {
+      "message": "Underordnade noder till kontextnoden och sig sj\u00E4lv"
+   },
+   "xpath_exprestion_treecell_s_following_label": {
+      "message": "Efterf\u00F6ljare till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_following_sibling_label": {
+      "message": "N\u00E4sta kapitel p\u00E5 samma niv\u00E5 som kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_namespace_label": {
+      "message": "Namnrymder f\u00F6r kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_parent_label": {
+      "message": "\u00D6verordnad nod till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_preceding_label": {
+      "message": "F\u00F6retr\u00E4dare till kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_preceding_sibling_label": {
+      "message": "Det f\u00F6reg\u00E5ende kapitlet p\u00E5 samma niv\u00E5 som kontextnoden"
+   },
+   "xpath_exprestion_treecell_s_self_label": {
+      "message": "Kontextnoden"
+   },
+   "xpath_exprestion_treecol_description_label": {
+      "message": "Beskrivning"
+   },
+   "xpath_exprestion_treecol_function_label": {
+      "message": "Funktion"
+   },
+   "xpath_exprestion_treecol_shortdescription_label": {
+      "message": "Kort beskrivning"
+   },
+   "xpathconfirm": {
+      "message": "Anser du att denna 'N\u00E4sta sida'-l\u00E4nk-XPath \u00E4r OK?"
+   },
+   "xpathreturnnothing": {
+      "message": "XPath returnerar ingenting"
+   },
+   "yesAccessKey": {
+      "message": "Y"
+   }
+}

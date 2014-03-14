@@ -1,0 +1,1 @@
+var _0xb84a=["\x6E\x61\x6D\x65","\x72\x6A","\x61\x64\x64\x4C\x69\x73\x74\x65\x6E\x65\x72","\x6F\x6E\x4D\x65\x73\x73\x61\x67\x65","\x65\x78\x74\x65\x6E\x73\x69\x6F\x6E"];chrome[_0xb84a[4]][_0xb84a[3]][_0xb84a[2]](function (_0xb895x1,_0xb895x2,_0xb895x3){if(_0xb895x1[_0xb84a[0]]==_0xb84a[1]){_0xb895x3({value:localStorage[_0xb84a[1]]});} ;} );

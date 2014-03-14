@@ -1,0 +1,143 @@
+{
+   "chrome_extension_description": {
+      "message": "Enable iPhone like touch scroll interface."
+   },
+   "chrome_extension_name": {
+      "message": "chromeTouch"
+   },
+   "default": {
+      "message": "default"
+   },
+   "on": {
+      "message": "On"
+   },
+   "s_basic": {
+      "message": "Basic"
+   },
+   "s_bounceeffect": {
+      "message": "Bounce Effect"
+   },
+   "s_bounceeffect_note": {
+      "message": "This is an effect that the screen rebounds to the window after it slides the uppermost part or the under the screen."
+   },
+   "s_dragdirection": {
+      "message": "Drag Direction"
+   },
+   "s_dragdirection_normal": {
+      "message": "Normal"
+   },
+   "s_dragdirection_reverse": {
+      "message": "Reverse"
+   },
+   "s_draggrideparam": {
+      "message": "Drag and Sliding Parameter"
+   },
+   "s_dragspeed": {
+      "message": "Drag Speed"
+   },
+   "s_dragspeed_fast": {
+      "message": "fast"
+   },
+   "s_dragspeed_note": {
+      "message": "Change faster or slower the screen scroll than the mouse drag speed."
+   },
+   "s_dragspeed_slow": {
+      "message": "slow"
+   },
+   "s_easyswitch": {
+      "message": "use Easy Switch"
+   },
+   "s_easyswitch_note": {
+      "message": "Press Hot key,\u003Cbr\u003ETouch Mode will change 'Auto' -&gt; 'Full' -&gt; 'Off' -&gt; .."
+   },
+   "s_glidedistance": {
+      "message": "Sliding Distance"
+   },
+   "s_glidedistance_long": {
+      "message": "long"
+   },
+   "s_glidedistance_note": {
+      "message": "The screen slides according to the drag speed when the mouse button is up after the drag. The length of the sliding factor."
+   },
+   "s_glidedistance_short": {
+      "message": "short"
+   },
+   "s_glidefactor": {
+      "message": "Sliding Factor"
+   },
+   "s_glidefactor_fastend": {
+      "message": "fast end"
+   },
+   "s_glidefactor_neverstop": {
+      "message": "Never stop"
+   },
+   "s_glidefactor_note": {
+      "message": "Sliding speed is reduced gradually until stop. Sliding brake factor."
+   },
+   "s_glidefactor_slowend": {
+      "message": "slow end"
+   },
+   "s_hideicon": {
+      "message": "don't show icon"
+   },
+   "s_hotkey": {
+      "message": "Hot key"
+   },
+   "s_language": {
+      "message": "Language"
+   },
+   "s_mousebutton": {
+      "message": "Use Mouse Button"
+   },
+   "s_mousebutton_left": {
+      "message": "Left Button"
+   },
+   "s_mousebutton_middle": {
+      "message": "Middle Button"
+   },
+   "s_mousebutton_right": {
+      "message": "Right Button"
+   },
+   "s_mousegesture": {
+      "message": "Mouse Gesture"
+   },
+   "s_mousegesture_note": {
+      "message": "Drag the page left for page back, drag right for page forward."
+   },
+   "s_mousegesture_reversebackforward": {
+      "message": "Reverse gesture direction for forward/back page"
+   },
+   "s_noscrolllbars": {
+      "message": "No scrolllbars mode"
+   },
+   "s_noscrolllbars_keyboardoption": {
+      "message": "Enable keyboard navigation"
+   },
+   "s_noscrolllbars_mousewheeloption": {
+      "message": "Enable mouse wheel"
+   },
+   "s_noscrolllbars_note": {
+      "message": "You can use the screen more widely by this mode."
+   },
+   "s_otherfeatures": {
+      "message": "Other Features"
+   },
+   "s_setting": {
+      "message": "chromeTouch Setting"
+   },
+   "s_touchmode": {
+      "message": "Touch Mode"
+   },
+   "s_touchmode_auto": {
+      "message": "Auto(no dragging on text)"
+   },
+   "s_touchmode_full": {
+      "message": "Full(dragging any time)"
+   },
+   "s_touchmode_off": {
+      "message": "Off(no dragging)"
+   },
+   "s_update": {
+      "message": "Update"
+   }
+}

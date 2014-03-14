@@ -1,0 +1,35 @@
+{
+   "background": {
+      "scripts": [ "core/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/tmtchrome_browserbutton.png",
+      "default_popup": "core/popup.html",
+      "default_title": "TooManyTabs for Chrome"
+   },
+   "content_scripts": [ {
+      "js": [ "core/tmtfocus.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "core/tmtfocus.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/tmtchrome_logo128.png",
+      "16": "img/tmtchrome_logo16.png",
+      "32": "img/tmtchrome_logo32.png",
+      "48": "img/tmtchrome_logo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWX/cfO3ls3pe/TJbtcRSyiH6w1Qu84sfzmaebphivBfMXpt363mjc0NmivLITvrWZ20/fPv6+vaZx8ozeUnL7a9dEghFq2skxiMCxGJYPnrjLTbJ1QbIG9+rZ+GYIjmBTugMUWDgSLIUtQLg0pDiPfd9sAJ9us0w8Ud+xKlTpqwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "20",
+   "name": "__MSG_name__",
+   "options_page": "core/options.html",
+   "permissions": [ "tabs", "bookmarks", "http://*/", "https://*/", "contextMenus", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.0"
+}

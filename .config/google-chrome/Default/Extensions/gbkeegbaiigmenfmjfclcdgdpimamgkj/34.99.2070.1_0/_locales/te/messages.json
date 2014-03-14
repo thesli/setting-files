@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "మరింత తెలుసుకోండి"
+   },
+   "app_nacl_crash_msg": {
+      "message": "సమస్యను నివేదించడం ద్వారా మాకు సహాయపడండి."
+   },
+   "app_nacl_crash_report": {
+      "message": "సమస్యను నివేదించండి..."
+   },
+   "app_nacl_crash_title": {
+      "message": "అయ్యో. అది అలా జరిగి ఉండకూడదు."
+   },
+   "app_nacl_error_msg": {
+      "message": "అనువర్తనం లోడ్ అవ్వడంలో లోపం ఏర్పడింది."
+   },
+   "app_nacl_error_title": {
+      "message": "ఫైల్‌ను తెరవడం సాధ్యం కాదు."
+   },
+   "application_description": {
+      "message": "పత్రాన్ని సవరించడం"
+   },
+   "file_loading_spinner_label": {
+      "message": "లోడ్ అవుతోంది"
+   },
+   "file_not_found_msg": {
+      "message": "మీరు అభ్యర్థించిన ఫైల్ లేదు మరియు తరలించబడింది."
+   },
+   "file_not_found_title": {
+      "message": "ఫైల్ కనుగొనబడలేదు."
+   }
+}

@@ -1,0 +1,230 @@
+{
+   "confirm_unload": {
+      "message": "CodeCola\u7684\u4FEE\u6539\u7ED3\u679C\u8FD8\u6CA1\u6709\u4FDD\u5B58\uFF0C\u786E\u5B9A\u8981\u79BB\u5F00\u5417\uFF1F"
+   },
+   "description": {
+      "message": "Code Cola\u662F\u4E00\u4E2A\u53EF\u89C6\u5316\u7F16\u8F91\u5728\u7EBF\u9875\u9762css\u6837\u5F0F\u7684chrome\u63D2\u4EF6\u3002"
+   },
+   "error_connect_server": {
+      "message": "\u94FE\u63A5\u5230\u670D\u52A1\u5668\u5931\u8D25"
+   },
+   "error_find_none": {
+      "message": "CodeCola\u6CA1\u6709\u627E\u5230\u4EFB\u4F55\u5339\u914D\u7684\u5143\u7D20"
+   },
+   "error_google": {
+      "message": "\u7531\u4E8E\u5B89\u5168\u9650\u5236\uFF0CCode Cola\u65E0\u6CD5\u5728\u4E00\u4E9Bgoogle\u7684\u9875\u9762\u4E0A\u8FD0\u884C\u3002"
+   },
+   "error_local": {
+      "message": "\u7531\u4E8E\u5B89\u5168\u9650\u5236\uFF0CCode Cola\u65E0\u6CD5\u5728\u672C\u5730\u9875\u9762\u4E0A\u8FD0\u884C\uFF0C\u8BF7\u5C06\u5F53\u524D\u9875\u9762\u4E0A\u4F20\u81F3\u670D\u52A1\u5668\uFF0C\u6216\u79FB\u81F3\u672C\u5730\u670D\u52A1\u5668\u76EE\u5F55\u4E0B\u3002"
+   },
+   "error_server_fail": {
+      "message": "\u670D\u52A1\u5668\u5904\u7406\u5931\u8D25"
+   },
+   "name": {
+      "message": "Code Cola"
+   },
+   "opt_about": {
+      "message": "\u5173\u4E8ECode Cola"
+   },
+   "opt_cNode": {
+      "message": "\u5F53\u524D\u8282\u70B9"
+   },
+   "opt_close": {
+      "message": "\u5173\u95ED"
+   },
+   "opt_compatibility": {
+      "message": "\u517C\u5BB9\u6027\u8BF4\u660E"
+   },
+   "opt_finder": {
+      "message": "CSS\u9009\u62E9\u5668\uFF1A"
+   },
+   "opt_fold": {
+      "message": "\u6536\u7F29"
+   },
+   "opt_foldAll": {
+      "message": "\u5173\u95ED\u6240\u6709"
+   },
+   "opt_hide": {
+      "message": "\u9690\u85CF\u6548\u679C"
+   },
+   "opt_hideNote": {
+      "message": "\u9690\u85CF\u6CE8\u91CA"
+   },
+   "opt_hideStyle": {
+      "message": "\u9690\u85CF\u6837\u5F0F"
+   },
+   "opt_html": {
+      "message": "\u83B7\u53D6\u4FEE\u6539\u7ED3\u679C"
+   },
+   "opt_link": {
+      "message": "\u83B7\u53D6\u4FEE\u6539\u7ED3\u679C\u94FE\u63A5"
+   },
+   "opt_same": {
+      "message": "\u5168\u90E8\u76F8\u540C"
+   },
+   "opt_share": {
+      "message": "\u5206\u4EAB\u5230CodeCola Patterns"
+   },
+   "opt_show": {
+      "message": "\u663E\u793A\u6548\u679C"
+   },
+   "opt_showNote": {
+      "message": "\u6DFB\u52A0\u6CE8\u91CA"
+   },
+   "opt_showStyle": {
+      "message": "\u67E5\u770B\u6837\u5F0F"
+   },
+   "opt_turnOff": {
+      "message": "\u5173\u95ED\u529F\u80FD"
+   },
+   "opt_turnOn": {
+      "message": "\u5F00\u542F\u529F\u80FD"
+   },
+   "opt_undo": {
+      "message": "\u64A4\u9500\u4FEE\u6539"
+   },
+   "opt_unfold": {
+      "message": "\u5C55\u5F00"
+   },
+   "opt_unfoldAll": {
+      "message": "\u5C55\u5F00\u6240\u6709"
+   },
+   "style_b": {
+      "message": "\u8FB9\u6846"
+   },
+   "style_b_color": {
+      "message": "\u989C\u8272"
+   },
+   "style_b_radius": {
+      "message": "\u5706\u89D2"
+   },
+   "style_b_style": {
+      "message": "\u6837\u5F0F"
+   },
+   "style_b_width": {
+      "message": "\u5BBD\u5EA6"
+   },
+   "style_bg": {
+      "message": "\u80CC\u666F"
+   },
+   "style_bs": {
+      "message": "\u76D2\u9634\u5F71"
+   },
+   "style_bs_inset": {
+      "message": "\u5185\u90E8"
+   },
+   "style_bs_outset": {
+      "message": "\u5916\u90E8"
+   },
+   "style_c": {
+      "message": "\u5B57\u8272"
+   },
+   "style_ff": {
+      "message": "\u5B57\u4F53"
+   },
+   "style_ff_MSYH": {
+      "message": "\u5FAE\u8F6F\u96C5\u9ED1"
+   },
+   "style_ff_STFangsong": {
+      "message": "\u534E\u6587\u4EFF\u5B8B"
+   },
+   "style_ff_STHeiti": {
+      "message": "\u534E\u6587\u9ED1\u4F53"
+   },
+   "style_ff_STKaiti": {
+      "message": "\u534E\u6587\u6977\u4F53"
+   },
+   "style_ff_STSong": {
+      "message": "\u534E\u6587\u5B8B\u4F53"
+   },
+   "style_ff_simhei": {
+      "message": "\u9ED1\u4F53"
+   },
+   "style_ff_simsun": {
+      "message": "\u5B8B\u4F53"
+   },
+   "style_ff_youyuan": {
+      "message": "\u5E7C\u5706"
+   },
+   "style_fs": {
+      "message": "\u5B57\u578B"
+   },
+   "style_fs_bold": {
+      "message": "\u52A0\u7C97"
+   },
+   "style_fs_italic": {
+      "message": "\u659C\u4F53"
+   },
+   "style_fs_underline": {
+      "message": "\u4E0B\u5212\u7EBF"
+   },
+   "style_fz": {
+      "message": "\u5B57\u53F7"
+   },
+   "style_l": {
+      "message": "\u5E03\u5C40"
+   },
+   "style_l_margin": {
+      "message": "\u5916\u8FB9\u8DDD"
+   },
+   "style_l_padding": {
+      "message": "\u5185\u8FB9\u8DDD"
+   },
+   "style_lg": {
+      "message": "\u7EBF\u6027\u6E10\u53D8"
+   },
+   "style_lh": {
+      "message": "\u884C\u9AD8"
+   },
+   "style_ls": {
+      "message": "\u5217\u8868\u9879\u7B26\u53F7"
+   },
+   "style_ls_none": {
+      "message": "\u65E0"
+   },
+   "style_op": {
+      "message": "\u900F\u660E\u5EA6"
+   },
+   "style_s": {
+      "message": "\u5BBD\u9AD8"
+   },
+   "style_ta": {
+      "message": "\u5BF9\u9F50\u65B9\u5F0F"
+   },
+   "style_ta_center": {
+      "message": "\u5C45\u4E2D"
+   },
+   "style_ta_justify": {
+      "message": "\u4E24\u7AEF\u5BF9\u9F50"
+   },
+   "style_ta_left": {
+      "message": "\u5DE6\u5BF9\u9F50"
+   },
+   "style_ta_right": {
+      "message": "\u53F3\u5BF9\u9F50"
+   },
+   "style_transform": {
+      "message": "\u53D8\u5F62"
+   },
+   "style_ts": {
+      "message": "\u6587\u5B57\u9634\u5F71"
+   },
+   "style_wbr": {
+      "message": "\u53CD\u5C04"
+   },
+   "style_wbr_d": {
+      "message": "\u65B9\u5411"
+   },
+   "style_wbr_g": {
+      "message": "\u6E10\u53D8"
+   },
+   "style_wbr_o": {
+      "message": "\u8DDD\u79BB"
+   },
+   "style_webkitTextStroke": {
+      "message": "\u6587\u5B57\u63CF\u8FB9"
+   },
+   "style_wmi": {
+      "message": "\u906E\u7F69"
+   }
+}

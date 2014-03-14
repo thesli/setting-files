@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "Informacje"
+   },
+   "about_message": {
+      "message": "Funkcja Z Chrome to Phone udost\u0119pniana przez Google umo\u017Cliwia wysy\u0142anie link\u00F3w oraz innych informacji z przegl\u0105darki Chrome to Phone z systemem Android. Obejmuje ona rozszerzenie przegl\u0105darki Chrome i aplikacj\u0119 dla systemu Android."
+   },
+   "about_title_message": {
+      "message": "Informacje"
+   },
+   "app_desc": {
+      "message": "Google Z Chrome na telefon umo\u017Cliwia wysy\u0142anie link\u00F3w oraz innych informacji z przegl\u0105darki Chrome to Phone z systemem Android."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone Extension"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "B\u0142\u0105d po\u0142\u0105czenia."
+   },
+   "device_not_registered_message": {
+      "message": "Urz\u0105dzenie nie jest zarejestrowane dla u\u017Cytkownika."
+   },
+   "error_sending_message": {
+      "message": "B\u0142\u0105d podczas wysy\u0142ania do telefonu: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Wysy\u0142aj linki z przegl\u0105darki Chrome do telefonu."
+   },
+   "features_message2": {
+      "message": "Linki do Map Google s\u0105 otwierane w aplikacji Mapy Google w systemie Android."
+   },
+   "features_message3": {
+      "message": "Linki do YouTube s\u0105 otwierane w aplikacji YouTube w systemie Android."
+   },
+   "features_message4": {
+      "message": "Zaznaczenie numeru telefonu spowoduje automatyczne uruchomienie aplikacji Telefon z wpisanym numerem."
+   },
+   "features_message5": {
+      "message": "Zaznaczenie tekstu na stronie internetowej spowoduje skopiowanie go do schowka w systemie Android (d\u0142ugie naci\u015Bni\u0119cie pola tekstowego pozwala wklei\u0107 tekst w systemie Android)."
+   },
+   "features_title_message": {
+      "message": "Funkcje"
+   },
+   "help_message": {
+      "message": "Pomoc"
+   },
+   "invalid_scheme_message": {
+      "message": "Obs\u0142ugiwane s\u0105 tylko strony z adresem http lub https."
+   },
+   "privacy_message": {
+      "message": "Prywatno\u015B\u0107"
+   },
+   "sending_message": {
+      "message": "Trwa wysy\u0142anie do telefonu..."
+   },
+   "sent_message": {
+      "message": "Wys\u0142ano do telefonu."
+   },
+   "sign_in_message": {
+      "message": "Zaloguj si\u0119"
+   },
+   "sign_in_required_message": {
+      "message": "$link$ do funkcji Z Chrome to Phone.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "Wyloguj si\u0119"
+   },
+   "signed_in_message": {
+      "message": "Zalogowano si\u0119. Wszystko jest przygotowane do wysy\u0142ania link\u00F3w do telefonu."
+   },
+   "signed_out_message": {
+      "message": "Wylogowano si\u0119 z funkcji Z Chrome na telefon."
+   },
+   "signed_out_title_message": {
+      "message": "Wylogowano si\u0119"
+   },
+   "step2_message": {
+      "message": "Wyszukaj rozszerzenie 'Chrome to Phone' pod adresem chrome.google.com/extensions."
+   },
+   "step3_message": {
+      "message": "Zainstaluj rozszerzenie 'Chrome to Phone', a nast\u0119pnie kliknij ikon\u0119 na pasku narz\u0119dzi, aby si\u0119 zalogowa\u0107."
+   },
+   "step4_message": {
+      "message": "Wyszukaj aplikacj\u0119 'Chrome to Phone' w us\u0142udze Market przy u\u017Cyciu telefonu z systemem Android."
+   },
+   "step5_message": {
+      "message": "Zainstaluj aplikacj\u0119 Z Chrome na telefon w systemie Android, a nast\u0119pnie wykonaj prost\u0105 procedur\u0119 konfiguracji."
+   },
+   "step6_message": {
+      "message": "Kliknij ikon\u0119 na pasku narz\u0119dzi, aby wys\u0142a\u0107 link lub zaznaczony tekst do telefonu."
+   },
+   "tos_message": {
+      "message": "Warunki korzystania z us\u0142ugi"
+   }
+}

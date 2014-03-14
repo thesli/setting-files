@@ -1,0 +1,25 @@
+{
+   "background_page": "backgrPage.html",
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "YouTube5"
+   },
+   "content_scripts": [ {
+      "css": [ "inject.css" ],
+      "js": [ "player.js", "injected.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Force YouTube to play videos in HTML5.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQBSZjJQbljCIb4cu892cALZ8AqE9sSSZZfwCgD3C0kSMfai+tq+HiNsUR3Msni3KDznVPhq+c2MtxzB3lRiI/Tg5YPbixdtKxQTknEf+Y51enyf623tZVsIREeYpVF9HqnnvRK1V7vm5JxrKSOIX9AGRb5KKF3xAkDknIp8uyCwIDAQAB",
+   "minimum_chrome_version": "6.0.472.1",
+   "name": "YouTube5, Chromed",
+   "options_page": "optionsPage.html",
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

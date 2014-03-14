@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Saiba mais"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Relate o problema e nos ajude."
+   },
+   "app_nacl_crash_report": {
+      "message": "Informar um problema..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Isso não deveria acontecer."
+   },
+   "app_nacl_error_msg": {
+      "message": "Ocorreu um problema ao carregar o aplicativo."
+   },
+   "app_nacl_error_title": {
+      "message": "Não foi possível abrir o arquivo."
+   },
+   "application_description": {
+      "message": "Edição de documentos"
+   },
+   "file_loading_spinner_label": {
+      "message": "Carregando"
+   },
+   "file_not_found_msg": {
+      "message": "O arquivo solicitado foi movido."
+   },
+   "file_not_found_title": {
+      "message": "Arquivo não encontrado."
+   }
+}

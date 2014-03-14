@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Meer informatie"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Help ons door het probleem te melden."
+   },
+   "app_nacl_crash_report": {
+      "message": "Een probleem melden..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Oeps, dat was niet de bedoeling."
+   },
+   "app_nacl_error_msg": {
+      "message": "Er is een probleem opgetreden bij het laden van de applicatie."
+   },
+   "app_nacl_error_title": {
+      "message": "Het bestand kan niet worden geopend."
+   },
+   "application_description": {
+      "message": "Documenten bewerken"
+   },
+   "file_loading_spinner_label": {
+      "message": "Wordt geladen"
+   },
+   "file_not_found_msg": {
+      "message": "Het bestand dat je hebt opgevraagd, is niet beschikbaar."
+   },
+   "file_not_found_title": {
+      "message": "Bestand niet gevonden"
+   }
+}

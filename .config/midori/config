@@ -1,0 +1,22 @@
+[settings]
+default-encoding=ISO-8859-1
+default-font-family=Droid Sans
+enable-developer-extras=true
+enable-spell-checking=true
+enable-site-specific-quirks=true
+enable-javascript=true
+default-charset=ISO-8859-1
+last-window-width=958
+last-window-height=1048
+location-entry-search=https://duckduckgo.com/?q=%s
+show-statusbar=false
+toolbar-items=Back,Forward,ReloadStop,BookmarkAdd,Location,CompactMenu,
+homepage=http://start.elementaryos.org/
+tabhome=about:dial
+download-folder=/home/sli/Downloads
+text-editor=gnome-text-editor %F
+user-agent=Mozilla/5.0 (X11; Linux) AppleWebKit/535.22 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.22 Midori/0.5
+
+[extensions]
+libformhistory.so=true
+libtransfers.so=true

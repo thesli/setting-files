@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "id"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Ekstensi ini tidak dapat membuat saran dari laman seperti ini yang berisi konten aman (mis., http\u003Cb\u003Es\u003C/b\u003E://). Sampai bertemu kembali di web publik!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Ekstensi ini berfungsi optimal pada beranda atau laman utama kebanyakan situs web.\u003Cp\u003ECobalah ekstensi ini di situs web favorit&mdash;ujilah dan lihat saran laman untuk sesuatu yang Anda ketahui."
+   },
+   "sp_default_title": {
+      "message": "Lihat Google Similar Pages"
+   },
+   "sp_description": {
+      "message": "Temukan laman web yang mirip dengan laman yang sedang Anda ramban."
+   },
+   "sp_domain_change_message": {
+      "message": "Untuk mengubah domain lokal ke www.google.com, \u003Ca id='over' href='#'\u003Eklik di sini\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com telah disimpan sebagai domain lokal untuk memanggil laman yang mirip."
+   },
+   "sp_domain_message": {
+      "message": "Ekstensi ini akan menghubungi $1 untuk menemukan daftar laman yang mirip.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Jumlah laman: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003ETentang Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Kami mengharapkan umpan balik dari Anda di \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Terima kasih!"
+   },
+   "sp_options_intro": {
+      "message": "Dengan ekstensi peramban Google Similar Pages, Anda dapat mempratinjau dan menjelajah laman lain yang mirip dengan laman yang sedang Anda ramban dengan cepat -- dalam sekejap!"
+   },
+   "sp_options_legal": {
+      "message": "Saat Anda mengeklik tombol Laman Serupa, peramban akan mengirimkan kueri penelusuran ke Google untuk melihat apakah ada laman serupa dengan laman yang sedang Anda lihat.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EData yang terkait dengan kueri akan ditangani sebagaimana diuraikan dalam \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Ekebijakan privasi\u003C/a\u003E Google",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EKebijakan Privasi\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EPersyaratan Layanan\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Copot pemasangan"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Untuk mencopot Google Similar Pages, gunakan opsi menu Alat &gt; Ekstensi Chrome, dan klik tautan Copot Pemasangan untuk ekstensi Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Pratinjau\u003Cbr\u003Etidak tersedia"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (oleh Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://://www.google.co.id"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Saat ini ekstensi ini belum tersedia untuk negara/kawasan Anda. Periksalah beberapa saat lagi."
+   },
+   "sp_zero_results": {
+      "message": "Tidak ditemukan laman yang mirip."
+   }
+}

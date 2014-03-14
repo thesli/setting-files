@@ -1,0 +1,35 @@
+{
+   "hotkeyInstruct": {
+      "message": "Press keyboard to select a new Hotkey:"
+   },
+   "hotkeyNotice": {
+      "message": "  Hotkey will not work when you are on system pages, eg: this option page. Please assign a hotkey that is not occupied by the operating system or Chrome itself"
+   },
+   "instruct": {
+      "message": "Choose how to open Tab Expose's tab selection page"
+   },
+   "newTab": {
+      "message": "New Tab"
+   },
+   "no": {
+      "message": "No"
+   },
+   "popup": {
+      "message": "Popup"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "shortcut": {
+      "message": "Hotkey (default: ctrl + shift + E - new Hotkey will work on new tabs; for already opened tabs, please refresh them for new hotkey to work)"
+   },
+   "showTab": {
+      "message": "Show tab count on the icon"
+   },
+   "theme": {
+      "message": "Theme"
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

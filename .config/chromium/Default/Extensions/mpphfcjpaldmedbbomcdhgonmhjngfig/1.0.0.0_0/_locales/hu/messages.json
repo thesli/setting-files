@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ELAVULT. K\u00E9rj\u00FCk, ink\u00E1bb a Google beviteli eszk\u00F6z\u00F6k b\u0151v\u00EDtm\u00E9nyt haszn\u00E1lja, amely itt \u00E9rhet\u0151 el: http://goo.gl/lzCPo."
+   },
+   "vkbd_name": {
+      "message": "ELAVULT: Virtu\u00E1lis billenty\u0171zet (a Google-t\u00F3l)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtu\u00E1lis billenty\u0171zet b\u0151v\u00EDtm\u00E9ny be\u00E1ll\u00EDt\u00E1sai"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "V\u00E1lasszon billenty\u0171zetkioszt\u00E1s(oka)t a bal oldalon:"
+   },
+   "vkbd_save_options": {
+      "message": "Ment\u00E9s"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Billenty\u0171zet megjelen\u00EDt\u00E9se/elrejt\u00E9se"
+   }
+}

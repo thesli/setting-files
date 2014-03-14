@@ -1,0 +1,28 @@
+{
+   "background_page": "chrome-background.html",
+   "browser_action": {
+      "default_icon": "chrome_assets/taplio_on.png",
+      "default_title": "Click to toggle your Tapl.io Tab Bar",
+      "name": "Tapl.io",
+      "popup": "chrome-menu.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "taplio-ext-core/taplio-bar.css", "chrome-styles.css" ],
+      "js": [ "taplio-ext-core/jquery-1.6.min.js", "taplio-ext-core/taplio-context.js", "chrome-context.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Search. Simplified.",
+   "icons": {
+      "128": "taplio-ext-core/assets/taplio_icon_128.png",
+      "16": "taplio-ext-core/assets/taplio_icon_16.png",
+      "32": "taplio-ext-core/assets/taplio_icon_32.png",
+      "48": "taplio-ext-core/assets/taplio_icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxlqE/nWBaMLWiA484atdgSwmsCVUz+kIAnzXp0UtwjwUJx8pRsrDYhpmYQgxYRRcheB9E0vOv/PEG7KepIdPrAeH7M5v0oAMUvjQsIFploaMpjURKvUVM5Ru+QpPt/7lg+v4L7/sNn4WRdIUqWFuRaidcrbVcg2X64tPDiMuorwIDAQAB",
+   "name": "Tapl.io",
+   "permissions": [ "tabs", "chrome://favicon/", "*://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.50"
+}

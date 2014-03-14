@@ -1,0 +1,118 @@
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+// The below variable is essential to building a widget.
+var info = {
+  poke:   1,  // This is like an API version number. As the amount of required data,
+              // and how it will be used may change, this will hopefully make most
+              // forms of updates backwards compatible. When following this template,
+              // you should NOT change this number. If the NTP extension doesn't know
+              // how to handle the value you send, it will not display use your widget.
+              //
+              // This number will be increasingly important eventually when multiple
+              // widgets (various sizes, functions, etc) can be bundled into 1 extension.
+
+  width:  1,  // MUST be an integer between 1 and 3. Any invalid value will NOT work.
+              //  Wider widgets may be possible in the future. If you have a specific
+              //  need for this limit to be increased, let me know: h4r7.me/contact
+              //
+              // Width will always be calculated with the following formula:
+              // ( info.width * 200 ) + (( info.width - 1 ) * 6 )
+              //    Examples:
+              //    1 Tile  Wide = ( 1 * 200 ) + (( 1 - 1) * 6 ) = 200px wide (Minumum)
+              //    2 Tiles Wide = ( 2 * 200 ) + (( 2 - 1) * 6 ) = 406px wide
+              //    3 Tiles Wide = ( 3 * 200 ) + (( 3 - 1) * 6 ) = 612px wide (Maximum)
+              //
+              // ***  IMPORTANT  ***
+              // This value should NEVER change, as it will NOT affect widgets already
+              // placed by users. NEVER, NEVER change it. As mentioned before, it will
+              // eventually be possible to have multiple widgets in the same extension.
+              // ***  IMPORTANT  ***
+
+  height: 1,  // MUST be an integer between 1 and 3. Any invalid value will NOT work.
+              //  Taller widgets will likely never be possible.
+              //
+              // Height will always be calculated with the following formula:
+              // ( info.height * 200 ) + (( info.height - 1 ) * 6 )
+              //    Examples:
+              //    1 Tile  Tall = ( 1 * 200 ) + (( 1 - 1) * 6 ) = 200px tall (Minumum)
+              //    2 Tiles Tall = ( 2 * 200 ) + (( 2 - 1) * 6 ) = 406px tall
+              //    3 Tiles Tall = ( 3 * 200 ) + (( 3 - 1) * 6 ) = 612px tall (Maximum)
+              //
+              // ***  IMPORTANT  ***
+              // This value should NEVER change, as it will NOT affect widgets already
+              // placed by users. NEVER, NEVER change it. As mentioned before, it will
+              // eventually be possible to have multiple widgets in the same extension.
+              // ***  IMPORTANT  ***
+  path:   "widget.html",
+              // This value MUST be a relative path to a file packaged within your
+              // extension. DO NOT include a "/" at the start of the variable, and
+              // please remember that this value should NEVER change.
+              //
+              // ***  IMPORTANT  ***
+              // This value should NEVER change, as it will NOT affect widgets already
+              // placed by users. NEVER, NEVER change it. As mentioned before, it will
+              // eventually be possible to have multiple widgets in the same extension.
+              // ***  IMPORTANT  ***
+}
+
+// This listener is essential to building a widget.
+chrome.extension.onRequestExternal.addListener(function(request, sender, sendResponse) {
+  // The NTP extension will "poke" all installed extensions. Only extensions listening
+  // will respond with the necessary information (entered above). Changing this value
+  // will cause your widget to not display within the NTP widget manager.
+  if(request === "mgmiemnjjchgkmgbeljfocdjjnpjnmcg-poke") {
+    // Now let's respond with our details. I decided to go with this method instead of
+    // the sendResponse function for security. Responses carry no identification, but
+    // luckily, normal sendRequests do.
+    chrome.extension.sendRequest(
+      sender.id,
+      {
+        head: "mgmiemnjjchgkmgbeljfocdjjnpjnmcg-pokeback",
+        body: info,
+      }
+    );
+  }
+});
+
+// These variables are NOT essential to building a widget. It is used only for demonstration.
+var weather = null;
+var place = "San Francisco, CA";
+var API_key  = "9143e352c8fb1d5b";  // I changed the API key. It is IMPERATIVE that this demo key NOT
+                                    // be used in any "published" code, else the demo not work for other
+                                    // developers. If you need a weather API, consider paying for it or
+                                    // use Google's API (unsupported/documented/can stop working at any time):
+                                    // http://www.google.com/ig/api?weather=Mountain%20View
+                                    //
+                                    // If you don't know how to use XML in a Chrome Extension, see the
+                                    // source of the weather widget I published to the web store:
+                                    // https://chrome.google.com/webstore/detail/goeepbfnllchoihkoiecpkkekbpfiboc
+                                    //
+                                    // Old (Apparently Ineffective) Note: This API key is for sample purposes only.
+                                    // It is severely rate limited by Weather Underground, and
+                                    // thus impractical for any application. If you wish to
+                                    // make a full-on weather widget, please find the API provider
+                                    // right for you and get your own key.
+var API_url  = "http://api.wunderground.com/api/" +
+  API_key + "/geolookup/forecast/conditions/q/" +
+  encodeURIComponent(place) + ".json?callback=?";
+
+// This function is NOT essential to building a widget. It is used only for demonstration.
+function update() {
+  $.getJSON(API_url,
+    function(data) {
+      weather = null;
+      weather = data.forecast.simpleforecast.forecastday[0];
+      weather.now = (data.current_observation.temp_f).toFixed(0);
+
+      // Set localStorage so it can be accessed in an iframe.
+      localStorage.setItem("weather", JSON.stringify( weather ));
+      localStorage.setItem("place", JSON.stringify( place ));
+    }
+  );
+}
+
+setInterval(update, 60*60*1000);
+update();
+
+
+</script>

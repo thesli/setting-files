@@ -1,0 +1,251 @@
+{
+   "addNewColumn": {
+      "message": "\u6DFB\u52A0\u65B0\u5217"
+   },
+   "addNewColumnButton": {
+      "message": "\u6DFB\u52A0"
+   },
+   "advancedFeatures": {
+      "message": "\u9AD8\u7EA7\u529F\u80FD"
+   },
+   "areYouSure": {
+      "message": "\u60A8\u786E\u5B9A\u5417?"
+   },
+   "cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "clearAll": {
+      "message": "\u6E05\u9664\u6B64\u5217\u4E2D\u7684\u6240\u6709\u5BF9\u8C61"
+   },
+   "clearAllButton": {
+      "message": "\u6E05\u9664"
+   },
+   "clickToClose": {
+      "message": "\u70B9\u51FB\u5173\u95ED"
+   },
+   "clickToPop": {
+      "message": "\u70B9\u51FB\u5C06\u6B64\u6807\u7B7E\u9875\u6DFB\u52A0\u5230 TooManyTabs \u5217"
+   },
+   "clickToRestore": {
+      "message": "\u70B9\u51FB\u6062\u590D"
+   },
+   "confirm": {
+      "message": "\u786E\u8BA4"
+   },
+   "crossWindow": {
+      "message": "\u663E\u793A\u6240\u6709\u7A97\u53E3\u6807\u7B7E\u9875:"
+   },
+   "crossWindow1": {
+      "message": "\u662F"
+   },
+   "crossWindow2": {
+      "message": "\u5426 (\u9ED8\u8BA4)"
+   },
+   "crossWindow3": {
+      "message": "Google Chrome for Mac / Linux \u4E0D\u652F\u6301\u8DE8\u7A97\u53E3\u5207\u6362\u6807\u7B7E\u9875\u3002\u5982\u679C\u60A8\u5C1D\u8BD5\u5207\u6362\u5230\u5176\u4ED6\u7A97\u53E3\u7684\u6807\u7B7E\uFF0C\u8BE5\u6807\u7B7E\u5C06\u88AB\u79FB\u52A8\u5230\u5F53\u524D\u7A97\u53E3\u3002"
+   },
+   "customRows1": {
+      "message": "\u81EA\u5B9A\u4E49\u5217"
+   },
+   "customRows2": {
+      "message": "\u4F7F\u7528\u9ED8\u8BA4\u5217"
+   },
+   "customRows3": {
+      "message": "\u542F\u7528\u81EA\u5B9A\u4E49\u5217"
+   },
+   "customThemeColor": {
+      "message": "\u81EA\u5B9A\u4E49\u4E3B\u9898\u989C\u8272:"
+   },
+   "description": {
+      "message": "\u6253\u5F00\u5F88\u591A\u6807\u7B7E\u9875\u65F6\u7BA1\u7406\u60A8\u7684\u6807\u7B7E\u9875\uFF0C\u6539\u8FDB\u6D4F\u89C8\uFF0C\u5E76\u4FDD\u6301\u7406\u667A\u3002"
+   },
+   "disableContextMenuLabel": {
+      "message": "Disable TMT context menu"
+   },
+   "disablePreviewLabel": {
+      "message": "\u7981\u7528\u6807\u7B7E\u9875\u9884\u89C8:"
+   },
+   "disablePreviewTip": {
+      "message": "\u63D0\u793A\uFF1A\u5373\u4F7F\u6807\u7B7E\u9875\u9884\u89C8\u4ECD\u5728\u52A0\u8F7D\uFF0C\u4F60\u4E5F\u5DF2\u7ECF\u53EF\u4EE5\u5F00\u59CB\u9009\u62E9\u6216\u641C\u7D22\u6807\u7B7E\u9875\u3002"
+   },
+   "export": {
+      "message": "\u5BFC\u51FA"
+   },
+   "exportBackup": {
+      "message": "Export for Backup"
+   },
+   "exportDescription": {
+      "message": "\u70B9\u51FB\u201C\u5BFC\u51FA\u201D\u6309\u94AE\u53EF\u5BFC\u51FA\u5217\u4E0E\u6807\u7B7E\u9875\u3002\u60A8\u53EF\u4EE5\u5C06\u5185\u5BB9\u4FDD\u5B58\u4E3A\u6587\u4EF6\u5E76\u5728\u5176\u4ED6\u8BA1\u7B97\u673A\u5BFC\u5165\u3002"
+   },
+   "exportPrint": {
+      "message": "Export for print"
+   },
+   "find": {
+      "message": "\u67E5\u627E"
+   },
+   "formatError": {
+      "message": "\u5BFC\u5165\u7684\u5185\u5BB9\u5305\u542B\u9519\u8BEF\uFF01\u60A8\u73B0\u6709\u7684\u6807\u7B7E\u9875\u4E0D\u4F1A\u53D7\u5230\u5F71\u54CD\u3002\u8BF7\u5C1D\u8BD5\u518D\u6B21\u5BFC\u51FA\u5E76\u5BFC\u5165\u3002"
+   },
+   "hidePinTabLabel": {
+      "message": "Hide Chrome's pinned tabs in TMT popup"
+   },
+   "import": {
+      "message": "\u5BFC\u5165"
+   },
+   "importAndExport": {
+      "message": "\u5BFC\u5165/\u5BFC\u51FA"
+   },
+   "importButton": {
+      "message": "Import and overwrite"
+   },
+   "importDescription": {
+      "message": "\u70B9\u51FB\u201C\u5BFC\u5165\u201D\u6309\u94AE\uFF0C\u5F00\u59CB\u5BFC\u5165\u5217\u4E0E\u6807\u7B7E\u9875\u3002\u5728\u6846\u4E2D\u7C98\u8D34\u5230\u5BFC\u51FA\u7684\u6587\u672C\uFF0C\u7136\u540E\u70B9\u51FB\u201C\u786E\u8BA4\u201D\u6309\u94AE\u3002"
+   },
+   "importDescription2": {
+      "message": "\u8B66\u544A: \u60A8\u5F53\u524D\u7684\u5217\u4E0E\u6807\u7B7E\u9875\u5C06\u88AB\u8986\u76D6"
+   },
+   "importFF": {
+      "message": "\u4ECE TooManyTabs(Firefox) \u5408\u5E76\u6807\u7B7E\u9875"
+   },
+   "importFFDescription": {
+      "message": "\u4F7F\u7528\u8BB0\u4E8B\u672C\u4E4B\u7C7B\u7684\u7F16\u8F91\u5668\u6253\u5F00 Firefox \u7248 TooManyTabs \u751F\u6210\u7684\u5907\u4EFD\u6587\u4EF6\u3002\u70B9\u51FB\u201C\u5408\u5E76\u201D\u6309\u94AE\u5F00\u59CB\u5BFC\u5165\u5217\u4E0E\u6807\u7B7E\u9875\u3002\u4ECE\u6587\u4EF6\u5C06\u6587\u672C\u7C98\u8D34\u5230\u672C\u6846\u4E2D\uFF0C\u7136\u540E\u70B9\u51FB\u201C\u786E\u8BA4\u201D\u6309\u94AE\u3002"
+   },
+   "importFFDescription2": {
+      "message": "\u73B0\u6709\u7684\u884C\u4E0D\u4F1A\u88AB\u66FF\u6362\uFF0C\u5C06\u8FFD\u52A0 Firefox \u4E2D\u7684\u884C\u3002\u7136\u800C\uFF0CChrome \u4E2D\u6CA1\u6709\u201C\u5F69\u8272\u201D\u6807\u7B7E\u9875\u529F\u80FD\u3002"
+   },
+   "importFFTextToggle": {
+      "message": "\u5408\u5E76"
+   },
+   "importPageTitle": {
+      "message": "TooManyTabs for Chrome - \u5BFC\u5165/\u5BFC\u51FA\u5217\u4E0E\u6807\u7B7E\u9875"
+   },
+   "importedSuccessfully": {
+      "message": "\u5217\u4E0E\u6807\u7B7E\u9875\u5BFC\u5165\u6210\u529F!"
+   },
+   "justTypeIn": {
+      "message": "\u53EA\u9700\u8F93\u5165..."
+   },
+   "mergeButton": {
+      "message": "Import and merge"
+   },
+   "mergeHint": {
+      "message": "Import as new columns or merge with existing columns"
+   },
+   "mergeSame": {
+      "message": "Merge columns with the same name"
+   },
+   "name": {
+      "message": "TooManyTabs for Chrome"
+   },
+   "newColumn": {
+      "message": "\u65B0\u5EFA\u5217"
+   },
+   "nextColumn": {
+      "message": "\u4E0B\u4E00\u5217"
+   },
+   "noResponse": {
+      "message": "\u55EF\uFF0C\u8BE5\u6807\u7B7E\u672A\u54CD\u5E94\u3002\u5B83\u53EF\u80FD\u662F\u4E2A\u7CFB\u7EDF\u9762\u677F\uFF0C\u6216\u8005\u53EF\u80FD\u5B83\u6B63\u5FD9..."
+   },
+   "ok": {
+      "message": "\u786E\u5B9A"
+   },
+   "openImportAndExportPage": {
+      "message": "\u6253\u5F00\u5BFC\u5165/\u5BFC\u51FA\u9875"
+   },
+   "openOptionPage": {
+      "message": "\u6253\u5F00\u9009\u9879\u9875"
+   },
+   "options": {
+      "message": "\u9009\u9879"
+   },
+   "optionsNo": {
+      "message": "\u5426"
+   },
+   "optionsPageTitle": {
+      "message": "TooManyTabs for Chrome - \u9009\u9879"
+   },
+   "optionsYes": {
+      "message": "\u662F"
+   },
+   "popupWidth": {
+      "message": "\u5F39\u7A97\u5BBD\u5EA6:"
+   },
+   "popupWidth1": {
+      "message": "\u5BBD"
+   },
+   "popupWidth2": {
+      "message": "\u7A84"
+   },
+   "popupWidth3": {
+      "message": "\u5C0F"
+   },
+   "previousColumn": {
+      "message": "\u4E4B\u524D\u5217"
+   },
+   "recentClosedMsg": {
+      "message": "\u6700\u8FD1\u5173\u95ED\u7684\u6807\u7B7E\u6570\u91CF:"
+   },
+   "recentlyClosedTip": {
+      "message": "\u4E0D\u4F1A\u968F\u5386\u53F2\u8BB0\u5F55\u7684\u6E05\u9664\u800C\u6E05\u7A7A\u3002\u53EF\u4EE5\u624B\u52A8\u6E05\u9664\u3002\u70B9\u51FB\u56FE\u6807\u53EF\u6253\u5F00\u5B50\u83DC\u5355\u3002"
+   },
+   "recentlyClosedTitle": {
+      "message": "\u6700\u8FD1\u5173\u95ED"
+   },
+   "remove": {
+      "message": "\u79FB\u9664"
+   },
+   "removeThisColumn": {
+      "message": "\u79FB\u9664\u6B64\u5217"
+   },
+   "removeThisColumnButton": {
+      "message": "\u79FB\u9664"
+   },
+   "removeThisColumnDisabled": {
+      "message": "\u8BE5\u5217\u65E0\u6CD5\u79FB\u9664"
+   },
+   "searchTitle": {
+      "message": "Search by title"
+   },
+   "searchURL": {
+      "message": "Search by url"
+   },
+   "sendToTMT": {
+      "message": "\u5C06\u6807\u7B7E\u9875/\u94FE\u63A5\u53D1\u5230 TooManyTabs"
+   },
+   "shortcut1": {
+      "message": "\u4F7F\u7528\u5FEB\u6377\u952E\u8C03\u51FA TMT \u7A97\u53E3: CTRL-"
+   },
+   "shortcut2": {
+      "message": "\u5FEB\u6377\u952E\u5728\u7CFB\u7EDF\u9875\u9762\uFF08\u5982\u672C\u9009\u9879\u9875\uFF09\u65E0\u6548\u3002\u90E8\u5206\u5FEB\u6377\u952E\u53EF\u80FD\u65E0\u6CD5\u5728\u7279\u5B9A\u64CD\u4F5C\u7CFB\u7EDF\u4E0A\u4F7F\u7528\uFF08\u5982 CTRL-A\uFF09\u3002"
+   },
+   "showTabCount": {
+      "message": "\u5728\u56FE\u6807\u4E0A\u663E\u793A\u6807\u7B7E\u9875\u6570:"
+   },
+   "sortByAddress": {
+      "message": "\u6309\u7F51\u5740\u6392\u5E8F"
+   },
+   "sortByName": {
+      "message": "\u6309\u540D\u79F0\u6392\u5E8F"
+   },
+   "sortByTime": {
+      "message": "\u6309\u521B\u5EFA\u65F6\u95F4\u6392\u5E8F"
+   },
+   "supportMsg": {
+      "message": "\u652F\u6301\u6211\u4EEC\u7684\u5F00\u53D1!"
+   },
+   "suspendedTabsTip": {
+      "message": "\u5C06\u60A8\u7684\u95F2\u7F6E\u6807\u7B7E\u9875\u653E\u5728\u8FD9\u91CC\uFF0C\u4EE5\u51CF\u5C11\u6807\u7B7E\u6EA2\u51FA\u3002\u5185\u5B58\u5C06\u88AB\u91CA\u653E\uFF0C\u4F46\u8868\u5355\u4E0E\u89C6\u9891\u4E0D\u4F1A\u4FDD\u7559\u3002"
+   },
+   "suspendedTabsTitle": {
+      "message": "\u7EC8\u6B62\u6807\u7B7E\u9875"
+   },
+   "updateNotes": {
+      "message": "\u70B9\u6B64\u67E5\u770B\u66F4\u65B0\u8BF4\u660E"
+   },
+   "welcomeMessage": {
+      "message": "TooManyTabs \u65B0\u624B? \u003Ca target='_blank' href='http://goo.gl/Czh50'\u003E\u8BF7\u8BBF\u95EE\u6211\u4EEC\u7684\u6B22\u8FCE\u9875\u9762\u3002\u003C/a\u003E"
+   },
+   "winpopupWidthLabel": {
+      "message": "TMT popup window's width (open by shortcut)"
+   }
+}

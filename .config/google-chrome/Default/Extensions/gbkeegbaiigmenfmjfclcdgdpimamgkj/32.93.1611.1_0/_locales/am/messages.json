@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "\u1270\u1328\u121B\u122A \u1208\u1218\u1228\u12F3\u1275"
+   },
+   "app_nacl_crash_msg": {
+      "message": "\u127D\u130D\u1229\u1295 \u122A\u1356\u122D\u1275 \u1260\u121B\u12F5\u1228\u130D \u12EB\u130D\u12D9\u1295\u1362"
+   },
+   "app_nacl_crash_report": {
+      "message": "\u1309\u12F3\u12E9\u1295 \u122A\u1356\u122D\u1275 \u12EB\u12F5\u122D\u1309..."
+   },
+   "app_nacl_crash_title": {
+      "message": "\u12CD\u12ED \u12CD\u12ED\u1362 \u12EB \u1218\u12A8\u1230\u1275 \u12A0\u120D\u1290\u1260\u1228\u1260\u1275\u121D\u1362"
+   },
+   "app_nacl_error_msg": {
+      "message": "\u12A5\u12CD\u1242\u12EB\u12CD\u1295 \u1218\u132B\u1295 \u120B\u12ED \u127D\u130D\u122D \u1290\u1260\u122D\u1362"
+   },
+   "app_nacl_error_title": {
+      "message": "\u134B\u12ED\u1209 \u120A\u12A8\u1348\u1275 \u12A0\u12ED\u127D\u120D\u121D\u1362"
+   },
+   "application_description": {
+      "message": "\u12E8\u1230\u1290\u12F5 \u12A0\u122D\u1275\u12D6\u1275"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u1260\u1218\u132B\u1295 \u120B\u12ED"
+   },
+   "file_not_found_msg": {
+      "message": "\u12E8\u1320\u12E8\u1241\u1275 \u134B\u12ED\u120D \u1270\u12C8\u1235\u12F7\u120D\u1362"
+   },
+   "file_not_found_title": {
+      "message": "\u134B\u12ED\u120D \u12A0\u120D\u1270\u1308\u1298\u121D\u1362"
+   }
+}

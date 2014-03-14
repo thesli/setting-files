@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Viac informácií"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Nahláste nám problém a pomôžte ho tým vyriešiť."
+   },
+   "app_nacl_crash_report": {
+      "message": "Nahlásiť problém..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hops. Toto sa nemalo stať."
+   },
+   "app_nacl_error_msg": {
+      "message": "Pri načítavaní aplikácie sa vyskytol problém."
+   },
+   "app_nacl_error_title": {
+      "message": "Súbor sa nedá otvoriť."
+   },
+   "application_description": {
+      "message": "Úprava dokumentov"
+   },
+   "file_loading_spinner_label": {
+      "message": "Prebieha načítavanie"
+   },
+   "file_not_found_msg": {
+      "message": "Požadovaný súbor sa niekam presunul."
+   },
+   "file_not_found_title": {
+      "message": "Súbor sa nenašiel."
+   }
+}

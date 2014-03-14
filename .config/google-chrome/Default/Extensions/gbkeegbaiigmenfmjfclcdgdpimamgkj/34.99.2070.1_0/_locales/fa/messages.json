@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "بیشتر بیاموزید"
+   },
+   "app_nacl_crash_msg": {
+      "message": "با گزارش این مشکل به ما کمک کنید."
+   },
+   "app_nacl_crash_report": {
+      "message": "گزارش یک مشکل..."
+   },
+   "app_nacl_crash_title": {
+      "message": "متأسفیم. وقوع چنین موردی پیش‌بینی نشده بود."
+   },
+   "app_nacl_error_msg": {
+      "message": "هنگام بارگیری برنامه مشکلی روی داد."
+   },
+   "app_nacl_error_title": {
+      "message": "فایل باز نمی‌شود."
+   },
+   "application_description": {
+      "message": "ویرایش سند"
+   },
+   "file_loading_spinner_label": {
+      "message": "در حال بارگیری"
+   },
+   "file_not_found_msg": {
+      "message": "فایلی که درخواست کرده‌اید منتقل شده است."
+   },
+   "file_not_found_title": {
+      "message": "فایل یافت نشد."
+   }
+}

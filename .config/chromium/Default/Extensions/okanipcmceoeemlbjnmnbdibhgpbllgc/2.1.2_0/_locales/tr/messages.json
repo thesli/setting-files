@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "tr"
+   },
+   "qs_about_close_button": {
+      "message": "Kapat"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Google arama sonu\u00E7lar\u0131ndan birini t\u0131klad\u0131\u011F\u0131n\u0131zda, Quick Scroll sayfan\u0131n sa\u011F alt k\u00F6\u015Fesinde g\u00F6r\u00FCnt\u00FClenerek sayfadan sorgunuzla alakal\u0131 bir veya daha fazla metin par\u00E7as\u0131 g\u00F6sterebilir. Metni t\u0131klad\u0131\u011F\u0131n\u0131zda sayfan\u0131n ilgili b\u00F6l\u00FCm\u00FC kar\u015F\u0131n\u0131za gelir."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll yaln\u0131zca kullan\u0131\u015Fl\u0131 olabilecekse g\u00F6r\u00FCnt\u00FClenir. Sa\u011F \u00FCstteki simge durumuna k\u00FC\u00E7\u00FClt d\u00FC\u011Fmesini t\u0131klayarak k\u00FC\u00E7\u00FCltebilirsiniz."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EGoogle Hakk\u0131nda\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EGizlilik Politikas\u0131\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EHizmet \u015Eartlar\u0131\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll'un \u00E7al\u0131\u015Fma \u015Fekli:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll \u015Fimdi y\u00FCklendi."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll arad\u0131\u011F\u0131n\u0131z\u0131 daha h\u0131zl\u0131 bulman\u0131za yard\u0131mc\u0131 olan bir taray\u0131c\u0131 uzant\u0131s\u0131d\u0131r."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll yaln\u0131zca kullan\u0131\u015Fl\u0131 olabilecekse g\u00F6r\u00FCnt\u00FClenir. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EDaha fazla bilgi edinin\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Se\u00E7enekler kaydedildi"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Kullan\u0131m istatistiklerini Google'a otomatik olarak g\u00F6ndererek Google Quick Scroll'u daha iyi hale getirmemize yard\u0131mc\u0131 olun."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Gizlilik se\u00E7enekleri"
+   },
+   "qs_about_step_1": {
+      "message": "Google aramas\u0131 yap\u0131n."
+   },
+   "qs_about_step_2": {
+      "message": "Bir arama sonucunu t\u0131klay\u0131n."
+   },
+   "qs_about_step_3": {
+      "message": "Sayfadaki alakal\u0131 b\u00F6l\u00FCme gitmek i\u00E7in Quick Scroll'u t\u0131klay\u0131n."
+   },
+   "qs_about_support_instructions": {
+      "message": "Quick Scroll'u kullanmayla ilgili sorular\u0131n\u0131z veya sorunlar\u0131n\u0131z i\u00E7in l\u00FCtfen \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Edestek sayfam\u0131za\u003C/a\u003E bak\u0131n.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "Google Quick Scroll'u y\u00FCkledi\u011Finiz i\u00E7in te\u015Fekk\u00FCr ederiz!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EDeneyin!\u003C/b\u003E [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] aramas\u0131 yap\u0131p \"dark matter brown dwarfs\" sonucunu t\u0131klay\u0131n."
+   },
+   "qs_about_try_queries": {
+      "message": "\u015Eu sorgular\u0131 deneyin:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Google Quick Scroll'un y\u00FCklemesini kald\u0131rmak i\u00E7in Chrome'un Ara\u00E7lar&nbsp;\u003E&nbsp;Uzant\u0131lar men\u00FC se\u00E7ene\u011Fini kullan\u0131n ve Google Quick Scroll uzant\u0131s\u0131 i\u00E7in Y\u00FCklemeyi kald\u0131r ba\u011Flant\u0131s\u0131n\u0131 t\u0131klay\u0131n."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Y\u00FCklemeyi Kald\u0131rma"
+   },
+   "qs_description": {
+      "message": "Quick Scroll, bir Google arama sonucundaki alakal\u0131 b\u00F6l\u00FCme do\u011Frudan gitmenizi sa\u011Flar."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Daha az e\u015Fle\u015Fme"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Sorgunuz i\u00E7in orijinal e\u015Fle\u015Fmeleri g\u00F6sterir"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll, arad\u0131\u011F\u0131n\u0131z\u0131 daha h\u0131zl\u0131 bulman\u0131za yard\u0131mc\u0131 olan bir taray\u0131c\u0131 uzant\u0131s\u0131d\u0131r.\u003Cbr/\u003E\u003Cbr/\u003EGoogle arama sonu\u00E7lar\u0131ndan birini t\u0131klad\u0131\u011F\u0131n\u0131zda, Quick Scroll sayfan\u0131n sa\u011F alt k\u00F6\u015Fesinde g\u00F6r\u00FCnt\u00FClenerek sayfadan sorgunuzla alakal\u0131 bir veya daha fazla metin par\u00E7as\u0131 g\u00F6sterebilir. Metni t\u0131klad\u0131\u011F\u0131n\u0131zda sayfan\u0131n ilgili b\u00F6l\u00FCm\u00FC kar\u015F\u0131n\u0131za gelir.\u003Cbr/\u003E\u003Cbr/\u003EQuick Scroll sizi fazla rahats\u0131z etmemeye \u00E7al\u0131\u015F\u0131r ve yaln\u0131zca kullan\u0131\u015Fl\u0131 olabilecekse g\u00F6r\u00FCnt\u00FClenir."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Maalesef, Quick Scroll \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E i\u00E7in bu sayfada herhangi bir e\u015Fle\u015Fme bulamad\u0131. \u003Cspan class=\"goog_qs-learn-more\"\u003EDaha fazla bilgi edinin.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Sayfan\u0131n tamam\u0131n\u0131n \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E hakk\u0131nda oldu\u011Fu g\u00F6r\u00FCl\u00FCyor. Quick Scroll yaln\u0131zca sayfan\u0131n b\u00F6l\u00FCmleri alakal\u0131 oldu\u011Funda g\u00F6r\u00FCnt\u00FClenir. \u003Cspan class=\"goog_qs-learn-more\"\u003EDaha fazla bilgi edinin.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Sayfan\u0131n tamam\u0131 sorgunuzla alakal\u0131 oldu\u011Fundan Quick Scroll g\u00F6r\u00FCnt\u00FClenmedi."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll, bir Google arama sonucunu t\u0131klad\u0131\u011F\u0131n\u0131zda g\u00F6r\u00FCnt\u00FClenir. \u003Cspan class=\"goog_qs-learn-more\"\u003EDaha fazla bilgi edinin.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "\"Y\u00FCkle\" se\u00E7ene\u011Fini t\u0131klad\u0131\u011F\u0131n\u0131zda bu Hizmet \u015Eartlar\u0131'n\u0131 kabul etmi\u015F olursunuz: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Daha fazla e\u015Fle\u015Fme \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Sorgunuz i\u00E7in di\u011Fer e\u015Fle\u015Fmeleri g\u00F6sterir"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll bu sayfada e\u015Fle\u015Fmeler buldu."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll etkin. Daha fazla bilgi i\u00E7in t\u0131klay\u0131n."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll sayfan\u0131n y\u00FCklenmesini bekliyor..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Yard\u0131m ve se\u00E7enekler sayfas\u0131n\u0131 a\u00E7"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E i\u00E7in sayfadaki e\u015Fle\u015Fmeler"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E i\u00E7in sayfadaki e\u015Fle\u015Fmeler"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Simge durumuna k\u00FC\u00E7\u00FClt"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Google Quick Scroll uygulamas\u0131n\u0131 a\u00E7"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Bu metni sayfada g\u00F6rmek i\u00E7in t\u0131klay\u0131n"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Metne git $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E ile en iyi e\u015Fle\u015Fen sonu\u00E7lar"
+   }
+}

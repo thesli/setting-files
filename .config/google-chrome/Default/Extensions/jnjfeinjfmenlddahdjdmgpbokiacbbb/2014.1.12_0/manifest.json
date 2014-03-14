@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/icon-32.png",
+      "default_popup": "popup.html",
+      "default_title": "Quick Tabs"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Ctrl+M",
+            "linux": "Ctrl+M",
+            "mac": "MacCtrl+M",
+            "windows": "Ctrl+M"
+         }
+      }
+   },
+   "description": "A keyboard centric most recently used (MRU) ordered tab list plugin with search and switch functionality inspired by IntelliJ IDEA",
+   "icons": {
+      "128": "assets/icon-128.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoyIHH8l+elR/7k5kORZDMaWsxWnRQoJLrgxsM+H+aBZI4r0ApcCIpwxgDJm3dwlOCfv3ixBgCalhpFU76Q2okt7t+P+ASjZlPCHXNA1glQr2Ksmf531oYId1bIoRkYGspz6kP/aEVKq7VBHV4i5I3kZVLH2Tv12z5Ex8nEvQq5wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "5.0.375.29",
+   "name": "Quick Tabs",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/", "https://*/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2014.1.12"
+}

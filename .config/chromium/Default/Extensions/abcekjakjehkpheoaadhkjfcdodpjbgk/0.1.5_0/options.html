@@ -1,0 +1,42 @@
+<html>
+<head><title>Keyboard Navigation Options</title></head>
+<script type="text/javascript">
+
+// Saves options to localStorage.
+function save_options() {
+	var table = localStorage["hintchars"];
+	var inputTable = document.getElementById("hintchars");
+
+	if (inputTable.value.length == 0 || inputTable.value.length > 36) {
+		alert("Please enter up to 36 hint characters.");
+		return;
+	}
+	localStorage["hintchars"] = inputTable.value;
+}
+
+// Restores select box state to saved value from localStorage.
+function restore_options() {
+  var table = localStorage["hintchars"];
+  if (!table) {
+    return;
+  }
+  
+  var inputTable = document.getElementById("hintchars");
+  inputTable.value = table;
+}
+
+</script>
+
+<body onload="restore_options()">
+<h1>Keyboard Navigation Options</h1>
+<p>Hint characters: <input type="text" id="hintchars" value="ABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+<br>(Enter up to 36 characters that will be used in the hints.)
+</p>
+<p>Note: Options don't work yet due to a limitation of the extension system.</p>
+
+<p>
+<button onclick="save_options()">Save</button>
+</p>
+
+</body>
+</html>

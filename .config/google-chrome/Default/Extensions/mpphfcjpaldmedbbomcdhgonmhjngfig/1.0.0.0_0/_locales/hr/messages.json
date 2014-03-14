@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "ZASTARJELO. Umjesto toga upotrijebite pro\u0161irenje Google alati za unos (dostupno na http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "OBUSTAVLJENO: Virtualna tipkovnica (od Googlea)"
+   },
+   "vkbd_options_title": {
+      "message": "Opcije pro\u0161irenja virtualne tipkovnice"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Na lijevoj strani birajte izglede tipkovnice:"
+   },
+   "vkbd_save_options": {
+      "message": "Spremi"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Prika\u017Ei/sakrij tipkovnicu"
+   }
+}

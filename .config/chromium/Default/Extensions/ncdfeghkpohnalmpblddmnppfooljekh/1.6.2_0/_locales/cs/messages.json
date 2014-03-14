@@ -1,0 +1,206 @@
+{
+   "addLink": {
+      "message": "Send tab/link to Startpage"
+   },
+   "addLinkMenu": {
+      "message": "Enable 'Send tab/link to Startpage' menu"
+   },
+   "advancedOptionsBtn": {
+      "message": "Advanced Options"
+   },
+   "backToParentText": {
+      "message": "Zp\u011Bt"
+   },
+   "backgroundColorCustomTips": {
+      "message": "Or choose a custom background:"
+   },
+   "backgroundColorOptionTitle": {
+      "message": "Background Color"
+   },
+   "backgroundColorSelectionTips": {
+      "message": "Select a theme color:"
+   },
+   "bookmarkBarHelpContent": {
+      "message": "Tato oblast ukazuje Tvou li\u0161tu z\u00E1lo\u017Eek; slo\u017Eky jsou skryty."
+   },
+   "bookmarkBarHelpDismiss": {
+      "message": "[Zav\u0159\u00EDt]"
+   },
+   "bookmarkBrowserHelp": {
+      "message": "S t\u00EDmto obd\u00E9ln\u00EDkem se snadno dostane\u0161 k z\u00E1lo\u017Ek\u00E1m. Ty d\u016Fle\u017Eit\u00E9 lze p\u0159et\u00E1hnout do oblasti napravo.\u003Cbr\u003E\u003Cbr\u003EOblast vpravo bude nab\u00EDzet jinou slo\u017Eku, pokud se k n\u00ED zde dostane\u0161 a klikne\u0161 na 'Na n\u00E1st\u011Bnku'."
+   },
+   "bookmarkBrowserPin": {
+      "message": "Na n\u00E1st\u011Bnku"
+   },
+   "bookmarkBrowserTitle": {
+      "message": "Z\u00E1lo\u017Eky"
+   },
+   "bookmarkBrowserTop": {
+      "message": "Dom\u016F"
+   },
+   "bookmarkControlsHelpDismiss": {
+      "message": "[Close]"
+   },
+   "bookmarkControlsHelpMsg": {
+      "message": "Nyn\u00ED lze p\u0159izp\u016Fsobit slo\u017Eku v prav\u00E9m panelu - doklikej do preferovan\u00E9 a klikni na 'Na n\u00E1st\u011Bnku'."
+   },
+   "chromeBuggedText": {
+      "message": "Chrome Bookmarks are not ready yet. Please close this tab and open the startpage in a new tab."
+   },
+   "chromeSyncBug": {
+      "message": "This Chrome version does not support sync feature."
+   },
+   "clearClosedText": {
+      "message": "Vymazat"
+   },
+   "closeBtn": {
+      "message": "Cancel"
+   },
+   "columnInAppLabel": {
+      "message": "Show 3 columns in 'My Apps'"
+   },
+   "columnInBookmarkLabel": {
+      "message": "Show 3 columns in 'My Bookmarks'"
+   },
+   "columnInTopLabel": {
+      "message": "Show 3 columns in 'Most Visited'"
+   },
+   "confirm_uninstall": {
+      "message": "Are you sure you wish to uninstall '$title$' ?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "[The name of the webapp]"
+         }
+      }
+   },
+   "contactUs": {
+      "message": "Contact us at"
+   },
+   "customWallpaperLabel": {
+      "message": "Use Custom Wallpaper"
+   },
+   "defaultNotepadText": {
+      "message": "D\u011Bkujeme za nainstalov\u00E1n\u00ED\nNeuv\u011B\u0159iteln\u00E9 startovn\u00ED str\u00E1nky!\n \nTohle je Tv\u016Fj z\u00E1pisn\u00EDk, kam m\u016F\u017Ee\u0161 zapisovat pozn\u00E1mky!"
+   },
+   "description": {
+      "message": "Nov\u00E1 a p\u0159izp\u016Fsobiteln\u00E1 startovn\u00ED str\u00E1nka pro Chrome. Snadno najdi z\u00E1lo\u017Eky a zav\u0159en\u00E9 karty. Pi\u0161 si pozn\u00E1mky p\u0159i brouzd\u00E1n\u00ED."
+   },
+   "existingBmLabel": {
+      "message": "Check this to overwrite current notepad content"
+   },
+   "fileWarning": {
+      "message": "The image is too large! Please choose another one!"
+   },
+   "fontColorOptionTitle": {
+      "message": "Font Color"
+   },
+   "fontColorSelectionTips": {
+      "message": "Select your font color:"
+   },
+   "gmailAccount": {
+      "message": "Google Account"
+   },
+   "googleAppsAccount": {
+      "message": "Google Apps Account, Domain"
+   },
+   "googleAppsAccountDescription": {
+      "message": "Enter only your Google Apps domain without \"www\", e.g. visibotech.com"
+   },
+   "incredibleStartPage": {
+      "message": "Incredible StartPage"
+   },
+   "incredibleStartPageDescription": {
+      "message": "Incredible StartPage replaces your default starting page with a customizable view of your bookmarks, reminders and recent tabs.\u003Cbr\u003E\u003Ca href='http://blog.visibotech.com/p/incredible-startpage.html'\u003EClick here\u003C/a\u003E for a simple tutorial."
+   },
+   "maximumRecentlyClosedTabs": {
+      "message": "Maximum recently closed tabs"
+   },
+   "message": {
+      "message": "Please type your custom wallpaper URL:"
+   },
+   "name": {
+      "message": "Neuv\u011B\u0159iteln\u00E1 startovn\u00ED str\u00E1nka - produktivn\u00ED nov\u00E1 karta pro Chrome!"
+   },
+   "noColumnsLabel": {
+      "message": "Number of columns"
+   },
+   "notRememberClosedTabs": {
+      "message": "0 (Do not remember closed tabs)"
+   },
+   "noteUpdatedAtOtherPlacesText": {
+      "message": "The note has been updated from other places, please reload this page."
+   },
+   "notepadFont": {
+      "message": "Notepad Font"
+   },
+   "notepadSync": {
+      "message": "Notepad Sync"
+   },
+   "notepadSyncDescription": {
+      "message": "Sync notepad contents with your Google Account"
+   },
+   "notepadSyncDescription2": {
+      "message": "Chrome Bookmark Sync must be enabled, click [\u003Ca href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'\u003Ehere\u003C/a\u003E] for more information"
+   },
+   "option": {
+      "message": "Options"
+   },
+   "optionsEffect": {
+      "message": "Changes will be applied after reloading your startpage."
+   },
+   "optionsSaved": {
+      "message": "Saved"
+   },
+   "optionsTitle": {
+      "message": "Options"
+   },
+   "pagetitle": {
+      "message": "Incredible StartPage Options"
+   },
+   "postTo": {
+      "message": "Post to"
+   },
+   "promptRename": {
+      "message": "Rename title"
+   },
+   "recentlyClosedTitle": {
+      "message": "Uzav\u0159en\u00E9"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saveBtn": {
+      "message": "Save"
+   },
+   "shareNotepadTo": {
+      "message": "Post notes to"
+   },
+   "shareToCalendar": {
+      "message": "Calendar"
+   },
+   "shareToMail": {
+      "message": "Gmailem"
+   },
+   "toggleOptionsBtn": {
+      "message": "Theme Options"
+   },
+   "topSitesLabel": {
+      "message": "Show 'Most Visited' Tab"
+   },
+   "uninstallApp": {
+      "message": "Uninstall"
+   },
+   "useLocalLabel": {
+      "message": "Local File (~1024px wide, jpg format & max. size 500K):"
+   },
+   "wallpaperOptionTitle": {
+      "message": "Wallpapers"
+   },
+   "wallpaperThemeCustomTips": {
+      "message": "Or use a gradient as the background:"
+   },
+   "wallpaperThemeSelectionTips": {
+      "message": "Choose wallpaper from a theme:"
+   }
+}

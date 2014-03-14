@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "lt"
+   },
+   "qs_about_close_button": {
+      "message": "U\u017Edaryti"
+   },
+   "qs_about_copy": {
+      "message": "&copy; \u201EGoogle\u201C, 2009 m."
+   },
+   "qs_about_explanation": {
+      "message": "Spustel\u0117jus \u201EGoogle\u201C paie\u0161kos rezultat\u0105, apatiniame de\u0161iniajame puslapio kampe gali atsirasti \u201EQuick Scroll\u201C ir rodyti vien\u0105 ar daugiau puslapio teksto dali\u0173, atitinkan\u010Di\u0173 u\u017Eklaus\u0105. Spustel\u0117j\u0119 tekst\u0105, b\u016Bsite nukreipti \u012F t\u0105 puslapio dal\u012F."
+   },
+   "qs_about_explanation2": {
+      "message": "\u201EQuick Scroll\u201C pasirodo, tik kai gali b\u016Bti naudingas. Galite j\u012F suma\u017Einti spustel\u0117j\u0119 vir\u0161uje, de\u0161in\u0117je, esant\u012F suma\u017Einimo mygtuk\u0105."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EApie \u201EGoogle\u201C\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPrivatumo politika\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EPaslaug\u0173 teikimo s\u0105lygos\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Kaip \u201EQuick Scroll\u201C veikia:"
+   },
+   "qs_about_installed": {
+      "message": "Dabar \u201EGoogle Quick Scroll\u201C \u012Fdiegtas."
+   },
+   "qs_about_introduction": {
+      "message": "\u201EGoogle Quick Scroll\u201C yra nar\u0161ykl\u0117s pl\u0117tinys, kur\u012F naudojant galima grei\u010Diau rasti tai, ko ie\u0161kote."
+   },
+   "qs_about_only_useful": {
+      "message": "\u201EQuick Scroll\u201C pasirodo, tik kai yra naudingas. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003ESu\u017Einokite daugiau\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Parinktys i\u0161saugotos"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Pad\u0117kite pagerinti \u201EGoogle Quick Scroll\u201C automati\u0161kai si\u0173sdami naudojimo statistik\u0105 \u201EGoogle\u201C."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Privatumo parinktys"
+   },
+   "qs_about_step_1": {
+      "message": "Atlikite \u201EGoogle\u201C paie\u0161k\u0105."
+   },
+   "qs_about_step_2": {
+      "message": "Spustel\u0117kite paie\u0161kos rezultat\u0105."
+   },
+   "qs_about_step_3": {
+      "message": "Jei norite pereiti prie atitinkam\u0173 puslapio dali\u0173, spustel\u0117kite \u201EQuick Scroll\u201C."
+   },
+   "qs_about_support_instructions": {
+      "message": "Jei turite klausim\u0173 arba problem\u0173 d\u0117l \u201EQuick Scroll\u201C naudojimo, \u017Er. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Epalaikymo puslap\u012F\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "D\u0117kojame, kad \u012Fdieg\u0117te \u201EGoogle Quick Scroll\u201C!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EI\u0161bandykite!\u003C/b\u003E Ie\u0161kokite [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] ir spustel\u0117kite \u201Edark matter brown dwarfs\u201C rezultat\u0105."
+   },
+   "qs_about_try_queries": {
+      "message": "I\u0161bandykite \u0161ias u\u017Eklausas:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Jei norite pa\u0161alinti \u201EGoogle Quick Scroll\u201C, naudokite \u201EChrome\u201C \u012Franki\u0173&nbsp;\u003E&nbsp;pl\u0117tini\u0173 meniu parinkt\u012F ir spustel\u0117kite pl\u0117tinio \u201EGoogle Quick Scroll\u201C nuorod\u0105 \u201EPa\u0161alinti\u201C."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Pa\u0161alinti"
+   },
+   "qs_description": {
+      "message": "Naudojant \u201EQuick Scroll\u201C galima tiesiogiai pereiti prie atitinkam\u0173 \u201EGoogle\u201C paie\u0161kos rezultat\u0173 dali\u0173."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Ma\u017Eiau atitik\u010Di\u0173"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Rodyti pradines u\u017Eklausos atitiktis"
+   },
+   "qs_gallery_description": {
+      "message": "\u201EGoogle Quick Scroll\u201C yra nar\u0161ykl\u0117s pl\u0117tinys, kur\u012F naudojant galima grei\u010Diau rasti tai, ko ie\u0161kote.\u003Cbr/\u003E\u003Cbr/\u003ESpustel\u0117jus \u201EGoogle\u201C paie\u0161kos rezultat\u0105, \u201EQuick Scroll\u201C gali pasirodyti apatiniame de\u0161iniajame puslapio kampe ir rodyti vien\u0105 ar daugiau puslapio teksto dali\u0173, atitinkan\u010Di\u0173 u\u017Eklaus\u0105. Spustel\u0117j\u0119 tekst\u0105 b\u016Bsite nukreipti \u012F t\u0105 puslapio dal\u012F.\u003Cbr/\u003E\u003Cbr/\u003E\u201EQuick Scroll\u201C nesimai\u0161o ir pasirodo tik tada, kai gali b\u016Bti naudingas."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Apgailestaujame, \u201EQuick Scroll\u201C puslapyje nerado joki\u0173 atitik\u010Di\u0173 pagal \u201E\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\u201C. \u003Cspan class=\"goog_qs-learn-more\"\u003ESu\u017Einokite daugiau.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Atrodo, kad visas puslapis yra apie \u201E\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\u201C. \u201EQuick Scroll\u201C pasirodo tik atitinkan\u010Diose puslapio dalyse. \u003Cspan class=\"goog_qs-learn-more\"\u003ESu\u017Einokite daugiau.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "\u201EQuick Scroll\u201C nebuvo parodyta, nes visas puslapis atitinka u\u017Eklaus\u0105."
+   },
+   "qs_info_on_search": {
+      "message": "\u201EQuick Scroll\u201C pasirodo spustel\u0117jus \u201EGoogle\u201C paie\u0161kos rezultat\u0105. \u003Cspan class=\"goog_qs-learn-more\"\u003ESu\u017Einokite daugiau.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "Spustel\u0117dami \u201E\u012Ediegti\u201C sutinkate su \u0161iomis paslaug\u0173 teikimo s\u0105lygomis: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Daugiau atitik\u010Di\u0173 \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Rodyti daugiau u\u017Eklausos atitik\u010Di\u0173"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "\u201EQuick Scroll\u201C \u0161iame puslapyje rado atitik\u010Di\u0173."
+   },
+   "qs_page_action_inactive": {
+      "message": "\u201EQuick Scroll\u201C \u012Fgalintas. Spustel\u0117kite, jei reikia daugiau informacijos."
+   },
+   "qs_page_action_running": {
+      "message": "\u201EQuick Scroll\u201C laukia, kol puslapis bus \u012Fkeltas..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Atidaryti pagalbos ir parink\u010Di\u0173 puslap\u012F"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Atitinka puslapyje pagal \u201E\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\u201C"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Atitinka puslapyje pagal \u201E\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\u201C"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Suma\u017Einti"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Atidaryti \u201EGoogle Quick Scroll\u201C"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Spustel\u0117kite, jei norite matyti \u0161\u012F tekst\u0105 puslapyje"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Pereiti prie teksto $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Geriausios atitiktys pagal \u201E\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\u201C"
+   }
+}

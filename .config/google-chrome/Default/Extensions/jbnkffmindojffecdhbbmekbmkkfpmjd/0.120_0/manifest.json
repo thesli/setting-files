@@ -1,0 +1,97 @@
+{
+   "author": "Sean Anderson",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/streamus_icon_yellow_19_19.png",
+         "38": "img/streamus_icon_yellow_38_38.png"
+      },
+      "default_popup": "foreground.html",
+      "default_title": "__MSG_extensionTitle__"
+   },
+   "commands": {
+      "_execute_browser_action": {
+
+      },
+      "addVideoToPlaylist": {
+         "description": "__MSG_saveVideoCommandDescription__"
+      },
+      "copyVideoTitleAndUrl": {
+         "description": "__MSG_copyVideoTitleUrlCommandDescription__"
+      },
+      "copyVideoUrl": {
+         "description": "__MSG_copyVideoUrlCommandDescription__"
+      },
+      "deleteVideoFromStream": {
+         "description": "__MSG_deleteVideoCommandDescription__"
+      },
+      "nextVideo": {
+         "description": "__MSG_nextVideoCommandDescription__"
+      },
+      "previousVideo": {
+         "description": "__MSG_previousVideoCommandDescription__"
+      },
+      "toggleRadio": {
+         "description": "__MSG_toggleRadioCommandDescription__"
+      },
+      "toggleRepeat": {
+         "description": "__MSG_toggleRepeatCommandDescription__"
+      },
+      "toggleShuffle": {
+         "description": "__MSG_toggleShuffleCommandDescription__"
+      },
+      "toggleVideo": {
+         "description": "__MSG_toggleVideoCommandDescription__"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/inject/youTubeIFrameInject.js" ],
+      "matches": [ "*://*.youtube.com/embed/*" ]
+   }, {
+      "js": [ "js/inject/youTubeInject.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/inject/streamusShareInject.js" ],
+      "matches": [ "*://*.share.streamus.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/inject/streamusInject.js" ],
+      "matches": [ "*://*.streamus.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/inject/beatportInject.js" ],
+      "matches": [ "*://*.beatport.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.youtube.com/iframe_api https://ssl.google-analytics.com https://s.ytimg.com https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "http://streamus.com",
+   "icons": {
+      "128": "img/streamus_icon128.png",
+      "16": "img/streamus_icon16.png",
+      "48": "img/streamus_icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmO/I2g0AsHj5gwKYcAv19xa/E4FYE3gD1DtReHysli/YvzOX2X/VOgPMNCB9d5PvuWNH0xud21ztmk7wsNxKLcEuDTENgGqA9voTTG+3hgT1zH5R7rm8E0Kw590KhNattqwXkoRqdvavMjnUzlB9gDbU1duI1V8U03etW4Ta8EwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "29.0.1547.76",
+   "name": "__MSG_extensionName__",
+   "oauth2": {
+      "client_id": "346456917689-dtfdla6c18cn78u3j5subjab1kiq3jls.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/youtube.readonly", "https://www.googleapis.com/auth/youtube.upload", "https://www.googleapis.com/auth/youtubepartner", "https://www.googleapis.com/auth/plus.login", "https://www.googleapis.com/auth/plus.me" ]
+   },
+   "offline_enabled": false,
+   "omnibox": {
+      "keyword": "streamus"
+   },
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "notifications", "storage", "identity", "idle", "webRequest", "webRequestBlocking", "*://*.youtube.com/*", "http://streamus.apphb.com/" ],
+   "short_name": "Streamus",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.120",
+   "web_accessible_resources": [ "css/youTubeInject.min.css", "css/beatportInject.min.css", "img/streamus_icon14_0bars.png", "img/streamus_icon16.png", "img/close.png" ]
+}

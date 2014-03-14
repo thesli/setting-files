@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "de"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "Diese Erweiterung kann keine Vorschl\u00E4ge f\u00FCr Seiten anzeigen, deren Inhalte gesch\u00FCtzt sind (z.\u00A0B. http\u003Cb\u003Es\u003C/b\u003E://). Dies ist nur im \u00F6ffentlichen Web m\u00F6glich."
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Diese Erweiterung funktioniert am besten auf Startseiten oder auf der Hauptseite der meisten Websites.\u003Cp\u003ETesten Sie die Erweiterung auf einer Ihnen vertrauten Website &mdash; und zeigen Sie die passenden Seitenvorschl\u00E4ge an."
+   },
+   "sp_default_title": {
+      "message": "Zeigt Google \u00C4hnliche Seiten an."
+   },
+   "sp_description": {
+      "message": "Werfen Sie einen Blick auf Webseiten, die der momentan angezeigten Seite \u00E4hnlich sind."
+   },
+   "sp_domain_change_message": {
+      "message": "\u003Ca id='over' href='#'\u003EKlicken Sie hier\u003C/a\u003E, um Ihre lokale Domain in www.google.com zu \u00E4ndern."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com wurde als lokale Domain zum Abrufen \u00E4hnlicher Seiten gespeichert."
+   },
+   "sp_domain_message": {
+      "message": "Die Erweiterung ruft bei $1 eine Liste \u00E4hnlicher Seiten ab.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Anzahl der Seiten: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003E\u00DCber Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy; 2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Wir freuen uns auf Ihr Feedback unter \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Vielen Dank!"
+   },
+   "sp_options_intro": {
+      "message": "Mithilfe der Browser-Erweiterung \"Google Similar Pages\" k\u00F6nnen Sie schnell und direkt \u00E4hnliche Seiten wie die, auf der Sie sich momentan befinden, in einer Vorschau anzeigen und erkunden."
+   },
+   "sp_options_legal": {
+      "message": "Wenn Sie auf die Schaltfl\u00E4che \"\u00C4hnliche Seiten\" klicken, sendet Ihr Browser eine Suchanfrage an Google, um zu sehen, ob es \u00E4hnliche Seiten wie die gerade angezeigte Seite gibt.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EDie Daten in Zusammenhang mit der Suchanfrage werden so behandelt wie in den \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EDatenschutzbestimmungen\u003C/a\u003E von Google beschrieben.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EDatenschutzbestimmungen\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ENutzungsbedingungen\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Deinstallieren"
+   },
+   "sp_options_uninstall_message": {
+      "message": "W\u00E4hlen Sie zur Deinstallation von Google Similar Pages im Schraubenschl\u00FCssel-Men\u00FC von Google Chrome die Option f\u00FCr &gt; Erweiterungen aus und klicken Sie f\u00FCr die Erweiterung \"Google Similar Pages\" auf den Link \"Deinstallieren\"."
+   },
+   "sp_preview_not_available": {
+      "message": "Vorschau \u003Cbr\u003E nicht verf\u00FCgbar"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages-Betaversion (von Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Die Erweiterung ist f\u00FCr Ihr Land/Ihre Region zurzeit nicht verf\u00FCgbar. Versuchen Sie es in K\u00FCrze noch einmal."
+   },
+   "sp_zero_results": {
+      "message": "Keine \u00E4hnlichen Seiten gefunden"
+   }
+}

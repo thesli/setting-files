@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "F\u00E5 flere oplysninger"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Hj\u00E6lp os ved at rapportere problemet."
+   },
+   "app_nacl_crash_report": {
+      "message": "Rapport\u00E9r et problem..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ups, det burde ikke ske."
+   },
+   "app_nacl_error_msg": {
+      "message": "Der opstod et problem under indl\u00E6sning af applikationen."
+   },
+   "app_nacl_error_title": {
+      "message": "Filen kan ikke \u00E5bnes."
+   },
+   "application_description": {
+      "message": "Dokumentredigering"
+   },
+   "file_loading_spinner_label": {
+      "message": "Indl\u00E6ser"
+   },
+   "file_not_found_msg": {
+      "message": "Den fil, du har anmodet om, har flyttet sig."
+   },
+   "file_not_found_title": {
+      "message": "Filen blev ikke fundet."
+   }
+}

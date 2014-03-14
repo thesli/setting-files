@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Undo closed tabs"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [ "*://*.zcool.com.cn/*", "*://dexknows.whitepages.com/*", "*://tech.sina.com.cn/*" ],
+      "js": [ "support/ext.js", "support/support.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Accidentally closed your last tab? Tired of losing tabs in Incognito? Don't worry, everything is possible with this sexy extension!",
+   "icons": {
+      "128": "icon-128.png",
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDCeJoAbcT4Dw7Q5V7cnjawrMdzziHk2yJmy5wXsKepPtAXp+QNGH0u8cEzbFbOylVM6F78+/dzXHdc+gJsZ5UqpIx5I6EYnUYb7r2eXuBsW2J+R9BFatZ5fGEDDQs4y77NlPsxJrZYdCOBdWnsebcYJys7dmNQ51LuAet7tRitwIDAQAB",
+   "manifest_version": 2,
+   "name": "Sexy Undo Close Tab",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "unlimitedStorage", "chrome://favicon/", "webNavigation", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.4.0",
+   "web_accessible_resources": [ "support/pages/adoptions.html", "support/pages/privacy_policy.html" ]
+}

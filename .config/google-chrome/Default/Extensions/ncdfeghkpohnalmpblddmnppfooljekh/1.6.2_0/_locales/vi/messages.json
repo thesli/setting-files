@@ -1,0 +1,206 @@
+{
+   "addLink": {
+      "message": "Send tab/link to Startpage"
+   },
+   "addLinkMenu": {
+      "message": "Enable 'Send tab/link to Startpage' menu"
+   },
+   "advancedOptionsBtn": {
+      "message": "C\u00E0i \u0111\u1EB7t kh\u00E1c"
+   },
+   "backToParentText": {
+      "message": "Quay l\u1EA1i"
+   },
+   "backgroundColorCustomTips": {
+      "message": "Ho\u1EB7c t\u1EF1 t\u00F9y ch\u1EC9nh:"
+   },
+   "backgroundColorOptionTitle": {
+      "message": "M\u00E0u n\u1EC1n"
+   },
+   "backgroundColorSelectionTips": {
+      "message": "Ch\u1ECDn m\u00E0u c\u00F3 s\u1EB5n:"
+   },
+   "bookmarkBarHelpContent": {
+      "message": "\u0110\u00E2y l\u00E0 n\u01A1i hi\u1EC3n th\u1ECB c\u00E1c li\u00EAn k\u1EBFt trong thanh d\u1EA5u trang c\u1EE7a b\u1EA1n."
+   },
+   "bookmarkBarHelpDismiss": {
+      "message": "[\u0110\u00F3ng]"
+   },
+   "bookmarkBrowserHelp": {
+      "message": "H\u1ED9p tho\u1EA1i n\u00E0y gi\u00FAp b\u1EA1n tinh ch\u1EC9nh nhanh thanh d\u1EA5u trang c\u1EE7a b\u1EA1n. B\u1EA1n c\u00F3 th\u1EC3 k\u00E9o v\u00E0 th\u1EA3 1 li\u00EAn k\u1EBFt b\u1EA5t k\u00EC t\u1EEB h\u1ED9p tho\u1EA1i n\u00E0y sang h\u1ED9p tho\u1EA1i b\u00EAn ph\u1EA3i.\u003Cbr\u003E\u003Cbr\u003EN\u1EBFu b\u1EA1n mu\u1ED1n hi\u1EC3n th\u1ECB th\u01B0 m\u1EE5c kh\u00E1c \u1EDF h\u1ED9p b\u00EAn ph\u1EA3i, \u0111i\u1EC1u ch\u1EC9nh \u0111\u1EBFn th\u01B0 m\u1EE5c \u0111\u00F3 v\u00E0 click 'Ghim'."
+   },
+   "bookmarkBrowserPin": {
+      "message": "Ghim"
+   },
+   "bookmarkBrowserTitle": {
+      "message": "D\u1EA5u trang"
+   },
+   "bookmarkBrowserTop": {
+      "message": "Trang ch\u00EDnh"
+   },
+   "bookmarkControlsHelpDismiss": {
+      "message": "[\u0110\u00F3ng]"
+   },
+   "bookmarkControlsHelpMsg": {
+      "message": "B\u1EA1n c\u00F3 th\u1EC3 t\u00F9y ch\u1EC9nh th\u01B0 m\u1EE5c \u0111\u1EBFn h\u1ED9p tho\u1EA1i b\u00EAn ph\u1EA3i - \u0111i\u1EC1u ch\u1EC9nh \u0111\u1EBFn th\u01B0 m\u1EE5c \u0111\u00F3 v\u00E0 click 'Ghim'."
+   },
+   "chromeBuggedText": {
+      "message": "Thanh d\u1EA5u trang kh\u00F4ng s\u1EB5n s\u00E0ng. h\u00E3y \u0111\u00F3ng th\u1EBB n\u00E0y v\u00E0 m\u1EDF trang b\u1EAFt \u0111\u1EA7u trong th\u1EBB m\u1EDBi."
+   },
+   "chromeSyncBug": {
+      "message": "Phi\u00EAn b\u1EA3n Chrome hi\u1EC7n t\u1EA1i kh\u00F4ng h\u1ED7 tr\u1EE3 \u0111\u1ED3ng b\u1ED9 thanh d\u1EA5u trang."
+   },
+   "clearClosedText": {
+      "message": "X\u00F3a"
+   },
+   "closeBtn": {
+      "message": "H\u1EE7y b\u1ECF"
+   },
+   "columnInAppLabel": {
+      "message": "Hi\u1EC3n th\u1ECB d\u1EA1ng 3 c\u1ED9t trong '\u1EE8ng d\u1EE5ng'"
+   },
+   "columnInBookmarkLabel": {
+      "message": "Hi\u1EC3n th\u1ECB d\u1EA1ng 3 c\u1ED9t trong 'D\u1EA5u trang'"
+   },
+   "columnInTopLabel": {
+      "message": "Show 3 columns in 'Most Visited'"
+   },
+   "confirm_uninstall": {
+      "message": "B\u1EA1n c\u00F3 ch\u1EAFc mu\u1ED1n g\u1EE1 b\u1ECF '$title$' ?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "[The name of the webapp]"
+         }
+      }
+   },
+   "contactUs": {
+      "message": "Li\u00EAn h\u1EC7"
+   },
+   "customWallpaperLabel": {
+      "message": "Use Custom Wallpaper"
+   },
+   "defaultNotepadText": {
+      "message": "C\u1EA3m \u01A1n \u0111\u00E3 c\u00E0i \u0111\u1EB7t\nIncredible StartPage!\n \n\u0110\u00E2y l\u00E0 ghi ch\u00FA c\u1EE7a b\u1EA1n. B\u1EA1n c\u00F3 th\u1EC3 vi\u1EBFt ghi ch\u00FA t\u1EA1i \u0111\u00E2y!"
+   },
+   "description": {
+      "message": "A new, t\u00F9y ch\u1EC9nh trang b\u1EAFt \u0111\u1EA7u c\u1EE7a Chrome. D\u1EC5 d\u00E0ng t\u00ECm th\u1EA5y nh\u1EEFng d\u1EA5u trang y\u00EAu th\u00EDch v\u00E0 c\u00E1c th\u1EBB \u0111\u00E3 \u0111\u00F3ng. Take notes as you browse."
+   },
+   "existingBmLabel": {
+      "message": "Check this to overwrite current notepad content"
+   },
+   "fileWarning": {
+      "message": "The image is too large! Please choose another one!"
+   },
+   "fontColorOptionTitle": {
+      "message": "M\u00E0u ph\u00F4ng"
+   },
+   "fontColorSelectionTips": {
+      "message": "Ch\u1ECDn m\u00E0u:"
+   },
+   "gmailAccount": {
+      "message": "T\u00E0i kho\u1EA3n Google"
+   },
+   "googleAppsAccount": {
+      "message": "T\u00E0i kho\u1EA3n Google Apps, T\u00EAn mi\u1EC1n"
+   },
+   "googleAppsAccountDescription": {
+      "message": "Truy c\u1EADp t\u00EAn mi\u1EC1n Google Apps m\u00E0 khoogn c\u1EA7n \"www\", e.g. visibotech.com"
+   },
+   "incredibleStartPage": {
+      "message": "Incredible StartPage"
+   },
+   "incredibleStartPageDescription": {
+      "message": "Incredible StartPage thay th\u1EBF trang b\u1EAFt \u0111\u1EA7u m\u1EB7c \u0111\u1ECBnh v\u1EDBi c\u00E1ch hi\u1EC3n th\u1ECB t\u00F9y bi\u1EBFn thanh d\u1EA5u trang c\u1EE7a b\u1EA1n, nh\u1EAFc nh\u1EDF v\u00E0 c\u00E1c th\u1EBB \u0111\u00E3 \u0111\u00F3ng g\u1EA7n \u0111\u00E2y.\u003Cbr\u003E\u003Ca href='http://blog.visibotech.com/p/incredible-startpage.html'\u003EClick here\u003C/a\u003E \u0111\u1EC3 xem h\u01B0\u1EDBng d\u1EABn."
+   },
+   "maximumRecentlyClosedTabs": {
+      "message": "Th\u1EBB \u0111\u00E3 \u0111\u00F3ng g\u1EA7n \u0111\u00E2y t\u1ED1i \u0111a"
+   },
+   "message": {
+      "message": "H\u00E3y \u0111i\u1EC1n li\u00EAn k\u1EBFt t\u1EDBi h\u00ECnh n\u1EC1n c\u1EE7a b\u1EA1n:"
+   },
+   "name": {
+      "message": "Incredible StartPage - Productive Start Page for Chrome!"
+   },
+   "noColumnsLabel": {
+      "message": "S\u1ED1 c\u1ED9t"
+   },
+   "notRememberClosedTabs": {
+      "message": "0 (Kh\u00F4ng ghi nh\u1EDB th\u1EBB \u0111\u00E3 \u0111\u00F3ng)"
+   },
+   "noteUpdatedAtOtherPlacesText": {
+      "message": "Ghi ch\u00FA \u0111\u01B0\u1EE3c c\u1EADp nh\u1EADt t\u1EEB n\u01A1i kh\u00E1c, h\u00E3y t\u1EA3i l\u1EA1i trang n\u00E0y."
+   },
+   "notepadFont": {
+      "message": "Ph\u00F4ng ghi ch\u00FA"
+   },
+   "notepadSync": {
+      "message": "\u0110\u1ED3ng b\u1ED9 ghi ch\u00FA"
+   },
+   "notepadSyncDescription": {
+      "message": "\u0110\u1ED3ng b\u1ED9 n\u1ED9i dung ghi ch\u00FA v\u1EDBi t\u00E0i kho\u1EA3n Google"
+   },
+   "notepadSyncDescription2": {
+      "message": "Chrome Bookmark Sync ph\u1EA3i \u0111\u01B0\u1EE3c b\u1EADt, \u1EA5n [\u003Ca href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'\u003Ev\u00E0o \u0111\u00E2y\u003C/a\u003E] \u0111\u1EC3 bi\u1EBFt th\u00EAm th\u00F4ng tin"
+   },
+   "option": {
+      "message": "C\u00E0i \u0111\u1EB7t"
+   },
+   "optionsEffect": {
+      "message": "Thi\u1EBFt \u0111\u1EB7t s\u1EBD \u0111\u01B0\u1EE3c \u00E1p d\u1EE5ng sau khi t\u1EA3i l\u1EA1i trang b\u1EAFt \u0111\u1EA7u."
+   },
+   "optionsSaved": {
+      "message": "\u0110\u00E3 l\u01B0u"
+   },
+   "optionsTitle": {
+      "message": "C\u00E0i \u0111\u1EB7t"
+   },
+   "pagetitle": {
+      "message": "C\u00E0i \u0111\u1EB7t Incredible StartPage"
+   },
+   "postTo": {
+      "message": "Post to"
+   },
+   "promptRename": {
+      "message": "Rename title"
+   },
+   "recentlyClosedTitle": {
+      "message": "\u0110\u00E3 \u0111\u00F3ng"
+   },
+   "save": {
+      "message": "L\u01B0u"
+   },
+   "saveBtn": {
+      "message": "L\u01B0u"
+   },
+   "shareNotepadTo": {
+      "message": "Post notes to"
+   },
+   "shareToCalendar": {
+      "message": "Calendar"
+   },
+   "shareToMail": {
+      "message": "Gmail"
+   },
+   "toggleOptionsBtn": {
+      "message": "C\u00E0i \u0111\u1EB7t giao di\u1EC7n"
+   },
+   "topSitesLabel": {
+      "message": "Show 'Most Visited' Tab"
+   },
+   "uninstallApp": {
+      "message": "G\u1EE1 b\u1ECF"
+   },
+   "useLocalLabel": {
+      "message": "Local File (~1024px wide, jpg format & max. size 500K):"
+   },
+   "wallpaperOptionTitle": {
+      "message": "H\u00ECnh n\u1EC1n"
+   },
+   "wallpaperThemeCustomTips": {
+      "message": "Ho\u1EB7c t\u1EF1 t\u00F9y ch\u1EC9nh m\u00E0u n\u1EC1n:"
+   },
+   "wallpaperThemeSelectionTips": {
+      "message": "Ch\u1ECDn h\u00ECnh n\u1EC1n t\u1EEB giao di\u1EC7n c\u00F3 s\u1EB5n:"
+   }
+}

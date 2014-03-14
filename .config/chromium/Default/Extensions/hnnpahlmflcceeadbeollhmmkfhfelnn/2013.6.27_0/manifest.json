@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "ZIG-Scrollbar.css" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "description": "Green Scrollbar. Pure CSS3, no JS. Simple and Cute! Just extracted from ZIG( zzllrr Imager Geek ) http://goo.gl/n8SMk",
+   "homepage_url": "https://chrome.google.com/webstore/detail/gfjhimhkjmipphnaminnnnjpnlneeplk",
+   "icons": {
+      "128": "img/128.gif",
+      "16": "img/16.jpg",
+      "48": "img/48.jpg"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGMvaMY9rmlbDZHlg9WoTpR3j4CLDpCqac/xUIezIJXNpB6nBImPRrbKnAVJ1mLDMZN4qp2ltYgajEdajffBArfhQ20JD0GsRo8cx0PtlBKncK+nGM/Mg+4RWq8ahe2mI3oBVxTnYuiQ2mNbFQe6F5dmk36HyfiPenoC6vokajlQIDAQAB",
+   "manifest_version": 2,
+   "name": "Green Scroll Bar - Pure CSS3 (from ZIG)",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2013.6.27"
+}

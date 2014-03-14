@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>StumbleUpon Options</title>
+<script>
+var gBackgroundPage = chrome.extension.getBackgroundPage();
+
+function saveOptions()
+{
+    gBackgroundPage.setStorage('disable-context-menu', document.getElementById('disable-context-menu').checked);
+
+    if (gBackgroundPage.getStorage('disable-context-menu'))
+        gBackgroundPage.removeContextMenuItem();
+    else
+        gBackgroundPage.addContextMenuItem();
+
+    // Update status to let user know options were saved.
+    var status = document.getElementById("status");
+    status.innerHTML = "Options Saved.";
+    setTimeout(function() {
+      status.innerHTML = "";
+    }, 750);
+}
+
+function loadOptions() {
+    if (gBackgroundPage.getStorage('disable-context-menu'))
+    {
+        document.getElementById('disable-context-menu').checked = true;
+    }
+    else
+    {
+        document.getElementById('disable-context-menu').checked = false;
+    }
+}
+
+</script>
+</head>
+
+<body onload="loadOptions()">
+    <h1>StumbleUpon Options</h1>
+    <form>
+        <div class="wrapper-input">
+            <label for="disable-context-menu"><input type="checkbox" id="disable-context-menu" /> Disable context menu item</label>
+        </div>
+        <div class="actions">
+            <input type="button" onclick="saveOptions()" value="Save" />
+        </div>
+    </form>
+    <div id="status"></div>
+</body>
+</html>

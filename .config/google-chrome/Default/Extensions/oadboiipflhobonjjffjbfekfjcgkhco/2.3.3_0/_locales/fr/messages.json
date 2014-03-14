@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "\u00C0 propos"
+   },
+   "about_message": {
+      "message": "L'application Chrome to Phone de Google permet d\u2019envoyer des liens et d'autres informations depuis le navigateur Chrome vers votre appareil Android. Elle se compose d'une extension au navigateur Chrome et d'un module pour Android."
+   },
+   "about_title_message": {
+      "message": "\u00C0 propos"
+   },
+   "app_desc": {
+      "message": "Chrome to Phone permet d\u2019envoyer des liens et d'autres informations depuis le navigateur Chrome vers votre appareil Android."
+   },
+   "app_name": {
+      "message": "Extension Chrome to Phone de Google"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "Erreur de connexion."
+   },
+   "device_not_registered_message": {
+      "message": "Appareil non enregistr\u00E9 pour l'utilisateur."
+   },
+   "error_sending_message": {
+      "message": "Erreur lors de l'envoi au t\u00E9l\u00E9phone : $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Envoyez les liens des pages Web affich\u00E9es sur le navigateur Chrome vers votre t\u00E9l\u00E9phone."
+   },
+   "features_message2": {
+      "message": "Les liens Google Maps lancent l'application Google Maps sur votre appareil Android."
+   },
+   "features_message3": {
+      "message": "Les liens YouTube lancent l'application YouTube sur votre appareil Android."
+   },
+   "features_message4": {
+      "message": "Si vous s\u00E9lectionnez un num\u00E9ro de t\u00E9l\u00E9phone, il est entr\u00E9 dans le module Appeler ouvert automatiquement."
+   },
+   "features_message5": {
+      "message": "Il suffit de s\u00E9lectionner du texte sur une page Web pour le copier dans le Presse-papiers Android (et de maintenir enfonc\u00E9e ensuite une zone de texte pour le coller dans Android)."
+   },
+   "features_title_message": {
+      "message": "Fonctionnalit\u00E9s"
+   },
+   "help_message": {
+      "message": "Aide"
+   },
+   "invalid_scheme_message": {
+      "message": "Seules les pages http ou https sont prises en charge."
+   },
+   "privacy_message": {
+      "message": "Confidentialit\u00E9"
+   },
+   "sending_message": {
+      "message": "Transmission au t\u00E9l\u00E9phone..."
+   },
+   "sent_message": {
+      "message": "Transmis au t\u00E9l\u00E9phone."
+   },
+   "sign_in_message": {
+      "message": "Connexion"
+   },
+   "sign_in_required_message": {
+      "message": "$link$ \u00E0 Chrome to Phone.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "D\u00E9connexion"
+   },
+   "signed_in_message": {
+      "message": "Connexion termin\u00E9e. Vous \u00EAtes pr\u00EAt d\u00E9sormais \u00E0 envoyer des liens \u00E0 votre t\u00E9l\u00E9phone."
+   },
+   "signed_out_message": {
+      "message": "Vous \u00EAtes d\u00E9connect\u00E9 de Chrome to Phone."
+   },
+   "signed_out_title_message": {
+      "message": "D\u00E9connect\u00E9"
+   },
+   "step2_message": {
+      "message": "Recherchez 'Chrome to Phone' \u00E0 partir de la page Web chrome.google.com/extensions."
+   },
+   "step3_message": {
+      "message": "Installez l'extension Chrome to Phone et cliquez sur l'ic\u00F4ne correspondante dans la barre d'outils pour vous connecter."
+   },
+   "step4_message": {
+      "message": "Recherchez 'Chrome to Phone' sur le site Android Market \u00E0 partir de votre appareil Android."
+   },
+   "step5_message": {
+      "message": "Installez le module Chrome to Phone pour Android et lancez la proc\u00E9dure de configuration."
+   },
+   "step6_message": {
+      "message": "Cliquez sur l'ic\u00F4ne dans la barre d'outil pour transmettre le lien ou le texte actuellement s\u00E9lectionn\u00E9 vers votre t\u00E9l\u00E9phone."
+   },
+   "tos_message": {
+      "message": "Conditions d'utilisation"
+   }
+}

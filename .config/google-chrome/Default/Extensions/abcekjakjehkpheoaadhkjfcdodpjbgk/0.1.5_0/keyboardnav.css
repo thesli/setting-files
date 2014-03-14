@@ -1,0 +1,18 @@
+.chrome_keyboardnav_hint {
+    color: #000000;
+	background-color: white;
+	border: 2px solid orange;
+	padding: 0;
+	margin: 0;
+	font-size: 10pt;
+	line-height: 10pt;
+	position: absolute;
+    z-index: 2147483647;
+}
+
+.chrome_keyboardnav_hinta {
+	background-color: yellow !important;
+}
+
+#chrome_keyboardnav_hints {
+}

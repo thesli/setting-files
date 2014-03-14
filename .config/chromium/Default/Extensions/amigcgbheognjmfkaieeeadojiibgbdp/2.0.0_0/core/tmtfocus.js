@@ -1,0 +1,1 @@
+document.addEventListener("keyup",triggerTMTHotkey,!1);function triggerTMTHotkey(a){!a.altKey&&!a.shiftKey&&a.ctrlKey&&(console.log("triggerTMTHotkey",a),chrome.extension.sendMessage({command:"getShortcut"},function(b){b&&a.keyCode==b&&chrome.extension.sendMessage({command:"popup"})}))};

@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "ko"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "\uBCF4\uC548 \uCF58\uD150\uCE20\uAC00 \uC788\uB294 \uD398\uC774\uC9C0(\uC608: http\u003Cb\u003Es\u003C/b\u003E://)\uC5D0\uC11C\uB294 \uC774 \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC758 \uC81C\uC548 \uAE30\uB2A5\uC744 \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uACF5\uAC1C \uC6F9\uD398\uC774\uC9C0\uC5D0\uC11C \uC774\uC6A9\uD558\uC138\uC694."
+   },
+   "sp_chrome_special_case_text": {
+      "message": "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC740 \uB300\uAC1C \uC6F9\uC0AC\uC774\uD2B8\uC758 \uD648\uD398\uC774\uC9C0 \uB610\uB294 \uAE30\uBCF8 \uD398\uC774\uC9C0\uC5D0\uC11C \uAC00\uC7A5 \uC798 \uC791\uB3D9\uD569\uB2C8\uB2E4.\u003Cp\u003E\uC790\uC8FC \uC0AC\uC6A9\uD558\uB294 \uC6F9\uC0AC\uC774\uD2B8\uC5D0\uC11C \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC0AC\uC6A9\uD574 \uBCF4\uC138\uC694. &mdash;\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC2DC\uBC94\uC801\uC73C\uB85C \uC0AC\uC6A9\uD574 \uBCF4\uACE0 \uC54C\uACE0 \uC788\uB294 \uC0AC\uD56D\uC5D0 \uB300\uD55C \uD398\uC774\uC9C0 \uC81C\uC548\uC0AC\uD56D\uC744 \uD655\uC778\uD574 \uBCF4\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4."
+   },
+   "sp_default_title": {
+      "message": "Google Similar Pages\uB97C \uD45C\uC2DC\uD569\uB2C8\uB2E4."
+   },
+   "sp_description": {
+      "message": "\uD604\uC7AC \uCC3E\uACE0 \uC788\uB294 \uD398\uC774\uC9C0\uC640 \uC720\uC0AC\uD55C \uC6F9\uD398\uC774\uC9C0\uB97C \uAC80\uC0C9\uD574 \uBCF4\uC138\uC694."
+   },
+   "sp_domain_change_message": {
+      "message": "\uB85C\uCEEC \uB3C4\uBA54\uC778\uC744 www.google.com\uC73C\uB85C \uBCC0\uACBD\uD558\uB824\uBA74 \u003Ca id='over' href='#'\u003E\uC5EC\uAE30\uB97C \uD074\uB9AD\uD558\uC138\uC694\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com\uC774 \uC720\uC0AC\uD55C \uD398\uC774\uC9C0 \uAC80\uC0C9\uC5D0 \uB300\uD55C \uB85C\uCEEC \uB3C4\uBA54\uC778\uC73C\uB85C \uC800\uC7A5\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+   },
+   "sp_domain_message": {
+      "message": "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC740 $1\uC5D0 \uC811\uC18D\uD558\uC5EC \uC720\uC0AC\uD55C \uD398\uC774\uC9C0 \uBAA9\uB85D\uC744 \uAC80\uC0C9\uD569\uB2C8\uB2E4.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "\uD398\uC774\uC9C0 \uC218: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EGoogle \uC815\uBCF4\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "\uC758\uACAC\uC774 \uC788\uC73C\uC2DC\uBA74 \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E\uC5D0 \uBCF4\uB0B4\uC8FC\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4. \uAC10\uC0AC\uD569\uB2C8\uB2E4."
+   },
+   "sp_options_intro": {
+      "message": "Google Similar Pages \uBE0C\uB77C\uC6B0\uC800 \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC740 \uCC3E\uACE0 \uC788\uB294 \uD398\uC774\uC9C0\uC640 \uC720\uC0AC\uD55C \uD398\uC774\uC9C0\uB97C \uBE60\uB974\uAC8C \uBBF8\uB9AC \uBCF4\uACE0 \uD0D0\uC0C9\uD558\uB3C4\uB85D \uD574\uC90D\uB2C8\uB2E4."
+   },
+   "sp_options_legal": {
+      "message": "'\uC720\uC0AC\uD55C \uD398\uC774\uC9C0' \uBC84\uD2BC\uC744 \uD074\uB9AD\uD558\uBA74 \uBE0C\uB77C\uC6B0\uC800\uC5D0\uC11C Google\uC5D0 \uAC80\uC0C9\uC5B4\uB97C \uBCF4\uB0B4 \uD604\uC7AC \uBCF4\uACE0 \uC788\uB294 \uD398\uC774\uC9C0\uC640 \uC720\uC0AC\uD55C \uD398\uC774\uC9C0\uAC00 \uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003E\uAC80\uC0C9\uC5B4\uC640 \uAD00\uB828\uB41C \uB370\uC774\uD130\uB294 Google \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003E\uAC1C\uC778\uC815\uBCF4\uCDE8\uAE09\uBC29\uCE68\u003C/a\u003E\uC744 \uC900\uC218\uD558\uC5EC \uCC98\uB9AC\uB429\uB2C8\uB2E4.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003E\uAC1C\uC778\uC815\uBCF4\uCDE8\uAE09\uBC29\uCE68\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\uC11C\uBE44\uC2A4 \uC57D\uAD00\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "\uC81C\uAC70"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Google Similar Pages\uB97C \uC81C\uAC70\uD558\uB824\uBA74 Chrome \uB3C4\uAD6C\uC778 &gt; \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 \uBA54\uB274 \uC635\uC158\uC744 \uC0AC\uC6A9\uD558\uC5EC Google Similar Pages \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC5D0 \uB300\uD55C \uC81C\uAC70 \uB9C1\uD06C\uB97C \uD074\uB9AD\uD558\uC138\uC694."
+   },
+   "sp_preview_not_available": {
+      "message": "\uBBF8\uB9AC\uBCF4\uAE30\u003Cbr\u003E\uB97C \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages \uBCA0\uD0C0(Google \uC81C\uACF5)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "\uD604\uC7AC \uD574\uB2F9 \uAD6D\uAC00/\uC9C0\uC5ED\uC5D0\uC11C\uB294 \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uB098\uC911\uC5D0 \uB2E4\uC2DC \uD655\uC778\uD558\uC2DC\uAE30 \uBC14\uB78D\uB2C8\uB2E4."
+   },
+   "sp_zero_results": {
+      "message": "\uC720\uC0AC\uD55C \uD398\uC774\uC9C0\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+   }
+}

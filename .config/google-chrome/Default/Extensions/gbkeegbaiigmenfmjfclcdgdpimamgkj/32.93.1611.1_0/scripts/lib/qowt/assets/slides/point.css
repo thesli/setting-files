@@ -1,0 +1,263 @@
+@import url("../common.css");
+@import url("transitions.css");
+
+
+.qowt-point-context {
+  font-family: Calibri, sans-serif;
+}
+
+.qowt-point-thumbnail-strip {
+  position: absolute;
+  top: 10px;
+  left: 27px;
+}
+
+/* This prevents the blue selection border from showing */
+.qowt-point-thumbnail-strip:focus {
+  outline: none;
+}
+
+.qowt-point-blankBackground {
+  background: none;
+}
+
+.default-table-cell-border {
+  border: solid black 1.3333333333333333px;
+}
+
+.qowt-point-thumbnails-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-image: none, -webkit-linear-gradient(left, #ccc, #fff);
+  background-origin: border-box;
+}
+
+.qowt-point-defaultRunPr {
+  font-size: 1.5em;
+}
+
+.qowt-point-thumbnails-container-open {
+  width: 250px;
+}
+
+.qowt-point-thumbnails-container-closed {
+  width: 0;
+}
+
+/*
+ * Now defining as "#qowt-point-container p", because, when we do so, the style
+ * gets applied to the p elements in the end, rather than in the beginning.
+ */
+p {
+  margin: 0;
+}
+
+#qowt-point-main-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#qowt-point-presentation {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* This MUST be the same as the toolbar height, and changed if that changes.*/
+.qowt-editor #qowt-point-presentation {
+  top: 70px;
+}
+
+.qowt-editor-disabled #qowt-point-presentation {
+  position: fixed;
+}
+
+.qowt-point-main-container-fullscreen {
+  left: 0;
+}
+
+.qowt-point-main-container-normal {
+  left: 250px;
+}
+
+.qowt-point-notes-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.qowt-point-notes-container > div {
+  padding: 0 10px 0 6px;
+}
+
+#qowt-point-notes-splitter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 8px;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: white;
+  cursor: -webkit-grab;
+  text-align: center;
+}
+
+#qowt-point-notes-splitter:hover {
+  background-color: #f5f5f5;
+}
+
+#qowt-point-notes-splitter.ui-draggable-dragging {
+  cursor: -webkit-grabbing;
+}
+
+#qowt-point-notes-splitter span {
+  position: absolute;
+  display: inline-block;
+  top: -1px;
+  height: 2px;
+  line-height: 2px;
+  color: #ccc;
+  font-size: 16px;
+}
+
+#qowt-point-slides-container {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+#qowt-point-slides-zoom-container {
+  margin: 10px auto 0 auto;
+}
+
+.qowt-selectText {
+  -webkit-user-select: text;
+}
+
+.qowt-point-slide {
+  position: absolute;
+  overflow: hidden;
+}
+
+.qowt-point-slide-shadow{
+    -webkit-box-shadow: 0 0 5px #555;
+}
+
+.qowt-point-slide-inner {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.qowt-point-thumb-inner {
+  -webkit-transform-origin: 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.qowt-point-thumb-placeholder {
+  background-color: white;
+}
+
+.qowt-point-thumb-drop-placeholder {
+  background-color: #eee;
+  margin-bottom: 10px;
+}
+
+.qowt-point-index {
+  position: absolute;
+  left: -27px;
+  width: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.qowt-point-slide-selected {
+  outline: orange 3px solid;
+}
+
+.qowt-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#qowt-point-slide-notes {
+  overflow: scroll;
+  width: 100%;
+}
+
+.qowt-point-shape {
+  display: -webkit-box;
+}
+
+.qowt-point-shapeLink {
+  cursor: pointer !important;
+}
+
+.qowt-point-thumbnail-textLink {
+  text-decoration: underline !important;
+}
+
+.qowt-point-position-absolute {
+  position: absolute;
+}
+
+.qowt-point-position-relative {
+  position: relative;
+}
+
+.chevron {
+  position: absolute;
+  background-color: #F0F0F0;
+  border: 1px solid gainsboro;
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  z-index: 5;
+  cursor: pointer;
+  text-align: center;
+}
+
+#qo_app .slideSize {
+  font-size: 11pt;
+}
+
+.animatedPosition {
+  transition: top, left, bottom, right, width, height, 0.3s ease-in-out;
+  -webkit-transition: top, left, bottom, right, width, height, 0.3s ease-in-out;
+}
+
+.animatedZoom {
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+}
+
+.hideSlideMaster div[qowt-divtype="slideMaster"] {
+  display: none;
+}
+.hideSlideLayout div[qowt-divtype="slideLayout"] {
+  display: none;
+}

@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title id="title">Incredible StartPage Options</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript" src="/lib/jquery-1.8.0.min.js"></script>
+        <link rel="stylesheet" rel="text/css" href="options.css"/>
+        <style type="text/css">
+            body {
+                background: -webkit-gradient(linear, left top, left bottom,
+                    from(#fff), to(#dcd));
+            }
+            #topNotice {
+                margin-top:10px;
+                padding:5px 5px 5px 10px;
+                width:300px;
+                background-color: #ffa;
+                color: #333;
+                border: 1px solid black;
+            }
+            
+            #pagetitle {
+                color: black;
+            }
+            #feature {
+                background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#888));
+                color: white;
+            }
+            #optionsSaved {
+                margin-left: 5px;
+                color: yellow;
+                display: none;
+            }
+
+            #optionsBackupPeriod {
+                margin-left: 25px;
+            }
+
+            #optionsNewUserTips a{
+                color: #ddd;
+            }
+            #optionsNewUserTips a:hover {
+                color: #bbb;
+            }
+            #useExisting{display:none;}
+        </style>        
+        <script type="text/javascript" src="options.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"></div>
+                <div id="pagetitle">Incredible StartPage Options</div>
+            </div>
+
+            <br style="clear:both">
+            
+            <div id="feature">
+                <!-- Share box -->
+                <div style="float: right; height: 110px; margin: 0px 0px 5px 5px; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #ddd; background: -moz-linear-gradient(top, rgba(255,255,255,0.05), rgba(255,255,255,0.2)); background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.05)), to(rgba(255,255,255,0.2))); -moz-box-shadow: 0px 0px 2px black; -webkit-box-shadow: 0px 0px 2px black;">
+                    <div style="position: relative; z-index:3; ">
+                        <div style="color: white; font: 18px Tahoma, Arial, sans-serif; line-height: 25px;">
+                            Support our development and<br>
+                            share to your friends!
+                        </div>
+                        <div style="margin-top: -20px; margin-left: 195px">
+                            <!-- Place this tag where you want the badge to render -->
+<a href="https://plus.google.com/104470168490743748748?prsrc=3" rel="author" style="text-decoration:none;"><img src="https://ssl.gstatic.com/images/icons/gplus-64.png" alt="" style="border:0;width:64px;height:64px;"/></a>
+                            <a href="http://twitter.com/home?status=Incredible%20Start%20Page%20extension%20for%20Chrome%20-%20a%20productive%20start%20page%20for%20Chrome%20lovers!%20http://goo.gl/C4b7M" target="_blank"><img src="/img/twitter.png" style="border: 0"></a>
+                            <a href="http://www.facebook.com/sharer.php?u=https://chrome.google.com/webstore/detail/ncdfeghkpohnalmpblddmnppfooljekh&t=Incredible%20StartPage%20for%20Chrome" target="_blank"><img src="/img/facebook.png" style="border: 0"></a>
+                        </div>
+                    </div>
+                    <img src="/img/arrow.png" style="position: relative; left: 250px; top: -210px; z-index: 5">
+                </div>
+                <b><span id="incredibleStartPage">Incredible StartPage</span></b>
+                <br>
+                
+                <div id="topNotice"><b>IMPORTANT: </b>
+                If Incredible Startpage is not loading properly, please upgrade to Chrome 22 or higher.</div>
+                <br>
+                <span id="incredibleStartPageDescription">Incredible StartPage replaces your default starting page with a customizable view of your bookmarks, reminders and recent tabs.<br><a href='http://blog.visibotech.com/p/incredible-startpage.html'>Click here</a> for a simple tutorial.</span>
+                <br>
+                <br>
+                <div id="options">
+                    <span id="optionsTitle">Options</span>
+                    <br>
+                    <br>
+                    <div class="leftColumn">
+                        <span id="notepadFont">Notepad Font</span>:
+                    </div>
+                    <div class="rightColumn">
+                        <select id="fontFamily" name="font" size="1">
+                            <option value="Arial">Arial</option>
+                            <option value="Comic Sans MS">Comic Sans MS</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Handwritten" selected>Handwritten</option>
+                            <option value="sans-serif">sans-serif</option>
+                            <option value="Verdana">Verdana</option>
+                        </select>
+                    </div>
+                    <br style="clear: both">
+                    <br>
+
+                    <div class="leftColumn">
+                        <span id="noColumnsLabel">Number of columns</span>:
+                    </div>
+                    <div class="rightColumn">
+                        <input type="checkbox" id="columnInBookmark"/>
+                        <span id="columnInBookmarkLabel">Show 3 columns in 'My Bookmarks'</span>
+                        <br/>
+                        <input type="checkbox" id="columnInApp"/>
+                        <span id="columnInAppLabel">Show 3 columns in 'My Apps'</span>
+                        <br/>
+                        <input type="checkbox" id="columnInTop"/>
+                        <span id="columnInTopLabel">Show 3 columns in 'Most Visited'</span>
+                    </div>
+                    <br style="clear: both">
+                    <br>
+                    
+                    <div class="leftColumn">  
+                        Others:
+                    </div>
+                    <div class="rightColumn">
+                        <input type="checkbox" id="showTopSites"/> <span id="topSitesLabel">Show 'Most Visited' Tab</span>
+                        <br/>
+                        </div>
+                    <br style="clear: both">
+                    <br>
+                    
+                    <div class="leftColumn">                        
+                    </div>
+                    <div class="rightColumn">
+                        <input type="checkbox" id="enableAddLink"/>                            
+                        <span id="addLinkMenu">Enable 'Send tab/link to Startpage' menu</span>
+                        <br/>                        
+                    </div>
+                    <br style="clear: both">
+                    <br>
+                    
+                    <div class="leftColumn">
+                        <span id="maximumRecentlyClosedTabs">Maximum recently closed tabs</span>:
+                    </div>
+                    <div class="rightColumn">
+                        <select id="maxRecentlyClosed" name="maxRecentlyClosed" size="1">
+                            <option value="0" id="notRememberClosedTabs">0 (Do not remember closed tabs)</option>
+                            <option value="5">5</option>
+                            <option value="10" selected>10</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <br style="clear: both">
+                    <br>
+                    <div class="leftColumn">
+                        <span id="notepadSync">Notepad Sync</span>:
+                    </div>
+                    <div class="rightColumn">
+                        <input type="checkbox" id="syncNotepad"/> <span id="notepadSyncDescription">Sync notepad contents with your Google Account</span>
+                        <br>
+                        <span style="font-size:11px;color:#ccc;" id="notepadSyncDescription2">Chrome Bookmark Sync must be enabled, click [<a href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'>here</a>] for more information</span>
+
+                        <div id="useExisting">
+                            <input type="checkbox" id="existingBm"/>
+                            <span id="existingBMLabel">Notes found in bookmark. Check this to overwrite current notepad content</span>
+                        </div>
+
+                    </div>
+                    <br style="clear: both">
+                    <br>
+                    <div class="leftColumn">
+                        <span id="shareNotepadTo">Post notes to</span>:
+                    </div>
+                    <div class="rightColumn">
+                        <input type="radio" class="shareNotepadSetting" name="shareAcc" value="gmail" checked >
+                        <span id="gmailAccount">Google Account</span>
+                        <br>
+                        <input type="radio" class="shareNotepadSetting" name="shareAcc" value="googleApps">
+                        <span><span id="googleAppsAccount">Google Apps Account, Domain</span>:
+                            <input id="googleAppsDomain" value="" length="255" style="width: 180px;" align="left" type="text">
+                            <br>
+                            <span style="font-size:11px;color:#ccc;" id="googleAppsAccountDescription">Enter only your Google Apps domain without "www", e.g. visibotech.com</span>
+                        </span>
+                    </div>
+                    <br style="clear: both">
+                    <br>
+                    <button id="save">Save</button> <span id="optionsSaved">Saved</span>
+                    <p><span id="optionsEffect">Setting is effective after reload your startpage.</span></p>
+                    <br>
+                </div>               
+            </div>
+            
+            <div>
+                <ul>
+                    <li>Uninstall? Check <a href="http://support.google.com/chrome/bin/answer.py?hl=en&answer=113907">this</a> out</li>
+                    <li>Bug report or suggestions? Go to this <a href="https://chrome.google.com/webstore/support/ncdfeghkpohnalmpblddmnppfooljekh">support page</a> or <a href="mailto:contactus@visibotech.com">email us</a></li>
+                </ul>
+            </div>
+                
+            <div id="copyright">Version 1.6.2 | <a href='http://blog.visibotech.com/' target='_blank'>Blog</a> | <a href='http://twitter.com/visibo' target='_blank'>Twitter</a> | Copyright 2010-2012 Visibo Ltd. All rights reserved.
+            </div>
+        </div>
+    </body>
+</html>
+

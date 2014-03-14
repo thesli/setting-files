@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Options - Weather</title>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="/js/date.format.js"></script>
+    <script type="text/javascript" src="/js/options.js"></script>
+    <link href="/css/jquery.jgrowl.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/colorpicker/css/colorpicker.css" />
+    <script type="text/javascript" src="/colorpicker/js/colorpicker.js"></script>
+
+    <style type="text/css">
+      hr.soften {
+        height: 1px;
+        margin: 25px 0;
+        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+        background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+        background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+        background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+        border: 0;
+      }
+
+      #colorSelector {
+        position: relative;
+        top: 3px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        background: url("/colorpicker/images/select.png") center;
+        display: inline-block;
+      }
+
+      .colorpicker_color {
+        cursor: crosshair;
+      }
+
+      .colorpicker_rgb_r, .colorpicker_rgb_g, .colorpicker_rgb_b,
+      .colorpicker_hsb_h, .colorpicker_hsb_s, .colorpicker_hsb_b, .colorpicker_hex {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Configure <small>Awesome Weather Widget</small></h1>
+      <hr class="soften" />
+      <div class="row">
+        <div class="span10">
+          <p>Are you ready to customize your weather widget?</p>
+          <p>
+            Don't forget that <i>each widget</i> is configured <i>seperately</i>.
+            You need to click "Configure" in each to get to the correct settings page.
+          </p>
+        </div>
+      <div class="row">
+        <div class="span10">
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="guid">Instance ID</label>
+              <div class="controls">
+                <span class="input-xlarge uneditable-input" id="guid"></span>
+                <span class="help-block">
+                  Each widget you place is given a unique ID. This is the unique ID for this one placement.
+                  If you place the weather widget more than once, each placement will have its own unique ID.
+                </span>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Last Accessed</label>
+              <div class="controls">
+                <span class="input-xlarge uneditable-input" id="last_accessed"></span>
+                <span class="help-block">
+                  This is the date/time this widget instance was last loaded on your Awesome New Tab Page.
+                </span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="place">Language</label>
+              <div class="controls">
+                <select id="hl" name="hl" class="span3">
+                  <option value="AF">Afrikaans</option>
+                  <option value="AL">Albanian</option>
+                  <option value="AR">Arabic</option>
+                  <option value="HY">Armenian</option>
+                  <option value="AZ">Azerbaijani</option>
+                  <option value="EU">Basque</option>
+                  <option value="BY">Belarusian</option>
+                  <option value="BU">Bulgarian</option>
+                  <option value="LI">British English</option>
+                  <option value="MY">Burmese</option>
+                  <option value="CA">Catalan</option>
+                  <option value="CN">Chinese - Simplified</option>
+                  <option value="TW">Chinese - Traditional</option>
+                  <option value="CR">Croatian</option>
+                  <option value="CZ">Czech</option>
+                  <option value="DK">Danish</option>
+                  <option value="DV">Dhivehi</option>
+                  <option value="NL">Dutch</option>
+                  <option value="EN">English</option>
+                  <option value="EO">Esperanto</option>
+                  <option value="ET">Estonian</option>
+                  <option value="FA">Farsi</option>
+                  <option value="FI">Finnish</option>
+                  <option value="FR">French</option>
+                  <option value="FC">French Canadian</option>
+                  <option value="GZ">Galician</option>
+                  <option value="DL">German</option>
+                  <option value="KA">Georgian</option>
+                  <option value="GR">Greek</option>
+                  <option value="GU">Gujarati</option>
+                  <option value="HT">Haitian Creole</option>
+                  <option value="IL">Hebrew</option>
+                  <option value="HI">Hindi</option>
+                  <option value="HU">Hungarian</option>
+                  <option value="IS">Icelandic</option>
+                  <option value="IO">Ido</option>
+                  <option value="ID">Indonesian</option>
+                  <option value="IR">Irish Gaelic</option>
+                  <option value="IT">Italian</option>
+                  <option value="JP">Japanese</option>
+                  <option value="JW">Javanese</option>
+                  <option value="KM">Khmer</option>
+                  <option value="KR">Korean</option>
+                  <option value="KU">Kurdish</option>
+                  <option value="LA">Latin</option>
+                  <option value="LV">Latvian</option>
+                  <option value="LT">Lithuanian</option>
+                  <option value="ND">Low German</option>
+                  <option value="MK">Macedonian</option>
+                  <option value="MT">Maltese</option>
+                  <option value="GM">Mandinka</option>
+                  <option value="MI">Maori</option>
+                  <option value="MR">Marathi</option>
+                  <option value="MN">Mongolian</option>
+                  <option value="NO">Norwegian</option>
+                  <option value="OC">Occitan</option>
+                  <option value="PS">Pashto</option>
+                  <option value="GN">Plautdietsch</option>
+                  <option value="PL">Polish</option>
+                  <option value="BR">Portuguese</option>
+                  <option value="PA">Punjabi</option>
+                  <option value="RO">Romanian</option>
+                  <option value="RU">Russian</option>
+                  <option value="SR">Serbian</option>
+                  <option value="SK">Slovak</option>
+                  <option value="SL">Slovenian</option>
+                  <option value="SP">Spanish</option>
+                  <option value="SI">Swahili</option>
+                  <option value="SW">Swedish</option>
+                  <option value="CH">Swiss</option>
+                  <option value="TL">Tagalog</option>
+                  <option value="TT">Tatarish</option>
+                  <option value="TH">Thai</option>
+                  <option value="TR">Turkish</option>
+                  <option value="TK">Turkmen</option>
+                  <option value="UA">Ukrainian</option>
+                  <option value="UZ">Uzbek</option>
+                  <option value="VU">Vietnamese</option>
+                  <option value="CY">Welsh</option>
+                  <option value="SN">Wolof</option>
+                  <option value="JI">Yiddish - transliterated</option>
+                  <option value="YI">Yiddish - unicode</option>
+                </select>
+                <span class="help-inline"></span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="place">Place</label>
+              <div class="controls">
+                <input type="text" id="place" class="input-xlarge" placeholder="San Francisco, CA">
+                <span class="help-inline">Where do you care about the weather?</span>
+                <span class="help-block">
+                  Location formatting tips:
+                  <ul>
+                    <li>Don't use old style abbreviations like Conn. for Connecticut, use CT</li>
+                    <li>If you are searching for an international city, try <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=Denmark&apiref=5c1723f8db3949e2">searching Weather Underground</a> for your country or province to find acceptable cities</li>
+                    <li>Don't use provinces for non-US cities (ie: Vancouver, BC)</li>
+                    <li>Zipcodes only work in Canada, UK and the US</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="unit">Weather Unit</label>
+              <div class="controls">
+                <select id="unit" name="unit" class="span1">
+                  <option value="F">F</option>
+                  <option value="C">C</option>
+                </select>
+                <span class="help-inline">How do you take your weather?</span>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="style">Widget Style</label>
+              <div class="controls">
+                <select id="style" name="style" style="width:100px">
+                  <option value="M">Metro</option>
+                  <option value="A">Android</option>
+                </select>
+                <span class="help-inline">What's your style of choice?</span>
+              </div>
+            </div>
+
+            <div class="control-group" id="color">
+              <label class="control-label" for="color">Widget Color</label>
+              <div class="controls">
+                <div id="colorSelector"><div style="background-color: #0000ff"></div></div>
+                <span class="help-inline">What's your favorite color? (Only for Metro Style)</span>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" class="btn" id="reset">Reset</button>
+              <button type="button" class="btn" id="antp">Back to Awesome New Tab Page</button>
+              <button type="submit" class="btn btn-primary" id="as">Apply &amp; Save</button>
+            </div>
+          </form>
+        </div>
+        <div class="span2">
+          <p>Weather data from</p>
+          <a href="http://www.wunderground.com/?apiref=5c1723f8db3949e2" target="_blank">
+            <img src="/img/wui_color.png" />
+          </a>
+          <g:plusone href="http://www.wunderground.com/"></g:plusone>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span4">
+          Do you like Awesome New Tab Page? The Awesome Weather Widget?
+          Give our +1 buttons some love; maybe even share them with friends!
+        </div>
+        <div class="span4">
+          <g:plus href="https://plus.google.com/101062285048075360930" rel="publisher" width="300" height="131" theme="light"></g:plus>
+        </div>
+        <div class="span2">
+          <p><small>Awesome New Tab Page</small></p>
+          <g:plusone size="tall" href="https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg"></g:plusone>
+        </div>
+        <div class="span2">
+          <p><small>Awesome Weather Widget</small></p>
+          <g:plusone size="tall" href="https://chrome.google.com/webstore/detail/goeepbfnllchoihkoiecpkkekbpfiboc"></g:plusone>
+        </div>
+      </div>
+    </body>
+  </div>
+</html>

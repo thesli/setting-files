@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+   },
+   "app_nacl_crash_msg": {
+      "message": "ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡುವುದರ ಮೂಲಕ ನಮಗೆ ಸಹಾಯ ಮಾಡಿ."
+   },
+   "app_nacl_crash_report": {
+      "message": "ಸಮಸ್ಯೆಯೊಂದನ್ನು ವರದಿ ಮಾಡಿರಿ..."
+   },
+   "app_nacl_crash_title": {
+      "message": "ಓಹ್. ಹಾಗೆ ಆಗಬಾರದಾಗಿತ್ತು."
+   },
+   "app_nacl_error_msg": {
+      "message": "ಅಪ್ಲಿಕೇಶನ್ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ಸಮಸ್ಯೆಯೊಂದು ಕಂಡುಬಂದಿದೆ."
+   },
+   "app_nacl_error_title": {
+      "message": "ಫೈಲ್ ತೆರೆಯಲಾಗುವುದಿಲ್ಲ."
+   },
+   "application_description": {
+      "message": "ಡಾಕ್ಯುಮೆಂಟ್ ಸಂಪಾದಿಸುವಿಕೆ"
+   },
+   "file_loading_spinner_label": {
+      "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ"
+   },
+   "file_not_found_msg": {
+      "message": "ನೀವು ವಿನಂತಿಸಲಾದ ಫೈಲ್ ಅನ್ನು ತಡೆಹಿಡಿಯಲಾಗಿದೆ ಮತ್ತು ಸರಿಸಲಾಗಿದೆ."
+   },
+   "file_not_found_title": {
+      "message": "ಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ."
+   }
+}

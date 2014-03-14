@@ -1,0 +1,23 @@
+body { width:100%; margin:0px; padding:0px; }
+body,div,p,h1,h2,h3,ul,ol,a,button,fieldset,span { font-family:verdana,sans-serif; font-size:12px; color:#000 }
+h1,h2,h3 { padding:0px; margin:0px 0px 10px 0px; }
+a { text-decoration:none; color:#00f; }
+fieldset { border:1px solid gray; border-collapse:collapse; border-radius:10px;  width:500px; text-align:center; margin:0px auto; padding:10px; }
+button.btn {
+  color:#050;
+  padding: 2px;
+  font: bold 8px 'trebuchet ms',helvetica,sans-serif;
+  background-color:#DCFAFA;
+  border: 1px solid;
+  border-color:#696;
+}
+button.hover { border-color: #f00; }
+td.chk { text-align:left; padding:1px; width:450px; }
+td.left { text-align:left; padding:3px; width:250px; }
+td.right { text-align:left; padding:3px; }
+.e1 { border:1px solid gray; border-collapse:collapse; font:normal 12px verdana, sans-serif; }
+.e1 thead tr { padding:10px; text-transform:uppercase; text-align:left; background:#775; font-weight:bold; color:#fff; }
+.e1 tr { border:1px dotted gray; }
+.e1 tbody tr.odd { background:#fff; }
+.e1 tbody tr.even { background:#eee; }
+.e1 tbody tr:hover { background:#6dd; border:1px solid gray; }

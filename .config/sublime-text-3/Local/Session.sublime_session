@@ -1,0 +1,1075 @@
+{
+	"folder_history":
+	[
+		"/home/sli/code/c++/pa1",
+		"/home/sli/code/octave",
+		"/home/sli/code/c++/Lab2",
+		"/home/sli/code/c++/test",
+		"/home/sli",
+		"/var/www/tutorial/t",
+		"/home/sli/vagdisk/var/www/laravel",
+		"/home/sli/vagdisk",
+		"/home/sli/vagdisk/var/www/html/laravel",
+		"/home/sli/vagrant",
+		"/home/sli/tutorial",
+		"/home/sli/tutorial/laravel",
+		"/home/sli/Downloads/old/old",
+		"/home/sli/code/c++/tpl",
+		"/home/sli/code/php/laravel",
+		"/home/sli/code/php/jadeView",
+		"/opt/lampp/htdocs/php",
+		"/home/sli/code/node/phantom/dist",
+		"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css",
+		"/home/sli/code/node/phantom/dist/json",
+		"/home/sli/code/ruby",
+		"/home/sli/code/php",
+		"/home/sli/code/serious/project",
+		"/home/sli/.tilda"
+	],
+	"last_version": 3059,
+	"last_window_id": 48,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 963.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 113.0,
+				"selected_items":
+				[
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
+					],
+					[
+						"jade",
+						"Set Syntax: Jade"
+					],
+					[
+						"view",
+						"View: Toggle Menu"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"set cof",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"sideba",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 538.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/sli/Matlab714/install.txt",
+				"/home/sli/code/c++/pa1/unitTest.cpp",
+				"/home/sli/code/octave/hw1.m",
+				"/home/sli/code/c++/pa1/igloo.cpp",
+				"/home/sli/code/c++/pa1/pa1Test",
+				"/home/sli/code/c++/test/circle.cpp",
+				"/home/sli/code/c++/test/circle.h",
+				"/home/sli/code/c++/test/main.cpp",
+				"/home/sli/tutorial/vagrant/Vagrantfile",
+				"/home/sli/vagrant/.vagrant/machines/default/virtualbox/action_set_name",
+				"/home/sli/vagrant/.vagrant/machines/default/virtualbox/id",
+				"/home/sli/tutorial/laravel/vendor/symfony/process/Symfony/Component/Process/Tests/ProcessInSigchildEnvironment.php",
+				"/home/sli/tutorial/inst.cmd",
+				"/home/sli/vagrant/Vagrantfile",
+				"/home/sli/tutorial/laravel/composer.",
+				"/home/sli/code/c++/tpl/max.hpp",
+				"/home/sli/code/c++/tpl/max.cpp",
+				"/home/sli/code/c++/tpl/test.cpp",
+				"/home/sli/code/c++/tpl/stack1.hpp",
+				"/home/sli/.zshrc",
+				"/home/sli/code/c++/tpl/test.php",
+				"/home/sli/code/php/laravel/app/config/app.php",
+				"/home/sli/code/php/laravel/app/jade/test.jade",
+				"/home/sli/code/php/laravel/app/routes.php",
+				"/home/sli/BT/The.Mentalist.S06E13.HDTV.x264-LOL/Read Me.txt",
+				"/home/sli/.cache/.fr-EV3rSp/dart-tutorials-samples-master/web/stopwatch/index.html",
+				"/home/sli/.cache/.fr-QKTfb4/dart-tutorials-samples-master/web/stopwatch/tute_stopwatch.html",
+				"/home/sli/.cache/.fr-1iZirF/dart-tutorials-samples-master/web/stopwatch/index.html",
+				"/home/sli/code/php/laravel/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+				"/home/sli/code/php/laravel/readme.md",
+				"/home/sli/code/php/jadeView/README.md",
+				"/home/sli/code/php/jadeView/jadeView.php",
+				"/etc/php5/apache2/php.ini",
+				"/home/sli/code/node/cpd_test/package.json",
+				"/home/sli/code/node/phantom/dist/server.js",
+				"/home/sli/code/node/phantom/dist/server.coffee",
+				"/home/sli/code/node/phantom/dist/Procfile",
+				"/home/sli/code/node/phantom/dist/.gitignore",
+				"/home/sli/code/node/phantom/dist/json/ALL.json",
+				"/home/sli/code/node/phantom/dist/manipulateJson.coffee",
+				"/home/sli/code/node/phantom/dist/package.json",
+				"/home/sli/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/test.cpp",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/bootstrap-theme.min.css",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/bootstrap-theme.css",
+				"/home/sli/code/c++/test.cpp",
+				"/home/sli/code/node/phantom/dist/json/ALL_geocoded.json",
+				"/home/sli/code/node/phantom/dist/README.md",
+				"/home/sli/BT/sr-trine2/skidrow.nfo",
+				"/home/sli/BT/Age.of.Empires.II.HD-RELOADED/reloaded.nfo",
+				"/home/sli/code/work/ionic/js/ext/angular/test/tabs.html",
+				"/home/sli/code/work/ionic/js/ext/angular/test/list.html",
+				"/home/sli/code/node/phantom/dist/json/run.js",
+				"/home/sli/code/node/phantom/dist/json/2013-01-02.json",
+				"/home/sli/code/ruby/noko.rb",
+				"/home/sli/code/node/phantom/dist/bigData.json",
+				"/home/sli/code/node/phantom/dist/json/2013-02-01.json",
+				"/home/sli/code/node/phantom/dist/test.json",
+				"/home/sli/code/node/phantom/test.json",
+				"/home/sli/code/ruby/mechanize.rb",
+				"/home/sli/code/ruby/http",
+				"/home/sli/code/ruby/<div class=\"tnb_foot tnb_opac\" style=\"height",
+				"/home/sli/code/ruby/1<div id=\"tnb_175463_0\" class=\"tnb_root tnb_238\" style=\"position",
+				"/home/sli/code/php/laravel/composer.json",
+				"/home/sli/.vimrc",
+				"/home/sli/code/php/laravel/app/database/migrations/2013_12_28_043649_create_articles_table.php",
+				"/home/sli/code/php/laravel/vendor/mustache/mustache/bin/create_example.php",
+				"/home/sli/code/php/laravel/app/views/articles/create.blade.php",
+				"/home/sli/code/php/laravel/vendor/phpseclib/phpseclib/tests/code_sniffer_ruleset.xml",
+				"/home/sli/code/php/laravel/vendor/laravel/framework/src/Illuminate/Foundation/AssetPublisher.php",
+				"/home/sli/code/php/laravel/artisan",
+				"/home/sli/code/php/laravel/CONTRIBUTING.md",
+				"/home/sli/code/serious/project/README",
+				"/home/sli/code/serious/project/some.jad",
+				"/home/sli/Downloads/angular-resource.min.js.map",
+				"/home/sli/code/serious/project/tmp/try.log",
+				"/home/sli/code/serious/project/wtf.txt",
+				"/home/sli/Downloads/Breaking.Bad.S01E01.720p.HDTV.x264-BiA.en.srt",
+				"/home/sli/Downloads/Breaking.Bad.S01E01.DSR.XviD-0TV.en.srt",
+				"/home/sli/code/serious/project/test/exp1",
+				"/home/sli/code/serious/project/tmp/test",
+				"/home/sli/code/serious/project/.gitignore",
+				"/home/sli/code/serious/project/tmp/test.txt",
+				"/home/sli/.gitconfig",
+				"/home/sli/code/rails/counsellingMail/test.rb",
+				"/home/sli/Downloads/boilerplate.html",
+				"/home/sli/code/rails/counsellingMail/15",
+				"/home/sli/code/rails/counsellingMail/<td align=\"left\" valign=\"top\" bgcolor=\"#EDDEEF\" class=\"content style10\">11",
+				"/home/sli/Downloads/test.rb",
+				"/home/sli/.tilda/config_0",
+				"/home/sli/.config/fuzzy-windows.conf",
+				"/home/sli/Downloads/init.sh",
+				"/home/sli/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"readlist",
+					"ns",
+					"circle",
+					"$valid",
+					"user",
+					"\\n",
+					"sudo",
+					"zsh",
+					"path",
+					"plugin",
+					"content",
+					">\n",
+					"class",
+					"fix",
+					"reorder",
+					"clockenflap",
+					"新一屆工展會明日開鑼，巿民有機會平掃年貨；有海味參展商表示，經濟前景不明朗，海味銷",
+					"香港藝術發展局主",
+					"]",
+					"「漫」遊中環 Comics@Central",
+					"tnb_bg",
+					"url",
+					"title",
+					"alias",
+					"mexico",
+					"mcrypt",
+					"WIN"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 322.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"main",
+						"main.cpp"
+					],
+					[
+						"busr",
+						"busRoute.cpp"
+					],
+					[
+						"hw",
+						"hw1.m"
+					],
+					[
+						"test",
+						"unitTest.cpp"
+					],
+					[
+						"cir",
+						"circle.h"
+					],
+					[
+						"vagr",
+						"Vagrantfile"
+					],
+					[
+						"inst",
+						"inst.cmd"
+					],
+					[
+						"com",
+						"composer.json"
+					],
+					[
+						"app",
+						"app/config/app.php"
+					],
+					[
+						"routes",
+						"app/routes.php"
+					],
+					[
+						"app.php",
+						"app/config/app.php"
+					],
+					[
+						"",
+						"README.md"
+					],
+					[
+						"jade",
+						"jadeView.php"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"re",
+						"README.md"
+					],
+					[
+						"server.js",
+						"server.js"
+					],
+					[
+						"pack",
+						"package.json"
+					],
+					[
+						"all.",
+						"json/ALL.json"
+					],
+					[
+						"mani",
+						"manipulateJson.coffee"
+					],
+					[
+						"all_",
+						"ALL_geocoded.json"
+					],
+					[
+						"create_tab",
+						"app/database/migrations/2013_12_28_043649_create_articles_table.php"
+					],
+					[
+						"composer",
+						"composer.json"
+					],
+					[
+						"wtf",
+						"wtf.txt"
+					],
+					[
+						"read",
+						"README"
+					],
+					[
+						"ex",
+						"test/exp1"
+					],
+					[
+						"te",
+						"tmp/test.txt"
+					],
+					[
+						"ig",
+						".gitignore"
+					],
+					[
+						"to",
+						"todos"
+					],
+					[
+						"con",
+						"config_0"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 946.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/sli/code/c++/pa1/main.cpp",
+					"settings":
+					{
+						"buffer_size": 1992,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sli/code/c++/pa1/igloo.cpp",
+					"settings":
+					{
+						"buffer_size": 412,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sli/code/c++/pa1/gtest.cpp",
+					"settings":
+					{
+						"buffer_size": 185,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sli/code/c++/pa1/busRoute.cpp",
+					"settings":
+					{
+						"buffer_size": 9128,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sli/code/c++/pa1/busRoute.h",
+					"settings":
+					{
+						"buffer_size": 2612,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 113.0,
+				"selected_items":
+				[
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"side",
+						"View: Toggle Side Bar"
+					],
+					[
+						"jade",
+						"Set Syntax: Jade"
+					],
+					[
+						"view",
+						"View: Toggle Menu"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"set cof",
+						"Set Syntax: CoffeeScript"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"sideba",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					]
+				],
+				"width": 538.0
+			},
+			"console":
+			{
+				"height": 139.0,
+				"history":
+				[
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/sli/code/c++/pa1/busRoute.cpp",
+				"/home/sli/Matlab714/install.txt",
+				"/home/sli/code/c++/pa1/unitTest.cpp",
+				"/home/sli/code/octave/hw1.m",
+				"/home/sli/code/c++/pa1/igloo.cpp",
+				"/home/sli/code/c++/pa1/pa1Test",
+				"/home/sli/code/c++/test/circle.cpp",
+				"/home/sli/code/c++/test/circle.h",
+				"/home/sli/code/c++/test/main.cpp",
+				"/home/sli/tutorial/vagrant/Vagrantfile",
+				"/home/sli/vagrant/.vagrant/machines/default/virtualbox/action_set_name",
+				"/home/sli/vagrant/.vagrant/machines/default/virtualbox/id",
+				"/home/sli/tutorial/laravel/vendor/symfony/process/Symfony/Component/Process/Tests/ProcessInSigchildEnvironment.php",
+				"/home/sli/tutorial/inst.cmd",
+				"/home/sli/vagrant/Vagrantfile",
+				"/home/sli/tutorial/laravel/composer.",
+				"/home/sli/code/c++/tpl/max.hpp",
+				"/home/sli/code/c++/tpl/max.cpp",
+				"/home/sli/code/c++/tpl/test.cpp",
+				"/home/sli/code/c++/tpl/stack1.hpp",
+				"/home/sli/.zshrc",
+				"/home/sli/code/c++/tpl/test.php",
+				"/home/sli/code/php/laravel/app/config/app.php",
+				"/home/sli/code/php/laravel/app/jade/test.jade",
+				"/home/sli/code/php/laravel/app/routes.php",
+				"/home/sli/BT/The.Mentalist.S06E13.HDTV.x264-LOL/Read Me.txt",
+				"/home/sli/.cache/.fr-EV3rSp/dart-tutorials-samples-master/web/stopwatch/index.html",
+				"/home/sli/.cache/.fr-QKTfb4/dart-tutorials-samples-master/web/stopwatch/tute_stopwatch.html",
+				"/home/sli/.cache/.fr-1iZirF/dart-tutorials-samples-master/web/stopwatch/index.html",
+				"/home/sli/code/php/laravel/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+				"/home/sli/code/php/laravel/readme.md",
+				"/home/sli/code/php/jadeView/README.md",
+				"/home/sli/code/php/jadeView/jadeView.php",
+				"/etc/php5/apache2/php.ini",
+				"/home/sli/code/node/cpd_test/package.json",
+				"/home/sli/code/node/phantom/dist/server.js",
+				"/home/sli/code/node/phantom/dist/server.coffee",
+				"/home/sli/code/node/phantom/dist/Procfile",
+				"/home/sli/code/node/phantom/dist/.gitignore",
+				"/home/sli/code/node/phantom/dist/json/ALL.json",
+				"/home/sli/code/node/phantom/dist/manipulateJson.coffee",
+				"/home/sli/code/node/phantom/dist/package.json",
+				"/home/sli/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/test.cpp",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/bootstrap-theme.min.css",
+				"/home/sli/code/html/randomAnimation/bower_components/bootstrap/dist/css/bootstrap-theme.css",
+				"/home/sli/code/c++/test.cpp",
+				"/home/sli/code/node/phantom/dist/json/ALL_geocoded.json",
+				"/home/sli/code/node/phantom/dist/README.md",
+				"/home/sli/BT/sr-trine2/skidrow.nfo",
+				"/home/sli/BT/Age.of.Empires.II.HD-RELOADED/reloaded.nfo",
+				"/home/sli/code/work/ionic/js/ext/angular/test/tabs.html",
+				"/home/sli/code/work/ionic/js/ext/angular/test/list.html",
+				"/home/sli/code/node/phantom/dist/json/run.js",
+				"/home/sli/code/node/phantom/dist/json/2013-01-02.json",
+				"/home/sli/code/ruby/noko.rb",
+				"/home/sli/code/node/phantom/dist/bigData.json",
+				"/home/sli/code/node/phantom/dist/json/2013-02-01.json",
+				"/home/sli/code/node/phantom/dist/test.json",
+				"/home/sli/code/node/phantom/test.json",
+				"/home/sli/code/ruby/mechanize.rb",
+				"/home/sli/code/ruby/http",
+				"/home/sli/code/ruby/<div class=\"tnb_foot tnb_opac\" style=\"height",
+				"/home/sli/code/ruby/1<div id=\"tnb_175463_0\" class=\"tnb_root tnb_238\" style=\"position",
+				"/home/sli/code/php/laravel/composer.json",
+				"/home/sli/.vimrc",
+				"/home/sli/code/php/laravel/app/database/migrations/2013_12_28_043649_create_articles_table.php",
+				"/home/sli/code/php/laravel/vendor/mustache/mustache/bin/create_example.php",
+				"/home/sli/code/php/laravel/app/views/articles/create.blade.php",
+				"/home/sli/code/php/laravel/vendor/phpseclib/phpseclib/tests/code_sniffer_ruleset.xml",
+				"/home/sli/code/php/laravel/vendor/laravel/framework/src/Illuminate/Foundation/AssetPublisher.php",
+				"/home/sli/code/php/laravel/artisan",
+				"/home/sli/code/php/laravel/CONTRIBUTING.md",
+				"/home/sli/code/serious/project/README",
+				"/home/sli/code/serious/project/some.jad",
+				"/home/sli/Downloads/angular-resource.min.js.map",
+				"/home/sli/code/serious/project/tmp/try.log",
+				"/home/sli/code/serious/project/wtf.txt",
+				"/home/sli/Downloads/Breaking.Bad.S01E01.720p.HDTV.x264-BiA.en.srt",
+				"/home/sli/Downloads/Breaking.Bad.S01E01.DSR.XviD-0TV.en.srt",
+				"/home/sli/code/serious/project/test/exp1",
+				"/home/sli/code/serious/project/tmp/test",
+				"/home/sli/code/serious/project/.gitignore",
+				"/home/sli/code/serious/project/tmp/test.txt",
+				"/home/sli/.gitconfig",
+				"/home/sli/code/rails/counsellingMail/test.rb",
+				"/home/sli/Downloads/boilerplate.html",
+				"/home/sli/code/rails/counsellingMail/15",
+				"/home/sli/code/rails/counsellingMail/<td align=\"left\" valign=\"top\" bgcolor=\"#EDDEEF\" class=\"content style10\">11",
+				"/home/sli/Downloads/test.rb",
+				"/home/sli/.tilda/config_0",
+				"/home/sli/.config/fuzzy-windows.conf",
+				"/home/sli/Downloads/init.sh",
+				"/home/sli/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 41.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"readlist",
+					"ns",
+					"circle",
+					"$valid",
+					"user",
+					"\\n",
+					"sudo",
+					"zsh",
+					"path",
+					"plugin",
+					"content",
+					">\n",
+					"class",
+					"fix",
+					"reorder",
+					"clockenflap",
+					"新一屆工展會明日開鑼，巿民有機會平掃年貨；有海味參展商表示，經濟前景不明朗，海味銷",
+					"香港藝術發展局主",
+					"]",
+					"「漫」遊中環 Comics@Central",
+					"tnb_bg",
+					"url",
+					"title",
+					"alias",
+					"mexico",
+					"mcrypt",
+					"WIN"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "/home/sli/code/c++/pa1"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/sli/code/c++/pa1/main.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1992,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										451,
+										451
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 255.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/sli/code/c++/pa1/igloo.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 412,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										374,
+										374
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/sli/code/c++/pa1/gtest.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 185,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										185,
+										185
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/sli/code/c++/pa1/busRoute.cpp",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 9128,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1993,
+										1993
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1377.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/sli/code/c++/pa1/busRoute.h",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2612,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										469,
+										469
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 29.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 322.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0,0,0,0,0,960,22,1918,1070,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"bush",
+						"busRoute.h"
+					],
+					[
+						"main",
+						"main.cpp"
+					],
+					[
+						"busr",
+						"busRoute.cpp"
+					],
+					[
+						"hw",
+						"hw1.m"
+					],
+					[
+						"test",
+						"unitTest.cpp"
+					],
+					[
+						"cir",
+						"circle.h"
+					],
+					[
+						"vagr",
+						"Vagrantfile"
+					],
+					[
+						"inst",
+						"inst.cmd"
+					],
+					[
+						"com",
+						"composer.json"
+					],
+					[
+						"app",
+						"app/config/app.php"
+					],
+					[
+						"routes",
+						"app/routes.php"
+					],
+					[
+						"app.php",
+						"app/config/app.php"
+					],
+					[
+						"",
+						"README.md"
+					],
+					[
+						"jade",
+						"jadeView.php"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"re",
+						"README.md"
+					],
+					[
+						"server.js",
+						"server.js"
+					],
+					[
+						"pack",
+						"package.json"
+					],
+					[
+						"all.",
+						"json/ALL.json"
+					],
+					[
+						"mani",
+						"manipulateJson.coffee"
+					],
+					[
+						"all_",
+						"ALL_geocoded.json"
+					],
+					[
+						"create_tab",
+						"app/database/migrations/2013_12_28_043649_create_articles_table.php"
+					],
+					[
+						"composer",
+						"composer.json"
+					],
+					[
+						"wtf",
+						"wtf.txt"
+					],
+					[
+						"read",
+						"README"
+					],
+					[
+						"ex",
+						"test/exp1"
+					],
+					[
+						"te",
+						"tmp/test.txt"
+					],
+					[
+						"ig",
+						".gitignore"
+					],
+					[
+						"to",
+						"todos"
+					],
+					[
+						"con",
+						"config_0"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 47,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "zh-TW"
+   },
+   "qs_about_close_button": {
+      "message": "\u95DC\u9589"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "\u6309\u4E0B\u67D0\u4E00\u7B46 Google \u641C\u5C0B\u7D50\u679C\u4E4B\u5F8C\uFF0C\u6372\u8EF8\u5E6B\u624B\u53EF\u80FD\u6703\u51FA\u73FE\u5728\u7DB2\u9801\u53F3\u4E0B\u89D2\uFF0C\u986F\u793A\u7DB2\u9801\u4E2D\u8207\u60A8\u67E5\u8A62\u7684\u5B57\u8A5E\u76F8\u95DC\u7684\u6587\u5B57\u7247\u6BB5\u3002\u6309\u4E00\u4E0B\u6587\u5B57\u5373\u53EF\u524D\u5F80\u7DB2\u9801\u4E2D\u8A72\u6BB5\u6587\u5B57\u6240\u5728\u90E8\u5206\u3002"
+   },
+   "qs_about_explanation2": {
+      "message": "\u53EA\u6709\u5728\u5FC5\u8981\u6642\u6A5F Quick Scroll \u624D\u6703\u986F\u793A\u5728\u756B\u9762\u4E0A\u3002\u5982\u8981\u5C07 Quick Scroll \u7E2E\u5230\u6700\u5C0F\uFF0C\u8ACB\u6309\u4E00\u4E0B\u53F3\u4E0A\u89D2\u7684\u6700\u5C0F\u5316\u6309\u9215\u3002"
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003E\u95DC\u65BC Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003E\u96B1\u79C1\u6B0A\u653F\u7B56\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\u670D\u52D9\u689D\u6B3E\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Quick Scroll \u7684\u904B\u4F5C\u65B9\u5F0F\uFF1A"
+   },
+   "qs_about_installed": {
+      "message": "Google \u6372\u8EF8\u5E6B\u624B\u5B89\u88DD\u6210\u529F\u3002"
+   },
+   "qs_about_introduction": {
+      "message": "Google \u6372\u8EF8\u5E6B\u624B\u700F\u89BD\u5668\u64F4\u5145\u529F\u80FD\u53EF\u8B93\u60A8\u5FEB\u901F\u627E\u5230\u641C\u5C0B\u5167\u5BB9\u3002"
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll \u53EA\u6703\u5728\u5FC5\u8981\u6642\u6A5F\u51FA\u73FE\u3002\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003E\u77AD\u89E3\u8A73\u60C5\u003C/a\u003E\u3002",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "\u9078\u9805\u5DF2\u5132\u5B58"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "\u5C07\u4F7F\u7528\u7D71\u8A08\u8CC7\u6599\u81EA\u52D5\u50B3\u9001\u7D66 Google\uFF0C\u5354\u52A9\u6211\u5011\u6539\u5584 Google \u6372\u8EF8\u5E6B\u624B\u7684\u6548\u80FD\u3002"
+   },
+   "qs_about_privacy_options_title": {
+      "message": "\u96B1\u79C1\u6B0A\u9078\u9805"
+   },
+   "qs_about_step_1": {
+      "message": "\u57F7\u884C Google \u641C\u5C0B\u3002"
+   },
+   "qs_about_step_2": {
+      "message": "\u6309\u4E00\u4E0B\u641C\u5C0B\u7D50\u679C\u3002"
+   },
+   "qs_about_step_3": {
+      "message": "\u6309\u4E00\u4E0B Quick Scroll \u5373\u53EF\u8DF3\u81F3\u7DB2\u9801\u4E2D\u7684\u76F8\u95DC\u5167\u5BB9\u90E8\u5206\u3002"
+   },
+   "qs_about_support_instructions": {
+      "message": "\u5982\u679C\u60A8\u5C0D\u65BC Quick Scroll \u6709\u4EFB\u4F55\u7591\u554F\u6216\u4F7F\u7528\u6642\u9047\u5230\u554F\u984C\uFF0C\u8ACB\u53C3\u95B1\u6211\u5011\u7684\u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003E\u652F\u63F4\u7DB2\u9801\u003C/a\u003E\u3002",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "\u611F\u8B1D\u60A8\u5B89\u88DD Google \u6372\u8EF8\u5E6B\u624B\uFF01"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003E\u8A66\u8A66\u770B\uFF01\u003C/b\u003E\u641C\u5C0B [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] \u7136\u5F8C\u6309\u4E00\u4E0B\u300Cdark matter brown dwarfs\u300D\u7D50\u679C\u3002"
+   },
+   "qs_about_try_queries": {
+      "message": "\u67E5\u8A62\u4E0B\u5217\u95DC\u9375\u5B57\uFF1A"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "\u5982\u8981\u89E3\u9664\u5B89\u88DD Google \u6372\u8EF8\u5E6B\u624B\uFF0C\u8ACB\u4F7F\u7528 Chrome \u7684 [\u5DE5\u5177&nbsp;\u003E&nbsp;\u64F4\u5145\u529F\u80FD] \u9078\u55AE\u9078\u9805\uFF0C\u7136\u5F8C\u6309\u4E00\u4E0B Google \u6372\u8EF8\u5E6B\u624B\u64F4\u5145\u529F\u80FD\u7684 [\u89E3\u9664\u5B89\u88DD] \u9023\u7D50\u3002"
+   },
+   "qs_about_uninstall_title": {
+      "message": "\u89E3\u9664\u5B89\u88DD"
+   },
+   "qs_description": {
+      "message": "\u6372\u8EF8\u5E6B\u624B\u53EF\u8B93\u60A8\u76F4\u63A5\u8DF3\u5230 Google \u641C\u5C0B\u7D50\u679C\u4E2D\u7684\u76F8\u95DC\u6587\u5B57\u7247\u6BB5\u3002"
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  \u66F4\u5C11\u76F8\u7B26\u7D50\u679C"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "\u986F\u793A\u7B26\u5408\u60A8\u67E5\u8A62\u7684\u539F\u59CB\u7D50\u679C"
+   },
+   "qs_gallery_description": {
+      "message": "Google \u6372\u8EF8\u5E6B\u624B\u700F\u89BD\u5668\u64F4\u5145\u529F\u80FD\u53EF\u5354\u52A9\u60A8\u8FC5\u901F\u627E\u5230\u641C\u5C0B\u5167\u5BB9\u3002\u003Cbr/\u003E\u003Cbr/\u003E\u6309\u4E0B\u67D0\u7B46 Google \u641C\u5C0B\u7D50\u679C\u4E4B\u5F8C\uFF0C\u6372\u8EF8\u5E6B\u624B\u53EF\u80FD\u6703\u51FA\u73FE\u5728\u7DB2\u9801\u53F3\u4E0B\u89D2\uFF0C\u986F\u793A\u7DB2\u9801\u4E2D\u8207\u60A8\u67E5\u8A62\u7684\u5B57\u8A5E\u76F8\u95DC\u7684\u6587\u5B57\u7247\u6BB5\u3002\u6309\u4E00\u4E0B\u6587\u5B57\u5373\u53EF\u524D\u5F80\u7DB2\u9801\u4E2D\u8A72\u6BB5\u6587\u5B57\u6240\u5728\u90E8\u5206\u3002\u003Cbr/\u003E\u003Cbr/\u003E\u6372\u8EF8\u5E6B\u624B\u76E1\u91CF\u4E0D\u6253\u64FE\u60A8\u7684\u6D3B\u52D5\uFF0C\u53EA\u5728\u5FC5\u8981\u6642\u6A5F\u51FA\u99AC\u3002"
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "\u5F88\u62B1\u6B49\uFF0CQuick Scroll \u5728\u9019\u500B\u7DB2\u9801\u4E0A\u6C92\u6709\u627E\u5230\u4EFB\u4F55\u8207\u300C\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\u300D\u76F8\u7B26\u7684\u7D50\u679C\u3002\u003Cspan class=\"goog_qs-learn-more\"\u003E\u77AD\u89E3\u8A73\u60C5\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "\u7DB2\u9801\u7684\u6240\u6709\u5167\u5BB9\u4F3C\u4E4E\u90FD\u8207\u300C\u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E\u300D\u76F8\u95DC\u3002Quick Scroll \u50C5\u5728\u7DB2\u9801\u7684\u90E8\u5206\u5167\u5BB9\u8207\u67E5\u8A62\u76F8\u95DC\u6642\u624D\u6703\u51FA\u73FE\u3002\u003Cspan class=\"goog_qs-learn-more\"\u003E\u77AD\u89E3\u8A73\u60C5\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll \u6C92\u6709\u51FA\u73FE\uFF0C\u56E0\u70BA\u7DB2\u9801\u7684\u6240\u6709\u5167\u5BB9\u90FD\u8207\u60A8\u7684\u67E5\u8A62\u76F8\u95DC\u3002"
+   },
+   "qs_info_on_search": {
+      "message": "\u5728\u60A8\u6309\u4E00\u4E0B Google \u641C\u5C0B\u7D50\u679C\u4E4B\u5F8C\uFF0C\u6372\u8EF8\u5E6B\u624B\u5C31\u6703\u51FA\u73FE\u3002\u003Cspan class=\"goog_qs-learn-more\"\u003E\u77AD\u89E3\u8A73\u60C5\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "\u6309\u4E00\u4E0B [\u5B89\u88DD] \u8868\u793A\u60A8\u540C\u610F\u300A\u670D\u52D9\u689D\u6B3E\u300B\uFF1Ahttps://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "\u66F4\u591A\u76F8\u7B26\u7D50\u679C \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "\u986F\u793A\u66F4\u591A\u7B26\u5408\u60A8\u67E5\u8A62\u7684\u7D50\u679C"
+   },
+   "qs_name": {
+      "message": "Google \u6372\u8EF8\u5E6B\u624B"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll \u5728\u9019\u500B\u7DB2\u9801\u4E0A\u627E\u5230\u76F8\u7B26\u7684\u7D50\u679C\u3002"
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll \u5DF2\u555F\u7528\uFF0C\u6309\u4E00\u4E0B\u77AD\u89E3\u8A73\u60C5\u3002"
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll \u6B63\u5728\u7B49\u5019\u7DB2\u9801\u8F09\u5165..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "\u958B\u555F\u8AAA\u660E\u548C\u9078\u9805\u7DB2\u9801"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "\u7DB2\u9801\u4E2D\u8207 \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E \u76F8\u7B26\u7684\u7D50\u679C"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\u7DB2\u9801\u4E2D\u8207\u300C\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\u300D\u76F8\u7B26\u7684\u7D50\u679C"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "\u7E2E\u5230\u6700\u5C0F"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "\u958B\u555F Google \u6372\u8EF8\u5E6B\u624B"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "\u6309\u4E00\u4E0B\u5373\u53EF\u5728\u7DB2\u9801\u4E2D\u67E5\u770B\u9019\u6BB5\u6587\u5B57"
+   },
+   "qs_toolbar_go_label": {
+      "message": "\u8DF3\u81F3\u6587\u5B57\u7247\u6BB5 $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "\u8207\u300C\u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E\u300D\u6700\u76F8\u7B26\u7684\u7D50\u679C"
+   }
+}

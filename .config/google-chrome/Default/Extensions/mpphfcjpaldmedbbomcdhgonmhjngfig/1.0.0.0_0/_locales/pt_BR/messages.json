@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "OBSOLETO. Utilize a extens\u00E3o Ferramentas de Entrada do Google (dispon\u00EDveis em http://goo.gl/lzCPo, link em ingl\u00EAs)."
+   },
+   "vkbd_name": {
+      "message": "OBSOLETO: Teclado virtual (do Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Op\u00E7\u00F5es da extens\u00E3o Teclado virtual"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Escolha o layout do teclado a partir da esquerda:"
+   },
+   "vkbd_save_options": {
+      "message": "Salvar"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Mostrar/ocultar teclado"
+   }
+}

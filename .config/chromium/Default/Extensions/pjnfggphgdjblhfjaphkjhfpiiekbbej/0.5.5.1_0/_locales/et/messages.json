@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "et"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "See laiendus ei saa anda soovitusi sellistelt lehtedelt, millel on turvaline sisu (nt http\u003Cb\u003Es\u003C/b\u003E://). Kohtume taas avalikus v\u00F5rgus!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "See laiendus toimib k\u00F5ige paremini kodulehtedel v\u00F5i enamiku veebisaitide avalehel.\u003Cp\u003EProovige laiendust oma lemmikveebisaidil &mdash; katsetage selle toimimist ja vaadake lehesoovitusi."
+   },
+   "sp_default_title": {
+      "message": "Vt Google'i sarnaseid lehti"
+   },
+   "sp_description": {
+      "message": "Avastage veebilehti, mis sarnanevad praegu sirvitavale lehele."
+   },
+   "sp_domain_change_message": {
+      "message": "Kohaliku domeeni muutmiseks kujule www.google.com \u003Ca id='over' href='#'\u003Ekl\u00F5psake siin\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "www.google.com on salvestatud kohaliku domeenina sarnaste lehtede hankimiseks."
+   },
+   "sp_domain_message": {
+      "message": "Laiendus v\u00F5tab sarnaste lehtede loendi toomiseks \u00FChendust hostiga $1.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Lehtede arv: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EGoogle'i kohta\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Sooviksime lugeda teie tagasisidet siin: \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. T\u00E4name!"
+   },
+   "sp_options_intro": {
+      "message": "Google'i sarnaste lehtede brauserilaiendus v\u00F5imaldab kiiret eelvaadet ja uurida muid lehti, mis sarnanevad sirvitava lehega \u2014 ja kiiresti!"
+   },
+   "sp_options_legal": {
+      "message": "Kui kl\u00F5psate nupul Sarnased lehed, siis saadab brauser otsingup\u00E4ringu Google'ile tuvastamaks, kas leidub veel lehti, mis sarnanevad sellele lehele, mida hetkel vaatate.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EP\u00E4ringuga seotud andmeid k\u00E4sitletakse Google'i \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Eprivaatsuseeskirjades\u003C/a\u003E kirjeldatud viisil.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPrivaatsuseeskirjad\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETeenusetingimused\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Desinstallimine"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Google'i kiirkerimise desinstallimiseks kasutage valikut Chrome'i t\u00F6\u00F6riistad &gt; Laienduste men\u00FC\u00FC ning kl\u00F5psake Google'i sarnaste lehtede lingil Desinstalli."
+   },
+   "sp_preview_not_available": {
+      "message": "Eelvaade\u003Cbr\u003Eei ole saadaval"
+   },
+   "sp_product_name": {
+      "message": "Google'i sarnaste lehtede beetaversioon: Google"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.ee"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google'i sarnased lehed"
+   },
+   "sp_tld_special_case_text": {
+      "message": "See laiendus ei ole praegu teie riigis/piirkonnas saadaval. Kontrollige hiljem uuesti."
+   },
+   "sp_zero_results": {
+      "message": "Sarnaseid lehti ei leitud."
+   }
+}

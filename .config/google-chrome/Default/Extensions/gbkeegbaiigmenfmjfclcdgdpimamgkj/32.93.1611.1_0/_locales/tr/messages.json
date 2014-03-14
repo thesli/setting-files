@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Daha fazla bilgi edinin"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Sorunu bildirerek bize yard\u0131mc\u0131 olun."
+   },
+   "app_nacl_crash_report": {
+      "message": "Sorun bildir..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hata! Bunun olmamas\u0131 gerekiyordu."
+   },
+   "app_nacl_error_msg": {
+      "message": "Uygulama y\u00FCklenirken bir sorun olu\u015Ftu."
+   },
+   "app_nacl_error_title": {
+      "message": "Dosya a\u00E7\u0131lam\u0131yor."
+   },
+   "application_description": {
+      "message": "Dok\u00FCman d\u00FCzenleme"
+   },
+   "file_loading_spinner_label": {
+      "message": "Y\u00FCkleniyor"
+   },
+   "file_not_found_msg": {
+      "message": "\u0130stedi\u011Finiz dosya ta\u015F\u0131nd\u0131."
+   },
+   "file_not_found_title": {
+      "message": "Dosya bulunamad\u0131."
+   }
+}

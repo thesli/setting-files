@@ -1,0 +1,136 @@
+{
+   "extCloseTab": {
+      "message": "close current tab"
+   },
+   "extDesc": {
+      "description": "Extension Description",
+      "message": "Double left/right or triple left clicks on WEBPAGE (not tab) to close tab. Reopen tab by shiftKey + DC/TC. Optional: an icon to either duplicate or close current tab; disable closing the last tab of the last window; switch behaviors of click/ctrl+click on links"
+   },
+   "extDupTab": {
+      "message": "duplicate current tab"
+   },
+   "extName": {
+      "description": "Extension Name",
+      "message": "Double Click Closes Tab"
+   },
+   "extNo": {
+      "message": "Click here to $ACTION$!\n\nDCCT as well as many other extensions won't work on this page\n  - Chrome prevents mouse/keyboard interactions by all extensions",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": "close current tab"
+         }
+      }
+   },
+   "extNoNeedRefresh": {
+      "message": "Click here to $ACTION$!\n\nDCCT just installed or settings changed - please refresh the page for DCCT to work on it",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": "close current tab"
+         }
+      }
+   },
+   "extOK": {
+      "message": "Click here to $ACTION$!\n\nDCCT works on this page.",
+      "placeholders": {
+         "action": {
+            "content": "$1",
+            "example": "close current tab"
+         }
+      }
+   },
+   "iconDupTab": {
+      "message": "When clicking on icon, duplicate current tab instead of closing it"
+   },
+   "lastTabApp": {
+      "message": "When closing last tab of Chrome, change it to homepage instead"
+   },
+   "noMoreTabs": {
+      "description": "No More Tabs",
+      "message": "All previously-closed tabs were reopened! No more tabs to open."
+   },
+   "optAltKey": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Alt Key"
+   },
+   "optClickModKey1": {
+      "description": "Option for Click Modifier",
+      "message": " + click will open link in "
+   },
+   "optCloseTab": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Close/Reopen tabs using"
+   },
+   "optCloseTabDouble": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Double Clicks"
+   },
+   "optCloseTabDoubleRight": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Double Right Clicks"
+   },
+   "optCloseTabTriple": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Triple Clicks"
+   },
+   "optCommandKey": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Command Key (Mac Only)"
+   },
+   "optCtrlKey": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Ctrl Key"
+   },
+   "optDocAuth": {
+      "description": "Options Page Author Page",
+      "message": "or Contact Author"
+   },
+   "optDocClose": {
+      "description": "Options Page Close Button",
+      "message": "Apply Settings & Close"
+   },
+   "optDocDonate": {
+      "description": "Options Page Donation Request",
+      "message": "Donation helps development of more Chrome extensions including porting over my TableTools for Firefox extension that sort/search/filter/copy any HTML table in browser!"
+   },
+   "optDocTime": {
+      "description": "Options Page Setting for the Clicking Time (Speed)",
+      "message": "How fast should triple clicks be?"
+   },
+   "optDocTimeUnit": {
+      "description": "Options Page Setting for the Clicking Time (Speed)",
+      "message": "milliseconds"
+   },
+   "optDocTitle": {
+      "description": "Options Page Title",
+      "message": "DCCT Options"
+   },
+   "optNoIcon": {
+      "description": "Option for Displaying Browser Icon",
+      "message": "Do not display any icon in browser address toolbar"
+   },
+   "optNoKey": {
+      "description": "Option for Click Modifier",
+      "message": "None"
+   },
+   "optNoWhatsNew": {
+      "description": "Option for Displaying What's New Page",
+      "message": "Do not display \"What's New\" page after installation"
+   },
+   "optReopenKey": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Press this key + clicks to reopen tab"
+   },
+   "optRevertClick": {
+      "description": "Option for Altering Default Browser Behavior when Clicking on Links",
+      "message": ""
+   },
+   "optShiftKey": {
+      "description": "Option for Close/Reopen tab",
+      "message": "Shift Key"
+   },
+   "revertClick": {
+      "message": "Revert browser behavior when I click or Ctrl-click on a link"
+   }
+}

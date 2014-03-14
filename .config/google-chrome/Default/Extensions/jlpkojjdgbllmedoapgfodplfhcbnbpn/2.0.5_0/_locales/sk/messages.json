@@ -1,0 +1,172 @@
+{
+   "elementToolbarChildNode": {
+      "description": "Title for the child node of the highlighted element in tracking mode",
+      "message": "Uzol potomka"
+   },
+   "elementToolbarHelp": {
+      "description": "Help message for the element toolbar",
+      "message": "Pou\u017Eite kurzor na zv\u00FDraznenie prvku na str\u00E1nke. Kliknut\u00EDm vypnete sledovanc\u00ED m\u00F3d."
+   },
+   "elementToolbarHighlightedElement": {
+      "description": "Title for the highlighted element in tracking mode",
+      "message": "Zv\u00FDraznen\u00FD prvok"
+   },
+   "elementToolbarNextSibling": {
+      "description": "Title for the next sibling node of the highlighted element in tracking mode",
+      "message": "Nasleduj\u00FAci uzol s\u00FArodenca"
+   },
+   "elementToolbarParentNode": {
+      "description": "Title for the parent node of the highlighted element in tracking mode",
+      "message": "Rodi\u010Dovsk\u00FD uzol"
+   },
+   "elementToolbarPreviousSibling": {
+      "description": "Title for the previous sibling node of the highlighted element in tracking mode",
+      "message": "Predch\u00E1dzaj\u00FAci uzol s\u00FArodenca"
+   },
+   "elementToolbarToggleOff": {
+      "description": "The off state text for the tracking mode toggle button",
+      "message": "Vyp."
+   },
+   "elementToolbarToggleOn": {
+      "description": "The on state text for the tracking mode toggle button",
+      "message": "Zap."
+   },
+   "elementToolbarTrackingMode": {
+      "description": "Label for the tracking mode toggle button",
+      "message": "Sledovac\u00ED m\u00F3d"
+   },
+   "errorLocal": {
+      "description": "Error message to show when someone tries to run the extension in a chrome extension page",
+      "message": "Roz\u0161\u00EDrenie nemo\u017Ee by\u0165 spusten\u00E9 na lok\u00E1lnych chrome str\u00E1nkach kvoli bezpe\u010Dnosti."
+   },
+   "errorWebStore": {
+      "description": "Error message to show when someone tries to run the extension in a the chrome web store",
+      "message": "Roz\u0161\u00EDrenie nemo\u017Ee by\u0165 spusten\u00E9 vo web obchode chrome kvoli bezpe\u010Dnosti."
+   },
+   "extDescription": {
+      "description": "Extension description",
+      "message": "Nakreslite plochu aby ste z\u00EDskali rozmer a poz\u00EDciu pre prvky.."
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Page Ruler"
+   },
+   "extShortName": {
+      "description": "Extension short name (maximum 12 characters)",
+      "message": "Page Ruler"
+   },
+   "optionsHideUpdateTabHelp": {
+      "description": "Message explaining how the do not show update tab checkbox is used",
+      "message": "Nezobrazova\u0165 z\u00E1lo\u017Eku s aktualizaciou ke\u010F je nain\u0161talovan\u00E1 nov\u00E1 verzia."
+   },
+   "optionsHideUpdateTabLabel": {
+      "description": "The label for the do not show update tab checkbox",
+      "message": "Nezobrazo\u0165 z\u00E1lo\u017Eku s aktualiz\u00E1ciami:"
+   },
+   "optionsPageTitle": {
+      "description": "Page title for the options page",
+      "message": "Nastavenia Page Ruler"
+   },
+   "optionsStatisticsHelp": {
+      "description": "Message explaining how the anonymouse usage statistics is used",
+      "message": "Zozbieran\u00E9 inform\u00E1cie neobsahuj\u00FA \u017Eiadne osobn\u00E9 \u00FAdaje. \u00DAdaje s\u00FA pou\u017E\u00EDvan\u00E9 len pre \u00FA\u010Dely roz\u0161\u00EDrenia, ktor\u00E9 jeho \u010Dasti s\u00FA pou\u017E\u00EDvan\u00E9."
+   },
+   "optionsStatisticsLabel": {
+      "description": "The label for the send anonymouse usage statistics checkbox",
+      "message": "Zasiela\u0165 anonymn\u00E9 \u0161tatistiky:"
+   },
+   "toolbarBottom": {
+      "description": "Label for the bottom input in the toolbar",
+      "message": "Dole"
+   },
+   "toolbarClose": {
+      "description": "Tooltip for the toolbar close button which closes the addon",
+      "message": "Zatvori\u0165"
+   },
+   "toolbarColor": {
+      "description": "Label for the color picker in the toolbar",
+      "message": "Farba"
+   },
+   "toolbarDisableElementMode": {
+      "description": "Label for the disable element mode button (element as in HTML element)",
+      "message": "Vypn\u00FA\u0165 m\u00F3d prvkov"
+   },
+   "toolbarEnableElementMode": {
+      "description": "Label for the enable element mode button (element as in HTML element)",
+      "message": "Zapn\u00FA\u0165 m\u00F3d prvkov"
+   },
+   "toolbarHeight": {
+      "description": "Label for the height input in the toolbar",
+      "message": "V\u00FD\u0161ka"
+   },
+   "toolbarLeft": {
+      "description": "Label for the left input in the toolbar",
+      "message": "V\u013Eavo"
+   },
+   "toolbarRight": {
+      "description": "Label for the right input in the toolbar",
+      "message": "Vpravo"
+   },
+   "toolbarTop": {
+      "description": "Label for the top input in the toolbar",
+      "message": "Hore"
+   },
+   "toolbarWidth": {
+      "description": "Label for the width input in the toolbar",
+      "message": "\u0160\u00EDrka"
+   },
+   "updateCodeTitle": {
+      "desciption": "Title for the code section in the contributors side box",
+      "message": "K\u00F3d"
+   },
+   "updateContributeTitle": {
+      "desciption": "Title for the contribute side box",
+      "message": "Prispie\u0165 Page Ruler-u"
+   },
+   "updateContributorsTitle": {
+      "desciption": "Title for the contributors side box",
+      "message": "Prispievatelia"
+   },
+   "updateDoNotShowPageAgain": {
+      "description": "Label for the do not show this page again checkbox on the update page",
+      "message": "Nezobrazova\u0165 u\u017E t\u00FAto str\u00E1nku."
+   },
+   "updateHistoryTitle": {
+      "desciption": "Title for the update history section",
+      "message": "\u010Co je nov\u00E9?"
+   },
+   "updateIconsTitle": {
+      "desciption": "Title for the icons section in the contributors side box",
+      "message": "Ikony"
+   },
+   "updatePageHeader": {
+      "description": "Header message for the page containing the new version number",
+      "message": "Page Ruler sa aktualizoval na verziu \u003Cspan\u003E$VERSION$\u003C/span\u003E",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.1"
+         }
+      }
+   },
+   "updatePageHeaderInstall": {
+      "description": "Header message for the update page when a new user installs it",
+      "message": "\u010Eakujeme za in\u0161tal\u00E1ciu Page Ruler!"
+   },
+   "updatePageTitle": {
+      "desciption": "Page title for the update page",
+      "message": "Page Ruler sa aktualizoval."
+   },
+   "updateTranslateDescription": {
+      "desciption": "Description of how to find out how to contribute a translation",
+      "message": "Chcete pou\u017E\u00EDva\u0165 Page Ruler vo svojom jazyku? Nav\u0161t\u00EDvte \u003Ca href='https://github.com/wrakky/page-ruler'\u003EGitHub\u003C/a\u003E a nasledujte in\u0161trukcie ako vytvori\u0165 preklad."
+   },
+   "updateTranslateTitle": {
+      "desciption": "Title for the translate section in the contribute side box",
+      "message": "Prelo\u017Ei\u0165"
+   },
+   "updateTranslationsTitle": {
+      "desciption": "Title for the translations section in the contributors side box",
+      "message": "Preklady"
+   }
+}

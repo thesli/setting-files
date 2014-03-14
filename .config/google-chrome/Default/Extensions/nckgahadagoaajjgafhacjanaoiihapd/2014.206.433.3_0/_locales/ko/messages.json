@@ -1,0 +1,190 @@
+{
+   "chrome_ext_cannot_connect": {
+      "message": "Google\uC5D0 \uC5F0\uACB0\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uC778\uD130\uB137 \uC5F0\uACB0 \uC0C1\uD0DC\uB97C \uD655\uC778\uD574 \uBCF4\uC138\uC694."
+   },
+   "chrome_ext_description": {
+      "message": "\uD589\uC544\uC6C3\uC740 \uC0AC\uC9C4, \uC774\uBAA8\uD2F0\uCF58, \uBB34\uB8CC \uADF8\uB8F9 \uD654\uC0C1 \uD1B5\uD654 \uAE30\uB2A5\uC744 \uD1B5\uD574 \uB300\uD654\uC5D0 \uD65C\uAE30\uB97C \uBD88\uC5B4\uB123\uC2B5\uB2C8\uB2E4."
+   },
+   "chrome_ext_feedback_comments": {
+      "message": "\uB313\uAE00"
+   },
+   "chrome_ext_feedback_subtitle": {
+      "message": "\uC758\uACAC \uBCF4\uB0B4\uAE30"
+   },
+   "chrome_ext_group_plus_hangout_details": {
+      "message": "\uADF8\uB8F9 \uD589\uC544\uC6C3 \uD654\uC0C1 \uD1B5\uD654\uC5D0 \uB098\uB97C \uCD08\uB300\uD568"
+   },
+   "chrome_ext_menutext_feedback": {
+      "message": "\uC758\uACAC \uBCF4\uB0B4\uAE30"
+   },
+   "chrome_ext_menutext_unsigned_user": {
+      "message": "\uB85C\uADF8\uC778\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4."
+   },
+   "chrome_ext_new_windows_topmost": {
+      "message": "\uD589\uC544\uC6C3 \uCC3D\uC744 \uB9E8 \uC704\uC5D0 \uD45C\uC2DC"
+   },
+   "chrome_ext_oneonone_plus_hangout_details": {
+      "message": "\uD589\uC544\uC6C3\uC744 \uD1B5\uD574 \uB098\uC5D0\uAC8C \uD654\uC0C1 \uD1B5\uD654\uB97C \uAC70\uB294 \uC911"
+   },
+   "chrome_ext_run_after_browser_close": {
+      "message": "\uBC31\uADF8\uB77C\uC6B4\uB4DC \uBAA8\uB4DC \uD5C8\uC6A9"
+   },
+   "chrome_ext_run_at_browser_start": {
+      "message": "Chrome\uC744 \uC2DC\uC791\uD560 \uB54C \uD589\uC544\uC6C3\uC5D0 \uB85C\uADF8\uC778"
+   },
+   "chrome_ext_short_name": {
+      "message": "\uD589\uC544\uC6C3"
+   },
+   "chrome_ext_tip_connected_missed_messages": {
+      "message": "\uC0C1\uD0DC: \uC5F0\uACB0\uB428\n\uD655\uC778\uD558\uC9C0 \uC54A\uC740 \uBA54\uC2DC\uC9C0 \uC788\uC74C"
+   },
+   "quasar_answer_button_text": {
+      "message": "\uC751\uB2F5"
+   },
+   "quasar_button_apply": {
+      "message": "\uC801\uC6A9"
+   },
+   "quasar_button_cancel": {
+      "message": "\uCDE8\uC18C"
+   },
+   "quasar_button_save": {
+      "message": "\uD655\uC778"
+   },
+   "quasar_chat_title": {
+      "message": "$1\uB2D8\uC758 \uB9D0...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_chat_toast_info": {
+      "message": "\uD074\uB9AD\uD558\uC5EC \uD398\uC774\uC9C0\uB85C \uC774\uB3D9..."
+   },
+   "quasar_decline_button_text": {
+      "message": "\uAC70\uBD80"
+   },
+   "quasar_feedback_cancel_button": {
+      "message": "\uCDE8\uC18C"
+   },
+   "quasar_feedback_platform_label": {
+      "message": "\uD50C\uB7AB\uD3FC:"
+   },
+   "quasar_feedback_privacy_legend": {
+      "message": "\uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638 \uAD00\uB828 \uC548\uB0B4"
+   },
+   "quasar_feedback_privacy_text": {
+      "message": "\uC124\uBA85, \uC81C\uD488 \uC815\uBCF4, \uCD94\uAC00 \uC815\uBCF4\uC640 \uC774\uBA54\uC77C \uC8FC\uC18C\uAC00 Google\uB85C \uC804\uC1A1\uB429\uB2C8\uB2E4. Google \uD53C\uB4DC\uBC31 \uC11C\uBE44\uC2A4 \uC57D\uAD00\uC744 \uCC38\uC870\uD558\uC138\uC694. \uC774 \uCF58\uD150\uCE20\uB97C \uC81C\uCD9C\uD558\uBA74 Google \uC81C\uD488\uACFC \uC11C\uBE44\uC2A4\uB97C \uAC1C\uC120\uD558\uAE30 \uC704\uD574 \uCF58\uD150\uCE20\uB97C \uC0AC\uC6A9\uD560 \uAD8C\uB9AC\uB97C Google\uC5D0 \uBD80\uC5EC\uD558\uB294 \uAC83\uC785\uB2C8\uB2E4. Google \uAC1C\uC778\uC815\uBCF4\uCDE8\uAE09\uBC29\uCE68\uC744 \uCC38\uC870\uD558\uC138\uC694."
+   },
+   "quasar_feedback_server_uri": {
+      "message": "https://www.google.com/tools/feedback"
+   },
+   "quasar_feedback_submit_button": {
+      "message": "\uC758\uACAC \uBCF4\uB0B4\uAE30"
+   },
+   "quasar_feedback_system_legend": {
+      "message": "\uC2DC\uC2A4\uD15C \uC815\uBCF4"
+   },
+   "quasar_feedback_user_agent_label": {
+      "message": "\uC0AC\uC6A9\uC790 \uC5D0\uC774\uC804\uD2B8:"
+   },
+   "quasar_group_chat_title": {
+      "message": "\uADF8\uB8F9 \uCC44\uD305 \uC54C\uB9BC..."
+   },
+   "quasar_hangout_title": {
+      "message": "$1\uB2D8\uC774 \uD589\uC544\uC6C3\uC5D0 \uCC38\uC5EC\uC911\uC785\uB2C8\uB2E4.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_help": {
+      "message": "\uB3C4\uC6C0\uB9D0"
+   },
+   "quasar_label_all_notification": {
+      "message": "\uC54C\uB9BC \uC0AC\uC6A9 \uC548\uD568"
+   },
+   "quasar_label_chat_notification": {
+      "message": "\uCC44\uD305 \uC54C\uB9BC \uC0AC\uC6A9 \uC548\uD568"
+   },
+   "quasar_label_toast_duration_chat": {
+      "message": "\uC2DC\uAC04 \uC81C\uD55C \uAE38\uC774(\uCD08 \uB2E8\uC704):"
+   },
+   "quasar_label_toast_timeout_chat": {
+      "message": "\uC2DC\uAC04\uCD08\uACFC \uD6C4 \uCC44\uD305 \uC54C\uB9BC \uC790\uB3D9 \uC885\uB8CC"
+   },
+   "quasar_label_tray_icon": {
+      "message": "\uC791\uC5C5 \uD45C\uC2DC\uC904 \uC544\uC774\uCF58 \uD45C\uC2DC"
+   },
+   "quasar_legend_notifications": {
+      "message": "\uC54C\uB9BC"
+   },
+   "quasar_legend_startup_shutdown": {
+      "message": "\uC560\uD50C\uB9AC\uCF00\uC774\uC158"
+   },
+   "quasar_menutext_feedback": {
+      "message": "\uD53C\uB4DC\uBC31"
+   },
+   "quasar_menutext_quit": {
+      "message": "\uC885\uB8CC"
+   },
+   "quasar_menutext_settings": {
+      "message": "\uC635\uC158"
+   },
+   "quasar_menutext_signout": {
+      "message": "\uB85C\uADF8\uC544\uC6C3"
+   },
+   "quasar_menutext_unknown_user": {
+      "message": "\uC54C \uC218 \uC5C6\uC74C"
+   },
+   "quasar_sign_in": {
+      "message": "\uB85C\uADF8\uC778"
+   },
+   "quasar_sign_in_to_start_talking": {
+      "message": "\uB85C\uADF8\uC778\uD558\uC5EC \uCE5C\uAD6C\uC640 \uB300\uD654\uD558\uAE30"
+   },
+   "quasar_tip_connected": {
+      "message": "\uC0C1\uD0DC: \uC5F0\uACB0\uB428"
+   },
+   "quasar_tip_connecting": {
+      "message": "\uC0C1\uD0DC: \uC5F0\uACB0\uD558\uB294 \uC911"
+   },
+   "quasar_tip_disconnected": {
+      "message": "\uC0C1\uD0DC: \uC5F0\uACB0 \uB04A\uAE40"
+   },
+   "quasar_tip_not_load": {
+      "message": "\uC0C1\uD0DC: \uB85C\uB4DC \uC911 \uC624\uB958"
+   },
+   "quasar_tip_not_login": {
+      "message": "\uC0C1\uD0DC: \uB85C\uADF8\uC778\uD558\uC9C0 \uC54A\uC74C"
+   },
+   "quasar_tip_reconnecting": {
+      "message": "\uC0C1\uD0DC: \uB2E4\uC2DC \uC5F0\uACB0\uD558\uB294 \uC911"
+   },
+   "quasar_try_now": {
+      "message": "\uC9C0\uAE08 \uC5F0\uACB0\uD558\uAE30"
+   },
+   "quasar_video_details": {
+      "message": "\uB2D8\uC774 \uC601\uC0C1 \uCC44\uD305\uC744 \uD1B5\uD574 \uC804\uD654\uB97C \uAC78\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "quasar_video_title": {
+      "message": "$1\uB2D8\uC5D0\uAC8C\uC11C \uC628 \uD654\uC0C1 \uD1B5\uD654...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "quasar_voice_details": {
+      "message": "\uB2D8\uC774 \uC804\uD654\uB97C \uAC78\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "quasar_voice_title": {
+      "message": "$1\uB2D8\uC5D0\uAC8C\uC11C \uC628 \uC74C\uC131\uD1B5\uD654...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

@@ -1,0 +1,1 @@
+define(["async!https://apis.google.com/js/client.js!onload"],function(){"use strict";return console.log("googleAPI has loaded",window.gapi,window.gapi.client),window.gapi});

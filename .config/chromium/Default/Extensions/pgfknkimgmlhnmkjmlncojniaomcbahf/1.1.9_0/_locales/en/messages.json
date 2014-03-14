@@ -1,0 +1,784 @@
+{
+   "as_loading": {
+      "description": "Status for loading catalog information",
+      "message": "Loading catalog information for $SITE$...",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "as_loading_blog": {
+      "description": "Status for loading catalog information about blog",
+      "message": "Loading catalog information ..."
+   },
+   "as_loading_error": {
+      "description": "Error message for loading counters",
+      "message": "Error loading catalog information for $SITE$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "as_registred_category": {
+      "description": "Message about place of site in catalog",
+      "message": "Take \u003Ca href=\"$PLACE_URL$\" target=\"_blank\"\u003E$PLACE_TITLE$\u003C/a\u003E place in category &laquo;\u003Ca href=\"$CATEGORY_URL$\" target=\"_blank\"\u003E$CATEGORY_TITLE$\u003C/a\u003E&raquo;",
+      "placeholders": {
+         "category_title": {
+            "content": "$4",
+            "example": "Culture and art"
+         },
+         "category_url": {
+            "content": "$3",
+            "example": "http://www.liveinternet.ru/rating/ru/culture/"
+         },
+         "place_title": {
+            "content": "$2",
+            "example": "1001"
+         },
+         "place_url": {
+            "content": "$1",
+            "example": "http://www.liveinternet.ru/rating/ru/culture/index.html?page=34#darknsk.com"
+         }
+      }
+   },
+   "as_statistic_public": {
+      "description": "Message about accessible site statistics",
+      "message": "Statistics is \u003Ca href=\"$URL$\" target=\"_blank\"\u003Epublic\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://www.liveinternet.ru/stat/darknsk.com/"
+         }
+      }
+   },
+   "as_statistics_by_password": {
+      "description": "Message about private site statistics",
+      "message": "Statistics accessible \u003Ca href=\"$URL$\" target=\"_blank\"\u003Eonly by password\u003C/a\u003E",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://www.liveinternet.ru/stat/darknsk.com/"
+         }
+      }
+   },
+   "as_unregistred": {
+      "description": "Error message for unregistred sites",
+      "message": "Domain $SITE$ is not registred in Liveinternet catalog",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "button_tooltip": {
+      "description": "Tooltip for extension button",
+      "message": "Site statistics"
+   },
+   "cs_day_title": {
+      "description": "Day row title",
+      "message": "Day:"
+   },
+   "cs_forbidden": {
+      "description": "Error message for sites with hidden counters",
+      "message": "Counters for $SITE$ are hidden by owner",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "cs_loading": {
+      "description": "Status for loading counters",
+      "message": "Loading counters for $SITE$...",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "cs_loading_blog": {
+      "description": "Status for loading blog counters",
+      "message": "Loading counters for blog..."
+   },
+   "cs_loading_error": {
+      "description": "Error message for loading counters",
+      "message": "Error loading counters for $SITE$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "cs_month_title": {
+      "description": "Month row title",
+      "message": "Month:"
+   },
+   "cs_online_title": {
+      "description": "Online row title",
+      "message": "Online:"
+   },
+   "cs_title": {
+      "description": "Header of counter statistics",
+      "message": "Site visitors statistics"
+   },
+   "cs_today_title": {
+      "description": "Today row title",
+      "message": "Today:"
+   },
+   "cs_unregistred": {
+      "description": "Error message for unregistred sites",
+      "message": "Site $SITE$ has no Liveinternet counter. \u003Ca href=\"http://www.liveinternet.ru/add?url=$SITE$;lang=$LANG$\" target=\"_blank\"\u003EGet counter\u003C/a\u003E",
+      "placeholders": {
+         "lang": {
+            "content": "en",
+            "example": "en"
+         },
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "cs_views_title": {
+      "description": "Views column title",
+      "message": "Views"
+   },
+   "cs_visiters_title": {
+      "description": "Visitors column title",
+      "message": "Visitors"
+   },
+   "cs_week_title": {
+      "description": "Week row title",
+      "message": "Week:"
+   },
+   "extension_description": {
+      "description": "Description of this extension",
+      "message": "Fast access to statistics and rating of opened site"
+   },
+   "extension_title": {
+      "description": "Title of this extension",
+      "message": "LiveInternet site statistics"
+   },
+   "help_yandex_auth_desc": {
+      "description": "Description for page about Yandex authorization",
+      "message": "\u003Cp\u003ETo work with SEO-tools often require the analysis of search engine Yandex. For this service we use Yandex.XML, which gives everyone the opportunity to make from 10 to 1000 queries per day.\u003C/p\u003E\u003Cp\u003ETo use the service Yandex.XML enough to be a registered user of Yandex. For this \u003Ca href=\"http://passport.yandex.ru/passport?mode=auth\" target=\"_blank\"\u003Elog in\u003C/a\u003E or \u003Ca href=\"http://passport.yandex.ru/passport?mode=register\" target=\"_blank\"\u003Eregister\u003C/a\u003E. After the authorization on the site Yandex your account will be used automatically.\u003C/p\u003E"
+   },
+   "help_yandex_auth_title": {
+      "description": "Title for page about Yandex authorization",
+      "message": "Yandex authorization"
+   },
+   "help_yandex_confirm_desc": {
+      "description": "Description for page about Yandex confirm phone number",
+      "message": "\u003Cp\u003ETo work with SEO-tools often require the analysis of search engine Yandex. For this service we use Yandex.XML, which gives everyone the opportunity to make up to 1000 queries per day.\u003C/p\u003E\u003Cp\u003ETo use the service Yandex.XML enough to be a registered user of Yandex. For this \u003Ca href=\"http://passport.yandex.ru/passport?mode=auth\" target=\"_blank\"\u003Elog in\u003C/a\u003E or \u003Ca href=\"http://passport.yandex.ru/passport?mode=register\" target=\"_blank\"\u003Eregister\u003C/a\u003E.\u003C/p\u003E\u003Cp\u003ETo increase the query limit per day is required before \u003Ca href=\"http://phone-passport.yandex.ru/phones\" target=\"_blank\"\u003Ea confirmation phone number\u003C/a\u003E in Yandex. After this procedure, the query limit is increased to 1000.\u003C/p\u003E"
+   },
+   "help_yandex_confirm_title": {
+      "description": "Title for page about Yandex confirm phone number",
+      "message": "Yandex confirm phone number"
+   },
+   "help_yandex_lic_desc": {
+      "description": "Description for page about Yandex license",
+      "message": "\u003Cp\u003ETo work with SEO-tools often require the analysis of search engine Yandex. For this service we use Yandex.XML, which gives everyone the opportunity to make up to 1000 queries per day.\u003C/p\u003E\u003Cp\u003ETo use the service Yandex.XML enough to be a registered user of Yandex and \u003Ca href=\"http://xml.yandex.ru/licence.xml\" target=\"_blank\"\u003Eaccept the license agreement Yandex.XML\u003C/a\u003E. After accepting the license agreement you can use a fully featured SEO tools.\u003C/p\u003E"
+   },
+   "help_yandex_lic_title": {
+      "description": "Title for page about Yandex license",
+      "message": "Yandex license"
+   },
+   "history_form_save": {
+      "description": "Save button title",
+      "message": "Save"
+   },
+   "history_header": {
+      "description": "Your saved queries header",
+      "message": "Saved queries"
+   },
+   "history_item_delete": {
+      "description": "Tooltip for delete query image",
+      "message": "Delete query"
+   },
+   "history_item_notitle": {
+      "description": "Warning for empty query label",
+      "message": "Please, enter query label"
+   },
+   "history_item_overwrite": {
+      "description": "Warning for overwriting record",
+      "message": "Are you sure to overwrite query record ?"
+   },
+   "history_link_all": {
+      "description": "Title of all history link",
+      "message": "View all history..."
+   },
+   "history_log_header": {
+      "description": "Your history queries header",
+      "message": "History of queries"
+   },
+   "history_status_deleting": {
+      "description": "Status for deleting history",
+      "message": "Deleting..."
+   },
+   "history_status_error": {
+      "description": "Status for error operation",
+      "message": "Error!"
+   },
+   "history_status_opening": {
+      "description": "Status for opening history",
+      "message": "Opening..."
+   },
+   "history_status_saving": {
+      "description": "Status for save history",
+      "message": "Saving..."
+   },
+   "history_title_label": {
+      "description": "Label for query to save",
+      "message": "Query label:"
+   },
+   "op_autorating_description": {
+      "description": "Description for checkbox of Automaticaly display site rating",
+      "message": "Rating can be displayed automaticaly on the button after page load."
+   },
+   "op_autorating_title": {
+      "description": "Title for checkbox of Automaticaly display site rating",
+      "message": "Automaticaly display site rating"
+   },
+   "op_cancel_button": {
+      "description": "Title for cancel button",
+      "message": "Cancel"
+   },
+   "op_chache_interval_180000": {
+      "description": "Chache interval",
+      "message": "3 minutes"
+   },
+   "op_chache_interval_30000": {
+      "description": "Chache interval",
+      "message": "30 seconds"
+   },
+   "op_chache_interval_300000": {
+      "description": "Chache interval",
+      "message": "5 minutes"
+   },
+   "op_chache_interval_60000": {
+      "description": "Chache interval",
+      "message": "1 minute"
+   },
+   "op_chache_interval_600000": {
+      "description": "Chache interval",
+      "message": "10 minutes"
+   },
+   "op_chache_title": {
+      "description": "Title for combobox of statistics cache interval",
+      "message": "Chache site statistics for"
+   },
+   "op_page_header": {
+      "description": "Option page header",
+      "message": "LiveInterner site statistics"
+   },
+   "op_page_settings": {
+      "description": "Settings subheader",
+      "message": "Settings"
+   },
+   "op_page_title": {
+      "description": "Option page title",
+      "message": "LiveInternet site statistics display settings"
+   },
+   "op_save_button": {
+      "description": "Title for save button",
+      "message": "Save"
+   },
+   "pll_cat_1": {
+      "description": "Category of statistics",
+      "message": "all sites"
+   },
+   "pll_cat_2": {
+      "description": "Category of statistics",
+      "message": "second-level domains"
+   },
+   "pll_cat_4": {
+      "description": "Category of statistics",
+      "message": "google plus profiles"
+   },
+   "seo_account_auth_error": {
+      "description": "Yandex authorization error",
+      "message": "Yandex authorization error"
+   },
+   "seo_account_auth_licensy": {
+      "description": "Yandex licensy acception error",
+      "message": "Yandex \u003Ca href=\"http://xml.yandex.ru/licence.xml\" target=\"_blank\"\u003Elicensy\u003C/a\u003E not accepted [\u003Ca href=\"$HELP_URL$\" title=\"Why take a license agreement?\"\u003E?\u003C/a\u003E]",
+      "placeholders": {
+         "help_url": {
+            "content": "$1",
+            "example": "http://ya.ru/"
+         }
+      }
+   },
+   "seo_account_auth_no": {
+      "description": "Not autorized in yandex status",
+      "message": "You \u003Ca href=\"http://passport.yandex.ru/passport?mode=passport\" target=\"_blank\"\u003Enot authorized\u003C/a\u003E in Yandex [\u003Ca href=\"$HELP_URL$\" title=\"Why do I need to log in?\"\u003E?\u003C/a\u003E]",
+      "placeholders": {
+         "help_url": {
+            "content": "$1",
+            "example": "http://ya.ru/"
+         }
+      }
+   },
+   "seo_account_confirmed_queries": {
+      "description": "Used queries count message",
+      "message": "Used \u003Cspan\u003E$USED$\u003C/span\u003E queries of \u003Cspan\u003E$TOTAL$\u003C/span\u003E",
+      "placeholders": {
+         "total": {
+            "content": "$2",
+            "example": "1000"
+         },
+         "used": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "seo_account_logged_in": {
+      "description": "Account link message",
+      "message": "Logged in Yandex as $USER$",
+      "placeholders": {
+         "user": {
+            "content": "$1",
+            "example": "Codeblight"
+         }
+      }
+   },
+   "seo_account_queries": {
+      "description": "Used queries count message for unconfirmed phones",
+      "message": "Used \u003Cspan\u003E$USED$\u003C/span\u003E queries of \u003Cspan\u003E$TOTAL$\u003C/span\u003E, \u003Ca href=\"http://phone-passport.yandex.ru\" target=\"_blank\"\u003EConfirm phone number\u003C/a\u003E[\u003Ca href=\"$HELP_URL$\" title=\"Why validate phone number?\"\u003E?\u003C/a\u003E]",
+      "placeholders": {
+         "help_url": {
+            "content": "$3",
+            "example": "http://ya.ru/"
+         },
+         "total": {
+            "content": "$2",
+            "example": "1000"
+         },
+         "used": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "seo_account_region": {
+      "description": "Message for region link",
+      "message": "Selected region: $REGION$",
+      "placeholders": {
+         "region": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "seo_antiplagiat_header": {
+      "description": "SEO antiplagiat subheader",
+      "message": "Tool - Antiplagiat"
+   },
+   "seo_antiplagiat_log_process": {
+      "description": "Process queries message",
+      "message": "Process results"
+   },
+   "seo_antiplagiat_menu": {
+      "description": "Antiplagiat menu title",
+      "message": "Antiplagiat"
+   },
+   "seo_antiplagiat_queries": {
+      "description": "SEO text field title",
+      "message": "Text:"
+   },
+   "seo_antiplagiat_start": {
+      "description": "SEO start button title",
+      "message": "Check it"
+   },
+   "seo_copywriter_menu": {
+      "description": "Assistant copywriter menu title",
+      "message": "Assistant copywriter"
+   },
+   "seo_feature": {
+      "description": "SEO features button title",
+      "message": "SEO features"
+   },
+   "seo_label_back": {
+      "description": "SEO back button title",
+      "message": "Back"
+   },
+   "seo_label_log": {
+      "description": "SEO log frame text",
+      "message": "Log:"
+   },
+   "seo_label_process": {
+      "description": "SEO count field text",
+      "message": "Process for:"
+   },
+   "seo_label_progress": {
+      "description": "SEO progress text",
+      "message": "Progress:"
+   },
+   "seo_label_provider": {
+      "description": "SEO provider title",
+      "message": "Search system:"
+   },
+   "seo_label_query": {
+      "description": "SEO query field text",
+      "message": "Query:"
+   },
+   "seo_label_start": {
+      "description": "SEO start button title",
+      "message": "Submit"
+   },
+   "seo_label_stop": {
+      "description": "SEO stop button title",
+      "message": "Stop"
+   },
+   "seo_login_txt_apply_ip": {
+      "description": "Apply your ip text",
+      "message": "Apply your IP changes in Yandex.XML"
+   },
+   "seo_login_txt_apply_ip_error": {
+      "description": "Apply ip error text",
+      "message": "Error configuring ip address in Yandex.XML"
+   },
+   "seo_login_txt_apply_ip_wait": {
+      "description": "Wait for IP applies",
+      "message": "Wait for 2 minutes, while Yandex.XML applies your IP"
+   },
+   "seo_login_txt_checking": {
+      "description": "Checking auth text",
+      "message": "Checking Yandex autorization"
+   },
+   "seo_login_txt_extension_error": {
+      "description": "Error!!! Contact with developer",
+      "message": "Extension error, please contact with developer"
+   },
+   "seo_login_txt_reset_ip": {
+      "description": "Reset your ip text",
+      "message": "Reset your IP address in Yandex.XML"
+   },
+   "seo_login_txt_reset_ip_error": {
+      "description": "Reset ip error text",
+      "message": "Error re-configuring ip address in Yandex.XML"
+   },
+   "seo_need_auth": {
+      "description": "Login warning message",
+      "message": "To use the SEO tools you need \u003Ca href=\"$AUTH_URL$\" target=\"_blank\"\u003Elog in\u003C/a\u003E on site.",
+      "placeholders": {
+         "auth_url": {
+            "content": "$1",
+            "example": "http://tseo.li.ru/login.php"
+         }
+      }
+   },
+   "seo_page_change_password": {
+      "description": "SEO subheader for password change",
+      "message": "Password change"
+   },
+   "seo_page_change_password_confirm": {
+      "description": "Confirm code textbox title",
+      "message": "Confirm code:"
+   },
+   "seo_page_change_password_new": {
+      "description": "New password textbox title",
+      "message": "New password:"
+   },
+   "seo_page_change_password_submit": {
+      "description": "Change password button title",
+      "message": "Change my password"
+   },
+   "seo_page_change_password_try": {
+      "description": "Message about changing password",
+      "message": "Password is changing..."
+   },
+   "seo_page_forgot_password_button": {
+      "description": "Go to change password button title",
+      "message": "I forgot my password"
+   },
+   "seo_page_forgot_password_email": {
+      "description": "Email for confirm code",
+      "message": "EMail:"
+   },
+   "seo_page_forgot_password_submit": {
+      "description": "Check email button title",
+      "message": "I want change my password"
+   },
+   "seo_page_forgot_verify_email": {
+      "description": "Message about checking email",
+      "message": "Checking entered EMail..."
+   },
+   "seo_page_header": {
+      "description": "SEO page header",
+      "message": "SEO-tools of LiveInternet.ru"
+   },
+   "seo_page_login": {
+      "description": "SEO subheader for authorization",
+      "message": "Tools authorization"
+   },
+   "seo_page_login_back": {
+      "description": "Try again button message",
+      "message": "Try again"
+   },
+   "seo_page_login_back2form": {
+      "description": "Back button title",
+      "message": "Back to login"
+   },
+   "seo_page_login_confirm_back": {
+      "description": "Again button title",
+      "message": "Try again"
+   },
+   "seo_page_login_confirm_button": {
+      "description": "Confirm button title",
+      "message": "Confirm"
+   },
+   "seo_page_login_confirm_code": {
+      "description": "User confirm code",
+      "message": "Confirm code:"
+   },
+   "seo_page_login_confirm_error": {
+      "description": "Login confirmation error message",
+      "message": "Confirmation error"
+   },
+   "seo_page_login_confirm_try": {
+      "description": "Try login confirm message",
+      "message": "Try to confirm..."
+   },
+   "seo_page_login_email": {
+      "description": "User email",
+      "message": "EMail:"
+   },
+   "seo_page_login_error": {
+      "description": "Login error message",
+      "message": "Login error"
+   },
+   "seo_page_login_password": {
+      "description": "User password",
+      "message": "Password:"
+   },
+   "seo_page_login_submit": {
+      "description": "Submit button title",
+      "message": "Login or register"
+   },
+   "seo_page_login_try": {
+      "description": "Try login message",
+      "message": "Try to login..."
+   },
+   "seo_page_seo": {
+      "description": "SEO subheader",
+      "message": "Tool - Assistant copywriter"
+   },
+   "seo_page_title": {
+      "description": "SEO page title",
+      "message": "LiveInternet site statistics display SEO features"
+   },
+   "seo_results_link": {
+      "description": "Link to site results",
+      "message": "View results on stie"
+   },
+   "seo_site_account_logged_in": {
+      "description": "seo.li.ru account title",
+      "message": "Logged in seo.li.ru as $USER$ - [\u003Ca type=\"logout\" href=\"#\"\u003ELogout\u003C/a\u003E]",
+      "placeholders": {
+         "user": {
+            "content": "$1",
+            "example": "Codeblight"
+         }
+      }
+   },
+   "seo_sp_analyser_header": {
+      "description": "SEO site pages analyser subheader",
+      "message": "Tool - Site pages analyser"
+   },
+   "seo_sp_analyser_log_prepeare": {
+      "description": "Start query message",
+      "message": "Analyse root page"
+   },
+   "seo_sp_analyser_log_process": {
+      "description": "Process queries message",
+      "message": "Process results"
+   },
+   "seo_sp_analyser_menu": {
+      "description": "Site pages analyser menu title",
+      "message": "Site pages analyser"
+   },
+   "seo_sp_analyser_start": {
+      "description": "SEO start button title",
+      "message": "Submit"
+   },
+   "seo_sr_analyser_header": {
+      "description": "SEO site range analyser subheader",
+      "message": "Tool - Site range analyser"
+   },
+   "seo_sr_analyser_log_process": {
+      "description": "Process queries message",
+      "message": "Process results"
+   },
+   "seo_sr_analyser_menu": {
+      "description": "Site range analyser menu title",
+      "message": "Site range analyser"
+   },
+   "seo_sr_analyser_queries": {
+      "description": "SEO queries field text",
+      "message": "Queries:"
+   },
+   "seo_sr_analyser_sites": {
+      "description": "SEO sites field text",
+      "message": "Sites:"
+   },
+   "seo_sr_analyser_start": {
+      "description": "SEO start button title",
+      "message": "Submit"
+   },
+   "seo_tool_copywriter_description": {
+      "description": "Description of the Assistant copywriter tool",
+      "message": "\u003Cp\u003EThis plugin is used to calculate the number of key phrases and the recommended amount of promoted pages.\u003C/p\u003E\n\u003Cp\u003EThe window must be entered (with a small letter, without commas, each request with a new page), only those queries that you want to move on a single page of your site.\u003C/p\u003E\n\u003Cimg src=\"images/texterra.png\" id=\"texterra_logo\" /\u003E\n\u003Cp\u003EJoint development of content-agency Texterra and Liveinternet. Content-agency Texterra was writing content for websites since 2007. \u003C/p\u003E\n\u003Cp\u003EAlso write a thank you not spare the Yandex company, used service Yandex.XML.\u003C/p\u003E"
+   },
+   "seo_work_txt_down_gl": {
+      "description": "google is down log message",
+      "message": "Google server is down"
+   },
+   "seo_work_txt_down_tw": {
+      "description": "SEO service is down log message",
+      "message": "SEO service server is down"
+   },
+   "seo_work_txt_down_ya": {
+      "description": "yandex is down log message",
+      "message": "Yandex server is down"
+   },
+   "seo_work_txt_error_gl": {
+      "description": "Query error log message",
+      "message": "Google response is empty for $QUERY$",
+      "placeholders": {
+         "query": {
+            "content": "$1",
+            "example": "query"
+         }
+      }
+   },
+   "seo_work_txt_error_tw": {
+      "description": "SEO service error log message",
+      "message": "SEO servise has error"
+   },
+   "seo_work_txt_error_ya": {
+      "description": "Query error log message",
+      "message": "Yandex response is empty for $QUERY$",
+      "placeholders": {
+         "query": {
+            "content": "$1",
+            "example": "query"
+         }
+      }
+   },
+   "seo_work_txt_invalid_gl": {
+      "description": "Invaid google response log message",
+      "message": "Google response is invalid"
+   },
+   "seo_work_txt_invalid_query": {
+      "description": "Invalid query log message",
+      "message": "Your query is invalid"
+   },
+   "seo_work_txt_invalid_tw": {
+      "description": "Invaid SEO service response log message",
+      "message": "SEO service server returned invalid response"
+   },
+   "seo_work_txt_invalid_ya": {
+      "description": "Invaid yandex response log message",
+      "message": "Yandex response is invalid"
+   },
+   "seo_work_txt_prepare_ya": {
+      "description": "Prepare yandex queries log message",
+      "message": "Prepare yandex queries"
+   },
+   "seo_work_txt_process_ya": {
+      "description": "Process Yandex requests log message",
+      "message": "Process Yandex requests"
+   },
+   "seo_work_txt_user_stop": {
+      "description": "Stopped by user log message",
+      "message": "Stopped by user"
+   },
+   "seo_yandex_not_authorized": {
+      "description": "Warning yandex message",
+      "message": "You not authorized in Yandex, please \u003Ca href=\"http://passport.yandex.ru/passport?mode=passport\" target=\"_blank\"\u003Elogin\u003C/a\u003E"
+   },
+   "this_translation": {
+      "description": "This translation alpha2 code",
+      "message": "en"
+   },
+   "ts_all_panel_statistics": {
+      "description": "details link",
+      "message": "See more details"
+   },
+   "ts_auditory_title": {
+      "description": "Proportion of visitors row",
+      "message": "Proportion of visitors:"
+   },
+   "ts_demography_title": {
+      "description": "Demography row",
+      "message": "Demography:"
+   },
+   "ts_dm_ifemale": {
+      "description": "Females gender tooltip",
+      "message": "Females"
+   },
+   "ts_dm_imale": {
+      "description": "Males gender tooltip",
+      "message": "Males"
+   },
+   "ts_kernel_title": {
+      "description": "Proportion of kernel row",
+      "message": "Proportion of kernel:"
+   },
+   "ts_loading": {
+      "description": "Status for loading panel statistics",
+      "message": "Loading panel statistics for $SITE$...",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "ts_loading_error": {
+      "description": "Error message for loading panel statistics",
+      "message": "Error loading panel statistics for $SITE$",
+      "placeholders": {
+         "site": {
+            "content": "$1",
+            "example": "www.yoursite.com"
+         }
+      }
+   },
+   "ts_place_in_rating": {
+      "description": "Place with link to category",
+      "message": "place of \u003Ca href=\"$URL$\" target=\"_blank\"\u003E$CATEGORY$\u003C/a\u003E in rating",
+      "placeholders": {
+         "category": {
+            "content": "$2",
+            "example": "total liveinternet"
+         },
+         "url": {
+            "content": "$1",
+            "example": "http://toolbar.li.ru/cgi-bin/tbr?m=6&r=97"
+         }
+      }
+   },
+   "ts_search_title": {
+      "description": "Proportion of search traffic row",
+      "message": "Proportion of search traffic:"
+   },
+   "ts_unregistred": {
+      "description": "Error message for unregistred sites",
+      "message": "LiveInternet have no panel statistics for this site or blog"
+   },
+   "unsupported_page": {
+      "description": "Error message for unsupported URI",
+      "message": "Statistics is not available for this page"
+   }
+}

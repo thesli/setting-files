@@ -1,0 +1,1 @@
+define(["background/model/video","background/model/playlistItem"],function(e,t){"use strict";return{buildVideo:function(){return new e({id:"M7lc1UVf-VE",title:"YouTube Developers Live: Embedded Web Player Customization",author:"Google Developers",duration:"1344"})},buildPlaylistItem:function(){var e=this.buildVideo();return new t({video:e,title:e.get("title")})}}});

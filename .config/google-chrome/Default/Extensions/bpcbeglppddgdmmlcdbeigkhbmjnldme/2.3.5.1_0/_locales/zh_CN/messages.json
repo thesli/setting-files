@@ -1,0 +1,65 @@
+{
+   "add": {
+      "message": "\u6DFB\u52A0"
+   },
+   "autofinish": {
+      "message": "\u5B57\u6570\u8865\u4E01: \u4E0D\u8DB320\u5B57\u65F6\u81EA\u52A8\u8865\u5145\u81F320\u5B57 (\u6D4B\u8BD5\u7248)"
+   },
+   "autofinish_ok": {
+      "message": "\u5B57\u7B26\u8865\u5145\u5B8C\u6210\uFF0C\u8BF7\u91CD\u65B0\u63D0\u4EA4\uFF01"
+   },
+   "close": {
+      "message": "\u6536\u8D77"
+   },
+   "delete": {
+      "message": "\u5220\u9664"
+   },
+   "description": {
+      "message": "\u53BB\u9664 Discuz! \u8BBA\u575B\u4E2D\u7684\u5E7F\u544A\uFF0C\u652F\u6301Discuz! \u548C Discuz!X."
+   },
+   "killdzad": {
+      "message": "\u6E05\u9664 Discuz! \u7684\u5E7F\u544A"
+   },
+   "killdzxad": {
+      "message": "\u6E05\u9664 Discuz!X \u7684\u5E7F\u544A"
+   },
+   "killsignad": {
+      "message": "\u6E05\u9664\u8BBA\u575B\u7B7E\u540D\u4E2D\u7684\u5E7F\u544A"
+   },
+   "killwidget": {
+      "message": "\u6E05\u9664\u7F51\u9875\u5185\u5E38\u89C1\u6F02\u6D6E\u7269 (\u6D4B\u8BD5\u7248)"
+   },
+   "name": {
+      "message": "Discuz! \u8BBA\u575B\u52A9\u624B"
+   },
+   "noflashtitle": {
+      "message": "\u6E05\u9664 Discuz!X \u7684\u6807\u9898\u95EA\u70C1\u529F\u80FD (\u6D4B\u8BD5\u7248)"
+   },
+   "open": {
+      "message": "\u5C55\u5F00"
+   },
+   "reload": {
+      "message": "\u64A4\u9500\u66F4\u6539"
+   },
+   "reload_ok": {
+      "message": "\u6210\u529F\u6062\u590D\u5230\u4E0A\u6B21\u4FDD\u5B58\u65F6\u7684\u72B6\u6001"
+   },
+   "restore": {
+      "message": "\u6062\u590D\u9ED8\u8BA4"
+   },
+   "restore_ok": {
+      "message": "\u6210\u529F\u6062\u590D\u5230\u9ED8\u8BA4\u8BBE\u7F6E"
+   },
+   "save": {
+      "message": "\u786E\u5B9A\u4FDD\u5B58"
+   },
+   "save_ok": {
+      "message": "\u4FDD\u5B58\u6210\u529F\uFF01\u6253\u5F00\u65B0\u7A97\u53E3\u5373\u751F\u6548"
+   },
+   "setting": {
+      "message": "Discuz! \u8BBA\u575B\u52A9\u624B \u8BBE\u7F6E"
+   },
+   "whitelist": {
+      "message": "\u767D\u540D\u5355"
+   }
+}

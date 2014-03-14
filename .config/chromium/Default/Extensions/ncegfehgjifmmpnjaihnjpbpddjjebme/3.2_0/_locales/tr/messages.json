@@ -1,0 +1,143 @@
+{
+   "chrome_extension_description": {
+      "message": "S\u00FCr\u00FCkle kullan aray\u00FCz\u00FCn\u00FC etkinle\u015Ftir."
+   },
+   "chrome_extension_name": {
+      "message": "chromeTouch"
+   },
+   "default": {
+      "message": "varsay\u0131lan"
+   },
+   "on": {
+      "message": "A\u00E7\u0131k"
+   },
+   "s_basic": {
+      "message": "Temel"
+   },
+   "s_bounceeffect": {
+      "message": "Z\u0131plama Efekti"
+   },
+   "s_bounceeffect_note": {
+      "message": "Bu efekt sayfan\u0131n en \u00FCst\u00FCne veya en alt\u0131na geldi\u011Finde sektirir."
+   },
+   "s_dragdirection": {
+      "message": "S\u00FCr\u00FCkleme Y\u00F6n\u00FC"
+   },
+   "s_dragdirection_normal": {
+      "message": "Normal"
+   },
+   "s_dragdirection_reverse": {
+      "message": "Z\u0131t"
+   },
+   "s_draggrideparam": {
+      "message": "S\u00FCr\u00FCkleme ve Kayma De\u011Ferleri"
+   },
+   "s_dragspeed": {
+      "message": "S\u00FCr\u00FCkleme H\u0131z\u0131"
+   },
+   "s_dragspeed_fast": {
+      "message": "H\u0131zl\u0131"
+   },
+   "s_dragspeed_note": {
+      "message": "Ekran kaymas\u0131n\u0131 fare s\u00FCr\u00FCkleme h\u0131z\u0131ndan daha h\u0131zl\u0131 yada daha yava\u015F yap\u0131land\u0131rabilirsiniz."
+   },
+   "s_dragspeed_slow": {
+      "message": "Yava\u015F"
+   },
+   "s_easyswitch": {
+      "message": "Kolayca De\u011Fi\u015Ftiri kullan"
+   },
+   "s_easyswitch_note": {
+      "message": "K\u0131sa yolu tu\u015Flay\u0131nca,\u003Cbr\u003EDokunma bi\u00E7imi 'Auto' -&gt; 'Full' -&gt; 'Off' -&gt; .. se\u00E7eneklerinden biri olur."
+   },
+   "s_glidedistance": {
+      "message": "Kayma Mesafesi"
+   },
+   "s_glidedistance_long": {
+      "message": "Uzun"
+   },
+   "s_glidedistance_note": {
+      "message": "S\u00FCr\u00FCklenme h\u0131z\u0131na ba\u011Fl\u0131 olarak ekran\u0131 s\u00FCr\u00FCkledikten sonra kayd\u0131r\u0131r. Kayd\u0131rma katsay\u0131s\u0131 uzunlu\u011Fu."
+   },
+   "s_glidedistance_short": {
+      "message": "K\u0131sa"
+   },
+   "s_glidefactor": {
+      "message": "Kayma Katsay\u0131s\u0131"
+   },
+   "s_glidefactor_fastend": {
+      "message": "H\u0131zl\u0131ca dur"
+   },
+   "s_glidefactor_neverstop": {
+      "message": "Hi\u00E7 durma"
+   },
+   "s_glidefactor_note": {
+      "message": "Kayma h\u0131z\u0131 duruncaya kadar yava\u015F yava\u015F azal\u0131r. Fren Kayma Katsay\u0131s\u0131."
+   },
+   "s_glidefactor_slowend": {
+      "message": "Yava\u015F\u00E7a dur"
+   },
+   "s_hideicon": {
+      "message": "simge g\u00F6sterme"
+   },
+   "s_hotkey": {
+      "message": "K\u0131sa Yollar"
+   },
+   "s_language": {
+      "message": "Dil"
+   },
+   "s_mousebutton": {
+      "message": "Fare tu\u015Funu kullan"
+   },
+   "s_mousebutton_left": {
+      "message": "Sol Tu\u015F"
+   },
+   "s_mousebutton_middle": {
+      "message": "Orta Tu\u015F"
+   },
+   "s_mousebutton_right": {
+      "message": "Sa\u011F Tu\u015F"
+   },
+   "s_mousegesture": {
+      "message": "Fare imleci"
+   },
+   "s_mousegesture_note": {
+      "message": "Geri gitmek i\u00E7in sayfay\u0131 sola, ileri gitmek i\u00E7in sa\u011Fa s\u00FCr\u00FCkle."
+   },
+   "s_mousegesture_reversebackforward": {
+      "message": "ileri/geri sayfa s\u00FCr\u00FCkleme y\u00F6nlerini de\u011Fi\u015Ftir"
+   },
+   "s_noscrolllbars": {
+      "message": "Sayfa kayd\u0131rma tu\u015Fu yok"
+   },
+   "s_noscrolllbars_keyboardoption": {
+      "message": "Klavye tu\u015Flar\u0131n\u0131 etkinle\u015Ftir"
+   },
+   "s_noscrolllbars_mousewheeloption": {
+      "message": "Fare tekerle\u011Fini etkinle\u015Ftir"
+   },
+   "s_noscrolllbars_note": {
+      "message": "Bu bi\u00E7imle ekran\u0131 \u00E7ok daha rahat kullanabilirsiniz."
+   },
+   "s_otherfeatures": {
+      "message": "Di\u011Fer \u00D6zellikler"
+   },
+   "s_setting": {
+      "message": "chromeTouch Ayarlar\u0131"
+   },
+   "s_touchmode": {
+      "message": "Dokunma Bi\u00E7imi"
+   },
+   "s_touchmode_auto": {
+      "message": "Otomatik(yaz\u0131larda s\u00FCr\u00FCkleme)"
+   },
+   "s_touchmode_full": {
+      "message": "Tam(herzaman s\u00FCr\u00FCkle)"
+   },
+   "s_touchmode_off": {
+      "message": "Kapal\u0131(s\u00FCr\u00FCkleme)"
+   },
+   "s_update": {
+      "message": "G\u00FCncelle"
+   }
+}

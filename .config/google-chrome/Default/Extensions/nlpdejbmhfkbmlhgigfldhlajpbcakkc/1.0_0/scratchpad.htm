@@ -1,0 +1,128 @@
+<html>
+<head>
+	<style>
+		html, body, table, textarea, iframe{padding:0px;margin:0px;border:0px;}
+		#txtInput{
+			padding:.8em .8em;
+			width:100%;
+			height:100%;
+			border-right:solid 1px #000;
+			box-shadow:inset .1em .1em .3em #000;
+			-mox-box-shadow:inset .1em .1em .3em #000;
+			-webkit-box-shadow:inset .1em .1em .3em #000;
+			background-color:#ffe;
+			outline:0px;
+		}
+		#txtInput:focus{outline:0px;}
+		#ifOutput{
+			width:100%;
+			height:100%;
+		}
+	</style>
+	<script type="text/javascript">
+	function setSelectionRange(input, selectionStart, selectionEnd) {
+	  if (input.setSelectionRange) {
+		input.focus();
+		input.setSelectionRange(selectionStart, selectionEnd);
+	  }
+	  else if (input.createTextRange) {
+		var range = input.createTextRange();
+		range.collapse(true);
+		range.moveEnd('character', selectionEnd);
+		range.moveStart('character', selectionStart);
+		range.select();
+	  }
+	}
+
+	function replaceSelection (input, replaceString) {
+		if (input.setSelectionRange) {
+			var selectionStart = input.selectionStart;
+			var selectionEnd = input.selectionEnd;
+			input.value = input.value.substring(0, selectionStart)+ replaceString + input.value.substring(selectionEnd);
+		
+			if (selectionStart != selectionEnd){ 
+				setSelectionRange(input, selectionStart, selectionStart + 	replaceString.length);
+			}else{
+				setSelectionRange(input, selectionStart + replaceString.length, selectionStart + replaceString.length);
+			}
+
+		}else if (document.selection) {
+			var range = document.selection.createRange();
+
+			if (range.parentElement() == input) {
+				var isCollapsed = range.text == '';
+				range.text = replaceString;
+
+				 if (!isCollapsed)  {
+					range.moveStart('character', -replaceString.length);
+					range.select();
+				}
+			}
+		}
+	}
+
+	// We are going to catch the TAB key so that we can use it, Hooray!
+	function catchTab(item,e){
+		if(navigator.userAgent.match("Gecko")){
+			c=e.which;
+		}else{
+			c=e.keyCode;
+		}
+		if(c==9){
+			replaceSelection(item,String.fromCharCode(9));
+			setTimeout("document.getElementById('"+item.id+"').focus();",0);	
+			return false;
+		}
+				
+	}
+	</script>
+	<script>
+		var _HTMLStorageKey = '_TheHTMLAndCSSScratchPad';
+	
+		function supports_local_storage() {
+			try {
+				return 'localStorage' in window && window['localStorage'] !== null;
+			} catch(e){
+				return false;
+			}
+		}
+	
+		window.onload = function() {
+			if(supports_local_storage() && localStorage.getItem(_HTMLStorageKey) != null) {
+				document.getElementById('txtInput').value = localStorage[_HTMLStorageKey];
+				ifOutput.document.body.innerHTML = localStorage[_HTMLStorageKey];
+			} else {
+				var defaultText = '<style>\ndiv {\n	color:#080;\n	font-family:georgia;\n	font-weight:bold;\n	font-size:1.8em;\n	text-shadow:0em 0em .3em #aaa;\n	margin:2em;\n	padding:.5em;\n	display:inline-block;\n	border:solid 1px #aaa;\n	border-radius:.5em;\n	box-shadow:0em 0em .2em #aaa;\n}\n</style>\n\n<div>Hello World!</div>';
+				document.getElementById('txtInput').value = defaultText;
+				ifOutput.document.body.innerHTML = defaultText;
+			}
+		}
+	
+		function update() {
+			var input = document.getElementById('txtInput').value;
+			if(supports_local_storage()) {
+				try {
+					chrome.windows.getCurrent(function(win){
+						if(!win.incognito)
+							localStorage.setItem(_HTMLStorageKey, input);
+					});
+				}
+				catch(ex) {}
+			}
+			ifOutput.document.body.innerHTML = input;
+		}
+	</script>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 style='width:100%;height:100%;height:20em;'>
+	<tr>
+		<td style='min-width:24em;width:33%;padding:0em .8em;'>
+			<textarea id="txtInput" onkeyup="update();" onkeydown="return catchTab(this,event)"></textarea>		
+		</td>
+		<td style='min-width:24em;'>
+			<iframe id="ifOutput"></iframe>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Aflați mai multe"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Ajutați-ne, raportând problema."
+   },
+   "app_nacl_crash_report": {
+      "message": "Raportați o problemă..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Hopa. A apărut o eroare neașteptată."
+   },
+   "app_nacl_error_msg": {
+      "message": "A apărut o problemă la încărcarea aplicației."
+   },
+   "app_nacl_error_title": {
+      "message": "Fișierul nu poate fi deschis."
+   },
+   "application_description": {
+      "message": "Editare de documente"
+   },
+   "file_loading_spinner_label": {
+      "message": "Se încarcă"
+   },
+   "file_not_found_msg": {
+      "message": "Fișierul solicitat a fost mutat."
+   },
+   "file_not_found_title": {
+      "message": "Fișierul nu a fost găsit."
+   }
+}

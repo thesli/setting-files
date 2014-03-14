@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "PRZESTARZA\u0141E. Zamiast tego u\u017Cyj Narz\u0119dzi Google do wprowadzania tekstu (znajdziesz je tutaj: http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "PRZESTARZA\u0141E: Klawiatura wirtualna (od Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Opcje rozszerzenia Virtual Keyboard"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Wybierz uk\u0142ad klawiatury po lewej stronie:"
+   },
+   "vkbd_save_options": {
+      "message": "Zapisz"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Poka\u017C/ukryj klawiatur\u0119"
+   }
+}

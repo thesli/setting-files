@@ -1,0 +1,1064 @@
+/* Basic settings */
+body {
+    font-family:Verdana, Arial, Tahoma;
+    overflow-x:hidden;
+    overflow-y:auto;
+    background: -webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.45, #EDDE98), to(#B8875E));
+}
+
+.colorTheme0 {
+    background:-webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.45, #EDDE98), to(#B8875E)) !important;
+}
+
+.colorTheme1{
+    background:-webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.45, #B8875E), to(#8C5400)) !important;
+}
+
+.colorTheme2{
+    background:-webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.75, #ADC1EC), to(#eee)) !important;
+}
+
+.colorTheme3{
+    background:-webkit-gradient(linear, left top, right bottom, from(#e6e6e6), color-stop(0.75, #999), to(#777)) !important;
+}
+
+.colorTheme4{
+    background:-webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.75, #A0D9A4), to(#ccc)) !important;
+}
+
+.colorThemeCustom{
+}
+
+.fontColor1{
+    /*white with shadow, default settings*/
+    color:#FFFFFF;
+    text-shadow: 1px 1px 5px #000;
+    font-size:14px;
+    font-weight:bold;
+    font-family:Verdana, Arial, Tahoma;
+
+}
+
+.fontColor2{
+    /*black*/
+    color: #000000;
+    text-shadow: 0px 0px 0rx #000;
+    font-size:14px;
+    font-weight:bold;
+    font-family:Verdana, Arial, Tahoma;
+}
+
+#base {
+    width:90%;
+    min-width:800px;
+    max-width:1280px;
+    height:85%;
+    min-height:550px;
+    max-height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    /*background:#008888;*/
+}
+#innerBase {
+    position:relative;
+    width:100%;
+    height:100%;
+    min-height:550px;
+    max-height:800px;
+}
+#variableArea {
+    position:absolute;
+    top:0px;
+    left:450px;
+    width:65%;
+    height:100%;
+    min-height:550px;
+    max-height:800px;
+}
+
+.tabSelector{
+    cursor: pointer;
+    position:absolute;
+    padding:2px 4px 0px 4px;
+    bottom:89%;    
+    height: 40px;
+    
+    
+    background: rgba(255,255,255,1.0);
+   
+
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+
+    border: 3px solid white;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+
+    font-family: Handwritten, tahoma, arial, serif;
+
+}
+
+#bookmarkSelector {    
+    right: 210px;
+    width: 120px;
+}
+
+#appSelector {
+    right:125px;
+    width: 70px;background: rgba(255,255,255,0.1);  
+}
+
+#topSelector{
+    right:10px;    
+    width:100px;    
+    background: rgba(255,255,255,0.1);    
+}
+
+#fixedArea {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:400px;
+    height:100%;
+    min-height:550px;
+    max-height:800px;
+}
+#minibarArea {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:65%;
+
+}
+
+#background-imgBlock {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+#background-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div::-webkit-scrollbar {
+    height: 10px;
+    width: 8px;
+    padding:2px;
+    -webkit-border-radius: 1ex;
+}
+
+div::-webkit-scrollbar-thumb {
+    border-top: 1px solid #fff;
+    background: #ccc -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(240, 240, 240)), to(rgb(210, 210, 210)));
+    -webkit-border-radius: 1ex;
+}
+
+/*general settings*/
+
+.box {
+}
+
+.list {
+    overflow-y: auto !important;
+}
+
+.item {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.favicon{
+}
+
+/* option */
+
+#toggleOptionsBtn {
+    position:absolute;
+    left:0px;
+    bottom:-35px;
+    padding: 4px 8px;
+    font: 16px Handwritten, Tahoma, Arial, sans-serif;
+    opacity: 0.2;
+    cursor:pointer;
+}
+#toggleOptionsBtn:hover {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 20px;
+    opacity: 1;
+}
+
+#advancedOptionsBtn {
+    position:absolute;
+    left:110px;
+    bottom:-35px;
+    padding: 4px 8px;
+    font: 16px Handwritten, Tahoma, Arial, sans-serif;
+    opacity: 0.2;
+    cursor:pointer;
+
+}
+#advancedOptionsBtn:hover {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 20px;
+    opacity: 1;
+}
+
+#optionsCloseBtn {
+    position:absolute;
+    top: 110px;
+    right:20px;
+    width:14px;
+    height:14px;
+    padding:5px;
+    margin:-5px;
+    font: 16px Handwritten, Tahoma, Arial, sans-serif;
+    text-align: center;
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+#optionsCloseBtn:hover {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 10px;
+    opacity: 1;
+}
+
+.optionsTips {
+    margin-top: 10px;
+    font: 12px Arial, sans-serif;
+    color:#555;
+}
+.colorbutton {
+    float:left;
+    width:12px;
+    height:12px;
+    margin:2px;
+    cursor:pointer;
+    border:1px solid #fff;
+    z-index:9000;
+    cursor: pointer;
+}
+
+#optionsArea{
+    position:absolute;
+    display:none;
+    top:-810px;
+    left: -10px;
+    padding-top:100px;
+    width:105%;
+    height:105%;
+    background: -webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(0.45, #ccc), to(#aaa)) !important;
+    border:1px solid #aaa;
+    z-index:10000;
+    font: 14px Tahoma, Arial, sans-serif;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+#backgroundColorOptions {
+    position: relative;
+    padding:10px;
+    margin: 10px;
+    -webkit-border-radius: 5px;
+}
+
+#backgroundColorSelection {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#backgroundColorCustom {
+    position: relative;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#fontColorOptions {
+    position:relative;
+    padding:10px;
+    margin: 10px;
+}
+
+
+#fontColorSelection {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+#wallPaperOptions {
+    position:relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+#wallPaperThemeSelection {
+    position: relative;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#wallPaperThemeCustom {
+    position: relative;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.leftButton {
+    width:25px;
+    height:25px;
+    background-image:url(/img/left.png);
+    cursor:pointer;
+    float:right;
+}
+
+.leftButton:hover {
+    background-image:url(/img/left_hover.png);
+}
+
+#optionLeftButton {
+    position: absolute;
+    top: -25px;
+    right: 65px;
+}
+
+.rightButton {
+    width:25px;
+    height:25px;
+    background-image:url(/img/right.png);
+    cursor:pointer;
+    float:right;
+}
+
+.rightButton:hover {
+    background-image:url(/img/right_hover.png);
+}
+
+#optionRightButton {
+    position: absolute;
+    top: -25px;
+    right: 40px;
+}
+
+.loading-gif {
+    position:absolute;
+    top:-20px;
+    right:100px;
+    width:16px;
+    height:11px;
+    background-image:url(/img/loading.gif);
+    display:none;
+}
+
+.photoTheme {
+    float:left;
+    padding:5px;
+    top:6px;
+    font: 18px  Handwritten, Tahoma, Arial, Tahoma, sans-serif;
+    cursor:pointer;
+}
+
+.photoTheme:hover, .photoTheme[selected=true]{
+    color: #555;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 10px;
+    opacity: 1;
+}
+
+/* bookmarkBar */
+
+#bookmarkBarBorder {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    width:97%;
+    height:90%;
+    background:#fff;
+    padding: 8px;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+#bookmarkBar {
+    position:absolute; 
+    border: solid 1px #888;
+    left:8px;
+    right:8px;
+    top:8px;
+    bottom:8px;
+    background:#ccc;
+}
+
+#bookmarkBarList, #appList, #topList {
+    position:absolute;
+    top:30px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#appList, #appContextmenu{
+    display:none;
+}
+
+#appContextmenu{
+    position:fixed;
+    top:40%;
+    left:45%;
+    width:350px;
+    
+    border: 5px solid white;
+    -webkit-border-radius:20px;
+    -webkit-box-shadow: 0px 0px 5px black;
+    background-color: #657A91;
+    font-size: 12px;
+}
+#appMenuTitle {
+    font-weight: bold;
+    background: white;
+    padding:10px 10px 10px 30px;
+
+}
+#appMenuIcon {
+    position: absolute;
+    top:10px;
+    left:6px;
+}
+#uninstallApp, #deleteBm, #renameBm, #menuCancel {
+    text-align: center;
+    cursor:pointer;    
+    padding: 5px;
+    -webkit-border-radius:5px;
+    font-weight: bold;
+    color:white;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.5);
+
+}
+#uninstallApp:hover, #deleteBm:hover, #renameBm:hover, #menuCancel:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+.appItem {
+    position: relative;
+    cursor: pointer;
+    width:45%;
+    height:42px;
+    padding:7px;
+    margin-bottom:5px;
+    overflow:hidden;
+    display:inline-block;
+    -webkit-border-radius:10px;
+
+    height: 45px;
+    max-height: 45px;
+    min-height: 45px;
+    text-decoration: none;
+}
+.appItem:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.appItemLabel {
+    position: absolute;
+    padding-top:0px;
+    padding-left:55px;
+    height: 32px;
+    max-height: 32px;
+    min-height: 32px;
+    
+    overflow:hidden;
+    
+}
+
+.appWrench {
+    position: absolute;
+    right:5px;
+    bottom:5px;
+
+    display: none;
+}
+.appItem:hover .appWrench {
+    display: block;
+}
+#messageBox {
+    position:absolute;
+    width:420px;
+    padding-top: 10px;
+    /*height:100px;*/
+    top: 20px;
+    left: 0px;
+    z-index:1000;
+    background: #eef;
+    display: none;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    font-size:12px;
+    font-family:Verdana, Arial, Tahoma;
+    font-size: 10px;
+    font-weight:bold;
+}
+
+#customWallpaperURLBox {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+
+#customWallpaperURL {
+    width: 300px;
+}
+
+#saveBtn, #closeBtn {
+    width: 60px;
+    height: 15px;
+    padding:5px;
+    margin: 5px;
+    background: #aaa;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius:2px;
+    color:#FFFFFF;
+    border: solid 1px #777;
+}
+
+#saveBtn:hover, #closeBtn:hover {
+    background: #ccf;    
+}
+
+#thumb{
+    width:300px;
+}
+
+#albumRow{
+    display:none;
+    overflow-y:scroll;
+    height:350px;
+    width:180px;
+}
+
+.wpThumb{
+    margin: 5px;
+    width:150px;
+    display:block;
+}
+
+.bookmarkBarItem {
+    width:45%;
+    height:30px;
+    padding:7px;
+    margin-bottom:5px;
+    overflow:hidden;
+    display:inline-block;
+    -webkit-border-radius:10px;
+    position: relative;
+}
+.bookmarkBarItem:hover {
+    background: rgba(240, 240, 240, 0.5);
+}
+.bookmarkBarItem:hover .appWrench {
+    display: block;
+}
+
+.bookmarkBarLabel {
+    position:relative;
+    line-height:18px;
+    max-height:40px;
+    top:-35px;
+    left:40px;
+    width:80%;
+    overflow:hidden;
+    text-decoration: none;
+}
+.bookmarkBarFavicon {
+    position:relative;
+    top:-2px;
+    width:22px;
+    height:22px;
+    padding:4px;
+    background:#FFFFFF;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    -webkit-border-radius:10px;
+}
+
+#notice {
+    position:absolute;
+    bottom:-35px;
+    left:15px;
+    color:#444;
+    font: 10px Arial, Tahoma, sans-serif;
+}
+/* Help for bookmark bar view */
+#bookmarkBarHelp {
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 6px 12px;
+
+    -webkit-border-top-left-radius: 5px;
+    background: rgba(255, 255, 255, 0.85);
+    line-height: 15px;
+
+    text-align: center;
+    display: none;
+    opacity: 0;
+}
+.help {
+    font: 13px Tahoma, Arial, sans-serif;
+    color: black;
+}
+.dismiss {
+    color: #03a;
+    cursor: pointer;
+}
+.dismiss:hover {
+    color: #05c;
+}
+
+/*Recently Closed*/
+#recentlyClosedBorder {
+    position:absolute;
+    width:45%;
+    height:95%;
+    margin-right:5px;
+    background:#fff;
+    padding:8px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-border-radius:10px;
+}
+
+#recentlyClosed {
+    position:relative;
+    width:99%;
+    height:99%;
+    background:#C4B178;
+    border:1px solid #777;
+}
+
+#recentlyClosedList {
+    position:absolute;
+    top:67px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    overflow:hidden;
+}
+#closedRecycle {
+    position: absolute;
+    left:5px;
+    top:5px;
+    width:40px;
+    height:40px;
+}
+
+#recentlyClosedtitle {
+    position: absolute;
+    left:50px;
+    top:15px;
+    font: bold 20px Verdana, Arial, Tahoma;
+    color: #eef; 
+}
+
+.recentlyClosedItem{
+    position:relative;
+    margin-right:5px;
+    height:25px;
+    -webkit-border-radius:10px;
+}
+
+.recentlyClosedItem:hover {
+    -webkit-border-radius:10px;
+    background: rgba(255,255,255,0.2);
+}
+.recentlyClosedFavicon {
+    position:relative;
+    width:15px;
+    height:15px;
+    top:2px;
+    left:5px;
+    background:#FFFFFF;
+    padding:1px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    -webkit-border-radius:5px;
+}
+.recentlyClosedLabel {
+    position:relative;
+    line-height:14px;
+    max-height:14px;
+    top:-14px;
+    left:30px;
+    width:75%;
+    font-size:12px;
+    font-family:Verdana, Arial, Tahoma;
+    color:#FFFFFF;
+    overflow:hidden;
+}
+/* Bookmark Browser */
+#bookmarkBrowserBorder {
+    position:absolute;
+    left:50%;
+    width:45%;
+    height:95%;
+    margin-left:5px;
+    background:#fff;
+    padding:8px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+    -webkit-border-radius:10px;
+}
+
+#bookmarkBrowser {
+    position:relative;
+    width:99%;
+    height:99%;
+    background:#657A91;
+    border:1px solid #555;
+}
+#bookmarkBrowserList {
+    position:absolute;
+    top:67px;
+    left:10px;
+    right:10px;
+    bottom:28px;
+    overflow:hidden;    
+    color: white;
+}
+#bookmarkBrowserControls {
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 28px;
+
+    color: white;
+    border-top: 1px solid #555;
+}
+.bookmarkBrowserControl {
+    height: 18px;
+    padding: 0px 10px 0px 22px;
+    font: 12px Tahoma, Arial, sans-serif;
+    line-height: 10px;
+    color: white;
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bookmarkBrowserControl:hover {
+    color: #05a;
+}
+#bookmarkBrowserPinWrapper{
+    position: absolute;
+    left: 0px;
+    display: table;
+    height: 100%;
+    border-right: 1px solid #555;
+}
+#bookmarkBrowserPin {
+    background: url(/img/pin.png) 3px 6px no-repeat;
+    width: 79px;
+}
+#bookmarkBrowserPin:hover {
+    background: #ddd url(/img/pin_hover.png) 3px 6px no-repeat;
+}
+#bookmarkBrowserTopWrapper {
+    position: absolute;
+    left: 112px;
+    display: table;
+    height: 100%;
+}
+#bookmarkBrowserTop {
+    background: url(/img/top.png) 3px 6px no-repeat;
+    width: 34px;
+}
+#bookmarkBrowserTop:hover {
+    background: #ddd url(/img/top_hover.png) 3px 6px no-repeat;
+}
+
+.bookmarkBrowserControl[disabled="true"] {
+    opacity: 0.5 !important;
+    color: white !important;
+    cursor: default !important;
+}
+#bookmarkBrowserPin[disabled="true"]:hover {
+    background: url(/img/pin.png) 3px 6px no-repeat;
+}
+#bookmarkBrowserTop[disabled="true"]:hover {
+    background: url(/img/top.png) 3px 6px no-repeat;
+}
+
+#bookmarkBrowserHelp {
+    margin-top: 20px;
+    font: 12px Tahoma, Arial, sans-serif;
+}
+#bookmarkControlsHelp {
+    position: absolute;
+    width: 250px;
+    left: 10px;
+    bottom: 25px;
+    padding: 5px;
+
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 0px 0px 4px black;
+
+    z-index: 99999;
+    display: none;
+}
+
+#bookmarkStar {
+    position: absolute;
+    left:5px;
+    top:3px;
+    width:40px;
+    height:40px;
+}
+
+#bookmarkBrowserTitle {
+    position: absolute;
+    left:45px;
+    top:15px;
+    font: bold 20px Verdana, Arial, Tahoma;
+    color: #eef;
+}
+
+.navigationButton {
+    position: absolute;
+    top:45px;
+    left:0px;
+    width:100%;
+    height:16px;
+    padding: 2px 0px;
+
+    background-color:#ddd;
+    font: 14px Verdana, Arial, Tahoma;
+    color: #777;
+
+    cursor: pointer;
+}
+.navigationButton:hover {
+    background:#eed;
+}
+.navigationText {
+    position:absolute;
+    top:1px;
+    left:15px;
+}
+
+#backToParentDiv{
+    display:none; /* default hidden */
+}
+
+.bookmarkBrowserItem {
+    position:relative;
+    margin-right:5px;
+    height:25px;
+    -webkit-border-radius:10px;
+}
+
+.bookmarkBrowserItem:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.bookmarkBrowserFavicon {
+    position:relative;
+    width:15px;
+    height:15px;
+    top:3px;
+    left:5px;
+    background:#FFFFFF;
+    padding:1px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+    -webkit-border-radius:5px;
+}
+.bookmarkBrowserLabel {
+    position:relative;
+    line-height:14px;
+    max-height:14px;
+    top:-14px;
+    left:30px;
+    width:75%;
+    font-size:12px;
+    font-family:Verdana, Arial, Tahoma;
+    color:#FFFFFF;
+    overflow:hidden;
+}
+
+/* notepad area */ 
+@font-face {
+    font-family: Handwritten;
+    src: url(/font/penoftruth.ttf);
+}
+#notepadArea{
+    height: 200px;
+    position: relative;
+    top:0px;
+    z-index:1000;
+}
+#pencil {
+    position:absolute;
+    height:100px;
+    width:100px;
+    left:290px;
+    z-index:100;
+    background: url(/img/pencil.png);
+}
+
+
+#pencilHoverCatcher {
+    position:absolute;
+    height:100px;
+    width:20px;
+    left:330px;
+    z-index:101;
+    -webkit-transform: rotate(47deg);
+    cursor: pointer;
+}
+
+
+#notepadDiv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:32px;
+    width: 60%;
+    height: 80%;
+    -webkit-box-shadow: 0px 15px 10px rgba(155, 155, 0, 0.2);
+    -webkit-transform: rotate(-5deg);
+}
+#notepad{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    resize:none;
+    border: 0px;
+    background: rgba(250, 250, 100, 0.9);
+    font: 18px Handwritten, Tahoma, Arial, sans-serif;
+}   
+
+#share{
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+    padding: 5px 10px;
+    font: 18px Handwritten, Tahoma, Arial, sans-serif;
+    -webkit-transform: rotate(-4deg);
+    opacity: 0.5;
+    z-index: 9999;
+}
+
+.multinote, #shareToMail, #shareToCalendar {
+    padding:5px;
+    margin: -5px;
+    cursor: pointer;
+}
+
+.multinote:hover, #shareToMail:hover, #shareToCalendar:hover {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 20px;
+    opacity: 1;
+}
+
+#chromeBugged {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    z-index: 999999;
+    display: none;
+}
+#chromeBuggedText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    padding: 10px;
+    margin-left: -200px;
+    margin-top: -30px;
+
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px black;
+    background: rgba(255, 255, 255, 0.9);
+    font: bold 14px Tahoma, Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+#chromeBuggedText:hover {
+    background: rgba(255, 255, 200, 0.9);
+}
+
+
+#synchronizing {
+    -webkit-transform: rotate(-5deg);
+    position: absolute;
+    top: -30px;
+    left: 60px;
+    display: none;
+    width: 100%;
+}
+#noteUpdatedAtOtherPlaces {
+    -webkit-transform: rotate(-5deg);
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    display: none;
+    width: 100%;
+}
+#synchronizingText, #noteUpdatedAtOtherPlacesText {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font: normal 12px Tahoma, Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#updateNotifier {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -50px;
+    padding: 15px;
+
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px black;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    font: bold 14px Tahoma, Arial, sans-serif;
+
+    z-index: 999999;
+    display: none; /* initially hidden */
+    cursor: pointer;
+}
+#updateNotifier:hover {
+    background: rgba(255, 255, 200, 1);
+}
+
+#versionId{
+    color:#555;
+    font-size:smaller;
+    padding-left: 25px;
+}

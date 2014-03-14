@@ -1,0 +1,206 @@
+{
+   "addLink": {
+      "message": "Send tab/link to Startpage"
+   },
+   "addLinkMenu": {
+      "message": "Enable 'Send tab/link to Startpage' menu"
+   },
+   "advancedOptionsBtn": {
+      "message": "Advanced Options"
+   },
+   "backToParentText": {
+      "message": "Voltar"
+   },
+   "backgroundColorCustomTips": {
+      "message": "Or choose a custom background:"
+   },
+   "backgroundColorOptionTitle": {
+      "message": "Background Color"
+   },
+   "backgroundColorSelectionTips": {
+      "message": "Select a theme color:"
+   },
+   "bookmarkBarHelpContent": {
+      "message": "Aqui est\u00E3o as p\u00E1ginas da sua barra de favoritos, as pastas est\u00E3o ocultas"
+   },
+   "bookmarkBarHelpDismiss": {
+      "message": "[Fechar]"
+   },
+   "bookmarkBrowserHelp": {
+      "message": "Esta caixa permite que voc\u00EA rapidamente navegue em seus favoritos. Voc\u00EA pode arrastar os mais importantes para a caixa a direita."
+   },
+   "bookmarkBrowserPin": {
+      "message": "Show as main"
+   },
+   "bookmarkBrowserTitle": {
+      "message": "Favoritos"
+   },
+   "bookmarkBrowserTop": {
+      "message": "Home"
+   },
+   "bookmarkControlsHelpDismiss": {
+      "message": "[Close]"
+   },
+   "bookmarkControlsHelpMsg": {
+      "message": "You can now customize the folder shown on the right panel - navigate to that folder and click 'Show as main'."
+   },
+   "chromeBuggedText": {
+      "message": "Chrome Bookmarks are not ready yet. Please close this tab and open the startpage in a new tab."
+   },
+   "chromeSyncBug": {
+      "message": "This Chrome version does not support sync feature."
+   },
+   "clearClosedText": {
+      "message": "Limpar"
+   },
+   "closeBtn": {
+      "message": "Cancel"
+   },
+   "columnInAppLabel": {
+      "message": "Show 3 columns in 'My Apps'"
+   },
+   "columnInBookmarkLabel": {
+      "message": "Show 3 columns in 'My Bookmarks'"
+   },
+   "columnInTopLabel": {
+      "message": "Show 3 columns in 'Most Visited'"
+   },
+   "confirm_uninstall": {
+      "message": "Are you sure you wish to uninstall '$title$' ?",
+      "placeholders": {
+         "title": {
+            "content": "$1",
+            "example": "[The name of the webapp]"
+         }
+      }
+   },
+   "contactUs": {
+      "message": "Contact us at"
+   },
+   "customWallpaperLabel": {
+      "message": "Use Custom Wallpaper"
+   },
+   "defaultNotepadText": {
+      "message": "Obrigado por instalar\nIncredible StartPage!\n \nEste seu bloco de anota\u00E7\u00F5es. Voc\u00EA pode escrever notas aqui!"
+   },
+   "description": {
+      "message": "Uma nova e customiz\u00E1vel guia inicial para o Chrome. Encontre facilmente seus favoritos e guias fechadas recentemente. Fa\u00E7a anota\u00E7\u00F5es enquanto navega."
+   },
+   "existingBmLabel": {
+      "message": "Check this to overwrite current notepad content"
+   },
+   "fileWarning": {
+      "message": "The image is too large! Please choose another one!"
+   },
+   "fontColorOptionTitle": {
+      "message": "Font Color"
+   },
+   "fontColorSelectionTips": {
+      "message": "Select your font color:"
+   },
+   "gmailAccount": {
+      "message": "Google Account"
+   },
+   "googleAppsAccount": {
+      "message": "Google Apps Account, Domain"
+   },
+   "googleAppsAccountDescription": {
+      "message": "Enter only your Google Apps domain without \"www\", e.g. visibotech.com"
+   },
+   "incredibleStartPage": {
+      "message": "Incredible StartPage"
+   },
+   "incredibleStartPageDescription": {
+      "message": "Incredible StartPage replaces your default starting page with a customizable view of your bookmarks, reminders and recent tabs.\u003Cbr\u003E\u003Ca href='http://blog.visibotech.com/p/incredible-startpage.html'\u003EClick here\u003C/a\u003E for a simple tutorial."
+   },
+   "maximumRecentlyClosedTabs": {
+      "message": "Maximum recently closed tabs"
+   },
+   "message": {
+      "message": "Please type your custom wallpaper URL:"
+   },
+   "name": {
+      "message": "Incredible StartPage - Nova guia produtiva para o Chrome!"
+   },
+   "noColumnsLabel": {
+      "message": "Number of columns"
+   },
+   "notRememberClosedTabs": {
+      "message": "0 (Do not remember closed tabs)"
+   },
+   "noteUpdatedAtOtherPlacesText": {
+      "message": "The note has been updated from other places, please reload this page."
+   },
+   "notepadFont": {
+      "message": "Notepad Font"
+   },
+   "notepadSync": {
+      "message": "Notepad Sync"
+   },
+   "notepadSyncDescription": {
+      "message": "Sync notepad contents with your Google Account"
+   },
+   "notepadSyncDescription2": {
+      "message": "Chrome Bookmark Sync must be enabled, click [\u003Ca href='http://www.google.com/support/chrome/bin/answer.py?answer=165138' target='_blank'\u003Ehere\u003C/a\u003E] for more information"
+   },
+   "option": {
+      "message": "Options"
+   },
+   "optionsEffect": {
+      "message": "Changes will be applied after reloading your startpage."
+   },
+   "optionsSaved": {
+      "message": "Saved"
+   },
+   "optionsTitle": {
+      "message": "Options"
+   },
+   "pagetitle": {
+      "message": "Incredible StartPage Options"
+   },
+   "postTo": {
+      "message": "Post to"
+   },
+   "promptRename": {
+      "message": "Rename title"
+   },
+   "recentlyClosedTitle": {
+      "message": "Fechadas"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saveBtn": {
+      "message": "Save"
+   },
+   "shareNotepadTo": {
+      "message": "Post notes to"
+   },
+   "shareToCalendar": {
+      "message": "Calendar"
+   },
+   "shareToMail": {
+      "message": "Gmail"
+   },
+   "toggleOptionsBtn": {
+      "message": "Theme Options"
+   },
+   "topSitesLabel": {
+      "message": "Show 'Most Visited' Tab"
+   },
+   "uninstallApp": {
+      "message": "Uninstall"
+   },
+   "useLocalLabel": {
+      "message": "Local File (~1024px wide, jpg format & max. size 500K):"
+   },
+   "wallpaperOptionTitle": {
+      "message": "Wallpapers"
+   },
+   "wallpaperThemeCustomTips": {
+      "message": "Or use a gradient as the background:"
+   },
+   "wallpaperThemeSelectionTips": {
+      "message": "Choose wallpaper from a theme:"
+   }
+}

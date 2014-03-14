@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "UGYLDIG. Bruk Google Input Tools-utvidelsen (tilgjengelig p\u00E5 http://goo.gl/lzCPo) i stedet."
+   },
+   "vkbd_name": {
+      "message": "UGYLDIG: Virtuelt tastatur (fra Google)"
+   },
+   "vkbd_options_title": {
+      "message": "Alternativer for Virtual Keyboard-utvidelsen"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Velg tastaturoppsett fra venstre:"
+   },
+   "vkbd_save_options": {
+      "message": "Lagre"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "Vis/skjul tastatur"
+   }
+}

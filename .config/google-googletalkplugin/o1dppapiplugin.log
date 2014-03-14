@@ -1,0 +1,326 @@
+[000:000] Cpu: 6.42.7, x4, 3392Mhz, 3948MB
+[000:000] Computer model: Not available
+[000:003] [o1d22798-1] Listening for HELLO.
+[000:009] [o1d22798-1] Shutting down instance.
+[000:009] [o1d22798-1] Client disconnected.
+[000:246] [o1d22798-2] Listening for HELLO.
+[000:279] [o1d22798-2] Client connected.
+[000:279] [o1d22798-2] Registered new shared memory segment at 100
+[000:327] [o1d22798-2] Shutting down instance.
+[000:327] [o1d22798-2] Attached client while shutting down; sending shutdown notification.
+[000:327] [o1d22798-2] Client disconnected.
+[002:381] [o1d22798-3] Listening for HELLO.
+[003:167] [o1d22798-4] Listening for HELLO.
+[003:182] [o1d22798-5] Listening for HELLO.
+[003:192] [o1d22798-6] Listening for HELLO.
+[003:516] [o1d22798-5] Client connected.
+[003:516] [o1d22798-5] Registered new shared memory segment at 101
+[004:522] Error(plugin.cc:262): libyuv scale failed (-1)
+[004:556] [o1d22798-5] Sending rendering size change: 100x0
+[004:556] [o1d22798-5] Unmapping shared mem: 101
+[004:556] Created new pool buffer at 0x5232b3e7000, 32640 bytes
+[004:556] [o1d22798-5] Registered new shared memory segment at 102
+[004:623] Error(plugin.cc:262): libyuv scale failed (-1)
+[004:651] [o1d22798-5] Sending rendering size change: 175x100
+[005:972] [o1d22798-3] Client connected.
+[005:972] [o1d22798-3] Registered new shared memory segment at 103
+[007:555] Error(plugin.cc:262): libyuv scale failed (-1)
+[007:588] [o1d22798-3] Sending rendering size change: 1263x0
+[007:588] [o1d22798-3] Unmapping shared mem: 103
+[007:588] Created new pool buffer at 0x5232b4e9000, 2073600 bytes
+[007:591] [o1d22798-3] Registered new shared memory segment at 104
+[008:625] Error(plugin.cc:262): libyuv scale failed (-1)
+[008:635] [o1d22798-3] Sending rendering size change: 1263x711
+[047:109] [o1d22798-3] Shutting down instance.
+[047:109] [o1d22798-3] Attached client while shutting down; sending shutdown notification.
+[047:109] [o1d22798-3] Client disconnected.
+[051:517] [o1d22798-7] Listening for HELLO.
+[098:250] [o1d22798-8] Listening for HELLO.
+[098:818] [o1d22798-8] Client connected.
+[098:818] [o1d22798-8] Registered new shared memory segment at 105
+[099:253] Error(plugin.cc:262): libyuv scale failed (-1)
+[099:286] [o1d22798-8] Sending rendering size change: 100x0
+[099:286] [o1d22798-8] Unmapping shared mem: 105
+[099:286] Created new pool buffer at 0x7ffa1dafe000, 36480 bytes
+[099:287] [o1d22798-8] Registered new shared memory segment at 106
+[099:655] Error(plugin.cc:262): libyuv scale failed (-1)
+[099:677] [o1d22798-8] Sending rendering size change: 100x156
+[180:668] [o1d22798-4] Client connected.
+[180:669] [o1d22798-4] Registered new shared memory segment at 107
+[184:967] Error(plugin.cc:262): libyuv scale failed (-1)
+[185:000] [o1d22798-4] Sending rendering size change: 100x0
+[185:001] [o1d22798-4] Unmapping shared mem: 107
+[185:001] Created new pool buffer at 0x5232b3fa000, 19656 bytes
+[185:001] [o1d22798-4] Registered new shared memory segment at 108
+[186:752] Error(plugin.cc:262): libyuv scale failed (-1)
+[186:784] [o1d22798-4] Sending rendering size change: 163x100
+[591:236] [o1d22798-7] Client connected.
+[591:236] [o1d22798-7] Registered new shared memory segment at 109
+[591:303] Error(plugin.cc:262): libyuv scale failed (-1)
+[591:336] [o1d22798-7] Sending rendering size change: 1692x0
+[591:337] [o1d22798-7] Unmapping shared mem: 109
+[591:337] Created new pool buffer at 0x5232b4e9000, 2073600 bytes
+[591:340] [o1d22798-7] Registered new shared memory segment at 110
+[591:504] Error(plugin.cc:262): libyuv scale failed (-1)
+[591:508] [o1d22798-7] Sending rendering size change: 1622x913
+[595:196] [o1d22798-9] Listening for HELLO.
+[595:229] [o1d22798-9] Client connected.
+[595:229] [o1d22798-9] Registered new shared memory segment at 111
+[595:296] [o1d22798-9] Sending rendering size change: 1622x913
+[595:646] [o1d22798-7] Sending rendering size change: 1521x913
+[595:646] [o1d22798-9] Sending rendering size change: 1521x913
+[597:109] [o1d22798-7] Sending rendering size change: 1622x913
+[597:110] [o1d22798-9] Sending rendering size change: 1622x913
+[726:612] [o1d22798-10] Listening for HELLO.
+[727:517] [o1d22798-10] Client connected.
+[727:518] [o1d22798-10] Registered new shared memory segment at 112
+[727:568] [o1d22798-7] Sending rendering size change: 722x407
+[727:568] [o1d22798-9] Sending rendering size change: 722x407
+[753:191] [o1d22798-7] Sending rendering size change: 1622x913
+[753:191] [o1d22798-9] Sending rendering size change: 1622x913
+[754:496] [o1d22798-7] Sending rendering size change: 722x407
+[754:507] [o1d22798-9] Sending rendering size change: 722x407
+[760:869] [o1d22798-7] Sending rendering size change: 1492x840
+[760:869] [o1d22798-9] Sending rendering size change: 1492x840
+[761:866] [o1d22798-7] Sending rendering size change: 722x407
+[761:866] [o1d22798-9] Sending rendering size change: 722x407
+[851:525] [o1d22798-11] Listening for HELLO.
+[851:558] [o1d22798-5] Sending rendering size change: 155x89
+[851:559] [o1d22798-4] Sending rendering size change: 146x89
+[852:431] [o1d22798-11] Client connected.
+[852:431] [o1d22798-11] Registered new shared memory segment at 113
+[855:591] Error(plugin.cc:262): libyuv scale failed (-1)
+[855:624] [o1d22798-11] Sending rendering size change: 89x0
+[855:624] [o1d22798-11] Unmapping shared mem: 113
+[855:624] Created new pool buffer at 0x5232b417000, 9120 bytes
+[855:624] [o1d22798-11] Registered new shared memory segment at 114
+[857:337] Error(plugin.cc:262): libyuv scale failed (-1)
+[857:354] [o1d22798-11] Sending rendering size change: 89x138
+[858:537] [o1d22798-11] Unmapping shared mem: 114
+[858:537] Created new pool buffer at 0x5232b41c000, 36480 bytes
+[858:537] [o1d22798-11] Registered new shared memory segment at 115
+[859:546] [o1d22798-11] Unmapping shared mem: 115
+[859:546] [o1d22798-11] Registered new shared memory segment at 116
+[893:443] [o1d22798-11] Sending rendering size change: 100x156
+[893:443] [o1d22798-5] Sending rendering size change: 175x100
+[893:443] [o1d22798-4] Sending rendering size change: 163x100
+[894:230] [o1d22798-8] Shutting down instance.
+[894:230] [o1d22798-8] Attached client while shutting down; sending shutdown notification.
+[894:230] [o1d22798-8] Client disconnected.
+[1519:617] [o1d22798-4] Sending rendering size change: 200x96
+[1519:639] [o1d22798-4] Unmapping shared mem: 108
+[1519:639] Created new pool buffer at 0x5232b425000, 52140 bytes
+[1519:639] [o1d22798-4] Registered new shared memory segment at 117
+[1530:132] [o1d22798-4] Unmapping shared mem: 117
+[1530:132] Created new pool buffer at 0x5232b432000, 126284 bytes
+[1530:132] [o1d22798-4] Registered new shared memory segment at 118
+[1530:596] [o1d22798-4] Sending rendering size change: 181x100
+[1583:318] [o1d22798-12] Listening for HELLO.
+[1583:346] [o1d22798-11] Sending rendering size change: 89x138
+[1583:346] [o1d22798-5] Sending rendering size change: 155x89
+[1583:361] [o1d22798-4] Sending rendering size change: 161x89
+[1583:861] [o1d22798-12] Client connected.
+[1583:861] [o1d22798-12] Registered new shared memory segment at 119
+[1584:394] Error(plugin.cc:262): libyuv scale failed (-1)
+[1584:426] [o1d22798-12] Sending rendering size change: 89x0
+[1584:427] [o1d22798-12] Unmapping shared mem: 119
+[1584:427] Created new pool buffer at 0x7ffa1da89000, 8160 bytes
+[1584:427] [o1d22798-12] Registered new shared memory segment at 120
+[1584:460] Error(plugin.cc:262): libyuv scale failed (-1)
+[1584:462] [o1d22798-12] Sending rendering size change: 155x89
+[1584:493] [o1d22798-12] Unmapping shared mem: 120
+[1584:493] [o1d22798-12] Registered new shared memory segment at 121
+[1588:869] Error(naclhelpers.cc:170): NaClReceiveDatagram failed : Connection reset by peer
+[1588:869] Error(flutemessagelistener.cc:316): [o1d22798-11] Failure to receive datagrams.
+[1588:902] [o1d22798-11] Client disconnected.
+[1588:902] Created new pool buffer at 0x5232b451000, 145920 bytes
+[1588:902] Error(naclhelpers.cc:62): NaClSendDatagram failed : Broken pipe
+[1589:897] [o1d22798-5] Sending rendering size change: 175x100
+[1589:908] [o1d22798-4] Sending rendering size change: 181x100
+[1590:685] [o1d22798-11] Shutting down instance.
+[1590:685] [o1d22798-11] Client disconnected.
+[1696:354] [o1d22798-7] Sending rendering size change: 1622x913
+[1696:356] [o1d22798-9] Sending rendering size change: 1622x913
+[1696:643] [o1d22798-7] Sending rendering size change: 722x407
+[1696:666] [o1d22798-9] Sending rendering size change: 722x407
+[1766:380] [o1d22798-7] Sending rendering size change: 1622x913
+[1766:420] [o1d22798-9] Sending rendering size change: 1622x913
+[1806:138] [o1d22798-7] Sending rendering size change: 722x407
+[1806:138] [o1d22798-9] Sending rendering size change: 722x407
+[1982:429] [o1d22798-7] Sending rendering size change: 722x393
+[1982:472] [o1d22798-9] Sending rendering size change: 722x393
+[1982:505] [o1d22798-9] Unmapping shared mem: 111
+[1982:505] Created new pool buffer at 0x5232b6e4000, 2020544 bytes
+[1982:512] [o1d22798-9] Registered new shared memory segment at 122
+[1983:105] [o1d22798-7] Sending rendering size change: 722x407
+[1985:613] [o1d22798-7] Sending rendering size change: 722x393
+[1985:652] [o1d22798-9] Sending rendering size change: 722x393
+[2105:557] [o1d22798-7] Sending rendering size change: 1679x913
+[2105:557] [o1d22798-9] Sending rendering size change: 1679x913
+[2159:506] [o1d22798-7] Sending rendering size change: 722x393
+[2159:507] [o1d22798-9] Sending rendering size change: 722x393
+[2286:457] [o1d22798-7] Sending rendering size change: 1679x913
+[2286:478] [o1d22798-9] Sending rendering size change: 1679x913
+[2482:563] [o1d22798-7] Sending rendering size change: 722x393
+[2482:576] [o1d22798-9] Sending rendering size change: 722x393
+[2574:908] [o1d22798-7] Sending rendering size change: 1679x913
+[2574:908] [o1d22798-9] Sending rendering size change: 1679x913
+[2596:164] [o1d22798-13] Listening for HELLO.
+[2598:534] [o1d22798-13] Client connected.
+[2598:534] [o1d22798-13] Registered new shared memory segment at 123
+[2598:601] Error(plugin.cc:262): libyuv scale failed (-1)
+[2598:634] [o1d22798-13] Sending rendering size change: 100x0
+[2598:635] [o1d22798-13] Unmapping shared mem: 123
+[2598:635] Created new pool buffer at 0x7ffa1dafe000, 19200 bytes
+[2598:635] [o1d22798-13] Registered new shared memory segment at 124
+[2598:769] Error(plugin.cc:262): libyuv scale failed (-1)
+[2598:802] Error(plugin.cc:262): libyuv scale failed (-1)
+[2598:809] [o1d22798-13] Sending rendering size change: 100x133
+[2697:864] [o1d22798-4] Sending rendering size change: 166x100
+[2697:878] [o1d22798-9] Sending rendering size change: 1521x913
+[2697:879] [o1d22798-7] Sending rendering size change: 1521x913
+[2697:933] [o1d22798-4] Unmapping shared mem: 118
+[2697:933] Created new pool buffer at 0x5232b451000, 314216 bytes
+[2697:934] [o1d22798-4] Registered new shared memory segment at 125
+[2973:310] [o1d22798-4] Sending rendering size change: 181x100
+[2973:358] [o1d22798-4] Unmapping shared mem: 125
+[2973:358] Created new pool buffer at 0x5232b8d2000, 505136 bytes
+[2973:360] [o1d22798-4] Registered new shared memory segment at 126
+[2973:815] [o1d22798-9] Sending rendering size change: 1679x913
+[2973:815] [o1d22798-7] Sending rendering size change: 1679x913
+[3064:077] [o1d22798-9] Sending rendering size change: 722x393
+[3064:077] [o1d22798-7] Sending rendering size change: 722x393
+[3064:139] [o1d22798-4] Sending rendering size change: 161x89
+[3064:139] [o1d22798-5] Sending rendering size change: 155x89
+[3066:799] [o1d22798-9] Sending rendering size change: 1679x913
+[3066:816] [o1d22798-7] Sending rendering size change: 1679x913
+[3066:867] [o1d22798-4] Sending rendering size change: 181x100
+[3066:885] [o1d22798-5] Sending rendering size change: 175x100
+[4873:481] [o1d22798-9] Sending rendering size change: 722x393
+[4873:481] [o1d22798-7] Sending rendering size change: 722x393
+[4873:555] [o1d22798-4] Sending rendering size change: 161x89
+[4873:561] [o1d22798-5] Sending rendering size change: 155x89
+[4903:388] [o1d22798-9] Sending rendering size change: 1679x913
+[4903:409] [o1d22798-7] Sending rendering size change: 1679x913
+[4903:433] [o1d22798-4] Sending rendering size change: 181x100
+[4903:434] [o1d22798-5] Sending rendering size change: 175x100
+[4909:375] [o1d22798-9] Sending rendering size change: 722x393
+[4909:375] [o1d22798-7] Sending rendering size change: 722x393
+[4909:413] [o1d22798-4] Sending rendering size change: 161x89
+[4909:413] [o1d22798-5] Sending rendering size change: 155x89
+[4932:040] [o1d22798-9] Sending rendering size change: 1679x913
+[4932:040] [o1d22798-7] Sending rendering size change: 1679x913
+[4932:101] [o1d22798-4] Sending rendering size change: 181x100
+[4932:101] [o1d22798-5] Sending rendering size change: 175x100
+[4933:020] [o1d22798-9] Sending rendering size change: 722x393
+[4933:020] [o1d22798-7] Sending rendering size change: 722x393
+[4933:050] [o1d22798-4] Sending rendering size change: 161x89
+[4933:051] [o1d22798-5] Sending rendering size change: 155x89
+[4971:799] [o1d22798-9] Sending rendering size change: 1537x836
+[4971:799] [o1d22798-7] Sending rendering size change: 1537x836
+[4971:830] [o1d22798-4] Sending rendering size change: 181x100
+[4971:830] [o1d22798-5] Sending rendering size change: 175x100
+[4973:255] [o1d22798-9] Sending rendering size change: 1679x913
+[4973:255] [o1d22798-7] Sending rendering size change: 1679x913
+[4974:624] [o1d22798-9] Sending rendering size change: 1537x836
+[4974:624] [o1d22798-7] Sending rendering size change: 1537x836
+[4976:413] [o1d22798-9] Sending rendering size change: 722x393
+[4976:413] [o1d22798-7] Sending rendering size change: 722x393
+[4976:430] [o1d22798-4] Sending rendering size change: 161x89
+[4976:430] [o1d22798-5] Sending rendering size change: 155x89
+[5077:360] [o1d22798-9] Sending rendering size change: 1679x913
+[5077:378] [o1d22798-7] Sending rendering size change: 1679x913
+[5077:397] [o1d22798-4] Sending rendering size change: 181x100
+[5077:398] [o1d22798-5] Sending rendering size change: 175x100
+[5113:207] [o1d22798-9] Sending rendering size change: 722x393
+[5113:207] [o1d22798-7] Sending rendering size change: 722x393
+[5113:247] [o1d22798-4] Sending rendering size change: 161x89
+[5113:247] [o1d22798-5] Sending rendering size change: 155x89
+[5173:893] [o1d22798-9] Sending rendering size change: 1679x913
+[5173:893] [o1d22798-7] Sending rendering size change: 1679x913
+[5173:946] [o1d22798-4] Sending rendering size change: 181x100
+[5173:950] [o1d22798-5] Sending rendering size change: 175x100
+[5174:834] [o1d22798-9] Sending rendering size change: 722x393
+[5174:834] [o1d22798-7] Sending rendering size change: 722x393
+[5174:849] [o1d22798-4] Sending rendering size change: 161x89
+[5174:850] [o1d22798-5] Sending rendering size change: 155x89
+[5247:836] [o1d22798-4] Sending rendering size change: 155x89
+[5247:841] [o1d22798-9] Sending rendering size change: 722x407
+[5247:849] [o1d22798-7] Sending rendering size change: 722x407
+[5247:859] [o1d22798-4] Unmapping shared mem: 126
+[5247:859] Created new pool buffer at 0x5232b94e000, 518400 bytes
+[5247:861] [o1d22798-4] Registered new shared memory segment at 127
+[5310:285] [o1d22798-5] Sending rendering size change: 175x100
+[5310:366] [o1d22798-4] Sending rendering size change: 175x100
+[5310:372] [o1d22798-9] Unmapping shared mem: 122
+[5310:372] Created new pool buffer at 0x5232b9cd000, 2073600 bytes
+[5310:383] [o1d22798-9] Registered new shared memory segment at 128
+[5310:383] [o1d22798-7] Sending rendering size change: 1622x913
+[5310:585] [o1d22798-9] Sending rendering size change: 1622x913
+[5553:356] [o1d22798-9] Sending rendering size change: 722x407
+[5553:360] [o1d22798-7] Sending rendering size change: 722x407
+[5553:546] [o1d22798-4] Sending rendering size change: 155x89
+[5553:546] [o1d22798-5] Sending rendering size change: 155x89
+[5623:771] [o1d22798-9] Sending rendering size change: 1492x840
+[5623:784] [o1d22798-7] Sending rendering size change: 1492x840
+[5623:848] [o1d22798-4] Sending rendering size change: 175x100
+[5623:849] [o1d22798-5] Sending rendering size change: 175x100
+[5631:293] [o1d22798-9] Sending rendering size change: 1622x913
+[5631:293] [o1d22798-7] Sending rendering size change: 1622x913
+[5638:645] [o1d22798-9] Sending rendering size change: 1492x840
+[5638:653] [o1d22798-7] Sending rendering size change: 1492x840
+[5663:345] [o1d22798-9] Sending rendering size change: 1622x913
+[5663:363] [o1d22798-7] Sending rendering size change: 1622x913
+[5734:510] Error(plugin.cc:262): libyuv scale failed (-1)
+[5734:542] [o1d22798-10] Sending rendering size change: 100x0
+[5734:542] [o1d22798-10] Unmapping shared mem: 112
+[5734:543] Created new pool buffer at 0x5232b4a7000, 27720 bytes
+[5734:543] [o1d22798-10] Registered new shared memory segment at 129
+[5736:139] Error(plugin.cc:262): libyuv scale failed (-1)
+[5736:174] [o1d22798-10] Sending rendering size change: 158x100
+[5767:241] [o1d22798-9] Sending rendering size change: 1492x840
+[5767:241] [o1d22798-7] Sending rendering size change: 1492x840
+[6373:241] [o1d22798-9] Sending rendering size change: 1622x913
+[6373:241] [o1d22798-7] Sending rendering size change: 1622x913
+[6716:898] [o1d22798-9] Sending rendering size change: 1492x840
+[6716:903] [o1d22798-7] Sending rendering size change: 1492x840
+[6740:860] [o1d22798-9] Sending rendering size change: 1622x913
+[6740:860] [o1d22798-7] Sending rendering size change: 1622x913
+[7080:804] [o1d22798-9] Sending rendering size change: 1492x840
+[7080:804] [o1d22798-7] Sending rendering size change: 1492x840
+[7083:493] [o1d22798-9] Sending rendering size change: 1622x913
+[7083:535] [o1d22798-7] Sending rendering size change: 1622x913
+[7248:196] [o1d22798-9] Sending rendering size change: 1492x840
+[7248:197] [o1d22798-7] Sending rendering size change: 1492x840
+[7254:074] [o1d22798-9] Sending rendering size change: 1622x913
+[7254:074] [o1d22798-7] Sending rendering size change: 1622x913
+[9070:921] [o1d22798-4] Sending rendering size change: 158x100
+[9071:025] Warning(logging.cc:212): Slow log: took 103ms to write 63 bytes.
+[9071:034] [o1d22798-4] Unmapping shared mem: 127
+[9071:035] Created new pool buffer at 0x5232bbc8000, 1296000 bytes
+[9071:038] [o1d22798-4] Registered new shared memory segment at 130
+[9071:093] [o1d22798-9] Sending rendering size change: 1461x913
+[9071:093] [o1d22798-7] Sending rendering size change: 1461x913
+[9302:191] [o1d22798-9] Shutting down instance.
+[9302:191] [o1d22798-9] Attached client while shutting down; sending shutdown notification.
+[9302:197] [o1d22798-9] Client disconnected.
+[9302:200] [o1d22798-7] Shutting down instance.
+[9302:200] [o1d22798-7] Attached client while shutting down; sending shutdown notification.
+[9302:202] [o1d22798-7] Client disconnected.
+[9302:546] [o1d22798-10] Shutting down instance.
+[9302:546] [o1d22798-10] Attached client while shutting down; sending shutdown notification.
+[9302:546] [o1d22798-10] Client disconnected.
+[9302:547] [o1d22798-12] Shutting down instance.
+[9302:547] [o1d22798-12] Attached client while shutting down; sending shutdown notification.
+[9302:548] [o1d22798-12] Client disconnected.
+[9302:548] [o1d22798-6] Shutting down instance.
+[9302:548] [o1d22798-6] Client disconnected.
+[9302:548] [o1d22798-5] Shutting down instance.
+[9302:548] [o1d22798-5] Attached client while shutting down; sending shutdown notification.
+[9302:548] [o1d22798-5] Client disconnected.
+[9302:548] [o1d22798-13] Shutting down instance.
+[9302:548] [o1d22798-13] Attached client while shutting down; sending shutdown notification.
+[9302:565] [o1d22798-13] Client disconnected.
+[9302:565] [o1d22798-4] Shutting down instance.
+[9302:565] [o1d22798-4] Attached client while shutting down; sending shutdown notification.
+[9302:566] [o1d22798-4] Client disconnected.

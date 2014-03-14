@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<link rel="stylesheet" href="setting.css" type="text/css" media="all">
+<link rel="shortcut icon" href="icon_32.png" type="image/png">
+<title class="i18n [s_setting]">chromeTouch Setting</title>
+<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="localize.js"></script>
+<script type="text/javascript" src="chromeTouch.js"></script>
+<script type="text/javascript" src="setting.js"></script>
+</head>
+<body id="setting">
+<div id="container">
+  <div id="contents">
+    <h1 class="i18n [s_setting]">chromeTouch Setting</h1>
+
+    <form name="setting">
+
+      <div class="language">
+          <span class="i18n [s_language]">Language</span>:
+          <select name="lang" id="lang">
+          </select>
+      </div>
+
+      <fieldset>
+        <legend class="i18n [s_basic]">Basic</legend>
+
+        <div class="item" id="touchMode">
+          <h3 class="i18n [s_touchmode]">Touch Mode</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_auto.png" title="Auto"></td>
+              <td><label for="touchMode_1"><input type="radio" name="touchMode" id="touchMode_1" value="1"><span class="i18n [s_touchmode_auto]">Auto(no dragging on text)</span></label></td>
+            </tr>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_full.png" title="Full"></td>
+              <td><label for="touchMode_2"><input type="radio" name="touchMode" id="touchMode_2" value="2"><span class="i18n [s_touchmode_full]">Full(dragging any time)</span></label></td>
+            </tr>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_off.png" title="Off"></td>
+              <td><label for="touchMode_3"><input type="radio" name="touchMode" id="touchMode_3" value="3"><span class="i18n [s_touchmode_off]">Off(no dragging)</span></label></td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td style="padding-top:20px;">
+                  <label for="switchTouchMode_1"><input type="checkbox" name="switchTouchMode" id="switchTouchMode_1" value="1"><span class="i18n [s_easyswitch]">use Easy Switch</span></label><br>
+                  <label for="switchTouchModeKeys" style="padding-left:20px;"><span class="i18n [s_hotkey]">Hot key</span>: <input type="text" name="switchTouchModeKeys" id="switchTouchModeKeys" value="" rel="switchTouchModeEasyKey"></label>
+                  <input type="text" name="switchTouchModeEasyKey" id="switchTouchModeEasyKey" style="display:none;">
+                  <button id="switchTouchModeKeysUpdate" style="display:none;font-size:0.9em;" class="i18n [s_update]">Update</button>
+                  <p class="note i18n [s_easyswitch_note]">Press Hot key,<br>Touch Mode will change 'Auto' -&gt; 'Full' -&gt; 'Off' -&gt; ..</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td>
+                  <label for="hideIcon_1"><input type="checkbox" name="hideIcon" id="hideIcon_1" value="1"><span class="i18n [s_hideicon]">don't show icon</span></label>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item" id="useButton">
+          <h3 class="i18n [s_mousebutton]">Use Mouse Button</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_mouse_left.png" title="Left"></td>
+              <td><label for="useButton_1"><input type="radio" name="useButton" id="useButton_1" value="1"><span class="i18n [s_mousebutton_left]">Left Button</span></label></td>
+            </tr>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_mouse_middle.png" title="Middle"></td>
+              <td><label for="useButton_2"><input type="radio" name="useButton" id="useButton_2" value="2"><span class="i18n [s_mousebutton_middle]">Middle Button</span></label></td>
+            </tr>
+            <tr>
+              <td class="itemdesc"><img src="image/ico_mouse_right.png" title="Right"></td>
+              <td><label for="useButton_3"><input type="radio" name="useButton" id="useButton_3" value="3"><span class="i18n [s_mousebutton_right]">Right Button</span></label></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item" id="dragDirection">
+          <h3 class="i18n [s_dragdirection]">Drag Direction</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"></td>
+              <td>
+                <label for="dragDirection_1"><input type="radio" name="dragDirection" id="dragDirection_1" value="1"><span class="i18n [s_dragdirection_normal]">Normal</span></label><br>
+                <label for="dragDirection_2"><input type="radio" name="dragDirection" id="dragDirection_2" value="2"><span class="i18n [s_dragdirection_reverse]">Reverse</span></label><br>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="i18n [s_draggrideparam]">Drag and Sliding Parameter</legend>
+
+        <div class="item" id="dragSpeed">
+          <h3 class="i18n [s_dragspeed]">Drag Speed</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"><span class="i18n [s_dragspeed_fast]">fast</span><br><img src="image/arrow_range.png"><br><span class="i18n [s_dragspeed_slow]">slow</span></td>
+              <td class="itemvalue">
+                <label for="dragSpeed_5"><input type="radio" name="dragSpeed" id="dragSpeed_5" value="5">5</label><br>
+                <label for="dragSpeed_4"><input type="radio" name="dragSpeed" id="dragSpeed_4" value="4">4</label><br>
+                <label for="dragSpeed_3"><input type="radio" name="dragSpeed" id="dragSpeed_3" value="3">3 (<span class="i18n [default]">default</span>)</label><br>
+                <label for="dragSpeed_2"><input type="radio" name="dragSpeed" id="dragSpeed_2" value="2">2</label><br>
+                <label for="dragSpeed_1"><input type="radio" name="dragSpeed" id="dragSpeed_1" value="1">1</label><br>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_dragspeed_note]">Change faster or slower the screen scroll than the mouse drag speed.</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item" id="glideDistance">
+          <h3 class="i18n [s_glidedistance]">Sliding Distance</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"><span class="i18n [s_glidedistance_short]">short</span><br><img src="image/arrow_range.png"><br><span class="i18n [s_glidedistance_long]">long</span></td>
+              <td class="itemvalue">
+                <label for="glideDistance_5"><input type="radio" name="glideDistance" id="glideDistance_5" value="5">5</label><br>
+                <label for="glideDistance_4"><input type="radio" name="glideDistance" id="glideDistance_4" value="4">4</label><br>
+                <label for="glideDistance_3"><input type="radio" name="glideDistance" id="glideDistance_3" value="3">3 (<span class="i18n [default]">default</span>)</label><br>
+                <label for="glideDistance_2"><input type="radio" name="glideDistance" id="glideDistance_2" value="2">2</label><br>
+                <label for="glideDistance_1"><input type="radio" name="glideDistance" id="glideDistance_1" value="1">1</label><br>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_glidedistance_note]">The screen slides according to the drag speed when the mouse button is up after the drag. The length of the sliding factor.</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item" id="glideFactor">
+          <h3 class="i18n [s_glidefactor]">Sliding Factor</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"><span class="i18n [s_glidefactor_fastend]">fast end</span><br><img src="image/arrow_range.png"><br><span class="i18n [s_glidefactor_slowend]">slow end</span></td>
+              <td class="itemvalue">
+                <label for="glideFactor_5"><input type="radio" name="glideFactor" id="glideFactor_5" value="5">5</label><br>
+                <label for="glideFactor_4"><input type="radio" name="glideFactor" id="glideFactor_4" value="4">4</label><br>
+                <label for="glideFactor_3"><input type="radio" name="glideFactor" id="glideFactor_3" value="3">3 (<span class="i18n [default]">default</span>)</label><br>
+                <label for="glideFactor_2"><input type="radio" name="glideFactor" id="glideFactor_2" value="2">2</label><br>
+                <label for="glideFactor_1"><input type="radio" name="glideFactor" id="glideFactor_1" value="1">1</label><br>
+                <label for="glideFactor_0"><input type="radio" name="glideFactor" id="glideFactor_0" value="0">0 (<span class="i18n [s_glidefactor_neverstop]">Never stop</span>)</label></label><br>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_glidefactor_note]">Sliding speed is reduced gradually until stop. Sliding brake factor.</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="i18n [s_otherfeatures]">Other Features</legend>
+
+        <div class="item">
+          <h3 class="i18n [s_bounceeffect]">Bounce Effect</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"></td>
+              <td class="itemvalue">
+                <label for="featureBounce_1"><input type="checkbox" name="featureBounce" id="featureBounce_1" value="1"><span class="i18n [on]">On</span></label>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_bounceeffect_note]">This is an effect that the screen rebounds to the window after it slides the uppermost part or the under the screen.</span></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item">
+          <h3 class="i18n [s_noscrolllbars]">No scrolllbars mode</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"></td>
+              <td class="itemvalue">
+                <label for="featureNoScrollbar_1"><input type="checkbox" name="featureNoScrollbar" id="featureNoScrollbar_1" value="1"><span class="i18n [on]">On</span></label>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_noscrolllbars_note]">You can use the screen more widely by this mode.</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+              <td>
+                <label for="featureNoScrollbarUseKeyboard_1"><input type="checkbox" name="featureNoScrollbarUseKeyboard" id="featureNoScrollbarUseKeyboard_1" value="1"><span class="i18n [s_noscrolllbars_keyboardoption]">Enable keyboard navigation</span></label>
+                <br>
+                <label for="featureNoScrollbarUseMousewheel_1"><input type="checkbox" name="featureNoScrollbarUseMousewheel" id="featureNoScrollbarUseMousewheel_1" value="1"><span class="i18n [s_noscrolllbars_mousewheeloption]">Enable mouse wheel</span></label>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="item">
+          <h3 class="i18n [s_mousegesture]">Mouse Gesture</h3>
+          <table>
+            <tr>
+              <td class="itemdesc"></td>
+              <td class="itemvalue">
+                <label for="featureMousegesture_1"><input type="checkbox" name="featureMousegesture" id="featureMousegesture_1" value="1"><span class="i18n [on]">On</span></label>
+              </td>
+              <td class="itemnote">
+                <p><span class="i18n [s_mousegesture_note]">Drag the page left for page back, drag right for page forward.</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+              <td>
+                <label for="featureMousegestureReverseBackForward_1"><input type="checkbox" name="featureMousegestureReverseBackForward" id="featureMousegestureReverseBackForward_1" value="1"><span class="i18n [s_mousegesture_reversebackforward]">Reverse gesture direction for forward/back page</span></label>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </fieldset>
+
+    </form>
+
+  </div>
+</div>
+</body>
+</html>

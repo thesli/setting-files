@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ro"
+   },
+   "qs_about_close_button": {
+      "message": "\u00CEnchide\u021Bi"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Dup\u0103 ce face\u021Bi clic pe un rezultat al c\u0103ut\u0103rii Google, Derulare rapid\u0103 poate ap\u0103rea \u00EEn col\u021Bul din dreapta jos al paginii, afi\u0219\u00E2nd unul sau mai multe fragmente de text din pagin\u0103, care sunt relevante pentru interogarea dvs. F\u0103c\u00E2nd clic pe text ve\u021Bi ajunge la respectiva parte a paginii"
+   },
+   "qs_about_explanation2": {
+      "message": "Google Derulare rapid\u0103 apare numai atunci c\u00E2nd poate fi util\u0103. O pute\u021Bi minimiza f\u0103c\u00E2nd clic pe butonul de minimizare din dreapta sus."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EDespre Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EPolitica de confiden\u021Bialitate\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003ETermeni \u0219i condi\u021Bii\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "Cum func\u021Bioneaz\u0103 Google Derulare rapid\u0103:"
+   },
+   "qs_about_installed": {
+      "message": "Google Derulare rapid\u0103 este acum instalat\u0103."
+   },
+   "qs_about_introduction": {
+      "message": "Google Derulare rapid\u0103 este o extensie pentru browser care v\u0103 ajut\u0103 s\u0103 g\u0103si\u021Bi mai repede ceea ce c\u0103uta\u021Bi."
+   },
+   "qs_about_only_useful": {
+      "message": "Extensia Derulare rapid\u0103 apare numai c\u00E2nd este util\u0103. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003EAfla\u021Bi mai multe\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Op\u021Biunile au fost salvate"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Ajuta\u021Bi la perfec\u021Bionarea extensiei Google Derulare rapid\u0103 trimi\u021B\u00E2nd automat statistici de utilizare la Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Op\u021Biuni de confiden\u021Bialitate"
+   },
+   "qs_about_step_1": {
+      "message": "Efectua\u021Bi o c\u0103utare Google."
+   },
+   "qs_about_step_2": {
+      "message": "Face\u021Bi clic pe un rezultat al c\u0103ut\u0103rii."
+   },
+   "qs_about_step_3": {
+      "message": "Face\u021Bi clic pe Google Derulare rapid\u0103 pentru a accesa por\u021Biunile relevante din pagin\u0103."
+   },
+   "qs_about_support_instructions": {
+      "message": "Dac\u0103 ave\u021Bi \u00EEntreb\u0103ri sau probleme privind utilizarea extensiei Derulare rapid\u0103, consulta\u021Bi \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Epagina de asisten\u021B\u0103\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "V\u0103 mul\u021Bumim c\u0103 a\u021Bi instalat Google Derulare rapid\u0103!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003E\u00CEncerca\u021Bi-o!\u003C/b\u003E C\u0103uta\u021Bi [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] \u0219i face\u021Bi clic pe rezultatul \u201Edark matter brown dwarfs\u201D."
+   },
+   "qs_about_try_queries": {
+      "message": "\u00CEncerca\u021Bi aceste interog\u0103ri:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "Pentru a dezinstala Google Derulare rapid\u0103, utiliza\u021Bi op\u021Biunea din meniul Instrumente&nbsp;\u003E&nbsp;Extensii din Chrome \u0219i face\u021Bi clic pe linkul Dezinstala\u021Bi pentru extensia Google Derulare rapid\u0103."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Dezinstalare"
+   },
+   "qs_description": {
+      "message": "Google Derulare rapid\u0103 v\u0103 permite s\u0103 trece\u021Bi direct la p\u0103r\u021Bile relevante dintr-un rezultat al C\u0103ut\u0103rii Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Mai pu\u021Bine rezultate"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Afi\u0219a\u021Bi rezultatele ini\u021Biale pentru interogarea dvs."
+   },
+   "qs_gallery_description": {
+      "message": "Google Derulare rapid\u0103 este o extensie de browser care v\u0103 ajut\u0103 s\u0103 g\u0103si\u021Bi mai rapid ceea ce c\u0103uta\u021Bi.\u003Cbr/\u003E\u003Cbr/\u003EDup\u0103 ce face\u021Bi clic pe un rezultat al c\u0103ut\u0103rii Google, Derularea rapid\u0103 poate ap\u0103rea \u00EEn col\u021Bul din dreapta jos al paginii, afi\u0219\u00E2nd unul sau mai multe fragmente de text din pagin\u0103, care sunt relevante pentru interogarea dvs. F\u0103c\u00E2nd clic pe text ve\u021Bi ajunge la respectiva parte a paginii.\u003Cbr/\u003E\u003Cbr/\u003EGoogle Derulare rapid\u0103 \u00EEncearc\u0103 s\u0103 nu v\u0103 incomodeze \u0219i apare numai atunci c\u00E2nd poate fi util\u0103."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Ne pare r\u0103u, Google Derulare rapid\u0103 nu a g\u0103sit niciun rezultat \u00EEn aceast\u0103 pagin\u0103 \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003EAfla\u021Bi mai multe.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "Aceast\u0103 pagin\u0103 pare s\u0103 fie integral despre \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Google Derulare rapid\u0103 apare atunci c\u00E2nd numai unele p\u0103r\u021Bi ale paginii sunt relevante. \u003Cspan class=\"goog_qs-learn-more\"\u003EAfla\u021Bi mai multe.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Google Derularea rapid\u0103 nu a ap\u0103rut deoarece \u00EEntreaga pagin\u0103 este relevant\u0103 pentru interogarea dvs."
+   },
+   "qs_info_on_search": {
+      "message": "Google Derulare rapid\u0103 apare dup\u0103 ce face\u021Bi clic pe un rezultat al c\u0103ut\u0103rii Google. \u003Cspan class=\"goog_qs-learn-more\"\u003EAfla\u021Bi mai multe.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "F\u0103c\u00E2nd clic pe \u201EInstala\u021Bi\u201D accepta\u021Bi ace\u0219ti Termeni \u0219i condi\u021Bii: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Mai multe rezultate \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Afi\u0219a\u021Bi mai multe rezultate pentru interogarea dvs."
+   },
+   "qs_name": {
+      "message": "Google Derulare rapid\u0103"
+   },
+   "qs_page_action_active": {
+      "message": "Google Derulare rapid\u0103 a g\u0103sit rezultate pe aceast\u0103 pagin\u0103."
+   },
+   "qs_page_action_inactive": {
+      "message": "Google Derulare rapid\u0103 este activat\u0103. Face\u021Bi clic pentru mai multe informa\u021Bii."
+   },
+   "qs_page_action_running": {
+      "message": "Google Derulare rapid\u0103 a\u0219teapt\u0103 ca pagina s\u0103 se \u00EEncarce..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "Deschide\u021Bi pagina de ajutor \u0219i op\u021Biuni"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Rezultate \u00EEn pagin\u0103 pentru \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "\nRezultate \u00EEn pagin\u0103 pentru \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Minimiza\u021Bi"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "Deschide\u021Bi Google Derulare rapid\u0103"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Face\u021Bi clic pentru a afi\u0219a acest text \u00EEn pagin\u0103"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Accesa\u021Bi direct textul $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "Cele mai bune rezultate pentru \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

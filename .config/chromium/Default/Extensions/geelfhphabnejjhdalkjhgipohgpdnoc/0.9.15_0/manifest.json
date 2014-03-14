@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "views/background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/Icon_48x48.png",
+      "default_popup": "views/popup.html",
+      "default_title": "Ripple"
+   },
+   "content_scripts": [ {
+      "js": [ "controllers/Insertion.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "controllers/frame.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "A browser based html5 mobile application development and testing tool",
+   "icons": {
+      "128": "images/Icon_128x128.png",
+      "16": "images/Icon_16x16.png",
+      "48": "images/Icon_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC6tip46gWv+c1xyQ7ulD272dwUaa4OP8z2P2SyCoJ2qRYJtjoIvTl/i5m939ftWWyQqI1pz1N+D8XBHSo+RENFHHbC7NxlePOMpDRWzMogW0S1lVO0NbOTAasBwddCk9cGsisKgMAkH0+gmPuaJyT3eOP5JHDY9IuDZf9aBlLIwIDAQAB",
+   "manifest_version": 2,
+   "name": "Ripple Emulator (Beta)",
+   "permissions": [ "tabs", "unlimitedStorage", "notifications", "contextMenus", "webRequest", "\u003Call_urls\u003E" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.9.15",
+   "web_accessible_resources": [ "bootstrap.js", "controllers/Background.js", "controllers/frame.js", "controllers/Insertion.js", "controllers/jquery.js", "controllers/PopUp.js", "controllers/update.js", "images/arrow.png", "images/Bold9700.png", "images/Bold9900.png", "images/circle.png", "images/compass.png", "images/Curve9300.png", "images/Curve9350-9360-9370.png", "images/dance.gif", "images/getstarted.png", "images/Icon_128x128.png", "images/Icon_150x150.png", "images/Icon_16x16.png", "images/Icon_48x48.png", "images/load.gif", "images/load2.gif", "images/NOTICE", "images/Pearl9100.png", "images/Playbook.png", "images/Playbook_landscape.png", "images/Q10.png", "images/README.md", "images/ripplelogo.png", "images/ripplelogo_large.png", "images/Style9670.png", "images/Torch9800.png", "images/Torch9800_landscape.png", "images/Torch9810.png", "images/Torch9810_landscape.png", "images/Torch9860-9850.png", "images/Torch9860-9850_landscape.png", "images/ui-bg-hashed.png", "images/webworks/bb10/ActionOverflowMenu.png", "images/webworks/bb10/Browser_BookmarkLink.png", "images/webworks/bb10/Browser_Cancel_Selection.png", "images/webworks/bb10/Browser_Copy.png", "images/webworks/bb10/Browser_CopyImageLink.png", "images/webworks/bb10/Browser_CopyLink.png", "images/webworks/bb10/Browser_Cut.png", "images/webworks/bb10/Browser_OpenLink.png", "images/webworks/bb10/Browser_OpenLinkInNewTab.png", "images/webworks/bb10/Browser_SaveImage.png", "images/webworks/bb10/Browser_SaveLink.png", "images/webworks/bb10/Browser_Search.png", "images/webworks/bb10/Browser_ShareImage.png", "images/webworks/bb10/Browser_ShareLink.png", "images/webworks/bb10/Browser_ViewImage.png", "images/webworks/bb10/core_crosscutmenu_bg.png", "images/webworks/bb10/core_crosscutmenu_selected.png", "images/webworks/bb10/crosscutmenu_paste.png", "images/webworks/bb10/drag_bar.png", "images/webworks/bb10/generic_81_81_placeholder.png", "images/Z10-Landscape.png", "images/Z10.png", "manifest.json", "ripple.css", "ripple.js", "styles/extension.css", "themes/dark/images/device.png", "themes/dark/images/ui-bg_flat_25_222222_40x100.png", "themes/dark/images/ui-bg_flat_30_cccccc_40x100.png", "themes/dark/images/ui-bg_flat_50_1e1e1e_40x100.png", "themes/dark/images/ui-bg_glass_40_ffc73d_1x400.png", "themes/dark/images/ui-bg_highlight-hard_30_5871a3_1x100.png", "themes/dark/images/ui-bg_highlight-soft_0_333333_1x100.png", "themes/dark/images/ui-bg_highlight-soft_10_333333_1x100.png", "themes/dark/images/ui-bg_highlight-soft_20_333333_1x100.png", "themes/dark/images/ui-bg_highlight-soft_50_1e1e1e_1x100.png", "themes/dark/images/ui-icons_222222_256x240.png", "themes/dark/images/ui-icons_5871a3_256x240.png", "themes/dark/images/ui-icons_a83300_256x240.png", "themes/dark/images/ui-icons_cccccc_256x240.png", "themes/dark/images/ui-icons_ffffff_256x240.png", "themes/dark/theme.css", "themes/light/images/device.png", "themes/light/images/ui-anim_basic_16x16.gif", "themes/light/images/ui-bg_flat_0_aaaaaa_40x100.png", "themes/light/images/ui-bg_flat_75_ffffff_40x100.png", "themes/light/images/ui-bg_glass_55_fbf9ee_1x400.png", "themes/light/images/ui-bg_glass_65_ffffff_1x400.png", "themes/light/images/ui-bg_glass_75_dadada_1x400.png", "themes/light/images/ui-bg_glass_75_e6e6e6_1x400.png", "themes/light/images/ui-bg_glass_95_fef1ec_1x400.png", "themes/light/images/ui-bg_highlight-soft_75_cccccc_1x100.png", "themes/light/images/ui-icons_222222_256x240.png", "themes/light/images/ui-icons_2e83ff_256x240.png", "themes/light/images/ui-icons_454545_256x240.png", "themes/light/images/ui-icons_888888_256x240.png", "themes/light/images/ui-icons_cd0a0a_256x240.png", "themes/light/theme.css", "ui.html", "views/background.html", "views/popup.html", "views/update.html" ]
+}

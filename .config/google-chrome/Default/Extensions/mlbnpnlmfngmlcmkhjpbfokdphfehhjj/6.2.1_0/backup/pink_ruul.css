@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/*ruul setup*/
+#ruulPink {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	z-index: 100000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	direction: ltr;
+}
+body {
+	overflow-x: hidden;
+}
+
+/* ADVERT AREA */
+#ruulPinkHorizontalAdvert {
+	background-image: url('http://www.christhelwell.com/apps/ruul_adverts/advert_images/ruul_horizontal_advert.png');
+	height: 25px;
+	width: 300px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: left top;
+	left: 150px;
+	top: 38px;
+	display: none;
+}
+#ruulPinkVerticalAdvert {
+	display: none;
+	background-image: url('http://www.christhelwell.com/apps/ruul_adverts/advert_images/ruul_vertical_advert.png');
+	height: 300px;
+	width: 25px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: left top;
+	left: 40px;
+	top: 150px;
+}
+#ruulPinkPanelAdvert {
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	display: none;
+}
+#ruulPinkPanelAdvert.horizontal {
+	left: 454px;
+	top: 230px;
+}
+#ruulPinkPanelAdvert.vertical {
+	left: 255px;
+	top: 434px;
+}
+#ruulPinkPanelAdvert.start {
+	left: -2000px;
+	top: -2000px;
+}
+
+/* CHANGE AREA 1 */
+
+/*ruul states*/
+#ruulPink.ruulHorizontal {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink_ruul_h.png');
+	height: 100px;
+	width: 600px;
+}
+#ruulPink.ruulVertical {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink_ruul_v.png');
+	height: 600px;
+	width: 100px;
+}
+#ruulPink.ruulHorizontalOpen {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink_ruul_h_open.png');
+	height: 400px;
+	width: 600px;
+}
+#ruulPink.ruulVerticalOpen {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/pink_ruul_v_open.png');
+	height: 600px;
+	width: 400px;
+}
+/* END OF CHANGE AREA 1 */
+
+
+/*ruul buttons – generic*/
+#ruulPink a {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: left top;
+	z-index: 100001;
+	border-radius: 10px;
+	background-color:#fb87af;
+}
+#ruulPink a:hover {
+	background-position: left bottom;
+	background-color:#000;
+}
+
+
+/* CHANGE AREA 2 – BUTTONS */
+
+/*ruul buttons – actual*/
+#ruulPinkRotate {
+}
+#ruulPinkTextDrop {
+}
+#ruulPinkClose {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_bin.png');
+}
+
+
+/*ruul buttons – horizontal and vertical*/
+#ruulPink .ruulHorizontalButton {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_rotatedown.png');
+	left: 41px;
+	top: 42px;
+}
+#ruulPink .ruulVerticalButton {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_rotateup.png');
+	left: 41px;
+	top: 42px;
+}
+#ruulPink .ruulTextDropHorizontal {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_plus.png');
+	top: 42px;
+	left: 71px;
+}
+#ruulPink .ruulTextDropVertical {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_plus.png');
+	top: 72px;
+	left: 41px;
+}
+#ruulPink .ruulTextDropHorizontalDown {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_minus.png');
+	top: 42px;
+	left: 71px;
+}
+#ruulPink .ruulTextDropVerticalDown {
+	background-image: url('chrome-extension://__MSG_@@extension_id__/images/button_minus.png');
+	top: 72px;
+	left: 41px;
+}
+#ruulPink .ruulCloseHorizontal {
+	top: 42px;
+	left: 101px;
+}
+#ruulPink .ruulCloseVertical {
+	top: 102px;
+	left: 41px;
+}
+
+/* END OF CHANGE AREA 2 */
+
+
+/* Fix to prevent buttons moving on roll over incase site has positions for rollovers*/
+.ruulHorizontalButton:hover {
+	right: 40px;
+	top: 42px;
+}
+.ruulVerticalButton:hover {
+	left: 42px;
+	top: 40px;
+}
+.ruulTextDropHorizontal:hover {
+	top: 42px;
+	right: 70px;
+}
+.ruulTextDropVertical:hover {
+	top: 70px;
+	left: 42px;
+}
+.ruulTextDropHorizontalDown:hover {
+	top: 42px;
+	right: 70px;
+}
+.ruulTextDropVerticalDown:hover {
+	top: 70px;
+	left: 42px;
+}
+.ruulCloseHorizontal:hover {
+	top: 42px;
+	right: 100px;
+}
+.ruulCloseVertical:hover {
+	top: 100px;
+	left: 42px;
+}
+
+
+
+/*image URLs for extension: background-image:url('chrome-extension://nameofextensiongoeshere/background.png');
+/*__MSG_@@extension_id__*/

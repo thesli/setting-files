@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+
+.zFrameDiv {
+	position: fixed; 
+	display: none; 
+	top: 0px; 
+	z-index: 999; 
+	background: white;
+	height: 100%;
+}
+
+.zPreview {
+}
+
+.zMagIcon {
+	vertical-align: bottom;
+}

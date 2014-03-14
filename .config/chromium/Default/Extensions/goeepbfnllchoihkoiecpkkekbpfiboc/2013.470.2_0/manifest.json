@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "/js/jquery.js", "/js/xml2array.js", "api_key.js", "/js/background.js" ]
+   },
+   "content_security_policy": "script-src 'self' https://api.wunderground.com https://apis.google.com https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Awesome weather widget for Awesome New Tab Page. Resizable and multi-placeable. [ANTP]",
+   "icons": {
+      "128": "/img/icon128.png",
+      "256": "/img/icon256.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzI7XZTogEdOT3TI1dwPGWwLwVoYHGrwgfxjy6p1neQC9iD3Au2qVlYyjS+i5lbK4b/BSxFeXgXM39L2XoDYowOTXdqI3Wcj53oN7Vq3IDSOyaNcutP79tMCcvizxLI3WAu4S+H3WOznSsx396V0jae3LzRQjSdE35Ey/9UQ6+fQIDAQAB",
+   "manifest_version": 2,
+   "name": "Awesome Weather Widget [ANTP]",
+   "options_page": "options.html",
+   "permissions": [ "alarms", "*://api.wunderground.com/*", "https://maps.googleapis.com/maps/api/", "storage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2013.470.2",
+   "web_accessible_resources": [ "widget.html", "options.html" ]
+}

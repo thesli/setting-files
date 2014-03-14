@@ -1,0 +1,65 @@
+{
+   "add": {
+      "message": "Add"
+   },
+   "autofinish": {
+      "message": "Auto Finish: If your post is too shot, finish it automatically. (Beta)"
+   },
+   "autofinish_ok": {
+      "message": "Finish! Please press CTRL + ENTER to post it."
+   },
+   "close": {
+      "message": "Hide"
+   },
+   "delete": {
+      "message": "Del"
+   },
+   "description": {
+      "message": "Remove AD from forums which based on Discuz! or Discuz!X."
+   },
+   "killdzad": {
+      "message": "Remove AD from forums which based on Discuz!."
+   },
+   "killdzxad": {
+      "message": "Remove AD from forums which based on Discuz!X."
+   },
+   "killsignad": {
+      "message": "Remove users' signature."
+   },
+   "killwidget": {
+      "message": "Remove float windows from forums. (Beta)"
+   },
+   "name": {
+      "message": "Discuz! Forum Tools"
+   },
+   "noflashtitle": {
+      "message": "Remove 'Title Flash' from Discuz!X. (Beta)"
+   },
+   "open": {
+      "message": "Show"
+   },
+   "reload": {
+      "message": "Undo"
+   },
+   "reload_ok": {
+      "message": "Undo changes successfully."
+   },
+   "restore": {
+      "message": "Restore"
+   },
+   "restore_ok": {
+      "message": "Restore default successfully."
+   },
+   "save": {
+      "message": "Save"
+   },
+   "save_ok": {
+      "message": "Save successfully."
+   },
+   "setting": {
+      "message": "Discuz! Forum Tools - Setting"
+   },
+   "whitelist": {
+      "message": "Whitelist"
+   }
+}

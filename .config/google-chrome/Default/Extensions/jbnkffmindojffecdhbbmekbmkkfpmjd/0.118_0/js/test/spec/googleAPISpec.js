@@ -1,0 +1,1 @@
+define(["common/googleAPI"],function(o){"use strict";describe("GoogleAPI",function(){it("Should load asynchronously properly",function(){expect(o).not.toEqual(null),expect(o.client).not.toEqual(null)})})});

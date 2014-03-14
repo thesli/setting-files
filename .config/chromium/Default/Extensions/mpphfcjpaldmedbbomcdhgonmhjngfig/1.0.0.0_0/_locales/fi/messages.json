@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "VANHENTUNUT. K\u00E4yt\u00E4 Google Input Tools -laajennusta (saatavilla osoitteesta http://goo.gl/lzCPo)."
+   },
+   "vkbd_name": {
+      "message": "VANHENTUNUT: Virtuaalinen n\u00E4pp\u00E4imist\u00F6 (Googlen laajennus)"
+   },
+   "vkbd_options_title": {
+      "message": "Virtuaalinen n\u00E4pp\u00E4imist\u00F6 -laajennuksen asetukset"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "Valitse n\u00E4pp\u00E4imist\u00F6n ulkoasu(t) vasemmalta:"
+   },
+   "vkbd_save_options": {
+      "message": "Tallenna"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "N\u00E4yt\u00E4/piilota n\u00E4pp\u00E4imist\u00F6"
+   }
+}

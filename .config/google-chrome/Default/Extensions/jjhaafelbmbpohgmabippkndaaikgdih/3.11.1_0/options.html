@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<title>uTorrent for Google Chrome</title>
+		<link rel="stylesheet" type="text/css" href="css/options.css" />
+		<script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/lang.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+	</head>
+	<body>
+		<div id="debug"></div>
+		<div id="header">
+			<div id="logo"></div>
+			<div id="thanks"></div>
+			<div id="donate">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center;margin-top:20px;" target="_blank">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="VZX8LBHK7EJEG">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				</form>
+			</div>
+		</div>
+		<div id="content">
+			<div id="options">
+				<div id="settings" class="bigtitle"></div>
+				<table class="form">
+					<tr id="language">
+						<td class="title"></td>
+						<td class="input">
+							<select>
+								<option value="en">English</option>
+								<option value="fr">Français</option>
+								<option value="es">Español</option>
+							</select>
+						</td>
+					</tr>
+					<tr id="host">
+						<td class="title"></td>
+						<td class="input"><input type="text" /></td>
+					</tr>
+					<tr id="port">
+						<td class="title"></td>
+						<td class="input"><input type="text" /></td>
+					</tr>
+					<tr id="username">
+						<td class="title"></td>
+						<td class="input"><input type="text" /></td>
+					</tr>
+					<tr id="password">
+						<td class="title"></td>
+						<td class="input"><input type="password" /></td>
+					</tr>
+					<tr id="ssl">
+						<td class="title"></td>
+						<td class="input">
+							<select>
+								<option value="0"></option>
+								<option value="1"></option>
+							</select>
+							<input type="button" id="ssltest" value="Test" />
+						</td>
+					</tr>
+					<tr>
+						<td style="padding:10px" colspan="2" id="ssl_warn"></td>
+					</tr>
+					<tr id="badge">
+						<td class="title"></td>
+						<td class="input">
+							<select>
+								<option value="0"></option>
+								<option value="1"></option>
+								<option value="2"></option>
+								<option value="3"></option>
+								<option value="4"></option>
+							</select>
+						</td>
+					</tr>
+					<tr id="notification">
+						<td class="title"></td>
+						<td class="input">
+							<select>
+								<option value="0"></option>
+								<option value="1"></option>
+							</select>
+						</td>
+					</tr>
+					<tr id="interval">
+						<td class="title"></td>
+						<td class="input">
+							<select>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="input"><input type="button" class="save" id="save1" /></td>
+					</tr>
+				</table>
+			</div>
+			<div id="short">
+				<div id="shortcuts" class="bigtitle"></div>
+				<div id="shortcuts_txt"></div>
+			</div>
+			<div id="link">
+				<div id="links" class="bigtitle"></div>
+				<div id="links_txt"></div>
+			</div>
+			<div class="clear"></div>
+			<div id="caps">
+				<div id="howto" class="bigtitle"></div>
+				<img src="images/webUI_01.png" /><br/>
+				<div id="caps1"></div><br/><br/>
+				<img src="images/webUI_02.png" /><br/>
+				<div id="caps2"></div>
+			</div>
+			
+			
+			<div id="support" class="bigtitle"></div>
+
+			<table class="form">
+				<tr id="rj">
+					<td class="title"></td>
+					<td class="input">
+						<select>
+							<option value="0"></option>
+							<option value="1"></option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="input"><input type="button" class="save" id="save2" /></td>
+				</tr>
+			</table>
+			<div id="copyright"></div>
+			<div id="ratings"></div>
+		</div>
+
+	</body>
+</html>

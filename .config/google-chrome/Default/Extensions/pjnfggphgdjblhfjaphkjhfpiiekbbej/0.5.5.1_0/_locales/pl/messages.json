@@ -1,0 +1,107 @@
+{
+   "locale": {
+      "message": "pl"
+   },
+   "sp_chrome_https_case_text": {
+      "message": "To rozszerzenie nie mo\u017Ce podawa\u0107 propozycji dotycz\u0105cych stron zawieraj\u0105cych zabezpieczon\u0105 tre\u015B\u0107, takich jak bie\u017C\u0105ca (np. http\u003Cb\u003Es\u003C/b\u003E://). Do zobaczenia ponownie na publicznych stronach internetowych!"
+   },
+   "sp_chrome_special_case_text": {
+      "message": "Rozszerzenie dzia\u0142a najlepiej na stronach g\u0142\u00F3wnych wi\u0119kszo\u015Bci witryn.\u003Cp\u003EWypr\u00F3buj rozszerzenie w witrynie, kt\u00F3r\u0105 lubisz &mdash; przetestuj je i zobacz podpowiedzi do czego\u015B, co ju\u017C znasz."
+   },
+   "sp_default_title": {
+      "message": "Sprawd\u017A Podobne strony"
+   },
+   "sp_description": {
+      "message": "Odkryj strony podobne do tej, kt\u00F3r\u0105 obecnie przegl\u0105dasz."
+   },
+   "sp_domain_change_message": {
+      "message": "Aby zmieni\u0107 lokaln\u0105 domen\u0119 na www.google.com, \u003Ca id='over' href='#'\u003Ekliknij tutaj\u003C/a\u003E."
+   },
+   "sp_domain_clicked_message": {
+      "message": "Domena www.google.com zosta\u0142a zapisana jako Twoja lokalna domena do pobierania podobnych stron."
+   },
+   "sp_domain_message": {
+      "message": "To rozszerzenie kontaktuje si\u0119 z hostem $1 w celu pobrania listy podobnych stron.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_num_pages": {
+      "message": "Liczba stron: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EWszystko o Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_copy": {
+      "message": "&copy;2010 Google"
+   },
+   "sp_options_feedback": {
+      "message": "Z przyjemno\u015Bci\u0105 zapoznamy si\u0119 z opiniami, kt\u00F3re mo\u017Cna przesy\u0142a\u0107 na adres \u003Ca href='mailto:similarpages-extension@google.com'\u003Esimilarpages-extension@google.com\u003C/a\u003E. Dzi\u0119kujemy!"
+   },
+   "sp_options_intro": {
+      "message": "Rozszerzenie przegl\u0105darki Google Similar Pages umo\u017Cliwia szybki podgl\u0105d i przegl\u0105danie innych stron, kt\u00F3re s\u0105 podobne do obecnie przegl\u0105danej \u2013 na bie\u017C\u0105co!"
+   },
+   "sp_options_legal": {
+      "message": "Po klikni\u0119ciu przycisku Podobne strony przegl\u0105darka wysy\u0142a zapytanie do Google w celu sprawdzenia, czy istniej\u0105 strony podobne do przegl\u0105danej.\u003Cp\u003E\u003Cspan id='domain_select_block'\u003E\u003C/span\u003EDane powi\u0105zane z zapytaniem podlegaj\u0105 \u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003Epolityce prywatno\u015Bci\u003C/a\u003E Google",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/privacypolicy.html\"\u003EPolityka prywatno\u015Bci\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003EWarunki korzystania z us\u0142ugi\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "sp_options_uninstall": {
+      "message": "Odinstalowywanie"
+   },
+   "sp_options_uninstall_message": {
+      "message": "Aby odinstalowa\u0107 rozszerzenie Google Similar Pages, w przegl\u0105darce Chrome u\u017Cyj opcji menu Narz\u0119dzia &gt; Rozszerzenia, a nast\u0119pnie kliknij link Odinstaluj dla rozszerzenia Google Similar Pages."
+   },
+   "sp_preview_not_available": {
+      "message": "Podgl\u0105d\u003Cbr\u003Ejest niedost\u0119pny"
+   },
+   "sp_product_name": {
+      "message": "Google Similar Pages beta (by Google)"
+   },
+   "sp_redirect_host": {
+      "message": "http://www.google.com"
+   },
+   "sp_space": {
+      "message": " "
+   },
+   "sp_title": {
+      "message": "Google Similar Pages"
+   },
+   "sp_tld_special_case_text": {
+      "message": "Rozszerzenie jest chwilowo niedost\u0119pne dla Twojego kraju/regionu. Sprawd\u017A ponownie wkr\u00F3tce."
+   },
+   "sp_zero_results": {
+      "message": "Nie znaleziono podobnych stron."
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "index.html"
+   },
+   "content_scripts": [ {
+      "js": [ "content/autopager-namespace.js", "content/autopager-shared.js", "content/autopager-pref-content.js", "content/autopagerdef.js", "content/autopager-bw-utils.js", "content/autopager-langs.js", "content/autopager-strings.js", "content/autopager-rules-content.js", "content/autopager-lite.js", "content/autopager-utils.js", "content/splitbrowse.js", "content/apxmlhttp.js", "content/autopagerize.js", "content/json.js", "content/autopager-updatesites.js", "content/autopager-json.js", "content/autopager-xpath.js", "content/autopager.js", "content/autopager-paging.js", "content/autopager-troubleshoting.js", "content/autopager-highlight.js", "content/autopager-selector.js", "content/autopager-content.js", "content/autopager-bw-content.js", "content/autopager-related.js", "content/autopager-alert.js", "content/autopager-end.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "AutoPager For Chrome",
+   "icons": {
+      "32": "skin/classic/autopager32.png",
+      "48": "skin/classic/autopager48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbK19CgUapNxcfsyMlIwa3gXAbGMVGiPnGTAaTqCLazUN89wbyFuiILk/DQlMS0raMA72/WSmnuQsSynF/H9uqi6fgXCqFC/kVwmJ15TzEvC+cs+j8CwSzXxY6N3luNIOFJhJ2JKpxo6C2liNqDwLNJ/I8CEatmSCoyJCH9WB9sQIDAQAB",
+   "manifest_version": 2,
+   "name": "AutoPager Chrome",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "skin/classic/autopager32.png",
+      "default_popup": "pagepopup.html",
+      "default_title": "__MSG_autopager_label_value__"
+   },
+   "permissions": [ "tabs", "http://autopager.mozdev.org/conf.d/autopager.xml", "http://autopager.mozddev.org/*", "http://rep.teesoft.info/*", "http://ap.teesoft.info/*", "http://lx-ap.teesoft.info/*", "http://member-ap.teesoft.info/*", "http://es4-ap.teesoft.info/*", "http://s1-ap.teesoft.info/*", "http://fbt62709.surfcanyon.com/*", "http://api.search.live.net/*", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.8.0.4",
+   "web_accessible_resources": [ "content/images/autopager48.png", "content/images/bottom_24.png", "content/images/down_24.png", "content/images/loading.gif", "content/images/top_24.png", "content/images/up_24.png", "content/images/vx.png", "content/images/question.png", "content/images/stars.png" ]
+}

@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "Acerca de"
+   },
+   "about_message": {
+      "message": "De Chrome al tel\u00E9fono, de Google, permite enviar v\u00EDnculos y otra info. de Chrome a tu dispositivo Android. De Chrome al tel\u00E9fono se compone por una extensi\u00F3n de navegador de Chrome y una aplicaci\u00F3n Android."
+   },
+   "about_title_message": {
+      "message": "Acerca de"
+   },
+   "app_desc": {
+      "message": "De Chrome al tel\u00E9fono, de Google, te permite enviar v\u00EDnculos y otro tipo de info. de Chrome a tu dispositivo Android."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone Extension"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "Error de conexi\u00F3n"
+   },
+   "device_not_registered_message": {
+      "message": "El dispositivo no se registro para usuario."
+   },
+   "error_sending_message": {
+      "message": "Error al enviar al tel.: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Env\u00EDa v\u00EDnculos de navegador de Chrome al tel\u00E9fono"
+   },
+   "features_message2": {
+      "message": "V\u00EDnculos de Google Maps inician aplicaci\u00F3n Google Maps en Android."
+   },
+   "features_message3": {
+      "message": "V\u00EDnculos de YouTube inician aplicaci\u00F3n YouTube en Android."
+   },
+   "features_message4": {
+      "message": "Si seleccionas un n\u00FAmero tel., el tel\u00E9fono se iniciar\u00E1 autom\u00E1ticamente con n\u00FAmero cargado."
+   },
+   "features_message5": {
+      "message": "Si seleccionas texto de una p\u00E1gina web, se copiar\u00E1 el portapapeles a Android (presiona un cuadro de texto un momento para pegarlo en Android)."
+   },
+   "features_title_message": {
+      "message": "Funciones"
+   },
+   "help_message": {
+      "message": "Ayuda"
+   },
+   "invalid_scheme_message": {
+      "message": "S\u00F3lo se admiten p\u00E1ginas http o https."
+   },
+   "privacy_message": {
+      "message": "Privacidad"
+   },
+   "sending_message": {
+      "message": "Enviando al tel\u00E9fono..."
+   },
+   "sent_message": {
+      "message": "Enviado al tel\u00E9fono."
+   },
+   "sign_in_message": {
+      "message": "acceder"
+   },
+   "sign_in_required_message": {
+      "message": "$link$ con De Chrome to Phone.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "Salir"
+   },
+   "signed_in_message": {
+      "message": "Has accedido. Ya puedes enviar v\u00EDnculos a tu tel\u00E9fono."
+   },
+   "signed_out_message": {
+      "message": "Has salido de De Chrome al tel\u00E9fono."
+   },
+   "signed_out_title_message": {
+      "message": "Cerraste sesi\u00F3n"
+   },
+   "step2_message": {
+      "message": "Busca 'De Chrome al tel\u00E9fono' en chrome.google.com/extensions."
+   },
+   "step3_message": {
+      "message": "Instala De Chrome al tel\u00E9fono y haz clic en \u00EDcono de barra de herram. para acceder."
+   },
+   "step4_message": {
+      "message": "Busca 'Chrome to Phone' en Market en tu dispositivo Android."
+   },
+   "step5_message": {
+      "message": "Instala la aplic. Android De Chrome al tel\u00E9fono y completa el proceso de config."
+   },
+   "step6_message": {
+      "message": "Haz clic en \u00EDcono de barra de herramientas para enviar al tel\u00E9fono el v\u00EDnculo o texto seleccionado."
+   },
+   "tos_message": {
+      "message": "Condiciones del servicio"
+   }
+}

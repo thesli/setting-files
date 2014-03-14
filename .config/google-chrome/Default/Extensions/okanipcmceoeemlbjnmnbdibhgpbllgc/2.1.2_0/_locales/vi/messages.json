@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "tsp"
+   },
+   "locale": {
+      "message": "vi"
+   },
+   "qs_about_close_button": {
+      "message": "\u0110\u00F3ng"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Sau khi b\u1EA1n nh\u1EA5p v\u00E0o k\u1EBFt qu\u1EA3 t\u00ECm ki\u1EBFm c\u1EE7a Google, Quick Scroll c\u00F3 th\u1EC3 xu\u1EA5t hi\u1EC7n \u1EDF g\u00F3c d\u01B0\u1EDBi c\u00F9ng b\u00EAn ph\u1EA3i c\u1EE7a trang, hi\u1EC3n th\u1ECB m\u1ED9t hay nhi\u1EC1u \u0111o\u1EA1n v\u0103n b\u1EA3n t\u1EEB trang ph\u00F9 h\u1EE3p v\u1EDBi truy v\u1EA5n c\u1EE7a b\u1EA1n. Vi\u1EC7c nh\u1EA5p v\u00E0o v\u0103n b\u1EA3n s\u1EBD \u0111\u01B0a b\u1EA1n \u0111\u1EBFn ph\u1EA7n \u0111\u00F3 c\u1EE7a trang."
+   },
+   "qs_about_explanation2": {
+      "message": "Quick Scroll ch\u1EC9 xu\u1EA5t hi\u1EC7n khi h\u1EEFu \u00EDch. B\u1EA1n c\u00F3 th\u1EC3 thu nh\u1ECF ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng n\u00E0y b\u1EB1ng c\u00E1ch nh\u1EA5p v\u00E0o n\u00FAt thu nh\u1ECF \u1EDF ph\u00EDa tr\u00EAn c\u00F9ng b\u00EAn ph\u1EA3i."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EGi\u1EDBi thi\u1EC7u v\u1EC1 Google\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003ECh\u00EDnh s\u00E1ch b\u1EA3o m\u1EADt\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "C\u00E1ch th\u1EE9c ho\u1EA1t \u0111\u1ED9ng c\u1EE7a Google Quick Scroll:"
+   },
+   "qs_about_installed": {
+      "message": "Google Quick Scroll hi\u1EC7n \u0111\u00E3 \u0111\u01B0\u1EE3c c\u00E0i \u0111\u1EB7t."
+   },
+   "qs_about_introduction": {
+      "message": "Google Quick Scroll l\u00E0 m\u1ED9t ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng c\u1EE7a tr\u00ECnh duy\u1EC7t gi\u00FAp b\u1EA1n t\u00ECm th\u1EA5y nhanh h\u01A1n n\u1ED9i dung b\u1EA1n \u0111ang t\u00ECm ki\u1EBFm."
+   },
+   "qs_about_only_useful": {
+      "message": "Quick Scroll ch\u1EC9 xu\u1EA5t hi\u1EC7n khi h\u1EEFu \u00EDch. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003ET\u00ECm hi\u1EC3u th\u00EAm\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "\u0110\u00E3 l\u01B0u t\u00F9y ch\u1ECDn"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Tr\u1EE3 gi\u00FAp c\u1EA3i thi\u1EC7n Google Quick Scroll b\u1EB1ng c\u00E1ch t\u1EF1 \u0111\u1ED9ng g\u1EEDi th\u1ED1ng k\u00EA s\u1EED d\u1EE5ng \u0111\u1EBFn Google."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "T\u00F9y ch\u1ECDn b\u1EA3o m\u1EADt"
+   },
+   "qs_about_step_1": {
+      "message": "Th\u1EF1c hi\u1EC7n t\u00ECm ki\u1EBFm Google."
+   },
+   "qs_about_step_2": {
+      "message": "Nh\u1EA5p v\u00E0o k\u1EBFt qu\u1EA3 t\u00ECm ki\u1EBFm."
+   },
+   "qs_about_step_3": {
+      "message": "Nh\u1EA5p v\u00E0o Quick Scroll \u0111\u1EC3 chuy\u1EC3n t\u1EDBi c\u00E1c ph\u1EA7n c\u00F3 li\u00EAn quan c\u1EE7a trang."
+   },
+   "qs_about_support_instructions": {
+      "message": "N\u1EBFu b\u1EA1n c\u00F3 th\u1EAFc m\u1EAFc ho\u1EB7c v\u1EA5n \u0111\u1EC1 khi s\u1EED d\u1EE5ng Quick Scroll, vui l\u00F2ng xem \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Etrang h\u1ED7 tr\u1EE3\u003C/a\u003E c\u1EE7a ch\u00FAng t\u00F4i.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "C\u1EA3m \u01A1n b\u1EA1n \u0111\u00E3 c\u00E0i \u0111\u1EB7t Google Quick Scroll!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EH\u00E3y d\u00F9ng th\u1EED!\u003C/b\u003E T\u00ECm ki\u1EBFm [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E] v\u00E0 nh\u1EA5p v\u00E0o k\u1EBFt qu\u1EA3 \"dark matter brown dwarfs\"."
+   },
+   "qs_about_try_queries": {
+      "message": "Th\u1EED c\u00E1c truy v\u1EA5n n\u00E0y:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "\u0110\u1EC3 g\u1EE1 c\u00E0i \u0111\u1EB7t Google Quick Scroll, h\u00E3y s\u1EED d\u1EE5ng t\u00F9y ch\u1ECDn tr\u00ECnh \u0111\u01A1n C\u00F4ng c\u1EE5&nbsp;\u003E&nbsp;Ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng c\u1EE7a Chrome v\u00E0 nh\u1EA5p v\u00E0o li\u00EAn k\u1EBFt G\u1EE1 c\u00E0i \u0111\u1EB7t cho ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng Google Quick Scroll."
+   },
+   "qs_about_uninstall_title": {
+      "message": "G\u1EE1 c\u00E0i \u0111\u1EB7t"
+   },
+   "qs_description": {
+      "message": "Quick Scroll cho ph\u00E9p b\u1EA1n chuy\u1EC3n th\u1EB3ng \u0111\u1EBFn c\u00E1c \u0111o\u1EA1n v\u0103n b\u1EA3n c\u00F3 li\u00EAn quan trong k\u1EBFt qu\u1EA3 t\u00ECm ki\u1EBFm c\u1EE7a Google."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  \u00CDt k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p h\u01A1n"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "Hi\u1EC3n th\u1ECB k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p ban \u0111\u1EA7u cho truy v\u1EA5n c\u1EE7a b\u1EA1n"
+   },
+   "qs_gallery_description": {
+      "message": "Google Quick Scroll l\u00E0 m\u1ED9t ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng c\u1EE7a tr\u00ECnh duy\u1EC7t gi\u00FAp b\u1EA1n t\u00ECm th\u1EA5y nhanh h\u01A1n n\u1ED9i dung b\u1EA1n \u0111ang t\u00ECm ki\u1EBFm.\u003Cbr/\u003E\u003Cbr/\u003ESau khi b\u1EA1n nh\u1EA5p v\u00E0o k\u1EBFt qu\u1EA3 t\u00ECm ki\u1EBFm c\u1EE7a Google, Quick Scroll c\u00F3 th\u1EC3 xu\u1EA5t hi\u1EC7n \u1EDF g\u00F3c d\u01B0\u1EDBi c\u00F9ng b\u00EAn ph\u1EA3i c\u1EE7a trang, hi\u1EC3n th\u1ECB m\u1ED9t hay nhi\u1EC1u \u0111o\u1EA1n v\u0103n b\u1EA3n t\u1EEB trang ph\u00F9 h\u1EE3p v\u1EDBi truy v\u1EA5n c\u1EE7a b\u1EA1n. Vi\u1EC7c nh\u1EA5p v\u00E0o v\u0103n b\u1EA3n s\u1EBD \u0111\u01B0a b\u1EA1n \u0111\u1EBFn ph\u1EA7n \u0111\u00F3 c\u1EE7a trang.\u003Cbr/\u003E\u003Cbr/\u003EQuick Scroll c\u1ED1 g\u1EAFng \u1EA9n kh\u1ECFi m\u00E0n h\u00ECnh c\u1EE7a b\u1EA1n v\u00E0 ch\u1EC9 xu\u1EA5t hi\u1EC7n khi h\u1EEFu \u00EDch."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "R\u1EA5t ti\u1EBFc, Quick Scroll kh\u00F4ng th\u1EC3 t\u00ECm th\u1EA5y b\u1EA5t k\u1EF3 k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p n\u00E0o tr\u00EAn trang n\u00E0y cho \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003ET\u00ECm hi\u1EC3u th\u00EAm.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "D\u01B0\u1EDDng nh\u01B0 to\u00E0n b\u1ED9 trang n\u00E0y c\u00F3 n\u1ED9i dung v\u1EC1 \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. Quick Scroll xu\u1EA5t hi\u1EC7n khi ch\u1EC9 c\u00E1c ph\u1EA7n c\u1EE7a trang c\u00F3 li\u00EAn quan. \u003Cspan class=\"goog_qs-learn-more\"\u003ET\u00ECm hi\u1EC3u th\u00EAm.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "Quick Scroll kh\u00F4ng xu\u1EA5t hi\u1EC7n do to\u00E0n b\u1ED9 trang c\u00F3 li\u00EAn quan \u0111\u1EBFn truy v\u1EA5n c\u1EE7a b\u1EA1n."
+   },
+   "qs_info_on_search": {
+      "message": "Quick Scroll xu\u1EA5t hi\u1EC7n sau khi b\u1EA1n nh\u1EA5p v\u00E0o k\u1EBFt qu\u1EA3 t\u00ECm ki\u1EBFm c\u1EE7a Google. \u003Cspan class=\"goog_qs-learn-more\"\u003ET\u00ECm hi\u1EC3u th\u00EAm.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "B\u1EB1ng c\u00E1ch nh\u1EA5p \"C\u00E0i \u0111\u1EB7t\", b\u1EA1n \u0111\u1ED3ng \u00FD v\u1EDBi c\u00E1c \u0110i\u1EC1u kho\u1EA3n d\u1ECBch v\u1EE5 n\u00E0y: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Nhi\u1EC1u k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p h\u01A1n \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "Hi\u1EC3n th\u1ECB th\u00EAm k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p cho truy v\u1EA5n c\u1EE7a b\u1EA1n"
+   },
+   "qs_name": {
+      "message": "Google Quick Scroll"
+   },
+   "qs_page_action_active": {
+      "message": "Quick Scroll \u0111\u00E3 t\u00ECm th\u1EA5y k\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p tr\u00EAn trang n\u00E0y."
+   },
+   "qs_page_action_inactive": {
+      "message": "Quick Scroll \u0111\u00E3 \u0111\u01B0\u1EE3c b\u1EADt. Nh\u1EA5p \u0111\u1EC3 bi\u1EBFt th\u00EAm th\u00F4ng tin."
+   },
+   "qs_page_action_running": {
+      "message": "Quick Scroll \u0111ang \u0111\u1EE3i t\u1EA3i trang..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "M\u1EDF trang tr\u1EE3 gi\u00FAp v\u00E0 t\u00F9y ch\u1ECDn"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "K\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p trong trang cho \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "K\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p tr\u00EAn trang cho \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Thu nh\u1ECF"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "M\u1EDF Google Quick Scroll"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Nh\u1EA5p \u0111\u1EC3 xem v\u0103n b\u1EA3n n\u00E0y trong trang"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Chuy\u1EC3n t\u1EDBi n\u1ED9i dung $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "K\u1EBFt qu\u1EA3 ph\u00F9 h\u1EE3p nh\u1EA5t cho \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

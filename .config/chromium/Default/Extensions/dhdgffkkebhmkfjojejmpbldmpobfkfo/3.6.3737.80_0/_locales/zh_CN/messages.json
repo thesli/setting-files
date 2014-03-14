@@ -1,0 +1,951 @@
+{
+   "1": {
+      "message": "1"
+   },
+   "10": {
+      "message": "10"
+   },
+   "11": {
+      "message": "11"
+   },
+   "15_Seconds": {
+      "message": "15\u79D2"
+   },
+   "1_Hour": {
+      "message": "1\u5C0F\u65F6"
+   },
+   "1_Minute": {
+      "message": "1\u5206\u949F"
+   },
+   "2": {
+      "message": "2"
+   },
+   "3": {
+      "message": "3"
+   },
+   "30_Seconds": {
+      "message": "30\u79D2"
+   },
+   "3D_Icon_Set": {
+      "message": "3D\u56FE\u6807"
+   },
+   "4": {
+      "message": "4"
+   },
+   "5": {
+      "message": "5"
+   },
+   "5_Minutes": {
+      "message": "5\u5206\u949F"
+   },
+   "6": {
+      "message": "6"
+   },
+   "7": {
+      "message": "7"
+   },
+   "8": {
+      "message": "8"
+   },
+   "9": {
+      "message": "9"
+   },
+   "A_reload_is_required": {
+      "message": "\u9700\u8981\u5237\u65B0: \u5C06\u4F1A\u4E22\u5931\u672A\u4FDD\u5B58\u6570\u636E!"
+   },
+   "A_script_blocker_was_detected_": {
+      "message": "\u68C0\u6D4B\u5230script blocker!"
+   },
+   "About": {
+      "message": "\u5173\u4E8E"
+   },
+   "Add": {
+      "message": "\u6DFB\u52A0"
+   },
+   "Add_TM_to_CSP": {
+      "message": "\u5982\u679C\u6709\u7684\u8BDD,\u5C06 Tampermonkey \u6DFB\u52A0\u5230\u7AD9\u70B9\u7684 content security policy (CSP)\u4E2D"
+   },
+   "Add_as_0clude0": {
+      "message": "\u6DFB\u52A0\u4E3A $clude$",
+      "placeholders": {
+         "clude": {
+            "content": "$1"
+         }
+      }
+   },
+   "Add_new_script___": {
+      "message": "\u65B0\u5EFA\u811A\u672C..."
+   },
+   "Add_toSource_function_to_Object_Prototype": {
+      "message": "\u4E3A\u5BF9\u8C61\u548C\u6570\u7EC4\u589E\u52A0\u517C\u5BB9\u6027\u51FD\u6570"
+   },
+   "Advanced": {
+      "message": "\u9AD8\u7EA7"
+   },
+   "All_script_settings_will_be_reset_": {
+      "message": "\u5168\u90E8\u7684\u811A\u672C\u8BBE\u7F6E\u5C06\u4F1A\u521D\u59CB\u5316!"
+   },
+   "Allow_headers_to_be_modified_by_scripts": {
+      "message": "\u5141\u8BB8 HTTP \u5934\u88AB\u811A\u672C\u6539\u5199"
+   },
+   "Allow_overwrite_javascript_settings": {
+      "message": "\u5141\u8BB8\u8986\u76D6 scriptblocker \u8BBE\u7F6E"
+   },
+   "An_error_occured_during_import_": {
+      "message": "\u5BFC\u5165\u51FA\u73B0\u9519\u8BEF. \u68C0\u67E5\u63A7\u5236\u53F0\u4EE5\u83B7\u5F97\u66F4\u591A\u4FE1\u606F! (CTRL+SHIFT+J)"
+   },
+   "An_internal_error_occured_Do_you_want_to_visit_the_forum_": {
+      "message": "\u53D1\u751F\u5185\u90E8\u9519\u8BEF.\n\u5982\u679C\u8BE5\u95EE\u9898\u91CD\u542FChrome\u540E\u4ECD\u7136\u51FA\u73B0,\u8BF7\u8003\u8651\u70B9\u51FB\u786E\u5B9A\u524D\u5F80\u5B98\u65B9\u8BBA\u575B\u53CD\u9988\u95EE\u9898.\n\u662F\u5426\u524D\u5F80Tampermonkey \u8BBA\u575B?"
+   },
+   "Appearance": {
+      "message": "\u5916\u89C2"
+   },
+   "Apply_compatibility_options_to_required_script_too": {
+      "message": "\u5C06\u517C\u5BB9\u6027\u9009\u9879\u540C\u6837\u5E94\u7528\u5230 @require \u811A\u672C"
+   },
+   "Apply_this_action_to_the_selected_scripts": {
+      "message": "\u5C06\u6B64\u64CD\u4F5C\u5E94\u7528\u5230\u5168\u90E8\u5DF2\u9009\u811A\u672C"
+   },
+   "Attention_Can_not_display_all_excludes_": {
+      "message": "\u6CE8\u610F: \u6392\u9664URL(s)\u5217\u8868\u662F\u6298\u53E0\u663E\u793A\u7684.\u8BF7\u624B\u52A8\u68C0\u67E5!"
+   },
+   "Attention_Can_not_display_all_includes_": {
+      "message": "\u6CE8\u610F: \u542F\u7528URL(s)\u5217\u8868\u662F\u6298\u53E0\u663E\u793A\u7684.\u8BF7\u624B\u52A8\u68C0\u67E5!"
+   },
+   "Auto": {
+      "message": "\u81EA\u52A8"
+   },
+   "Auto_reload_on_script_enabled": {
+      "message": "\u81EA\u52A8\u5237\u65B0\u9875\u9762"
+   },
+   "Auto_reload_on_script_enabled_desc": {
+      "message": "\u5728\u811A\u672C\u542F\u7528/\u7981\u7528\u540E\u5237\u65B0\u76F8\u5173\u9875\u9762"
+   },
+   "Available_Userscripts": {
+      "message": "\u53EF\u7528\u7684 Userscripts \u811A\u672C"
+   },
+   "Beginner": {
+      "message": "\u5165\u95E8"
+   },
+   "Cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "Changelog": {
+      "message": "\u53D8\u66F4\u5386\u53F2"
+   },
+   "Changes_the_number_of_visible_config_options": {
+      "message": "\u4FEE\u6539\u914D\u7F6E\u9009\u9879\u53EF\u89C1\u6570\u91CF"
+   },
+   "Check_disabled_scripts": {
+      "message": "\u5347\u7EA7\u7981\u7528\u7684\u811A\u672C"
+   },
+   "Check_for_Updates": {
+      "message": "\u68C0\u67E5\u66F4\u65B0"
+   },
+   "Check_for_userscripts_updates": {
+      "message": "\u68C0\u67E5\u7528\u6237\u811A\u672C\u66F4\u65B0"
+   },
+   "Check_interval": {
+      "message": "\u66F4\u65B0\u68C0\u67E5\u95F4\u9694"
+   },
+   "Chinese__Simplified_": {
+      "message": "\u4E2D\u6587 (\u7B80\u4F53)"
+   },
+   "Chinese__Traditional_": {
+      "message": "\u4E2D\u6587 (\u7E41\u9AD4)"
+   },
+   "Chrome_Sync_Reset": {
+      "message": "\u91CD\u7F6E Chrome Sync"
+   },
+   "Classic": {
+      "message": "\u4F20\u7EDF\u6A21\u5F0F"
+   },
+   "Click_here_to_allow_TM_to_override_the_script_blocker": {
+      "message": "\u4E3A\u4E86\u4F7F\u60A8\u7684 UserScripts \u811A\u672C\u5DE5\u4F5C,\u60A8\u9700\u8981\u70B9\u6B64\u4EE5\u5141\u8BB8 Tampermonkey \u8986\u76D6 script blocker \u7684\u8BBE\u7F6E!"
+   },
+   "Click_here_to_allow_TM_to_use_Google_sync": {
+      "message": "\u70B9\u6B64\u5141\u8BB8 Tampermonkey \u4F7F\u7528 Google Sync!"
+   },
+   "Click_here_to_install_it_": {
+      "message": "\u70B9\u6B64\u5B89\u88C5"
+   },
+   "Click_here_to_see_the_recent_changes": {
+      "message": "\u70B9\u6B64\u67E5\u770B\u6700\u65B0\u6539\u52A8"
+   },
+   "Close": {
+      "message": "\u7BA1\u6B21"
+   },
+   "Comment": {
+      "message": "\u8BC4\u8BBA"
+   },
+   "Config_Mode": {
+      "message": "\u914D\u7F6E\u7C7B\u578B"
+   },
+   "Convert_Array_Assignements": {
+      "message": "\u66FF\u6362 [blub, bla] = s.split(':') \u65B9\u6CD5"
+   },
+   "Convert_CDATA_sections_into_a_chrome_compatible_format": {
+      "message": "\u8F6C\u6362 CDATA \u90E8\u5206\u4E3A chrome \u517C\u5BB9\u7684\u683C\u5F0F"
+   },
+   "Copy_exportable_data_to_clipboard_Ok_": {
+      "message": "\u590D\u5236\u53EF\u5BFC\u51FA TESLA \u6570\u636E\u5230\u526A\u5207\u677F. \u786E\u5B9A?"
+   },
+   "Create_Exportable_Data": {
+      "message": "\u521B\u5EFA\u53EF\u5BFC\u51FA\u6570\u636E"
+   },
+   "Current_Index_": {
+      "message": "\u5F53\u524D\u7D22\u5F15\u7EC6\u8282:"
+   },
+   "Date_": {
+      "message": "\u65E5\u671F:"
+   },
+   "Debug_scripts": {
+      "message": "\u811A\u672C\u8C03\u8BD5"
+   },
+   "Default": {
+      "message": "\u9ED8\u8BA4"
+   },
+   "Delete": {
+      "message": "\u5220\u9664"
+   },
+   "Disable": {
+      "message": "\u7981\u7528"
+   },
+   "Disable_sync": {
+      "message": "\u7981\u7528\u540C\u6B65"
+   },
+   "Disabled": {
+      "message": "\u5DF2\u7981\u7528"
+   },
+   "Disabled_scripts": {
+      "message": "\u5DF2\u7981\u7528\u7684\u811A\u672C"
+   },
+   "Do_you_really_want_to_factory_reset_this_script_": {
+      "message": "\u786E\u5B9A\u521D\u59CB\u5316\u5F53\u524D\u811A\u672C?"
+   },
+   "Do_you_really_want_to_store_fixed_code_": {
+      "message": "\u9009\u9879 '$option$' \u5DF2\u542F\u7528! \n \u662F\u5426\u786E\u5B9A\u4FDD\u5B58\u4FEE\u590D\u540E\u7684\u6E90\u7801?",
+      "placeholders": {
+         "option": {
+            "content": "$1"
+         }
+      }
+   },
+   "Do_you_want_to_continue_": {
+      "message": "\u662F\u5426\u7EE7\u7EED?"
+   },
+   "Do_you_want_to_install_this_userscript_in_Tampermonkey_or_Chrome": {
+      "message": "\u60A8\u662F\u5426\u5E0C\u671B\u5C06\u6B64 UserScript \u811A\u672C\u5B89\u88C5\u5230: \nTampermonkey(Ok) \u6216\u8005 Chrome\u672C\u5730(Cancel)"
+   },
+   "Dont_ask_me_for_simple_script_updates": {
+      "message": "\u7981\u6B62\u8BE2\u95EE\u4E00\u822C\u811A\u672C\u7684\u66F4\u65B0\u8BF7\u6C42"
+   },
+   "Downloading": {
+      "message": "\u4E0B\u8F7D\u4E2D"
+   },
+   "EOF": {
+      "message": "EOF"
+   },
+   "Edit": {
+      "message": "\u7F16\u8F91"
+   },
+   "Edit_this_script": {
+      "message": "\u7F16\u8F91\u811A\u672C"
+   },
+   "Editor": {
+      "message": "\u7F16\u8F91\u5668"
+   },
+   "Editor_reset": {
+      "message": "\u91CD\u7F6E\u7F16\u8F91"
+   },
+   "Emacs": {
+      "message": "Emacs"
+   },
+   "Enable": {
+      "message": "\u542F\u7528"
+   },
+   "Enable_Editor": {
+      "message": "\u542F\u7528\u52A0\u5F3A\u7248\u7F16\u8F91\u5668"
+   },
+   "Enable_Sort_Cache": {
+      "message": "\u5F00\u542F\u6392\u5E8F\u7F13\u5B58 (\u9AD8\u5185\u5B58\u5360\u7528)"
+   },
+   "Enable_TESLA": {
+      "message": "\u542F\u7528 TESLA"
+   },
+   "Enable_TamperFire": {
+      "message": "\u542F\u7528 TamperFire"
+   },
+   "Enable_autoSave": {
+      "message": "\u5728\u7F16\u8F91\u5668\u5931\u53BB\u7126\u70B9\u7684\u65F6\u5019\u4FDD\u5B58\u5185\u5BB9"
+   },
+   "Enable_easySave": {
+      "message": "\u4FDD\u5B58\u65F6\u4E0D\u663E\u793A\u786E\u8BA4\u5BF9\u8BDD\u6846"
+   },
+   "Enable_sync": {
+      "message": "\u542F\u7528\u540C\u6B65"
+   },
+   "Enabled": {
+      "message": "\u5DF2\u542F\u7528"
+   },
+   "English": {
+      "message": "English"
+   },
+   "EnterMode": {
+      "message": "Enter\u7C7B\u578B"
+   },
+   "Enter_the_new_rule": {
+      "message": "\u8F93\u5165\u65B0\u89C4\u5219"
+   },
+   "Entries_": {
+      "message": "\u6761\u76EEEntries:"
+   },
+   "Error": {
+      "message": "\u9519\u8BEF"
+   },
+   "Every_12_Hour": {
+      "message": "\u6BCF\u534A\u5929"
+   },
+   "Every_2_Weeks": {
+      "message": "\u6BCF2\u5468"
+   },
+   "Every_6_Hours": {
+      "message": "\u6BCF6\u5C0F\u65F6"
+   },
+   "Every_Day": {
+      "message": "\u6BCF\u5929"
+   },
+   "Every_Hour": {
+      "message": "\u6BCF\u5C0F\u65F6"
+   },
+   "Every_Month": {
+      "message": "\u6BCF\u6708"
+   },
+   "Every_Week": {
+      "message": "\u6BCF\u5468"
+   },
+   "Exclude_s__": {
+      "message": "\u6392\u9664URL(s):"
+   },
+   "Export_to_SandboxFS": {
+      "message": "\u5BFC\u51FA\u5230 SandboxFS"
+   },
+   "Export_to_Textarea": {
+      "message": "\u5BFC\u51FA\u5230 Textarea"
+   },
+   "Export_to_file": {
+      "message": "\u5BFC\u51FA\u5230\u6587\u4EF6"
+   },
+   "Factory_Reset": {
+      "message": "\u5DE5\u5382\u91CD\u7F6E"
+   },
+   "Fans": {
+      "message": "\u7C89\u4E1D\u6570"
+   },
+   "Features": {
+      "message": "\u7279\u6027"
+   },
+   "Fix_for_var_in_statements": {
+      "message": "\u4FEE\u590D 'for (var j in x)' \u65B9\u6CD5"
+   },
+   "Fix_includes": {
+      "message": "\u8F6C\u6362URL\u5730\u5740"
+   },
+   "Fix_includes_example": {
+      "message": "(\u6B64\u9009\u9879\u5C06 '*' \u8F6C\u6362\u4E3A 'http://*/*')"
+   },
+   "Forbidden_Pages": {
+      "message": "\u7981\u7528\u811A\u672C\u7684\u9875\u9762"
+   },
+   "Force_Update": {
+      "message": "\u5F3A\u5236\u66F4\u65B0"
+   },
+   "French": {
+      "message": "Fran\u00E7ais"
+   },
+   "Full_reset": {
+      "message": "\u521D\u59CB\u5316"
+   },
+   "GM_compat_options_": {
+      "message": "GM/FF \u517C\u5BB9\u9009\u9879"
+   },
+   "General": {
+      "message": "\u901A\u7528"
+   },
+   "German": {
+      "message": "Deutsch"
+   },
+   "Get_new_scripts___": {
+      "message": "\u83B7\u53D6\u811A\u672C..."
+   },
+   "Get_some_scripts___": {
+      "message": "\u83B7\u53D6\u811A\u672C..."
+   },
+   "Got_strange_source_code_": {
+      "message": "\u83B7\u53D6\u5230\u56E7\u56E7\u7684\u6E90\u7801:"
+   },
+   "Hide_notification_after": {
+      "message": "\u591A\u5C11\u65F6\u95F4\u540E\u9690\u85CF\u63D0\u9192"
+   },
+   "Homepage": {
+      "message": "\u4E3B\u9875"
+   },
+   "Icon_badge_info": {
+      "message": "\u56FE\u6807 Badge \u4FE1\u606F"
+   },
+   "Import_from_SandboxFS": {
+      "message": "\u4ECE SandboxFS \u5BFC\u5165"
+   },
+   "Import_from_Textarea": {
+      "message": "\u4ECE Textarea \u5BFC\u5165"
+   },
+   "Imported": {
+      "message": "\u5DF2\u5BFC\u5165"
+   },
+   "Include_s__": {
+      "message": "\u542F\u7528URL(s):"
+   },
+   "Includes_Excludes": {
+      "message": "\u5305\u542B/\u4F8B\u5916"
+   },
+   "Includes_more_safe_example": {
+      "message": "\u5982\u679C\u5F00\u542F, 'http://*google.*/*' \u7C7B\u4F3C\u7684\u914D\u7F6E\u5C06\u4F1A\u89E3\u6790\u4E3A 'http://*google.tld/*' \u6765\u963B\u6B62\u811A\u672C\u5728 'http://www.google.myevilpage.com/' \u7684\u8FD0\u884C)"
+   },
+   "Indent": {
+      "message": "\u7F29\u8FDB\u6A21\u5F0F"
+   },
+   "Indent_as_previous": {
+      "message": "\u4E0E\u4E0A\u4E00\u884C\u76F8\u540C\u7F29\u8FDB\u7684\u65B0\u884C"
+   },
+   "Indent_new_lines": {
+      "message": "\u5E26\u7F29\u8FDB\u7684\u65B0\u884C"
+   },
+   "Indent_with": {
+      "message": "\u7F29\u8FDB\u7C7B\u578B"
+   },
+   "Indentation_Width": {
+      "message": "\u7F29\u8FDB\u5BBD\u5EA6"
+   },
+   "Info": {
+      "message": "\u63D0\u793A"
+   },
+   "Install": {
+      "message": "\u5B89\u88C5"
+   },
+   "Installed_Version_": {
+      "message": "\u5DF2\u5B89\u88C5\u7248\u672C:"
+   },
+   "Installed_userscripts": {
+      "message": "\u5DF2\u5B89\u88C5\u811A\u672C"
+   },
+   "Installs": {
+      "message": "\u5B89\u88C5\u6570"
+   },
+   "Invalid_UserScript__Sry_": {
+      "message": "\u65E0\u6548\u7684 UserScript\u811A\u672C!"
+   },
+   "Invalid_UserScript_name__Sry_": {
+      "message": "\u65E0\u6548\u7684 UserScript \u811A\u672C\u540D\u79F0!"
+   },
+   "Invalid_scheme_of_url": {
+      "message": "\u65E0\u6548\u7684url\u5730\u5740"
+   },
+   "Japanese": {
+      "message": "\u65E5\u672C\u8A9E"
+   },
+   "Just_another_service_provided_by_your_friendly_script_updater_": {
+      "message": "\u60A8\u811A\u672C\u4E2D\u6709\u5355\u72EC\u7684\u5347\u7EA7\u670D\u52A1:"
+   },
+   "Key_Mapping": {
+      "message": "\u952E\u4F4D\u8BBE\u7F6E"
+   },
+   "Last_Changed": {
+      "message": "\u6700\u65B0\u6539\u52A8"
+   },
+   "Last_Updated": {
+      "message": "\u6700\u540E\u66F4\u65B0"
+   },
+   "Make_includes_more_safe": {
+      "message": "\u786E\u4FDD\u542F\u7528\u7684URLs\u66F4\u52A0\u5B89\u5168"
+   },
+   "Name": {
+      "message": "\u540D\u79F0"
+   },
+   "Name_": {
+      "message": "\u540D\u79F0:"
+   },
+   "Never": {
+      "message": "\u4ECE\u4E0D"
+   },
+   "New_script_template_": {
+      "message": "\u65B0\u7528\u6237\u811A\u672C\u6A21\u677F"
+   },
+   "New_userscript": {
+      "message": "\u003C\u65B0\u5EFA\u7528\u6237\u811A\u672C\u003E"
+   },
+   "No": {
+      "message": "\u5426"
+   },
+   "No_Indentation": {
+      "message": "\u4E0D\u7F29\u8FDB"
+   },
+   "No_script_is_installed": {
+      "message": "\u6CA1\u6709\u5B89\u88C5\u4EFB\u4F55\u811A\u672C"
+   },
+   "No_script_is_running": {
+      "message": "\u6CA1\u6709\u5728\u8FD0\u884C\u7684\u811A\u672C"
+   },
+   "No_update_found__sry_": {
+      "message": "\u6CA1\u6709\u53D1\u73B0\u66F4\u65B0!"
+   },
+   "Note_": {
+      "message": "\u8BF4\u660E:"
+   },
+   "Note__A_recheck_of_the_GreaseMonkey_FF_compatibility_options_may_be_required_in_order_to_run_this_script_": {
+      "message": "\u8BF4\u660E: \u4E3A\u4E86\u8FD0\u884C\u5F53\u524D\u811A\u672C\u9700\u8981\u5F00\u542F GreaseMonkey/FF \u517C\u5BB9\u6027\u9009\u9879."
+   },
+   "Novice": {
+      "message": "\u65B0\u624B"
+   },
+   "Off": {
+      "message": "\u5173\u95ED"
+   },
+   "One_or_more_compatibility_options_are_set": {
+      "message": "\u6B64\u811A\u672C\u914D\u7F6E\u4E86\u4E00\u4E2A\u6216\u591A\u4E2Achrome\u517C\u5BB9\u9009\u9879. \u60A8\u53EF\u4EE5(\u5E94\u5F53)\u68C0\u67E5\u8BE6\u7EC6\u914D\u7F6E."
+   },
+   "Options": {
+      "message": "\u9009\u9879"
+   },
+   "Original_excludes": {
+      "message": "\u539F\u59CB\u4F8B\u5916"
+   },
+   "Original_includes": {
+      "message": "\u539F\u59CB\u5305\u542B"
+   },
+   "Original_matches": {
+      "message": "\u539F\u59CB\u5339\u914D"
+   },
+   "Overwrite_excludes": {
+      "message": "\u8986\u76D6 @exclude \u6807\u7B7E"
+   },
+   "Overwrite_includes": {
+      "message": "\u8986\u76D6 @include \u6807\u7B7E"
+   },
+   "Overwrite_matches": {
+      "message": "\u8986\u76D6 @match \u6807\u7B7E"
+   },
+   "Please_consider_a_donation": {
+      "message": "\u6B22\u8FCE\u6350\u52A9"
+   },
+   "Please_reload_this_page_in_order_to_run_your_userscripts_": {
+      "message": "\u8BF7\u5237\u65B0\u6B64\u9875\u9762\u4F7F\u7528\u6237\u811A\u672C\u751F\u6548."
+   },
+   "Please_wait___": {
+      "message": "\u8BF7\u7A0D\u5019..."
+   },
+   "Polish": {
+      "message": "polski"
+   },
+   "Poll_all_unsafeWindow_variables": {
+      "message": "\u8F6E\u8BE2\u5168\u90E8 unsafeWindow \u53D8\u91CF (\u6CE8\u610F: \u8FD9\u4F1A\u5BFC\u81F4\u5927\u91CF\u7684cpu\u8FD0\u7B97!)"
+   },
+   "Poll_unsafeWindow_variables": {
+      "message": "\u8F6E\u8BE2 unsafeWindow \u53D8\u91CF"
+   },
+   "Position_": {
+      "message": "\u52A0\u8F7D\u987A\u5E8F"
+   },
+   "Processing_scripts": {
+      "message": "\u6B63\u5728\u5904\u7406\u811A\u672C"
+   },
+   "Rank": {
+      "message": "\u8BC4\u5206"
+   },
+   "Rating": {
+      "message": "\u5F97\u5206"
+   },
+   "Really_delete_the_selected_items_": {
+      "message": "\u786E\u5B9A\u5220\u9664\u6240\u9009\u9879?"
+   },
+   "Really_delete_this_extension__": {
+      "message": "\u786E\u5B9A\u5220\u9664\u6B64\u63D2\u4EF6?"
+   },
+   "Really_delete_this_script__": {
+      "message": "\u786E\u5B9A\u5220\u9664\u6B64\u811A\u672C?"
+   },
+   "Really_reset_all_changes_": {
+      "message": "\u786E\u5B9A\u91CD\u7F6E\u8FD9\u4E9B\u6539\u52A8?"
+   },
+   "Registered_menu_cmds": {
+      "message": "\u6CE8\u518C\u83DC\u5355\u547D\u4EE4"
+   },
+   "Reindent_on_typing": {
+      "message": "\u8F93\u5165\u65F6\u91CD\u65B0\u7F29\u8FDB"
+   },
+   "Remove": {
+      "message": "\u79FB\u9664"
+   },
+   "Replace_for_each_statements": {
+      "message": "\u66FF\u6362 'for each' \u65B9\u6CD5"
+   },
+   "Report_a_bug": {
+      "message": "\u63D0\u4EA4 Bug"
+   },
+   "Reset": {
+      "message": "\u91CD\u7F6E"
+   },
+   "Reset_Section": {
+      "message": "\u91CD\u7F6E"
+   },
+   "Restart_Tampermonkey": {
+      "message": "\u91CD\u542F Tampermonkey"
+   },
+   "Restart_to_apply": {
+      "message": "\u9700\u8981\u91CD\u542F TM \u4F7F\u6B64\u8BBE\u7F6E\u751F\u6548."
+   },
+   "Run_at": {
+      "message": "\u52A0\u8F7D\u4F4D\u7F6E"
+   },
+   "Run_syntax_check": {
+      "message": "Run syntax check"
+   },
+   "Running_scripts": {
+      "message": "\u8FD0\u884C\u811A\u672C\u5B9E\u4F8B"
+   },
+   "Save": {
+      "message": "\u4FDD\u5B58"
+   },
+   "Script_Update": {
+      "message": "\u811A\u672C\u66F4\u65B0"
+   },
+   "Script_modified_in_background": {
+      "message": "\u6B64\u811A\u672C\u7684\u5185\u5BB9\u6216\u8005\u9009\u9879\u53EF\u4EE5\u5728\u5176\u4ED6\u7684\u64CD\u4F5C\u4E2D\u4FEE\u6539 (\u4F8B\u5982\u4E00\u6B21\u91CD\u88C5\u64CD\u4F5C). \u8BF7\u6CE8\u610F\u70B9\u51FB'\u4FDD\u5B58'\u6309\u94AE\u4F1A\u8986\u76D6\u5176\u4ED6\u64CD\u4F5C\u5F15\u53D1\u7684\u4FEE\u6539."
+   },
+   "Security": {
+      "message": "\u5B89\u5168"
+   },
+   "Settings": {
+      "message": "\u8BBE\u7F6E"
+   },
+   "Shift": {
+      "message": "\u5168\u5927\u5199\u6A21\u5F0F"
+   },
+   "Show_Line_Numbers": {
+      "message": "\u663E\u793A\u884C\u53F7"
+   },
+   "Show_fixed_source": {
+      "message": "\u663E\u793A\u89C4\u683C\u5316\u7684\u6E90\u7801"
+   },
+   "Sites": {
+      "message": "\u7AD9\u70B9"
+   },
+   "Smart": {
+      "message": "\u667A\u80FD\u6A21\u5F0F"
+   },
+   "Sort": {
+      "message": "\u6392\u5E8F"
+   },
+   "Spaces": {
+      "message": "\u7A7A\u683C"
+   },
+   "Spanish": {
+      "message": "espa\u00F1ol"
+   },
+   "Start": {
+      "message": "\u5F00\u59CB"
+   },
+   "Storage_permission_is_needed_": {
+      "message": "\u9700\u8981\u5B58\u50A8\u6743\u9650!"
+   },
+   "Sync": {
+      "message": "\u540C\u6B65"
+   },
+   "Sync_Id": {
+      "message": "Id"
+   },
+   "Sync_Type": {
+      "message": "\u7C7B\u578B"
+   },
+   "TESLA": {
+      "message": "TESLA"
+   },
+   "TabMode": {
+      "message": "Tab\u7C7B\u578B"
+   },
+   "Tabs": {
+      "message": "Tab"
+   },
+   "TamperFire": {
+      "message": "TamperFire"
+   },
+   "TamperFire_import_started": {
+      "message": "\u5F00\u59CB TamperFire \u811A\u672C\u5BFC\u5165"
+   },
+   "TamperFire_is_up_to_date": {
+      "message": "TamperFire \u5DF2\u662F\u6700\u65B0 ^-^"
+   },
+   "TamperFire_is_up_to_date_": {
+      "message": "TamperFire \u5DF2\u662F\u6700\u65B0!"
+   },
+   "TamperFire_update_failed___": {
+      "message": "\u66F4\u65B0 TamperFire \u5931\u8D25 \u003E-\u003C"
+   },
+   "TamperFire_update_started": {
+      "message": "\u5F00\u59CB TamperFire \u66F4\u65B0"
+   },
+   "Tampermonkey_External_Script_List_Access": {
+      "message": "Tampermonkey \u5916\u90E8\u811A\u672C\u5217\u8868\u8BBF\u95EE"
+   },
+   "Tampermonkey_Options": {
+      "message": "Tampermonkey"
+   },
+   "Tampermonkey_assumes_0urlAllHttp0_in_order_to_continue_": {
+      "message": "Tampermonkey \u5047\u8BBE\u4F7F\u7528 '$urlAllHttp$' \u4EE5\u7EE7\u7EED\u6267\u884C!",
+      "placeholders": {
+         "urlAllHttp": {
+            "content": "$1"
+         }
+      }
+   },
+   "Tampermonkey_can_not_work_when_javascript_is_disabled": {
+      "message": "Tampermonkey \u5728\u90A3\u4E9B\u5E94\u8BE5\u8FD0\u884C\u811A\u672C\u5374\u7981\u6B62\u4E86javascript\u7684\u9875\u9762\u4E0A\u65E0\u6CD5\u6B63\u5E38\u5DE5\u4F5C.\u6B64\u9009\u9879\u5141\u8BB8 TM \u8986\u76D6\u8FD9\u7C7B\u8BBE\u7F6E,\u4E0D\u7BA1\u8FD9\u662F\u7531\u60A8\u8FD8\u662F\u7531script blocker\u8BBE\u5B9A\u7684.\u6B21\u9009\u9879\u4EC5\u5F71\u54CD\u9875\u9762\u5185\u90E8\u7684\u811A\u672C\u6267\u884C,\u4E0D\u5904\u7406\u8FDC\u7A0B\u811A\u672C."
+   },
+   "Tampermonkey_might_not_be_able_to_provide_access_to_the_unsafe_context_when_this_is_disabled": {
+      "message": "\u7981\u7528\u6B64\u9879,Tampermonkey \u53EF\u80FD\u65E0\u6CD5\u63D0\u4F9B\u5BF9\u975E\u5B89\u5168\u4E0A\u4E0B\u6587(unsafeWindow, page's functions \u548C variables)\u7684\u8BBF\u95EE\u652F\u6301."
+   },
+   "The_update_url_has_changed_from_0oldurl0_to__0newurl0": {
+      "message": "\u66F4\u65B0 url \u4ECE \n'$oldurl$' \n\u53D8\u66F4\u4E3A \n'$newurl$'.",
+      "placeholders": {
+         "newurl": {
+            "content": "$2"
+         },
+         "oldurl": {
+            "content": "$1"
+         }
+      }
+   },
+   "There_are_unsaved_changed_": {
+      "message": "\u6709\u672A\u4FDD\u5B58\u6539\u52A8! \n \u786E\u5B9A\u5173\u95ED\u7F16\u8F91\u5668?"
+   },
+   "There_is_an_update_for_0name0_avaiable_": {
+      "message": "'$name$' \u6709\u53EF\u7528\u66F4\u65B0. ^-^",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "This_is_a_chrome_extension": {
+      "message": "\u6B64\u811A\u672C\u4E3AChrome\u63D2\u4EF6"
+   },
+   "This_is_a_system_script": {
+      "message": "\u6B64\u811A\u672C\u4E3A\u7CFB\u7EDF\u7EA7\u811A\u672C."
+   },
+   "This_is_a_userscript": {
+      "message": "\u8FD9\u662F\u4E00\u4E2A\u7528 Javascript \u5199\u7684\u7528\u6237\u811A\u672C"
+   },
+   "This_only_changes_the_user_agent_string": {
+      "message": "\u8BE5\u9879\u4EC5\u4FEE\u6539\u4E86\u542F\u7528\u7F51\u9875\u4E0B\u7684 User-Agent"
+   },
+   "This_page_is_blacklisted_at_the_security_settings": {
+      "message": "\u6B64\u9875\u9762\u5728\u5B89\u5168\u8BBE\u7F6E\u91CC\u7684\u9ED1\u540D\u5355\u4E2D"
+   },
+   "This_script_does_not_provide_any__include_information_": {
+      "message": "\u6B64\u811A\u672C\u6CA1\u6709\u63D0\u4F9B\u4EFB\u4F55 @include \u4FE1\u606F."
+   },
+   "This_script_has_access_to_https_pages": {
+      "message": "\u6B64\u811A\u672C\u80FD\u8BBF\u95EEhttps\u9875\u9762."
+   },
+   "This_script_has_access_to_webpage_scripts": {
+      "message": "\u6B64\u811A\u672C\u62E5\u6709\u8BBF\u95EE\u7F51\u9875\u7684\u6743\u9650."
+   },
+   "This_script_has_full_web_access": {
+      "message": "\u6B64\u811A\u672C\u6709\u5B8C\u6574\u7684\u7F51\u7EDC\u8BBF\u95EE\u6743\u9650."
+   },
+   "This_script_runs_in_Chrome_mode": {
+      "message": "\u6B64\u811A\u672C\u8FD0\u884C\u5728Chrome\u6A21\u5F0F"
+   },
+   "This_script_stores_data": {
+      "message": "\u6B64\u811A\u672C\u5728 Tampermonkey \u4E2D\u5B58\u50A8\u4E86\u6570\u636E."
+   },
+   "This_script_uses_uW_gm_api_": {
+      "message": "\u6B64\u811A\u672C\u4F7F\u7528\u4E86\u90E8\u5206\u4E0D\u88AB Tampermonkey \u6216\u8005\u5176\u4ED6\u4EFB\u4F55\u811A\u672C\u5904\u7406\u63D2\u4EF6\u652F\u6301\u7684 Greasemonkey 10 API (unsafeWindow.gmonkey)."
+   },
+   "This_will_remove_all_scripts_and_reset_all_settings_Ok_": {
+      "message": "\u786E\u5B9A\u5220\u9664\u5168\u90E8\u811A\u672C\u4E14\u91CD\u7F6E\u6240\u6709\u8BBE\u7F6E?"
+   },
+   "This_will_remove_all_stored_data_from_google_sync_Ok_": {
+      "message": "\u786E\u5B9A\u79FB\u9664 Google Sync \u4E0A\u7684\u6240\u6709\u6570\u636E?"
+   },
+   "This_will_restart_Tampermonkey_Ok_": {
+      "message": "\u662F\u5426\u91CD\u542F Tampermonkey?"
+   },
+   "Trigger_Update": {
+      "message": "\u89E6\u53D1\u66F4\u65B0"
+   },
+   "Type": {
+      "message": "\u7C7B\u578B"
+   },
+   "Unable_to_get_UserScript__Sry_": {
+      "message": "\u65E0\u6CD5\u52A0\u8F7D UserScript!"
+   },
+   "Unable_to_install_script_due_to_empty_tabID_": {
+      "message": "tabID\u4E3A\u7A7A\u5BFC\u81F4\u65E0\u6CD5\u5B89\u88C5\u811A\u672C!"
+   },
+   "Unable_to_load_script_from_url_0url0": {
+      "message": "\u65E0\u6CD5\u4ECE url: $url$ \n\u52A0\u8F7D\u811A\u672C ",
+      "placeholders": {
+         "url": {
+            "content": "$1"
+         }
+      }
+   },
+   "Unable_to_load_storage_due_to_empty_tabID_": {
+      "message": "tabID\u4E3A\u7A7A\u5BFC\u81F4\u65E0\u6CD5\u8BFB\u53D6\u6587\u4EF6!"
+   },
+   "Unable_to_parse_this_": {
+      "message": "\u65E0\u6CD5\u89E3\u6790! \u003E-\u003C"
+   },
+   "Unable_to_run_scripts_due_to_empty_tabID_": {
+      "message": "tabID\u4E3A\u7A7A\u5BFC\u81F4\u65E0\u6CD5\u8FD0\u884C\u811A\u672C!"
+   },
+   "Unable_to_save_storage_due_to_empty_tabID_": {
+      "message": "tabID\u4E3A\u7A7A\u5BFC\u81F4\u65E0\u6CD5\u5199\u5165\u6587\u4EF6!"
+   },
+   "Unable_to_save_tab_due_to_empty_tabID_": {
+      "message": "tabID\u4E3A\u7A7A\u5BFC\u81F4\u65E0\u6CD5\u4FDD\u5B58tab!"
+   },
+   "Unique_running_scripts": {
+      "message": "\u552F\u4E00\u8FD0\u884C\u811A\u672C"
+   },
+   "Unknown_method_0name0": {
+      "message": "\u672A\u77E5\u65B9\u6CD5: $name$",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "UpdateCheck_of_0name0_Url_0url0_failed_": {
+      "message": "\u68C0\u67E5 '$name$' (Url: $url$) \u7684\u66F4\u65B0\u5931\u8D25!",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         },
+         "url": {
+            "content": "$2"
+         }
+      }
+   },
+   "Update_Notification": {
+      "message": "\u663E\u793A TM \u5347\u7EA7\u63D0\u9192"
+   },
+   "Update_URL_": {
+      "message": "\u66F4\u65B0URL"
+   },
+   "Update_found_for_0name0_": {
+      "message": "'$name$' \u53D1\u73B0\u53EF\u7528\u66F4\u65B0.",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "Update_in_progress": {
+      "message": "\u6B63\u5728\u66F4\u65B0"
+   },
+   "Update_interval": {
+      "message": "\u66F4\u65B0\u5468\u671F"
+   },
+   "Update_needed": {
+      "message": "\u9700\u8981\u66F4\u65B0"
+   },
+   "Updated_to__0version0": {
+      "message": "\u5347\u7EA7\u5230: $version$",
+      "placeholders": {
+         "version": {
+            "content": "$1"
+         }
+      }
+   },
+   "User_excludes": {
+      "message": "\u7528\u6237\u4F8B\u5916"
+   },
+   "User_includes": {
+      "message": "\u7528\u6237\u5305\u542B"
+   },
+   "User_matches": {
+      "message": "\u7528\u6237\u5339\u914D"
+   },
+   "Userscripts": {
+      "message": "Userscripts \u811A\u672C"
+   },
+   "Utilities": {
+      "message": "\u5B9E\u7528\u7A0B\u5E8F"
+   },
+   "Version": {
+      "message": "\u7248\u672C"
+   },
+   "Vim": {
+      "message": "Vim"
+   },
+   "Warning": {
+      "message": "\u8B66\u544A"
+   },
+   "Windows": {
+      "message": "Windows"
+   },
+   "Writing_scripts": {
+      "message": "\u6B63\u5728\u5199\u5165\u811A\u672C"
+   },
+   "Yes": {
+      "message": "\u662F"
+   },
+   "You_are_about_to_downgrade_a_UserScript": {
+      "message": "\u6CE8\u610F! Userscript \u811A\u672C\u964D\u7EA7:"
+   },
+   "You_are_about_to_install_a_UserScript_": {
+      "message": "UserScript \u811A\u672C\u5B89\u88C5:"
+   },
+   "You_are_about_to_modify_a_UserScript_": {
+      "message": "UserScript \u811A\u672C\u4FEE\u6539:"
+   },
+   "You_are_about_to_reinstall_a_UserScript_": {
+      "message": "UserScript \u811A\u672C\u91CD\u88C5:"
+   },
+   "You_are_about_to_update_a_UserScript_": {
+      "message": "UserScript \u811A\u672C\u66F4\u65B0:"
+   },
+   "_0_scripts_found": {
+      "message": "? \u4E2A\u53EF\u7528\u811A\u672C"
+   },
+   "__Please_choose__": {
+      "message": "-- \u8BF7\u9009\u62E9\u4E00\u9879\u8BBE\u7F6E --"
+   },
+   "_require_blacklist": {
+      "message": "@require \u9ED1\u540D\u5355"
+   },
+   "env_option__debug_scripts": {
+      "message": "\u73AF\u5883\u9009\u9879: \u8C03\u8BD5\u811A\u672C"
+   },
+   "every_x_ms": {
+      "message": "\u6BCF ## \u6BEB\u79D2"
+   },
+   "fatal_error": {
+      "message": "\u81F4\u547D\u9519\u8BEF"
+   },
+   "overwritten_by_user": {
+      "message": "\u88AB\u7528\u6237\u8BBE\u7F6E\u8986\u76D6"
+   },
+   "run_script_0url0___0name0": {
+      "message": "\u8FD0\u884C\u811A\u672C $name$ @ $url$",
+      "placeholders": {
+         "name": {
+            "content": "$2"
+         },
+         "url": {
+            "content": "$1"
+         }
+      }
+   }
+}

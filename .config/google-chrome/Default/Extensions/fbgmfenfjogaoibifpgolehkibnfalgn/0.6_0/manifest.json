@@ -1,0 +1,15 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "js": [ "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Without leaving the keyboard, get a list of all tab-titles, search over them using RegEx too.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYDgUm9FlZRM9dGDA0QPUI6ZFirSQqDeQpdScRi9jRbnqJK/xs+fiOL3L8gg+WZBUO7v+hycsby3zrKNsPO8xGSvl0HqWZcRKif8FJJ5PUfprE3v8JdtRuopjB6vbq12WUYPx+lsPrNreLfmSI1oR4+C6N9zlda3jvnyPGA7dMVQIDAQAB",
+   "name": "Tab Title Search",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.6"
+}

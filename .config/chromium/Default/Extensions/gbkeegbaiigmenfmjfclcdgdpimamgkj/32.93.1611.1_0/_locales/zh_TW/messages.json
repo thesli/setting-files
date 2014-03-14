@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "\u77AD\u89E3\u8A73\u60C5"
+   },
+   "app_nacl_crash_msg": {
+      "message": "\u8ACB\u56DE\u5831\u9019\u500B\u554F\u984C\uFF0C\u5354\u52A9\u6211\u5011\u4FEE\u6B63\u76F8\u95DC\u932F\u8AA4\u3002"
+   },
+   "app_nacl_crash_report": {
+      "message": "\u56DE\u5831\u554F\u984C..."
+   },
+   "app_nacl_crash_title": {
+      "message": "\u7CDF\u7CD5\uFF01\u767C\u751F\u672A\u9810\u671F\u7684\u932F\u8AA4\u3002"
+   },
+   "app_nacl_error_msg": {
+      "message": "\u8F09\u5165\u61C9\u7528\u7A0B\u5F0F\u6642\u767C\u751F\u932F\u8AA4\u3002"
+   },
+   "app_nacl_error_title": {
+      "message": "\u7121\u6CD5\u958B\u555F\u6A94\u6848\u3002"
+   },
+   "application_description": {
+      "message": "\u7DE8\u8F2F\u6587\u4EF6"
+   },
+   "file_loading_spinner_label": {
+      "message": "\u8F09\u5165\u4E2D"
+   },
+   "file_not_found_msg": {
+      "message": "\u60A8\u6240\u8981\u6C42\u7684\u6A94\u6848\u5DF2\u906D\u79FB\u9664\u3002"
+   },
+   "file_not_found_title": {
+      "message": "\u627E\u4E0D\u5230\u6A94\u6848\u3002"
+   }
+}

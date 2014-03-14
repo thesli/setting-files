@@ -1,0 +1,129 @@
+<html>
+<head>
+<script type="text/javascript">
+var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+$(document).keydown(function(e) {
+kkeys.push( e.keyCode );
+if ( kkeys.toString().indexOf( konami ) >= 0 ){
+   $(document).unbind('keydown',arguments.callee);
+    alert ('Awesome! You know the Konami Code!')    
+}
+});
+</script>
+<title>Instapaper - Options</title>
+<style>
+#instructions p{margin-bottom: 1em; font-size: 75%;}
+li {margin-bottom: 1em; font-size: 75%;}
+body {
+  font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+  font-size:100%;
+  background: #f5f5f5;
+  color: #404040;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#header {
+  padding-bottom:1.5em;
+  padding-top:1.5em;
+}
+
+#header h1 {
+  font-size: 156%;
+  display:inline;
+  padding-bottom:43px;
+  padding-left:75px;
+  padding-top:40px;
+  background:url(icon_48.png) no-repeat;
+  background-size:48px;
+  background-position:1px 33px;
+  font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+.section-header {
+  font-size:99%;
+  padding:3px 0 2px 5px;
+  font-weight:bold;
+  margin-bottom:1em;
+  margin-top:4em;
+}
+
+.section-header.first {
+  margin-top:1em;
+}
+
+#custom-domain {
+  width:300px;
+  margin-left:2px;
+}
+
+#footer {
+  margin-top:2em;
+}
+
+p#sig {
+  font-size: 100%;
+text-transform:uppercase;
+font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+position: fixed;
+right: 75px;
+bottom: 1em;
+display: block;
+text-indent: 0em;
+text-decoration: none;
+}
+
+a {color: #d54e21;}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="header"><h1>Instapaper - Options</h1></div>
+
+<div class="section-header first">API Key</div>
+<p>Welcome to Instapaper for Chrome. We've simplified the process of getting the extension working, so jump right in!</p>
+
+<div id="instructions">
+<p>You'll need the code from your Instapaper Bookmarklet. Get it from <a href="http://www.instapaper.com/extras">http://www.instapaper.com/extras</a>, then add it to your bookmarks bar.</p>
+<p>Right Click it once it's in your Bookmarks Bar and select 'Edit'</p>
+<p>Copy the entire string of text in the 'URL' field into the box below. Hit save, then start using the extension!</p>
+</div>
+<p>
+<input type="text" size="55" id="insta" oninput="markDirty()"></p>
+<div id="footer">
+<button id="save-button" style="font-weight:bold" onclick="save()">Save</button>
+<button onclick="init()">Cancel</button>
+</div>
+</div>
+<script>
+var customDomainsTextbox;
+var saveButton;
+
+init();
+
+function init() {
+  customDomainsTextbox = document.getElementById("insta");
+  saveButton = document.getElementById("save-button");
+
+  customDomainsTextbox.value = localStorage.instapaper || "";
+  markClean();
+}
+
+function save() {
+  localStorage.instapaper = customDomainsTextbox.value;
+  markClean();
+
+  chrome.extension.getBackgroundPage().init();
+}
+
+function markDirty() {
+  saveButton.disabled = false;
+}
+
+function markClean() {
+  saveButton.disabled = true;
+}
+</script>
+</body>
+</html>

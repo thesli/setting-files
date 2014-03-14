@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Más información"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Ayúdanos a mejorar notificando el error."
+   },
+   "app_nacl_crash_report": {
+      "message": "Notificar un error..."
+   },
+   "app_nacl_crash_title": {
+      "message": "¡Vaya! Eso no debería haber sucedido"
+   },
+   "app_nacl_error_msg": {
+      "message": "Se ha producido un error al cargar la aplicación."
+   },
+   "app_nacl_error_title": {
+      "message": "No se puede abrir el archivo"
+   },
+   "application_description": {
+      "message": "Edición de documentos"
+   },
+   "file_loading_spinner_label": {
+      "message": "Cargando"
+   },
+   "file_not_found_msg": {
+      "message": "El archivo solicitado se ha trasladado a otra ubicación."
+   },
+   "file_not_found_title": {
+      "message": "No se ha encontrado el archivo."
+   }
+}

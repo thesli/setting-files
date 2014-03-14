@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.addEventListener("load", init, false);
+      
+      function init() {
+        initOptions();
+        initCounter();
+      }
+      
+      function initOptions() {
+        initOption('counter', 'off');
+        initOption('width', '300');
+        initOption('lines', '3');
+      }
+      function initOption(key, value) {
+        if (localStorage[key] == undefined) localStorage[key] = value;
+      }
+      function option(key) {
+        return localStorage[key];
+      }
+      
+      function initCounter() {
+        var counter = option('counter');
+        if (counter == 'on') {
+          setTabsCounter();
+          updateCounter();
+        } else if (counter = 'off') {
+          removeTabsCounter();
+        }
+      }
+      function setTabsCounter() {
+        chrome.tabs.onAttached.addListener(updateCounter);
+        chrome.tabs.onCreated.addListener(updateCounter);
+        chrome.tabs.onDetached.addListener(updateCounter);
+        chrome.tabs.onRemoved.addListener(updateCounter);
+        chrome.windows.onFocusChanged.addListener(updateCounter); 
+        chrome.browserAction.setBadgeBackgroundColor({color:[104, 137, 203, 255]});
+      }
+      function removeTabsCounter() {
+        setBadgeText('');
+        chrome.tabs.onAttached.removeListener(updateCounter);
+        chrome.tabs.onCreated.removeListener(updateCounter);
+        chrome.tabs.onDetached.removeListener(updateCounter);
+        chrome.tabs.onRemoved.removeListener(updateCounter);
+        chrome.windows.onFocusChanged.removeListener(updateCounter);
+      }
+      function updateCounter() {
+        if(option('counter') != 'on') 
+          return;
+
+        chrome.tabs.getAllInWindow(null, function(tabs) {
+          setBadgeText(String(tabs.length));
+        });
+      }
+      function setBadgeText(text) {
+        chrome.browserAction.setBadgeText({text:text});
+      }
+    </script>
+  </head>
+</html>

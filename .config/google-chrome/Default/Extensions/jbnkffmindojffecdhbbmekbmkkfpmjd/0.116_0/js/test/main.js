@@ -1,0 +1,1 @@
+require(["common/requireConfig"],function(){"use strict";require(["test/plugins"])});

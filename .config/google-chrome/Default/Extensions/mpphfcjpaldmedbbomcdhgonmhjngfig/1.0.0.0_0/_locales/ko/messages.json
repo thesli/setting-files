@@ -1,0 +1,20 @@
+{
+   "vkbd_description": {
+      "message": "\uC0AC\uC6A9\uC911\uC9C0\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uB300\uC2E0 Google \uC785\uB825 \uB3C4\uAD6C \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8(http://goo.gl/lzCPo\uC5D0\uC11C \uC81C\uACF5)\uC744 \uC0AC\uC6A9\uD574 \uC8FC\uC138\uC694."
+   },
+   "vkbd_name": {
+      "message": "\uC0AC\uC6A9\uC911\uC9C0\uB428: \uAC00\uC0C1 \uD0A4\uBCF4\uB4DC(Google \uC81C\uACF5)"
+   },
+   "vkbd_options_title": {
+      "message": "\uAC00\uC0C1 \uD0A4\uBCF4\uB4DC \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 \uC635\uC158"
+   },
+   "vkbd_pick_keyboard_layout": {
+      "message": "\uC67C\uCABD\uC5D0\uC11C \uD0A4\uBCF4\uB4DC \uB808\uC774\uC544\uC6C3 \uC120\uD0DD:"
+   },
+   "vkbd_save_options": {
+      "message": "\uC800\uC7A5"
+   },
+   "vkbd_show_hide_keyboard": {
+      "message": "\uD0A4\uBCF4\uB4DC \uD45C\uC2DC/\uC228\uAE30\uAE30"
+   }
+}

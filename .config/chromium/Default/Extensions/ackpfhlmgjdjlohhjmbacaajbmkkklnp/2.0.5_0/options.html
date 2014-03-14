@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Options for Tab Expose</title>
+<link rel="icon" sizes="16x16" type="image/png" href="chrome-extension://ackpfhlmgjdjlohhjmbacaajbmkkklnp/icon_16.png" /> 
+<link rel="stylesheet" href="options.css">
+<script type="text/javascript" src = "options.js">
+</script>
+</head>
+<body onload="main()">
+<h1><img src="icon.png" width="32" height="32" alt=""> Tab Expose</h1>
+<small>
+<br>
+<strong><script>__m('instruct')</script></strong>
+<ul class="options-list">
+<li><label>
+		<input id="default" type="radio" name="isPopup" value="newTab"
+			onclick="toggleMode(this)" checked><script>__m('newTab')</script></label></li>
+<li><label><input id="popUp" type="radio" name="isPopup" value="popUp"
+			onclick="toggleMode(this)"><script>__m('popup')</script></label></li>
+</ul>
+<strong><script>__m('theme')</script></strong>
+<ul class="options-list">
+<li><label>
+		<input id="windows" type="radio" name="theme" value="windows"
+			onclick="toggleTheme(this)" checked>Windows</label></li>
+<li><label><input id="mac" type="radio" name="theme" value="mac"
+			onclick="toggleTheme(this)">Mac</label></li>
+</ul>
+<strong><script>__m('showTab')</script></strong>
+<ul class="options-list">
+<li><label>
+		<input id="tabCount" type="radio" name="hasTabCount" value="tabCount"
+			onclick="toggleCount(this)" checked><script>__m('yes')</script></label></li>
+<li><label><input id="noTabCount" type="radio" name="hasTabCount" value="noTabCount"
+			onclick="toggleCount(this)"><script>__m('no')</script></label></li>
+</ul>
+<div id="pagesScript"><strong><script>__m('shortcut')</script></strong></div>
+<ul class="options-list">
+<li class="section-content">
+<span id="pagesScript"><script>__m('hotkeyInstruct')</script></span>
+        <input type="text" id="hotkey"></input><span></span>
+        <button id="save" onclick="save(this)"><script>__m('save')</script></button><span></span>
+</li>
+</ul>	
+<div><script>__m('hotkeyNotice')</script></div>
+			
+</body>
+</html>

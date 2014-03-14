@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <title>New Tab</title>
+        <link rel="stylesheet" href="newpage-pop.css" type="text/css" />
+        <script type="text/javascript" src="/lib/jscolor/jscolor.js"></script>
+        <script type="text/javascript" src="/lib/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="/lib/jquery-ui-1.8.23.custom.min.js"></script>
+        <script type="text/javascript" src="locales.js"></script>
+        <!--script type="text/javascript" src="newpage-pop-sync.js"></script-->
+        <script type="text/javascript" src="newpage-pop.js"></script>
+    </head>
+    <body>
+        <div id="base">           
+            <div id="innerBase">
+                <div id="fixedArea">
+
+                    <div id="optionsArea" status="hide">
+
+                        <div id="backgroundColorOptions">
+                            <b><span id="backgroundColorOptionTitle">Background Color</span></b>
+                            <div id="backgroundColorSelectionTips" class="optionsTips">Select a theme color:</div>
+                            <div id="backgroundColorSelection">
+                                <div class="colorbutton" style="background:#A0D9A4;" bg="4"></div>
+                                <div class="colorbutton" style="background:#999999;" bg="3"></div>
+                                <div class="colorbutton" style="background:#ADC1EC;" bg="2"></div>
+                                <div class="colorbutton" style="background:#B8875E;" bg="1"></div>
+                                <div class="colorbutton" style="background:#EDDE98;" bg="0"></div>
+                                <br style="clear:both">
+                            </div>
+                            <div id="backgroundColorCustomTips" class="optionsTips">Or choose a custom background:</div>
+                            <div id="backgroundColorCustom">
+                                <input class="color" id="backgroundColor1" >
+                                <input class="color" id="backgroundColor2" >
+                                <input type="button" value="Save">
+                            </div>
+                        </div>
+                        <hr> 
+                        <div id="fontColorOptions">
+                            <b><span id="fontColorOptionTitle">Font Color</span></b>
+                            <div id="fontColorSelectionTips" class="optionsTips">Select your font color:</div>
+                            <div id="fontColorSelection">
+                                <div class="colorbutton" style="background:#fff;" fc="1"></div>
+                                <div class="colorbutton" style="background:#000;" fc="2"></div>
+                                <br style="clear:both">
+                            </div>
+                        </div> 
+
+                        <hr> 
+                        <div id="wallpaperOptions">
+                            <b><span id="wallpaperOptionTitle">Wallpaper</span></b>
+
+                            <div id="wallpaperThemeSelectionTips" class="optionsTips">Choose wallpaper from a theme:</div>
+                            <div id="wallpaperThemeSelection">
+                                <div id="clouds" class="photoTheme" style="left:90px;" album="clouds" >Clouds</div>
+                                <div class="photoTheme" style="left:140px;" album="sunset">Sunset</div>
+                                <div class="photoTheme" style="left:190px;" album="nature">Nature</div>
+                                <div class="photoTheme" style="left:240px;" album="Star Trails">Star</div>
+
+                                <div id="custom" class="photoTheme" style="left:275px;">Custom</div>
+                                <div id="default" class="photoTheme" style="left:300px;">Default</div>
+
+                                <div id="loading-gif" class="loading-gif"></div>
+                                <div id="nextPhotos" class="rightButton" title="Next 20 photos"></div>
+                                <div id="prevPhotos" class="leftButton" title="Previous 20 photos"></div>
+                                <br style="clear:both">
+                                <div id="albumRow"></div>
+                            </div>
+                            <div id="customDialog">
+                                <div id="customWallpaperLabel" class="optionsTips">Use Custom Wallpaper</div>
+                                <input type="radio" name="customImagePath" id="useURL" value="0">
+                                <span id="message" class="optionsTips">Image URL:</span>
+                                <input type="text" id="customWallpaperURL"/>
+                                <br/>
+                                <input type="radio" name="customImagePath" id="useLocal" value="1">
+                                <span id="useLocalLabel" class="optionsTips">Local File (~1024px wide, jpg format & max. size 500K):</span>
+                                <form>
+                                    <input type="file" id="files" name="files[]"/>
+                                    <input id="reset" type="reset"/>
+                                    <output id="list"><img id="thumb"></img></output>
+                                </form>
+                                <br/>
+                                <div style="text-align:right;padding:10px;">
+                                    <span id="closeBtn">Cancel</span>
+                                    <span id="saveBtn">Save</span>
+                                </div>
+                            </div>
+
+                            <div id="wallpaperThemeCustomTips" class="optionsTips">Or use a gradient as the background:</div>
+                            <div id="wallpaperThemeCustom">
+                                <input class="color" id="wallpaperColor1" >
+                                <input class="color" id="wallpaperColor2" >
+                                <input type="button" value="Save">                                
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="optionsCloseBtn">X</div>
+                    </div>
+                    <div id="notepadArea">
+                        <div id="noteUpdatedAtOtherPlaces">
+                            <div id="noteUpdatedAtOtherPlacesText">
+                                The note has been updated from other places, please reload this page.
+                            </div>
+                        </div>
+                        <div id="pencil" ></div>
+                        <div id="pencilHoverCatcher" title="Change notepad font"></div>
+                        <div id="notepadDiv">
+                            <textarea id="notepad"></textarea>
+                        </div>
+                        <div id="share">
+                            <img class="multinote" index="0" src="/img/noteicons_01.png" style="width:30px;"/>
+                            <img class="multinote" index="1" src="/img/noteicons_02.png" style="width:30px;"/>
+                            <img class="multinote" index="2" src="/img/noteicons_03.png" style="width:30px;"/>
+                            <img class="multinote" index="3" src="/img/noteicons_04.png" style="width:30px;"/>
+
+                            <img id="shareToMail" src="/img/noteicons_05.png" style="width:30px;"/>
+                            <img id="shareToCalendar" src="/img/noteicons_06.png" style="width:30px;"/>
+                            <!-- span id="postTo">Post to</span>
+                            <span id="shareToMail">Gmail</span>
+                            / 
+                            <span id="shareToCalendar">Calendar</span-->
+                        </div>
+                    </div>
+                    <div id="minibarArea">
+                        <div id="recentlyClosedBorder">
+                            <div id="recentlyClosed">
+                                <img src="/img/recycle.png" id="closedRecycle" />
+                                <div id="recentlyClosedTitle">Closed</div>
+                                <div id="clearClosedDiv" class="navigationButton">
+                                    <span id="clearClosedText" class="navigationText">Clear</span>
+                                </div>
+                                <div id="recentlyClosedList" class="list" singleDirectoryMode="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bookmarkBrowserBorder">
+                            <div id="bookmarkBrowser">
+                                <img src="/img/star.png" id="bookmarkStar" />
+                                <div id="bookmarkBrowserTitle">Bookmarks</div>
+                                <div id="backToParentDiv" class="navigationButton">
+                                    <img src="/img/back.png">
+                                    <span id="backToParentText" class="navigationText">Back</span>
+                                </div>
+                                <div id="bookmarkBrowserList" class="connected list">
+                                </div>
+                                <div id="bookmarkBrowserControls">
+                                    <div id="bookmarkBrowserPinWrapper">
+                                        <div id="bookmarkBrowserPin" class="bookmarkBrowserControl" disabled="true">
+                                            Show as main
+                                        </div>
+                                    </div>
+                                    <div id="bookmarkBrowserTopWrapper">
+                                        <div id="bookmarkBrowserTop" class="bookmarkBrowserControl" disabled="true">
+                                            Home
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="bookmarkControlsHelp" class="help">
+                                    <span id="bookmarkControlsHelpMsg">You can now customize the folder shown on the right panel - navigate to that folder and click 'Show as main'.
+                                    </span>
+                                    <span id="bookmarkControlsHelpDismiss" class="dismiss">[Close]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="toggleOptionsBtn">Theme Options</div>
+                <div id="advancedOptionsBtn">Advanced Options</div>
+
+                <div id="variableArea">
+
+                    <div id="bookmarkSelector" class="tabSelector">My Bookmarks</div>
+                    <div id="appSelector" class="tabSelector">My Apps</div>
+                    <div id="topSelector" class="tabSelector">Most Visited</div>                    
+
+                    <div id="bookmarkBarBorder" >
+                        <div id="bookmarkBar" class="box">
+                            <div id="background-imgBlock">
+                                <img id="background-img" />
+                            </div>
+                            <div id="appList" class="list">
+                            </div>
+                            <div id="topList" class="list">
+                            </div>                            
+                            <div id="bookmarkBarList" class="connected list">
+                            </div>
+                            <div id="bookmarkBarHelp" class="help">
+                                <span id="bookmarkBarHelpContent">This area shows the items in your bookmark toolbar, folders are hidden.</span>
+                                <span id="bookmarkBarHelpDismiss" class="dismiss">[Close]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="loading-gif2" class="loading-gif"></div>
+
+                    <div id="notice">Notice: This product uses the Flickr API but is not endorsed or certified by Flickr.</div>
+                    <!-- todo: can't click yet -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="updateNotifier">
+        </div>
+
+        <!--div id="chromeBugged">
+            <div id="chromeBuggedText">
+                Chrome Bookmarks are not ready yet. Please close this tab and open the Startpage in a new tab.
+            </div>
+        </div-->
+
+        <div id="appContextmenu">
+            <img id="appMenuIcon" src="/img/wrench.png"></img>
+            <div id="appMenuTitle"></div>            
+            <div id="uninstallApp">Uninstall</div>
+            <div id="deleteBm" class="bmMenu">Delete</div>
+            <div id="renameBm" class="bmMenu">Rename</div>
+            <div id="menuCancel">Cancel</div>
+        </div>
+    </body>
+</html>
+

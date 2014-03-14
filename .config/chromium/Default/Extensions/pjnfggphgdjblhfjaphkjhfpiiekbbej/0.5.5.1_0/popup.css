@@ -1,0 +1,77 @@
+/* Top-level containers */
+body {
+  margin: 0;
+}
+.SP_Hide {display: none}
+.SP_MainContainer, .SP_ZeroResultsContainer, .SP_SpecialCaseContainer {
+  font-family:sans-serif;
+  font-size: 8pt;
+}
+.SP_MainContainer, .SP_SpecialCaseContainer {
+  margin: 10px 0 10px 14px;
+}
+.SP_MainContainer {
+  width: 780px;
+  overflow: hidden;
+}
+.SP_ZeroResultsContainer, .SP_SpecialCaseContainer {
+  color: #666666;
+}
+.SP_ZeroResultsContainer {
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 180px;
+  height: 20px;
+}
+.SP_SpecialCaseContainer {
+  width: 350px;
+}
+.SP_PageEntry {
+  float: left;
+  width: 194px;
+}
+#sp_logo {
+  margin: 0 0 10px 0;
+}
+#sp_close_button {
+  position: absolute;
+  top: 10px;
+  right: 24px;
+}
+img#sp_close_button:hover {
+  background-color: #eeeeff;
+}
+#sp_results {
+  overflow-x: hidden;
+}
+.SP_PageEntryText {
+  padding-left: 2px;
+  padding-top: 12px;
+  width: 168px; /* ImageWrapper width - 12px for extra spacing */
+  overflow-x: hidden;
+  color: black;
+}
+.SP_ImageAnchor {
+  color: #75a7ff;
+  text-decoration: none;
+  font-size: 10pt;
+}
+.SP_ImageWrapper {
+  height: 200px;
+  width: 180px;
+  overflow: hidden;
+  border: 1px solid #75a7ff;
+}
+.SP_ImageNotFound {
+  text-align: center;
+  padding-top: 120px;
+  height: 80px;
+  background-image: url('images/spacer_no_preview.png');
+}
+.SP_ImageThumb {
+  width: 200px;
+  height: 200px;
+}
+.SP_WebResult {margin: 8px 0 0 0;}
+.SP_WebUrl {color: green;}

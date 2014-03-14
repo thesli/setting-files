@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "\uC815\uBCF4"
+   },
+   "about_message": {
+      "message": "Google Chrome to Phone\uC744 \uC0AC\uC6A9\uD558\uBA74 \uB9C1\uD06C \uBC0F \uAE30\uD0C0 \uC815\uBCF4\uB97C \uD06C\uB86C\uC5D0\uC11C \uAC1C\uC778 Android \uAE30\uAE30\uB85C \uC804\uC1A1\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. Chrome to Phone\uC740 \uD06C\uB86C \uBE0C\uB77C\uC6B0\uC800 \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uACFC Android \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC73C\uB85C \uAD6C\uC131\uB418\uC5B4 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "about_title_message": {
+      "message": "\uC815\uBCF4"
+   },
+   "app_desc": {
+      "message": "Google Chrome to Phone \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC0AC\uC6A9\uD558\uBA74 \uB9C1\uD06C \uBC0F \uAE30\uD0C0 \uC815\uBCF4\uB97C \uD06C\uB86C\uC5D0\uC11C \uAC1C\uC778 Android \uAE30\uAE30\uB85C \uC804\uC1A1\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "\uC5F0\uACB0 \uC624\uB958\uC785\uB2C8\uB2E4."
+   },
+   "device_not_registered_message": {
+      "message": "\uC0AC\uC6A9\uC790 \uB4F1\uB85D\uB418\uC9C0 \uC54A\uC740 \uAE30\uAE30\uC785\uB2C8\uB2E4."
+   },
+   "error_sending_message": {
+      "message": "\uD734\uB300\uC804\uD654\uB85C \uC804\uC1A1 \uC911 \uC624\uB958 \uBC1C\uC0DD: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "\uBE0C\uB77C\uC6B0\uC800 \uB9C1\uD06C\uB97C \uD06C\uB86C\uC5D0\uC11C \uD734\uB300\uC804\uD654\uB85C \uC804\uC1A1\uD569\uB2C8\uB2E4."
+   },
+   "features_message2": {
+      "message": "Google \uC9C0\uB3C4 \uB9C1\uD06C\uB294 Android\uC5D0\uC11C Google \uC9C0\uB3C4 \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC744 \uC2E4\uD589\uD569\uB2C8\uB2E4."
+   },
+   "features_message3": {
+      "message": "YouTube \uB9C1\uD06C\uB294 Android\uC5D0\uC11C YouTube \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC744 \uC2E4\uD589\uD569\uB2C8\uB2E4."
+   },
+   "features_message4": {
+      "message": "\uC804\uD654\uBC88\uD638\uB97C \uC120\uD0DD\uD558\uBA74 \uC785\uB825\uD55C \uBC88\uD638\uB85C \uB2E4\uC774\uC5BC\uB7EC\uAC00 \uC790\uB3D9 \uC2E4\uD589\uB429\uB2C8\uB2E4."
+   },
+   "features_message5": {
+      "message": "\uC6F9\uD398\uC774\uC9C0\uC5D0\uC11C \uD14D\uC2A4\uD2B8\uB97C \uC120\uD0DD\uD558\uBA74 \uD074\uB9BD\uBCF4\uB4DC\uB97C Android\uB85C \uBCF5\uC0AC\uD569\uB2C8\uB2E4. Android\uC5D0 \uBD99\uC5EC\uB123\uC73C\uB824\uBA74 \uC785\uB825\uB780\uC744 \uAE38\uAC8C \uB204\uB985\uB2C8\uB2E4."
+   },
+   "features_title_message": {
+      "message": "\uAE30\uB2A5"
+   },
+   "help_message": {
+      "message": "\uB3C4\uC6C0\uB9D0"
+   },
+   "invalid_scheme_message": {
+      "message": "http \uB610\uB294 https \uD398\uC774\uC9C0\uB9CC \uC9C0\uC6D0\uB429\uB2C8\uB2E4."
+   },
+   "privacy_message": {
+      "message": "\uAC1C\uC778\uC815\uBCF4 \uBCF4\uD638"
+   },
+   "sending_message": {
+      "message": "\uD734\uB300\uC804\uD654\uB85C \uC804\uC1A1..."
+   },
+   "sent_message": {
+      "message": "\uD734\uB300\uC804\uD654\uB85C \uC804\uC1A1\uD588\uC2B5\uB2C8\uB2E4."
+   },
+   "sign_in_message": {
+      "message": "\uB85C\uADF8\uC778"
+   },
+   "sign_in_required_message": {
+      "message": "Chrome to Phone\uC73C\uB85C $link$\uD558\uC138\uC694.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "\uB85C\uADF8\uC544\uC6C3"
+   },
+   "signed_in_message": {
+      "message": "\uB85C\uADF8\uC778\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uC81C \uD734\uB300\uC804\uD654\uB85C \uB9C1\uD06C\uB97C \uC804\uC1A1\uD560 \uC900\uBE44\uAC00 \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+   },
+   "signed_out_message": {
+      "message": "Chrome to Phone\uC5D0\uC11C \uB85C\uADF8\uC544\uC6C3\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+   },
+   "signed_out_title_message": {
+      "message": "\uB85C\uADF8\uC544\uC6C3\uD588\uC2B5\uB2C8\uB2E4"
+   },
+   "step2_message": {
+      "message": "chrome.google.com/extensions\uC5D0\uC11C 'Chrome to Phone'\uC744 \uAC80\uC0C9\uD569\uB2C8\uB2E4."
+   },
+   "step3_message": {
+      "message": "Chrome to Phone \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC744 \uC124\uCE58\uD558\uACE0 \uD234\uBC14 \uC544\uC774\uCF58\uC744 \uD074\uB9AD\uD558\uC5EC \uB85C\uADF8\uC778\uD569\uB2C8\uB2E4."
+   },
+   "step4_message": {
+      "message": "Android \uAE30\uAE30\uC758 \uB9C8\uCF13\uC5D0\uC11C 'Chrome to Phone'\uC744 \uAC80\uC0C9\uD569\uB2C8\uB2E4."
+   },
+   "step5_message": {
+      "message": "Chrome to Phone Android \uC560\uD50C\uB9AC\uCF00\uC774\uC158\uC744 \uC124\uCE58\uD558\uACE0 \uAC04\uB2E8\uD55C \uC124\uC815 \uD504\uB85C\uC138\uC2A4\uB97C \uC644\uB8CC\uD558\uC138\uC694."
+   },
+   "step6_message": {
+      "message": "\uB9C1\uD06C \uB610\uB294 \uD604\uC7AC \uC120\uD0DD\uB41C \uD14D\uC2A4\uD2B8\uB97C \uD734\uB300\uC804\uD654\uB85C \uC804\uC1A1\uD558\uB824\uBA74 \uD234\uBC14 \uC544\uC774\uCF58\uC744 \uD074\uB9AD\uD569\uB2C8\uB2E4."
+   },
+   "tos_message": {
+      "message": "\uC11C\uBE44\uC2A4 \uC57D\uAD00"
+   }
+}

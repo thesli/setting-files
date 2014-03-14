@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Uzziniet vairāk"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Palīdziet mums, ziņojot par problēmu."
+   },
+   "app_nacl_crash_report": {
+      "message": "Ziņot par problēmu..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Diemžēl radās kļūme."
+   },
+   "app_nacl_error_msg": {
+      "message": "Ielādējot lietojumprogrammu, radās problēma."
+   },
+   "app_nacl_error_title": {
+      "message": "Failu nevar atvērt."
+   },
+   "application_description": {
+      "message": "Dokumenta rediģēšana"
+   },
+   "file_loading_spinner_label": {
+      "message": "Notiek ielāde"
+   },
+   "file_not_found_msg": {
+      "message": "Jūsu pieprasītais fails ir pārvietots."
+   },
+   "file_not_found_title": {
+      "message": "Fails nav atrasts."
+   }
+}

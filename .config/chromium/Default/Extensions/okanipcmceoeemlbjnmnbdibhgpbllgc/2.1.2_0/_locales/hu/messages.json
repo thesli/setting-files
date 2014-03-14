@@ -1,0 +1,186 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hu"
+   },
+   "qs_about_close_button": {
+      "message": "Bez\u00E1r\u00E1s"
+   },
+   "qs_about_copy": {
+      "message": "&copy;2009 Google"
+   },
+   "qs_about_explanation": {
+      "message": "Miut\u00E1n r\u00E1kattintott egy Google keres\u00E9si eredm\u00E9nyre, a Gyorsg\u00F6rget\u0151 megjelenhet az oldal jobb als\u00F3 sark\u00E1ban, megjelen\u00EDtve a keres\u00E9s szempontj\u00E1b\u00F3l relev\u00E1ns sz\u00F6vegr\u00E9sz(eke)t. Ha r\u00E1kattint a sz\u00F6vegre, automatikusan az oldal adott r\u00E9sz\u00E9re ugrik."
+   },
+   "qs_about_explanation2": {
+      "message": "A Gyorsg\u00F6rget\u0151 csak akkor jelenik meg, ha val\u00F3sz\u00EDn\u0171s\u00EDthet\u0151en hasznos. A jobb fels\u0151 sarokban l\u00E9v\u0151 kis m\u00E9ret gombra kattintva kis m\u00E9retre \u00E1ll\u00EDthatja."
+   },
+   "qs_about_footer_about_google": {
+      "message": "\u003Ca href=\"http://www.google.com/intl/$1/about.html\"\u003EMinden a Google-r\u00F3l\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_privacy_policy": {
+      "message": "\u003Ca href=\"http://www.google.com/chrome/intl/$1/extensions/privacy_notices.html\"\u003EAdatv\u00E9delmi ir\u00E1nyelvek\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_footer_tos": {
+      "message": "\u003Ca href=\"http://chrome.google.com/extensions/intl/$1/gallery_tos.html\"\u003E\u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9telek\u003C/a\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_how_it_works": {
+      "message": "\u00CDgy m\u0171k\u00F6dik a Gyorsg\u00F6rget\u0151:"
+   },
+   "qs_about_installed": {
+      "message": "A Google Gyorsg\u00F6rget\u0151 telep\u00EDt\u00E9se megt\u00F6rt\u00E9nt."
+   },
+   "qs_about_introduction": {
+      "message": "A Google Gyorsg\u00F6rget\u0151 olyan b\u00F6ng\u00E9sz\u0151b\u0151v\u00EDtm\u00E9ny, amelynek seg\u00EDts\u00E9g\u00E9vel gyorsabban megtal\u00E1lhatja, amit keres."
+   },
+   "qs_about_only_useful": {
+      "message": "A Gyorsg\u00F6rget\u0151 csak akkor jelenik meg, ha hasznos. \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003ETov\u00E1bbi inform\u00E1ci\u00F3\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_options_saved": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok elmentve"
+   },
+   "qs_about_privacy_options_label": {
+      "message": "Seg\u00EDtse a Google Gyorsg\u00F6rget\u0151 tov\u00E1bbfejleszt\u00E9s\u00E9t a haszn\u00E1lati statisztik\u00E1k Google sz\u00E1m\u00E1ra val\u00F3 automatikus elk\u00FCld\u00E9s\u00E9vel."
+   },
+   "qs_about_privacy_options_title": {
+      "message": "Adatv\u00E9delmi be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "qs_about_step_1": {
+      "message": "V\u00E9gezzen egy Google-keres\u00E9st."
+   },
+   "qs_about_step_2": {
+      "message": "Kattintson egy keres\u00E9si eredm\u00E9nyre."
+   },
+   "qs_about_step_3": {
+      "message": "Az oldal relev\u00E1ns r\u00E9szeire val\u00F3 ugr\u00E1shoz kattintson a Gyorsg\u00F6rget\u0151re."
+   },
+   "qs_about_support_instructions": {
+      "message": "Ha k\u00E9rd\u00E9sei vannak a Gyorsg\u00F6rget\u0151vel kapcsolatban, k\u00E9rj\u00FCk, tekintse meg \u003Ca href=\"http://www.google.com/support/websearch/bin/answer.py?answer=171471&hl=$1\"\u003Et\u00E1mogat\u00F3oldalunkat\u003C/a\u003E.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_about_thank_you": {
+      "message": "K\u00F6sz\u00F6nj\u00FCk, hogy telep\u00EDtette a Google Gyorsg\u00F6rget\u0151t!"
+   },
+   "qs_about_try_it": {
+      "message": "\u003Cb\u003EPr\u00F3b\u00E1lja ki!\u003C/b\u003E Keressen a k\u00F6vetkez\u0151re: [\u003Ca id=\"sample-query\" target=\"_blank\" href=\"http://www.google.com/search?q=dark+matter+brown+dwarfs\"\u003Edark matter brown dwarfs\u003C/a\u003E], majd kattintson a(z) \"dark matter brown dwarfs\" eredm\u00E9nyre."
+   },
+   "qs_about_try_queries": {
+      "message": "Pr\u00F3b\u00E1lja ki ezeket a lek\u00E9rdez\u00E9seket:"
+   },
+   "qs_about_uninstall_instructions": {
+      "message": "A Google Gyorsg\u00F6rget\u0151 b\u0151v\u00EDtm\u00E9ny elt\u00E1vol\u00EDt\u00E1s\u00E1hoz nyissa meg a Google Chrome Eszk\u00F6z\u00F6k&nbsp;\u003E&nbsp;B\u0151v\u00EDtm\u00E9nyek men\u00FCj\u00E9t, majd kattintson a Google Gyorsg\u00F6rget\u0151 melletti Elt\u00E1vol\u00EDt\u00E1s linkre."
+   },
+   "qs_about_uninstall_title": {
+      "message": "Elt\u00E1vol\u00EDt\u00E1s"
+   },
+   "qs_description": {
+      "message": "A Gyorsg\u00F6rget\u0151 lehet\u0151v\u00E9 teszi, hogy k\u00F6zvetlen\u00FCl egy Google keres\u00E9si eredm\u00E9ny relev\u00E1ns r\u00E9sz\u00E9hez ugorjon."
+   },
+   "qs_fewer_matches": {
+      "message": "\u003Cspan class=\"goog_qs-go\"\u003E&laquo;\u003C/span\u003E  Kevesebb tal\u00E1lat"
+   },
+   "qs_fewer_matches_tooltip": {
+      "message": "A lek\u00E9rdez\u00E9s eredeti tal\u00E1latainak megjelen\u00EDt\u00E9se"
+   },
+   "qs_gallery_description": {
+      "message": "A Google Gyorsg\u00F6rget\u0151 egy olyan b\u00F6ng\u00E9sz\u0151b\u0151v\u00EDtm\u00E9ny, amely seg\u00EDt gyorsabban megtal\u00E1lni, amit keres.\u003Cbr/\u003E\u003Cbr/\u003EMiut\u00E1n r\u00E1kattint egy Google keres\u00E9si eredm\u00E9nyre, a Gyorsg\u00F6rget\u0151 megjelenhet az oldal jobb als\u00F3 sark\u00E1ban, egy vagy t\u00F6bb olyan sz\u00F6vegr\u00E9szletet mutatva az oldalr\u00F3l, amely relev\u00E1ns a lek\u00E9rdez\u00E9s\u00E9vel kapcsolatban. A sz\u00F6vegre kattintva eljuthat az oldal megfelel\u0151 r\u00E9sz\u00E9re.\u003Cbr/\u003E\u003Cbr/\u003EA Gyorsg\u00F6rget\u0151 igyekszik nem \u00FAtban lenni, \u00E9s csak akkor t\u0171nik fel, ha val\u00F3sz\u00EDn\u0171leg hasznos lesz."
+   },
+   "qs_info_no_tidbits_found": {
+      "message": "Sajn\u00E1ljuk, a Gyorsg\u00F6rget\u0151 nem tal\u00E1lt eredm\u00E9nyeket ezen az oldalon a k\u00F6vetkez\u0151re: \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. \u003Cspan class=\"goog_qs-learn-more\"\u003ETov\u00E1bbi inform\u00E1ci\u00F3.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_annotated_result": {
+      "message": "\u00DAgy t\u0171nik, hogy az eg\u00E9sz oldal t\u00E9m\u00E1ja a(z) \u003Cspan class=\"goog_qs-query\"\u003E$1\u003C/span\u003E. A Gyorsg\u00F6rget\u0151 csak akkor jelenik meg, ha az oldalnak csak egy r\u00E9sze relev\u00E1ns. \u003Cspan class=\"goog_qs-learn-more\"\u003ETov\u00E1bbi inform\u00E1ci\u00F3.\u003C/span\u003E",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_info_non_ebm_result": {
+      "message": "A Gyorsg\u00F6rget\u0151 az\u00E9rt nem jelent meg, mert az eg\u00E9sz oldal relev\u00E1ns a lek\u00E9rdez\u00E9s szempontj\u00E1b\u00F3l."
+   },
+   "qs_info_on_search": {
+      "message": "A Gyorsg\u00F6rget\u0151 azut\u00E1n jelenik meg, hogy r\u00E1kattint egy Google keres\u00E9si eredm\u00E9nyre. \u003Cspan class=\"goog_qs-learn-more\"\u003ETov\u00E1bbi inform\u00E1ci\u00F3.\u003C/span\u003E"
+   },
+   "qs_long_description_url": {
+      "message": "A \"Telep\u00EDt\u00E9s\" gombra kattintva elfogadja ezeket az \u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9teleket: https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "qs_more_matches": {
+      "message": "Tov\u00E1bbi tal\u00E1latok \u003Cspan class=\"goog_qs-go\"\u003E&raquo;\u003C/span\u003E"
+   },
+   "qs_more_matches_tooltip": {
+      "message": "T\u00F6bb tal\u00E1lat megjelen\u00EDt\u00E9se a lek\u00E9rdez\u00E9shez"
+   },
+   "qs_name": {
+      "message": "Google Gyorsg\u00F6rget\u0151"
+   },
+   "qs_page_action_active": {
+      "message": "A Gyorsg\u00F6rget\u0151 ezen az oldalon tal\u00E1latokra bukkant."
+   },
+   "qs_page_action_inactive": {
+      "message": "A Gyorsg\u00F6rget\u0151 enged\u00E9lyezve van. Tov\u00E1bbi inform\u00E1ci\u00F3\u00E9rt kattintson ide."
+   },
+   "qs_page_action_running": {
+      "message": "A Gyorsg\u00F6rget\u0151 az oldal bet\u00F6lt\u0151d\u00E9s\u00E9re v\u00E1r..."
+   },
+   "qs_tidbit_box_help_tooltip": {
+      "message": "A S\u00FAg\u00F3 \u00E9s be\u00E1ll\u00EDt\u00E1sok oldal megnyit\u00E1sa"
+   },
+   "qs_tidbit_box_matches": {
+      "message": "Tal\u00E1latok az oldalon \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E lek\u00E9rdez\u00E9shez"
+   },
+   "qs_tidbit_box_matches_on_page": {
+      "message": "Tal\u00E1latok az oldalon \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E lek\u00E9rdez\u00E9shez"
+   },
+   "qs_tidbit_box_minimize_tooltip": {
+      "message": "Kis m\u00E9ret"
+   },
+   "qs_tidbit_box_restore_tooltip": {
+      "message": "A Google Gyorsg\u00F6rget\u0151 megnyit\u00E1sa"
+   },
+   "qs_tidbit_box_tidbit_tooltip": {
+      "message": "Kattintson ide a sz\u00F6veg oldalon val\u00F3 megtekint\u00E9s\u00E9hez"
+   },
+   "qs_toolbar_go_label": {
+      "message": "Ugr\u00E1s a sz\u00F6vegre $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "qs_toolbar_tidbit_box_matches": {
+      "message": "A legjobb egyez\u00E9sek a k\u00F6vetkez\u0151re: \u003Cspan class=\"goog_qs-query\"\u003E\u003C/span\u003E"
+   }
+}

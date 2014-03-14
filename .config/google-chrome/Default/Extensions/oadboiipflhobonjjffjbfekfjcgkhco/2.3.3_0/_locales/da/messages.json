@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "Om"
+   },
+   "about_message": {
+      "message": "Med Chrome to Phone fra Google kan du sende links og andre oplysninger fra Chrome til din Android-enhed. Chrome to Phone best\u00E5r af en udvidelse til browseren Chrome og et Android-program."
+   },
+   "about_title_message": {
+      "message": "Om"
+   },
+   "app_desc": {
+      "message": "Udvidelsen Google Chrome to Phone giver dig mulighed for at sende links og andre oplysninger fra Chrome til din Android-enhed."
+   },
+   "app_name": {
+      "message": "Google Chrome to Phone Extension"
+   },
+   "app_name_short": {
+      "message": "Chrome to Phone"
+   },
+   "connectivity_error_message": {
+      "message": "Forbindelsesfejl."
+   },
+   "device_not_registered_message": {
+      "message": "Brugeren har ikke en registreret enhed."
+   },
+   "error_sending_message": {
+      "message": "Fejl ved afsendelse til telefon: $details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "Send browserlinks fra Chrome til din telefon."
+   },
+   "features_message2": {
+      "message": "Links til Google Maps \u00E5bner programmet Google Maps p\u00E5 Android."
+   },
+   "features_message3": {
+      "message": "YouTube-links \u00E5bner programmet YouTube p\u00E5 Android."
+   },
+   "features_message4": {
+      "message": "N\u00E5r du markerer et telefonnummer, \u00E5bnes Opkald automatisk med telefonnummeret."
+   },
+   "features_message5": {
+      "message": "N\u00E5r du markerer tekst p\u00E5 en webside, kopieres udklipsholderen til Android (tryk l\u00E6nge p\u00E5 et tekstfelt for at inds\u00E6tte i Android)."
+   },
+   "features_title_message": {
+      "message": "Funktioner"
+   },
+   "help_message": {
+      "message": "Hj\u00E6lp"
+   },
+   "invalid_scheme_message": {
+      "message": "Kun sider med http eller https underst\u00F8ttes."
+   },
+   "privacy_message": {
+      "message": "Beskyttelse af personlige oplysninger"
+   },
+   "sending_message": {
+      "message": "Sender til telefon..."
+   },
+   "sent_message": {
+      "message": "Sendt til telefon."
+   },
+   "sign_in_message": {
+      "message": "log ind"
+   },
+   "sign_in_required_message": {
+      "message": "$link$ p\u00E5 Chrome to Phone.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "Log ud"
+   },
+   "signed_in_message": {
+      "message": "Logget ind. Du kan nu sende links til din telefon."
+   },
+   "signed_out_message": {
+      "message": "Du er nu logget ud af Chrome to Phone."
+   },
+   "signed_out_title_message": {
+      "message": "Logget ud"
+   },
+   "step2_message": {
+      "message": "S\u00F8g efter 'Chrome to Phone' p\u00E5 chrome.google.com/extensions."
+   },
+   "step3_message": {
+      "message": "Installer udvidelsen Chrome to Phone, og klik p\u00E5 ikonet p\u00E5 v\u00E6rkt\u00F8jslinjen for at logge ind."
+   },
+   "step4_message": {
+      "message": "S\u00F8g efter 'Chrome to Phone' i Marked p\u00E5 din Android-enhed."
+   },
+   "step5_message": {
+      "message": "Installer Android-programmet Chrome to Phone, og fuldf\u00F8r den enkle konfiguration."
+   },
+   "step6_message": {
+      "message": "Klik p\u00E5 ikonet p\u00E5 v\u00E6rkt\u00F8jslinjen for at sende et link eller en markeret tekst til din telefon."
+   },
+   "tos_message": {
+      "message": "Servicevilk\u00E5r"
+   }
+}

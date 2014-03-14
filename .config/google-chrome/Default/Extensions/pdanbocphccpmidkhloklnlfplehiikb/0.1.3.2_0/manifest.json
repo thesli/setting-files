@@ -1,0 +1,25 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "img/icon19.png",
+      "default_title": "TabMemFree"
+   },
+   "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "https://tabmemfree.appspot.com/blank.html*" ]
+   } ],
+   "description": "Lower RAM and CPU consumption by parking idle tabs",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjMLFp49GrHhTOTlpKr8Bh8914VOk9yDi7RHSYIzwu/EmRjhhLNp4FEs1pOH9nz2aEyx3G+6yb7rM5uIqGqZIEYfMZN5/amPqI4vyEaZaqoGYTeOpEEtwnDSSuHdto6Cx5merhxvcEztuQRDKsKPk4rd7IssjFNLwTWoRbhwFLuQIDAQAB",
+   "minimum_chrome_version": "13",
+   "name": "TabMemFree",
+   "options_page": "fancy-settings/source/index.html",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.3.2"
+}

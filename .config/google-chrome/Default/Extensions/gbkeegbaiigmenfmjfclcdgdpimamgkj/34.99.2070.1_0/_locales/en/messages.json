@@ -1,0 +1,42 @@
+{
+   "app_error_learn_more": {
+      "description": "The link people can use to be taken to the support pages in case an error occurred.",
+      "message": "Learn more"
+   },
+   "app_nacl_crash_msg": {
+      "description": "Generic error message detail, shown whenever we detect the plugin has crashed. See previous.",
+      "message": "Help us by reporting the issue."
+   },
+   "app_nacl_crash_report": {
+      "description": "Generic error message detail, shown with above previous whenever we detect the plugin has crashed.",
+      "message": "Report an issue..."
+   },
+   "app_nacl_crash_title": {
+      "description": "Generic error message title, shown whenever we detect the plugin has crashed.",
+      "message": "Whoops. That wasn't supposed to happen - reload the page to recover your changes."
+   },
+   "app_nacl_error_msg": {
+      "description": "Generic error message detail, shown when plugin fails on opening a file. See previous.",
+      "message": "There was a problem loading the application."
+   },
+   "app_nacl_error_title": {
+      "description": "Generic error message title, shown when plugin fails on opening a file.",
+      "message": "The file cannot be opened."
+   },
+   "application_description": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Document editing"
+   },
+   "file_loading_spinner_label": {
+      "description": "Loading string in lower left corner displayed when a document is loaded in the viewer.",
+      "message": "Loading"
+   },
+   "file_not_found_msg": {
+      "description": "Error shown when file downloads (blue links) fail to be downloaded.",
+      "message": "The file you've requested has up and moved."
+   },
+   "file_not_found_title": {
+      "description": "Error shown when file downloads (blue links) fail to be downloaded.",
+      "message": "File not found."
+   }
+}

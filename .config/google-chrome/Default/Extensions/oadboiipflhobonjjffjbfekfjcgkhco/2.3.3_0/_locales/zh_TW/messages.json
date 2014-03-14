@@ -1,0 +1,108 @@
+{
+   "about_google_message": {
+      "message": "\u76F8\u95DC\u8CC7\u8A0A"
+   },
+   "about_message": {
+      "message": "Google \u7684\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u64F4\u5145\u529F\u80FD\u53EF\u8B93\u60A8\u5C07\u300CGoogle \u700F\u89BD\u5668\u300D\u4E2D\u7684\u9023\u7D50\u548C\u5176\u4ED6\u8CC7\u8A0A\u50B3\u9001\u5230\u60A8\u7684 Android \u88DD\u7F6E\u3002\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u5305\u542B\u300CGoogle \u700F\u89BD\u5668\u300D\u64F4\u5145\u529F\u80FD\u548C Android \u61C9\u7528\u7A0B\u5F0F\u3002"
+   },
+   "about_title_message": {
+      "message": "\u76F8\u95DC\u8CC7\u8A0A"
+   },
+   "app_desc": {
+      "message": "\u300CGoogle \u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u64F4\u5145\u529F\u80FD\u53EF\u8B93\u60A8\u5C07\u300CGoogle \u700F\u89BD\u5668\u300D\u4E2D\u7684\u9023\u7D50\u548C\u5176\u4ED6\u8CC7\u8A0A\u50B3\u9001\u5230\u60A8\u7684 Android \u88DD\u7F6E\u3002"
+   },
+   "app_name": {
+      "message": "Google \u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u64F4\u5145\u529F\u80FD"
+   },
+   "app_name_short": {
+      "message": "\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F"
+   },
+   "connectivity_error_message": {
+      "message": "\u9023\u7DDA\u932F\u8AA4\u3002"
+   },
+   "device_not_registered_message": {
+      "message": "\u88DD\u7F6E\u5C1A\u672A\u8A3B\u518A\u4F9B\u4F7F\u7528\u8005\u4F7F\u7528\u3002"
+   },
+   "error_sending_message": {
+      "message": "\u5C07\u9023\u7D50\u50B3\u9001\u5230\u624B\u6A5F\u6642\u767C\u751F\u932F\u8AA4\uFF1A$details$",
+      "placeholders": {
+         "details": {
+            "content": "$1"
+         }
+      }
+   },
+   "features_message1": {
+      "message": "\u5C07\u300CGoogle \u700F\u89BD\u5668\u300D\u4E2D\u7684\u700F\u89BD\u5668\u9023\u7D50\u50B3\u9001\u5230\u60A8\u7684\u624B\u6A5F\u3002"
+   },
+   "features_message2": {
+      "message": "\u5141\u8A31\u4EE5\u300CGoogle \u5730\u5716\u300D\u7684\u9023\u7D50\u555F\u52D5 Android \u4E2D\u7684\u300CGoogle \u5730\u5716\u300D\u61C9\u7528\u7A0B\u5F0F\u3002"
+   },
+   "features_message3": {
+      "message": "\u5141\u8A31\u4EE5 YouTube \u7684\u9023\u7D50\u555F\u52D5 Android \u4E2D\u7684 YouTube \u61C9\u7528\u7A0B\u5F0F\u3002"
+   },
+   "features_message4": {
+      "message": "\u9078\u53D6\u4E00\u7D44\u96FB\u8A71\u865F\u78BC\uFF0C\u5373\u53EF\u81EA\u52D5\u4F7F\u7528\u50B3\u5165\u7684\u865F\u78BC\u555F\u52D5\u64A5\u865F\u529F\u80FD\u3002"
+   },
+   "features_message5": {
+      "message": "\u53EA\u8981\u9078\u53D6\u7DB2\u9801\u4E2D\u7684\u6587\u5B57\uFF0C\u5C31\u6703\u5C07\u526A\u8CBC\u7C3F\u5167\u5BB9\u8907\u88FD\u5230 Android \u4E2D (\u9577\u6642\u9593\u6309\u4F4F\u6587\u5B57\u65B9\u584A\u5373\u53EF\u5C07\u6587\u5B57\u8CBC\u5165 Android)\u3002"
+   },
+   "features_title_message": {
+      "message": "\u529F\u80FD"
+   },
+   "help_message": {
+      "message": "\u8AAA\u660E"
+   },
+   "invalid_scheme_message": {
+      "message": "\u50C5\u652F\u63F4 http \u6216 https \u7DB2\u9801\u3002"
+   },
+   "privacy_message": {
+      "message": "\u96B1\u79C1\u8A2D\u5B9A"
+   },
+   "sending_message": {
+      "message": "\u6B63\u5728\u5C07\u9023\u7D50\u50B3\u9001\u5230\u624B\u6A5F..."
+   },
+   "sent_message": {
+      "message": "\u5DF2\u50B3\u9001\u5230\u624B\u6A5F\u3002"
+   },
+   "sign_in_message": {
+      "message": "\u767B\u5165"
+   },
+   "sign_in_required_message": {
+      "message": "\u8ACB$link$\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u3002",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "sign_out_message": {
+      "message": "\u767B\u51FA"
+   },
+   "signed_in_message": {
+      "message": "\u767B\u5165\u6210\u529F\uFF0C\u60A8\u73FE\u5728\u53EF\u4EE5\u5C07\u9023\u7D50\u50B3\u9001\u5230\u624B\u6A5F\u4E86\u3002"
+   },
+   "signed_out_message": {
+      "message": "\u60A8\u73FE\u5DF2\u767B\u51FA\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u3002"
+   },
+   "signed_out_title_message": {
+      "message": "\u5DF2\u767B\u51FA"
+   },
+   "step2_message": {
+      "message": "\u700F\u89BD chrome.google.com/extensions \u4E26\u5F9E\u4E2D\u641C\u5C0B\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u3002"
+   },
+   "step3_message": {
+      "message": "\u5B89\u88DD\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\uFF0C\u4E26\u6309\u4E00\u4E0B\u5DE5\u5177\u5217\u5716\u793A\u5373\u53EF\u767B\u5165\u3002"
+   },
+   "step4_message": {
+      "message": "\u5728 Android \u88DD\u7F6E\u4E0A\u700F\u89BD Market\uFF0C\u5F9E\u4E2D\u641C\u5C0B\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u3002"
+   },
+   "step5_message": {
+      "message": "\u5B89\u88DD\u300C\u700F\u89BD\u5167\u5BB9\u8F49\u9001\u624B\u6A5F\u300D\u64F4\u5145\u529F\u80FD\u6240\u9700\u7684 Android \u61C9\u7528\u7A0B\u5F0F\uFF0C\u4E26\u5B8C\u6210\u7C21\u55AE\u7684\u8A2D\u5B9A\u7A0B\u5E8F\u3002"
+   },
+   "step6_message": {
+      "message": "\u6309\u4E00\u4E0B\u5DE5\u5177\u5217\u5716\u793A\uFF0C\u5373\u53EF\u5C07\u9023\u7D50\u6216\u76EE\u524D\u9078\u53D6\u7684\u6587\u5B57\u50B3\u9001\u5230\u60A8\u7684\u624B\u6A5F\u3002"
+   },
+   "tos_message": {
+      "message": "\u670D\u52D9\u689D\u6B3E"
+   }
+}

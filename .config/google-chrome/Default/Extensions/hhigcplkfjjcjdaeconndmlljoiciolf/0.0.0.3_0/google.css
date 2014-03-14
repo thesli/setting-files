@@ -1,0 +1,23 @@
+/**
+ * Similar but not same as preview.css 
+ */
+
+.zFrameDiv {
+	position: fixed; 
+	display: none; 
+	top: 0px; 
+	z-index: 999; 
+	background: white;
+	height: 100%;
+}
+
+.zPreview {
+	position: relative;
+}
+
+.zMagIcon {
+	position: absolute; 
+	left: -20px; 
+	top: 0px;
+	border: 2px solid white;
+}

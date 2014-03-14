@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title data-message="updatePageTitle">Page Ruler Updated</title>
+    <link rel="stylesheet" type="text/css" href="update.css" />
+	<meta charset="UTF-8">
+</head>
+
+<body>
+
+<div class="sidebox">
+
+	<div id="noshow" class="box">
+		<input type="checkbox" id="noshow_checkbox"> <label for="noshow_checkbox" data-message="updateDoNotShowPageAgain">Do not show this page again</label>
+	</div>
+
+	<div class="box tip">
+		<p data-message="updateTip">Tip: Use the Alt+P shortcut to enable and disable Page Ruler, or assign a different shortcut from the Keyboard Shortcuts section in the Extensions tab</p>
+	</div>
+
+    <div class="box" id="contribute">
+        <h3 data-message="updateContributeTitle">Contribute to Page Ruler</h3>
+        <h4 data-message="updateTranslateTitle">Translate</h4>
+        <p data-message="updateTranslateDescription">Want to use Page Ruler in your own language? Visit the <a href="https://github.com/wrakky/page-ruler">GitHub project page</a> and follow the instructions on how to submit a translation.</p>
+    </div>
+
+    <div class="box" id="contributors">
+        <h3 data-message="updateContributorsTitle">Contributors</h3>
+        <h4 data-message="updateCodeTitle">Code</h4>
+        <ul>
+            <li>Pete Newnham - <a href="http://twitter.com/wrakky">twitter.com/wrakky</a></li>
+        </ul>
+		<h4 data-message="updateIconsTitle">Icons</h4>
+		<ul>
+			<li>Yusuke Kamiyamane - <a href="http://p.yusukekamiyamane.com/">Fugue Icons</a></li>
+		</ul>
+        <h4 data-message="updateTranslationsTitle">Translations</h4>
+        <ul>
+			<li><b>Brazillian Portugese (pt_BR)</b>: Renan Mendes Carvalho - <a href="https://github.com/aitherios">github.com/aitherios</a></li>
+			<li><b>English (en)</b>: Pete Newnham - <a href="http://twitter.com/wrakky">twitter.com/wrakky</a></li>
+			<li><b>French (fr)</b>: chatard - <a href="https://github.com/chatard">github.com/chatard</a></li>
+			<li><b>Spanish (es)</b>: Tu Área de Informática - <a href="http://www.youtube.com/TuAreaDeInformatica">youtube.com/TuAreaDeInformatica</a></li>
+			<li><b>Italian (it)</b>: <a href="http://www.madebypaletta.com/">madebypaletta.com</a></li>
+			<li><b>Slovak (sk)</b>: andreas4all - <a href="https://github.com/andreas4all">github.com/andreas4all</a></li>
+			<li><b>Vietnamese (vi)</b>: Khoi Nguyen - <a href="http://soundcloud.com/potasmic">soundcloud.com/potasmic</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<h1>Page Ruler has been updated/installed!</h1>
+
+<h2 data-message="updateHistoryTitle">Whats new?</h2>
+
+<ul id="history">
+	<!-- 2.0.5 -->
+	<li>
+		version 2.0.5 <span>(6th December 2013)</span>
+		<ul class="updates">
+			<li>Fixed ruler offset when page has scrolled</li>
+			<li>[translation] Added Italian (it) translation thanks to <a href="http://www.madebypaletta.com/">madebypaletta.com</a></li>
+		</ul>
+	</li>
+	<!-- 2.0.4 -->
+	<li>
+		version 2.0.4 <span>(5th December 2013)</span>
+		<ul class="updates">
+			<li>[<a href="https://github.com/wrakky/page-ruler/issues/3">issue #13</a>] Added a default shortcut hotkey command to enable and disable the extension.</li>
+			<li>[<a href="https://github.com/wrakky/page-ruler/issues/13">issue #3</a>] Fixed ruler offset if the page html or body had top margin</li>
+			<li>[translation] Added French (fr) translation thanks to chatard (<a href="https://github.com/chatard">github.com/chatard</a>)</li>
+			<li>[translation] Added Slovak (sk) translation thanks to andreas4all (<a href="https://github.com/andreas4all">github.com/andreas4all</a>)</li>
+		</ul>
+	</li>
+	<!-- 2.0.3 -->
+	<li>
+		version 2.0.3 <span>(15th November 2013)</span>
+		<ul class="updates">
+			<li>[<a href="https://github.com/wrakky/page-ruler/issues/9">issue #9</a>] Added option to not show this update page when a new version is installed. Sorry if it annoyed you!</li>
+			<li>[<a href="https://github.com/wrakky/page-ruler/issues/6">issue #6</a>] Fixed issue where the ruler would not display correctly when used on a page in RTL mode</li>
+			<li>[translation] Added Brazillian Portugese (pt_BR) translation thanks to Renan Mendes Carvalho (<a href="https://github.com/aitherios">github.com/aitherios</a>)</li>
+			<li>[translation] Added Spanish (es) translation thanks to Tu Área de Informática (<a href="http://www.youtube.com/TuAreaDeInformatica">youtube.com/TuAreaDeInformatica</a>)</li>
+		</ul>
+	</li>
+	<!-- 2.0.2 -->
+	<li>
+		version 2.0.2 <span>(11th November 2013)</span>
+		<ul class="updates">
+			<li>Fixed issue where margin against the document.body would cause the ruler position to be offset by that amount</li>
+			<li>Element positions and sizes are now more accurately calcuated using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element.getBoundingClientRect">getBoundingClientRect()</a></li>
+			<li>Re-styled the number input spinner buttons so they work on sites that hide them</li>
+			<li>Various other minor CSS updates to prevent clashing with page styles</li>
+			<li>[translation] Added Vietnamese (vi) translation thanks to Khoi Nguyen (<a href="http://soundcloud.com/potasmic">soundcloud.com/potasmic</a>)</li>
+		</ul>
+	</li>
+    <!-- 2.0.1 -->
+    <li>
+        version 2.0.1 <span>(3rd November 2013)</span>
+        <ul class="updates">
+            <li>[<a href="https://github.com/wrakky/page-ruler/issues/1">issue #1</a>] Fixed bug that caused the close (<img src="images/close.png" style="position:relative;top:4px;">) button on the toolbar to not work</li>
+            <li>Fixed display issue if the website used -webkit-appearance:none</li>
+			<li>Fixed occasional display issue with the tracking mode toggle button</li>
+			<li>Added popup error messages when trying to use the extension on the chrome web store or local chrome pages</li>
+			<li>Added new update page containing changelog and contributors</li>
+        </ul>
+    </li>
+    <!-- 2.0.0 -->
+    <li>
+        version 2.0.0 <span>(18th October 2013)</span>
+        <ul class="updates">
+            <li>Brand new version rewritten from the ground up!</li>
+        </ul>
+    </li>
+</ul>
+
+<script type="text/javascript" src="update.js"></script>
+
+</body>
+
+</html>

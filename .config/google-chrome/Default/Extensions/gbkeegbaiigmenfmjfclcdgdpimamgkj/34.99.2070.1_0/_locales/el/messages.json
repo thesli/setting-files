@@ -1,0 +1,32 @@
+{
+   "app_error_learn_more": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "app_nacl_crash_msg": {
+      "message": "Βοηθήστε μας αναφέροντας το πρόβλημα."
+   },
+   "app_nacl_crash_report": {
+      "message": "Αναφορά προβλήματος..."
+   },
+   "app_nacl_crash_title": {
+      "message": "Ωχ. Αυτό δεν προβλεπόταν να συμβεί."
+   },
+   "app_nacl_error_msg": {
+      "message": "Υπήρξε πρόβλημα κατά τη φόρτωση της εφαρμογής."
+   },
+   "app_nacl_error_title": {
+      "message": "Δεν είναι δυνατό το άνοιγμα του αρχείου."
+   },
+   "application_description": {
+      "message": "Επεξεργασία εγγράφου"
+   },
+   "file_loading_spinner_label": {
+      "message": "Φόρτωση"
+   },
+   "file_not_found_msg": {
+      "message": "Το αρχείο που ζητήσατε έχει μετακινηθεί."
+   },
+   "file_not_found_title": {
+      "message": "Δεν βρέθηκε το αρχείο."
+   }
+}
